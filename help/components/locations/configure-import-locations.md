@@ -4,10 +4,26 @@ keywords: Analysis Workspace
 title: Configuración de las ubicaciones de importación y exportación en la nube
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
+TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 33%
+source-wordcount: 1769
+ht-degree: 38%
 
 ---
 
@@ -71,7 +87,7 @@ Para configurar una ubicación ARN de la función Amazon S3, especifique la sigu
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Despósito**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Depósito**] | El bloque de su cuenta de Amazon S3 al que quiere enviar los datos de Adobe Analytics. <p>Asegúrese de que el ARN del usuario proporcionado por Adobe tiene el permiso `S3:PutObject` para cargar archivos en este bloque. </p><p>Los nombres de bloques deben cumplir reglas de nomenclatura específicas. Los nombres bloques deben tener entre 3 y 63 caracteres de longitud, solo pueden constar de letras minúsculas, números, puntos (.) y guiones (-), y deben empezar y terminar con una letra o un número. [En la documentación de AWS encontrará una lista completa de las reglas de nomenclatura](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -95,7 +111,7 @@ Para configurar una ubicación de Google Cloud Platform, especifique la siguient
 
    | Campo | Función |
    |---------|----------|
-   | [!UICONTROL **Despósito**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por Adobe para cargar archivos en este bloque. |
+   | [!UICONTROL **Depósito**] | El bloque de su cuenta de GCP al que desea enviar los datos de Adobe Analytics. Asegúrese de haber concedido permiso al principal proporcionado por Adobe para cargar archivos en este bloque. |
    | [!UICONTROL **Prefijo**] | La carpeta dentro del bloque en el que quiere colocar los datos. Especifique un nombre de carpeta y, a continuación, añada una barra invertida después del nombre para crear la carpeta. Por ejemplo, folder_name/ |
 
    {style="table-layout:auto"}
@@ -186,7 +202,7 @@ Los datos de la fuente de datos se pueden entregar a una ubicación de Adobe o d
 
 | Campo | Función |
 |---------|----------|
-| [!UICONTROL **Ruta de directorio**] | Introduzca la ruta al directorio en el servidor FTP. Las carpetas ya deben existir, las fuentes generan un error si la ruta especificada no existe. </br>Por ejemplo, `/folder_name/folder_name`. |
+| [!UICONTROL **Ruta de directorio**] | Introduzca la ruta al directorio en el servidor FTP. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe. </br>Por ejemplo, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -198,7 +214,7 @@ Los datos de las fuentes de datos se pueden entregar en una ubicación de Adobe 
 
 | Campo | Función |
 |---------|----------|
-| [!UICONTROL **Ruta de directorio**] | Introduzca la ruta al directorio en el servidor FTP. Las carpetas ya deben existir, las fuentes generan un error si la ruta especificada no existe. </br>Por ejemplo, `/folder_name/folder_name`. |
+| [!UICONTROL **Ruta de directorio**] | Introduzca la ruta al directorio en el servidor FTP. Las carpetas ya deben existir, las fuentes generan un error si la ruta de acceso especificada no existe. </br>Por ejemplo, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

@@ -3,10 +3,21 @@ description: Definiciones de los elementos de la interfaz en las páginas del Ge
 title: Definiciones de reglas de clasificación
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: 861
+ht-degree: 67%
 
 ---
 
@@ -18,7 +29,7 @@ Definiciones de los elementos de la interfaz en las páginas del Generador de re
 
 ## Página Reglas
 
-Esta página muestra las reglas de un conjunto de reglas.
+Esta página muestra las reglas en un conjunto de reglas.
 
 ![](assets/classification_rules_page.png)
 
@@ -34,7 +45,7 @@ Esta página muestra las reglas de un conjunto de reglas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Clasificaciones de tráfico</a> y <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
+   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Solo se puede aplicar una variable al crear un conjunto de reglas de clasificación. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Clasificaciones de tráfico</a> y <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activar</span> </p> </td> 
@@ -57,7 +68,7 @@ Esta página muestra las reglas de un conjunto de reglas.
    <td colname="col2"> <p>Rellene solo las celdas vacías (no establecidas). Las clasificaciones existentes no cambiarán. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ventana retroactiva </p> </td> 
+   <td colname="col1"> <p>Ventana de retroactividad </p> </td> 
    <td colname="col2"> <p>A la hora de activar y validar reglas, puede especificar si estas reglas deben sobrescribir las clasificaciones existentes de las claves afectadas. (Solo resultan afectadas las claves clasificadas que se han pasado previamente a <span class="keyword">Adobe Analytics</span> en el lapso de tiempo especificado). </p> <p>Si no desea especificar una ventana retrospectiva de <span class="term"></span>, las reglas se aplican aproximadamente al mes anterior (dependiendo del día actual del mes). Las clasificaciones existentes no se sobrescriben nunca, salvo que active esta opción. </p> <p><b>Centro de desarrolladores</b>: los socios pueden crear reglas de clasificación en el <span class="wintitle">Centro de desarrolladores</span>. Estas reglas se implementan cuando el cliente activa una integración. En el <span class="wintitle">Centro de desarrolladores</span>, la opción <span class="uicontrol">Sobrescribir desde</span> permite al socio especificar si el cliente puede determinar el valor de sobrescritura al activar o editar una integración. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Procesamiento de reglas</a> para obtener más información sobre cómo se procesan las reglas. </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +77,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Borrador</span> </td> 
-   <td colname="col2"> Permite especificar que una regla se encuentra en modo borrador. El estado de borrador permite probar una regla antes de ejecutarla. </td> 
+   <td colname="col2"> Permite especificar que una regla está en modo de borrador. El estado de borrador permite probar la regla antes de ejecutarla. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Duplicar</span> </td> 
@@ -82,15 +93,15 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Acción de clasificación</span> </td> 
-   <td colname="col2"> <p>Especifica la acción que debe realizarse al detectar la condición de coincidencia. </p> <p>Por ejemplo, si se define un nombre de campaña en $2, lo que identifica la posición 2 de un código de seguimiento como nombre de campaña. </p> </td> 
+   <td colname="col2"> <p>Especifica la acción que debe realizarse cuando se produce la condición coincidente. </p> <p>Por ejemplo, establece un Nombre de campaña en $2, que identifica la posición 2 en un código de seguimiento como el Nombre de campaña. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Cómo se procesan las reglas</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>El número de regla. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Cómo se procesan las reglas</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleccionar tipo de regla</span> </td> 
-   <td colname="col2"> <p>Se aplica cada conjunto de reglas a una variable específica. Las selecciones válidas son: </p> 
+   <td colname="col2"> <p>Cada conjunto de reglas se aplica a una variable específica. Las selecciones válidas son: </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Comienza con </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Finaliza con </li> 
@@ -100,7 +111,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Introducir criterios de coincidencia</span> </td> 
-   <td colname="col2"> El patrón de texto que se busca en una clave. Estos criterios pueden ser términos de búsqueda, caracteres o expresiones regulares. </td> 
+   <td colname="col2"> Patrón de texto que busca en una clave. Estos criterios pueden ser términos de búsqueda, caracteres o expresiones regulares. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Configurar clasificación</span> </td> 
@@ -108,18 +119,18 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Hasta</span> </td> 
-   <td colname="col2"> El valor que debe especificarse para la columna de clasificación seleccionada si se cumplen los criterios de coincidencia. </td> 
+   <td colname="col2"> El valor que desea especificar para la columna de clasificación seleccionada si se cumplen los criterios de coincidencia. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filtro </td> 
-   <td colname="col2"> Permite buscar reglas. </td> 
+   <td colname="col2"> Le permite buscar reglas. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Página Expresión regular {#section_C932A5469E774841B2229965A154163C}
 
-En la página [!UICONTROL Expresión regular] puede editar las expresiones de este tipo.
+Puede editar expresiones regulares en la página [!UICONTROL Expresión regular].
 
 ![](assets/regex_tracking_code.png)
 
@@ -127,9 +138,9 @@ En la página [!UICONTROL Expresión regular] puede editar las expresiones de es
 
 | Elemento | Descripción |
 |---|---|
-| Clave de muestra | La cadena de prueba que debe utilizarse. Por ejemplo, puede crear una clasificación a partir de caracteres específicos de un código de seguimiento. Según se considere conveniente, pueden hacerse coincidir patrones de caracteres, palabras o caracteres determinados. |
-| Grupos de coincidencias | Muestra la correspondencia entre una expresión regular y los caracteres de un ID de campaña para poder clasificar una posición en este ID. |
-| Resultados de coincidencias | Muestra los elementos de una cadena que coinciden con la expresión regular. |
+| Clave de muestra | Cadena de prueba que se va a utilizar. Por ejemplo, puede crear una clasificación a partir de caracteres específicos de un código de seguimiento. Según se considere conveniente, pueden hacerse coincidir patrones de caracteres, palabras o caracteres determinados. |
+| Grupos de coincidencias | Muestra la correspondencia entre la expresión regular y los caracteres del ID de campaña para poder clasificar una posición en dicho ID. |
+| Resultados de coincidencias | Muestra las partes de una cadena que coinciden correctamente con la expresión regular. |
 
 Consulte [Expresiones regulares en las reglas de clasificación](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -141,5 +152,5 @@ Esta página permite probar las reglas de un conjunto.
 
 | Elemento | Descripción |
 |---|---|
-| Ejecutar prueba | Para probar el conjunto de reglas, debe comprobarse el efecto que este ejerce sobre las claves del informe. |
+| Ejecutar prueba | Cuando pruebe el conjunto de reglas, utilice las claves del informe para ver cómo se verán afectadas por el conjunto de reglas. |
 | Filtro | Filtra los valores en el panel [!UICONTROL Resultados]. |

@@ -4,10 +4,23 @@ description: Bienvenido a la serie de incorporación a la experiencia digital de
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 7%
+source-wordcount: 573
+ht-degree: 10%
 
 ---
 
@@ -218,6 +231,6 @@ El Recorrido de Adobe Analytics comienza con la incorporación de las configurac
 Después de completar la incorporación a Adobe Analytics y sus plataformas de soporte, considere la posibilidad de explorar los siguientes recursos para profundizar su comprensión y mejorar sus habilidades:
 
 1. [Introducción a Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprender y crear grupos de informes](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+2. [Comprensión y creación de grupos de informes](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics)
 4. [Tutoriales y vídeos de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/overview)

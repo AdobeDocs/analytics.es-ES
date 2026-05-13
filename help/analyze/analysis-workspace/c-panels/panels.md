@@ -4,10 +4,31 @@ title: Información General Sobre Los Paneles En Analysis Workspace
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
+TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2769'
-ht-degree: 42%
+source-wordcount: 2858
+ht-degree: 40%
 
 ---
 
@@ -228,14 +249,14 @@ Para cualquier métrica, segmento o componente de intervalo de fechas que suelte
 
 Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará un menú desplegable de segmentos. Ese menú desplegable le permite filtrar el panel en función de los elementos disponibles para los elementos de dimensión colocados (menú desplegable de segmentos [static](#static)) o el componente de dimensión (menú desplegable de segmentos [dynamic](#dynamic)). Para configurar el menú desplegable explícitamente para filtrar un panel mediante segmentos:
 
-* Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) y seleccione ![Filtrar](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** | **[!UICONTROL Filtra los datos del panel]** del menú contextual del componente ❾.
+* Seleccione ![Desglose](/help/assets/icons/Breakdown.svg) y seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segmento]** | **[!UICONTROL Filtra los datos del panel]** del menú contextual del componente ❾.
 
 
 #### Desglose de un panel
 
 Para cualquier componente *dimension* que suelte **mientras mantiene** ⇧, se creará un menú desplegable de segmentos. Puede configurar ese menú desplegable para desglosar el panel en función de los elementos disponibles para los elementos de dimensión colocados ([menú desplegable de desglose estático](#static)) o el componente de dimensión ([menú desplegable de desglose dinámico](#dynamic)). Para configurar el menú desplegable explícitamente para desglosar un panel mediante desgloses:
 
-* Seleccione ![Filtro](/help/assets/icons/Filter.svg) y seleccione ![Desglose](/help/assets/icons/Breakdown.svg) **[!UICONTROL Desglose]** | **[!UICONTROL Desglose los datos del panel]** del menú contextual del componente ❾.
+* Seleccione ![Filter](/help/assets/icons/Filter.svg) y seleccione ![Breakdown](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** | **[!UICONTROL Desglosa los datos del panel]** desde el menú contextual del componente ❾.
 
 >[!IMPORTANT]
 >

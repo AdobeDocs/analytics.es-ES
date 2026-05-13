@@ -4,10 +4,21 @@ description: Utilice un ID de visitante personalizado.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: de98bf68c57f5453b6662f6e6e57312d8fd3e642
+TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 19%
+source-wordcount: 510
+ht-degree: 20%
 
 ---
 
@@ -46,7 +57,7 @@ Consulte [Identificación de visitantes en Adobe Analytics](../../id/overview.md
 3. Vaya a la pestaña [!UICONTROL Extensions] y, a continuación, seleccione el botón **[!UICONTROL Configure]** en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL ID de visitante].
 
-Asigne este campo al elemento de datos que contenga su ID de visitante personalizada. **No establezca este campo en un solo valor estático para todos los visitantes.**: utilice un elemento de datos que se resuelva por visitante y que permanezca constante en todas las visitas.
+Asigne este campo al elemento de datos que contenga su ID de visitante personalizada. **No establezca este campo en un solo valor estático para todos los visitantes.** Utilice un elemento de datos que se resuelva por visitante y permanezca constante en todas las visitas.
 
 ## s.visitorID en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 

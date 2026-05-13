@@ -4,10 +4,21 @@ title: Alertas sobre el uso de llamadas al servidor
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 92%
+source-wordcount: 517
+ht-degree: 75%
 
 ---
 
@@ -43,13 +54,13 @@ Para crear alertas adicionales,
    ![](/help/admin/tools/server-call-usage/assets/sc_alert.png)
 
    * **Título**: Especifique un nombre descriptivo. No es posible guardar la alerta sin nombre.
-   * **Granularidad**: Hace referencia a la frecuencia con la que se consultará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará de forma semanal y consultará los datos del periodo de uso actual.
+   * **Granularidad**: Hace referencia a la frecuencia con la que se consultará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará semanalmente y consultará los datos del periodo de uso actual.
    * **Destinatarios**: Especifique cualquier miembro de la organización que deba recibir un correo electrónico cuando la alerta active el umbral especificado.
    * **Fecha de caducidad**: De forma predeterminada, la fecha de caducidad es de un año a partir de la fecha de creación de la alerta.
    * **Enviar una alerta cuando**:
 
-      * Activación por cualquiera de estas métricas
-Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
+      * Cualquiera de estas métricas Déclencheur
+Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
       * Con
@@ -74,7 +85,7 @@ Para administrar alertas:
    | Cambiar nombre | Puede cambiar el nombre de todas las alertas excepto el de las predeterminadas. |
    | Aprobar | Apruebe alertas para hacerlas “oficiales”. |
    | Habilitar/Deshabilitar | Puede habilitar o deshabilitar todas las alertas, incluso las predeterminadas. |
-   | Renovar | Cuando se seleccionan una o varias alertas, estas se pueden renovar. Esto retrasa las fechas de caducidad y las amplía a 1 año a partir del momento en que se hace clic en [!UICONTROL Renovar] sin tener en cuenta la fecha de caducidad original. |
+   | Renovar | Cuando se seleccionan una o más alertas, se pueden renovar. Esto amplía sus fechas de caducidad a 1 año a partir del día en que se hace clic en [!UICONTROL Renovar], independientemente de la fecha de caducidad original. |
    | Exportar a CSV | Consulte [Descargar informe de uso](/help/admin/tools/server-call-usage/report-suite-usage.md) |
 
    {style="table-layout:auto"}

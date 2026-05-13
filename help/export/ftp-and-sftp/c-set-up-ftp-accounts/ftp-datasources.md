@@ -4,10 +4,18 @@ keywords: ftp;sftp
 title: Resumen de las fuentes de datos
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+TQID: https://experienceleague.adobe.com/Mq4r5p1872tIxfjts7HOq50XWky12Oy4fTi9ajzbAsc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 96%
+source-wordcount: 455
+ht-degree: 60%
 
 ---
 
@@ -15,11 +23,11 @@ ht-degree: 96%
 
 Puede utilizar Analytics para crear y administrar fuentes de datos basadas en FTP, cosa que permite aprovechar la transferencia de archivos por FTP para importar datos sin conexión o historiales en Experience Cloud.
 
-Después de crear una instancia de Fuentes de datos, la herramienta proporciona una ubicación de FTP que puede utilizar para cargar archivos de Fuentes de datos. Después de la carga de los archivos, el sistema de fuentes de datos los encontrará y procesará automáticamente. Una vez procesados los archivos, los datos quedan disponibles para informes de Analytics.
+Después de crear una instancia de fuente de datos, la herramienta proporciona una ubicación de FTP que se puede utilizar para cargar los archivos de fuente de datos. Después de la carga de los archivos, el sistema de fuentes de datos los encontrará y procesará automáticamente. Una vez procesados los archivos, los datos estarán disponibles para los informes de Analytics.
 
-Desde la pestaña [!UICONTROL Crear] del Administrador de fuentes de datos se puede configurar una nueva instancia de fuentes de datos para el grupo de informes seleccionado. El [!UICONTROL Asistente de fuentes de datos] lo acompañará en el proceso de crear una plantilla de fuentes de datos y creará una ubicación de FTP donde cargar los datos.
+La ficha [!UICONTROL Crear] del Administrador de fuentes de datos le permite configurar una nueva instancia de fuente de datos para el grupo de informes seleccionado. El [!UICONTROL Asistente para fuentes de datos] le guiará a través del proceso de creación de una plantilla de fuentes de datos y creará una ubicación FTP para cargar los datos.
 
-En la ventana [!UICONTROL Administrar fuentes de datos], busque la fuente de datos y seleccione el vínculo Información de FTP. La información de inicio de sesión en el FTP aparece en la sección [!UICONTROL Información de carga/FTP] de la ventana [!UICONTROL Activar una fuente de datos].
+En la ventana [!UICONTROL Administrar fuentes de datos], busque la fuente de datos y seleccione el vínculo Información de FTP. Su información de inicio de sesión en FTP se muestra en la ventana [!UICONTROL Activar un Source de datos] de la sección [!UICONTROL Cargar información del FTP].
 
 Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
 
@@ -30,6 +38,6 @@ Importar archivo: [!DNL Classifications.tab]
 
 Finalizar archivo: [!DNL Classifications.fin]
 
-Si se carga el archivo de fuentes de datos o SAINT sin el archivo [!DNL .fin] correspondiente, Adobe no lo añadirá a la cola para su procesamiento. El archivo permanece en el FTP y no se aplica a los datos que haya en [!UICONTROL Experience Cloud]. Solo recibirá un aviso de esto si previamente ha indicado que su dirección de correo electrónico es el [!UICONTROL Destinatario de notificaciones] en la ventana [!UICONTROL Crear cuenta de FTP] de creación de informes. Si no se escribe ninguna dirección de correo electrónico en este campo, no se envían notificaciones.
+Si se carga el archivo de fuentes de datos o SAINT sin el archivo [!DNL .fin] correspondiente, Adobe no lo añadirá a la cola para su procesamiento. El archivo permanece en el FTP y no se aplica a los datos que haya en [!UICONTROL Experience Cloud]. Se le notificará esto solamente si ha ingresado su dirección de correo electrónico como [!UICONTROL Destinatario de notificación] en la ventana de informes [!UICONTROL Crear cuenta de FTP]. Si no se introduce ninguna dirección de correo electrónico en este campo, no se envía ninguna notificación.
 
-Si el archivo que se carga con un archivo [!DNL .fin] tiene algún error, se envía para su procesamiento, pero el error interrumpe el procesamiento y el archivo se envía a una carpeta de errores. Si esto sucede, se envía una notificación a la dirección de correo electrónico indicada en el campo [!UICONTROL Destinatario de notificaciones] de la ventana [!UICONTROL Crear cuenta de FTP]. Si no se escribe ninguna dirección de correo electrónico, no se envían notificaciones.
+Si el archivo que se carga con un archivo [!DNL .fin] tiene algún error, se envía para su procesamiento, pero el error interrumpe el procesamiento y el archivo se envía a una carpeta de errores. Si esto sucede, se envía una notificación a la dirección de correo electrónico indicada en el campo [!UICONTROL Destinatario de notificaciones] de la ventana [!UICONTROL Crear cuenta de FTP]. Si no se introduce ninguna dirección de correo electrónico, no se envía ninguna notificación.

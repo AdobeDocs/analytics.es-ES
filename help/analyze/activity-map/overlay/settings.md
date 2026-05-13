@@ -5,10 +5,23 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: 567
+ht-degree: 2%
 
 ---
 
@@ -25,7 +38,7 @@ Cambie la configuración general de la extensión y las superposiciones.
 * **[!UICONTROL Compañías]**: muestra la organización actual de Analytics en la que inició sesión.
 * **[!UICONTROL Nombre de página]**: muestra el nombre de la página actual.
 * **[!UICONTROL Idioma]**: cambia el idioma de las etiquetas de extensión de Activity Map. Esta configuración no cambia el contenido del sitio web ni los nombres de los vínculos en los informes. Los idiomas admitidos son inglés, francés, chino (simplificado), chino (tradicional), alemán, japonés, coreano, español y portugués.
-* **[!UICONTROL Superposiciones de etiquetas con]**: Determina qué es el texto de degradado o burbuja. La configuración predeterminada es [!UICONTROL Rango]. Las opciones incluyen: 
+* **[!UICONTROL Superposiciones de etiquetas con]**: Determina qué es el texto de degradado o burbuja. La configuración predeterminada es [!UICONTROL Rango]. Las opciones incluyen:
    * **[!UICONTROL Sin etiqueta]**: no hay texto dentro de las etiquetas, lo que las convierte en cuadros de color
    * **[!UICONTROL Valor]**: muestra el número de clics en vínculos ([Ocurrencias](/help/components/metrics/occurrences.md))
    * **[!UICONTROL Porcentaje]**: muestra la proporción de clics en vínculos en comparación con el número total de clics en vínculos en la página
@@ -51,6 +64,6 @@ Ajuste la configuración de la vista estándar.
 ## Configuración de Live
 
 * **[!UICONTROL Mostrar arriba]**: muestra el número superior de ganadores o perdedores en función de la lista desplegable numérica de la izquierda.
-* **[!UICONTROL Excluir inferior (%)]**: filtre el porcentaje inferior de cambios de vínculos para ver solamente los vínculos con datos suficientes para mostrar las pérdidas o ganancias relevantes. El porcentaje se calcula basándose en el número de vínculos que haya en la página. Por ejemplo, si se filtra el 10 % inferior de una lista de 200 vínculos, se filtran los 20 vínculos inferiores.
+* **[!UICONTROL Excluir inferior (%)]**: filtre el porcentaje inferior de cambios de vínculos para ver solamente los vínculos con datos suficientes para mostrar las pérdidas o ganancias relevantes. El porcentaje se calcula según el número de vínculos de esa página. Por ejemplo, si se filtra el 10 % inferior de una lista de 200 vínculos, se filtran los 20 vínculos inferiores.
 * **[!UICONTROL Actualizar datos automáticamente]**: Determina si los datos de Analytics que se muestran en la superposición se actualizan automáticamente cuando se calcula un nuevo período.
 * **[!UICONTROL Período de actualización automática]**: cuando está activada, actualiza la página con cada recuperación de datos nuevos para que los vínculos de la página estén más estrechamente sincronizados con los datos recopilados.

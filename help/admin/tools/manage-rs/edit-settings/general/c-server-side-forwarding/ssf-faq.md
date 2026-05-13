@@ -4,10 +4,19 @@ title: Preguntas frecuentes acerca del reenvío del lado del servidor
 feature: Report Suite Settings
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/3i6RY7JRPlJc-9NjsQXBPn5SEOn0m4JrtL85Kl84ilM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: 707
+ht-degree: 75%
 
 ---
 
@@ -19,8 +28,8 @@ Preguntas más frecuentes acerca de características, funcionalidades y problema
 
 | Pregunta | Respuesta |
 |--- |--- |
-| P: ¿Qué sucede si utilizo el antiguo reenvío de servidor basado en servidores de seguimiento? | El reenvío de servidor antiguo basado en servidores de seguimiento seguirá reenviando datos de Analytics a Audience Manager, pero si quiere enviar segmentos de Audience Manager a Analytics, necesitará el nuevo reenvío de servidor basado en grupos de informes. Además, no hay ningún problema en habilitar el reenvío del lado del servidor para un grupo de informes existiendo ya una configuración de servidor de seguimiento; cuando exista un conflicto, se utilizará la nueva configuración de reenvío del lado del servidor basada en grupos de informes. |
-| P: ¿Debo migrar mi antiguo reenvío de servidor basado en servidor de seguimiento al nuevo, basado en grupos de informes? | Se seguirá admitiendo el reenvío de servidor basado en servidores de seguimiento en el futuro próximo, pero si quiere aprovechar la integración de Audience Manager con Analytics (uso compartido de segmentos en Analytics), tendrá que habilitar el nuevo reenvío de servidor basado en grupos de informes para todos los grupos de informes aplicables. Sin embargo, no existe ningún motivo urgente para deshabilitar el antiguo reenvío de servidor basado en servidores de seguimiento. |
+| P: ¿Qué sucede si utilizo el antiguo reenvío de servidor basado en servidores de seguimiento? | El antiguo método de reenvío del lado del servidor basado en servidor de seguimiento seguirá reenviando datos de Analytics a Audience Manager. Sin embargo, si desea enviar segmentos de Audience Manager a Analytics, se requiere el nuevo reenvío del lado del servidor basado en grupos de informes. Además, no supone ningún daño habilitar un grupo de informes para el reenvío del lado del servidor además de la configuración del servidor de seguimiento: se utilizará la nueva configuración del reenvío del lado del servidor del grupo de informes siempre que haya un conflicto. |
+| P: ¿Debo migrar mi antiguo reenvío de servidor basado en servidor de seguimiento al nuevo, basado en grupos de informes? | Seguiremos admitiendo el reenvío del lado del servidor basado en el servidor de seguimiento en el futuro próximo. Sin embargo, si desea aprovechar la integración de Audience Manager a Analytics (uso compartido de segmentos en Analytics), deberá habilitar el nuevo reenvío del lado del servidor basado en grupos de informes para todos los grupos de informes aplicables. Sin embargo, no hay ninguna razón urgente para deshabilitar el reenvío del lado del servidor basado en servidores de seguimiento heredados. |
 
 ## Etiquetado y realización de informes {#section_71391BA901AC47B9A2286281644FF281}
 
@@ -29,7 +38,7 @@ Preguntas más frecuentes acerca de características, funcionalidades y problema
 | P: ¿Qué pasa si en mi sitio tengo etiquetado multigrupo? ¿Duplicará el reenvío del lado del servidor las llamadas de servidor a Audience Manager? | No, las visitas se reenvían una única vez de Analytics a Audience Manager, con independencia del número de grupos de informes que haya en ellas. Si tiene en Audience Manager fuentes de datos correspondientes para cada grupo de informes de la visita, todas ellas se rellenarán apropiadamente a partir de esa única visita.  Tenga en cuenta, no obstante, que si utiliza la recopilación de datos de lado de clientes (DIL) y habilita el reenvío del lado del servidor sin instalar el módulo Gestión de público, estará duplicando las llamadas de servidor a Audience Manager, independientemente del número de grupos de informes que tenga en su visita de Analytics. |
 | P: ¿Qué sucede si tengo grupos de informes etiquetados multigrupo asignados a distintas organizaciones de Experience Cloud? | Nunca debe enviar datos de una misma visita de Analytics a dos grupos de informes que pertenezcan a organizaciones de Experience Cloud diferentes, pero, si esto ocurre, únicamente se reenviará la visita a la organización de Experience Cloud que coincida con la configuración del Servicio de identidad en la página. |
 | Q: ¿Qué sucede si tengo etiquetado multigrupo y solo uno de mis grupos de informes está asignado a mi organización de Experience Cloud? | En este caso, se reenvía la visita al servidor de recopilación de datos correspondiente a la organización de Experience Cloud del grupo de informes asignado, aunque, como el grupo de informes no asignado no tendrá asociada una fuente de datos en Audience Manager, no se registrará ningún dato para dicho grupo en Audience Manager. |
-| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones de Experience Cloud? | Analytics considerará que este grupo de informes no está asignado y no permitirá habilitar para él el reenvío de servidor. Póngase en contacto con el Servicio de atención al cliente para resolver este problema de asignación. |
+| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones de Experience Cloud? | Analytics considerará este grupo de informes como no asignado y no permitirá que se active el reenvío del lado del servidor para este grupo de informes. Póngase en contacto con el servicio de atención al cliente para resolver este problema de asignación. |
 | P: ¿Será más lento el método de reenvío de servidor basado en grupos de informes que el basado en servidores de seguimiento? | No, el tiempo de respuesta es el mismo. |
 | P: ¿Qué sucede si tengo dos organizaciones de Experience Cloud (o instancias de Adobe Audience Manager) y quiero compartir datos entre ambas? ¿Puedo utilizar el reenvío de servidor para enviar una sola visita de Analytics a varias organizaciones de Experience Cloud? | No. Si necesita compartir datos recopilados por una organización de Experience Cloud con otra, se recomienda enviar las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
 | P: ¿Resultará el reenvío del lado del servidor en alguna facturación adicional en Audience Manager o Analytics? | En Analytics no se producirá ninguna facturación adicional. En Audience Manager, las visitas reenviadas se tratan como cualquier otra visita y se facturan.  Por eso es tan importante no tener habilitados al mismo tiempo DIL y el reenvío del lado del servidor, lo que podría provocar dobles facturaciones, además de la duplicación de datos. |

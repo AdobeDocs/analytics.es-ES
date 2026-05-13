@@ -3,9 +3,20 @@ title: Comparar fechas afectadas por un evento con intervalos anteriores
 description: Obtenga información acerca del impacto de un evento, como un problema de implementación o una interrupción, comparándolo con las tendencias anteriores.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 627
 ht-degree: 0%
 
 ---

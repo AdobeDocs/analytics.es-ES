@@ -4,10 +4,21 @@ description: Implemente Adobe Analytics en asistentes digitales, como Amazon Ale
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/7OjV45T7dNKjgFkjdq8C-y4kISqd4kycvVDk5RyLF0s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 97%
+source-wordcount: 1284
+ht-degree: 95%
 
 ---
 
@@ -160,7 +171,7 @@ Cache-Control: no-cache
 
 ## Capacidades de los dispositivos
 
-Aunque la mayoría de las plataformas no exponen el dispositivo con el que habló el usuario, sí exponen las capacidades del dispositivo. Por ejemplo: audio, pantalla, vídeo, etc. Se trata de información útil porque define los tipos de contenido que se pueden utilizar cuando se interactúa con los usuarios. Cuando se miden las capacidades de los dispositivos, es conveniente concatenarlas (en orden alfabético).
+Aunque la mayoría de las plataformas no exponen el dispositivo con el que habló el usuario, sí exponen las capacidades del dispositivo. Por ejemplo: audio, pantalla, vídeo, etc. Esta información es útil porque define los tipos de contenido que se pueden utilizar al interactuar con los usuarios. Cuando se miden las capacidades de los dispositivos, es conveniente concatenarlas (en orden alfabético).
 
 Ejemplo: `":Audio:Camera:Screen:Video:"`
 

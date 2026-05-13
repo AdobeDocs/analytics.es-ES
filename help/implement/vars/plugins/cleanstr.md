@@ -4,9 +4,20 @@ description: Eliminación o sustitución de todos los caracteres innecesarios de
 feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/CFbhXIWdHEnuuK6mLdHsR-UupKLfzsAZVQYRh7PlJwo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 459
 ht-degree: 68%
 
 ---
@@ -37,7 +48,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar cleanStr
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
@@ -61,7 +72,7 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Uso del complemento
 
-El complemento `cleanStr` utiliza los siguientes argumentos:
+La función `cleanStr` utiliza los siguientes argumentos:
 
 * **`str`** (obligatorio, cadena): El valor que desea para limpiar la codificación HTML, los espacios en blanco adicionales, las pestañas u otros caracteres innecesarios.
 

@@ -4,9 +4,25 @@ title: Cancelación de solicitudes de creación de informes en el Administrador 
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/zMNTnhG6SP-SAIWBOAWm-etPHvBOykscB90n4UIgdrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: 1438
 ht-degree: 100%
 
 ---
@@ -25,7 +41,7 @@ A la hora de cancelar solicitudes de creación de informes, tenga en cuenta lo s
 
   Cuando restringe una solicitud posterior, la acción se registra en [Registros](/help/admin/tools/logs.md). La columna [!UICONTROL **Tipo de evento**] se muestra como [!UICONTROL **Acción de administración**], y hay una descripción de la restricción disponible en la columna [!UICONTROL **Evento**].
 
-* No puede cancelar una solicitud si la columna [!UICONTROL **Usuario**] de una solicitud se muestra como [!UICONTROL **No reconocido**]. Cuando esto sucede, significa que el usuario se encuentra en una compañía para iniciar sesión en la que no tiene permisos administrativos.
+* No puede cancelar una solicitud si la columna [!UICONTROL **Usuario**] de una solicitud se muestra como [!UICONTROL **No reconocida**]. Cuando esto sucede, significa que el usuario se encuentra en una compañía para iniciar sesión en la que no tiene permisos administrativos.
 
 Para obtener más información sobre el Administrador de actividades de creación de informes, incluidas las ventajas clave y los requisitos de permisos, consulte [Información general sobre el Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md).
 
@@ -78,7 +94,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
 1. Seleccione el grupo de informes donde desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Usuarios**] y, a continuación, seleccione uno o varios usuarios.
 
@@ -92,7 +108,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más usuario
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Habilite la opción para [!UICONTROL **Restringir las solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**].
 
       ![Restringir solicitudes posteriores del usuario](assets/restrict-subsequent-requests-user.png)
 
@@ -133,7 +149,7 @@ Puede cancelar todas las solicitudes que estén asociadas con uno o más proyect
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Habilite la opción para [!UICONTROL **Restringir solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**].
 
       ![Restringir solicitudes posteriores por proyecto](assets/restrict-subsequent-requests-project.png)
 
@@ -173,13 +189,13 @@ Para cancelar las solicitudes por la aplicación:
 
 1. Seleccione la conexión en la que desea cancelar las solicitudes de creación de informes. <!--double-check this step-->
 
-   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de creación de informes en el Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Para obtener más información sobre los datos disponibles en esta página, consulte [Ver la actividad de informes en el Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Seleccione la pestaña [!UICONTROL **Aplicaciones**] y, a continuación, seleccione una o varias aplicaciones.
 
    <!-- add screenshot -->
 
-1. Seleccione [!UICONTROL **Cancelar solicitudes**].
+1. Seleccione [!UICONTROL **todas las solicitudes**].
 
    Se muestra el cuadro de diálogo [!UICONTROL **Cancelar solicitudes de informe _x_ de x proyectos**].
 
@@ -187,7 +203,7 @@ Para cancelar las solicitudes por la aplicación:
 
 1. (Opcional) Para restringir solicitudes futuras durante un período de tiempo determinado:
 
-   1. Habilite la opción para [!UICONTROL **Restringir las solicitudes posteriores**].
+   1. Habilite la opción para [!UICONTROL **Restringir solicitudes subsiguientes**]
 
       ![Restringir solicitudes posteriores por aplicación](assets/restrict-subsequent-requests-application.png)
 

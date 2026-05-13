@@ -4,16 +4,36 @@ title: Registros
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/TsWKmf74-b1RhjP0CSGZatLrGN39xDylj9tbFZg5R-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+  - id: e44bec7e-8653-4d5b-b53e-60b1ae7c3475
+  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 67%
+source-wordcount: 595
+ht-degree: 70%
 
 ---
 
 # Registros
 
-Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
+Los archivos de registro le permiten ver cuándo la gente inicia sesión, su uso, los accesos, los grupos de informes y los cambios de administración.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Registros]**
 
@@ -39,34 +59,34 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 
 | Tipo de evento | Descripción |
 | --- | --- |
-| Sin categoría | Puede ser cualquier tipo de evento. |
+| Ninguna categoría | Puede ser cualquier tipo de evento. |
 | Error al iniciar sesión | Error del proceso de inicio de sesión del usuario. |
-| Inicio de sesión correcto | El usuario ha iniciado sesión correctamente. |
-| Acción de administrador | Se ha producido una acción de administración, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, cancelar una solicitud de creación de informes, etc. |
-| Cambio de configuración de seguridad | Se ha cambiado una configuración de seguridad. |
+| Inicio de sesión exitoso | El usuario ha iniciado sesión correctamente. |
+| Acción del administrador | Se ha producido una acción de administración, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, cancelar una solicitud de creación de informes, etc. |
+| Cambio en la configuración de seguridad | Se ha cambiado una configuración de seguridad. |
 | Alerta enviada | Se ha enviado una alerta. |
 | Acción del usuario | Se ha editado la información del usuario. |
-| Herramienta visualizada | Se ha visto una herramienta. |
+| Herramienta vista | Se ha visto una herramienta. |
 | Acción de Omniture | Adobe ha realizado una acción. |
 | Recuperación de contraseña | Se ha recuperado una contraseña. |
 | Marcadores | Se administró un marcador. |
 | Paneles de control | Se ha administrado un tablero. |
 | Alertas | Se ha administrado una alerta. |
-| Eventos de calendario | Se ha administrado un evento de calendario. |
+| Eventos del calendario | Se ha administrado un evento de calendario. |
 | Objetivos | Se ha gestionado un destinatario. |
 | Configuración de informes | Se administró una configuración del informe. |
 | Informes programados | Se ha administrado un informe programado. |
 | Excluir por dirección IP | Se ha cambiado la configuración de IP. |
-| Nombrar páginas | Obsoleto. |
+| Asignar nombres a las páginas | Obsoleto. |
 | Clasificaciones | Se administró una clasificación. |
 | Fuentes de datos | Se administró una fuente de datos. |
-| Proyecto de Workspace | Se ha visto o editado un proyecto de Workspace. |
+| Proyecto de espacio de trabajo | Se ha visto o editado un proyecto de Workspace. |
 | Segmento | Se ha creado o editado un segmento. |
 | Métrica calculada | Se ha creado o editado una métrica calculada. |
 | Intervalo de fechas | Se creó o editó un intervalo de fechas. |
 | Grupo de informes virtuales | Se creó o editó un grupo de informes virtuales. |
 | Análisis de contribución | Se ha ejecutado un trabajo de análisis de contribución. |
-| Método De Api | Se realizó una llamada de API. |
+| Método API | Se realizó una llamada de API. |
 
 
 ## Registro de cambios del grupo de informes {#section_3864966639414BBEA871F4D0352F56B6}

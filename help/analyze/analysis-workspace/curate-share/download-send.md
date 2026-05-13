@@ -4,13 +4,27 @@ title: Descargar Proyectos Y Datos
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: 1131
 ht-degree: 25%
 
 ---
-
 
 # Descargar proyectos y datos
 
@@ -29,9 +43,9 @@ En la [Guía de exportación](/help/export/home.md) se describen métodos adicio
 
 Tenga en cuenta lo siguiente al descargar un proyecto como PDF:
 
-* No abandone el proyecto hasta que el proyecto se descargue en la estación de trabajo. La descarga puede tardar varios minutos en ejecutarse de nuevo en los servidores de Adobe para que PDF pueda procesarse. Puede seguir realizando cambios en el proyecto mientras se procesa la descarga. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que [envíe un correo electrónico al PDF](../curate-share/send-schedule-files.md).
+* No abandone el proyecto hasta que el proyecto se descargue en la estación de trabajo. La descarga puede tardar varios minutos en ejecutarse de nuevo en los servidores de Adobe para que PDF pueda procesarse. Puede seguir realizando cambios en el proyecto mientras se procesa la descarga. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que [envíe por correo electrónico el PDF](../curate-share/send-schedule-files.md).
 * Las descargas se representan como una sola página sin paginación.
-* El PDF contiene lo que está visible en la página del navegador en Analysis Workspace. Para evitar que el contenido se trunque, seleccione ![Cambiar tamaño](/help/assets/icons/Resize.svg) para cambiar automáticamente el tamaño de las visualizaciones o paneles de tamaño personalizado.
+* PDF contiene lo que es visible en la página del explorador en Analysis Workspace. Para evitar que el contenido se trunque, seleccione ![Cambiar tamaño](/help/assets/icons/Resize.svg) para cambiar automáticamente el tamaño de las visualizaciones o paneles de tamaño personalizado.
 * Se puede hacer clic en [hipervínculos](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) dentro de tablas de forma libre en el PDF descargado.
 
 Para descargar un proyecto como archivo de PDF:
@@ -65,18 +79,18 @@ La opción **[!UICONTROL Copiar al portapapeles]** del menú contextual le permi
 
 >[!TIP]
 >
->Puede utilizar la tecla de acceso rápido **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) para copiar la selección en el portapapeles. A continuación, use **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) para pegar los datos.
+>Puede usar la tecla de acceso directo **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) para copiar la selección en el portapapeles. A continuación, use **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) para pegar los datos.
 
 
 ![Opción Copiar selección al portapapeles. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
 
-## Descargar datos de una visualización como archivo CSV {#download-data}
+## Descarga de datos dentro de una visualización como archivo CSV {#download-data}
 
 Las opciones Descargar como CSV del menú contextual le permiten descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
 
 Para ello, haga lo siguiente:
 
-* En el encabezado de cualquier tabla o visualización, seleccione **[!UICONTROL Descargar datos como CSV]** en el menú contextual. Esto descarga los datos mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV. 
+* En el encabezado de cualquier tabla o visualización, seleccione **[!UICONTROL Descargar datos como CSV]** en el menú contextual. Esto descarga los datos mostrados en la tabla o la fuente de datos subyacente para una visualización como CSV.
 
 <!--
 Only relevant as soon as CJA supports Map visualization 
@@ -130,7 +144,7 @@ Si solicita más de una descarga a la vez, recibirá una notificación avisando 
 | --- | --- |
 | ¿Por qué mi PDF descargado consiste en una sola página? | La funcionalidad [Descargar PDF](#download-as-csv-or-pdf) no pagina los archivos PDF descargados. |
 | ¿Puedo exportar más de 50 000 elementos con la opción **[!UICONTROL Descargar elementos como CSV]**? | Aunque cada descarga puede contener hasta 50 000 elementos de dimensión, puede cambiar el tipo de tabla para recuperar elementos de cola más largos o aplicar un filtro para descargar elementos más específicos. |
-| ¿Qué hace **[!UICONTROL Copiar visualización]**? | A diferencia de [!UICONTROL **Copiar datos en el portapapeles**] o [!UICONTROL **Copiar selección en el portapapeles**], la opción de menú contextual **[!UICONTROL Copiar visualización]** no es una opción de exportación. Esta opción le permite [copiar una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiar un panel](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) de un lugar en Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. |
+| ¿Qué hace **[!UICONTROL Copiar visualización]**? | A diferencia de [!UICONTROL **Copiar datos al portapapeles**] o [!UICONTROL **Copiar selección al portapapeles**], la opción de menú contextual **[!UICONTROL Copiar visualización]** no es una opción de exportación. Esta opción le permite [copiar una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiar un panel](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. |
 
 
 

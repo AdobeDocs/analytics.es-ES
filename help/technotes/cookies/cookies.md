@@ -4,10 +4,30 @@ description: Descubra cómo las medidas de prevención de seguimiento afectan a 
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 100%
+source-wordcount: 2106
+ht-degree: 99%
 
 ---
 
@@ -89,7 +109,7 @@ Para obtener más información, consulte [Acerca de las cookies de origen](https
 
 ![Comparación de cookies](/help/technotes/assets/cookies2.png)
 
-## ¿Qué es el atributo de cookie SameSite y cómo afecta a las cookies de Analytics?  {#samesite-effect}
+## ¿Qué es el atributo de cookie SameSite y cómo afecta a las cookies de Analytics? {#samesite-effect}
 
 Con el lanzamiento del explorador Chrome 80 en febrero de 2020 (y las versiones sucesivas de Firefox y los exploradores Edge), el atributo de cookie SameSite fuerza la especificación de tres valores diferentes que rigen si las cookies se pueden usar en un contexto de terceros:
 
@@ -135,7 +155,7 @@ Si tiene una implementación CNAME configurada en el mismo dominio que su sitio 
 
 Sin embargo, si es propietario de varios dominios y utiliza el mismo CNAME para la recopilación de datos en todos los dominios, esta cookie se trata como una cookie de terceros en esos otros dominios. Con Chrome 80 y versiones posteriores, ya no es visible en estos otros dominios. Para que el comportamiento sea más similar entre los exploradores, Analytics establece explícitamente el valor `SameSite` de esta cookie `Lax`. Si utiliza esta cookie en un contexto de terceros sencillo, deberá tener la cookie configurada con el valor `SameSite=None`, lo que también significa que siempre debe utilizar HTTPS. Si aún no lo ha hecho, póngase en contacto con el Servicio de atención al cliente de Adobe para que se cambie el valor SameSite para sus CNAME seguros.
 
-## ¿Cómo puedo determinar si los cambios de Safari afectan a mi empresa?  {#measure-itp-effect}
+## ¿Cómo puedo determinar si los cambios de Safari afectan a mi empresa? {#measure-itp-effect}
 
 Adobe recomienda que los clientes midan el impacto dentro de su propia compañía antes de cambiar la recopilación de datos. Puede usar Analysis Workspace para medir el impacto de la prevención del seguimiento de ITP en su compañía individual:
 
@@ -178,4 +198,4 @@ Si su empresa se ve afectada por la prevención del seguimiento de ITP, puede co
 >[!MORELIKETHIS]
 >
 >[Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookieless.md)
->>[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
+>[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)

@@ -1,12 +1,28 @@
 ---
 title: Importar métricas de búsqueda de pago
-description: Pasos para configurar Adobe Analytics para que realice un seguimiento de las métricas de búsqueda de pago (por ejemplo, Google Ads, Microsoft Advertising, etc.) mediante fuentes de datos.
+description: Pasos para configurar Adobe Analytics para que rastree las métricas de búsqueda de pago (por ejemplo, Google Ads, Microsoft Advertising, etc.) uso de fuentes de datos.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 90%
+source-wordcount: 1216
+ht-degree: 77%
 
 ---
 
@@ -70,7 +86,7 @@ El [!UICONTROL Asistente para la activación de la fuente de datos] muestra:
 
    ![Asignación](assets/data-source-mapping.png)
 
-1. Seleccione las dimensiones de datos 
+1. Elegir dimensiones de datos
 Marque la casilla junto a Códigos de seguimiento y haga clic en **[!UICONTROL Siguiente]**.
 1. Asignar las dimensiones de los datos.
 Asigne la dimensión de datos importada (atributo) al atributo de Adobe Analytics en el que desea almacenarla. Puede tratarse de una dimensión estándar o de una eVar. Después de hacer clic en **[!UICONTROL Siguiente]**, las asignaciones resultantes se muestran en el resumen:
@@ -98,7 +114,7 @@ Asegúrese de que la exportación incluye los campos siguientes: fecha, direcci�
 
 1. En Microsoft Excel, elimine todas las columnas que no sean las mencionadas anteriormente.
 1. Elimine las filas adicionales de la parte superior.
-1. Para aislar los códigos de seguimiento de las direcciones URL de destino: 
+1. Para aislar los códigos de seguimiento de las direcciones URL de destino:
 a. Copie y pegue datos de todas las columnas.
 b. Haga clic en **[!UICONTROL Datos > Texto a columnas]**.
 c. En el paso 1 del asistente, asegúrese de que **[!UICONTROL Delimitado]** está seleccionado y haga clic en **[!UICONTROL Siguiente]**.
@@ -122,7 +138,7 @@ Por ejemplo, puede agregar estas [métricas calculadas](/help/components/calcula
 
 | Nombre | Fórmula | Tipo de métrica | Descripción |
 | --- | --- | --- | --- |
-| ‏‏Vistas de página por visita | Vistas de página/Visitas | Numéricos | Cuando se aplica a nivel de sitio: muestra la media de páginas por visita. Cuando se aplica en el informe de páginas más populares: muestra el número promedio de veces que una página específica se ha visto por visita. |
+| Vistas de página por visita | Vistas de página/Visitas | Numéricos | Cuando se aplica en el nivel de sitio: muestra el número promedio de páginas por visita. When applied in the Most Popular Pages report: muestra el número promedio de veces que se vio una página específica por visita. |
 | Valor de pedido promedio | Ingresos/Pedidos | Moneda | Muestra el ingreso promedio por pedido. |
 | Ingresos por visita | Ingresos/Visita | Moneda | Muestra el ingreso promedio por visita. |
 | Tasa de clics (CTR) | Clics/Impresiones | Numéricos | Mida la proporción de clics respecto a impresiones de una publicidad en línea o una campaña de marketing por correo electrónico. |

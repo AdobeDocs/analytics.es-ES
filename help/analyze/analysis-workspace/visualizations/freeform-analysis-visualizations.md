@@ -5,9 +5,28 @@ title: Información general sobre visualizaciones
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
+TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: 1725
 ht-degree: 88%
 
 ---
@@ -28,7 +47,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barra apilada](/help/analyze/analysis-workspace/visualizations/bar.md) | Una visualización de gráfico de barras apiladas con barras verticales que representan varios valores a través de una o varias métricas. |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [Bullet](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Una visualización de gráfico de barras de viñetas que muestra cómo un valor que le interesa se compara o mide con otros rangos de rendimiento (metas). |
 | ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una visualización de cohorte es un grupo de personas que comparten características en común durante un periodo especificado. Una tabla de cohorte es útil para el análisis de retención, cancelación o latencia. |
-| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | Un gráfico combinado permite generar rápidamente una visualización de comparación sin tener que generar una tabla primero.  |
+| ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | Un gráfico combinado permite generar rápidamente una visualización de comparación sin tener que generar una tabla primero. |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, una visualización en anillo muestra los datos como partes o segmentos de un todo. |
 | ![Canal de conversión](/help/assets/icons/ConversionFunnel.svg) | [Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Una visualización de visita en orden previsto muestra dónde los visitantes se fueron (abandonaron) y continuaron (fracasaron) en una secuencia de páginas predefinidas. |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Una visualización de flujo muestra las rutas exactas del cliente a través de sus sitios web y aplicaciones. |
@@ -39,7 +58,7 @@ Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Resumen de métricas clave](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Una visualización de resumen de métricas clave combina las visualizaciones de líneas, resumen de cambios y resumen de números. |
 | ![TendenciaGráfico](/help/assets/icons/GraphTrend.svg) | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Una visualización de línea representa las métricas mediante una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas utiliza el tiempo a lo largo del eje x. |
 | ![Globo](/help/assets/icons/Globe.svg) | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas) |
-| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Una visualización de diagrama de puntos muestra la relación entre los elementos de dimensión y hasta tres métricas.  |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [Dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Una visualización de diagrama de puntos muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [Encabezado de sección](section-header.md) | Identificar y articular secciones dentro de un panel. |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Una visualización de cambio de resumen muestra el cambio entre las celdas seleccionadas como un número o porcentaje grande. |
 | ![123](/help/assets/icons/123.svg)</p> | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Una visualización de número de resumen muestra la celda seleccionada como un número grande. |
@@ -161,7 +180,7 @@ Las opciones de configuración de la visualización disponibles dependen de la v
 | **[!UICONTROL Mostrar puntos en las líneas]** | Muestra puntos en la visualización de línea en una visualización de gráfico combinado. |
 | **[!UICONTROL Normalización]** | Fuerza métricas para igualar proporciones. Las proporciones iguales son útiles cuando las métricas trazadas son de diferentes magnitudes. |
 | **[!UICONTROL Mostrar anomalías]** | Mejora los gráficos de líneas y las tablas de forma libre al mostrar la detección de anomalías. La detección de anomalías en las visualizaciones de líneas incluye un valor esperado (línea discontinua) y un intervalo esperado (banda sombreada). |
-| **[!UICONTROL Mostrar previsión]** | Mejora los gráficos de líneas y las tablas de forma libre al mostrar la detección de anomalías.  |
+| **[!UICONTROL Mostrar previsión]** | Mejora los gráficos de líneas y las tablas de forma libre al mostrar la detección de anomalías. |
 | **[!UICONTROL Mostrar mínimo]** | Muestra el valor mínimo en la visualización. |
 | **[!UICONTROL Mostrar máximo]** | Muestra el valor máximo en la visualización. |
 | **[!UICONTROL Mostrar línea de tendencia]** | Muestra una línea de tendencia en la visualización. Cuando se selecciona, puede seleccionar el tipo de línea de tendencia en el menú desplegable. |

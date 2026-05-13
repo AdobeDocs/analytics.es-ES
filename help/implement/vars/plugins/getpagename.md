@@ -4,9 +4,21 @@ description: Cree un nombre de página fácil de leer a partir de la ruta del si
 feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ii68lgXCIpGS-XYpkWbfo2pVQTd0zfDRd8Jpz-j8Iqk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 725
 ht-degree: 75%
 
 ---
@@ -52,7 +64,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar getPageName
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
@@ -76,7 +88,7 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Uso del complemento
 
-La función `getPageName` utiliza los argumentos siguientes:
+La función `getPageName` utiliza los siguientes argumentos:
 
 * **`si`** (opcional, cadena): un ID insertado al principio de la cadena que representa el ID del sitio. Este valor puede ser un ID numérico o un nombre sencillo. Si no se establece, el valor predeterminado es el dominio actual.
 * **`qv`** (opcional, cadena): una lista delimitada por comas de parámetros de cadena de consulta que, si se encuentran en la dirección URL, se agregan a la cadena

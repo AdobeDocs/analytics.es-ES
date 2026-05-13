@@ -3,9 +3,24 @@ description: Obtenga información sobre cómo publicar segmentos para la activid
 title: Publicar segmentos
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: 1408
 ht-degree: 41%
 
 ---
@@ -127,7 +142,7 @@ Las siguientes capturas de pantalla muestran cómo recuperar el UUID de Adobe Au
 
 1. Iniciar Herramientas para desarrolladores Chrome antes de cargar una página
 1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de Adobe Audience Manager debe configurarse en el
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
 en el explorador (`35721780439475290181087231320657663953` en el ejemplo siguiente).
 
    ![Herramientas para desarrolladores Chrome](assets/devtools.png)

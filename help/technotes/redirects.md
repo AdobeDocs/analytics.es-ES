@@ -1,31 +1,43 @@
 ---
-description: Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
+description: Las redirecciones dirigen el explorador a una nueva ubicación sin que intervenga el usuario. Se ejecutan en el explorador web (redirección del lado del cliente) o en el servidor web (redirección del lado del servidor).
 keywords: Implementación de Analytics
 title: Redirecciones y alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 71%
 
 ---
 
 # Redirecciones y alias
 
-Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
+Las redirecciones dirigen el explorador a una nueva ubicación sin que intervenga el usuario. Se ejecutan en el explorador web (redirección del lado del cliente) o en el servidor web (redirección del lado del servidor).
 
 ## Redirecciones y alias {#aliases}
 
-Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
+Las redirecciones dirigen el explorador a una nueva ubicación sin que intervenga el usuario. Se ejecutan en el explorador web (redirección del lado del cliente) o en el servidor web (redirección del lado del servidor).
 
-Dado que las redirecciones no requieren interacción del usuario, se suelen ejecutar sin que el usuario lo note. Lo único que indica que se ha producido una redirección es la barra de direcciones del explorador. Esta barra muestra una dirección URL que es distinta del vínculo que solicitó inicialmente el explorador.
+Dado que las redirecciones no requieren la interacción del usuario, suelen ejecutarse sin que el usuario se dé cuenta. Lo único que indica que se ha producido una redirección es la barra de direcciones del explorador. La barra de direcciones muestra una dirección URL diferente del vínculo que solicitó inicialmente el explorador.
 
-Aunque solo existen dos tipos de redirecciones, pueden implementarse de muchas maneras. Por ejemplo: las redirecciones del lado del cliente se pueden producir porque la página web a la que el usuario ha apuntado su navegador contiene un código HTML especial o una secuencia de comandos que redirecciona el navegador a otra dirección URL. Las redirecciones del lado del servidor se producen porque la página contiene secuencias de comandos del lado del servidor o porque el servidor web se ha configurado para dirigir al usuario hacia otra URL.
+Aunque solo hay dos tipos de redirecciones, se pueden implementar de numerosas maneras. Por ejemplo, las redirecciones del lado del cliente pueden producirse porque la página web a la que un usuario ha dirigido su explorador contiene secuencias de comandos o código HTML especial que redirige el explorador a otra dirección URL. Las redirecciones del lado del servidor pueden producirse porque la página contiene secuencias de comandos del lado del servidor o porque el servidor web se ha configurado para señalar al usuario a otra dirección URL.
 
 ## Analytics y redirecciones {#aa-redirects}
 
-[!DNL Analytics] recopila algunos de sus datos del navegador y se basa en algunas de sus propiedades. Dos de esas propiedades, la “dirección URL de referencia” (o “referente”) y la “dirección URL actual” se pueden cambiar por una redirección del lado del servidor. El navegador, al ver que se ha solicitado una dirección URL pero se ha devuelto otra diferente, borra la dirección URL de referencia. El resultado es que la dirección URL de referencia está en blanco y [!DNL Analytics] podría notificar que no existe un referente para la página.
+[!DNL Analytics] recopila algunos de sus datos del navegador y se basa en algunas de sus propiedades. Dos de estas propiedades, la &quot;URL de referencia&quot; (o &quot;referente&quot;) y la &quot;URL actual&quot; se pueden cambiar mediante un redireccionamiento del lado del servidor. Dado que el explorador sabe que se ha solicitado una dirección URL, pero se ha devuelto una dirección URL diferente, borra la dirección URL de referencia. El resultado es que la dirección URL de referencia está en blanco y [!DNL Analytics] podría notificar que no existe un referente para la página.
 
 ## Ejemplo: navegación sin redirecciones {#browse-without}
 
@@ -38,7 +50,7 @@ Imagine la siguiente situación hipotética en la que el usuario no se topa con 
 
 ## Ejemplo: navegación con redirecciones {#browse-with}
 
-Las redirecciones pueden hacer que el navegador borre la verdadera dirección URL de referencia. Imagine la siguiente situación:
+Las redirecciones pueden hacer que el explorador vacíe la dirección URL de referencia verdadera. Imagine la siguiente situación:
 
 1. El usuario dirige el navegador a `https://www.google.com`, y luego escribe *billetes avión descuento* en el campo de búsqueda y hace clic en el botón **[!UICONTROL Buscar]**.
 1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaii.example/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.example.com/`.
@@ -90,7 +102,7 @@ if(tempVar)
 
 ## Modificación del mecanismo de redirección {#modify}
 
-Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de destino definitiva. Utilice la variable *`s_pageURL`* para anular la dirección URL actual.
+Dado que el explorador elimina la dirección URL de referencia, debe configurar el mecanismo que gestiona la redirección (por ejemplo, el servidor web, el código del lado del servidor o el código del lado del cliente) para pasar la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de destino definitiva. Utilice la variable *`s_pageURL`* para anular la dirección URL actual.
 
 Dado que existen varias formas de implementar una redirección, es posible que tenga que consultar al grupo de operaciones web o a su socio de publicidad en línea cuáles son los mecanismos concretos que ejecutan las redirecciones en su sitio web.
 
@@ -123,8 +135,8 @@ Estas variables se representarán como los siguientes parámetros en [Experience
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> <b>Valor de la cadena de consulta o dirección URL</b> </th> 
-   <th class="entry"> <b>Valor como se muestra en DigitalPulse Debugger</b> </th> 
+   <th class="entry"> <b>URL o valor de cadena de consulta</b> </th> 
+   <th class="entry"> <b>Valor tal como se muestra en DigitalPulse Debugger</b> </th> 
   </tr> 
  </thead>
  <tbody> 

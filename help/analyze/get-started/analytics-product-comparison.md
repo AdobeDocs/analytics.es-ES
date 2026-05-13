@@ -3,10 +3,34 @@ description: Requisitos del sistema y comparación de Analysis Workspace, Report
 title: Comparación de productos y requisitos de Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
+TQID: https://experienceleague.adobe.com/VQgK6DUSlz-UA3zk-Q18-QOAI5M6xfK7KqBYwW56j6w
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: af53ada8-1b7d-4929-ac91-ac971dd20ec7
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 68%
+source-wordcount: 530
+ht-degree: 67%
 
 ---
 
@@ -25,9 +49,9 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | **Nivel de procesamiento** | Procesamiento completo | Procesamiento completo, con [informe en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) independiente | Procesamiento completo | Procesamiento completo | Procesamiento completo |
 | **Datos del filtro de bots de administrador incluidos** <br> [Más información](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | No | Sí: informe de bots independiente | No | No | No |
 | **Aparece poco tráfico (valores exclusivos excedidos)** <br> [Más información](/help/technotes/low-traffic.md) | Sí | Sí | No | No | Sí |
-| **Límite de fila visible (antes de la paginación)** | 400 | 50000 | Sin límite | Sin límite | 50000 |
+| **Límite de fila visible (antes de la paginación)** | 400 | 50000 | Ilimitado | Ilimitado | 50000 |
 | **Múltiples grupos de informes** | [Sí](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sí | No | Sí | No |
-| **Número de desgloses** | Sin límite | Hasta 2 | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
+| **Número de desgloses** | Sin límite | Hasta 2 | Ilimitado | Ilimitado | Sin límite, ejecutar en varias consultas |
 | **Segmentación** <br> [Más información](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí, con [limitaciones](/help/components/segmentation/seg-reference/seg-compatibility.md) | No | Sí |
 | **Métricas calculadas** <br> [Más información](/help/components/calculated-metrics/cm-overview.md) | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) | Sí, con Atribución | Sí | No | Sí, con [Atribución](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí, [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |

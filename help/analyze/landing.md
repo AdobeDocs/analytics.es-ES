@@ -4,10 +4,28 @@ title: Página de destino de Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 87%
+source-wordcount: 1511
+ht-degree: 86%
 
 ---
 
@@ -35,7 +53,7 @@ La sección **[!UICONTROL Proyectos]** del carril izquierdo sirve como página d
 
 Para acceder a proyectos en Adobe Analytics:
 
-1. Seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
+1. Seleccione la ficha [!UICONTROL **Workspace**].
 
 1. Seleccione [!UICONTROL **Proyectos**] en el carril izquierdo.
 
@@ -101,7 +119,7 @@ Las opciones disponibles son:
 
 Para acceder a las plantillas en Adobe Analytics:
 
-1. Seleccione la pestaña [!UICONTROL **Espacio de trabajo**].
+1. Seleccione la ficha [!UICONTROL **Workspace**].
 
 1. En la sección [!UICONTROL **Plantillas**] del carril izquierdo, puede seleccionar plantillas de Adobe o plantillas de empresa.
 
@@ -126,7 +144,7 @@ Utilice la página Aprendizaje en Adobe Analytics para aprender las funciones y 
 * **Filtrar contenido:** el icono Filtro en el carril izquierdo le permite filtrar el contenido de aprendizaje por nivel de experiencia (principiante, intermedio o avanzado) y por tipo de contenido (documento, vídeo o recorridos y tutoriales).
 * **Seguimiento del progreso:** después de seleccionar un fragmento de contenido, aparece una etiqueta **[!UICONTROL Visto]**. Esta etiqueta le ayuda a realizar un seguimiento del progreso por el contenido de aprendizaje. Puede seleccionar la etiqueta **[!UICONTROL Visto]** para eliminarla de un fragmento de contenido.
 * **Ver contenido adicional:** mientras ve cualquier vídeo, seleccione el botón **[!UICONTROL Más información]** para ver el contenido de la documentación relacionado en Experience League. O bien, en la página Aprendizaje, seleccione cualquiera de las siguientes opciones para ver contenido adicional:
-   * **[!UICONTROL Visitar YouTube]:** vea la lista de reproducción completa en YouTube de Analysis Workspace.
+   * **[!UICONTROL Visite YouTube]:** vea la lista de reproducción completa de Analysis Workspace de YouTube.
    * [!UICONTROL **Visitar Experience League**]: vea el conjunto completo de documentación de Adobe Analytics sobre Experience League.
 * **Elementos fundamentales para nuevos usuarios:** se recomienda a los nuevos usuarios la visita guiada [!UICONTROL Elementos fundamentales de Workspace]. Este recorrido le lleva directamente a Workspace y le explica las acciones más comunes. También se puede reiniciar en cualquier momento directamente en Workspace en la ventana emergente de información del panel del encabezado.
 

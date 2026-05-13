@@ -4,10 +4,29 @@ title: Prácticas recomendadas de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 100%
+source-wordcount: 2340
+ht-degree: 96%
 
 ---
 
@@ -21,7 +40,7 @@ Las etiquetas I1, I2, S1 y S2 tienen el mismo significado que las etiquetas DULE
 
 Antes de poder determinar las etiquetas que se deben aplicar a cada variable o campo, primero debe comprender qué tipo de ID captura en sus datos de Analytics y decidir cuáles usará para las solicitudes de privacidad de datos. La privacidad de datos amplia el ámbito de lo que se puede considerar como un ID. Los ID se dividen en dos clases amplias: directamente identificables (etiqueta de identidad: I1) e indirectamente identificables (etiqueta de identidad: I2).
 
-* **Un ID directamente identificable (I1)**: especifica el nombre de la persona o proporciona un método directo de ponerse en contacto con ella. Como ejemplo podríamos mencionar el nombre de alguien (incluso uno común, como Juan Pérez, que podrían compartir cientos de personas), cualquiera de sus direcciones de correo electrónico o números de teléfono, etc. Una dirección de correo sin nombre podría considerarse como directamente identificable, aunque solo podría identificar un hogar o una empresa en lugar de una persona específica dentro de ese hogar o empresa.
+* **Un ID directamente identificable (I1)**: especifica el nombre de la persona o proporciona un método directo de ponerse en contacto con ella. Algunos ejemplos son el nombre de alguien (incluso un nombre común como Juan Pérez que podrían compartir cientos de personas), cualquiera de sus direcciones de correo electrónico o números de teléfono, etc. Una dirección de correo sin nombre podría considerarse directamente identificable, aunque solo podría identificar un hogar o empresa en lugar de una persona específica dentro de ese hogar o empresa.
 * **Un ID indirectamente identificable (I2)**: no permite que se determine de qué persona se trata por sí solo, pero podría combinarse con otra información (que podría tener o no en su poder) para identificar a alguien. Entre los ejemplos de ID identificables indirectamente se incluyen un número de lealtad del cliente o un ID empleado por el sistema de CRM de una compañía que es único para cada uno de sus clientes. De conformidad con la privacidad de datos, los ID anónimos almacenados en las cookies de seguimiento que utiliza Analytics se pueden considerar como de identificación indirecta, aunque solo pueden identificar un dispositivo, en lugar de a una persona; en un dispositivo compartido, estas cookies no pueden distinguir entre los distintos usuarios del sistema. Por ejemplo, aunque la cookie no se puede utilizar para encontrar un equipo que la contenga, si alguien tiene acceso al equipo y la localiza, entonces puede asociar los datos de la cookie de Analytics nuevamente al equipo.
 
 Una dirección IP también se considera indirectamente identificable, porque en cualquier momento puntual solo se puede asignar a un único dispositivo. Sin embargo, los ISP pueden cambiar las direcciones IP de la mayoría de los usuarios con regularidad (y lo hacen a menudo), de modo que a lo largo de cierto tiempo cualquiera de sus usuarios puede haber usado una dirección IP determinada. Tampoco es inusual que muchos clientes de un ISP o varios empleados de una empresa en la misma intranet compartan la misma dirección IP externa. Por estos motivos, Adobe no admite el uso de una dirección IP como el ID de una solicitud de privacidad de datos. Sin embargo, cuando se emplee un ID que aceptemos como parte de una solicitud de eliminación, también borraremos las direcciones IP ligadas a dicho ID. Debe decidir si existen otros ID recogidos que puedan pertenecer a esta categoría, de I1 o I2, pero que no sean aptos para su uso como ID distintivo en solicitudes de privacidad de datos.
@@ -51,7 +70,7 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es">Cookie de Analytics (heredada)</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es"> Cookie de servicio de identidad </a> (ECID), anteriormente conocido como Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Estas cookies identifican un dispositivo o, más concretamente, un navegador para el usuario de un dispositivo. En el caso de un dispositivo compartido en el que se utilicen unas credenciales de inicio de sesión comunes, este ID podría aplicarse a todos los usuarios del dispositivo. Adobe ha creado <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">código JavaScript unificado</a> que puede colocar en su sitio web a fin de recopilar estas cookies si desea permitir que se utilicen para las solicitudes de privacidad de datos. </p> <p>Los usuarios del SDK para móviles de Adobe Analytics también tienen un Experience Cloud ID (ECID). Hay llamadas a la API dentro del SDK para leer este ID, por lo que puede mejorar su aplicación, de modo que los recopile para fines de solicitudes de privacidad de datos. </p> <p>Muchas empresas consideran que los ID de cookies de navegadores son ID de dispositivos compartidos. Como resultado, en consulta con sus equipos legales, pueden optar por no permitir usarlos como ID aceptables para las solicitudes de privacidad de datos. Como alternativa, pueden decidir devolver solo una cantidad muy limitada de datos cuando se utilicen estos ID o solo pueden aceptarlos para solicitudes de eliminación. </p> <p>Estas cookies tienen una etiqueta ID-DEVICE que no se puede cambiar (así como etiquetas I2 y DEL-DEVICE). La configuración predeterminada de Adobe Analytics solo devolverá información genérica sobre el dispositivo, como su tipo, el sistema operativo, el navegador, etc., además de la hora y las fechas en las que se visitara su sitio web usando estos ID. Sin embargo, si opta por admitir estos ID para las solicitudes de privacidad de datos, como se explica abajo, puede añadir o eliminar etiquetas ACC-ALL para configurar el conjunto de campos exacto que desea que se devuelva en el caso de una solicitud de acceso de privacidad de datos. </p> <p>Si el grupo de informes corresponde a una aplicación móvil que requiere inicio de sesión, puede decidir que el ID de Experience Cloud del dispositivo corresponde a un usuario específico. En ese caso, es posible que desee etiquetar más de los campos con la etiqueta ACC-ALL, incluidos los nombres de las páginas visitadas, los productos vistos, etc. </p> </td> 
+   <td colname="col2"> <p>Estas cookies identifican un dispositivo o, más concretamente, un navegador para el usuario de un dispositivo. En el caso de un dispositivo compartido en el que se utilicen unas credenciales de inicio de sesión comunes, este ID podría aplicarse a todos los usuarios del dispositivo. Adobe ha creado <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">código JavaScript unificado</a> que puede colocar en su sitio web a fin de recopilar estas cookies si desea permitir que se utilicen para las solicitudes de privacidad de datos. </p> <p>Los usuarios del SDK para móviles de Adobe Analytics también tienen un Experience Cloud ID (ECID). Hay llamadas a la API dentro del SDK para leer este ID, por lo que puede mejorar su aplicación, de modo que los recopile para fines de solicitudes de privacidad de datos. </p> <p>Muchas empresas consideran que los ID de cookies de navegadores son ID de dispositivos compartidos. Como resultado, en consulta con sus equipos legales, pueden optar por no permitir usarlos como ID aceptables para las solicitudes de privacidad de datos. Como alternativa, pueden decidir devolver solo una cantidad muy limitada de datos cuando se utilicen estos ID o solo pueden aceptarlos para solicitudes de eliminación. </p> <p>Estas cookies tienen una etiqueta ID-DEVICE que no se puede cambiar (así como etiquetas I2 y DEL-DEVICE). La configuración predeterminada de Adobe Analytics solo devolverá información genérica sobre el dispositivo, como su tipo, el sistema operativo, el navegador, etc., además de la hora y las fechas en las que se visitó el sitio web con estos ID. Sin embargo, si opta por admitir estos ID para las solicitudes de privacidad de datos, como se explica abajo, puede añadir o eliminar etiquetas ACC-ALL para configurar el conjunto de campos exacto que desea que se devuelva en el caso de una solicitud de acceso de privacidad de datos. </p> <p>Si el grupo de informes corresponde a una aplicación móvil que requiere inicio de sesión, puede decidir que el ID de Experience Cloud del dispositivo corresponde a un usuario específico. En ese caso, es posible que desee etiquetar más de los campos con la etiqueta ACC-ALL, incluidos los nombres de las páginas visitadas, los productos vistos, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID en variables personalizadas </p> </td> 

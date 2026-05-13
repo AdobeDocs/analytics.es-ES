@@ -4,10 +4,27 @@ title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 99%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -33,7 +50,7 @@ Como encargado del tratamiento de datos, Adobe debe proporcionar una asistencia 
 
 Los responsables del tratamiento de datos determinan cómo resolver la identidad en las solicitudes de los interesados. Considere la posibilidad de implementar una etiqueta de recuperación de ID de la privacidad de datos de Adobe. Sus equipos de desarrollo ahorran tiempo gracias al uso de la etiqueta de recuperación de ID de la privacidad de datos para capturar los ID de usuario (ID de cookies). A continuación, pueden utilizar nuestra API de privacidad de datos para enviar esos ID de usuario a las soluciones relevantes en Adobe Experience Cloud para el procesamiento de solicitudes de privacidad de datos. La API de privacidad de datos puede admitir una gran variedad de ID de cliente en múltiples soluciones de Adobe.
 
-Si un interesado envía una solicitud junto con un identificador (variable personalizada: prop o eVar), Adobe Analytics analiza todo el historial conservado de los datos recopilados para el identificador proporcionado. Para obtener más información acerca de cómo configurar los ID personalizados almacenados en props o eVars de Analytics, consulte la [documentación de Analytics sobre áreas de nombres](/help/admin/tools/privacy-labeling/namespaces.md).
+Si un interesado envía una solicitud junto con un identificador (variable personalizada: prop o eVar), Adobe Analytics analiza todo el historial conservado de los datos recopilados para el identificador proporcionado. Para obtener más información acerca de cómo configurar los ID personalizados almacenados en props o eVars de Analytics, consulte la [documentación de Analytics sobre espacios de nombres](/help/admin/tools/privacy-labeling/namespaces.md).
 
 +++
 
@@ -63,7 +80,7 @@ Con todo, hay varias maneras de probar el procesamiento de privacidad de datos a
 
 * Una opción consiste en configurar una organización de Experience Cloud independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de Experience Cloud para sus pruebas de privacidad de datos y su organización normal de Experience Cloud para el procesamiento real de la privacidad de datos.
 
-* Otra opción consiste en asignar diferentes áreas de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada área de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo áreas de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los espacios de nombres `visitorId`, AAID, ECID o `customVisitorId`. Estas áreas de nombres están codificadas y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
+* Otra opción consiste en asignar diferentes espacios de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada espacio de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo espacios de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los espacios de nombres `visitorId`, AAID, ECID o `customVisitorId`. Estos espacios de nombres están codificados y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
 
 +++
 
@@ -107,7 +124,7 @@ También debe tener en cuenta los casos en los cuales los empleados hayan descar
 
 La [API de Privacy Service de datos](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) se proporciona para ayudarle a completar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe.
 
-Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
+Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
 Póngase en contacto con el equipo de cuentas de Adobe para que el equipo de consultoría de arquitectura de ingeniería realice una revisión más exhaustiva para eliminar cualquier problema con la información o los datos personales.
 
@@ -117,7 +134,7 @@ Póngase en contacto con el equipo de cuentas de Adobe para que el equipo de con
 
 La [API de Privacy Service de datos](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) se proporciona para ayudarle a completar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
 
-También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
+También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
 Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería para revisar más a fondo y proporcionar el nivel de esfuerzo necesario para eliminar cualquier problema relacionado con la información de identificación personal o los datos.
 

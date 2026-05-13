@@ -4,10 +4,20 @@ description: Utilice reglas para determinar a qué canal de marketing pertenece 
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 3%
+source-wordcount: 822
+ht-degree: 4%
 
 ---
 
@@ -73,7 +83,7 @@ Las siguientes opciones están disponibles al configurar condiciones de regla.
 | **[!UICONTROL Parámetro de referencia]** | Un parámetro de cadena de consulta dentro del referente. |
 | **[!UICONTROL Dominio raíz de referencia]** | El dominio raíz de referencia. |
 | **[!UICONTROL Motor de búsqueda]** | La dimensión [Motor de búsqueda](/help/components/dimensions/search-engine.md). |
-| **[!UICONTROL Palabra(s) clave(s) de búsqueda]** | Dimensión [Search keyword](/help/components/dimensions/search-keyword.md). |
+| **[!UICONTROL Palabra(s) clave(s) de búsqueda]** | Dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md). |
 | **[!UICONTROL Motor de búsqueda + Palabra(s) clave(s) de búsqueda]** | Una concatenación de motor de búsqueda y palabra clave de búsqueda. |
 | **[!UICONTROL ID de AMO]** | El código de seguimiento principal utilizado por las integraciones de Adobe Advertising y Advertising Analytics. Cuando se habilita una de estas integraciones, se puede usar el prefijo del código de seguimiento para identificar canales específicos de Advertising. Los valores que comienzan por &quot;AL&quot; son para Search y Social. Los valores que comienzan por &quot;AC&quot; son para visualización. Cuando se utiliza el ID de AMO en los canales de marketing, las métricas de clics, costes e impresiones se pueden atribuir al canal correcto. |
 | **[!UICONTROL ID. DE EF DE AMO]** | El código de seguimiento secundario utilizado por Adobe Advertising. Sirve como clave para devolver datos a Advertising. Se puede utilizar para identificar las visualizaciones de clics y las visualizaciones de visualizaciones como dos canales de marketing independientes. Para ello, establezca que la lógica del canal de marketing para &quot;AMO EF ID&quot; termine con `:d` para las visualizaciones de pulsaciones o que &quot;AMO EF ID&quot; termine con `:i` para las visualizaciones de visualizaciones. Si no desea dividir la visualización en dos canales, utilice la dimensión de ID de AMO en su lugar. |

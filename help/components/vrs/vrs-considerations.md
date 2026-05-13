@@ -4,10 +4,31 @@ keywords: Grupo de informes virtuales
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 79%
+source-wordcount: 1659
+ht-degree: 78%
 
 ---
 
@@ -17,11 +38,11 @@ Los grupos de informes virtuales le permiten ver datos de un grupo de informes q
 
 En muchos casos, puede utilizar grupos de informes virtuales para reemplazar el etiquetado de grupos múltiples. Cambiar a grupos de informes virtuales puede eliminar de forma efectiva la necesidad de realizar [llamadas secundarias al servidor](/help/admin/tools/server-call-usage/overage-overview.md). Por ejemplo: su organización tiene 6 sitios web diferentes, cada uno de los cuales envía datos a su propio grupo de informes, así como a un grupo de informes globales combinados. Cada sitio realiza una llamada secundaria al servidor, una al grupo de informes de marca individual y otra al grupo de informes globales. En su lugar, puede enviar datos de todos los sitios únicamente al grupo de informes globales y, a continuación, utilizar varios grupos de informes virtuales para separar cada marca.
 
-La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y un grupo de informes virtuales le permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes de los grupos de informes virtuales que hay que tener en cuenta. Las siguientes directrices le ayudarán a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes global es la estrategia adecuada.
+La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y un grupo de informes virtuales le permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes de los grupos de informes virtuales que hay que tener en cuenta. Las siguientes directrices pueden ayudarle a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes globales es el método adecuado para usted.
 
 ## Directrices
 
-Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuenta de Adobe. Pueden ayudarle a evaluar las necesidades de la empresa y recomendarle la mejor solución.
+Si no está seguro de si los casos de uso descritos se aplican a usted y a su organización, consulte con los demás administradores de Adobe Analytics o con el equipo de cuenta de Adobe. Pueden ayudarle a evaluar las necesidades empresariales y recomendarle la mejor solución.
 
 Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe utilizar el etiquetado de grupos múltiples o los grupos de informes virtuales:
 
@@ -61,7 +82,7 @@ Por ejemplo: tiene dos sitios web, A y B, que envían datos a un grupo de inform
 
 Los grupos de informes virtuales no pueden crear informes en una moneda distinta a la del grupo de informes en el que están basados. Adobe Analytics le permite convertir divisas cuando se ejecutan informes, pero la tasa de cambio se basa en el día actual, incluso para los datos históricos.
 
-Que su organización realiza los análisis en una sola moneda no causa ningún problema. Sin embargo, si tiene una necesidad comercial significativa para diferentes equipos regionales que necesitan ver los ingresos en su propia moneda local, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
+Que su organización realiza los análisis en una sola moneda no causa ningún problema. Sin embargo, si tiene necesidades empresariales significativas para diferentes equipos regionales que necesitan ver los ingresos en su propia moneda local, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
 
 ### Fuentes de datos
 

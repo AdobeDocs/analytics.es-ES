@@ -4,10 +4,23 @@ description: Vea qué campos de objeto de datos de Experience Platform Edge se a
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
+TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 77%
+source-wordcount: 614
+ht-degree: 78%
 
 ---
 
@@ -48,13 +61,13 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `data.__adobe.analytics.linkType` | Determina el tipo de vínculo en el que se hizo clic. Los valores válidos incluyen `o` (vínculos personalizados), `d` (vínculos de descarga) y `e` (vínculos de salida). También se admite el campo abreviado `data.__adobe.analytics.pe`. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | [`list`](/help/implement/vars/page-vars/list.md) variables de implementación. También se admiten los campos abreviados `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3`. |
 | `data.__adobe.analytics.longitude` | Ayuda a establecer las dimensiones del ciclo de vida móvil [Ubicación](../../components/dimensions/lifecycle-dimensions.md). También se admite el campo abreviado `data.__adobe.analytics.lon`. |
-| `data.__adobe.analytics.pageName` | La dimensión [Página](/help/components/dimensions/page.md). |
+| `data.__adobe.analytics.pageName` | Dimensión [Página](/help/components/dimensions/page.md). |
 | `data.__adobe.analytics.pageURL` | Dimensión [URL de la página](/help/components/dimensions/page-url.md). También se admite el campo abreviado `data.__adobe.analytics.g`. |
 | `data.__adobe.analytics.pageType` | Variable de implementación [`pageType`](../vars/page-vars/pagetype.md). |
 | `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | Dimensiones [Prop](../../components/dimensions/prop.md). También se admiten los campos abreviados `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`. |
 | `data.__adobe.analytics.purchaseID` | Variable de implementación [`purchaseID`](../vars/page-vars/purchaseid.md). |
 | `data.__adobe.analytics.products` | Variable de implementación [`products`](../vars/page-vars/products.md), con un formato similar. |
-| `data.__adobe.analytics.referrer` | La dimensión [Referente](/help/components/dimensions/referrer.md). |
+| `data.__adobe.analytics.referrer` | Dimensión [Referente](/help/components/dimensions/referrer.md). |
 | `data.__adobe.analytics.resolution` | Dimensión [Resolución del monitor](../../components/dimensions/monitor-resolution.md). También se admite el campo abreviado `data.__adobe.analytics.s`. |
 | `data.__adobe.analytics.server` | La dimensión [Servidor](/help/components/dimensions/server.md). |
 | `data.__adobe.analytics.transactionID` | Variable de implementación [`transactionID`](../vars/page-vars/transactionid.md). También se admite el campo abreviado `data.__adobe.analytics.xact`. |

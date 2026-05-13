@@ -4,10 +4,29 @@ title: Usar componentes en un proyecto
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 82%
+source-wordcount: 954
+ht-degree: 77%
 
 ---
 
@@ -96,11 +115,11 @@ Los [segmentos](/help/components/segmentation/seg-overview.md) le permiten ident
 Puede utilizar segmentos en Analysis Workspace de cualquiera de las siguientes maneras:
 
 * Adición de segmentos a un panel
-Cuando añade segmentos a un panel, los segmentos se aplican a todo el contenido del panel.
+Cuando agrega segmentos a un panel, los segmentos se aplican a todo el contenido del panel.
 Para obtener información sobre cómo usar la zona de colocación de segmentos en un panel para segmentar el panel, consulte [Zona de colocación](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) en [Información general de paneles](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-* Adición de segmentos a una visualización
-Cuando añade segmentos a una columna de una tabla de forma libre, los segmentos se aplican a todo el contenido de la columna de la tabla. También puede añadir segmentos como parte de una visualización de visitas en el orden previsto.
+* Añadir segmentos a una visualización
+Cuando se añaden segmentos a una columna de una tabla de forma libre, los segmentos se aplican a todo el contenido de la columna de la tabla. También puede añadir segmentos como parte de una visualización de visitas en el orden previsto.
 
 * Uso de segmentos en componentes
 Cuando define componentes como [métricas calculadas](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md), [anotaciones](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) o incluso [segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), puede usar segmentos como parte de la definición.
@@ -120,7 +139,7 @@ Cada panel incluye un intervalo de fechas de forma predeterminada. Existen varia
 
      ![Soltar un intervalo de fechas](assets/add-date-range.gif)
 
-   * Una métrica o dimensión en una visualización de tabla de forma libre. Consulte [Usar intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges) para obtener más información. 
+   * Una métrica o dimensión en una visualización de tabla de forma libre. Consulte [Usar intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges) para obtener más información.
 
 Para obtener más información sobre cómo usar y administrar intervalos de fechas en Analysis Workspace, consulte [Información general sobre los intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 

@@ -3,10 +3,42 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 89%
+source-wordcount: 2640
+ht-degree: 88%
 
 ---
 
@@ -36,7 +68,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Clasificación:** función de Adobe Analytics que permite agrupar elementos de dimensión. Consulte [Clasificaciones](/help/components/classifications/classifications-overview.md) en la guía de usuario sobre componentes.
 * **ClickMap:** ya no se utiliza. Se trata de un complemento heredado para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Esta herramienta se sustituyó por Activity Map.
 * **Fuente de datos del flujo de navegación:** consulte Fuente de datos
-* **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Consulte [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) en la Guía de herramientas de Analytics.
+* **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Ver [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) en la Guía de herramientas de Analytics.
 * **Servidor de recopilación:** Consulte Servidor de recopilación de datos.
 * **Componente:** Los componentes de Analysis Workspace están formados por dimensiones, métricas, segmentos, intervalos de fechas, alertas y métricas calculadas que puede arrastrar y soltar en un proyecto. Consulte [Información general sobre componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) en la Guía de herramientas de Analytics.
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
@@ -95,7 +127,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Intervalo de fecha móvil:** un tipo de intervalo de fecha relativo que cambia a medida que pasa el tiempo. Por ejemplo, un informe que muestra los últimos 7 días puede considerarse un intervalo de fecha móvil. Consulte también intervalo de fecha estático.
 * **RSID:** sigla de “Report suite ID” (el ID del grupo de informes). Un grupo de informes tiene un nombre descriptivo y un ID del grupo de informes.
 * **s.t():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de vista de página. Algunas bibliotecas de AppMeasurement utilizan `s.track()` en su lugar. Consulte [t](../implement/vars/functions/t-method.md) en la guía de usuario sobre implementación.
-* **s<span>.</span>tl():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de seguimiento de vínculos. Algunas bibliotecas de AppMeasurement utilizan `s.trackLink()` en su lugar. Consulte [tl](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación.
+* **s<span>.</span>tl():** Nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de seguimiento de vínculos. Algunas bibliotecas de AppMeasurement utilizan `s.trackLink()` en su lugar. Consulte [tl](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación.
 * **s_code.js:** nombre del archivo JavaScript utilizado en versiones históricas de Adobe Analytics. El nombre actual del archivo JavaScript utilizado es AppMeasurement.js.
 * **Llamada secundaria al servidor:** nombre alternativo para solicitudes de imagen o visitas que se utiliza principalmente en el contexto del etiquetado y la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, todos los grupos de informes menos el primero que recibe la visita se consideran llamadas secundarias al servidor. Consulte también Llamadas primarias al servidor.
 * **Segmento:** le permite centrarse en un subconjunto específico de los datos. Consulte [Segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario sobre componentes.

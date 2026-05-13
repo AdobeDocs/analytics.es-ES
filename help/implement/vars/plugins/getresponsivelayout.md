@@ -4,9 +4,20 @@ description: Determine qué diseño de un sitio web se está viendo en ese momen
 feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Sw07Ex4a5-7MaosYUtwwIEIeFv230mfp47XPKPx0iv8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: 530
 ht-degree: 86%
 
 ---
@@ -37,7 +48,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar getResponsiveLayout
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
@@ -61,7 +72,7 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Uso del complemento
 
-La función `getResponsiveLayout` utiliza los argumentos siguientes:
+La función `getResponsiveLayout` utiliza los siguientes argumentos:
 
 * **`ppw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño vertical para teléfonos a un diseño horizontal para teléfonos
 * **`plw`** (obligatorio, entero): El ancho de píxeles máximo que puede tener una ventana del explorador antes de que la página cambie de un diseño horizontal para teléfonos a un diseño para tableta

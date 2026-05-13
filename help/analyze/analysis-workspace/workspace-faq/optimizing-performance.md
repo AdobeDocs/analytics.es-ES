@@ -4,10 +4,36 @@ title: Optimización del rendimiento de Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/NXu-UU13cywEFx7FKmny4EmvRxsQgZirTsCpZ5gZyvo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2490'
-ht-degree: 42%
+source-wordcount: 2539
+ht-degree: 41%
 
 ---
 
@@ -90,7 +116,7 @@ Utilice el diagrama y los términos siguientes para conocer cómo se procesan la
 | [!UICONTROL **Tiempo medio de búsqueda**] | Dado que Analysis Workspace almacena únicamente el hash de las cadenas que se usen en cualquier segmento, cada vez que se procesa un proyecto, se realizan **búsquedas** para hacer coincidir los hash con los valores apropiados. La guía es de menos de 2 segundos.<p>Estas búsquedas pueden ser un proceso que consume muchos recursos, según el número de valores que podrían coincidir con el hash. </p><p>En el diagrama [Procesamiento de solicitudes](#request-processing-diagram) anterior, el tiempo de búsqueda se representa en la fase **Búsquedas** (en el momento del procesamiento de **Motor de solicitudes**).</p> | Si las solicitudes se están ralentizando aquí, probablemente se deba a que tiene demasiados segmentos de cadena en el proyecto o a que tiene cadenas con valores demasiado genéricos que tienen demasiadas coincidencias potenciales. |
 | [!UICONTROL **Tiempo medio en cola**] | Tiempo total de espera en la cola antes de procesar las solicitudes. La guía es de 5 segundos.<p>En el diagrama [Procesamiento de solicitudes](#request-processing-diagram) anterior, el tiempo de cola se representa en la fase **Cola del motor de solicitudes** y en la fase **Cola del servidor**.</p> | Si las solicitudes se ralentizan aquí, puede deberse a demasiadas solicitudes que se ejecutan simultáneamente en su organización. Intente ejecutar la solicitud en un momento de menor actividad. |
 | [!UICONTROL **Tiempo medio de procesamiento del servidor**] | Cantidad media de tiempo que se tarda en procesar la solicitud.<p>En el diagrama [Procesamiento de solicitudes](#request-processing-diagram) anterior, el tiempo promedio de procesamiento del servidor se representa en la fase **Cola de servidores** y en la fase **Procesamiento de servidores**. La guía es de 10 segundos | Si las solicitudes se ralentizan aquí, es probable que el proyecto tenga intervalos de fechas demasiado largos o visualizaciones complejas. Intente acortar el intervalo de fechas del proyecto para reducir los tiempos de procesamiento. |
-| [!UICONTROL **Complejidad**] | No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a proporcionar una idea general sobre el tiempo necesario para procesar la solicitud. La directriz es Medium o inferior. <p>Entre los posibles valores están:</p> <ul><li>[!UICONTROL **Bajo**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alto**]</li></ul>Este valor se ve influido por los valores de las siguientes columnas:<ul><li>[!UICONTROL **Límites mensuales**]</li><li>[!UICONTROL **Columnas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |  |
+| [!UICONTROL **Complejidad**] | No todas las solicitudes requieren la misma cantidad de tiempo para procesarse. La complejidad de la solicitud puede ayudar a tener una idea general sobre el tiempo necesario para procesar la solicitud. La directriz es Medium o inferior. <p>Entre los posibles valores están:</p> <ul><li>[!UICONTROL **Bajo**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alto**]</li></ul>Este valor se ve influido por los valores de las siguientes columnas:<ul><li>[!UICONTROL **Límites mensuales**]</li><li>[!UICONTROL **Columnas**]</li><li>[!UICONTROL **Segmentos**]</li></ul> |  |
 | [!UICONTROL **Límites mensuales**] | El número de meses que se incluyen en una solicitud. Más límites de mes aumentan la complejidad de la solicitud. La directriz es 6 o menos. | Si las solicitudes se ralentizan aquí, puede deberse a que los límites de mes del proyecto son demasiado grandes. Intente reducir el número de meses. |
 | [!UICONTROL **Columnas**] | El número de métricas y desgloses de la solicitud. Más columnas añaden complejidad a la solicitud. La directriz es 10 o menos. | Si las solicitudes se ralentizan aquí, puede deberse a que hay demasiadas columnas en el proyecto. Intente reducir el número de columnas. |
 | [!UICONTROL **Segmentos**] | El número de segmentos aplicados a la solicitud. Más segmentos añaden complejidad a la solicitud. La directriz es 5 o menos. | Si las solicitudes se ralentizan aquí, puede deberse a que hay demasiados segmentos en el proyecto. Intente reducir el número de segmentos. |

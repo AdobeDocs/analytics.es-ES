@@ -4,10 +4,30 @@ description: Enumera todos los parámetros de cadena de consulta utilizados en s
 feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 725
+ht-degree: 92%
 
 ---
 
@@ -17,8 +37,8 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 
 | Parámetro | Variable de implementación de Analytics | Descripción |
 | --- | --- | --- |
-| `aamlh` | Ninguna | Indicación de ubicación de Audience Manager. Usado en la integración de Experience Cloud Shared Profile. |
-| `aamb` | Ninguna | Blob de Audience Manager. Usado en la integración de Experience Cloud Shared Profile. |
+| `aamlh` | Ninguno | Sugerencia de ubicación de Audience Manager. Se utiliza en la integración de perfiles compartidos de Experience Cloud. |
+| `aamb` | Ninguno | Blob de Audience Manager. Se utiliza en la integración de perfiles compartidos de Experience Cloud. |
 | `aid` | Ninguna | ID de visitante de Analytics. |
 | `AQB` | Ninguna | Indica el inicio de una solicitud de imagen de una cadena de consulta. |
 | `AQE` | Ninguna | Indica el final de una solicitud de imagen, lo que significa que no se truncó la solicitud. |
@@ -73,7 +93,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `server` | [`server`](../vars/page-vars/server.md) | Dimensión de [Servidor](/help/components/dimensions/server.md). |
 | `sv` | [`server`](../vars/page-vars/server.md) | Abreviatura de la cadena de consulta `server`. |
 | `state` | [`state`](../vars/page-vars/state.md) | Dimensión de estado. |
-| `t` | Ninguna | Fecha y hora generadas de la visita. Utiliza el formato `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` es el formato de fecha y hora en JavaScript. El mes `0` es enero, mientras que el mes `11` es diciembre.<br>- `w` es el día de la semana. `0` es domingo, mientras que `6` es sábado.<br>- `o` es el desplazamiento negativo GMT en minutos. Por ejemplo, `420` es GMT-7. |
+| `t` | Ninguna | Fecha y hora generadas de la visita. Utiliza el formato `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` es fecha/hora en JavaScript. El mes `0` es enero, mientras que el mes `11` es diciembre.<br>- `w` es el día de la semana. `0` es domingo, mientras que `6` es sábado.<br>- `o` es el horario GMT negativo en minutos. Por ejemplo, `420` es GMT-7. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | Marca de hora personalizada establecida con la visita. Se suele usar para el seguimiento sin conexión. |
 | `v` | Ninguna | Se utiliza en la dimensión [Java Enabled](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |

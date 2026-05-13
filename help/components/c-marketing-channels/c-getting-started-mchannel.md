@@ -3,10 +3,22 @@ title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 812
+ht-degree: 97%
 
 ---
 
@@ -71,7 +83,7 @@ Cómo se ejecuta la configuración automática para los canales de marketing.
 
    >[!NOTE]
    >
-   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte [Administrador de canales de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)). Esta página no se muestra si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
+   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte [Administrador de canales de mercadotecnia](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Esta página no indica si el grupo de informes contiene uno o más canales de marketing. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de marketing.
 
 1. Asegúrese de que los canales que desee crear estén seleccionados.
 

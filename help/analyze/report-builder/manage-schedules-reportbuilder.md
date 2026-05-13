@@ -1,21 +1,29 @@
 ---
-title: Mmanage Scheduled Workbooks In Report Builder
-description: Learn how to manage scheduled workbooks in Report Builder.
+title: Administrar Libros Programados En Report Builder
+description: Obtenga información sobre cómo administrar libros programados en Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
+TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 5%
+source-wordcount: 383
+ht-degree: 6%
 
 ---
 
 # Administrar libros de trabajo programados
 
-You can schedule a workbook for sharing through email or by exporting to a cloud destination, as described in the following articles:
+Puede programar un libro para compartirlo por correo electrónico o exportarlo a un destino de nube, tal como se describe en los siguientes artículos:
 
 * [Programar libros compartiéndolos por correo electrónico](/help/analyze/report-builder/schedule-reportbuilder.md)
 
@@ -29,13 +37,13 @@ Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL L
 
 1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub
 
-1. Seleccione la ficha **[!UICONTROL Libros]**. Verá una lista de todos los libros programados. (Alternatively, you can select the **[!UICONTROL Legacy]** tab to view a list of legacy workbooks that need to be migrated to the new Report builder.)
+1. Seleccione la ficha **[!UICONTROL Libros]**. Verá una lista de todos los libros programados. (También puede seleccionar la pestaña **[!UICONTROL Heredado]** para ver una lista de libros heredados que deben migrarse al nuevo Report Builder).
 
-   ![Scheduled workbook](assets/scheduled-workbooks.png){zoomable="yes"}
+   ![Libro programado](assets/scheduled-workbooks.png){zoomable="yes"}
 
 1. Realice una de las siguientes acciones:
 
-   * Hover over the icon to see the status of a scheduled workbook.
+   * Pase el ratón sobre el icono para ver el estado de un libro programado.
 
    * En el campo de búsqueda ![Buscar](/help/assets/icons/Search.svg), busque libros programados específicos.
 
@@ -51,17 +59,17 @@ Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL L
 
    | Opción | Descripción |
    |---|---|
-   | ![Editar](/help/assets/icons/Edit.svg) | Edit the schedule for a selected workbook. |
-   | ![History](/help/assets/icons/History.svg) | Muestra el historial de los libros seleccionados. |
+   | ![Editar](/help/assets/icons/Edit.svg) | Editar la programación de un libro seleccionado. |
+   | ![Historial](/help/assets/icons/History.svg) | Muestra el historial de los libros seleccionados. |
    | ![Pause](/help/assets/icons/Pause.svg) | Pausar la programación de los libros seleccionados. |
    | ![Reproducir](/help/assets/icons/Play.svg) | Reanudar la programación de los libros seleccionados. |
-   | ![Descargar](/help/assets/icons/Download.svg) | Download the selected workbook into a new workbook. |
-   | ![Eliminar](/help/assets/icons/Delete.svg) | Delete the schedule of selected workbooks. |
+   | ![Descargar](/help/assets/icons/Download.svg) | Descargue el libro seleccionado en un nuevo libro. |
+   | ![Eliminar](/help/assets/icons/Delete.svg) | Eliminar la programación de los libros seleccionados. |
 
 
-## History and status of scheduled workbooks
+## Historial y estado de los libros programados
 
-You can view the history and status of scheduled workbooks in the **[!UICONTROL History]** tab.
+Puede ver el historial y el estado de los libros programados en la ficha **[!UICONTROL Historial]**.
 
 1. Seleccione **[!UICONTROL Horario]** en Report Builder Hub.
 
@@ -74,7 +82,7 @@ Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué col
 
    La ficha **[!UICONTROL Historial]** le permite revisar el estado de cada tarea programada. Una fila independiente documenta el cambio de estado de cada tarea programada.
 
-   * A ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indicates that the workbook was sent successfully.
-   * A ![AlertRed](/help/assets/icons/AlertRed.svg) indicates that an error occurred.
+   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica que el libro se envió correctamente.
+   * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica que se produjo un error.
 
-Alternatively, you can select ![History](/help/assets/icons/History.svg) for one or more selected workbooks in the **[!UICONTROL Workbooks]** tab. This action shows the **[!UICONTROL History]** tab with a list filtered by your selection. Select ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a filter.
+También puede seleccionar ![Historial](/help/assets/icons/History.svg) para uno o más libros seleccionados en la ficha **[!UICONTROL Libros]**. Esta acción muestra la ficha **[!UICONTROL Historial]** con una lista filtrada por su selección. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.

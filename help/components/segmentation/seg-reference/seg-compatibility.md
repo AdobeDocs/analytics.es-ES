@@ -3,9 +3,22 @@ description: Comprenda por qué no todos los segmentos creados en el Generador d
 title: Compatibilidad del segmento con el Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 345
 ht-degree: 80%
 
 ---
@@ -30,17 +43,17 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
   </tr> 
   <tr> 
    <td> <b>Segmentos secuenciales</b> </td> 
-   <td> Admitido </td> 
+   <td> Admitida </td> 
    <td> No admitido </td> 
   </tr> 
   <tr> 
    <td> <b>AND y OR pueden combinarse sin ningún límite</b> </td> 
-   <td> Admitido </td> 
+   <td> Admitida </td> 
    <td> Algunas limitaciones. Consulte *nota* la tabla siguiente. </td> 
   </tr> 
   <tr> 
    <td> <b>Contenedores anidados</b> </td> 
-   <td> Admitido </td> 
+   <td> Admitida </td> 
    <td> Algunas limitaciones (el ámbito debe disminuir; por ejemplo, los visitantes pueden contener las visitas individuales, pero no al revés) </td> 
   </tr> 
   <tr> 
@@ -71,7 +84,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
      <li>Jerarquía (todas las dimensiones que comienzan con Jerarquía) </li> 
      <li>Profundidad de la visita </li> 
      <li>Tipo de visita </li> 
-     <li>Hora del día </li> 
+     <li>Hora y día </li> 
      <li>Mes del año </li> 
      <li>Páginas no encontradas </li> 
      <li>Búsqueda de pago </li> 
@@ -88,7 +101,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
   </tr> 
   <tr> 
    <td> <b>Apilamiento de segmentos</b> </td> 
-   <td> Admitido </td> 
+   <td> Admitida </td> 
    <td> Admitido </td> 
   </tr>
   <tr>

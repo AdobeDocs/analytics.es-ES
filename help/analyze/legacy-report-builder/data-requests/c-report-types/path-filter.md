@@ -4,10 +4,19 @@ title: Filtrado de un informe de rutas mediante el Asistente para solicitudes
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
@@ -17,7 +26,7 @@ ht-degree: 62%
 
 Describe los pasos involucrados en la aplicación de filtros a un informe de ruta.
 
-En este ejemplo se utilizan las rutas de sección del sitio.
+Este ejemplo utiliza las rutas de sección del sitio.
 
 1. En Report Builder de Adobe, haga clic en **[!UICONTROL Crear]** para abrir el Asistente para solicitudes.
 1. Seleccione el grupo de informes adecuado.
@@ -62,13 +71,13 @@ Puede editar un patrón predefinido después de seleccionar un patrón.
 
 1. Defina la ruta de la sección del sitio que sigue el usuario antes de salir. Haga clic en **[!UICONTROL Elemento(s) específico(s): 0 seleccionados]**. Puede definir esta ruta seleccionándola entre un rango de celdas si edita una solicitud existente o seleccionándola de una lista de secciones.
 
-1. Para seleccionar entre un rango de celdas de una solicitud anterior, seleccione **[!UICONTROL Desde el rango de celdas]** y haga clic en el icono de selector de celdas. A continuación, seleccione las celdas de un informe.
+1. Para seleccionar entre un rango de celdas de una solicitud anterior, seleccione **[!UICONTROL Desde el rango de celdas]** y haga clic en el icono de selector de celdas. A continuación, seleccione las celdas del informe.
 
    ![Captura de pantalla que muestra las opciones para elegir de un rango de celdas o de una lista.](assets/choose_site_section_paths.png)
 
 1. Para seleccionar entre una lista de secciones de sitio, seleccione **[!UICONTROL Desde la lista]** y haga clic en **[!UICONTROL Añadir]**.
 
-1. Para mover elementos desde la columna de **[!UICONTROL Elementos disponibles]** a la columna de **[!UICONTROL Elementos seleccionados]**, selecciónelos y haga clic en la flecha naranja. A continuación, haga clic en **[!UICONTROL Aceptar]**.
+1. Para mover elementos desde la columna de **[!UICONTROL Elementos disponibles]** a la columna de **[!UICONTROL Elementos seleccionados]**, selecciónelos y haga clic en la flecha naranja. Haga clic en **[!UICONTROL Aceptar]**.
 
    ![Captura de pantalla que muestra los elementos disponibles y los elementos seleccionados.](assets/move_site_section_elements.png)
 

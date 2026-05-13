@@ -4,10 +4,25 @@ title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/87MzdxBePRZKBttF3P6XhuDq5hR6XpEWaLdrYDMu-5Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 90%
+source-wordcount: 401
+ht-degree: 82%
 
 ---
 
@@ -27,11 +42,11 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 
    Por ejemplo, puede ejecutar un [!UICONTROL Informe de páginas] y, a continuación, aplicar el segmento Primeras visitas.
 
-1. **Permitir anulación de la lista de publicación**: las listas de publicación eran una característica de Reports &amp; Analytics, que ha llegado al [final de su vida útil](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+1. **Permitir anulación de la lista de publicación**: las listas de publicación eran una característica de Reports &amp; Analytics, que ha llegado al [final de su vida útil] (¿https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Tipo de informe**: especifica el informe base que se desea ejecutar en la solicitud de datos. Por cada solicitud se ejecuta un informe, y éste puede tener de una a varias dimensiones y métricas. La métrica y las dimensiones de un tipo de informe se muestran en la interfaz del [!UICONTROL Asistente para solicitudes: Paso 2]. Consulte [Seleccionar tipos de informes](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 
-1. **Intervalos de fechas**: define el lapso de tiempo abarcado por la solicitud. Existen distintos tipos de períodos de tiempo de solicitud como, por ejemplo, preestablecidos, fijos y móviles. El número máximo de períodos es 366. También puede seleccionar un intervalo de fechas especificado por una celda y guardar los intervalos de fechas como plantillas para su uso posterior.  Consulte [Configuración de fechas de informes](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **Intervalos de fechas**: define el lapso de tiempo abarcado por la solicitud. Existen distintos tipos de períodos de tiempo de solicitud como, por ejemplo, preestablecidos, fijos y móviles. El número máximo de períodos es de 366. También puede elegir un intervalo de fechas especificado por una celda y guardar intervalos de fechas como plantillas para su uso posterior.  Consulte [Configuración de fechas de informes](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
 1. **Aplicar granularidad**: especifica el nivel de detalle basado en el tiempo que se incluye en el informe. Consulte [Granularidad](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 
