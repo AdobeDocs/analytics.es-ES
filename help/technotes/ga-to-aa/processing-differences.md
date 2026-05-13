@@ -3,9 +3,14 @@ title: Diferencias de procesamiento y arquitectura entre plataformas de Analytic
 description: Descubra cómo se recopilan y muestran algunos datos de forma diferente entre plataformas como Adobe Analytics y Google Analytics.
 feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/pL36oKany2sKuJrEn4-oIja3O91PZ47YQGoNvhdt6y8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: 503
 ht-degree: 96%
 
 ---
@@ -31,7 +36,7 @@ Consulte la métrica [Tasa de devolución](/help/components/metrics/bounce-rate.
 
 Las [!UICONTROL visitas] (conocidas como sesiones en Google Analytics) son un grupo de vistas de página llevadas a cabo por el mismo usuario en un corto período de tiempo. [!UICONTROL Las visitas] en ambas plataformas suelen expirar tras 30 minutos de inactividad. Ambas plataformas permiten la personalización cuando caduca una [!UICONTROL visita]. Existen varios escenarios que pueden causar diferencias en cada plataforma.
 
-* **Fin de día:** Todas las sesiones de Google Analytics caducan después de las 23:00 h de un día determinado. :59 Si el usuario sigue activo en el sitio después de las 24:00, se crea una nueva sesión. Adobe Analytics cuenta las visitas al día siguiente como parte de la misma visita individual.
+* **Fin de día:** Todas las sesiones de Google Analytics caducan después de las 23:00 h de un día determinado. :59Si el usuario sigue activo en el sitio después de las 24:00, se crea una nueva sesión. Adobe Analytics cuenta las visitas al día siguiente como parte de la misma visita individual.
 * **Diferentes campañas:** Se inicia una nueva sesión en Google Analytics si cambia la fuente de campaña de un usuario. Si se ve un nuevo valor de [!UICONTROL código de seguimiento] en Adobe Analytics, se considera parte de la misma visita.
 * **Anulación manual de sesión:** Se inicia una nueva sesión en Google Analytics si se utiliza `sessionControl` para iniciar o finalizar manualmente una sesión. [!UICONTROL Las visitas no se pueden finalizar manualmente en Adobe Analytics.]
 * **Detección de visitas atípicas en Adobe Analytics:** Una nueva [!UICONTROL Visita] se inicia automáticamente en Adobe Analytics si un usuario alcanza las 12 horas de actividad continua, las 2500 visitas o las 100 visitas en un plazo de 100 segundos. Cada uno de estos criterios de detección se activa normalmente por la actividad de bots.

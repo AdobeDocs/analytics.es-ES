@@ -4,9 +4,15 @@ title: Configuración De Una Visualización De Flujo
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/JuuU7Hs7JTl4Q9qOlfcYHvlpGHxHea-56K3N-3CKZos
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: 1691
 ht-degree: 84%
 
 ---
@@ -175,7 +181,7 @@ Utilice un menú contextual en cualquier nodo de la visualización de flujo con 
 | **[!UICONTROL Excluir elemento]** o **[!UICONTROL Restaurar elementos excluidos]** | Quita un nodo específico de la columna y lo crea automáticamente como filtro en la parte superior de la columna. Para restaurar el elemento excluido, seleccione en el menú contextual **[!UICONTROL Restaurar elemento excluido]**. También puede abrir el filtro en la parte superior de la columna y quitar el recuadro con el elemento que acaba de excluir. |
 | **[!UICONTROL Tendencia]** | Crea un diagrama de tendencia para el nodo. |
 | **[!UICONTROL Mostrar columna siguiente]** / **[!UICONTROL Mostrar columna anterior]** | Muestra la columna siguiente (derecha) o anterior (izquierda) de la visualización. |
-| **[!UICONTROL Ocultar columna]**&#x200B;n | Oculta la columna seleccionada de la visualización. |
+| **[!UICONTROL Ocultar columna]**n | Oculta la columna seleccionada de la visualización. |
 | **[!UICONTROL Expandir toda la columna]** | Expanda una columna para mostrar todos los nodos. De forma predeterminada, solo se muestran los cinco nodos principales. |
 | **[!UICONTROL Crear público a partir de la selección]** | Crea un público basado en la columna seleccionada. |
 | **[!UICONTROL Contraer toda la columna]** | Oculta todos los nodos de una columna. |

@@ -2,9 +2,15 @@
 title: Enviar datos a Adobe Analytics mediante la biblioteca JavaScript de Web SDK
 description: Comience con una implementación de Web SDK limpia para enviar datos a Adobe Analytics mediante la biblioteca JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: 1129
 ht-degree: 18%
 
 ---
@@ -66,7 +72,7 @@ Una información general de alto nivel de las tareas de implementación:
 <tr>
 <td> 4</td>
 <td><b>Instale la versión independiente precompilada</b>. Puede hacer referencia a la biblioteca (<code>alloy.js</code>) en la red de distribución de contenido (CDN) directamente en su página, o bien, descargue y aloje en su propia infraestructura. Alternativamente, puede utilizar el paquete NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=es">Instalación de la versión independiente precompilada</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=es">Uso del paquete NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Instalación de la versión independiente precompilada</a> y <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Uso del paquete NPM</a></td>
 </tr>
 
 <tr>
@@ -77,20 +83,20 @@ Una información general de alto nivel de las tareas de implementación:
 
 <td>6</td>
 <td><b>Agregar un servicio de Adobe Analytics</b> a su secuencia de datos. Este servicio controla si los datos se envían a Adobe Analytics y cómo, y a qué grupo o grupos de informes se envían específicamente.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=es#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Agregar el servicio Adobe Analytics a una secuencia de datos</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configurar el SDK web</b>. Asegúrese de que la biblioteca que instaló en el paso 4 esté configurada correctamente con el ID de secuencia de datos (anteriormente conocido como id. de configuración de Edge (<code>datastreamId</code>)), id. de organización (<code>orgId</code>) y otras opciones disponibles. Asegúrese de que la asignación de variables sea correcta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=es">Configurar el Web SDK</a><br/><a href="../xdm-var-mapping.md">Asignación de variables de objetos XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurar el Web SDK</a><br/><a href="../xdm-var-mapping.md">Asignación de variables de objetos XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Ejecutar comandos</b> o <b>seguimiento de eventos</b>. Una vez implementado el código base en la página web, puede empezar a ejecutar comandos y rastrear eventos con el SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=es">Envío de eventos</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Envío de eventos</a></td>
 </tr>
 
 <tr>

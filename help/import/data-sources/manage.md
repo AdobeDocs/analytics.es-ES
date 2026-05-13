@@ -4,9 +4,13 @@ description: Vaya a la interfaz de administración de fuentes de datos.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/Tc5-I54BKMPlv2tVZb9pMYfvdddcTPuskdh3W24wFUU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 664
 ht-degree: 7%
 
 ---
@@ -50,7 +54,7 @@ Una vez que una fuente de datos recibe los datos, se muestra una tabla que conti
 
 La pestaña **[!UICONTROL Create]** le proporciona un punto de partida para el asistente de creación de fuentes de datos.
 
-![Crear](assets/create.png)
+![Create](assets/create.png)
 
 La categoría y el tipo de fuente de datos eran más valiosos en versiones anteriores de Adobe Analytics. Sin embargo, su uso sigue siendo limitado:
 

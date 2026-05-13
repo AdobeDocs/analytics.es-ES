@@ -5,10 +5,16 @@ title: Dimensiones y métricas disponibles para las reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -27,8 +33,8 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 
 | Atributo | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
-| **URL de la página** | Lectura y escritura | La dimensión [URL de la página](/help/components/dimensions/page-url.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de dirección URL de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
-| **Nombre de página** | Lectura y escritura | La dimensión [Página](/help/components/dimensions/page.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
+| **URL de la página** | Lectura y escritura | Dimensión [URL de la página](/help/components/dimensions/page-url.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de dirección URL de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
+| **Nombre de página** | Lectura y escritura | Dimensión [Página](/help/components/dimensions/page.md). Las visitas de seguimiento de vínculos eliminan esta dimensión antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de página mediante reglas de procesamiento, la visita se considera una [vista de página](/help/components/metrics/page-views.md) en lugar de un [evento de página](/help/components/metrics/page-events.md). Adobe recomienda comprobar un valor en la dimensión de página antes de modificarla. |
 | **ID del grupo de informes** | Solo lectura | Grupo de informes en el que se ejecuta la regla de procesamiento. Este grupo de informes puede ser diferente al grupo de informes enviado originalmente a través de AppMeasurement, como cuando se utilizan reglas de VISTA. |
 | **Versión de código AppMeasurement** | Solo lectura | Versión de la biblioteca AppMeasurement utilizada para generar la solicitud de imagen. |
 | **Dirección IP** | Solo lectura | La dirección IP del visitante. |
@@ -49,13 +55,13 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 
 | Variable | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
-| **eVar 1-250** | Lectura y escritura | [eVar](/help/components/dimensions/evar.md) dimensiones. |
-| **Campaign** | Lectura y escritura | La dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
-| **ID de compra** | Lectura y escritura | La variable de implementación [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
+| **eVar 1-250** | Lectura y escritura | Dimensiones [eVar](/help/components/dimensions/evar.md). |
+| **Campaign** | Lectura y escritura | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
+| **ID de compra** | Lectura y escritura | Variable de implementación [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
 | **Estado** | Lectura y escritura | (Retirado) La variable de implementación [`state`](/help/implement/vars/page-vars/state.md). |
-| **Código postal** | Lectura y escritura | La dimensión [Código postal](/help/components/dimensions/zip-code.md). |
-| **Código de divisa** | Lectura y escritura | La variable de implementación [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: Si establece esta variable en un valor no válido, la visita se descarta. |
-| **ID de transacción** | Lectura y escritura | La variable de implementación [`transactionID`](/help/import/data-sources/transactionid.md). |
+| **Código postal** | Lectura y escritura | Dimensión [Código postal](/help/components/dimensions/zip-code.md). |
+| **Código de divisa** | Lectura y escritura | Variable de implementación [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: Si establece esta variable en un valor no válido, la visita se descarta. |
+| **ID de transacción** | Lectura y escritura | Variable de implementación [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
 >Adobe no admite la configuración de la variable de implementación [`products`](/help/implement/vars/page-vars/products.md) mediante reglas de procesamiento.
@@ -64,10 +70,10 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 
 | Variable | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
-| **Prop 1-75** | Lectura y escritura | [Prop](/help/components/dimensions/prop.md) dimensiones. |
+| **Prop 1-75** | Lectura y escritura | Dimensiones [Prop](/help/components/dimensions/prop.md). |
 | **Jerarquía 1-5** | Lectura y escritura | (Retirado) [Jerarquía](/help/components/dimensions/hierarchy.md) dimensiones. |
 | **Servidor** | Lectura y escritura | La dimensión [Servidor](/help/components/dimensions/server.md). |
-| **Canal** | Lectura y escritura | La dimensión [sección del sitio](/help/components/dimensions/site-section.md). |
+| **Canal** | Lectura y escritura | Dimensión [Sección del sitio](/help/components/dimensions/site-section.md). |
 
 ## Variables de contexto
 

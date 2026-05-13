@@ -4,10 +4,16 @@ keywords: eliminar grupo de informes
 title: Ocultamiento de grupos de informes
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/vu-fl3k9toNX8sdSjPO-VASOVab0Ut-sYcP-BHQ4SOQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: 223
+ht-degree: 57%
 
 ---
 
@@ -15,9 +21,9 @@ ht-degree: 100%
 
 Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics.
 
-Si ya no quiere que un grupo de informes esté disponible para sus usuarios, puede ocultarlo. Puede tener diversas razones para querer ocultar un grupo de informes, como, por ejemplo, por cambios de implementación o porque alguien creó un grupo de informes por error.
+Si no desea que un grupo de informes esté más disponible para usted y los usuarios, puede ocultarlo de la vista. Entre las posibles razones por las que puede querer ocultar un grupo de informes se incluyen los cambios de implementación o que alguien cree un grupo de informes por error.
 
-Ocultar un grupo de informes evita que aparezca en el menú desplegable del selector del grupo de informes, en las herramientas de administración y en otros lugares en los que se muestran los grupos de informes. El grupo de informes es inaccesible a través de las interfaces de Adobe Analytics hasta que se hace visible.
+Al ocultar un grupo de informes, se evita que se muestre en el menú desplegable del selector de grupos de informes, en las Herramientas de administración o en cualquier otro lugar donde se muestren los grupos de informes. Hace que los datos del grupo de informes no sean accesibles a través de las interfaces de Adobe Analytics hasta que se muestre el grupo de informes.
 
 >[!IMPORTANT]
 >

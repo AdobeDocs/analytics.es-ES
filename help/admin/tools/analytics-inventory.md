@@ -4,9 +4,15 @@ title: Inventario de Analytics
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: 1224
 ht-degree: 24%
 
 ---
@@ -112,7 +118,7 @@ Las respuestas a estas preguntas le darán una buena idea de qué grupos de info
    | Ocurrencias (últimos 90 días) | La métrica “Ocurrencias” muestra el número de visitas configurado o en las que persiste una variable. ¿Cuántas visitas recibió este grupo de informes en los últimos 90 días? |
    | Métricas | ¿Cuántas métricas se definen en este grupo de informes? |
    | Dimensiones | ¿Cuántas dimensiones se definen en este grupo de informes? |
-   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) habilitado | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canales de marketing habilitados | [Oculto de forma predeterminada] ¿Está habilitado este grupo de informes para [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Conector de origen habilitado | ¿Está habilitado este grupo de informes para [Adobe Analytics Source Connector para los datos del grupo de informes](https://experienceleague.adobe.com/es/docs/experience-platform/sources/connectors/adobe-applications/analytics) en Adobe Experience Platform? En otras palabras, ¿se puede migrar este grupo de informes a Customer Journey Analytics mediante el conector de Source de Analytics? |
    | Tipo de calendario | [Oculto de forma predeterminada] Para obtener más información, consulte [Calendarios personalizados](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |

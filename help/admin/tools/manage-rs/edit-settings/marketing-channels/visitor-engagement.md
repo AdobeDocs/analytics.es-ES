@@ -5,10 +5,14 @@ title: Caducidad del canal de marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Og6HFSObiTqFg-HRqVzQWWnaGP0J--cJ9N8wvfuKsJc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: 393
+ht-degree: 88%
 
 ---
 
@@ -30,7 +34,7 @@ Si el visitante utiliza el sitio con frecuencia, la ventana de participación se
 
 Ejemplo:
 
-* Día 1: el usuario llega al sitio y este aparece en la pantalla. Los canales de primer y último contacto se definirán como “Pantalla”.
+* Día 1: el usuario llega al sitio en pantalla. Los canales de primer y último contacto se definirán como “Pantalla”.
 * Día 2: el usuario entra al sitio a través de una búsqueda natural. El primer contacto permanece como “Pantalla” y el último contacto se establece como “Búsqueda natural”.
 * Día 35: el usuario no ha accedido al sitio en 33 días y regresa usando la pestaña que había abierto en su navegador. Suponiendo que se trate de una ventana de participación de 30 días, la ventana se habría cerrado y las cookies del canal de marketing habrían caducado. El canal de primer contacto y último contacto se restablecerán y se configurarán en Actualización de sesión, ya que el usuario accedió con una URL interna.
 
@@ -42,7 +46,7 @@ La configuración de caducidad consiste en lo siguiente:
 |--- |--- |
 | Días de inactividad | Cantidad de días que deben transcurrir antes de que caduque el compromiso de primer contacto del visitante. El valor predeterminado es 30. |
 | Nunca | El período de compromiso del visitante no caduca. |
-| Restablecimiento del canal | Termina todos los periodos de compromiso de los visitantes.  Si necesita restablecer todos los datos de canal de marketing, puede hacer que expiren todos los períodos de compromiso de los visitantes. Podría necesitar restablecer los datos si las reglas de procesamiento están mal configuradas. Todos los valores de canales de primer y último contacto expirarán inmediatamente y se restablecerán cuando vuelvan los visitantes. |
+| Restablecimiento del canal | Termina todos los periodos de compromiso de los visitantes.  Si necesita restablecer todos los datos de canal de marketing, puede hacer que expiren todos los períodos de participación de los visitantes. Es posible que deba restablecer los datos si las reglas de procesamiento se configuraron incorrectamente anteriormente. Todos los valores de canal de primer y último contacto caducarán inmediatamente y se restablecerán cuando vuelvan los visitantes. |
 
 ## Definición de la caducidad del canal de marketing {#define-expiration}
 

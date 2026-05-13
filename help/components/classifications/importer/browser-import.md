@@ -3,10 +3,15 @@ description: Los datos de clasificación pueden importarse (cargarse) a través 
 title: Importación del explorador
 feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/iFVW-d9C12dj6TXnUlA3-zVF0oBAWpJwg1JK8LqzF-s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 99%
+source-wordcount: 354
+ht-degree: 83%
 
 ---
 
@@ -29,8 +34,8 @@ Los datos de clasificación pueden importarse (cargarse) a través del explorado
 | Seleccionar grupo de informes | El grupo de informes donde deben importarse los datos de las clasificaciones. El archivo de datos de importación debe coincidir con el formato del conjunto de datos del grupo de informes. |
 | Conjunto de datos a clasificar | El conjunto de datos que debe recibir las clasificaciones. La lista desplegable incluye todos los informes de los conjuntos de informes que se han configurado para las clasificaciones. |
 | Seleccionar un archivo para importar | Permite explorar para buscar el archivo de datos de importación que debe cargarse.  Nota: El límite de tamaño del archivo de carga es de 1 MB. |
-| Sobrescribir datos sobre conflictos | Sobrescribe automáticamente los datos existentes que entran en conflicto con los datos importados.<br>**Importante**: Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
-| Descargar automáticamente el archivo de clasificaciones una vez completada la importación | Descarga automáticamente un archivo delimitado por tabuladores que representa el conjunto de datos con los datos de las clasificaciones que se acaban de cargar. Adobe genera automáticamente este archivo si la importación crea algún ID único o si se produce algún error.<br>**Importante**: Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
+| Sobrescribir datos sobre conflictos | Sobrescribe automáticamente los datos existentes que entran en conflicto con los datos importados.<br>**Importante**: esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
+| Descargar automáticamente el archivo de clasificaciones una vez completada la importación | Descarga automáticamente un archivo delimitado por tabuladores que representa el conjunto de datos con los datos de las clasificaciones que se acaban de cargar. Adobe genera automáticamente este archivo si la importación crea ID únicos o si se produce algún error.<br>**Importante**: Esta opción no está disponible para los grupos de informes habilitados para la nueva arquitectura de clasificación. |
 
 
 ## Importar clasificaciones a través del explorador {#task_D7D51CB6FB35437AB68599B1B23FEAC1}

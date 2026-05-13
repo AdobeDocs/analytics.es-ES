@@ -1,25 +1,30 @@
 ---
-description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
+description: A cada ID al que desee permitir búsquedas se le asigna un espacio de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 title: Espacios de nombres
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: 942
 ht-degree: 100%
 
 ---
 
 # Espacios de nombres
 
-A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
+A cada ID al que desee permitir búsquedas se le asigna un espacio de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 
-La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, esta incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
+La cadena del espacio de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, esta incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
 
-* Un campo “namespace” que contiene la cadena del área de nombres.
+* Un campo “namespace” que contiene la cadena del espacio de nombres.
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
-* Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
+* Un campo “value” que contiene el ID que Analytics debería buscar en las variables de espacio de nombres asociadas de cada uno de sus grupos de informes.
 
 Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) para obtener más información sobre la [lista de espacio de nombres de identidad estándar](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Crear un trabajo de acceso o eliminación](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para una solicitud de muestra.
 
@@ -75,7 +80,7 @@ Si el formato de la porción de valor de cualquiera de estos ID de cookie no cum
 
 Lo habitual es que recopile estos ID de cookie mediante el nuevo código de [JavaScript de privacidad](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) (vínculo a la documentación técnica), que proporcionará automáticamente todos los pares clave/valor para estos ID de JSON.
 
-Este código de JavaScript rellena el JSON con otros pares clave/valor además de los indicados arriba (área de nombres, tipo, valor), pero los campos que verá arriba son los más importantes para el tratamiento de la privacidad de datos de Analytics y los únicos que tendrá que proporcionar si recopila los ID con cualquier otro método.
+Este código de JavaScript rellena el JSON con otros pares clave/valor además de los indicados arriba (espacio de nombres, tipo, valor), pero los campos que verá arriba son los más importantes para el tratamiento de la privacidad de datos de Analytics y los únicos que tendrá que proporcionar si recopila los ID con cualquier otro método.
 
 ## ID de visitante personalizado
 
@@ -87,7 +92,7 @@ Este código de JavaScript rellena el JSON con otros pares clave/valor además d
 }
 ```
 
-El área de nombres también está predefinido para el ID de visitante personalizado.
+El espacio de nombres también está predefinido para el ID de visitante personalizado.
 
 ## ID en variables personalizadas
 
@@ -104,16 +109,16 @@ El área de nombres también está predefinido para el ID de visitante personali
 }
 ```
 
-En el caso de los ID en variables de tráfico o conversión personalizadas (props o eVars), etiquete la variable con ID-DEVICE o ID-PERSON y, después, asignar su propio nombre de área de nombres a ese tipo de ID. Consulte [Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
+En el caso de los ID en variables de tráfico o conversión personalizadas (props o eVars), etiquete la variable con ID-DEVICE o ID-PERSON y, después, asignar su propio nombre de espacio de nombres a ese tipo de ID. Consulte [Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
-También puede ver los áreas de nombres que haya definido con anterioridad para otras variables o grupos de informes y reutilizar uno de ellos, de forma que el mismo área de nombres pueda utilizarse para todos sus grupos de informes que almacenan ese tipo de ID. Además, es posible asignar el mismo área de nombres a diversas variables dentro de un grupo de informes. Por ejemplo, algunos clientes almacenan un ID de CRM en una variable de tráfico y una de conversión (según la página, a veces se usa solo una de las dos), y podrían asignar el área de nombres “ID de CRM” a ambas variables.
+También puede ver los espacios de nombres que haya definido con anterioridad para otras variables o grupos de informes y reutilizar uno de ellos, de forma que el mismo espacio de nombres pueda utilizarse para todos sus grupos de informes que almacenan ese tipo de ID. Además, es posible asignar el mismo espacio de nombres a diversas variables dentro de un grupo de informes. Por ejemplo, algunos clientes almacenan un ID de CRM en una variable de tráfico y una de conversión (según la página, a veces se usa solo una de las dos), y podrían asignar el espacio de nombres “ID de CRM” a ambas variables.
 
 >[!TIP]
 >
->No puede utilizar un nombre descriptivo de una variable (el nombre mostrado en la interfaz de usuario de generación de informes) o el número de la variable (como eVar12) cuando especifica el área de nombres en la API de privacidad de datos, a menos que también sea el área de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON. Utilizar un área de nombres en lugar de un nombre descriptivo permite que el mismo bloque de identidad del usuario especifique la variable correcta para múltiples grupos de informes. Por ejemplo, si el ID está en eVars diferentes en algunos grupos de informes o si los nombres descriptivos no coinciden (como cuando el nombre descriptivo se ha localizado para un grupo de informes específico).
+>No puede utilizar un nombre descriptivo de una variable (el nombre mostrado en la interfaz de usuario de generación de informes) o el número de la variable (como eVar12) cuando especifica el espacio de nombres en la API de privacidad de datos, a menos que también sea el espacio de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON. Utilizar un espacio de nombres en lugar de un nombre descriptivo permite que el mismo bloque de identidad del usuario especifique la variable correcta para múltiples grupos de informes. Por ejemplo, si el ID está en eVars diferentes en algunos grupos de informes o si los nombres descriptivos no coinciden (como cuando el nombre descriptivo se ha localizado para un grupo de informes específico).
 
 >[!CAUTION]
 >
->Las áreas de nombres `visitorId` y `customVisitorId` están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante del cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+>Los espacios de nombres `visitorId` y `customVisitorId` están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante del cliente de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
 
-Para obtener más información, consulte [Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
+Para obtener más información, consulte [Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)

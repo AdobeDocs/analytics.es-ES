@@ -1,9 +1,16 @@
 ---
 title: Identificación de visitantes con AppMeasurement
 description: Identifique correctamente a los visitantes al implementar Adobe Analytics mediante AppMeasurement.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: 38797ca5-dc53-431e-95df-3c9e68aead94
+TQID: https://experienceleague.adobe.com/vWLzF0HXreytCKr01H4-gKzNlO36ySHA2vbcHvT3cIw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 510
 ht-degree: 0%
 
 ---
@@ -64,9 +71,9 @@ Una vez que tenga los recursos anteriores, la siguiente página de ejemplo bási
 >
 >Adobe recomienda evitar este método para identificar a los visitantes.
 
-Si su organización no utiliza el servicio de ID de visitante, AppMeasurement utiliza su propia forma de identificación. Cuando un visitante llega a su sitio por primera vez, la biblioteca comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) o [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (para HTTP).
+Si su organización no utiliza el servicio de ID de visitante, AppMeasurement utiliza su propia forma de identificación. Cuando un visitante llega a su sitio por primera vez, la biblioteca comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (para HTTPS) o [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (para HTTP).
 
-* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
+* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
 * Si no participa en el programa de certificados administrados, el servidor de seguimiento suele ser un subdominio de `adobedc.net`, `omtrdc.net` o `2o7.net`, por lo que la cookie `s_vi` se convierte en una cookie de terceros. Debido a los estándares modernos de privacidad del explorador, la mayoría de los exploradores rechazan las cookies de terceros. Una vez rechazado, AppMeasurement intenta establecer una cookie de reserva (`fid`) de origen en su lugar.
 
 Si establece `trackingServerSecure` correctamente, no se requieren más medidas de identificación del visitante.

@@ -4,10 +4,14 @@ title: Filtrado de un informe de abandonos mediante el Asistente para solicitude
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/b-OBsmKfOFGtPK3Ar6pJtGUc3vZ4L2Jeei2sNK-7Npg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 80%
+source-wordcount: 248
+ht-degree: 77%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 80%
 
 Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
 
-En este ejemplo se muestra el informe de visitas en el orden previsto de página.
+Este ejemplo muestra el informe Visitas en el orden previsto de la página.
 
 1. En Report Builder de Adobe, haga clic en **[!UICONTROL Crear]** para abrir el Asistente para solicitudes.
 1. Seleccione el grupo de informes adecuado.

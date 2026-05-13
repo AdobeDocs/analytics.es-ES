@@ -4,9 +4,15 @@ title: Descargar la configuración del grupo de informes
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/9wZ2rIgzZtJduhFAx6XcD53H2qzB2SZMr0pbxCopBvk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: 541
 ht-degree: 95%
 
 ---
@@ -32,6 +38,6 @@ Descripción de los elementos utilizados al [crear un grupo de informes](/help/a
 | Vistas de la página estimadas por día | Indica la cantidad estimada de vistas de página que se espera que admita este grupo de informes cada día. Los volúmenes grandes de tráfico requieren un proceso de aprobación más largo. Para evitar que se retrase el procesamiento, indique una estimación lo más precisa que sea posible. |
 | Moneda base | Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. La creación de informes de análisis utiliza la variable de JavaScript currencyCode para identificar la moneda de una transacción determinada. |
 | Habilitar el procesamiento de palabras japonesas | Habilita la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato `ISO-8859-1` Las páginas Web deben especificar su conjunto de caracteres en la variable de JavaScript charSet. <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing.  Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, póngase en contacto con el equipo de cuentas de Adobe o el Servicio de atención al cliente. |
-| Utilizar menú de navegación simplificado | Esta característica era parte de [Reports &amp; Analytics](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?), que ya no es compatible. |
+| Usar menú de navegación simplificado | Esta característica era parte de [Reports &amp; Analytics](¿https://new.express.adobe.com/webpage/WFCyq7w8kijmB?), que ya no es compatible. |
 
 {style="table-layout:auto"}

@@ -4,10 +4,14 @@ description: Cree funciones de devolución de llamada antes de enviar una visita
 feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/jL-4dheXUBOdrkCxVfq3CpWrTOgwjvEDWZ-Eg-sL2y0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 55%
+source-wordcount: 435
+ht-degree: 54%
 
 ---
 
@@ -37,7 +41,7 @@ Web SDK no puede conectar una función después de compilar los datos pero antes
 
 ## Realizar un seguimiento previo de las llamadas de retorno implementando manualmente Web SDK
 
-Web SDK no puede conectar una función después de compilar los datos pero antes de enviarlos a Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#modifying-events-globally) en la documentación de Web SDK para obtener más información.
+Web SDK no puede conectar una función después de compilar los datos pero antes de enviarlos a Adobe. Sin embargo, puede usar `onBeforeEventSend` para registrar una función que se va a ejecutar justo antes de enviar los datos, de forma similar a `doPlugins`. Consulte [Modificación de eventos globalmente](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) en la documentación de Web SDK para obtener más información.
 
 ```js
 // Set the trackingCode XDM field to "New value"

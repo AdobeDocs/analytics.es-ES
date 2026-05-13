@@ -4,10 +4,15 @@ keywords: Grupo de informes virtuales
 title: Crear un grupo de informes virtuales
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 62%
+source-wordcount: 697
+ht-degree: 53%
 
 ---
 
@@ -46,15 +51,15 @@ En la pestaña [!UICONTROL Descripción de la visita], defina esta configuració
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una definición de visita](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una definición de visita](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 | Elemento | Descripción |
 | --- |--- |
 | **Configuración de definición de visitas** |  |
-| Habilitar el procesamiento del tiempo del informe | Use el procesamiento del tiempo del informe para cambiar la duración predeterminada del tiempo de espera de la visita. Esta configuración no es destructiva y se aplica solo en Analysis Workspace. [Más información](/help/components/vrs/vrs-report-time-processing.md) |
-| Tiempo de espera de la visita | Define la cantidad de inactividad que debe tener un visitante único antes de que se inicie una nueva visita automáticamente. Esto afectará la métrica de visitas, el contenedor de segmentos de visita y los eVars que caducan en la visita. |
+| Habilitar el procesamiento del tiempo del informe | Utilice el procesamiento del tiempo del informe para cambiar la duración predeterminada del tiempo de espera de visita. Esta configuración no es destructiva y se aplica solo en Analysis Workspace. [Más información](/help/components/vrs/vrs-report-time-processing.md) |
+| Tiempo de espera de la visita | Define la cantidad de inactividad que debe tener un visitante único antes de que se inicie automáticamente una nueva visita. Esto afectará la métrica de visitas, el contenedor de segmentos de visita y las eVars que caducan en la visita. |
 | Iniciar nueva visita con evento | Inicia una nueva sesión cuando cualquiera de los eventos especificados se activa independientemente de si una sesión ha excedido el tiempo de espera. |
 | **Configuración de visitas a aplicaciones móviles** | Modifique cómo se definen las visitas para las visitas a aplicaciones móviles recopiladas por los SDK para móviles de Adobe. Esta configuración no es destructiva y se aplica solo en Analysis Workspace. |
 | Evitar que las visitas en segundo plano generen una nueva visita individual | Evita que los resultados de fondo comiencen una nueva visita y que inflen las visitas y las métricas de visitante único. |

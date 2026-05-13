@@ -4,9 +4,12 @@ title: Creación y administración de plantillas
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 726
 ht-degree: 100%
 
 ---
@@ -45,7 +48,7 @@ Para obtener información sobre cómo los usuarios pueden crear un proyecto basa
 
 Los administradores pueden editar o eliminar las plantillas de la compañía.
 
-1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Workspace**] y, a continuación, seleccione las plantillas **[!UICONTROL _nombre_compañía_inicio_sesión _]**.
+1. En Analysis Workspace, seleccione la pestaña [!UICONTROL **Workspace**] y, a continuación, seleccione las plantillas **[!UICONTROL _nombre _compañía_inicio_sesión_]**.
 
 1. Si está viendo plantillas en una vista de columna ![icono de vista de columna](assets/column-view-icon.png):
 
@@ -63,9 +66,9 @@ Los administradores pueden editar o eliminar las plantillas de la compañía.
 
    1. Busque la plantilla que desea editar o eliminar.
 
-      ![Vista de tarjeta de plantilla de compañía](assets/company-template-cards.png)
+      ![Vista de tarjeta de la plantilla de la compañía](assets/company-template-cards.png)
 
-   1. Seleccione el icono Más y luego seleccione **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
+   1. Seleccione el icono Más y luego **[!UICONTROL Editar]** o **[!UICONTROL Eliminar]**.
 
       ![Edición o eliminación de la tarjeta de plantilla de la compañía](assets/company-template-card-edit-delete.png)
 
@@ -83,7 +86,7 @@ Los administradores pueden editar o eliminar las plantillas de la compañía.
    | **[!UICONTROL Casos de uso]** | Seleccione los casos de uso aplicables a esta plantilla. Puede seleccionar varios casos de uso: **[!UICONTROL participación]**, **[!UICONTROL conversión]**, **[!UICONTROL público]** y **[!UICONTROL adquisición]**. <p>Las selecciones que realice determinarán dónde se mostrará la plantilla y qué filtros se aplicarán a los usuarios que acceden a ella desde la página Plantillas de la organización.</p> |
    | **[!UICONTROL Etiquetas]** | Especifique las etiquetas que desea aplicar a la plantilla. Las personas pueden filtrar la lista de plantillas por las etiquetas que añada. |
 
-1. Seleccione [!UICONTROL **Guardar como plantilla**].
+1. Seleccione [!UICONTROL **Guardar como plantilla**]
 
 ## Cambiar el nombre, etiquetar o aprobar plantillas
 

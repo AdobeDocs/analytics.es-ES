@@ -2,9 +2,13 @@
 title: Migración de la extensión de etiquetas de Adobe Analytics a la extensión de etiquetas de Web SDK
 description: Actualice la implementación de Analytics en las etiquetas de recopilación de datos de Adobe Experience Platform para utilizar la extensión de SDK web.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1729
 ht-degree: 6%
 
 ---
@@ -128,7 +132,7 @@ Los pasos anteriores solo se aplican a las reglas que establecen valores. Los pa
    * [!UICONTROL Tipo]: Para `s.t()`, use **[!UICONTROL Vistas de página de detalles de páginas web]**. Para `s.tl()`, use **[!UICONTROL Clics en vínculos de interacción web]**. Si usa [`s.tl()`](../../vars/functions/tl-method.md), también debe incluir los campos siguientes en el objeto de datos. Estos campos se enumeran en [!UICONTROL Propiedades adicionales] al realizar la configuración de la acción [!UICONTROL Actualizar variable]:
       * [Nombre de la vinculación](../../vars/functions/tl-method.md)
       * [Tipo de vínculo](../../vars/functions/tl-method.md)
-      * [URL de vínculo](../../vars/config-vars/linkurl.md)
+      * [Dirección URL del vínculo](../../vars/config-vars/linkurl.md)
 1. Seleccione **[!UICONTROL Conservar cambios]**.
 1. Repita estos pasos para cada configuración de acción que utilice Adobe Analytics para enviar una señalización.
 

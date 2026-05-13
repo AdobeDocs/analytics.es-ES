@@ -3,10 +3,16 @@ title: eVar (dimensión de comercialización)
 description: Variables personalizadas que se relacionan con la dimensión Productos.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 92%
+source-wordcount: 437
+ht-degree: 79%
 
 ---
 
@@ -16,7 +22,7 @@ ht-degree: 92%
 
 Para obtener información detallada sobre cómo funcionan las eVars de comercialización, consulte [eVars de comercialización y métodos de búsqueda de productos](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
-Al medir el éxito de campañas o términos de búsqueda externos, normalmente se desea que un único valor reciba crédito por los eventos de éxito que se produzcan. Por ejemplo, si un cliente hace clic en un vínculo de una campaña de correo electrónico para visitar un sitio web, todas las compras que se realicen como resultado de ese clic deben abonarse a dicha campaña.
+Al medir el éxito de campañas externas o términos de búsqueda externos, normalmente desea que un solo valor reciba crédito por cualquier evento de éxito que se produzca. Por ejemplo, si un cliente hace clic en un vínculo de una campaña de correo electrónico para visitar su sitio web, todas las compras realizadas como resultado deben acreditarse a esa campaña.
 
 ¿Qué ocurre con los eventos que se realizan mediante búsquedas internas o a través de la exploración de categorías, cuando un cliente busca varios artículos? Por ejemplo, un cliente busca `"goggles"` en un sitio y agrega un par al carro de compras:
 
@@ -41,7 +47,7 @@ Si se habilita la comercialización para la eVar del ejemplo anterior, el térmi
 | Término de búsqueda interna | Ingresos |
 |---|---|
 | abrigo de invierno | $119 |
-| gafas protectoras | 38 $ |
+| gafas | $38 |
 
 Consulte [eVars de comercialización](/help/implement/vars/page-vars/evar-merchandising.md) para ver las instrucciones de implementación.
 

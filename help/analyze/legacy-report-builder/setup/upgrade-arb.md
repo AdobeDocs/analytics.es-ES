@@ -5,10 +5,15 @@ uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
 role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/U8I4dgJ4Ph682UFeeJGLkoT-6ycQ7yegRJwmZLkZ1-U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 51%
+source-wordcount: 230
+ht-degree: 33%
 
 ---
 
@@ -27,11 +32,11 @@ Cuando actualice Report Builder, tenga en cuenta las siguientes directrices:
 Para actualizar Report Builder
 
 1. Inicie sesión en su versión actual de Report Builder.
-1. Vaya al menú **[!UICONTROL Opciones]** para actualizar a la versión más reciente. El número de versión actual se muestra hacia el final del cuadro de diálogo Opciones.
+1. Vaya al menú **[!UICONTROL Opciones]** para actualizar a la versión más reciente. El número de versión actual se muestra en la parte inferior del cuadro de diálogo Opciones.
 
    ![Captura de pantalla que muestra el cuadro de diálogo Opciones y la versión actual y la nueva versión.](assets/upgrade.png)
 
-1. Si existe una versión nueva, haga clic en **[!UICONTROL Actualizar...]**. El botón mostrará a qué versión está actualizando, por ejemplo: *Actualizar a la versión 5.0.50*
+1. Si hay una versión nueva disponible, haga clic en **[!UICONTROL Actualizar...]**. El botón mostrará a qué versión está actualizando, por ejemplo: *Actualizar a la versión 5.0.50*
 
    >[!NOTE]
    >
@@ -48,7 +53,7 @@ Para actualizar Report Builder
 
 Siempre puede obtener la versión más reciente de Report Builder desde Adobe Analytics.
 
-1. Regístrese en Adobe Analytics y vaya a **[!UICONTROL Herramientas]**.
+1. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Herramientas]**.
 1. Haga clic en **[!UICONTROL Report Builder]**.
-1. En la pantalla de **[!UICONTROL Información general]**, seleccione la versión de 32 o 64 bits.
+1. En la pantalla **[!UICONTROL Información general]**, seleccione la versión de 32 o 64 bits.
 1. Haga clic en **[!UICONTROL Descargar ahora]**.

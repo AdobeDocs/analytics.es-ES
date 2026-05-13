@@ -4,10 +4,16 @@ title: Acerca del Administrador de tareas programadas
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/bH-sAinp0Hf0X9qesfrJMIUYdDqjrev5Hd7mRpihDLM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 86%
+source-wordcount: 788
+ht-degree: 80%
 
 ---
 
@@ -21,10 +27,10 @@ El [!UICONTROL Administrador de tareas programadas] le permite ver una lista de 
 
 El 21 de abril de 2022, implementamos cambios en las tareas programadas en Report Builder como parte de nuestros esfuerzos de optimización de rendimiento y entrega. Estos cambios incluían la eliminación de la capacidad de que los envíos programados “terminen después de x incidencias”. En respuesta a varias solicitudes de clientes que buscan más tiempo para explorar e implementar alternativas, hemos decidido restaurar esta opción de forma limitada hasta el **31 de enero de 2023**.
 
-Podrá programar tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento &quot;terminar después de x incidencias&quot; permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual).
+Podrá programar tareas de Report Builder por hora y hacer que finalicen después de un máximo de 99 incidencias. Tenga en cuenta que la reversión solo se aplica a tareas por hora; el evento “terminar después de x incidencias” permanecerá no disponible para todos los demás intervalos de entrega (diario, semanal, mensual y anual).
 
 Tenga en cuenta que esta opción se retiró el 31 de enero de 2023.
-Para obtener más información o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
+Para obtener más información o ayuda, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 Específicamente, esta pausa se aplica a **cualquier tarea creada antes del 31 de enero de 2020**. No se eliminarán tareas, libros ni datos. Las tareas que tengan más de dos años se pausarán y no se enviarán tareas programadas adicionales.
 
@@ -40,11 +46,11 @@ El propósito de esta pausa es administrar y mantener de forma eficaz nuestra ba
 | --- | --- |
 | **[!UICONTROL Pestaña Informes programados]** | |
 | [!UICONTROL Nombre del informe] | Indica el nombre de la tarea programada. |
-| [!UICONTROL Correo electrónico/FTP] | La dirección de correo electrónico o FTP del destinatario. **Nota:** Si el correo electrónico está seleccionado, los informes que tengan un tamaño mayor que 1 MB se adjuntan directamente al correo electrónico como un archivo .zip. Esta función no se puede desactivar y ayuda a que el tamaño de archivo siempre sea reducido. |
+| [!UICONTROL Correo electrónico/FTP] | La dirección de correo electrónico o FTP del destinatario. **Nota:** Si el correo electrónico está seleccionado, los informes de más de 1 MB se adjuntan automáticamente al correo electrónico como un archivo .zip. Esta función no se puede desactivar y ayuda a que el tamaño de archivo siempre sea reducido. |
 | [!UICONTROL Opciones de publicación] | Esta columna indicará Power BI si una de las [opciones de publicación de Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) está seleccionada. |
 | [!UICONTROL Programación] | El tipo de envío programado. |
 | [!UICONTROL Formato del archivo] | El formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. |
-| [!UICONTROL Reactivar] | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutarlo dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó.<p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación.<p>**Nota:** No reactive un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Para solucionar problemas, descargue un libro desactivado y actualícelo en el lado del cliente. Si no aparecen errores, debería poder reactivarlo. |
+| [!UICONTROL Reactivar] | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutarlo dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, la entrega programada se reinicia desde el momento en que se desactiva.<p>Por ejemplo, si un libro programado se desactivó hace 14 días y lo reactiva hoy, se ejecuta para cada día que falta y se enviará 14 veces. Si no desea que el libro se envíe en los días que faltan, puede eliminar el libro programado y, a continuación, crear un nuevo libro programado utilizando los mismos parámetros de programación.<p>**Nota:** No reactive un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Para solucionar problemas, descargue un libro desactivado y actualícelo en el lado del cliente. Si no aparecen errores, debería poder reactivarlo. |
 | [!UICONTROL Enviado por última vez] | La fecha y la hora en que se envió el informe por última vez. |
 | **Pestaña de destinatario** | |
 | [!UICONTROL Correo electrónico del destinatario] | El destinatario de correo electrónico del informe. |

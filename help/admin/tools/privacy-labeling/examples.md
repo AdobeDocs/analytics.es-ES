@@ -4,10 +4,15 @@ title: Ejemplos de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
+TQID: https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 81%
+source-wordcount: 734
+ht-degree: 86%
 
 ---
 
@@ -18,12 +23,12 @@ ht-degree: 81%
 Supongamos que tiene los siguientes datos de visitas:
 
 * La primera fila contiene las etiquetas de cada variable.
-* La segunda fila es el nombre de la variable. Si tiene una etiqueta de ID, contiene el área de nombres asignado entre paréntesis.
+* La segunda fila es el nombre de la variable. Si tiene una etiqueta de ID, contiene el espacio de nombres asignado entre paréntesis.
 * Los datos de visitas comienzan en la tercera fila.
 
 | Etiquetas | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de variable** <br> **(Área de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1**  | **MyEvar2**  | **MyEvar3** <br>  **(xyz)** |
+| **Nombre de variable** <br> **(Espacio de nombres)** | **MyProp1** <br> **(usuario)** | **ID de visitante** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Datos de visitas | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
@@ -126,7 +131,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
     <td>false</td>
     <td>dispositivo</td>
     <td>no presente</td>
-    <td>57, 77</td>
+    <td>55, 77</td>
     <td>no presente</td>
     <td>M, R</td>
     <td>X</td>
@@ -136,7 +141,7 @@ Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la
     <td>true</td>
     <td>dispositivo</td>
     <td>no presente</td>
-    <td>57, 77</td>
+    <td>55, 77</td>
     <td>no presente</td>
     <td>M, P, R</td>
     <td>W, X</td>

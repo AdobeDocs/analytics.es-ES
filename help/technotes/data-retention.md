@@ -3,10 +3,16 @@ title: Política de retención de datos
 description: Una política de retención de datos determina el tiempo que Adobe almacena los datos.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 95%
+source-wordcount: 617
+ht-degree: 92%
 
 ---
 
@@ -14,7 +20,7 @@ ht-degree: 95%
 
 Los datos recopilados por Adobe Analytics se conservan durante un período de tiempo específico. El tiempo que Adobe mantiene estos datos varía según el contrato y se describe en la política de retención de datos de una organización. Esta política se aplica a los propios datos, por lo que afecta a todas las capacidades de informes de Analytics (Analysis Workspace, la API de informes, etc.).
 
-**La política de retención de datos predeterminada de Adobe Analytics es de 25 meses.** La política de retención de su organización puede ser diferente en función del contrato.
+**La directiva de retención de datos predeterminada para Adobe Analytics es de 25 meses.** La política de retención de su organización puede ser diferente en función del contrato.
 
 Los datos retenidos se basan en la fecha actual y en la fecha y hora de los datos históricos. La fecha y la hora registradas en las visitas pueden no coincidir con la fecha y la hora en que Adobe recibió la visita o visitas.
 

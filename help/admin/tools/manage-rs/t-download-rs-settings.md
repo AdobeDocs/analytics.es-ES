@@ -1,12 +1,16 @@
 ---
-description: Instrucciones sobre cómo generar una hoja de cálculo de Excel con toda la configuración del grupo de informes seleccionado.
+description: Instrucciones sobre cómo generar una hoja de cálculo de Excel que contenga todos los ajustes del grupo de informes seleccionado.
 title: Descargar la configuración de grupo de informes
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FmVwcrkS-SE0BIz-VhnbSkozG4uTdwOn85pmP9vvlvA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: 125
+ht-degree: 85%
 
 ---
 

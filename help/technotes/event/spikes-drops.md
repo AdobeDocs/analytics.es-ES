@@ -3,9 +3,14 @@ title: Solución de problemas de picos y caídas de datos
 description: Conocer las posibles razones por las que puede ver incrementos o disminuciones drásticos en los informes de tendencias.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: 856
 ht-degree: 100%
 
 ---
@@ -25,7 +30,7 @@ Las caídas del tráfico se clasifican en dos secciones: datos parciales y datos
 * **Latencia del grupo de informes**: En ocasiones, un grupo de informes puede experimentar [latencia](../latency.md) debido a una serie de factores. Muchos de los problemas de latencia se resuelven en unas horas. Si le preocupa un grupo de informes específico, póngase en contacto con el servicio de atención al cliente de Adobe con la ID del grupo de informes correspondiente.
 * **Eliminación de la implementación**: A veces, cuando una organización realiza cambios de implementación o reestructura su sitio, se pasa por alto la reimplementación de Analytics. Trabaje con los desarrolladores de su organización para volver a implementar el código en su sitio.
 * **Problema de caché/interfaz de Analytics**: En raras ocasiones, la memoria caché de un explorador contiene datos no válidos que hacen que todos los informes devuelvan ceros. Borre las cookies y la memoria caché del explorador para resolver el problema. Si la eliminación de cookies o de la memoria caché no funciona, póngase en contacto con el servicio de atención al cliente con el informe y el intervalo de fechas que faltan; pueden duplicar el problema y proporcionar información adicional.
-* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/es/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
+* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
 
 ### Posibles causas de la pérdida parcial de datos o la disminución del tráfico
 

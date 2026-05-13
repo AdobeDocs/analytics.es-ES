@@ -4,9 +4,14 @@ keywords: Fuente de datos;prácticas recomendadas;pico de tráfico;por hora;ftp
 title: Prácticas recomendadas e información general
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/-8EoregiCONFrXywjKP5zMdypH-FM67ij1nVfxupBdY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 289
 ht-degree: 84%
 
 ---
@@ -21,7 +26,7 @@ A continuación se indican algunas de las prácticas recomendadas para el proces
 
 * Las fuentes por hora que utilizan la entrega de varios archivos realizan el proceso más rápido. Considere la posibilidad de utilizar fuentes de archivos múltiples por hora si una entrega a tiempo es de gran importancia para su organización.
 
-* Si automatiza el proceso de ingesta de fuentes, considere la posibilidad de que las visitas y los archivos se puedan transferir más de una vez. El proceso de ingesta de fuentes debe gestionar las visitas y los archivos duplicados sin tener que borrar o duplicar datos. Se recomienda utilizar la combinación de las columnas `hitid_high` y `hitid_low` para identificar una visita de forma exclusiva. 
+* Si automatiza el proceso de ingesta de fuentes, considere la posibilidad de que las visitas y los archivos se puedan transferir más de una vez. El proceso de ingesta de fuentes debe gestionar las visitas y los archivos duplicados sin tener que borrar o duplicar datos. Se recomienda utilizar la combinación de las columnas `hitid_high` y `hitid_low` para identificar una visita de forma exclusiva.
 
   En casos excepcionales, puede ver valores `hitid_high` y `hitid_low` duplicados. Si esto sucede, confirme que el archivo no se ha enviado ni procesado anteriormente. Si solo algunas de las filas de un archivo están duplicadas, considere la posibilidad de añadir `visit_num` y `visit_page_num` para ayudar a determinar la exclusividad.
 

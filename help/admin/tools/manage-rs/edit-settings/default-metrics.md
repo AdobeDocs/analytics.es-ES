@@ -1,13 +1,19 @@
 ---
-description: Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. Solo se pueden actualizar las medidas predeterminadas de un grupo de informes cada vez. Esta configuración no garantiza el orden en el que se muestran las métricas predeterminadas.
+description: Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las métricas seleccionadas se muestran para todos los usuarios del grupo de informes asociado. Solo se puede actualizar las métricas predeterminadas de un grupo de informes a la vez. Esta configuración no garantiza el orden en que se muestran las métricas predeterminadas.
 title: Métricas predeterminadas
 feature: Admin Tools
 uuid: 85d50082-aab6-4c4f-b88b-77c9a35b3f6e
 exl-id: b09dc5f3-414e-4d0d-9e89-b029d9a6a642
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/COW2IVebQQTePknuVkTKo84ItVIm2eewEf90478g7hk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 84%
+source-wordcount: 143
+ht-degree: 29%
 
 ---
 
@@ -15,10 +21,10 @@ ht-degree: 84%
 
 [!UICONTROL **Editar configuración**] > [!UICONTROL **Configuración de grupo de informes individual**] > [!UICONTROL **Métricas predeterminadas**]
 
-Analytics muestra un conjunto predeterminado de métricas en todos los informes y proyectos, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. Solo se pueden actualizar las medidas predeterminadas de un grupo de informes cada vez. Esta configuración no garantiza el orden en el que se muestran las métricas predeterminadas.
+Analytics muestra un conjunto predeterminado de métricas en todos los informes y proyectos, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las métricas seleccionadas se muestran para todos los usuarios del grupo de informes asociado. Solo se puede actualizar las métricas predeterminadas de un grupo de informes a la vez. Esta configuración no garantiza el orden en que se muestran las métricas predeterminadas.
 
 Para obtener más información, consulte:
 
 * [Métricas en Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md)
 
-* [Métricas calculadas &#x200B;](/help/components/calculated-metrics/cm-overview.md)
+* [Métricas calculadas](/help/components/calculated-metrics/cm-overview.md)

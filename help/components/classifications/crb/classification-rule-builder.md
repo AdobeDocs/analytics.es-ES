@@ -3,9 +3,14 @@ description: En lugar de mantener y cargar clasificaciones cada vez que cambien 
 title: Flujo de trabajo del generador de reglas de clasificación
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/OxaFgvuHsCQwBpx9V1d5fH7ge-7YszN1ODvgBFkpgs8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 596
 ht-degree: 86%
 
 ---
@@ -46,7 +51,7 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 | Paso 4: [Agregar reglas de clasificación al conjunto](classification-quickstart-rules.md). | [!UICONTROL Clasificación del Generador de reglas] >  &lt;su conjunto de reglas> | Hacer coincidir una condición con una clasificación y especificar la acción que debe realizarse con la regla.  Familiarícese con la información en [Cómo procesarlas reglas](classification-quickstart-rules.md). |
 | Paso 5: [Probar un conjunto de reglas de clasificación](classification-quickstart-rules.md) | [!DNL Testing Page] | Para probar las reglas antes de su validación, deben editarse en modo borrador. En este modo, las reglas no pueden ejecutarse.<br>Este paso es importante cuando se utilizan [expresiones regulares](classification-quickstart-rules.md). |
 | Paso 6: [Activar reglas válidas](classification-rule-definitions.md). | [!DNL Rules Page] | Cuando las reglas se definen como válidas se puede activar el conjunto de reglas.  Si se considera necesario, pueden sobrescribirse las claves existentes. Ver [Cómo procesar las reglas](classification-quickstart-rules.md). |
-| Paso 7 (opcional): [Eliminar las reglas no deseadas](classification-rule-definitions.md). | [!DNL Rules Page] | Eliminar las reglas no deseadas de un conjunto.<br>Nota: al eliminar las reglas, no se eliminan los datos clasificados que se han cargado. Consulte [Eliminar datos de clasificación](/help/components/classifications/importer/t-delete-classification-data.md) si necesita eliminar datos clasificados. |
+| Paso 7 (opcional): [Eliminar las reglas no deseadas](classification-rule-definitions.md). | [!DNL Rules Page] | Eliminar las reglas no deseadas de un conjunto.<br>Nota: al eliminar las reglas no se eliminan los datos clasificados que se han cargado. Consulte [Eliminar datos de clasificación](/help/components/classifications/importer/t-delete-classification-data.md) si necesita eliminar datos clasificados. |
 
 >[!NOTE]
 >

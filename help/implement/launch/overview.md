@@ -4,10 +4,15 @@ description: Obtenga información sobre cómo implementar Adobe Analytics usando
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: 396
+ht-degree: 74%
 
 ---
 
@@ -58,14 +63,14 @@ Una información general de alto nivel de las tareas de implementación:
 
 <tr>
 <td>5</td>
-<td><b>Implementar en un entorno de desarrollo</b>. Utilice un entorno en el que pueda iterar en el desarrollo de etiquetas.</td>
+<td><b>Implementar en un entorno de desarrollo</b>. Contar con un entorno en el que pueda iterar en el desarrollo de etiquetas.</td>
 <td><a href="./deploy-dev.md">Integrar una implementación de Analytics en un entorno de desarrollo</td>
 </tr>
 
 <tr>
 <td>6</td> 
 <td><b>Validación y publicación para producción</b>. Incruste el código para incluir la propiedad de etiquetas en las páginas del sitio web. A continuación, utilice elementos de datos, reglas, etc. para personalizar la implementación.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=es#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Código incrustado</a><br/><a href="./validate-publish-prod.md">Validar una implementación de desarrollo y publicar en producción</a></td>
 </tr>
 
 </table>

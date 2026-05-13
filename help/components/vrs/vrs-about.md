@@ -3,10 +3,16 @@ description: Los grupos de informes virtuales segmentan los datos de Adobe Analy
 title: Resumen de los grupos de informes virtuales
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+TQID: https://experienceleague.adobe.com/gEs8c9pIUGbbPx7DBAwFhSvT-C6W2vfosgMkrO-32ic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: 812
+ht-degree: 36%
 
 ---
 
@@ -14,32 +20,32 @@ ht-degree: 100%
 
 Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
 
-Muchos clientes mantienen un flujo de datos hacia un grupo de informes global, pero también hacia grupos de informes menores. Establecen una variable en varios grupos de informes y envían sus datos a más de uno de estos grupos. Esto se denomina *etiquetado de grupos múltiples*, o *grupos de informes base/principal*.
+Muchos clientes tienen datos que fluyen a un grupo de informes globales, pero también datos que fluyen a grupos de informes más pequeños. Configuran una variable en varios grupos de informes y envían sus datos a más de un grupo de informes. Esto se denomina *etiquetado de grupos múltiples*, o *grupos de informes base/principal*.
 
-Por ejemplo, todos los datos podrían recopilarse en un grupo de informes, pero luego puede establecer grupos de informes secundarios para que los empleados de la empresa tengan acceso a parte de estos datos, pero no a todos. Los datos podrían dividirse por regiones. Podrían tenerse distintos sitios web para distintos países. Otro ejemplo puede ser un grupo de marcas específicas que pertenecen a una misma empresa superior, aunque cada una con sus propios equipos de marketing.
+Por ejemplo, es posible que todos los datos se recopilen en un grupo de informes, pero luego puede configurar grupos de informes secundarios para que otras personas de su empresa tengan acceso a parte de los datos, pero no a todos. Los datos pueden dividirse por región. Puede tener diferentes sitios web para diferentes países. Otros ejemplos pueden ser marcas específicas que pertenecen a una compañía más grande, pero que cada una tiene sus propios equipos de marketing.
 
-Un *grupo de informes virtuales* le permite reproducir este concepto de ramificación, empleando segmentos en lugar de múltiples grupos de informes. Los datos se envían a un solo grupo de informes que luego se dividen en segmentos. Siguiendo el ejemplo de las distintas marcas, podría establecerse un prop para la marca a la que pertenece un artículo. Mediante segmentos, se podría realizar un informe con los artículos asignados a cada prop. Cada uno de estos segmentos se convierte en su propia visualización, lo que crea un nuevo grupo de informes. No se envían datos específicamente a los segmentos, sino al grupo de informes global, pero en los informes funciona como si fuera un grupo de informes diferente.
+Un *grupo de informes virtuales* le permite reproducir este concepto de ramificación, empleando segmentos en lugar de múltiples grupos de informes. Los datos se envían a un solo grupo de informes que luego se dividen en segmentos. En el ejemplo de varias marcas, puede establecer una propiedad para la marca a la que pertenece un elemento. Mediante segmentos, puede crear informes sobre los elementos asignados a cada propiedad. Cada uno de estos segmentos se convierte en su propia vista y crea, de hecho, un nuevo grupo de informes. Los datos no se envían específicamente a ese segmento, solo al grupo de informes globales, sino que funcionan en los informes como si se tratara de un grupo de informes diferente.
 
 Un grupo de informes virtuales hereda la mayoría de los niveles de servicio del grupo de informes base, como la configuración de eVar, las reglas de procesamiento, las clasificaciones, etc. NO se heredan las siguientes opciones de configuración:
 
-* ID de grupo de informes (RSID)
+* ID del grupo de informes (RSID)
 * Nombre del grupo de informes
 * Grupos de permisos (los grupos de informes virtuales se pueden asignar a sus propios grupos de permisos)
 
 ## Ventajas de los grupos de informes virtuales {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
-Los clientes pagan las llamadas del servidor secundario, así que eliminarlas puede conllevar un ahorro significativo. Un grupo de informes virtuales también es completamente retroactivo. Si el grupo de informes global ya contiene datos, los datos relevantes se incluyen automáticamente en un nuevo grupo de informes virtuales. Un nuevo grupo de informes secundario solo comenzaría a recopilar datos tras su creación, por lo que no incluiría ningún dato histórico. Cuando se implementa Analytics, solo es necesario enviar datos a un grupo de informes, no hace falta crear implementaciones para el grupo de informes global y para cada grupo de informes secundario.
+Los clientes pagan por llamadas secundarias al servidor, por lo que si se eliminan estas llamadas se pueden obtener ahorros significativos. Un grupo de informes virtuales también es completamente retroactivo. Si el grupo de informes globales ya contiene datos, estos se incluyen automáticamente en un nuevo grupo de informes virtuales. Un nuevo grupo de informes secundarios solo empezaría a recopilar datos una vez creado, por lo que no incluiría ningún dato histórico. Al implementar Analytics, solo es necesario enviar datos a un grupo de informes, en lugar de tener que crear implementaciones para el grupo de informes globales y cada grupo de informes secundarios.
 
 Los grupos de informes virtuales ayudan a:
 
-* Simplificar la implementación permitiéndole utilizar un solo ID de grupo de informes (RSID) en todos los sitios o dominios. Tener todos los datos en un único grupo de informes permite el análisis de clientes conforme se avanza a la siguiente generación de Adobe Analytics.
-* Los usuarios empresariales de su organización ven solo los segmentos de datos que les son relevantes.
-* Mejorar la seguridad permitiendo a los usuarios administradores controlar el acceso a los datos más fácilmente y con más granularidad después de la implementación.
-* Métrica Personas
-* Una visualización de datos de un solo cliente (en el futuro)
-* La capacidad para crear grupos de informes virtuales ilimitados con los que segmentar datos
+* Simplifique la implementación permitiéndole utilizar un único ID del grupo de informes (RSID) en todos los sitios o dominios. Tener todos los datos en un único grupo de informes habilita el análisis de clientes a medida que avanzamos hacia la siguiente generación de Adobe Analytics.
+* Los usuarios empresariales de su organización siempre ven solo los segmentos de datos que les interesan.
+* Mejore la seguridad permitiendo a los usuarios administradores controlar el acceso a los datos de forma más sencilla y granular después de la implementación.
+* Métrica de usuarios
+* Una vista de datos de un solo cliente (en el futuro)
+* La capacidad de crear grupos de informes virtuales ilimitados para segmentar datos
 
-## Limitaciones de los grupos de informes virtuales  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitaciones de los grupos de informes virtuales {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Los grupos de informes virtuales tienen las siguientes limitaciones :
 
@@ -53,12 +59,12 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 
 | Compatibilidad | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |
-| Ofrece informe en tiempo real o de datos actuales | No | Sí |
+| Ofrece informes en tiempo real o de &quot;datos actuales&quot; | No | Sí |
 | Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editarlos e identificarlos como grupos de informes virtuales en [!UICONTROL Analytics] > [!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas.<p>**Importante**: Los grupos de informes virtuales con procesamiento en tiempo de informe y personalización de variables no son compatibles actualmente con Adobe Report Builder. | Sí |
-| Puede cargar datos en él (a través de clasificaciones, fuente de datos, etc.) | No | Sí |
-| Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
+| Puede cargar datos en él (a través de clasificaciones, fuentes de datos, etc.) | No | Sí |
+| Admite la creación de informes DL, marcadores, tableros, destinos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
-| Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
+| Puede utilizar las funciones de administración para modificar la configuración individual de este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda del elemento principal) | Sí |
 
 {style="table-layout:auto"}
 
@@ -66,4 +72,4 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 
 En algunos casos, es conveniente utilizar tanto los grupos de informes virtuales como el etiquetado de grupos múltiples.
 
-Por ejemplo, una tienda minorista podría utilizar un grupo de informes para cada marca y, luego, grupos de informes virtuales para cada marca con el fin de dividir los datos por región. Igualmente, una organización deportiva podría utilizar un grupo de informes para cada equipo y, luego, grupos de informes virtuales para diferenciar entre los aficionados residentes en la región del equipo y todos los demás.
+Por ejemplo, una retailer podría utilizar un grupo de informes para cada marca y grupos de informes virtuales para cada marca para desglosar los datos por región. Del mismo modo, una organización atlética puede utilizar un grupo de informes para cada equipo y, a continuación, grupos de informes virtuales para dividir los aficionados de la región del equipo entre los de fuera de la región.

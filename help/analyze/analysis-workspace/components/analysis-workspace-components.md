@@ -4,9 +4,15 @@ description: Aprenda qué componentes ofrece Adobe Analytics y cómo puede utili
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 941
 ht-degree: 100%
 
 ---
@@ -27,7 +33,7 @@ Puede administrar los siguientes componentes:
 * [Intervalos de fechas:](calendar-date-ranges/custom-date-ranges.md) personalice y especifique las ofertas de Analysis Workspace en los intervalos de fechas.
 * [Proyectos programados](../curate-share/t-schedule-report.md): administre sus proyectos programados.
 * [Ubicaciones](../../../components/locations/locations-manager.md): administre las ubicaciones a las que desea exportar los proyectos.
-* [Alertas](/help/components/alerts/alerts-overview.md): le permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos. 
+* [Alertas](/help/components/alerts/alerts-overview.md): le permiten recibir notificaciones basadas en porcentajes modificados o puntos de datos específicos.
 * [Anotaciones](annotations/overview.md): comunicar matices y perspectivas de datos contextuales a su organización.
 * [Preferencias](/help/analyze/analysis-workspace/user-preferences.md): administre las preferencias de Analysis Workspace.
 
@@ -101,8 +107,8 @@ Puedes buscar, filtrar y ordenar la lista de componentes en el panel izquierdo d
    | ![Star](/help/assets/icons/Star.svg) | **[!UICONTROL Favoritos]** | Mostrar solo los componentes que se encuentran en la lista de Favoritos. <br/>Para obtener información sobre cómo añadir componentes a la lista de favoritos, consulta[Información general sobre componentes](#manage-components). |
    | ![Dimensiones](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensiones]** | Mostrar solo los componentes que son dimensiones. |
    | ![Evento](/help/assets/icons/Event.svg) | **[!UICONTROL Métricas]** | Mostrar solo los componentes que son métricas. |
-   | ![Segmentación](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmentos]** | Mostrar solo los componentes que son segmentos.  |
-   | ![Calendario](/help/assets/icons/Calendar.svg) | **[!UICONTROL Intervalos de fechas]** | Mostrar solo los componentes que son intervalos de fechas.  |
+   | ![Segmentación](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segmentos]** | Mostrar solo los componentes que son segmentos. |
+   | ![Calendario](/help/assets/icons/Calendar.svg) | **[!UICONTROL Intervalos de fechas]** | Mostrar solo los componentes que son intervalos de fechas. |
    | ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL *Nombre de etiqueta *]** | Mostrar solo los componentes con las etiquetas seleccionadas específicas. Hay disponible una etiqueta específica para la plantilla de Adobe, que son las [métricas calculadas predeterminadas](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md) de Adobe. |
 
    Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) en un filtro para quitar el filtro.

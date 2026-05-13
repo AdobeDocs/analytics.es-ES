@@ -1,13 +1,18 @@
 ---
 description: Obtenga información sobre las métricas calculadas que puede crear a partir de métricas existentes.
-keywords: 'Métricas calculadas '
+keywords: Métricas calculadas
 title: Información general sobre las métricas calculadas
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 99%
+source-wordcount: 317
+ht-degree: 75%
 
 ---
 
@@ -17,7 +22,7 @@ Las métricas calculadas son métricas personalizadas que puede crear a partir d
 
 Las métricas calculadas son personalizadas y se pueden crear a partir de métricas existentes. Las métricas calculadas ofrecen una forma flexible de crear, administrar y depurar métricas personalizadas que te permiten analizar los datos sin tener que cambiar la implementación.
 
-Las métricas calculadas están disponibles en cada paquete de [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para Experience Cloud se limita a las métricas calculadas básicas que incluyen [tipos de formato (decimal, hora porcentaje, moneda)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
+Las métricas calculadas están disponibles en cada paquete [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para Experience Cloud se limita a métricas calculadas básicas que incluyen [tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
 
 
 Consulte la [Descripción del producto Adobe Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics.html) para obtener más información.
@@ -59,13 +64,13 @@ Algunas funciones de [!DNL Analytics] no permiten el uso de métricas calculadas
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Métricas calculadas segmentadas en segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +90,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Crear métricas](/help/components/calculated-metrics/workflow/cm-workflow.md)
->[Generar métricas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[Crear métricas](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
 >[Usar funciones](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

@@ -5,10 +5,14 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/nKf59WLxvtYrcyR-mQ8oM41rUDLl3qpkwbujRDBV27A
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 38%
+source-wordcount: 585
+ht-degree: 36%
 
 ---
 
@@ -37,7 +41,7 @@ Tenga en cuenta las siguientes directrices cuando añada métricas y dimensiones
 
 * Al introducir un término de búsqueda, la lista se actualiza automáticamente para mostrar las métricas que tienen etiquetas que coinciden con el término de búsqueda.
 * La coincidencia distingue entre mayúsculas y minúsculas y equivale a una búsqueda *contiene*.
-* No se admiten búsquedas de palabras completas ni otros indicadores de búsqueda especiales (empieza por, termina por, AND, OR, etc.).
+* Búsquedas de palabras completas y otros indicadores de búsqueda especial (comienza con, termina con, AND, OR, etc.) no son compatibles.
 
 El término de búsqueda se borra al salir del Asistente para solicitudes al hacer clic en [!UICONTROL Finalizar] o [!UICONTROL Cancelar], al volver al Paso 1 del Asistente para solicitudes o al cambiar la categoría de Métrica.
 
@@ -72,7 +76,7 @@ Para ordenar una solicitud por métrica
    * Semana
    * Mes
    * Año
-   * Intervalo de fecha (cuando no se especifica granularidad)
+   * Intervalo de fecha (cuando no se especifica ninguna granularidad)
 
 1. Modifique las métricas y las dimensiones configurando las [opciones y los filtros de formato](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md).
 1. Haga clic en **[!UICONTROL Finalizar]**.

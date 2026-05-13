@@ -4,10 +4,16 @@ description: Aprenda a cambiar los datos de centrados en el dispositivo a centra
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 56%
+source-wordcount: 837
+ht-degree: 54%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->El gráfico de dispositivos de Cross-Device Analytics está [obsoleto](https://experienceleague.adobe.com/es/docs/discontinued/using/device-graph) y ya no estará disponible el **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
+>El gráfico de dispositivos de Cross-Device Analytics está [obsoleto](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) y ya no estará disponible el **31 de diciembre de 2025**. Cambie cualquier grupo de informes virtuales habilitado para gráficos de dispositivos actuales al [método basado en campos](/help/components/cda/field-based-stitching.md).
 >
 
 
@@ -55,7 +61,7 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de un ID de organización. Dado que el análisis entre dispositivos vincula dispositivos dentro de un grupo de informes determinado, el análisis entre dispositivos no se puede usar para unir datos en varios ID de organización.
 * El análisis entre dispositivos utiliza una compleja canalización de procesamiento, con varios componentes dependientes. Esta canalización se ejecuta en paralelo con el flujo de trabajo base de informes de Analytics. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales de análisis entre dispositivos.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Por ejemplo, actualmente no admiten variables de Canales de marketing. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](/help/components/vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
-* Private Graph aprovecha las mismas sincronizaciones de ID que las sincronizaciones de ID utilizadas por la funcionalidad [Atributos del cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/services/customer-attributes/attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de Cross-Device Analytics (basados en gráficos privados o en la vinculación basada en el campo) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de análisis entre dispositivos.
+* Private Graph aprovecha las mismas sincronizaciones de ID que las sincronizaciones de ID utilizadas por la funcionalidad [Atributos del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de Cross-Device Analytics (basados en gráficos privados o en la vinculación basada en el campo) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en atributos del cliente no están disponibles para su uso en los grupos de informes virtuales de análisis entre dispositivos.
 * Actualmente, Análisis entre dispositivos no es compatible con A4T.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * La monitorización activa del proceso de vinculación de análisis entre dispositivos por parte de Adobe se limita solo a los grupos de informes de producción.

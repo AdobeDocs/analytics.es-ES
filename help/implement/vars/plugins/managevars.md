@@ -4,9 +4,13 @@ description: Modifique los valores de más de una variable de Analytics a la vez
 feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Nn-JbnMXOQLi8DFh46lCLRjgTtn6RQE6mq2riP5Tqe8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 712
 ht-degree: 83%
 
 ---
@@ -37,7 +41,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar manageVars
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 
@@ -61,7 +65,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Uso del complemento
 
-La función `manageVars` utiliza los argumentos siguientes:
+La función `manageVars` utiliza los siguientes argumentos:
 
 * **`cb`** (obligatorio, cadena): El nombre de una función de llamada de retorno que el complemento utiliza para manipular las variables de Analytics. Puede utilizar una función de Adobe como `cleanStr` o su propia función personalizada.
 * **`l`** (opcional, cadena): Una lista delimitada por comas de las variables de Analytics que desea manipular. Si no se establece, el valor predeterminado son TODAS las variables de Adobe Analytics, lo que incluye:
@@ -95,7 +99,7 @@ El siguiente código...
 manageVars("lowerCaseVars");
 ```
 
-...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción es la variable de eventos, ya que algunos eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben cambiarse a minúsculas
+...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción es la variable de eventos, ya que algunos eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben cambiarse a minúsculas.
 
 ### Ejemplo 2
 
@@ -141,7 +145,7 @@ manageVars("cleanStr");
 * Elimina los espacios en blanco que se encuentran al principio y al final del valor
 * Reemplaza comillas simples izquierda/derecha por una comilla simple recta (`'`)
 * Reemplaza caracteres de tabulación, caracteres de nueva línea y caracteres de retorno de carro por espacios
-* Reemplaza todos los espacios dobles (o triples, etc.) con espacios únicos
+* Reemplaza todos los espacios dobles (o triples, etc.) espacios con espacios únicos
 
 ## Historial de versiones
 

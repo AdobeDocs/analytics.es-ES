@@ -4,13 +4,17 @@ title: ¿Cómo se integra la creación de informes de Adobe Campaign Standard en
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/UDRvl0wXDXPY-iyj6UTCq5tefmZ18qnWdM1kTNOqA4s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: 520
+ht-degree: 62%
 
 ---
-
 
 # Sistema de informes de Adobe Campaign Standard
 
@@ -21,7 +25,7 @@ Para obtener más información acerca de cómo configurar esta integración, vay
 
 Esta integración entre Adobe Analytics y Adobe Campaign Standard:
 
-* Le permite compartir sus datos de KPI (Indicador de rendimiento clave) de Adobe Campaign Standard con Adobe Analytics.
+* Permite compartir los datos de KPI (indicador de rendimiento clave) de Adobe Campaign Standard con Adobe Analytics.
 * Enriquece las fórmulas de seguimiento con parámetros de Adobe Analytics.
 * Agrega un nuevo informe en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Adobe Campaign.]**
 * Añade 5 nuevas clasificaciones de Adobe Campaign.
@@ -42,7 +46,7 @@ Para ver datos de Campaign Standard en Analytics, primero debe habilitar el sist
 
 La integración entre Adobe Campaign Standard y Adobe Analytics añade el siguiente informe en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**
 
-* **[!UICONTROL ID de entrega ejecutada de Adobe Campaign]**: muestra datos importados desde Adobe Campaign acerca de correos electrónicos enviados desde Adobe Campaign. |
+* **[!UICONTROL ID de entrega ejecutada por Adobe Campaign]**: muestra datos importados de Adobe Campaign sobre correos electrónicos enviados desde Adobe Campaign. |
 
 ## Paso 3. Use clasificaciones de Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -60,25 +64,25 @@ Una vez que el grupo de informes esté habilitado para Adobe Campaign, quedan di
 
 ## Dimensiones y métricas de Adobe Campaign Standard disponibles en Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
-Las siguientes **métricas** están disponibles desde Campaign en los grupos de informes de Adobe Analytics:
+Las siguientes **métricas** están disponibles en Campaign en los grupos de informes de Adobe Analytics:
 
-* Se envió Adobe Campaign
-* Se abrió Adobe Campaign
-* Se hizo clic en Adobe Campaign
-* Se entregó Adobe Campaign
-* Adobe Campaign único y abierto
-* Clic único de Adobe Campaign
-* Se canceló la suscripción a Adobe Campaign
+* Adobe Campaign enviado
+* Adobe Campaign abierto
+* Adobe Campaign ha hecho clic
+* Entrega de Adobe Campaign
+* Apertura única de Adobe Campaign
+* Clic único en Adobe Campaign
+* Suscripción cancelada de Adobe Campaign
 * Total de salidas hacia otro sitio de Adobe Campaign
-* Instancias de ID de entrega ejecutada de Adobe Campaign
+* Instancias de ID de envío ejecutadas por Adobe Campaign
 
-Las siguientes **dimensiones** están disponibles desde Campaign en los grupos de informes de Adobe Analytics:
+Las **dimensiones** siguientes están disponibles en Campaign en los grupos de informes de Adobe Analytics:
 
-| Nombre de la dimensión | Definición |
+| Nombre de Dimension | Definición |
 | --- | --- |
-| ID de campaña | ID de todas las campañas para las que se han enviado KPI a lo largo de la duración. |
+| ID de campaña | ID de todas las campañas para las que se han enviado KPI durante la duración |
 | Etiqueta de campaña | Etiquetas de los ID de campaña |
-| ID de entrega | ID de todas las entregas para las que se han enviado KPI a lo largo de la duración. También incluye el ID de entregas maestras de una entrega recurrente o de transacción. Ejemplo: Hay programada una entrega recurrente DM1 que cuenta con las entregas secundarias DM2, DM3, DM4 y DM5.  El ID de entrega muestra resultados para todas las entregas, de DM1 a DM5. |
-| Etiqueta de entrega | Etiquetas de los ID de entrega |
-| ID de entrega ejecutada de | ID únicamente de las entregas ejecutadas. No se incluye el ID de entregas maestras recurrentes/de transacción. Ejemplo: Hay programada una entrega recurrente DM1 que cuenta con las entregas secundarias DM2, DM3, DM4 y DM5. ID de entrega ejecutada muestra resultados para todas las entregas a partir de DM2 hasta DM5: las entregas que se han ejecutado. |
-| Etiqueta de entrega ejecutada | Etiquetas de los ID de entrega ejecutada |
+| ID de envío | ID de todos los envíos para los que se han enviado KPI durante la duración. También incluye los ID de los envíos maestros de envíos recurrentes y envíos de transacciones. Ejemplo: Hay programada una entrega recurrente DM1 que cuenta con las entregas secundarias DM2, DM3, DM4 y DM5.  El ID de entrega muestra los resultados de todas las entregas, de DM1 a DM5. |
+| Etiqueta de envío | Etiquetas de ID de entrega |
+| ID de entrega ejecutada de | ID solo de envíos ejecutados. Sin ID de envío maestro recurrente/ transaccional. Ejemplo: Hay programada una entrega recurrente DM1 que cuenta con las entregas secundarias DM2, DM3, DM4 y DM5. El ID de entrega ejecutado muestra los resultados de todas las entregas a partir de DM2 a DM5: los envíos que se han ejecutado. |
+| Etiqueta de envío ejecutada | Etiquetas de los ID de envío ejecutados |

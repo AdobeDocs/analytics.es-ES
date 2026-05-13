@@ -4,10 +4,16 @@ title: Migración de cuentas de usuarios de Analytics para Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bD-qiEI3KbDBNe4aO01-MqzjoZ-OMcGAnd9vnMTBmZs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 99%
+source-wordcount: 409
+ht-degree: 78%
 
 ---
 
@@ -23,9 +29,9 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
 
    ![](/help/admin/tools/user-management/user-migration/assets/migration-progress.png)
 
-   La página Migración de ID de usuario tiene dos secciones: *Progreso de migración* e *Información de usuario*.
+   La página Migración de ID de usuario tiene dos secciones: *Progreso de la migración* e *Información del usuario*.
 
-## Progreso de la migración
+## Progreso de migración
 
 <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
@@ -37,18 +43,18 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Migraciones completadas </p> </td> 
-      <td colname="col2"> <p>Los usuarios han aceptado la invitación. </p> </td> 
+      <td colname="col2"> <p>Los usuarios aceptaron la invitación. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Inicio de sesión heredado desactivado </p> </td> 
-      <td colname="col2"> <p>El inicio de sesión heredado que utiliza un ID de empresa se ha desactivado. Ahora, los usuarios accederán a Experience Cloud mediante el Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
+      <td colname="col2"> <p>El inicio de sesión heredado con un ID de empresa está desactivado. Los usuarios ahora accederán a Experience Cloud con su Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 ## Información del usuario
 
-Información de usuario muestra a los usuarios de la organización separados por nombre de dominio.
+Información del usuario describe los usuarios de su organización, separados por nombre de dominio.
 
 <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
 <thead> 
@@ -60,7 +66,7 @@ Información de usuario muestra a los usuarios de la organización separados por
 <tbody> 
 <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Los dominios son específicos de los ID de correo electrónico de la base de usuarios de Analytics actual. Un dominio solo lo puede reivindicar una única organización, y son los administradores del sistema los únicos que pueden hacerlo. Para obtener más información, consulte <a href="https://helpx.adobe.com/es/enterprise/help/request-access-to-claimed-domain.html">Solicitar acceso a un dominio reivindicado</a>. </p> </td> 
+   <td colname="col2"> <p>Los dominios son específicos de los ID de correo electrónico de la base de usuarios actual de Analytics. Un dominio solo lo puede reivindicar una única organización, y son los administradores del sistema los únicos que pueden hacerlo. Para obtener más información, consulte <a href="https://helpx.adobe.com/es/enterprise/help/request-access-to-claimed-domain.html">Solicitar acceso a un dominio reivindicado</a>. </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>Dominio reclamado </p> </td> 

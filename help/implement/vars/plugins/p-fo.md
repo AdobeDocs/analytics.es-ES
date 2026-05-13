@@ -4,9 +4,13 @@ description: Asegure que determinadas rutinas se activen solo una vez por págin
 feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/7kJ-oRIsYzFeRnApFYvIigsBMb8QgeBtjCiHt8am7Nk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 742
 ht-degree: 77%
 
 ---
@@ -51,7 +55,7 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
    * Tipo de acción: Inicializar p_fo
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado de 
+## Instalación del complemento con el editor de código personalizado de
 
 Si no desea utilizar la extensión de complemento Common Analytics Plugins, puede utilizar el editor de código personalizado.
 

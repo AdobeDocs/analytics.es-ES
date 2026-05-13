@@ -4,10 +4,14 @@ title: Ver uso del grupo de informes
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 93%
+source-wordcount: 436
+ht-degree: 49%
 
 ---
 
@@ -21,10 +25,10 @@ La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor p
 >
 >Si un grupo de informes no está vinculado a una organización de Experience Cloud, sus datos de uso no se reflejarán en este panel de control. Además, se podría asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
-El tablero de Uso del grupo de informes:
+El tablero Uso del grupo de informes
 
-* Muestra el uso de llamadas al servidor del periodo de uso actual (todas las llamadas, primarias, secundarias, primarias móviles, secundarias móviles) para cada grupo de informes de su organización de Experience Cloud.
-* Muestra el porcentaje del uso global por categoría de llamadas al servidor.
+* Muestra el uso de llamadas al servidor del periodo de uso actual (Todas las llamadas, Primarias, Secundarias, Primarias móviles, Secundarias móviles) para cada grupo de informes de su organización de Experience Cloud.
+* Muestra el porcentaje del uso general por categoría de llamada al servidor.
 * Se actualiza a diario.
 * Se puede descargar.
 * Permite acceder a la interfaz de usuario de **[!UICONTROL Administrar alertas]**.
@@ -35,18 +39,18 @@ El tablero de Uso del grupo de informes:
 
 | Columna | Definición |
 |--- |--- |
-| Nombre del grupo de informes | Nombre descriptivo del grupo de informes. |
-| Todas las llamadas (% del total) | Todas las llamadas al servidor en las que se ha incurrido en el periodo de uso actual. |
-| Llamadas primarias (%) | Todas las llamadas al servidor primarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
-| Llamadas secundarias (%) | Todas las llamadas al servidor secundarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
-| Primarias móviles (%) | Todas las llamadas al servidor primarias móviles (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
-| Secundarias móviles (%) | Todas las llamadas al servidor secundarias móviles (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
+| Nombre del grupo de informes | Nombre descriptivo del grupo de informes |
+| Todas las llamadas (% del total) | Todas las llamadas al servidor realizadas en el periodo de uso actual. |
+| Llamadas primarias (%) | Todas las llamadas primarias al servidor (y su porcentaje del total) realizadas en el periodo de uso actual. |
+| Llamadas secundarias (%) | Todas las llamadas secundarias al servidor (y su porcentaje del total) realizadas en el periodo de uso actual. |
+| Móvil principal (%) | Todas las llamadas al servidor primarias móviles (y su porcentaje del total) realizadas en el periodo de uso actual. |
+| Secundario móvil (%) | Todas las llamadas al servidor secundarias móviles (y su porcentaje del total) realizadas en el periodo de uso actual. |
 
 {style="table-layout:auto"}
 
 ## Descargar informe de uso {#download}
 
-Esta opción permite descargar los datos de uso actual y datos de periodos anteriores al periodo de uso actual (hasta enero de 2015). El informe se descarga como archivo .csv.
+Esta opción le permite descargar datos de uso actuales, así como datos de periodos de tiempo anteriores al periodo de uso actual (que se remontan a enero de 2015). El informe se descarga como archivo .csv.
 
 1. Seleccione al menos un grupo de informes.
 1. Haga clic en **[!UICONTROL Descargar informe]**.
@@ -56,7 +60,7 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Elemento de informe | Descripción |
 |--- |--- |
 | Nombre del archivo | Nombre codificado: Informe de uso `day and time of report creation.csv` |
-| Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
+| Conjuntos de informes incluidos | Cualquier grupo de informes que haya seleccionado en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
 | Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** Recuerde que no puede descargar datos de uso anteriores a enero de 2015 </br>. |
 

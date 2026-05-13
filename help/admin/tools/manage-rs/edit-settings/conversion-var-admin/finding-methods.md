@@ -1,19 +1,24 @@
 ---
-description: La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
+description: La página Métodos de búsqueda identifica cómo reciben crédito varios informes de métodos de búsqueda para los eventos de éxito de conversión en el sitio. Por ejemplo, si un motor de búsqueda remite a un visitante del sitio que realiza una compra, los métodos de búsqueda especifican la forma en que el motor de búsqueda recibe el crédito por la referencia.
 title: Métodos de búsqueda
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 48%
 
 ---
 
 # Métodos de búsqueda
 
-La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
+La página Métodos de búsqueda identifica cómo reciben crédito varios informes de métodos de búsqueda para los eventos de éxito de conversión en el sitio. Por ejemplo, si un motor de búsqueda remite a un visitante del sitio que realiza una compra, los métodos de búsqueda especifican la forma en que el motor de búsqueda recibe el crédito por la referencia.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Métodos de búsqueda]**
 
@@ -29,11 +34,11 @@ La página Métodos de localización identifica la manera en que los diversos in
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre </td> 
-   <td colname="col2"> El método de búsqueda que se debe modificar. </td> 
+   <td colname="col2"> El método de localización que desea modificar </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Asignación </td> 
-   <td colname="col2"> Especifica cómo aplicar crédito a un referente. Las opciones de asignación que se admiten son las siguientes: <p> <span class="uicontrol"> Más reciente (último):</span> otorga todo el crédito al último referente (predeterminado). </p> <p> <span class="uicontrol"> Valor original:</span> otorga todo el crédito al primer referente. </p> <p> <span class="uicontrol"> Lineal:</span> divide el crédito equitativamente entre todos los referentes. </p> </td> 
+   <td colname="col2"> Especifica cómo aplicar crédito para una referencia. Las opciones de asignación admitidas incluyen: <p> <span class="uicontrol"> Más reciente (último):</span> otorga todo el crédito al último referente (predeterminado). </p> <p> <span class="uicontrol"> Valor original:</span> otorga todo el crédito al primer referente. </p> <p> <span class="uicontrol"> Lineal:</span> divide el crédito equitativamente entre todos los referentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Caduca después </td> 
@@ -56,4 +61,4 @@ La página Métodos de localización identifica la manera en que los diversos in
 
 >[!NOTE]
 >
->Todos los métodos de búsqueda caducan al finalizar la visita. Si elige que caduque después de un evento distinto (por ejemplo, con el cierre de compra del carro), el método de búsqueda caducará cuando se produzca el cierre de compra, durante la visita. Si no se produce el cierre de compra durante la visita, el método de búsqueda caducará cuando la visita finalice.
+>Todos los métodos de búsqueda caducan al finalizar la visita. Si elige Caduca después de un evento diferente (por ejemplo, Cierre de carro de compras), el Método de localización caduca cuando se produce el cierre de compra de carro de compras durante la visita. Si no se produce un cierre de compra del carro de compras durante la visita, el método de localización caduca cuando finaliza la visita.

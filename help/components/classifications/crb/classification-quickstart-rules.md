@@ -3,10 +3,16 @@ description: Las reglas de clasificación buscan términos no clasificados de fo
 title: Reglas de clasificación
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 90%
+source-wordcount: 1978
+ht-degree: 87%
 
 ---
 
@@ -72,7 +78,7 @@ about_classification_rules.xml
 
   Las reglas activas se procesan cada cuatro horas y los datos de clasificación suelen examinarse de forma mensual. Las reglas comprueban automáticamente la existencia de nuevos valores y cargan las clasificaciones a través del importador.
 
-* **Sobrescritura de las clasificaciones existentes**: consulte [¿En qué casos las reglas no clasifican las claves?](/help/components/classifications/crb/classification-quickstart-rules.md) Si es necesario, puede eliminar las clasificaciones existentes mediante el importador.
+* **Sobrescribiendo clasificaciones existentes**: Consulte [Cuándo las reglas no clasifican las claves?](/help/components/classifications/crb/classification-quickstart-rules.md) Si es necesario, puede eliminar las clasificaciones existentes mediante el importador.
 
 ## ¿En qué casos las reglas no clasifican claves?
 
@@ -133,14 +139,14 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &amp;Sombrero;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
-| Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. | |
+| Creación de la sintaxis | `^` = comienza la línea () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. | |
 
 Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 

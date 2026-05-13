@@ -4,10 +4,15 @@ title: Administración de usuarios y recursos de Analytics
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: 455
+ht-degree: 9%
 
 ---
 
@@ -22,7 +27,7 @@ La pantalla Usuarios muestra una lista de los usuarios actuales de Adobe Analyti
 | [!UICONTROL ID de usuario] | El ID de usuario que utiliza el usuario para iniciar sesión en Adobe Analytics. |
 | [!UICONTROL Nombre] | El nombre del usuario. |
 | [!UICONTROL Estado de la migración] | Estado de la migración de una cuenta de usuario heredada a una Enterprise ID o Adobe ID.  El estado puede ser No iniciado, En cola o Migrado. |
-| [!UICONTROL Correo electrónico] | El correo electrónico del usuario. |
+| [!UICONTROL Correo electrónico] | Dirección de correo electrónico del usuario. |
 | [!UICONTROL Inicio de sesión heredado] | El estado del inicio de sesión heredado, que puede ser Enabled o Disabled. |
 | [!UICONTROL Fecha de creación] | Marca de tiempo del momento en el que se creó la cuenta de usuario en Adobe Analytics. |
 | [!UICONTROL Último acceso de Analytics] | Marca de tiempo del último acceso de la cuenta de usuario a Adobe Analytics, |

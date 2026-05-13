@@ -5,10 +5,15 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 74%
+source-wordcount: 563
+ht-degree: 26%
 
 ---
 
@@ -40,23 +45,23 @@ Se muestra [!UICONTROL Administrador de solicitudes] al hacer clic en **[!UICONT
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Todas las hojas </p> </td> 
-   <td colname="col2"> <p>Muestra las solicitudes de todas las hojas del libro activo. Para ver solicitudes de hojas concretas, desactive esta opción. Si desactiva esta opción, debe hacer clic en una ficha Hoja situada en la parte inferior del informe de Excel para ver las solicitudes asociadas a dicha hoja en el <span class="wintitle">Administrador de solicitudes</span>. La etiqueta situada junto a la casilla de verificación indica qué hoja del libro está seleccionada actualmente. </p> </td> 
+   <td colname="col2"> <p>Muestra las solicitudes de todas las hojas del libro activo. Para ver solicitudes de hojas específicas, desactive esta opción. Si desactiva esta opción, debe hacer clic en una ficha Hoja situada en la parte inferior del informe de Excel para ver las solicitudes asociadas a dicha hoja en el <span class="wintitle">Administrador de solicitudes</span>. La etiqueta junto a la casilla de verificación indica qué hoja del libro tiene actualmente el enfoque. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hoja </p> </td> 
    <td colname="col2"> <p>Muestra el nombre de las hojas del libro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Report Suite </p> </td> 
+   <td colname="col1"> <p>Grupo de informes </p> </td> 
    <td colname="col2"> <p>Muestra el nombre del grupo de informes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervalo de fechas </p> </td> 
-   <td colname="col2"> <p>Muestra el intervalo de fecha especificado del informe. </p> </td> 
+   <td colname="col2"> <p>Muestra el intervalo de fechas especificado en el informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Granularidad </p> </td> 
-   <td colname="col2"> <p>Determina la granularidad de la solicitud. </p> </td> 
+   <td colname="col2"> <p>Especifica la granularidad de la solicitud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Última ejecución </p> </td> 
@@ -64,31 +69,31 @@ Se muestra [!UICONTROL Administrador de solicitudes] al hacer clic en **[!UICONT
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agregar </p> </td> 
-   <td colname="col2"> <p>Muestra el cuadro de diálogo Asistente para solicitudes. Consulte <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Crear una solicitud de datos</a>. </p> </td> 
+   <td colname="col2"> <p>Muestra el diálogo Asistente para solicitudes. Consulte <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Crear una solicitud de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
-   <td colname="col2"> <p> (O Editar varias solicitudes) Edita una solicitud seleccionada. El sistema muestra el cuadro de diálogo <span class="wintitle">Asistente para solicitudes</span>. Consulte <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   >Editar varias solicitudes</a>. </p> </td> 
+   <td colname="col2"> <p> (O Editar varias) Edita una solicitud seleccionada. El sistema muestra el cuadro de diálogo <span class="wintitle">Asistente para solicitudes</span>. Consulte <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   >Editar varias solicitudes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eliminar </p> </td> 
-   <td colname="col2"> <p>Elimina solicitudes. Es posible eliminar varias solicitudes seleccionadas. También se puede eliminar una solicitud de la lista seleccionándola y presionando Supr en el teclado. </p> </td> 
+   <td colname="col2"> <p>Elimina solicitudes. Puede eliminar varias solicitudes seleccionadas. También puede eliminar una solicitud de la lista seleccionando la solicitud y pulsando Eliminar en el teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Seleccionar todo </p> </td> 
-   <td colname="col2"> <p>Selecciona todas las solicitudes. El <span class="wintitle">Administrador de solicitudes</span> muestra el número de solicitudes seleccionadas en la parte inferior de la lista. </p> </td> 
+   <td colname="col2"> <p>Seleccionar todas las solicitudes. El <span class="wintitle">Administrador de solicitudes</span> muestra el número de solicitudes seleccionadas en la parte inferior de la lista. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Desde celda </p> </td> 
-   <td colname="col2"> <p>Obtiene datos para una solicitud desde la hoja de cálculo. Si una solicitud está asociada a la celda seleccionada en ese momento en la hoja de cálculo activa, la solicitud asociada se selecciona en la lista. </p> </td> 
+   <td colname="col2"> <p>Obtiene datos de una solicitud de la hoja de cálculo. Si una solicitud está asociada con la celda seleccionada actualmente en la hoja de cálculo activa, se seleccionará la solicitud asociada en la lista. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Actualizar </p> </td> 
-   <td colname="col2"> <p>Actualiza una sola solicitud o una selección de ellas. (Consulte <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Actualizar una solicitud</a>.) </p> </td> 
+   <td colname="col2"> <p>Actualiza una única solicitud o una selección de solicitudes. (Consulte <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Actualizar una solicitud</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Actualizar lista </p> </td> 
-   <td colname="col2"> <p>Actualiza todas las solicitudes mostradas. Cuando se actualizan todas las solicitudes, el tiempo para actualizar la información desde el servidor al informe es directamente proporcional a la complejidad de las solicitudes de ese informe. En informes muy amplios, la actualización de todas las solicitudes puede tardar varios minutos. Por este motivo, puede que desee actualizar las solicitudes más urgentes de forma independiente y seleccionar la opción <span class="wintitle">Actualizar todo</span> en otro momento. </p> <p> <p>Nota: Se recomienda comprobar con frecuencia los resultados en el <span class="wintitle">Administrador de solicitudes</span> si se actualiza una hoja de cálculo que incluye varias solicitudes. Si se produce un error en la solicitud, el mensaje de error de la columna de diagnóstico ayuda a determinar el origen del error. Aunque casi siempre que falla una solicitud se genera un mensaje de error, se debe tener en cuenta que no siempre es así. Quizás observe que con una actualización no se actualizan los datos de una celda que incluye una referencia, o que una actualización elimina los datos de la celda. </p> </p> </td> 
+   <td colname="col2"> <p>Actualiza todas las solicitudes mostradas. Al actualizar todas las solicitudes, el tiempo para actualizar la información del servidor al informe es directamente proporcional a la complejidad de las solicitudes del informe. En el caso de los informes de gran tamaño, la actualización de todas las solicitudes puede tardar varios minutos. Por este motivo, puede que desee actualizar las solicitudes más urgentes de forma independiente y seleccionar la opción <span class="wintitle">Actualizar todo</span> en otro momento. </p> <p> <p>Nota: Se recomienda comprobar con frecuencia los resultados en el <span class="wintitle">Administrador de solicitudes</span> si se actualiza una hoja de cálculo que incluye varias solicitudes. Si se produce un error de solicitud, el mensaje de error de la columna de diagnóstico le ayuda a localizar el origen del error. Aunque en la mayoría de los casos se muestra un mensaje de error cuando falla una solicitud, tenga en cuenta que ocasionalmente no se genera ningún mensaje de error. Es posible que observe que una actualización no actualiza los datos en una celda que contiene una referencia o que una actualización elimina los datos de la celda. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

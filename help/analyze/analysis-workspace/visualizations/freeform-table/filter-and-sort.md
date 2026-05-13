@@ -4,9 +4,13 @@ title: Filtrar Y Ordenar
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: 1585
 ht-degree: 51%
 
 ---
@@ -27,7 +31,7 @@ Puede utilizar varios métodos para filtrar filas de una tabla de forma libre.
 
 * Excluir filas específicas de una tabla
 * Aplicar filtros a una tabla
-* Usar filtros de segmentos
+* Uso de filtros de segmento
 
 Asegúrese de leer cómo afecta cada método a los [Totales de tablas de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -102,15 +106,15 @@ Para obtener más información sobre minigráficos y visualizaciones de líneas,
 
 #### Configurar visualizaciones de líneas para incluir criterios de filtro
 
-1. Seleccione el minigráfico en la cabecera de columna de métrica.
+1. Seleccione el minigráfico en el encabezado de la columna de métrica.
 
-   Cuando se selecciona la celda de la línea de chispa, se muestra como gris oscuro. Esto indica que los criterios de filtro se incluyen en la visualización de la línea conectada. Los criterios de filtro se aplican como un segmento en la columna. <!--show how to see it? Show what the segment looks like when it's applied? -->
+   Cuando se selecciona la celda del minigráfico, aparece en gris oscuro. Esto indica que los criterios de filtro se incluyen en la visualización de línea conectada. Los criterios de filtro se aplican como un segmento en la columna. <!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   ![sparkline seleccionado](assets/table-sparkline-selected.png)
+   ![minigráfico seleccionado](assets/table-sparkline-selected.png)
 
 #### Comprender cuándo los totales de columna pueden ser inexactos
 
-Es posible que los totales de columna no sean exactos en los siguientes escenarios:
+Es posible que los totales de columna no sean exactos en los siguientes casos:
 
 * Cuando se usan componentes estáticos en la columna izquierda y los totales de [columna se calculan como una suma de las filas](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
@@ -145,15 +149,15 @@ Para ordenar los datos de las tablas por una sola columna:
 
 1. Pase el cursor sobre el encabezado de la columna que quiera ordenar y, a continuación, seleccione el icono **Ordenar** ![Ordenar](/help/assets/icons/SortOrderDown.svg) cuando aparezca.
 
-   ![Menú desplegable de ordenación](assets/sort-dropdown-menu.png)
+   ![Menú desplegable Ordenar](assets/sort-dropdown-menu.png)
 
 1. Seleccione **[!UICONTROL Ascendente]** o **[!UICONTROL Descendente]**.
 
-   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) por ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) por descendente).
+   El icono de ordenación permanece visible cuando se aplica la ordenación a la columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
 
 ## Ordenar tablas por varias columnas (ordenación avanzada)
 
-### Aplicar ordenación a varias columnas
+### Aplicar la ordenación a varias columnas
 
 Para ordenar los datos de las tablas por varias columnas:
 
@@ -181,11 +185,11 @@ Para ordenar los datos de las tablas por varias columnas:
 
 1. Seleccione **[!UICONTROL Aplicar]**.
 
-El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) por ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) por descendente).
+El icono de ordenación permanece visible cuando se aplica la ordenación a una columna. Una flecha indica cómo se ordenan los datos (![Ordenar](/help/assets/icons/SortOrderUp.svg) en orden ascendente o ![Ordenar](/help/assets/icons/SortOrderDown.svg) en orden descendente).
 
 ![ejemplo de ordenación múltiple](assets/dimensions-multiple-sort.png)
 
-### Ordenar prioridad
+### Prioridad de ordenación
 
 Al ordenar los datos de varias columnas, los datos se ordenan según la prioridad asignada a cada columna. La numeración de prioridades se muestra junto al icono de ordenación ![icono de prioridad de ordenación](assets/sort-priority-icon.png).
 
@@ -206,7 +210,7 @@ Puede asignar una prioridad de ordenación a cada columna de la siguiente manera
 | Nombre de la columna (componente) | Tipo de componente | Prioridad de ordenación |
 |---------|----------|---------|
 | Día | Dimensión | 1 |
-| Vistas de páginas | Métrica | 2 |
+| Page Views | Métrica | 2 |
 | Visitas | Métrica | 3 |
 | Velocidad del contenido | Métrica | 4 |
 

@@ -3,16 +3,20 @@ description: Instrucciones sobre cómo crear un grupo de grupos de informes.
 title: Crear un grupo de grupos de informes
 feature: Report Suite Settings
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/iJkEYxAz3jENvvkBhRd6w2Pesna-JQ1mrRbrETmhuCE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: 109
+ht-degree: 61%
 
 ---
 
 # Crear un grupo de grupos de informes
 
-El [!UICONTROL Administrador de grupos de informes] permite organizar los grupos de informes en grupos personalizados. Los grupos facilitan el acceso rápido a varios grupos de informes que comparten configuraciones similares o suelen editarse juntos.
+En el [!UICONTROL Administrador del grupo de informes], puede organizar los grupos de informes en grupos personalizados. Los grupos permiten acceder rápidamente a varios grupos de informes que comparten una configuración similar o que normalmente edita juntos.
 
 Para crear un grupo de grupos de informes:
 

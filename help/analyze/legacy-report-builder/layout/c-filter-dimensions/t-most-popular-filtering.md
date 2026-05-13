@@ -5,10 +5,14 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/TLo2RytIM7ZQlpFMqXsTdoz7vFAXnwqoTJGHDG7gWLg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 89%
+source-wordcount: 633
+ht-degree: 33%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 89%
 
 Filtros condicionales y de clasificación que se configuran mediante la lógica booleana con las expresiones de búsqueda Y/O.
 
-Los filtros más utilizados son filtros de expresión que se configuran mediante la lógica booleana con las condiciones AND/OR como, por ejemplo, [!UICONTROL La página no contiene &#x200B;]*`<product name>`* con condiciones o grupos de condiciones como [!UICONTROL Incluye todo], [!UICONTROL Incluye cualquiera] o [!UICONTROL Excluye todo]. Puede [guardar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) estas expresiones para otra solicitud de este libro u otros libros de trabajo.
+Los filtros más utilizados son filtros de expresión que se configuran mediante la lógica booleana con las condiciones AND/OR como, por ejemplo, [!UICONTROL La página no contiene ]*`<product name>`* con condiciones o grupos de condiciones como [!UICONTROL Incluye todo], [!UICONTROL Incluye cualquiera] o [!UICONTROL Excluye todo]. Puede [guardar](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) estas expresiones para otra solicitud de este libro u otros libros de trabajo.
 
 **Para crear un filtro de este tipo**
 
@@ -30,15 +34,15 @@ Los filtros más utilizados son filtros de expresión que se configuran mediante
 
 1. En el formulario [!UICONTROL Elegir página], habilite **[!UICONTROL Más populares]** y después configure las siguientes opciones:
 
-   **Clasificación de inicio:** La clasificación de inicio de una dimensión. La clasificación predeterminada de 1 indica el elemento principal de la lista de datos obtenidos. Por ejemplo, para la dimensión [!UICONTROL Página], una marca de inicio de 1 indica la única página más solicitada de su sitio. Se puede especificar 10 u otro valor como celda de clasificación de inicio, lo que genera un informe que comienza con 10 como valor más alto. La métrica se organiza en orden descendente, por lo que los elementos de línea con la mayor actividad aparecen primero en la lista. Si se requieren más de 50 000 nombres de página en una solicitud, pero se dispone de miles de páginas en las que informar, se puede copiar la solicitud y cambiar la clasificación de inicio para recuperar los datos adecuados en bloques de 50 000.
+   **Clasificación inicial:** Clasificación inicial de una dimensión. Una clasificación predeterminada de 1 indica el elemento principal de la lista de datos de los que se informa. Por ejemplo, para la dimensión [!UICONTROL Página], una marca de inicio de 1 indica la página más solicitada del sitio. Puede especificar 10 u otro valor como celda de rango inicial, lo que genera un informe que comience por 10 como celda más alta. Las métricas se organizan en orden descendente, de modo que los elementos de línea con la mayor actividad se informen primero en la lista. Si necesita más de 50 000 nombres de página en una solicitud, pero tiene miles de páginas sobre las que informar, puede copiar la solicitud y cambiar la clasificación inicial para recuperar los datos adecuados en bloques de 50 000.
 
-   **Número de entradas:** (Solo [!UICONTROL diseño de tabla dinámica]) Define la cantidad de elementos obtenidos para una métrica concreta respecto a un intervalo de fechas. Algunas métricas pueden incluir cientos de entradas para una métrica, mientas que otras pueden mostrar solamente unas cuantas entradas. Por ejemplo, para la dimensión [!UICONTROL Sección del sitio], un número de entradas de 25 indica que el informe muestra las 25 páginas más visitadas.
+   **Número de entradas:** (Solo [!UICONTROL diseño de tabla dinámica]) Define la cantidad de elementos obtenidos para una métrica concreta respecto a un intervalo de fechas. Algunas métricas pueden enumerar cientos de entradas para una métrica, mientras que otras pueden mostrar solo algunas. Por ejemplo, para la dimensión [!UICONTROL Sección del sitio], un número de entradas de 25 indica que el informe muestra las 25 páginas más visitadas.
 
-   Las flechas permiten cambiar la [!UICONTROL clasificación de inicio] y el [!UICONTROL número de entradas] del primer punto de datos en la hoja. De forma predeterminada, la [!UICONTROL clasificación de inicio] se establece en 1 y el [!UICONTROL número de entradas] en 10. Estos valores se pueden ajustar a partir de un mínimo de uno hasta un máximo de 50 000 para determinadas métricas. Cada métrica tiene su propio límite en el [!UICONTROL número de entradas]. No se permiten valores negativos o de cero en estos campos. Si se selecciona una [!UICONTROL clasificación de inicio] de 15 y un [!UICONTROL número de entradas] de 10, las solicitudes de datos para la métrica devuelven las 10 páginas más visitadas, donde la primera página más visitada es el número 15 de la lista para el intervalo de fechas específico. Las páginas más solicitadas del 15 al 25 se incluyen en orden descendente.
+   Las flechas permiten cambiar el [!UICONTROL Rango inicial] y el [!UICONTROL Número de entradas] del primer punto de datos de la hoja. De manera predeterminada, [!UICONTROL Rango inicial] está establecido en 1 y [!UICONTROL Número de entradas] en 10. Estos valores se pueden ajustar de un mínimo de uno a un máximo de 50 000 para determinadas métricas. Cada métrica tiene su propio límite en [!UICONTROL Número de entradas]. En estos campos no se permiten valores negativos ni cero. Si elige [!UICONTROL Clasificación inicial] como 15 y [!UICONTROL Número de entradas] como 10, las solicitudes de datos para la métrica devolverán las 10 páginas más visitadas, donde la primera página más visitada es la número 15 en la lista para el intervalo de fechas específico. Todas las páginas más solicitadas clasificadas del 15 al 25 se muestran en orden descendente.
 
    >[!NOTE]
    >
-   >La aplicación de filtros a solicitudes existentes produce cambios en los datos presentados. Supongamos que ha asignado las principales diez [!UICONTROL páginas] a las celdas $A$1 a $A$10, con el valor de 1 para la [!UICONTROL clasificación de inicio] y de 10 para el [!UICONTROL número de entradas]. Si se modifican estos valores para que muestren 1 en la [!UICONTROL clasificación de inicio] y solo 3 en el [!UICONTROL número de entradas], ya no aparecerán las celdas de datos rellenadas previamente $A$4 a $A$10.
+   >La aplicación de filtros a solicitudes existentes produce cambios en los datos presentados. Supongamos que ha asignado las diez [!UICONTROL Páginas] principales a las celdas de $A$1 a $A$10, con 1 para [!UICONTROL Rango inicial] y 10 para [!UICONTROL Número de entradas]. Si cambia estos valores para mostrar 1 para [!UICONTROL Rango inicial] y solo 3 para [!UICONTROL Número de entradas], dejarán de aparecer los datos que antes rellenaban las celdas de $A$4 a $A$10.
 
 1. Para crear una expresión de búsqueda, haga clic en **[!UICONTROL Añadir]**.
 

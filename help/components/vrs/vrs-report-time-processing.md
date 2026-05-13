@@ -5,9 +5,15 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1354
 ht-degree: 69%
 
 ---
@@ -43,7 +49,7 @@ Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habili
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -58,7 +64,7 @@ Además, Procesamiento de intervalo de tiempo solo procesa los datos que se prod
 Las siguientes dimensiones y métricas no son compatibles con Procesamiento de intervalo de tiempo:
 
 * **Analytics for Target**
-* [**Dimensiones/métricas de Advertising**](/help/components/dimensions/amo-id.md)
+* [**Métricas/dimensiones de Advertising**](/help/components/dimensions/amo-id.md)
 * **eVars de contador**
 * [**Días antes de la primera compra**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Días desde la última compra**](/help/components/dimensions/days-since-last-purchase.md)
@@ -66,7 +72,7 @@ Las siguientes dimensiones y métricas no son compatibles con Procesamiento de i
 * [**Página de entrada original**](/help/components/dimensions/entry-dimensions.md)
 * **eVars de asignación lineal**
 * **Variables de lista**
-* [**Dimensiones de los canales de marketing**](/help/components/dimensions/marketing-channel.md)
+* [**Dimensiones de canales de mercadotecnia**](/help/components/dimensions/marketing-channel.md)
 * [**Dominio de referencia original**](/help/components/dimensions/original-referring-domain.md)
 * [**Frecuencia de retorno**](/help/components/dimensions/return-frequency.md)
 * [**Acceso único**](/help/components/metrics/single-access.md)

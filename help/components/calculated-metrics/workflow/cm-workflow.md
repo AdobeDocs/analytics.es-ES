@@ -3,10 +3,15 @@ description: Aprenda a crear métricas calculadas.
 title: Crear métricas calculadas
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/KuWD2kus9wcFW7yULWbLwfj4hfVHJgTjDeCJzEWwKFU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 21%
+source-wordcount: 367
+ht-degree: 15%
 
 ---
 
@@ -18,7 +23,7 @@ Puede crear una métrica calculada de las siguientes maneras:
 
 ![Formas de crear una métrica](assets/create-metric.png)
 
-* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y seleccione **[!UICONTROL Métricas calculadas]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] del administrador de [[!UICONTROL métricas calculadas]](cm-manager.md).
+* **A**. En la interfaz principal, seleccione **[!UICONTROL Componentes]** y **[!UICONTROL Métricas calculadas]**. Seleccione ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] del administrador de [[!UICONTROL métricas calculadas]](cm-manager.md).
 * **B**. En un proyecto de Workspace, en el panel izquierdo Componentes, seleccione ![Agregar](/help/assets/icons/Add.svg) en ![Evento](/help/assets/icons/Event.svg) **Métricas**.
 * **C**. En un proyecto de Workspace, en el menú contextual del encabezado de la columna Métricas, seleccione **[!UICONTROL Crear métrica a partir de la selección]**. En el submenú, puede seleccionar una función o seleccionar **[!UICONTROL Abrir en el creador de métricas calculadas]**. <br/>Si selecciona una función, la métrica calculada se define como métrica solo de proyecto. Cuando edite posteriormente esta métrica, a través de la ventana emergente [Información del componente](/help/analyze/analysis-workspace/components/use-components-in-workspace.md), verá una notificación en el [Creador de métricas calculadas](c-build-metrics/cm-build-metrics.md).
 * **D**. En un proyecto de Workspace, seleccione **[!UICONTROL Componentes]** en el menú y seleccione **[!UICONTROL Crear métrica]**.
@@ -31,12 +36,12 @@ Para definir la nueva métrica calculada, usa el [Creador de métricas calculada
 
 Antes de crear métricas calculadas, tenga en cuenta cuidadosamente el siguiente flujo de trabajo:
 
-| Tarea del flujo de trabajo | Descripción |
+| Tarea de flujo de trabajo | Descripción |
 | --- | --- |
 | Planificar métricas calculadas | Especialmente para las métricas que se van a aprobar oficialmente, la planificación tiene sentido para delinear qué métricas calculadas se utilizarán ampliamente y cómo se definirán. |
 | [Generar](c-build-metrics/cm-build-metrics.md) métricas calculadas | Cree y edite métricas calculadas y métricas calculadas avanzadas para utilizarlas en componentes de [!DNL Analytics].  Consulte [ejemplos](c-build-metrics/cm-build-metrics.md) de cómo crear métricas calculadas. |
 | [Etiquetar](cm-tagging.md) métricas calculadas | Etiquete métricas calculadas para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
-| [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para hacerlas canónicas. |
+| [Aprobar](cm-approving.md) métricas calculadas | Apruebe métricas calculadas para convertirlas en canónicas. |
 | Uso de métricas calculadas | Utilice las métricas calculadas en sus proyectos. |
 | [Compartir](cm-sharing.md) métricas calculadas | Comparta sus métricas calculadas con otras personas, grupos u organizaciones. |
 | [Filtrar](cm-filter.md) métricas calculadas | Filtre las métricas calculadas por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados). |

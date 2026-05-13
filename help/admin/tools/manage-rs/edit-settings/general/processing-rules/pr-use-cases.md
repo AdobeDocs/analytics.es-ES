@@ -5,9 +5,14 @@ title: Casos de uso de reglas de procesamiento
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 832
 ht-degree: 24%
 
 ---
@@ -81,7 +86,7 @@ Compruebe siempre si un valor está vacío o si contiene el valor esperado antes
 
 | Conjunto de reglas | Valor |
 | --- | --- |
-| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4&rbrace;] |
+| Condición | [!UICONTROL Se Ha Establecido El Parámetro De Cadena De Consulta] `q` [!UICONTROL 4}] |
 | Acción | [!UICONTROL Sobrescribir el valor de] términos de búsqueda interna con [!UICONTROL Parámetro de cadena de consulta] `q` |
 
 ![Captura de pantalla de la interfaz de reglas de procesamiento que muestra la lógica de término de búsqueda interna](assets/populate-internal-search-terms.png)

@@ -3,10 +3,15 @@ description: Los grupos de informes definen los informes completos e independien
 title: Administrador del grupo de informes
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: 423
+ht-degree: 77%
 
 ---
 
@@ -20,7 +25,7 @@ Los grupos de informes definen los informes completos e independientes de cualqu
 
 * Un segmento global compuesto por números de varios sitios para obtener totales
 
-Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
+Las soluciones de Analytics se acumulan e informan sobre estos almacenes de datos. El administrador del grupo de informes le permite definir las reglas que rigen el modo en que se procesan los datos en un grupo de informes.
 
 Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes para utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes).
 
@@ -34,7 +39,7 @@ Para acceder a un grupo de informes:
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-La tabla siguiente describe los elementos de la página [!UICONTROL Administrador del grupo de informes].
+En la tabla siguiente se describen los elementos de la página [!UICONTROL Administrador del grupo de informes].
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -54,11 +59,11 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Buscar</span> </td> 
-   <td colname="col2"> Permite localizar un grupo de informes concreto en la Lista de grupo de informes. La herramienta de búsqueda incluye tanto la búsqueda básica basada en nombres como una página de búsqueda avanzada para realizar búsquedas más a fondo. </td> 
+   <td colname="col2"> Permite localizar un grupo de informes específico en la lista de grupos de informes. La herramienta de búsqueda incluye tanto la búsqueda básica basada en nombres como una página de búsqueda avanzada para búsquedas en profundidad. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Grupos</span> </td> 
-   <td colname="col2"> <p>Permite organizar los grupos de informes en grupos personalizados. Puede acceder rápidamente a varios grupos de informes que compartan configuraciones similares o que habitualmente edite juntos. </p> </td> 
+   <td colname="col2"> <p>Permite organizar los grupos de informes en grupos personalizados. Puede acceder rápidamente a varios grupos de informes que comparten una configuración similar o que normalmente edita juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Búsquedas guardadas</span> </td> 

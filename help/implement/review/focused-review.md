@@ -4,10 +4,16 @@ description: Siga estos pasos para asegurarse de que la implementación no conte
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 68%
+source-wordcount: 535
+ht-degree: 62%
 
 ---
 
@@ -26,7 +32,7 @@ Recuerde que las actualizaciones de código que se realizan con el tiempo pueden
 * Cree paneles para ver las vistas de tendencias por hora de estas métricas y variables esenciales (o configure [alertas](/help/components/alerts/alerts-overview.md) para cada métrica). A continuación, monitorícelas durante uno o dos días para asegurarse de que obtiene los datos esperados y de que los datos son correctos. Busque puntos de inflexión. Prepárese para solucionar todos los posibles problemas críticos de inmediato. Si encuentra alguna discrepancia, consulte la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar el motivo.
 * Vuelva a ejecutar el [panel de control de mantenimiento de Analytics](https://express.adobe.com/page/tnNQGNlfzta3b/) para monitorizar las tendencias generales de las métricas y variables de KPI.
 
-*Para obtener más información sobre cómo asegurarse de que las métricas y variables funcionan correctamente, [lea estas sugerencias](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=es) de la campeona de Adobe Analytics, Sarah Owen.*
+*Para obtener más información sobre cómo asegurarse de que las métricas y variables funcionan correctamente, [lea estas sugerencias](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de la campeona de Adobe Analytics, Sarah Owen.*
 
 ## &#x200B;3. Examine a fondo los datos de la sección actualizada del sitio
 
@@ -47,7 +53,7 @@ Evalúe la situación y trace un plan para solucionar los problemas de los datos
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de la implementación](https://video.tv.adobe.com/v/3440172?quality=12&learn=on&captions=spa){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Revisión de la implementación](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

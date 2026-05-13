@@ -3,10 +3,15 @@ title: Direcciones IP utilizadas por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+TQID: https://experienceleague.adobe.com/-4XZdprTBXpIaFnHeXBQsAr5YoZMW4ocnZRY50bHGUs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 35%
+source-wordcount: 208
+ht-degree: 31%
 
 ---
 
@@ -14,7 +19,7 @@ ht-degree: 35%
 
 La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
 
-Todas las direcciones IP que usa Adobe Analytics forman parte de [las direcciones IP que usa Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses), excepto el paquete de complementos de optimización del rendimiento de China.
+Todas las direcciones IP que usa Adobe Analytics forman parte de [las direcciones IP que usa Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), excepto el paquete de complementos de optimización del rendimiento de China.
 
 ## Direcciones IP de optimización de rendimiento de China
 
@@ -36,6 +41,6 @@ Los servidores de recopilación de datos regionales de China utilizan las siguie
 
 >[!MORELIKETHIS]
 >
->[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses)
+>[Direcciones IP utilizadas por Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Dominios utilizados por Adobe Analytics](domains.md)

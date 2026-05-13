@@ -4,10 +4,14 @@ solution: Analytics
 title: Resumen del flujo de trabajo Audience Analytics
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/8wGeihAHDE7T6zFx98ZnS7fwxJAHMulLG2kIeJ2ceDA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 50%
+source-wordcount: 128
+ht-degree: 49%
 
 ---
 
@@ -17,6 +21,6 @@ Aprovisionar, compartir y utilizar datos de público.
 
 | Paso # | Descripción de tarea | Notas |
 |--- |--- |--- |
-| Paso 1 | Active el reenvío de servidor. | Consulte [Reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en la guía del usuario de administración. |
-| Paso 2 | Configure el destino de Analytics en Adobe Audience Manager. | Consulte [Creación de un destino de Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es). |
+| Paso 1 | Active el reenvío del lado del servidor. | Consulte [Reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) en la guía del usuario de administración. |
+| Paso 2 | Configure el destino de Analytics en Adobe Audience Manager. | Ver [Crear destino de Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=es). |
 | Paso 3 | [Uso de los datos en Analytics.](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md) | Puede utilizar las nuevas dimensiones Audiencias de Adobe Audience Manager en Analysis Workspace y sus funciones relacionadas (comparación de segmentos, Flujo, Venn, etc.). <br>La dimensión Audiencia también está disponible en Report Builder, Data Warehouse y las fuentes de datos. <br>**Nota:** Fuentes de datos incluye solo el ID de público, no el Nombre de público. |

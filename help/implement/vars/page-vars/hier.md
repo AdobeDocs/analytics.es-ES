@@ -4,10 +4,15 @@ description: (Retirado) Implementar variables de jerarquía en Adobe Analytics.
 feature: Appmeasurement Implementation
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ngX4oPKy0XWEb-9xLpxSAdoAqZmfsMM8rbEH2-llHX4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 93%
+source-wordcount: 354
+ht-degree: 98%
 
 ---
 
@@ -31,11 +36,11 @@ Las jerarquías son [asignadas para Adobe Analytics](/help/implement/aep-edge/xd
 
 Puede establecer jerarquías al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Inicie sesión en [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) usando sus credenciales de Adobe ID.
+1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad de etiquetas deseada.
 3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
 4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Establezca la lista desplegable [!UICONTROL Extension] en Adobe Analytics y [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+5. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Jerarquía].
 
 Puede establecer un valor de jerarquía en una cadena estática o hacer referencia a un elemento de datos. También puede establecer el delimitador que desee. Asegúrese de que el delimitador que ha establecido aquí coincide con el conjunto de delimitadores de la configuración del grupo de informes.

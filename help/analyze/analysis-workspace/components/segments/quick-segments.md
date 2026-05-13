@@ -4,27 +4,32 @@ title: Segmentos rápidos
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/fHIB-E9w4CRsmqGS8ZmXZVIdeV-SxcPNUPgzNUHgK74
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 76%
+source-wordcount: 117
+ht-degree: 66%
 
 ---
 
 # Segmentos rápidos
 
-Los segmentos rápidos permiten explorar fácilmente los datos de un proyecto determinado, sin necesidad de crear un segmento de lista de componentes más complejo en el [generador de segmentos &#x200B;](/help/components/segmentation/segmentation-workflow/seg-build.md).
+Los segmentos rápidos permiten explorar fácilmente los datos de un proyecto determinado, sin necesidad de crear un segmento de lista de componentes más complejo en el [generador de segmentos ](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
 Tenga en cuenta lo siguiente al crear segmentos rápidos:
 
-* Los segmentos rápidos solo se aplican al proyecto en el que se crearon. No están disponibles en otros proyectos y no se pueden compartir con otros usuarios. 
+* Los segmentos rápidos solo se aplican al proyecto en el que se crearon. No están disponibles en otros proyectos y no se pueden compartir con otros usuarios.
 * Se permite un máximo de 3 reglas.
 * No se admiten contenedores anidados ni reglas secuenciales.
 
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentos rápidos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

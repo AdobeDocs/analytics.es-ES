@@ -4,10 +4,15 @@ title: Comparación de fechas
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 768
+ht-degree: 95%
 
 ---
 
@@ -17,7 +22,7 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 ## Comparar períodos de tiempo
 
-El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto más favorable o peor le va ahora en comparación con el año pasado por estas fechas?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
+El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
 
 1. Cree una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) con cualquier dimensión y métrica que quiera comparar a lo largo de un período de tiempo.
 1. Establezca el período de tiempo en el panel o la columna para determinar el lapso de tiempo de comparación, y si es una comparación de tiempo móvil o fijo.
@@ -63,7 +68,7 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
    | Opción | Descripción |
    |---|---|
-   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Añada una columna con la semana/mes/etc. inmediatamente anterior a este intervalo de fechas. |
+   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Agregue una columna con la semana, el mes, etc. inmediatamente antes de este intervalo de fechas. |
    | **[!UICONTROL Estas *x* semanas/meses/trimestres/años desde el año pasado hasta este intervalo de fechas]** | Añada el mismo intervalo de fechas de hace un año. |
    | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Le permite crear un intervalo de fechas personalizado. |
 
@@ -106,7 +111,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

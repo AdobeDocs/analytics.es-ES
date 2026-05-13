@@ -4,10 +4,13 @@ keywords: ftp;sftp
 title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+TQID: https://experienceleague.adobe.com/nBerOKEbILwAK5OyayVgdBPN8vq24kk-DXY6XMT50wg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 52%
+source-wordcount: 258
+ht-degree: 53%
 
 ---
 

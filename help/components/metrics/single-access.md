@@ -3,16 +3,21 @@ title: Acceso único
 description: Número de veces que un elemento de dimensión no ha cambiado en una visita.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 15%
+source-wordcount: 484
+ht-degree: 19%
 
 ---
 
 # Acceso único
 
-La **[!UICONTROL métrica]** Acceso único[&#x200B; muestra el número de visitas donde la dimensión de informe aplicable solo contenía un valor para una visita completa. &#x200B;](overview.md) Es la versión más amplia y específica de la dimensión de [[!UICONTROL Visitas de página única]](single-page-visits.md). Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver el valor de una dimensión cuando se estableció solo una vez durante una visita.
+La **[!UICONTROL métrica [Acceso único](overview.md) muestra el número de visitas donde la dimensión de informe aplicable solo contenía un valor para una visita completa.]** Es la versión más amplia y específica de la dimensión de [[!UICONTROL Visitas de página única]](single-page-visits.md). Esta métrica es útil en el contexto de cualquier dimensión en la que desee ver el valor de una dimensión cuando se estableció solo una vez durante una visita.
 
 ## Cálculo de esta métrica
 
@@ -32,7 +37,7 @@ En el contexto de la dimensión [[!UICONTROL Página]](../dimensions/page.md), &
 
 Si [[!UICONTROL Contar instancias repetidas]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) está deshabilitado, las definiciones de métricas cambian ligeramente:
 
-* **Acceso único**: Muestra el número de visitas en las que el elemento de dimensión dado no cambió durante toda la visita.
+* **Acceso único**: Muestra el número de visitas en las que el elemento de dimensión dado no cambió para toda la visita.
 * **Visita de página única**: Muestra el número de visitas en las que la dimensión &#39;[!UICONTROL Página]&#39; no cambió durante toda la visita.
 
 Veamos el siguiente ejemplo de visitas con dos visitas. La dimensión del informe es [[!UICONTROL Sección del sitio]](../dimensions/site-section.md) y &#39;[!UICONTROL Contar instancias repetidas]&#39; está deshabilitada.

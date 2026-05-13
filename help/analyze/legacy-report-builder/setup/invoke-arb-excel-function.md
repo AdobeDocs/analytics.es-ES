@@ -5,10 +5,14 @@ uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
 role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/cgDjTqGH0KzSrpg66sRfF8Kf81Q-WDwSWJ-OBvJK8DM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 35%
+source-wordcount: 503
+ht-degree: 23%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 35%
 
 Puede utilizar funciones de Report Builder para acceder a la funcionalidad sin acceder a la interfaz de usuario de Report Builder.
 
-Por ejemplo, para actualizar automáticamente las solicitudes de Report Builder con filtros de entrada basados en datos recuperados en Excel desde otros orígenes, utilice la función RefreshRequestsInCellsRange(..) de cadena. Todas las llamadas son asíncronas y se devuelven inmediatamente y no esperan a ejecutarse por completo.
+Por ejemplo, para actualizar automáticamente las solicitudes de Report Builder con filtros de entrada basados en datos recuperados en Excel desde otros orígenes, utilice la cadena RefreshRequestsInCellsRange(..) función. Todas las llamadas son asíncronas y se devuelven inmediatamente y no esperan a ejecutarse por completo.
 
 **Requisitos**
 
@@ -32,7 +36,7 @@ En la tabla siguiente se enumeran las funciones expuestas.
 | AsyncRefreshRange(string rangeAddressInA1Format) | string | Actualiza todas las solicitudes de Report Builder presentes en la dirección especificada del intervalo de celdas (una expresión de cadena que representa un intervalo de celdas en formato A1, por ejemplo, &quot;Hoja1!A2:A10&quot;). |
 | AsyncRefreshRangeAltTextParam() | string | Actualiza todas las solicitudes de Report Builder presentes en el intervalo de celdas especificado que pasan por el Texto alternativo de MS Form Control. |
 | AsyncRefreshActiveWorksheet() | string | Actualiza todas las solicitudes de Report Builder presentes en el libro activo. |
-| AsyncRefreshWorksheet(string worksheetName) | string | Actualiza todas las solicitudes de Report Builder presentes en el libro especificado (el nombre del libro tal y como aparece en la ficha). |
+| AsyncRefreshWorksheet(string nombreHojaDeCálculo) | string | Actualiza todas las solicitudes de Report Builder presentes en el libro especificado (el nombre del libro tal y como aparece en la ficha). |
 | AsyncRefreshWorksheetAltTextParam(); | string | Actualiza todas las solicitudes de Report Builder presentes en el libro concreto que se pasó por el Texto alternativo de MS Form Control. |
 | String GetLastRunStatus() | string | Devuelve una cadena que describe el estado de la última ejecución. |
 
@@ -50,7 +54,7 @@ El ejemplo siguiente muestra *Si el valor de la celda P5 es texto o está en bla
 
 ## Uso de funciones de Report Builder con control de formato {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
-Puede asignar una macro a un control que haya creado y ese control puede ser una función que actualice una solicitud de libro. Por ejemplo, la función AsyncRefreshActiveWorksheet actualizará todas las solicitudes de un libro. Sin embargo, a veces es posible que solo desee actualizar determinadas solicitudes.
+Puede asignar una macro a un control que haya creado y ese control puede ser una función que actualice una solicitud de libro. Por ejemplo, la función AsyncRefreshActiveWorksheet actualizará todas las solicitudes de una hoja de cálculo. Sin embargo, a veces es posible que solo desee actualizar determinadas solicitudes.
 
 1. Establezca el parámetro de macro.
 1. Haga clic con el botón derecho en el control y seleccione **[!UICONTROL Asignar macro]**.
@@ -63,7 +67,7 @@ Puede asignar una macro a un control que haya creado y ese control puede ser una
 Se pueden utilizar dos funciones que toman un parámetro con Control de formato. Debe usar el campo **Texto alternativo:**:
 
 * AsyncRefreshRange(string rangeAddressInA1Format)
-* AsyncRefreshWorksheet(string worksheetName)
+* AsyncRefreshWorksheet(string nombreHojaDeCálculo)
 
 Para pasar parámetros a funciones de Report Builder mediante el control de formato
 
@@ -75,7 +79,7 @@ Para pasar parámetros a funciones de Report Builder mediante el control de form
 
    ![Captura de pantalla que muestra la pestaña Texto alternativo y el campo Texto alternativo:.](assets/alt_text.png)
 
-1. En **[!UICONTROL Texto alternativo]**, introduzca el rango de celdas que desee actualizar.
+1. En **[!UICONTROL Texto alternativo]**, escriba el rango de celdas que desea actualizar.
 1. Abra la lista de parámetros de Report Builder en **[!UICONTROL Fórmulas]** > **[!UICONTROL Insertar función]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
 
 1. Elija una de las dos opciones que acaban con AltTextParam y haga clic en **[!UICONTROL Aceptar]**.

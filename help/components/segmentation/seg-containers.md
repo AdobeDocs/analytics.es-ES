@@ -4,13 +4,18 @@ keywords: segmentación;segmentos
 title: Contenedores de segmento
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3564'
+source-wordcount: 3545
 ht-degree: 96%
 
 ---
-
 
 # Contenedores de segmentos
 
@@ -47,7 +52,7 @@ Cada contenedor le permite realizar informes basados en el historial del visitan
 
 >[!BEGINSHADEBOX]
 
-Consulte el vídeo de demostración ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
+Consulte el vídeo de demostración ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) de [Contenedores de segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -242,7 +247,7 @@ La única excepción a esta jerarquía de contenedores es al usar el [Contenedor
 
 Los contenedores le permiten filtrar datos diferentes basados en valores de informes al desglosar los segmentos y aplicarlos a los informes.
 
-Los datos capturados en cada nivel de la jerarquía de contenedores visitante > visita > visita individual afectan a cómo genera sus segmentos. Si toma el mismo segmento aplicado al mismo informe utilizando el mismo conjunto de datos, obtiene valores diferentes en función del contenedor a partir del cual genere el informe. Los factores como el nivel al que se realiza el informe del contenedor y la persistencia de los valores en las visitas individuales pueden suponer grandes cambios en la precisión de sus informes. 
+Los datos capturados en cada nivel de la jerarquía de contenedores visitante > visita > visita individual afectan a cómo genera sus segmentos. Si toma el mismo segmento aplicado al mismo informe utilizando el mismo conjunto de datos, obtiene valores diferentes en función del contenedor a partir del cual genere el informe. Los factores como el nivel al que se realiza el informe del contenedor y la persistencia de los valores en las visitas individuales pueden suponer grandes cambios en la precisión de sus informes.
 
 ### Principios básicos de los datos de contenedor {#container-data}
 
@@ -332,7 +337,7 @@ Si muestra valores de segmento desde el contenedor de visita, comprobará que el
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos | **226.193** de 351.292 <br/>**67.554** de 165.175 <br/>**63.541** de 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **226.193** de 351.292 <br/>**67.554** de 165.175 <br/>**63.541** de 113.169 | **64 %**<br/>**40 %**<br/>**56 %** |
 
 <!--![](assets/container_report_Visit.png)-->
 
@@ -495,7 +500,7 @@ Como todas las páginas tienen el mismo valor de dominio de referencia basado en
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-| | Vistas de la página:<br/>Vistas:<br/>Visitantes únicos: | **98 248** de 351 165 <br/>**33 203** de 165 173 <br/>**32 269** de 113 110 | **27 %**<br/>**20 %**<br/>**28 %** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **98 248** de 351 165 <br/>**33 203** de 165 173 <br/>**32 269** de 113 110 | **27 %**<br/>**20 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visit.png)-->
 
@@ -535,7 +540,7 @@ Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de 
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Métrica | # | % |
 |---|---|--:|--:|
-| | Vistas de la página:<br/>Vistas:<br/>Visitantes únicos: | **112 925** de 351 165 <br/>**43 448** de 165 173 <br/>**32 269** de 113 110 | **32 %**<br/>**26 %**<br/>**28 %** |
+| | Vistas de página:<br/>Vistas:<br/>Visitantes únicos: | **112 925** de 351 165 <br/>**43 448** de 165 173 <br/>**32 269** de 113 110 | **32 %**<br/>**26 %**<br/>**28 %** |
 
 <!--![](assets/container_report_persist_Visitor.png)-->
 
