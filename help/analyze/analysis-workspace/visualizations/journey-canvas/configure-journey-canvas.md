@@ -2,12 +2,11 @@
 description: Descubra cómo configurar una visualización de lienzo de recorrido.
 title: Configuración de una visualización de lienzo de recorrido
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: '5614'
-ht-degree: 96%
+source-wordcount: '5783'
+ht-degree: 90%
 
 ---
 
@@ -147,7 +146,7 @@ Los nodos se crean de las siguientes maneras: arrastrando componentes de Workspa
 
 1. Repita este proceso para continuar añadiendo nodos para construir el recorrido.
 
-1. Siga personalizando el recorrido tal como se describe en las secciones siguientes. Puede conectar nodos, cambiarles el nombre, aplicar desgloses, crear públicos, añadir restricciones de tiempo y mucho más.
+1. Siga personalizando el recorrido tal como se describe en las secciones siguientes. Puede conectar nodos, cambiar el nombre de los nodos, aplicar desgloses, añadir restricciones de tiempo, etc.
 
 ### Mostrar los nodos principales en función de los nodos existentes
 
@@ -441,6 +440,8 @@ La opción para aplicar un desglose a los datos está disponible para los siguie
 
 * Varias flechas entre nodos
 
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
 Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 * Los desgloses se aplican a la métrica principal. La métrica secundaria no se verá afectada.
@@ -451,15 +452,17 @@ Al aplicar un desglose, tenga en cuenta lo siguiente:
 
 * Los datos de desglose se actualizan si los cambios se realizan en un punto anterior del recorrido.
 
-#### Aplicación de un desglose a uno o varios nodos o flechas
+#### Aplicar un desglose a nodos, flechas o datos de visitas en el orden previsto
 
-1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
+1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
-   O bien
+   * Haga clic con el botón derecho en la visita en orden previsto que se produce en un nodo (cuando se muestra la visita en orden previsto) al que desee aplicar un desglose.
 
-   En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos donde desee aplicar el desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+   * Seleccione uno o varios nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   * Seleccione una o más flechas entre 2 nodos a los que desee aplicar un desglose y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+     Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccione [!UICONTROL **Desglose**].
 
@@ -505,21 +508,33 @@ La opción para ver las tendencias está disponible para los siguientes objetos 
 
 * Varias flechas entre nodos
 
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
 Para ver los datos de tendencias:
 
-1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos cuyos datos de tendencias desee ver y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
+1. En una visualización de lienzo de Recorrido, realice una de las siguientes acciones:
 
-   O bien
+   * Haga clic con el botón secundario del mouse (ratón) en la visita en orden previsto que se produce en un nodo (cuando se muestra la visita en orden previsto) cuyos datos de tendencia desee ver.
 
-   En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos cuyos datos de tendencias desee ver y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+   * Seleccione uno o varios nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
-   Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
+   * Seleccione una o más flechas entre 2 nodos para los que desee ver datos de tendencia y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
+
+     Para seleccionar varios nodos o flechas, mantenga presionada la tecla Comando (en Mac) o Ctrl (en Windows).
 
 1. Seleccione [!UICONTROL **Tendencia**].
 
-### Creación de un segmento basado en un nodo o una flecha
+### Cree un segmento basado en un nodo, una flecha o una visita en orden previsto
 
-Puede crear un nuevo segmento basado en un nodo o una flecha dentro de un recorrido. Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
+La opción para crear un segmento está disponible para los siguientes objetos del lienzo:
+
+* Nodos individuales
+
+* Las flechas entre los nodos
+
+* Datos de visitas en el orden previsto (cuando este se muestra en un nodo)
+
+Una vez creado el segmento, puede utilizarlo en cualquier lugar de Analysis Workspace.
 
 Los segmentos creados en Lienzo de Recorrido utilizan la [segmentación secuencial](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Esto significa que el segmento utiliza el operador THEN para vincular la secuencia de eventos (el recorrido) por los que fluyeron las personas, hasta el nodo o la flecha seleccionados. Todos los eventos que coincidan con el nodo o la flecha seleccionados se incluirán en el segmento.
 
@@ -527,9 +542,9 @@ Si crea un segmento basado en un nodo que tenga varias rutas que fluyen hacia é
 
 Para crear un segmento:
 
-1. En una visualización de Lienzo de recorrido, haga clic con el botón derecho en el nodo o la flecha que desee utilizar para crear el segmento.
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo, la flecha o los datos de visitas en el orden previsto que desee utilizar para crear el segmento.
 
-1. Seleccione [!UICONTROL **Crear segmento de nodo**] o [!UICONTROL **Crear segmento a partir de la flecha**].
+1. Seleccione [!UICONTROL **Crear segmento a partir del nodo**], [!UICONTROL **Crear segmento a partir de la flecha**] o [!UICONTROL **Crear segmento a partir de la visita en orden previsto**].
 
    Aparecerá el generador de segmentos. En la sección [!UICONTROL **Definición**], la definición del segmento se crea en función del nodo o la flecha que seleccionó y su contexto dentro del recorrido.
 
@@ -546,6 +561,22 @@ Para eliminar nodos en Lienzo de recorrido:
 1. En una visualización de Lienzo de recorrido, seleccione uno o varios nodos que desee eliminar y, a continuación, haga clic con el botón derecho en uno de los nodos seleccionados.
 
 1. Seleccione [!UICONTROL **Eliminar**].
+
+### Excluir nodos
+
+Cuando se excluye un nodo de un recorrido, los datos del recorrido se actualizan para excluir los recorridos que pasaron por ese nodo. La definición del segmento para el recorrido también se actualiza para excluir los recorridos que pasaron por ese nodo.
+
+Para excluir un nodo de un recorrido:
+
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo que desee excluir.
+
+1. Seleccione [!UICONTROL **Excluir del recorrido**].
+
+Para volver a incluir un nodo excluido en la recorrido:
+
+1. En una visualización de lienzo de Recorrido, haga clic con el botón derecho en el nodo excluido.
+
+1. Seleccione [!UICONTROL **Quitar exclusión de recorrido**].
 
 ### Eliminación de flechas entre nodos
 

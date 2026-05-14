@@ -2,9 +2,8 @@
 description: Aprenda a utilizar la visualización del lienzo de Recorrido en Analysis Workspace para analizar los recorridos de los usuarios, las visitas en el orden previsto y las conversiones de varias rutas.
 title: Resolución de problemas del lienzo de recorrido
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
