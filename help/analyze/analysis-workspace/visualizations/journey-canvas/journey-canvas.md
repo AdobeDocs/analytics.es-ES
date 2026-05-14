@@ -2,9 +2,8 @@
 description: Obtenga información sobre cómo utilizar el lienzo de recorrido en Analysis Workspace.
 title: Información general sobre el lienzo de recorrido
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
@@ -51,7 +50,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;versión de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -159,5 +158,5 @@ Puede crear análisis en el lienzo de recorridos que estén basados en cualquier
 
 >[!MORELIKETHIS]
 >
-> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=es)
+> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
