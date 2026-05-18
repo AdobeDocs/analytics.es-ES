@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 334
-ht-degree: 64%
+ht-degree: 80%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flujo"
->abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros &#x200B;**<br/>**Comienza con**: agregue una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la aparición del componente seleccionado.<br/>**Contiene**: agregue una dimensión o un elemento de dimensión para ver los puntos de contacto principales antes y después de la aparición del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
+>abstract="Analice el flujo de visitas o visitantes de un punto de contacto al siguiente.<br/><br/>**Parámetros &#x200B;**<br/>**Comienza con**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales después de la ocurrencia del componente seleccionado.<br/>**Contiene**: añada una dimensión o elemento de dimensión para ver los puntos de contacto principales antes y después de la ocurrencia del componente seleccionado.<br/>**Acaba por**: añada una dimensión, un elemento de dimensión o una métrica para ver los puntos de contacto principales antes de la ocurrencia del componente seleccionado.<br/>**Dimensión de las rutas**: añada una dimensión para usarla como ruta de acceso o de salida del componente seleccionado."
 
 <!-- markdownlint-enable MD034 -->
 

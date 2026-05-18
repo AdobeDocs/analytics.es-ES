@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1264
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizadores simultáneos de medios"
->abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare.<br/><br>**Granularidad**: seleccione un período de tiempo en el que ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. Mínimo mostrará los detalles de la emisión.<br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses se limitan a un solo nivel."
+>abstract="Analice los visualizadores simultáneos a lo largo del tiempo, vea la concurrencia máxima o desglose y compare. <br/><br>**Granularidad**: seleccione el período de tiempo en el que desea ver los visualizadores simultáneos.<br/>**Números de resumen del panel**:<br/>opción para mostrar números de resumen con detalles de fecha u hora para cada línea. Máximo mostrará detalles para la concurrencia máxima. Mínimo mostrará los detalles de la emisión.<br/>**Desglose por serie (opcional)**: desglose la visualización por segmentos, dimensiones, elementos de dimensión o intervalos de fechas. Puede ver hasta 10 líneas a la vez. Los desgloses se limitan a un solo nivel."
 
 <!-- markdownlint-enable MD034 -->
 

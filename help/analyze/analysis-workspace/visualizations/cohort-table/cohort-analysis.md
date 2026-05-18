@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 738
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabla de cohortes"
->abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación continua y la pérdida a lo largo del tiempo.<br/><br/>**Parámetros &#x200B;**<br/>**Criterios de inclusión**: Los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
+>abstract="Agrupe a los usuarios en función de la finalización de un evento y, a continuación, analice su participación actual y las cancelaciones a lo largo del tiempo.<br/><br/>**Parámetros &#x200B;**<br/>**Criterios de inclusión**: los componentes utilizados para definir las cohortes de visitantes iniciales.<br/>**Criterios de retorno**: los componentes utilizados para determinar si un visitante ha regresado."
 
 <!-- markdownlint-enable MD034 -->
 

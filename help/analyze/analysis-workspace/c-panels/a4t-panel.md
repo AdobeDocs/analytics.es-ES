@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1287
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Panel de Analytics for Target"
->abstract="Analice las actividades y experiencias de Target en Analysis Workspace.<br/><br>**Parámetros &#x200B;**<br/>**Actividad de Target**: La actividad de Target que se analiza.<br/>**Experiencia de control**: experiencia de control para la actividad de Target seleccionada.<br/>**Métrica de normalización**: visitantes, visitas o impresiones. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza.<br/>**Métricas de éxito**: hasta 3 métricas de éxito estándar (no calculadas) con las que analizar la actividad de Target."
+>abstract="Analice las actividades y experiencias de Target en Analysis Workspace.<br/><br>**Parámetros &#x200B;**<br/>**Actividad de Target**: la actividad de Target que se analiza.<br/>**Experiencia de control**: experiencia de control para la actividad de Target seleccionada.<br/>**Métrica de normalización**: visitantes, visitas o impresiones. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza.<br/>**Métricas de éxito**: hasta 3 métricas de éxito estándar (no calculadas) con las que analizar la actividad de Target."
 
 <!-- markdownlint-enable MD034 -->
 
