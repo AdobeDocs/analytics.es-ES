@@ -50,7 +50,7 @@ Consulte [Configurar la extensión de Adobe Experience Platform Web SDK](https:/
 
 ## Dominio de Edge que implementa manualmente Web SDK
 
-Configure SDK usando [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). El campo es una cadena que determina el dominio al que se envían los datos.
+Configure SDK usando [`edgeDomain`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/edgedomain). El campo es una cadena que determina el dominio al que se envían los datos.
 
 ```json
 alloy("configure", {
@@ -85,7 +85,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 El valor que use para `trackingServerSecure` (o `edgeDomain`) depende de varios factores:
 
-* Su participación en el [programa de certificados administrados por Adobe](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Su participación en el [programa de certificados administrados por Adobe](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert)
 * Si tiene implementado y configurado correctamente el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home)
 
 **Si su organización participa en el programa de certificados administrado por Adobe**, establezca el valor en el dominio de origen seleccionado al configurar el certificado. Normalmente, este valor es un subdominio propiedad de su organización. Por ejemplo, `data.example.com`. Los registros CNAME de su organización redirigen esos datos a Adobe.
@@ -110,8 +110,8 @@ Adobe recomienda encarecidamente mantener esta información en [documento de dis
 
 Adobe recomienda encarecidamente usar el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home) en todas las implementaciones. El servicio de ID se puede implementar de varias formas diferentes:
 
-* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de identidad de Experience Cloud para Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) para obtener más información.
-* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la [extensión de etiqueta de servicio Adobe Experience Cloud ID](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Una vez añadida, no se requiere ninguna configuración adicional.
+* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de identidad de Experience Cloud para Analytics](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/setup-analytics) para obtener más información.
+* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la [extensión de etiqueta de servicio Adobe Experience Cloud ID](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Una vez añadida, no se requiere ninguna configuración adicional.
 * Las implementaciones que utilizan cualquier formulario de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) ya tienen el servicio de ID habilitado de forma nativa. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
 
 **Si su implementación no utiliza el servicio de identidad**, tenga en cuenta los siguientes impactos en su implementación:
