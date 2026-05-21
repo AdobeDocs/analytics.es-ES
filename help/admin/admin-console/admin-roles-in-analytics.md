@@ -5,21 +5,14 @@ feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
 TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1155
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -29,10 +22,10 @@ Adobe Analytics admite varios tipos de administradores. Los administradores con 
 
 >[!NOTE]
 >
->Antes de poder asignar funciones en Adobe Analytics a cualquier usuario, este debe asignarse como primer administrador en Experience Cloud. El primer administrador puede proporcionar a los usuarios de la organización otras funciones principales, tal como se describe en este artículo. Para obtener más información sobre el primer administrador, consulte la [guía de administración inicial de Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
+>Antes de que se puedan asignar funciones a cualquier usuario en Adobe Analytics, se debe asignar un usuario como primer administrador en CX Enterprise. El primer administrador puede proporcionar a los usuarios de la organización otras funciones principales, tal como se describe en este artículo. Para obtener más información sobre el primer administrador, consulte la [guía de administración inicial de Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
 
 
-## Funciones principales en Experience Cloud y Adobe Analytics
+## Funciones clave en CX Enterprise y Adobe Analytics
 
 Tenga en cuenta las siguientes funciones principales al utilizar Adobe Analytics:
 
@@ -88,9 +81,9 @@ Para obtener información sobre la asignación de usuarios como administradores 
 
 [Crear una propiedad de etiquetas de Analytics](/help/implement/launch/create-analytics-property.md): pida al administrador de recopilación de datos que inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
 
-Antes de poder asignar funciones en Adobe Analytics a cualquier usuario, este debe asignarse como primer administrador en Experience Cloud. El primer administrador puede proporcionar a los usuarios de la organización otras funciones principales, tal como se describe en este artículo.
+Antes de que se puedan asignar funciones a cualquier usuario en Adobe Analytics, se debe asignar un usuario como primer administrador en CX Enterprise. El primer administrador puede proporcionar a los usuarios de la organización otras funciones principales, tal como se describe en este artículo.
 
-Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de Experience Cloud.
+Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de CX Enterprise.
 
 Después de firmar un contrato
 

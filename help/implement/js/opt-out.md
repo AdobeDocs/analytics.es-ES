@@ -6,25 +6,15 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
 TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 638
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -36,7 +26,7 @@ ht-degree: 68%
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite excluir a los visitantes de un sitio web del análisis de su información.
 
-Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión empresarial de Adobe CX](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos empresariales de Adobe CX, incluidos Adobe Analytics y AppMeasurement.
 
 Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, AppMeasurement continúa enviando datos a Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
@@ -58,9 +48,9 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Uso de [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Vaya a su sitio mediante el explorador Chrome.
-   1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
+   1. Abra CX Enterprise Debugger y vaya a la [!UICONTROL pestaña Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:

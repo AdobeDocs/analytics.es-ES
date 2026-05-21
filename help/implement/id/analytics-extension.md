@@ -3,19 +3,12 @@ title: Identificación de visitantes con la extensión de etiquetas de Adobe Ana
 description: Identifique correctamente a los visitantes al implementar la extensión de etiquetas de Adobe Analytics.
 exl-id: de534c69-0f43-45eb-86da-20d3cd3f363d
 TQID: https://experienceleague.adobe.com/bdm2phkscnH9bSiQqK9K--ySTLguGaf-WLgEc3TL6H8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: 499
 ht-degree: 2%
 
 ---
@@ -28,7 +21,7 @@ La extensión de etiquetas de Adobe Analytics proporciona permite implementar Ap
 
 Para utilizar el servicio de ID de visitante con la extensión de etiqueta de Adobe Analytics, incluya la extensión de etiqueta del servicio de Experience Cloud ID en la propiedad de etiqueta.
 
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
 1. Busque la propiedad de etiquetas deseada.
 1. Vaya a **[!UICONTROL Extensions]** y, a continuación, seleccione la pestaña **[!UICONTROL Catalog]**.
@@ -42,9 +35,9 @@ La extensión de etiqueta obtiene automáticamente el ID de organización de IMS
 >
 >Adobe recomienda evitar este método para identificar a los visitantes.
 
-Si su organización no utiliza la extensión de etiqueta del servicio de ID de visitante, la extensión de etiqueta de Adobe Analytics utilizará su propia forma de identificación del visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview).
+Si su organización no utiliza la extensión de etiqueta del servicio de ID de visitante, la extensión de etiqueta de Adobe Analytics utilizará su propia forma de identificación del visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
+* Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
 * Si no participa en el programa de certificados administrados, el servidor de seguimiento suele ser un subdominio de `adobedc.net`, `omtrdc.net` o `2o7.net`, por lo que la cookie `s_vi` se convierte en una cookie de terceros. Debido a los estándares modernos de privacidad del explorador, la mayoría de los exploradores rechazan las cookies de terceros. Una vez rechazado, AppMeasurement intenta establecer una cookie de reserva (`fid`) de origen en su lugar.
 
 Si establece correctamente [!UICONTROL Servidor de seguimiento SSL], no se requieren más medidas de identificación de visitantes.

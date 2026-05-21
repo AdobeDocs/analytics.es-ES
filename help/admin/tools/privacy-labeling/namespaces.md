@@ -5,21 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 942
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +26,7 @@ La cadena del espacio de nombres se emplea para identificar los campos en los qu
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de espacio de nombres asociadas de cada uno de sus grupos de informes.
 
-Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) para obtener más información sobre la [lista de espacio de nombres de identidad estándar](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Crear un trabajo de acceso o eliminación](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para una solicitud de muestra.
+Consulte la [Documentación de la API de privacidad de datos de CX](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es) para obtener más información y una [lista de áreas de nombres de identidad estándar](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consulte [Crear un trabajo de acceso o eliminación](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/privacy-jobs#access-delete) para una solicitud de muestra.
 
 ## ID de cookie
 

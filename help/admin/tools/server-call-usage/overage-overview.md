@@ -5,23 +5,15 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 80%
+source-wordcount: 1013
+ht-degree: 72%
 
 ---
 
@@ -60,7 +52,7 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de facturación (ID de facturación) </p> </td> 
-   <td colname="col2"> <p>La entidad legal a la que se facturan las llamadas al servidor. Por ejemplo, adobe.com. Cada empresa de facturación tiene un ID de facturación que se utiliza para identificar de forma exclusiva al cliente de facturación. Se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación. </p> </td> 
+   <td colname="col2"> <p>La entidad legal a la que se facturan las llamadas al servidor. Por ejemplo, adobe.com. Cada empresa de facturación tiene un ID de facturación que se utiliza para identificar de forma exclusiva al cliente de facturación. Se puede asociar un ID de facturación a varias organizaciones empresariales de CX; no siempre hay una relación 1:1 entre una organización y un ID de facturación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inicio de sesión de la empresa </p> </td> 
@@ -73,8 +65,8 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
     </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="/help/admin/tools/server-call-usage/overage-overview.md">permiso</a> adecuado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organización de Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Una organización de es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. </p> <p>La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones. </p> </td> 
+   <td colname="col1"> <p>CX Organización empresarial </p> </td> 
+   <td colname="col2"> <p>Una organización es la entidad que permite a un administrador configurar grupos y usuarios, así como controlar el inicio de sesión único en CX Enterprise. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de CX Enterprise. </p> <p>La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asignación de llamada al servidor </p> </td> 
@@ -104,7 +96,7 @@ El permiso Uso de llamadas al servidor se concede automáticamente a los adminis
   <tr> 
    <th colname="col1" class="entry"> Nombre del permiso </th> 
    <th colname="col3" class="entry"> Conceder permiso si ha iniciado sesión en Adobe Analytics (inicio de sesión heredado) </th> 
-   <th colname="col4" class="entry"> Conceder permiso si ha iniciado sesión en Adobe Experience Cloud </th> 
+   <th colname="col4" class="entry"> Conceder permiso si ha iniciado sesión en Adobe CX Enterprise </th> 
   </tr> 
  </thead>
  <tbody> 

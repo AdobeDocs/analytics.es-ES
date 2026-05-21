@@ -5,22 +5,14 @@ title: Disponibilidad y latencia de los datos
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 824
-ht-degree: 100%
+source-wordcount: 823
+ht-degree: 97%
 
 ---
 
@@ -46,7 +38,7 @@ La latencia está causada por una de las siguientes categorías generales:
 
 ## Funciones que dependen de la latencia
 
-Algunas funciones de Adobe Experience Cloud tienen una cantidad innata de latencia además del tiempo de procesamiento estándar.
+Algunas funciones de Adobe CX Enterprise incluyen una cantidad innata de latencia además del tiempo de procesamiento estándar.
 
 * Analytics for Target (A4T) requiere de cinco a diez minutos adicionales de latencia para que los datos recopilados de ambas plataformas se almacenen en la misma visita.
 * En el caso de los datos con marca de tiempo la duración es mayor debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta quince minutos. Las visitas recibidas con una marca de tiempo del día anterior pueden tardar hasta dos horas. Las visitas antiguas pueden tardar más tiempo, aumentando cada día hasta un límite de aproximadamente veinticuatro horas.

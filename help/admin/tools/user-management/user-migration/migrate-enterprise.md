@@ -5,18 +5,14 @@ feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
 TQID: https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -90,7 +86,7 @@ Si necesita migrar cuentas de usuario de Adobe ID existentes a un Enterprise ID 
 
       >[!IMPORTANT]
       >
-      >Si encuentra duplicados, elimínelos del archivo [!DNL User Logins List.csv] de Analytics. Este paso es útil para sobrescribir los permisos de usuario de Experience Cloud existentes en Adobe Admin Console y le proporciona una lista de cuentas para migrar.
+      >Si encuentra duplicados, elimínelos del archivo [!DNL User Logins List.csv] de Analytics. Este paso ayuda a evitar sobrescribir los permisos de usuario de CX Enterprise existentes en Adobe Admin Console y le proporciona una lista de cuentas a migrar.
 
 1. Descargue la plantilla CSV de Adobe Admin Console:
    1. En la ficha Usuarios, haga clic en **[!UICONTROL Añadir usuarios mediante CSV]** y luego en **[!UICONTROL Descargar plantilla CSV]**.

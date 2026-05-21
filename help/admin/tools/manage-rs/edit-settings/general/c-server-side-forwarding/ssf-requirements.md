@@ -1,31 +1,25 @@
 ---
-description: Debe satisfacer los siguientes requisitos de solución, servicio y código de Experience Cloud para implementar el reenvío de lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
+description: Debe cumplir estos requisitos de solución, servicio y código de CX Enterprise para implementar el reenvío del lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
 solution: Analytics
 title: Requisitos para el reenvío del lado del servidor
 feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
 TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 100%
+source-wordcount: 325
+ht-degree: 84%
 
 ---
 
 # Requisitos para el reenvío del lado del servidor
 
-Debe satisfacer los siguientes requisitos de solución, servicio y código de Experience Cloud para implementar el reenvío de lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
+Debe cumplir estos requisitos de solución, servicio y código de CX Enterprise para implementar el reenvío del lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
 
 ## Requisitos de solución
 
@@ -33,7 +27,7 @@ El reenvío del lado del servidor funciona con [Analytics](https://www.adobe.com
 
 ## Requisitos de servidor
 
-El reenvío de lado del servidor requiere el [servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). El servicio de identidad ofrece un ID universal que identifica a los visitantes del sitio en todas las soluciones de Experience Cloud. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
+El reenvío de lado del servidor requiere el [servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). El servicio de identidad proporciona un ID universal que identifica a los visitantes del sitio en todas las soluciones de CX Enterprise. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
 
 ## Versiones de código
 

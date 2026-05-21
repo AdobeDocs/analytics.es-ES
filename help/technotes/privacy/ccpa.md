@@ -5,20 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 TQID: https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 476
-ht-degree: 100%
+source-wordcount: 474
+ht-degree: 75%
 
 ---
 
@@ -36,13 +30,13 @@ El 1 de enero de 2020 entra en vigor la Ley de Protección al Consumidor de Cali
 
 Cuando Adobe proporciona software y servicios a una empresa, Adobe actúa como encargado del tratamiento de datos de cualquier dato personal que reciba y almacene en nombre de sus clientes, como parte de la prestación de los servicios. Como procesador de datos, Adobe procesa los datos personales de acuerdo con los permisos e instrucciones que su empresa proporcione (y que pueden establecerse, por ejemplo, en el acuerdo entre su empresa y Adobe).
 
-Como responsable del tratamiento de datos, determinará qué datos personales Adobe trata y almacena en su nombre. Si usa soluciones de Adobe Experience Cloud, Adobe podría alojar datos personales en su nombre según las soluciones que use y la información que decida enviar a su cuenta de Adobe Experience Cloud. Si desea ver una lista de ejemplos, consulte [Privacidad de Adobe Experience Cloud.](https://www.adobe.com/es/privacy/experience-cloud.html#collect)
+Como responsable del tratamiento de datos, determinará qué datos personales Adobe trata y almacena en su nombre. Si utiliza soluciones de Adobe CX Enterprise, Adobe podría alojar datos personales en su nombre según las soluciones que utilice y la información que decida enviar a su cuenta de Adobe CX Enterprise. Para ver una lista de ejemplos, consulte la [privacidad empresarial de Adobe CX.](https://www.adobe.com/es/privacy/experience-cloud.html#collect)
 
 ## Cómo administra Adobe los datos de la CCPA
 
-Adobe Experience Cloud ofrece una solución integrada que conecta la infraestructura de gobernanza de datos de su marca con las herramientas de Adobe que utiliza para crear y administrar las experiencias de los consumidores. Las funciones de gobernanza de datos de Adobe Experience Cloud vinculan de forma directa las políticas de gobernanza de datos al uso de datos.
+Adobe CX Enterprise proporciona una solución integrada que conecta la infraestructura de control de datos de su marca con las herramientas de Adobe que utiliza para crear y gestionar las experiencias de los consumidores. Las funciones de control de datos de Adobe CX Enterprise permiten vincular de forma directa las políticas de control al uso de los datos.
 
-Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html), donde se tratan los pasos de preparación para la privacidad y cómo llevar a cabo la integración con la API del servicio de privacidad de Adobe Experience Cloud.
+Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html), donde se tratan los pasos de preparación para la privacidad y cómo llevar a cabo la integración con la API de Privacy Service de Adobe CX Enterprise.
 
 ## Preparación para la CCPA y sus datos de Adobe Analytics
 

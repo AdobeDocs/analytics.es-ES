@@ -5,15 +5,12 @@ title: Clasificaciones
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 TQID: https://experienceleague.adobe.com/JdxiVF-HzQPiFzC6CH0yeIIPEulsacjl11-X8wLMrl4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 76%
+source-wordcount: 449
+ht-degree: 72%
 
 ---
 
@@ -35,6 +32,6 @@ Después de enviar el archivo de origen y el archivo `.fin`, es importante cerra
 
 Finalizar archivo: [!DNL Classifications.fin]
 
-Si se carga el archivo de fuentes de datos o de clasificación sin el archivo `.fin` correspondiente, Adobe no lo añadirá a la cola para su procesamiento. El archivo permanece en el FTP y no se aplica a los datos de [!UICONTROL Experience Cloud]. Recibirá una notificación solo si ha ingresado su dirección de correo electrónico como [!UICONTROL Destinatario de notificaciones] en la ventana [!UICONTROL Crear cuenta de FTP] de Analytics. Si no se introduce ninguna dirección de correo electrónico en este campo, no se envía ninguna notificación.
+Si se carga el archivo de fuentes de datos o de clasificación sin el archivo `.fin` correspondiente, Adobe no lo añadirá a la cola para su procesamiento. El archivo permanece en el FTP y no se aplica a los datos de CX Enterprise. Recibirá una notificación solo si ha ingresado su dirección de correo electrónico como [!UICONTROL Destinatario de notificaciones] en la ventana [!UICONTROL Crear cuenta de FTP] de Analytics. Si no se introduce ninguna dirección de correo electrónico en este campo, no se envía ninguna notificación.
 
 Si el archivo que se carga con un archivo `.fin` tiene algún error, se envía para su procesamiento, pero el error interrumpe el procesamiento y el archivo se envía a una carpeta de errores. Si esto sucede, se envía una notificación a la dirección de correo electrónico indicada en el campo [!UICONTROL Destinatario de notificaciones] de la ventana [!UICONTROL Crear cuenta de FTP]. Si no se escribe ninguna dirección de correo electrónico, no se envían notificaciones.

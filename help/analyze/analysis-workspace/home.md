@@ -5,28 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 97%
+source-wordcount: 1422
+ht-degree: 96%
 
 ---
 
@@ -36,7 +23,7 @@ Analysis Workspace te permite crear análisis rápidamente para recopilar inform
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +48,7 @@ Las funciones principales de Analysis Workspace están disponibles a través del
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL Paneles]** | [Los paneles](/help/analyze/analysis-workspace/c-panels/panels.md) se utilizan para organizar el análisis dentro de un proyecto y pueden tener muchas tablas y visualizaciones. Muchos de los paneles que se proporcionan en Analysis Workspace generan un conjunto completo de análisis basados en unas pocas entradas de usuario. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL Visualizaciones]** | Las [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), como una barra o un gráfico de líneas se pueden utilizar para que los datos cobren vida visualmente. En el panel del extremo izquierdo, selecciona el icono **[!UICONTROL Visualizaciones]** del medio para ver la lista completa de visualizaciones disponibles. |
-| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/home.md) incluyen los siguientes elementos:<ul><li>![Dimensiones](/help/assets/icons/Dimensions.svg) [Dimensión](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [&#x200B; Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Segmentos](/help/components/segmentation/seg-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fecha](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
+| ![Depurar](/help/assets/icons/Curate.svg) | **[!UICONTROL Componentes]** | [Los componentes](/help/components/home.md) incluyen los siguientes elementos:<ul><li>![Dimensiones](/help/assets/icons/Dimensions.svg) [Dimensión](/help/components/dimensions/overview.md)</li><li>![Evento](/help/assets/icons/Event.svg) [ Métricas](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentación](/help/assets/icons/Segmentation.svg) [Segmentos](/help/components/segmentation/seg-overview.md)</li><li>![Calendario](/help/assets/icons/Calendar.svg) [Intervalos de fecha](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL Índice]** | El [Índice](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) organiza todos los paneles y visualizaciones incluidos en el proyecto en una lista contraíble, lo que le permite acceder rápidamente a un panel o visualización específicos. |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **Diccionario de datos** | El [Diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ayuda tanto a los usuarios como a los administradores a realizar un seguimiento de los componentes de su entorno de Analytics y a comprenderlos mejor. |
 
@@ -137,7 +124,7 @@ Consulta las tablas siguientes para ver una descripción general de los menús d
 
 | Ayuda | Descripción |
 |---|---|
-| Vídeos de **&#x200B;**&#x200B;| Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
+| Vídeos de **** | Abre el canal YouTube del Customer Journey Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Documentación de ayuda]** | Abra la documentación (en realidad acaba de leer...) en una nueva pestaña del explorador. |
 | **[!UICONTROL Foro de ayuda]** | Abre el foro de comunidades de Experience League de Adobe Analytics en una nueva pestaña del explorador. |
 | **[!UICONTROL Teclas de acceso directo]** | Mostrar una descripción general de los métodos abreviados de teclado que se pueden utilizar en Workspace. |
@@ -155,7 +142,7 @@ La sincronización de visualizaciones te permite controlar qué tabla de datos o
 
 Empezar a utilizar Analysis Workspace
 
-1. Inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com).
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Selecciona **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![Aplicación](/help/assets/icons/Apps.svg) en la parte superior derecha de la interfaz.
 1. La página **[!UICONTROL Proyectos]** de Analysis Workspace se muestra de forma predeterminada. Si se ha seleccionado un proyecto específico o se ha estado trabajando en él recientemente, ese proyecto se muestra de forma predeterminada.
 
@@ -176,4 +163,4 @@ Cuando crea el proyecto, este recopila información procesable y está listo par
 ## Recursos adicionales {#resources}
 
 - Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/overview).
-- Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones acerca de las nuevas funciones.
+- Consulte [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones sobre las nuevas funciones.

@@ -5,18 +5,14 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 547
-ht-degree: 85%
+ht-degree: 82%
 
 ---
 
@@ -34,7 +30,7 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 
 El departamento de ingeniería de Adobe ofrece las analíticas de varios dispositivos en el grupo de informes entre dispositivos. Para iniciar este proceso, póngase en contacto con el Servicio de atención al cliente y asegúrese de proporcionar la siguiente información:
 
-* Su ID de organización de Adobe Experience Cloud (la cadena alfanumérica que termina con @AdobeOrg)
+* Su ID de organización empresarial de Adobe CX (una cadena alfanumérica que termina con @AdobeOrg)
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
 * Qué método de análisis multidispositivo desea utilizar (vinculación basada en el campo)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario

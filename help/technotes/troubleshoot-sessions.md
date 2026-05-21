@@ -4,20 +4,14 @@ description: Obtenga información sobre cómo resolver problemas relacionados co
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
 TQID: https://experienceleague.adobe.com/b8dTBhP3a6FZSmABKtQKTp9XkmYIjfS5--Vbzl6xRGE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 367
-ht-degree: 88%
+ht-degree: 80%
 
 ---
 
@@ -31,7 +25,7 @@ Casi todos los problemas relativos a las sesiones se originan en la red corporat
 
 Muchas organizaciones implementan funciones de red adicionales para mejorar la seguridad, como servidores proxy o firewalls. Estos ajustes pueden interferir en ocasiones con la capacidad de mantener una sesión activa en Adobe Analytics.
 
-Para determinar si la red corporativa a la que se ha conectado interfiere con el uso de Adobe Analytics, utilice sus credenciales de inicio de sesión de Experience Cloud en un dispositivo ajeno a la red corporativa. Puede iniciar sesión en dispositivos que estén conectados, por ejemplo, a su red doméstica o a los datos de su móvil. Si puede moverse correctamente de una página a otra sin cerrar la sesión, es probable que la red de su organización sea el motivo por el que experimenta problemas de desconexión en Adobe Analytics.
+Para determinar si la red corporativa a la que se ha conectado está causando problemas con el uso de Adobe Analytics, utilice sus credenciales de inicio de sesión de CX Enterprise en un dispositivo ajeno a la red corporativa. Puede iniciar sesión en dispositivos que estén conectados, por ejemplo, a su red doméstica o a los datos de su móvil. Si puede moverse correctamente de una página a otra sin cerrar la sesión, es probable que la red de su organización sea el motivo por el que experimenta problemas de desconexión en Adobe Analytics.
 
 ## Problemas debidos a proxies {#proxy}
 

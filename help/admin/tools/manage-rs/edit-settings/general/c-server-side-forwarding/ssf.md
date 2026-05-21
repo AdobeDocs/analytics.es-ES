@@ -1,36 +1,29 @@
 ---
-description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+description: El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 solution: Analytics
 title: Resumen del reenvío del lado del servidor
 feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
 TQID: https://experienceleague.adobe.com/O03-5Ovxy3Lq-LZjPOseTpOlCXaS1kwD8n2ZM1yJuxY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Resumen del reenvío del lado del servidor
 
-El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
 El reenvío del lado del servidor mejora la recopilación de datos porque:
 
 * Reduce las llamadas desde la página. Con el reenvío del lado del servidor, los clientes de [!DNL Audience Manager] ya no tienen que utilizar DIL para la recopilación de datos, pues estos se reenvían desde Analytics. Eliminar DIL significa eliminar una llamada `"/event"`. La reducción de llamadas ayuda a mejorar el tiempo de carga de las páginas, lo que mejora la experiencia del cliente con su sitio.
-* Le permite aprovechar el uso compartido de datos entre soluciones de Experience Cloud.
+* Le permite aprovechar el uso compartido de datos entre las soluciones de CX Enterprise.
 * Se conforma a las prácticas recomendadas para la implementación de código de Audience Manager.
 
 >[!TIP]
@@ -82,4 +75,4 @@ Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccion
 
 >[!NOTE]
 >
->No aparecerán datos en otras soluciones de Experience Cloud, como [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es), hasta que haya completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
+>Los datos no aparecerán en otras soluciones de CX Enterprise, como [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) hasta que se hayan completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.

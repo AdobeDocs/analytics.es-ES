@@ -4,19 +4,14 @@ description: Pasos a seguir cuando no se puede iniciar sesión en Adobe Analytic
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 95%
+source-wordcount: 607
+ht-degree: 88%
 
 ---
 
@@ -24,19 +19,19 @@ ht-degree: 95%
 
 Adobe Analytics utiliza varios métodos de autenticación para iniciar sesión:
 
-* Adobe ID a través de Experience Cloud
+* Adobe ID mediante CX Enterprise
 * ID de Analytics heredado
 * Inicio de sesión único
 
 **Si accede con regularidad a Analytics y comienza a encontrar problemas de inicio de sesión de forma aleatoria, la mayoría de los problemas se resuelven al borrar las cookies y la caché del explorador.**
 
-Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com/es-es) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
+Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
 
 ## Adobe ID
 
-Solucione los problemas con el inicio de sesión en Adobe Analytics mediante Experience Cloud.
+Solucione los problemas con el inicio de sesión en Adobe Analytics mediante CX Enterprise.
 
-1. Vaya a [experience.adobe.com](https://experience.adobe.com). Si no puede acceder a este sitio, es posible que su organización no permita este dominio a través del cortafuegos. Colabore con el equipo informático de su organización para posibilitarlo. Consulte [IP y dominios utilizados en Adobe Experience Cloud](https://helpx.adobe.com/es/analytics/kb/adobe-ip-addresses.html) para obtener información útil que proporcionar a su equipo de TI.
+1. Vaya a [Adobe CX Enterprise](https://experience.adobe.com). Si no puede acceder a este sitio, es posible que su organización no permita este dominio a través del cortafuegos. Colabore con el equipo informático de su organización para posibilitarlo. Consulte [Direcciones IP utilizadas por Adobe Analytics](/help/technotes/ip-addresses.md) para obtener información útil que proporcionar a su equipo de TI.
 
 2. Autentíquese con Adobe ID: Haga clic en **[!UICONTROL Iniciar sesión con un Adobe ID]**. Si no puede iniciar sesión, compruebe que su dirección de correo electrónico esté escrita correctamente. De lo contrario, haga clic en **[!UICONTROL Restablecer contraseña]** y siga las indicaciones para restablecer la contraseña de Adobe ID.
 

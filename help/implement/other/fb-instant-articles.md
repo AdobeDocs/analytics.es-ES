@@ -5,20 +5,14 @@ feature: Implementation Basics
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
 role: Developer
 TQID: https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 100%
+source-wordcount: 470
+ht-degree: 94%
 
 ---
 
@@ -104,4 +98,4 @@ El siguiente ejemplo muestra varias variables personalizadas incluidas en una ca
 
 ## Artículos instantáneos y privacidad de Facebook
 
-Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe admite la política de privacidad existente en todos los Artículos instantáneos de Facebook. Si un usuario decide excluirse del seguimiento en su sitio principal, también se excluye del seguimiento en todos sus Artículos instantáneos de Facebook. La página de utilidades también admite el servicio de identidad de Adobe Experience Cloud para que pueda integrar datos de Artículos instantáneos de Facebook con el resto de Experience Cloud.
+Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe admite la política de privacidad existente en todos los Artículos instantáneos de Facebook. Si un usuario decide excluirse del seguimiento en su sitio principal, también se excluye del seguimiento en todos sus Artículos instantáneos de Facebook. La página de utilidades también admite el servicio de identidad de Adobe Experience Cloud para que pueda integrar datos de Artículos instantáneos de Facebook con el resto de CX Enterprise.

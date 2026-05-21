@@ -5,22 +5,14 @@ feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 TQID: https://experienceleague.adobe.com/1HGpY4lstZB6baXYggrD4xni1SWbYTDLa2fqYw11yd4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 727
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 
@@ -35,7 +27,7 @@ Estos valores de configuración contienen opciones de edición para la funcional
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración general de la cuenta](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración general de la cuenta](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -46,11 +38,11 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración g
 | Zona horaria | Determina la fecha y la hora asociadas con los datos del informe.  Si se cambia la zona horaria de un grupo de informes activo, se creará un pico o un hueco en los datos del informe. Para minimizar el impacto, Adobe recomienda cambiar de zona horaria durante las horas de menor actividad; de este modo, se evita alterar los datos.  Por ejemplo, si cambia la zona horaria del grupo de informes de Turquía a Portugal a las 3:00pm, la hora actual del grupo de informes pasará a ser 1:00pm. Debido a que los informes ya han recopilado datos durante 1:00 horas, los informes muestran un pico de tráfico entre 1:00pm y 3:00pm.  Alternativamente, si cambia la zona horaria del grupo de informes de Portugal a España a los 3:00pm, la hora actual del grupo de informes pasará a ser 4:00pm. Los informes no muestran datos entre 3:00pm y 4:00pm el día del cambio de hora. |
 | Página predeterminada | Si el informe [!UICONTROL Páginas más populares] contiene direcciones URL en lugar de nombres de páginas, esta configuración evita que varias URL representen a la misma página. Por ejemplo: las direcciones URL `https://example.com` y `https://example.com/index.html` suelen ser la misma página. Puede quitar los nombres de archivo predeterminados para que estas dos direcciones URL se muestren como `https://example.com`.  Si se deja en blanco, los siguientes nombres de archivo se eliminarán de las direcciones URL: index.htm, index.html, index.cgi, index.asp, default.htm, default.html, default.cgi, default.asp, home.htm, home.html, home.cgi y home.asp.  Para no desactivar por completo la depuración de nombre de archivo, ingrese un valor que nunca esté presente en las direcciones URL. |
 | Reemplazar el último octeto de direcciones IP por 0 | Cuando está habilitado, reemplaza el último octeto de direcciones IP por un cero. Esto ocurre antes de que se rellenen los informes relacionados con la ubicación geográfica, por lo que puede afectar a la precisión de estos informes. |
-| Confusión de IP | Convierte las direcciones IP en cadenas irreconocibles, lo que esencialmente las elimina de los almacenes de datos de Adobe. Cuando la confusión de IP está habilitada, las direcciones IP originales se pierden de forma permanente. <br> **Nota**: Las direcciones IP se confunden en cualquier lugar de Analytics, incluido el Data Warehouse. Sin embargo, la configuración de IP en Target se controla por separado, por lo que esta configuración no tiene ningún impacto en Target.<br> Si la confusión de la IP está habilitada, todo el procesamiento necesario, incluido el filtrado/exclusión de la IP, las reglas de bots y las búsquedas de segmentación geográfica, se realizan antes de que la dirección IP se confunda. No es necesario que cambie nada al habilitar la confusión de IP.<ul><li>Si activa la opción **Deshabilitado**, se respeta la dirección IP de los datos.</li><li>Si activa la opción **Confundir dirección IP**, se cambia la IP a dos puntos seguidos de un valor hash (p. ej., `::1932023538`).</li><li>Si activa **Quitar dirección IP**, se reemplazará la dirección IP con `::X.X.X.X` en los datos después de la búsqueda geográfica.<br/>Esta opción está seleccionada de forma predeterminada para los nuevos grupos de informes.</li></ul>**Nota**: esta configuración podría requerir cambios en las [reglas de bots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) o en las [exclusiones de IP](/help/admin/tools/exclude-ip.md) personalizadas.<br> **Nota**: Los datos recopilados mediante Web SDK pueden tener la confusión de IP aplicada en Edge Network a través de [configuración de flujo de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#@advanced-options). Si la confusión de la IP se aplica en Edge Network, ya se confunde cuando llega a Analytics. Esta ofuscación afecta tanto a las reglas como a las búsquedas geográficas. |
+| Confusión de IP | Convierte las direcciones IP en cadenas irreconocibles, lo que esencialmente las elimina de los almacenes de datos de Adobe. Cuando la confusión de IP está habilitada, las direcciones IP originales se pierden de forma permanente. <br> **Nota**: Las direcciones IP se confunden en cualquier lugar de Analytics, incluido el Data Warehouse. Sin embargo, la configuración de IP en Target se controla por separado, por lo que esta configuración no tiene ningún impacto en Target.<br> Si la confusión de la IP está habilitada, todo el procesamiento necesario, incluido el filtrado/exclusión de la IP, las reglas de bots y las búsquedas de segmentación geográfica, se realizan antes de que la dirección IP se confunda. No es necesario que cambie nada al habilitar la confusión de IP.<ul><li>Si activa la opción **Deshabilitado**, se respeta la dirección IP de los datos.</li><li>Si activa la opción **Confundir dirección IP**, se cambia la IP a dos puntos seguidos de un valor hash (p. ej., `::1932023538`).</li><li>Si activa **Quitar dirección IP**, se reemplazará la dirección IP con `::X.X.X.X` en los datos después de la búsqueda geográfica.<br/>Esta opción está seleccionada de forma predeterminada para los nuevos grupos de informes.</li></ul>**Nota**: esta configuración podría requerir cambios en las [reglas de bots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) o en las [exclusiones de IP](/help/admin/tools/exclude-ip.md) personalizadas.<br> **Nota**: Los datos recopilados mediante Web SDK pueden tener la confusión de IP aplicada en Edge Network a través de [configuración de flujo de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#@advanced-options). Si la confusión de la IP se aplica en Edge Network, ya se confunde cuando llega a Analytics. Esta ofuscación afecta tanto a las reglas como a las búsquedas geográficas. |
 | Almacenamiento del ID de transacción | Permite utilizar las fuentes de datos de [ID de la transacción](/help/import/data-sources/transactionid.md). |
 | Habilitar Data Warehouse | Permite habilitar la IU de Data Warehouse en Analytics > Herramientas > Almacén de datos. |
 | Opción Zip | Permite especificar el código postal en lugar de usar el que produce nuestra búsqueda geográfica de IP. |
 | Compatibilidad con caracteres multibyte | La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, póngase en contacto con el equipo de cuentas de Adobe o el Servicio de atención al cliente. |
 | Activado | Especifica si este grupo de informes está activado o no. |
 | Moneda base | Permite especificar la [moneda](/help/implement/vars/config-vars/currencycode.md) base para este grupo de informes. |
-| ID de organización | El ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+| ID de organización | El ID asociado con la empresa de CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |

@@ -4,24 +4,15 @@ title: Crear un grupo de informes
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-subfeature_v2:
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 313
-ht-degree: 98%
+source-wordcount: 312
+ht-degree: 87%
 
 ---
 
@@ -33,7 +24,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 ## Requisitos previos
 
-[Guía de administración inicial de Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través de la Admin Console de Experience Cloud.
+[Guía de administración de Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): Asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través de CX Enterprise Admin Console.
 
 ## Crear un grupo de informes {#create-report-suite}
 
@@ -52,7 +43,7 @@ Una ID del grupo de informes tiene una longitud máxima de 40 bytes. Un nombre d
 
 ## Resolución de problemas
 
-**Tras iniciar sesión en Experience Cloud, el icono de Analytics aparece sombreado.**
+**Después de iniciar sesión en CX Enterprise, el icono de Analytics aparece atenuado.**
 
 Esto significa que no se han concedido a su cuenta los permisos correctos para Analytics. Colabore con un administrador de nivel de sistema de su organización para asegurarse de que cuenta con un perfil con los permisos adecuados para acceder a Adobe Analytics.
 

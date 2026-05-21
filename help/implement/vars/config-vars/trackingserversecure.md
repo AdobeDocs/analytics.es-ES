@@ -5,24 +5,14 @@ feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: 830
 ht-degree: 17%
 
 ---
@@ -50,7 +40,7 @@ Consulte [Configurar la extensión de Adobe Experience Platform Web SDK](https:/
 
 ## Dominio de Edge que implementa manualmente Web SDK
 
-Configure SDK usando [`edgeDomain`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/edgedomain). El campo es una cadena que determina el dominio al que se envían los datos.
+Configure SDK usando [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). El campo es una cadena que determina el dominio al que se envían los datos.
 
 ```json
 alloy("configure", {
@@ -85,15 +75,15 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 El valor que use para `trackingServerSecure` (o `edgeDomain`) depende de varios factores:
 
-* Su participación en el [programa de certificados administrados por Adobe](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Su participación en el [programa de certificados administrados por Adobe](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
 * Si tiene implementado y configurado correctamente el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home)
 
 **Si su organización participa en el programa de certificados administrado por Adobe**, establezca el valor en el dominio de origen seleccionado al configurar el certificado. Normalmente, este valor es un subdominio propiedad de su organización. Por ejemplo, `data.example.com`. Los registros CNAME de su organización redirigen esos datos a Adobe.
 
 **Si no participa en el programa de certificación**, establezca el valor en un subdominio de `data.adobedc.net`. Adobe recomienda utilizar el ID de empresa de su organización para mantener la coherencia. Por ejemplo, `example.data.adobedc.net`. Siga estos pasos para determinar el ID de empresa:
 
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com) con sus credenciales de Adobe ID.
-1. En cualquier lugar de la interfaz de Experience Cloud, presione `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
+1. En cualquier lugar de la interfaz de CX Enterprise, pulse `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
 1. Aparece un **[!UICONTROL depurador de datos de usuario]**. Seleccione la ficha **[!UICONTROL Organizaciones asignadas]**.
 1. Expanda la organización IMS deseada.
 1. Busque el campo **[!UICONTROL Inquilino]**. Este valor es el subdominio recomendado de `data.adobedc.net` para usar.
@@ -110,8 +100,8 @@ Adobe recomienda encarecidamente mantener esta información en [documento de dis
 
 Adobe recomienda encarecidamente usar el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home) en todas las implementaciones. El servicio de ID se puede implementar de varias formas diferentes:
 
-* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de identidad de Experience Cloud para Analytics](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/setup-analytics) para obtener más información.
-* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la [extensión de etiqueta de servicio Adobe Experience Cloud ID](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Una vez añadida, no se requiere ninguna configuración adicional.
+* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de identidad de Experience Cloud para Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics) para obtener más información.
+* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la [extensión de etiqueta de servicio Adobe Experience Cloud ID](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview). Una vez añadida, no se requiere ninguna configuración adicional.
 * Las implementaciones que utilizan cualquier formulario de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) ya tienen el servicio de ID habilitado de forma nativa. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
 
 **Si su implementación no utiliza el servicio de identidad**, tenga en cuenta los siguientes impactos en su implementación:

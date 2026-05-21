@@ -5,24 +5,14 @@ feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 635
-ht-degree: 72%
+ht-degree: 65%
 
 ---
 
@@ -34,13 +24,13 @@ Una vez que la biblioteca de etiquetas se haya puesto en producción, su organiz
 
 [Integre la implementación de Analytics en su entorno de desarrollo](deploy-dev.md): Para poder seguir esta página, se debe publicar una implementación de Analytics en el entorno de desarrollo.
 
-## Valide la implementación de desarrollo con Experience Cloud Debugger
+## Valide la implementación de desarrollo con CX Enterprise Debugger.
 
-Experience Cloud Debugger es una extensión que muestra todas las etiquetas de Experience Cloud presentes en una página.
+CX Enterprise Debugger es una extensión que muestra todas las etiquetas de CX Enterprise presentes en una página.
 
 1. Instale la extensión para [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vaya al sitio web de desarrollo en el que haya implementado etiquetas.
-3. Haga clic en el icono de Adobe Experience Cloud Debugger en el navegador.
+3. Haga clic en el icono de Adobe CX Enterprise Debugger de su explorador.
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, etiquetas y el servicio de ID de visitante de Adobe Experience Cloud.
 
 ## Integrar la implementación de desarrollo en las fases de ensayo/producción
@@ -62,7 +52,7 @@ Una vez que haya validado que está viendo los datos, puede insertar la implemen
 
 Confirme que está viendo los datos en la versión activa del sitio y comience la recopilación de datos oficiales para Adobe Analytics.
 
-1. Una vez que los propietarios del sitio web hayan confirmado que han insertado el código de etiquetas en producción, vaya a la página principal del sitio web en Chrome y abra [!UICONTROL Adobe Experience Cloud Debugger].
+1. Una vez que los propietarios del sitio web hayan confirmado que han insertado el código de etiquetas en producción, vaya a la página principal del sitio web en Chrome y abra Adobe CX Enterprise Debugger.
 2. Si todo funciona, debería ver datos similares a los de las pruebas en su entorno de desarrollo. Llegados a este punto, está usted recopilando datos en su sitio y puede empezar a utilizar Adobe Analytics para crear informes.
 
 ## Resolución de problemas
