@@ -1,6 +1,6 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager) es una potente plataforma de administración de datos que le ayuda a crear perfiles de audiencia únicos a partir de integraciones de datos de origen, secundarias o de socio, y de terceros. Para los anunciantes, estos perfiles de público ayudan a definir los segmentos más valiosos que se pueden utilizar en cualquier canal digital.
-solution: Experience Cloud
+solution: Analytics
 title: Resumen de Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
@@ -19,7 +19,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
 source-wordcount: 522
 ht-degree: 41%
@@ -69,7 +69,7 @@ Asegúrese de que se cumplen los siguientes requisitos previos:
 * Es cliente tanto de Audience Manager como de Adobe Analytics.
 * Es administrador de Audience Manager.
 * Utiliza Identity Service 1.5 o posterior.
-* Los grupos de informes de Adobe Audience Manager y Adobe Analytics se asignan a la misma organización de Experience Cloud.
+* Los grupos de informes de Adobe Audience Manager y Adobe Analytics se asignan a la misma organización de CX Enterprise.
 * Utiliza el [reenvío de lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) (sin código DIL): AppMeasurement 1.5 o posterior.
 
 Estos requisitos previos se describen en el [flujo de trabajo de Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

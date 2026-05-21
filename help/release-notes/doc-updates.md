@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: '7326'
 ht-degree: 95%
 
 ---
@@ -321,7 +321,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 28 de abril de 2020 | Documentación añadida para la métrica [Velocidad de contenido](/help/components/metrics/content-velocity.md). |
 | 16 de abril de 2020 | Documentación sobre cómo crear automáticamente [!UICONTROL tablas de forma libre] a partir de un estado en blanco. Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla de forma libre. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla de forma libre en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (p. ej., dimensiones y métricas) al soltarlos juntos en una [!UICONTROL tabla de forma libre] en blanco. |
 | **Marzo de 2020** |  |
-| 12 de marzo de 2020 | Actualizaciones añadidas a los [segmentos de Publish en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
+| 12 de marzo de 2020 | Actualizaciones agregadas a [Publicar segmentos en CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de marzo de 2020 | Actualizaciones a la latencia de vinculación CDA. |
 | 12 de marzo de 2020 | Compatibilidad con varios grupos de informes en Espacio de trabajo. Ahora puede incluir datos de varios grupos de informes en un único proyecto de para verlo en paralelo. [Más información...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 12 de marzo de 2020 | Plantilla de tutorial de formación en Espacio de trabajo. Esta plantilla estándar nueva le explica la terminología común y los pasos para crear su primer análisis en el Espacio de trabajo. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista. [Más información...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

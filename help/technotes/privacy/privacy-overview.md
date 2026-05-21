@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1004
 ht-degree: 88%
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 # Resumen de privacidad
 
-Adobe desea habilitar su organización para que pueda cumplir con las leyes y regulaciones aplicables. Consulte [Privacidad de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud.html){target=_blank} para obtener más información. Entre Adobe Analytics y su organización, Adobe actúa como “procesador de datos” y usted es el “controlador de datos” (o equivalente según las leyes de privacidad y protección de datos aplicables). Revelar el uso de los productos y servicios de Adobe es decisión de su organización, ya que es esta quien controla exclusivamente cómo implementar las soluciones de Adobe. Al utilizar Adobe Analytics, su organización es responsable de cumplir con su propia política de privacidad, el acuerdo de servicio con Adobe y todas las leyes aplicables.
+Adobe desea habilitar su organización para que pueda cumplir con las leyes y regulaciones aplicables. Consulte la [privacidad empresarial de Adobe CX](https://www.adobe.com/es/privacy/experience-cloud.html){target=_blank} para obtener más información. Entre Adobe Analytics y su organización, Adobe actúa como “procesador de datos” y usted es el “controlador de datos” (o equivalente según las leyes de privacidad y protección de datos aplicables). Revelar el uso de los productos y servicios de Adobe es decisión de su organización, ya que es esta quien controla exclusivamente cómo implementar las soluciones de Adobe. Al utilizar Adobe Analytics, su organización es responsable de cumplir con su propia política de privacidad, el acuerdo de servicio con Adobe y todas las leyes aplicables.
 
 Adobe recomienda encarecidamente adherirse a los siguientes conceptos generales:
 

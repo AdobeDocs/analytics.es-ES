@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicion
 
 ## Comprobar que los usuarios de la aplicación pueden acceder a Adobe Analytics
 
-1. Configure nuevos usuarios en la [Admin Console de Experience Cloud](/help/admin/admin-console/permissions/product-profile.md).
+1. Configure nuevos usuarios en [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. Para poder compartir los cuadros de resultados, debe conceder a los usuarios de la aplicación permisos para acceder a componentes del cuadro de resultados como Analysis Workspace, los grupos de informes en los que se basan los informes de valoración, así como segmentos, métricas y dimensiones.
 
@@ -69,7 +69,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
    Aparece la pantalla **[!UICONTROL Elija una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
 
-1. Haga que pulsen el nombre de la compañía de inicio de sesión o de la organización de Experience Cloud con la que acceder al cuadro de resultados que ha compartido.
+1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización empresarial de CX que se aplica al cuadro de resultados que ha compartido.
 
    A continuación, la lista de cuadros de resultados muestra todos los cuadros de resultados que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
 

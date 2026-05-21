@@ -12,9 +12,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1731
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ Las siguientes medidas contienen objetivos concretos para alcanzar. Haga clic en
 
 Cree una secuencia de datos en la recopilación de datos de Adobe Experience Platform. Cuando envía datos a este conjunto de datos, estos se reenvían a Adobe Analytics. En el futuro, este mismo conjunto de datos reenviará datos a Customer Journey Analytics.
 
-1. Vaya a [experience.adobe.com](https://experience.adobe.com) e inicie sesión con sus credenciales.
+1. Vaya a [Adobe CX Enterprise](https://experience.adobe.com) e inicie sesión con sus credenciales.
 1. Utilice la página de inicio o el selector de producto en la esquina superior derecha para navegar a **[!UICONTROL Recopilación de datos]**.
 1. En el panel de navegación izquierdo, seleccione **[!UICONTROL Datastreams]**.
 1. Seleccione **[!UICONTROL Nueva secuencia de datos]**.

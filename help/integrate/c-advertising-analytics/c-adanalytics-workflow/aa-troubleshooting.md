@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 178
 ht-degree: 15%
@@ -39,7 +39,7 @@ Está intentando [configurar una nueva cuenta de Advertising](/help/integrate/c-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
+   <td colname="col1"> <p>1. El grupo de informes no está asignado a la ID de organización empresarial de CX del usuario que ha iniciado sesión. </p> </td> 
    <td colname="col2"> <p>Póngase en contacto con el Servicio de atención al cliente para asignar el grupo de informes a un ID de organización.</p> </td> 
   </tr> 
   <tr> 

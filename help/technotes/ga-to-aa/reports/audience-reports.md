@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1725
+source-wordcount: 1723
 ht-degree: 97%
 
 ---
@@ -77,7 +77,7 @@ El informe Explorador de usuarios permite a un analista ver visitas individuales
 
 Los datos demográficos y de intereses proporcionan información sobre la edad, el género y los intereses de los usuarios del sitio. Google recopila esos datos mediante sus capacidades de seguimiento entre sitios.
 
-Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar atributos del cliente, una función de Adobe Experience Cloud Platform. Permite controlar la organización de los datos por atributos, y no se limita solo a la demografía o a los intereses.
+Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar atributos del cliente, una función de Adobe CX Enterprise. Permite controlar la organización de los datos por atributos, y no se limita solo a la demografía o a los intereses.
 
 Consulte la ayuda de Atributos del cliente para obtener más información.
 

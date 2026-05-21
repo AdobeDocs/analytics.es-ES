@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Obtenga información sobre el uso de feeds de datos y Data Warehouse para recuperar un extracto de datos.
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
    + [Componentes admitidos en Data Warehouse](data-warehouse/component-support.md)
    + [Prácticas recomendadas de Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP y SFTP {#ftp-and-sftp}
-   + [Utilizar FTP y SFTP con Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + [Utilizar FTP y SFTP con Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)
    + Configurar cuentas FTP alojadas en Adobe {#set-up-ftp-accounts}
       + [Resumen de configuración de cuentas de FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Clasificaciones](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)

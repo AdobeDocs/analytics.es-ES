@@ -21,10 +21,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 638
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 68%
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite excluir a los visitantes de un sitio web del análisis de su información.
 
-Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe Experience Cloud, incluidos Adobe Analytics y AppMeasurement.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión empresarial de Adobe CX](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos empresariales de Adobe CX, incluidos Adobe Analytics y AppMeasurement.
 
 Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, AppMeasurement continúa enviando datos a Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
@@ -58,9 +58,9 @@ La página de exclusión de su organización depende del valor de la variable [`
    1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
    1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Use [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Uso de [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
    1. Vaya a su sitio mediante el explorador Chrome.
-   1. Abra Experience Cloud Debugger y vaya a la pestaña [!UICONTROL Red].
+   1. Abra CX Enterprise Debugger y vaya a la [!UICONTROL pestaña Red].
    1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:

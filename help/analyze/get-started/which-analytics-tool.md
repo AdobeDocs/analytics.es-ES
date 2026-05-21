@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1176
-ht-degree: 100%
+source-wordcount: 1175
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ La **[API de inserción de datos (heredada)](/help/import/c-data-insertion-api/c
 
 Deben usarse **[atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es)**:
 
-* Si obtiene datos de clientes empresariales en una base de datos de administración de la relación con los clientes (CRM) y desea cargarlos en Experience Cloud.
+* Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM) y desea cargar los datos en CX Enterprise.
 * Si desea utilizar datos CRM para un análisis más profundo en Analytics, o como criterio de segmentación en Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** debe usarse:

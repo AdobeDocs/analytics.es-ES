@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -134,7 +134,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | | **`latlon1`** | Ubicación (menos de 10 km) | varchar(255) |
 | | **`latlon23`** | Ubicación (menos de 100 m) | varchar(255) |
 | | **`latlon45`** | Ubicación (menos de 1 m) | varchar(255) |
-| | **`mcvisid`** | ID de visitante de Experience Cloud. Número de 128 bits formado por dos números concatenados de 64 bits con relleno hasta 19 dígitos. | varchar(255) |
+| | **`mcvisid`** | ID de visitante de CX Enterprise. Número de 128 bits formado por dos números concatenados de 64 bits con relleno hasta 19 dígitos. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | Lista de ID de segmento de Audience Manager a los que pertenece el visitante. La columna `post_mc_audiences` cambia el delimitador a `--**--`. | texto |
 | **`post_`** | **`mobileaction`** | Acción móvil. Se recopila automáticamente cuando se llama a `trackAction` en implementaciones móviles. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
 | **`post_`** | **`mobileappid`** | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato: `[AppName] [BundleVersion]`. | varchar(255) |
@@ -180,7 +180,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | **`post_`** | **`mvvar1`** - **`mvvar3`** | Valores de [lista de variable](/help/implement/vars/page-vars/list.md). Contiene una lista delimitada de valores personalizados en función de la implementación. Las columnas `post_mvvar1` - `post_mvvar3` reemplazan el delimitador original por `--**--`. | texto |
 | **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | Los valores de variable de lista que se establecieron en la visita actual. Reemplaza el delimitador original por `--**--`. Las columnas `post` no suelen contener datos. | texto |
 | | **`new_visit`** | Un indicador que determina si la visita actual es una visita nueva. Configurado por Adobe tras 30 minutos de inactividad de la visita. | tinyint sin firmar |
-| | **`os`** | ID numérico que representa el sistema operativo del visitante. Se basa en la columna`user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
+| | **`os`** | ID numérico que representa el sistema operativo del visitante. Se basa en la columna `user_agent`. El valor clave de `operating_system.tsv` búsqueda estándar y `operating_system_type.tsv` [Búsqueda dinámica](dynamic-lookups.md). | int sin firmar |
 | **`post_`** | **`pagename`** | Dimensión [Página](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) está vacía, Analytics utiliza `page_url` en su lugar. | varchar(100) |
 | **`post_`** | **`pagename_no_url`** | Similar a `pagename`, excepto que no vuelve a `page_url`. Solo la columna `post` está disponible. | varchar(100) |
 | **`post_`** | **`page_event`** | El tipo de visita que se envía en la solicitud de imagen (visita estándar, vínculo de descarga, vínculo personalizado, vínculo de salida). Consulte [Búsqueda de evento de página](datafeeds-page-event.md). | tinyint sin firmar |

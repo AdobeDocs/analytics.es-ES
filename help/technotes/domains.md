@@ -14,10 +14,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 11%
+source-wordcount: 159
+ht-degree: 9%
 
 ---
 
@@ -38,12 +38,12 @@ Algunas configuraciones de cortafuegos bloquean los dominios en los que Adobe An
 
 {style="table-layout:auto"}
 
-## Dominios de Adobe Experience Cloud
+## Dominios empresariales de Adobe CX
 
-Además de los dominios anteriores, Adobe Experience Cloud se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
+Además de los dominios anteriores, Adobe CX Enterprise se basa en varios dominios para recopilar datos y exportar informes. Consulte [Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains) para obtener esta lista de dominios.
 
 >[!MORELIKETHIS]
 >
 >[Direcciones IP utilizadas por Adobe Analytics](ip-addresses.md)
 >
->[Dominios utilizados por Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains)
+>[Dominios utilizados por CX Enterprise](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/domains)

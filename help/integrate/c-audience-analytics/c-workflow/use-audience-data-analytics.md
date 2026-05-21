@@ -1,6 +1,6 @@
 ---
 description: Puede utilizar las dimensiones Audiencia de Adobe Audience Manager en todo Analytics. Los segmentos integrados son nuevas dimensiones de Analytics denominadas ID de audiencias y Nombre de audiencias, y se pueden usar como cualquier otra dimensión que recopile Analytics. En Fuentes de datos, los ID de público se almacenan en la columna “mc_audiences”. Estas dimensiones no están disponibles en este momento en Data Workbench o Livestream. Estos son algunos ejemplos de cómo puede aprovechar las dimensiones Públicos
-solution: Experience Cloud
+solution: Analytics
 title: Utilización de los datos de públicos en Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
@@ -12,7 +12,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
 source-wordcount: 570
 ht-degree: 49%

@@ -17,10 +17,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 824
-ht-degree: 100%
+source-wordcount: 823
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ La latencia está causada por una de las siguientes categorías generales:
 
 ## Funciones que dependen de la latencia
 
-Algunas funciones de Adobe Experience Cloud tienen una cantidad innata de latencia además del tiempo de procesamiento estándar.
+Algunas funciones de Adobe CX Enterprise incluyen una cantidad innata de latencia además del tiempo de procesamiento estándar.
 
 * Analytics for Target (A4T) requiere de cinco a diez minutos adicionales de latencia para que los datos recopilados de ambas plataformas se almacenen en la misma visita.
 * En el caso de los datos con marca de tiempo la duración es mayor debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta quince minutos. Las visitas recibidas con una marca de tiempo del día anterior pueden tardar hasta dos horas. Las visitas antiguas pueden tardar más tiempo, aumentando cada día hasta un límite de aproximadamente veinticuatro horas.

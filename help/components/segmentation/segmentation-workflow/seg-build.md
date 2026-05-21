@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 1870
-ht-degree: 96%
+source-wordcount: 1869
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    {style="table-layout:auto"}
 
 1. Para comprobar si la definición del segmento es correcta, utilice la previsualización constantemente actualizada de los resultados del segmento situada en la parte superior derecha.
-1. Para publicar el segmento en Experience Cloud, seleccione **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**. Consulte [Publicar segmentos a Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obtener más información.
+1. Para publicar el segmento en CX Enterprise, seleccione **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**. Consulte [Publicar segmentos en CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obtener más información.
 1. Seleccione lo siguiente:
    * **[!UICONTROL Guardar]** para guardar el segmento.
    * **[!UICONTROL Guardar como]** para guardar una copia del segmento.
@@ -270,7 +270,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Comparison]** operator: You can compare and constrain values using selected operators.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
-1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
 1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.

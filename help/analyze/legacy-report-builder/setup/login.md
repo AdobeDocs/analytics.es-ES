@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo iniciar sesión en Report Builder con su cuenta de inicio de sesión de Experience Cloud.
+description: Obtenga información sobre cómo iniciar sesión en Report Builder con su cuenta de inicio de sesión de CX Enterprise.
 title: Inicio de sesión en Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 13%
+source-wordcount: 264
+ht-degree: 14%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->La versión 5.6.47 y posteriores de Report Builder solo admiten el inicio de sesión de Experience Cloud y no admiten inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. **Para el 22 de julio de 2021, todos los usuarios de Report Builder deben actualizar el complemento de Report Builder a la versión 5.6.47 o posterior, que incluye una actualización esencial del proceso de inicio de sesión.**
+>La versión 5.6.47 y posteriores de Report Builder solo admiten el inicio de sesión de CX Enterprise y no admiten inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. **Para el 22 de julio de 2021, todos los usuarios de Report Builder deben actualizar el complemento de Report Builder a la versión 5.6.47 o posterior, que incluye una actualización esencial del proceso de inicio de sesión.**
 
-Para iniciar sesión en Report Builder, utilice su cuenta de inicio de sesión de Experience Cloud.
+Para iniciar sesión en Report Builder, utilice su cuenta de inicio de sesión de CX Enterprise.
 
-## Iniciar sesión en Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Inicie sesión en Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-El inicio de sesión de Experience Cloud le permite utilizar su Enterprise ID (correo electrónico y contraseña) para iniciar sesión en Adobe Experience Cloud.
+El inicio de sesión de CX Enterprise le permite utilizar su Enterprise ID (correo electrónico y contraseña) para iniciar sesión en Adobe CX Enterprise.
 
 Haz clic en **[!UICONTROL Iniciar sesión]** > **[!UICONTROL Inicia sesión con un Enterprise ID]** para que se redirija a la página de inicio de sesión único de tu compañía. Para obtener más información sobre Enterprise ID, consulta [Inicia sesión en tu cuenta de empresa o escuela](https://helpx.adobe.com/es/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Captura de pantalla que muestra la ventana de inicio de sesión de Adobe Experience Cloud con las opciones para iniciar sesión con o sin tu Adobe ID](assets/adobe_id_login.png)
+![Captura de pantalla que muestra la ventana de inicio de sesión de Adobe CX Enterprise con las opciones para iniciar sesión con o sin tu Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->El inicio de sesión de Experience Cloud se basa en una sesión y un token, que caduca a los 30 días.
+>El inicio de sesión de CX Enterprise se basa en una sesión y un token, que caduca a los 30 días.
 
 ## Inicio de sesión en Report Builder
 

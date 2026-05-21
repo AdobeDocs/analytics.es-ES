@@ -13,18 +13,18 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 185
-ht-degree: 43%
+ht-degree: 31%
 
 ---
 
 # Guía de administración inicial de Adobe Analytics
 
-Antes de poder asignar funciones en Adobe Analytics a cualquier usuario, este debe asignarse como primer administrador en Experience Cloud. El primer administrador puede aprovisionar a los usuarios de la organización con otras funciones clave.
+Antes de que se puedan asignar funciones a cualquier usuario en Adobe Analytics, se debe asignar un usuario como primer administrador en CX Enterprise. El primer administrador puede aprovisionar a los usuarios de la organización con otras funciones clave.
 
-Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de Experience Cloud, incluida Adobe Analytics.
+Un primer administrador es el punto de partida para permitir que el resto de la organización utilice cada solución de CX Enterprise, incluida Adobe Analytics.
 
 ## Proceso de aprovisionamiento para un primer administrador
 

@@ -35,10 +35,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 88%
+source-wordcount: 2638
+ht-degree: 86%
 
 ---
 
@@ -61,7 +61,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Campaign o Campaña:** puede hacer referencia a:
    * La variable de campaña, que rellena la dimensión Código de seguimiento. Consulte [campaña](../implement/vars/page-vars/campaign.md) en la guía de usuario sobre implementación.
    * Una clasificación predeterminada de la dimensión Código de seguimiento, creada automáticamente para todos los grupos de informes.
-   * Adobe Campaign, parte de Adobe Experience Cloud. Puede obtener más información en [Adobe.com](https://www.adobe.com/es/marketing/campaign.html).
+   * Adobe Campaign, parte de Adobe CX Enterprise. Puede obtener más información en [Adobe.com](https://www.adobe.com/es/marketing/campaign.html).
 * **Canal:** puede hacer referencia a:
    * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte [Variables de página](/help/implement/vars/page-vars/page-variables.md) en la guía del usuario sobre implementación.
    * Canales de marketing, un componente que le ayuda a comprender cómo llegan los usuarios al sitio. Consulte [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
@@ -75,7 +75,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Variable de conversión:** Conocidas de forma coloquial como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la Guía de herramientas de Analytics.
 * **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
-* **Atributos del cliente:** una función de Experience Cloud que permite cargar los datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la guía de usuario de los servicios principales.
+* **Atributos del cliente:** Característica de CX Enterprise que permite cargar datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la guía de usuario de los servicios principales.
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **Conectores de datos:** Una solución de desarrollo retirada que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. Se reemplazó con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Fuente de datos:** exportación de datos sin procesar que enumera cada visita en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
@@ -106,7 +106,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Canal de marketing:** característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de marketing. Consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
 * **Métrica:** un tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Su homólogo suele ser una dimensión.
 * **Aplicación móvil:** Conocida también como **paneles de [!UICONTROL Adobe Analytics]**, la aplicación móvil permite que los usuarios accedan mediante dispositivos móviles a cuadros de resultados intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
-* **Mobile Services:** un producto retirado de Adobe que aúna las prestaciones de marketing móvil para aplicaciones móviles de Adobe Experience Cloud, lo que permite que entienda y mejore la participación del usuario con sus aplicaciones.
+* **Mobile Services:** Un producto retirado de Adobe que aúna las capacidades de marketing móvil para aplicaciones móviles de Adobe CX Enterprise, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones.
 * **Etiquetado de grupos múltiples:** la práctica de enviar la misma visita a varios grupos de informes. Con la introducción de los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los procesos de etiquetado de grupos múltiples se centran en un grupo de informes global.
 * **Normalización:** forma de organizar una visualización que recoge todas las métricas e iguala sus proporciones, lo que permite una comparación más sencilla de las tendencias.
 * **Ocurrencias:** un tipo de métrica que muestra el número de visitas para el que se configuró o durante el cual persistió un elemento de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1132
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -59,7 +59,7 @@ Esta integración va dirigida a los públicos siguientes:
 
 Analytics tiene dos permisos que se conceden automáticamente a los administradores de Analytics. Los administradores tienen la opción de conceder estos permisos a los usuarios que no sean administradores.
 
-| Permiso | Definición | Conceder permiso si ha iniciado sesión en Adobe Experience Cloud |
+| Permiso | Definición | Conceder permiso si ha iniciado sesión en Adobe CX Enterprise |
 | --- | --- | --- |
 | Administración de Advertising Analytics | Permite a los usuarios configurar/editar/visualizar las cuentas de búsqueda publicitarias. | Inicie sesión en [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Productos] > [!UICONTROL Adobe Analytics] > [!UICONTROL Perfil del producto] > [!UICONTROL Permisos] pestaña > [!UICONTROL Herramientas de Analytics] > [!UICONTROL Administración de Advertising Analytics] |
 | Configuración de Advertising Analytics | Permite a los usuarios configurar los grupos de informes que se van a aprovisionar para Advertising Analytics. | Inicie sesión en [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Productos] > [!UICONTROL Adobe Analytics] > [!UICONTROL Perfil del producto] > [!UICONTROL Permisos] pestaña > [!UICONTROL Herramientas de Analytics] > [!UICONTROL Configuración de Advertising Analytics] |

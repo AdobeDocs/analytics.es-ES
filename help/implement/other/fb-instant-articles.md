@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 100%
+source-wordcount: 470
+ht-degree: 94%
 
 ---
 
@@ -104,4 +104,4 @@ El siguiente ejemplo muestra varias variables personalizadas incluidas en una ca
 
 ## Artículos instantáneos y privacidad de Facebook
 
-Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe admite la política de privacidad existente en todos los Artículos instantáneos de Facebook. Si un usuario decide excluirse del seguimiento en su sitio principal, también se excluye del seguimiento en todos sus Artículos instantáneos de Facebook. La página de utilidades también admite el servicio de identidad de Adobe Experience Cloud para que pueda integrar datos de Artículos instantáneos de Facebook con el resto de Experience Cloud.
+Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe admite la política de privacidad existente en todos los Artículos instantáneos de Facebook. Si un usuario decide excluirse del seguimiento en su sitio principal, también se excluye del seguimiento en todos sus Artículos instantáneos de Facebook. La página de utilidades también admite el servicio de identidad de Adobe Experience Cloud para que pueda integrar datos de Artículos instantáneos de Facebook con el resto de CX Enterprise.

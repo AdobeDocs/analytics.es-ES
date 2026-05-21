@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Identificación de visitantes mediante la biblioteca JavaScript de SDK web
 
-La biblioteca JavaScript de Adobe Experience Platform Web SDK (`alloy.js`) ofrece un enfoque unificado y moderno para la recopilación de datos de todas las aplicaciones de Adobe Experience Cloud, incluida Adobe Analytics. Aunque la mayoría de los clientes suelen implementar la [extensión de etiquetas Web SDK](web-sdk-extension.md), puede usar la biblioteca JavaScript de Web SDK por su cuenta o dentro de un sistema de administración de etiquetas de terceros. Consulte [Alloy](https://github.com/adobe/alloy) en GitHub para descargar la versión más reciente de la biblioteca.
+La biblioteca JavaScript de Adobe Experience Platform Web SDK (`alloy.js`) ofrece un enfoque unificado y moderno para la recopilación de datos de todas las aplicaciones empresariales de Adobe CX, incluida Adobe Analytics. Aunque la mayoría de los clientes suelen implementar la [extensión de etiquetas Web SDK](web-sdk-extension.md), puede usar la biblioteca JavaScript de Web SDK por su cuenta o dentro de un sistema de administración de etiquetas de terceros. Consulte [Alloy](https://github.com/adobe/alloy) en GitHub para descargar la versión más reciente de la biblioteca.
 
 Los datos de identidad se pueden ampliar para admitir ID personalizados y varias áreas de nombres con `identityMap` de XDM. Adobe recomienda usar el servicio de Adobe Experience Cloud ID como identificador principal para Analytics mediante otras opciones de administración de identidades en escenarios avanzados.
 

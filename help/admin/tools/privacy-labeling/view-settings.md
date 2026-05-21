@@ -18,10 +18,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 815
-ht-degree: 95%
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la gobernanza 
 
 ## Ver etiquetas de privacidad {#view-privacy}
 
-1. Inicie sesión en Adobe Experience Cloud.
+1. Inicie sesión en Adobe CX Enterprise.
 2. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración y recopilación de datos]** > **[!UICONTROL Gobernanza de datos]**.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ Si desea aplicar la misma configuración de privacidad de datos a más de un gru
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de Experience Cloud.
+   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización empresarial CX.
 
    Cuando copia las etiquetas de una variable o establece variables en distintos grupos de informes, la copia se dirige a la variable de la posición correspondiente en el grupo de informes de destino. Para los componentes estándar, las variables de lista y los eventos de éxito, las etiquetas se copiarán en la variable con el **mismo nombre** en el grupo de informes de destino.
 

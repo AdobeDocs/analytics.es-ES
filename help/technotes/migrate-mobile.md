@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 701
 ht-degree: 89%
@@ -44,7 +44,7 @@ Sin embargo, si configura reglas de procesamiento adicionales en la IU de Mobile
 
    ![Variable de contexto](assets/context-var.png)
 
-1. En Experience Cloud, cambie a Adobe Analytics y asegúrese de que está en el mismo grupo de informes móviles que estaba viendo en Mobile Services.
+1. En CX Enterprise, cambie a Adobe Analytics y asegúrese de que está en el mismo grupo de informes móviles que estaba viendo en Mobile Services.
 1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]**.
 1. Haga clic en **[!UICONTROL Agregar regla]**.
 1. Ignore las condiciones y continúe añadiendo las mismas variables de contexto que existen en Mobile Services.

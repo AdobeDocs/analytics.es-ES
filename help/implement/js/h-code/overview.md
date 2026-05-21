@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 388
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
    >
    >El código H requiere que se llame al script `s_code.js` dentro de la etiqueta `<body>`. Esto es diferente a otros métodos de implementación, la mayoría de los cuales requieren que las referencias de secuencia de comandos estén en la etiqueta `<head>`.
 1. **Defina las variables específicas de la página en cada página**: Cada página debe tener variables individuales definidas, como el nombre de la página o las eVars. Las variables individuales generalmente se definen con una etiqueta `<script>` en línea en cada página.
-1. **Use Debugger para verificar la recopilación de datos**: Descargue e instale [Experience Cloud Debugger](../../validate/debugger.md) para asegurarse de que los datos se envían a Adobe y de que las variables de página se definen correctamente.
+1. **Use el depurador para comprobar la recopilación de datos**: Descargue e instale [CX Enterprise Debugger](../../validate/debugger.md) para asegurarse de que los datos se envían a Adobe y de que las variables de página se definen correctamente.
 
 ## Almacenamiento en caché
 

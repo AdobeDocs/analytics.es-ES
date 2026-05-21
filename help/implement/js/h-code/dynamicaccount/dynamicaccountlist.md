@@ -17,10 +17,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 264
-ht-degree: 94%
+source-wordcount: 268
+ht-degree: 89%
 
 ---
 
@@ -72,4 +72,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Si no coincide ninguna regla, se usa el grupo de informes predeterminado de `s_account`.
 * Si su página se guarda en el disco duro de otra persona o se traduce mediante un motor de traducción web (como las páginas traducidas por Google), la selección de cuentas dinámicas probablemente no funcionará.
 * Las reglas `dynamicAccountSelection` solo se aplican a la sección de la dirección URL especificada en `dynamicAccountMatch`.
-* Utilice [!DNL Adobe Experience Cloud Debugger] para probar los grupos de informes de destino.
+* Utilice Adobe CX Enterprise Debugger para probar el grupo de informes de destino.

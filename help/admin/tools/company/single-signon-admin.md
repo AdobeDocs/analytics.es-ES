@@ -1,5 +1,5 @@
 ---
-description: El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console.
+description: El inicio de sesión único en Adobe CX Enterprise se implementa mediante Admin Console.
 title: Inicio de sesión único
 feature: Company Settings
 exl-id: d317d85d-46bc-4857-82d8-3fe3b3fc154e
@@ -11,15 +11,15 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 44
-ht-degree: 90%
+source-wordcount: 42
+ht-degree: 28%
 
 ---
 
 # Inicio de sesión único
 
-El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console.
+El inicio de sesión único en Adobe CX Enterprise se implementa mediante Admin Console.
 
 Si necesita ayuda, consulte la [Guía del usuario para la administración](https://www.adobe.com/go/analytics_sso_es).

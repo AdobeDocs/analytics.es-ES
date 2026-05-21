@@ -13,7 +13,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 218
 ht-degree: 65%
@@ -22,7 +22,7 @@ ht-degree: 65%
 
 # Integración de Analytics
 
-Esta guía se centra en la integración de varias soluciones de Adobe Experience Cloud, como Audience Manager, Advertising o Target. Incluye:
+Esta guía se centra en la integración de varias soluciones empresariales de Adobe CX, como Audience Manager, Advertising o Target. Incluye:
 
 * **Audience Analytics:** Integre Adobe Audience Manager con Adobe Analytics.
 * **Advertising Analytics:** Consulte los datos de búsqueda de pago en paralelo con los datos de Adobe Analytics.

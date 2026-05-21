@@ -25,10 +25,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1659
-ht-degree: 78%
+source-wordcount: 1657
+ht-degree: 72%
 
 ---
 
@@ -46,11 +46,11 @@ Si no está seguro de si los casos de uso descritos se aplican a usted y a su or
 
 Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe utilizar el etiquetado de grupos múltiples o los grupos de informes virtuales:
 
-### Publicación de segmentos en Adobe Experience Cloud
+### Publicación de segmentos en Adobe CX Enterprise
 
-Con los grupos de informes virtuales no se pueden compartir segmentos con Adobe Experience Cloud. Los usuarios que deseen compartir un segmento con Experience Cloud deben tener acceso al grupo de informes de origen.
+El uso compartido de segmentos con Adobe CX Enterprise no es compatible con los grupos de informes virtuales. Los usuarios que deseen compartir un segmento con CX Enterprise deben tener acceso al grupo de informes de origen.
 
-Los segmentos no se pueden publicar en Adobe Experience Cloud desde un grupo de informes virtual para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, quiere que los usuarios solo tengan acceso a los datos de su región geográfica, pero quiere que puedan crear y compartir segmentos de Adobe Analytics en Adobe Experience Cloud para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
+Los segmentos no se pueden publicar en Adobe CX Enterprise desde un grupo de informes virtuales para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, desea que los usuarios solo tengan acceso a los datos de su región geográfica, pero desea que puedan crear y compartir segmentos de Adobe Analytics a Adobe CX Enterprise para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
 
 ### Límites únicos (poco tráfico)
 

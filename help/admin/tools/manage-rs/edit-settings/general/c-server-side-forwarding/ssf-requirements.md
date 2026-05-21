@@ -1,5 +1,5 @@
 ---
-description: Debe satisfacer los siguientes requisitos de solución, servicio y código de Experience Cloud para implementar el reenvío de lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
+description: Debe cumplir estos requisitos de solución, servicio y código de CX Enterprise para implementar el reenvío del lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
 solution: Analytics
 title: Requisitos para el reenvío del lado del servidor
 feature: Report Suite Settings
@@ -16,16 +16,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 100%
+source-wordcount: 325
+ht-degree: 84%
 
 ---
 
 # Requisitos para el reenvío del lado del servidor
 
-Debe satisfacer los siguientes requisitos de solución, servicio y código de Experience Cloud para implementar el reenvío de lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
+Debe cumplir estos requisitos de solución, servicio y código de CX Enterprise para implementar el reenvío del lado del servidor. Estos requisitos también incluyen instrucciones para comprobar versiones del código y obtener las bibliotecas de código más actualizadas.
 
 ## Requisitos de solución
 
@@ -33,7 +33,7 @@ El reenvío del lado del servidor funciona con [Analytics](https://www.adobe.com
 
 ## Requisitos de servidor
 
-El reenvío de lado del servidor requiere el [servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). El servicio de identidad ofrece un ID universal que identifica a los visitantes del sitio en todas las soluciones de Experience Cloud. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
+El reenvío de lado del servidor requiere el [servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). El servicio de identidad proporciona un ID universal que identifica a los visitantes del sitio en todas las soluciones de CX Enterprise. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
 
 ## Versiones de código
 

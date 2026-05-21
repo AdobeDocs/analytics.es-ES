@@ -15,10 +15,10 @@ role_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 100%
+source-wordcount: 478
+ht-degree: 76%
 
 ---
 
@@ -34,15 +34,15 @@ El 25 de mayo de 2018, entró en vigor el Reglamento General de Protección de D
 
 Cuando Adobe proporciona software y servicios a una empresa, Adobe actúa como encargado del tratamiento de datos de cualquier dato personal que reciba y almacene en nombre de sus clientes, como parte de la prestación de los servicios. Como procesador de datos, Adobe procesa los datos personales de acuerdo con los permisos e instrucciones que su empresa proporcione (y que pueden establecerse, por ejemplo, en el acuerdo entre su empresa y Adobe).
 
-Como responsable del tratamiento de datos, determinará qué datos personales Adobe trata y almacena en su nombre. Si usa soluciones de Adobe Experience Cloud, Adobe podría alojar datos personales en su nombre según las soluciones que use y la información que decida enviar a su cuenta de Adobe Experience Cloud. Si desea ver una lista de ejemplos, consulte [Privacidad de Adobe Experience Cloud.](https://www.adobe.com/es/privacy/experience-cloud.html#collect)
+Como responsable del tratamiento de datos, determinará qué datos personales Adobe trata y almacena en su nombre. Si utiliza soluciones de Adobe CX Enterprise, Adobe podría alojar datos personales en su nombre según las soluciones que utilice y la información que decida enviar a su cuenta de Adobe CX Enterprise. Para ver una lista de ejemplos, consulte la [privacidad empresarial de Adobe CX.](https://www.adobe.com/es/privacy/experience-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
 ## Cómo administra Adobe los datos del RGPD
 
-Adobe Experience Cloud ofrece una solución integrada que conecta la infraestructura de gobernanza de datos de su marca con las herramientas de Adobe que utiliza para crear y administrar las experiencias de los consumidores. Las funciones de gobernanza de datos de Adobe Experience Cloud vinculan de forma directa las políticas de gobernanza de datos al uso de datos.
+Adobe CX Enterprise proporciona una solución integrada que conecta la infraestructura de control de datos de su marca con las herramientas de Adobe que utiliza para crear y gestionar las experiencias de los consumidores. Las funciones de control de datos de Adobe CX Enterprise permiten vincular de forma directa las políticas de control al uso de los datos.
 
-Descubra cómo Adobe Analytics [se adapta al Reglamento general de protección de datos (RGPD)](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html) y detalla los pasos de preparación para el RGPD y la integración de la API del RGPD de Adobe Experience Cloud.
+Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html), donde se tratan los pasos de preparación para el RGPD y cómo llevar a cabo la integración con la API RGPD de Adobe CX Enterprise.
 
 ## Preparación para el RGPD y sus datos de Adobe Analytics
 

@@ -22,10 +22,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 941
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ La siguiente tabla compara estos dos métodos:
 | Servicio de ID de visitante | No admitido | Admitido |
 | Seguimiento de vídeos y vínculos | Compatibilidad parcial | Aún no es compatible |
 | Dificultad de implementación | Difícil | Relativamente fácil |
-| Integraciones de Adobe Experience Cloud | No admitido | Compatibilidad parcial |
+| Integraciones de Adobe CX Enterprise | No admitido | Compatibilidad parcial |
 
 Valore los pros y los contras para poder elegir el mejor método de implementación para su organización.
 

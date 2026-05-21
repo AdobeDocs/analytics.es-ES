@@ -19,7 +19,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1106
 ht-degree: 37%
@@ -41,7 +41,7 @@ Antes de enviar los datos a Adobe, suelen compilarse en el lado del cliente medi
 * **Etiquetas en la recopilación de datos de Adobe Experience Platform**: un archivo JavaScript al que se hace referencia en cada página y que contiene reglas creadas dentro de la IU de recopilación de datos. La extensión de Adobe Analytics ofrece una forma más sencilla de implementar AppMeasurement. La extensión del SDK web ofrece una forma más sencilla de implementar el SDK web.
 * **API**: tanto AppMeasurement como Edge Network ofrecen métodos programáticos para enviar datos a Adobe. AppMeasurement ofrece la [API de inserción de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) y la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); Edge Network ofrece la [API de recopilación de datos](https://developer.adobe.com/data-collection-apis/docs/).
 
-Si envía datos a Edge Network, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones de Adobe Experience Cloud). Independientemente del método de implementación, los datos de visitas recopilados llegan finalmente a los servidores de procesamiento de Adobe Analytics en un formato que puede analizar.
+Si envía datos a Edge Network, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones empresariales de Adobe CX). Independientemente del método de implementación, los datos de visitas recopilados llegan finalmente a los servidores de procesamiento de Adobe Analytics en un formato que puede analizar.
 
 ## Preprocesamiento en la colección de Adobe Analytics
 

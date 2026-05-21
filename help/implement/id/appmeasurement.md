@@ -19,9 +19,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 512
 ht-degree: 0%
 
 ---
@@ -38,8 +38,8 @@ Asegúrese de que está preparado con lo siguiente:
 * Un [ID del grupo de informes](/help/admin/tools/manage-rs/new-rs/new-report-suite.md) de desarrollo.
 * El dominio perimetral deseado para [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Su ID de organización de IMS:
-   1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com) con sus credenciales de Adobe ID.
-   1. En cualquier lugar de la interfaz de Experience Cloud, presione `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+   1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
+   1. En cualquier lugar de la interfaz de CX Enterprise, pulse `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
    1. Aparece un **[!UICONTROL depurador de datos de usuario]**. Seleccione la ficha **[!UICONTROL Organizaciones asignadas]**.
    1. Expanda la organización IMS deseada.
    1. Busque el campo **[!UICONTROL ID]**.

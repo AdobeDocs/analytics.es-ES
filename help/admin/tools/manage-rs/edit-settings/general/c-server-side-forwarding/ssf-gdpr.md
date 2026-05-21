@@ -16,10 +16,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 49%
+source-wordcount: 588
+ht-degree: 40%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 49%
 
 En esta sección se explican las mejoras aplicadas en el reenvío del lado del servidor debido a la [normativa de cumplimiento de cookies de la UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), que entró en vigor el 30 de septiembre de 2017.
 
-El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones de [!DNL Experience Cloud Solutions], como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones empresariales de CX, como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
 Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear entre el consentimiento y los eventos/visitas previos al consentimiento. A partir del 1 de noviembre de 2018, usted como responsable del tratamiento de datos (cliente de Adobe Analytics) tendrá la opción de restringir a Adobe Analytics los datos previos al consentimiento y de evitar que se reenvíen a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a Adobe Audience Manager hasta haber recibido el consentimiento.
 

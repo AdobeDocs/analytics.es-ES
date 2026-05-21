@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 317
 ht-degree: 75%
@@ -29,7 +29,7 @@ Las métricas calculadas son métricas personalizadas que puede crear a partir d
 
 Las métricas calculadas son personalizadas y se pueden crear a partir de métricas existentes. Las métricas calculadas ofrecen una forma flexible de crear, administrar y depurar métricas personalizadas que te permiten analizar los datos sin tener que cambiar la implementación.
 
-Las métricas calculadas están disponibles en cada paquete [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para Experience Cloud se limita a métricas calculadas básicas que incluyen [tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
+Las métricas calculadas están disponibles en cada paquete [!DNL Analytics], pero el paquete de Adobe Analytics Foundation para CX Enterprise se limita a métricas calculadas básicas que incluyen [tipos de formato (decimal, tiempo, porcentaje, moneda)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [cambios de asignación (predeterminada, lineal, de participación, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipos de métrica (estándar, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) y [operadores básicos](workflow/c-build-metrics/cm-build-metrics.md#operators) (sumar, restar, multiplicar y dividir).
 
 
 Consulte la [Descripción del producto Adobe Analytics](https://helpx.adobe.com/es/legal/product-descriptions/adobe-analytics.html) para obtener más información.

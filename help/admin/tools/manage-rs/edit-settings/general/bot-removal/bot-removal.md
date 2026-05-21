@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 785
-ht-degree: 64%
+ht-degree: 60%
 
 ---
 
@@ -50,7 +50,7 @@ Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio pri
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-A continuación, se muestra cómo que se puede capturar este ID mediante el elemento de datos. Asegúrese de completar correctamente el ID de organización de Experience Cloud en el elemento de datos.
+A continuación, se muestra cómo que se puede capturar este ID mediante el elemento de datos. Asegúrese de rellenar correctamente el ID de organización empresarial de CX en el elemento de datos.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -68,7 +68,7 @@ Ahora que ha identificado los bots mediante segmentos, el paso siguiente es apro
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-Recuerde usar el ID de visitante de Experience Cloud como dimensión y aplicar el segmento Bots.
+Recuerde usar el ID de visitante de CX Enterprise como dimensión y aplicar el segmento Bots.
 
 ### Paso 4: Devuelva esta lista a Adobe como atributo de cliente
 

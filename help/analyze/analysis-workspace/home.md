@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 97%
+source-wordcount: 1422
+ht-degree: 96%
 
 ---
 
@@ -155,7 +155,7 @@ La sincronización de visualizaciones te permite controlar qué tabla de datos o
 
 Empezar a utilizar Analysis Workspace
 
-1. Inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com).
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Selecciona **[!UICONTROL Customer Journey Analytics]** del conmutador de aplicaciones ![Aplicación](/help/assets/icons/Apps.svg) en la parte superior derecha de la interfaz.
 1. La página **[!UICONTROL Proyectos]** de Analysis Workspace se muestra de forma predeterminada. Si se ha seleccionado un proyecto específico o se ha estado trabajando en él recientemente, ese proyecto se muestra de forma predeterminada.
 
@@ -176,4 +176,4 @@ Cuando crea el proyecto, este recopila información procesable y está listo par
 ## Recursos adicionales {#resources}
 
 - Adobe ofrece cientos de [tutoriales de formación en vídeo de Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/overview).
-- Consulte [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones acerca de las nuevas funciones.
+- Consulte [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/es/docs/release-notes/experience-cloud/current) para obtener actualizaciones sobre las nuevas funciones.

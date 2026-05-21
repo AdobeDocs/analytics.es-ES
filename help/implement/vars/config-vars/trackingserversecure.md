@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 828
+source-wordcount: 830
 ht-degree: 17%
 
 ---
@@ -92,8 +92,8 @@ El valor que use para `trackingServerSecure` (o `edgeDomain`) depende de varios 
 
 **Si no participa en el programa de certificación**, establezca el valor en un subdominio de `data.adobedc.net`. Adobe recomienda utilizar el ID de empresa de su organización para mantener la coherencia. Por ejemplo, `example.data.adobedc.net`. Siga estos pasos para determinar el ID de empresa:
 
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com) con sus credenciales de Adobe ID.
-1. En cualquier lugar de la interfaz de Experience Cloud, presione `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
+1. En cualquier lugar de la interfaz de CX Enterprise, pulse `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
 1. Aparece un **[!UICONTROL depurador de datos de usuario]**. Seleccione la ficha **[!UICONTROL Organizaciones asignadas]**.
 1. Expanda la organización IMS deseada.
 1. Busque el campo **[!UICONTROL Inquilino]**. Este valor es el subdominio recomendado de `data.adobedc.net` para usar.

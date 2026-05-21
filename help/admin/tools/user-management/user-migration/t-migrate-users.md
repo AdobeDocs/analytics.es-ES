@@ -15,10 +15,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 78%
+source-wordcount: 405
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,7 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
 
 >[!NOTE]
 >
->Si un administrador que no ha iniciado sesión mediante Experience Cloud intenta acceder a la herramienta de migración de ID de usuario, se redirigirá a la página de inicio de sesión de Experience Cloud.
+>Si un administrador que no ha iniciado sesión en CX Enterprise intenta acceder a la herramienta de migración de ID de usuario, se le redirige a la página de inicio de sesión de CX Enterprise.
 
 1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Migración de ID de usuario]**.
 
@@ -52,7 +52,7 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Inicio de sesión heredado desactivado </p> </td> 
-      <td colname="col2"> <p>El inicio de sesión heredado con un ID de empresa está desactivado. Los usuarios ahora accederán a Experience Cloud con su Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
+      <td colname="col2"> <p>El inicio de sesión heredado con un ID de empresa está desactivado. Los usuarios ahora acceden a CX Enterprise utilizando su Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>

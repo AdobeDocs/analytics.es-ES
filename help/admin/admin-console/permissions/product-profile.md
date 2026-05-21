@@ -20,16 +20,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
 source-wordcount: 686
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
 # Perfiles de producto para Adobe Analytics
 
-Los perfiles de producto son ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de Experience Cloud a ese perfil de producto, heredarán los elementos de permiso contenidos en el perfil de producto.
+Los perfiles de producto son ajustes preestablecidos de permisos que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de CX Enterprise a ese perfil de producto, heredarán los elementos de permiso contenidos en el perfil de producto.
 
 Para obtener información general sobre los perfiles de producto, incluida la creación de perfiles de producto y la asignación de usuarios, consulte [Administrar perfiles de producto para usuarios empresariales](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html?lang=es) en la guía de usuario de Enterprise.
 
@@ -77,6 +77,6 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a func
 
 ## Desarrolladores de perfil de producto
 
-Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de utilizar la API de Experience Cloud en Adobe Developer. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de empresa para obtener más información. Si se concede a un usuario acceso de desarrollador para cualquier perfil, puede acceder a la consola de desarrollador (console.adobe.io) y editar las integraciones de Adobe Analytics. Las llamadas y respuestas de la API de Analytics autorizadas para el usuario dependen de los permisos de red de todos los perfiles a los que el usuario tiene acceso de desarrollador.
+Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de utilizar la API de CX Enterprise en Adobe Developer. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de empresa para obtener más información. Si se concede a un usuario acceso de desarrollador para cualquier perfil, puede acceder a la consola de desarrollador (console.adobe.io) y editar las integraciones de Adobe Analytics. Las llamadas y respuestas de la API de Analytics autorizadas para el usuario dependen de los permisos de red de todos los perfiles a los que el usuario tiene acceso de desarrollador.
 
 Por ejemplo, con permisos de perfil que incluyen todas las métricas, todas las dimensiones y un grupo de informes, un desarrollador puede hacer llamadas de API relevantes para cualquier componente dentro de ese grupo de informes. Si se añade el elemento de permiso Detección de anomalías, las respuestas de la API pueden incluir datos de anomalías. Como regla general, si un perfil concede acceso a un escenario dentro de la interfaz de Adobe Analytics, el acceso de desarrollador a un perfil definido de forma similar habilitaría las llamadas y respuestas de API correspondientes.

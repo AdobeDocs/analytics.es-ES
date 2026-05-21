@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: 919
-ht-degree: 100%
+source-wordcount: 933
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ La recopilación de datos de Activity Map requiere la extensión **[!UICONTROL A
 
 El parámetro de configuración **[!UICONTROL Recopilación de datos de clics]** administra la recopilación de datos de Activity Map y suele estar habilitado de manera predeterminada. Puede comprobar que está activado en los ajustes de configuración de la extensión:
 
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com)
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Seleccione **[!UICONTROL Recopilación de datos]** en el menú de acceso rápido o el selector de productos en la parte superior derecha.
 1. Seleccione **[!UICONTROL Etiquetas]** en el menú de navegación izquierdo.
 1. Seleccione la etiqueta que desee editar.
@@ -95,7 +95,7 @@ alloy("configure", {
 
 La opción de configuración **[!UICONTROL Usar Activity Map]** administra la recopilación de datos de Activity Map y suele estar habilitada de forma predeterminada. Está disponible para todas las extensiones de etiquetas v1.9.0 o posteriores. Puede comprobar que está activado en los ajustes de configuración de la extensión:
 
-1. Inicie sesión en [experience.adobe.com](https://experience.adobe.com)
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Seleccione **[!UICONTROL Recopilación de datos]** en el menú de acceso rápido o el selector de productos en la parte superior derecha.
 1. Seleccione **[!UICONTROL Etiquetas]** en el menú de navegación izquierdo.
 1. Seleccione la etiqueta que desee editar.

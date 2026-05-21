@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 1001
-ht-degree: 98%
+source-wordcount: 1005
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 Los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los segmentos están diseñados como datos del público que usted puede crear según sus necesidades específicas y a continuación, verificar, editar y compartir con otros integrantes del equipo o usar en otros productos de Adobe o funcionalidades de Analytics.
 
-Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel de control o marcarse como favoritos para acceder rápidamente a ellos.
+Los segmentos se basan en una jerarquía de niveles de [!UICONTROL Visitante], [!UICONTROL Visita] y [!UICONTROL Visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en Adobe CX Enterprise. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel de control o marcarse como favoritos para acceder rápidamente a ellos.
 
 Puede generar y guardar segmentos en el Generador de segmentos, o bien generarlos a partir de un informe de visitas en el orden previsto (en [!UICONTROL Analysis Workspace]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos se pueden usar juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -278,7 +278,7 @@ Los administradores pueden editar cualquier segmento, así como compartir segmen
 
 +++ **¿Puedo ver todos los segmentos de mi compañía?**
 
-Sí, los administradores pueden ver todos los segmentos incluidos en la interfaz de usuario de [!DNL Analysis Workspace].
+Sí, los administradores pueden ver todos los segmentos incluidos en la interfaz de usuario de Analysis Workspace.
 
 Report Builder muestra sus propios segmentos y los que se han compartido con usted.
 
@@ -296,6 +296,6 @@ Report Builder solo muestra los segmentos que ha creado usted o los segmentos qu
 
 +++ **¿Por qué no puedo eliminar un segmento?**
 
-Si el segmento se [publicó en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), no puede ni eliminarlo ni editarlo. No obstante, puede copiar el segmento y editar la versión copiada.
+Si el segmento fue [publicado en CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md), no podrá eliminarlo ni editarlo. No obstante, puede copiar el segmento y editar la versión copiada.
 
 +++

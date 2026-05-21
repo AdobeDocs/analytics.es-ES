@@ -13,16 +13,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 97%
+source-wordcount: 520
+ht-degree: 91%
 
 ---
 
 # Creación de una propiedad de etiquetas de Adobe Analytics
 
-Las etiquetas en Adobe Experience Platform le permiten integrar soluciones de Experience Cloud en su sitio web (incluido Analytics). Esta página describe específicamente cómo un administrador de etiquetas puede obtener una implementación básica de Adobe Analytics correctamente configurada.
+Las etiquetas en Adobe Experience Platform le permiten integrar las soluciones de CX Enterprise en su sitio web (incluido Analytics). Esta página describe específicamente cómo un administrador de etiquetas puede obtener una implementación básica de Adobe Analytics correctamente configurada.
 
 ## Requisitos previos
 
@@ -38,7 +38,7 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 1. Haga clic en la propiedad de etiquetas recién creada para establecer su configuración.
 1. Haga clic en la pestaña **[!UICONTROL Extensiones]** y, a continuación, en **[!UICONTROL Catálogo]**.
 1. Busque Servicio de Experience Cloud ID y, a continuación, haga clic en **[!UICONTROL Instalar]**.
-1. Todas las opciones de configuración, incluido el ID de organización de Experience Cloud deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
+1. Todas las configuraciones, incluido el ID de organización empresarial de CX, deberían estar completadas. Haga clic en **[!UICONTROL Guardar]**.
 1. Vuelva al catálogo de extensiones, busque Adobe Analytics y haga clic en **[!UICONTROL Instalar]**.
 
 Consulte la documentación completa para la [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) para obtener información más detallada.

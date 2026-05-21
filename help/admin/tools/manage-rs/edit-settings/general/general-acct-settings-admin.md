@@ -17,10 +17,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 727
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 
@@ -53,4 +53,4 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuración g
 | Compatibilidad con caracteres multibyte | La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, póngase en contacto con el equipo de cuentas de Adobe o el Servicio de atención al cliente. |
 | Activado | Especifica si este grupo de informes está activado o no. |
 | Moneda base | Permite especificar la [moneda](/help/implement/vars/config-vars/currencycode.md) base para este grupo de informes. |
-| ID de organización | El ID asociado con la compañía que ha seleccionado en Experience Cloud. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |
+| ID de organización | El ID asociado con la empresa de CX Enterprise aprovisionada. Se trata de una cadena alfanumérica de 24 caracteres seguida de @AdobeOrg (que debe incluirse). |

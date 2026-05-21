@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Complementos  {#plugins}
+   + Complementos {#plugins}
       + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Asignación de elementos de datos de etiquetas a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics mediante JavaScript {#js}
    + [Información general de JavaScript](js/overview.md)
-   + {hide-from-toc}[Implementación de Vínculos de no participación](js/opt-out.md)
+   + {hide-from-toc}[Implementar vínculos de no participación](js/opt-out.md)
    + [Anulaciones de variables](js/overrides.md)
    + [Migrar desde código H](js/migrate-from-hcode.md)
    + Código H {#h-code}
@@ -198,7 +198,7 @@ ht-degree: 100%
    + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
    + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validar la implementación {#validate}
-   + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
+   + [Depurador heredado](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)
    + [Monitores de paquetes](validate/packet-monitor.md)
    + [Conflictos de hash](validate/hash-collisions.md)

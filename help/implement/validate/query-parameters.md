@@ -24,7 +24,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 92%
@@ -37,14 +37,14 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 
 | Parámetro | Variable de implementación de Analytics | Descripción |
 | --- | --- | --- |
-| `aamlh` | Ninguno | Sugerencia de ubicación de Audience Manager. Se utiliza en la integración de perfiles compartidos de Experience Cloud. |
-| `aamb` | Ninguno | Blob de Audience Manager. Se utiliza en la integración de perfiles compartidos de Experience Cloud. |
+| `aamlh` | Ninguno | Sugerencia de ubicación de Audience Manager. Se utiliza en la integración de CX Enterprise Shared Profile. |
+| `aamb` | Ninguno | Blob de Audience Manager. Se utiliza en la integración de CX Enterprise Shared Profile. |
 | `aid` | Ninguna | ID de visitante de Analytics. |
 | `AQB` | Ninguna | Indica el inicio de una solicitud de imagen de una cadena de consulta. |
-| `AQE` | Ninguna | Indica el final de una solicitud de imagen, lo que significa que no se truncó la solicitud. |
-| `bh` | Ninguna | Altura del explorador (en píxeles). Se utiliza en la dimensión [Altura del explorador](/help/components/dimensions/browser-height.md). |
+| `AQE` | Ninguno | Indica el final de una solicitud de imagen, lo que significa que no se truncó la solicitud. |
+| `bh` | Ninguno | Altura del explorador (en píxeles). Se utiliza en la dimensión [Altura del explorador](/help/components/dimensions/browser-height.md). |
 | `bw` | Ninguna | Anchura del explorador (en píxeles). Se utiliza en la dimensión [Anchura del explorador](/help/components/dimensions/browser-width.md). |
-| `c` | Ninguna | Calidad de color (en bits). Se utiliza en la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md). |
+| `c` | Ninguno | Calidad de color (en bits). Se utiliza en la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md). |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | Indica el inicio de las variables de datos de contexto. Nunca contiene un valor. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | Indica el final de las variables de datos de contexto. Nunca contiene un valor. |
 | `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) o variables de tráfico personalizadas. |
@@ -53,8 +53,8 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | La codificación de caracteres de la solicitud de imagen. |
 | `cl` | [`cookieLifetime`](../vars/config-vars/cookielifetime.md) | La duración de la cookie del visitante. |
 | `ch` | [`channel`](../vars/page-vars/channel.md) | Se utiliza en la dimensión [Secciones del sitio](/help/components/dimensions/site-section.md). |
-| `cp` | Ninguna | Se utiliza en la dimensión [Tipo de visita](/help/components/dimensions/hit-type.md). |
-| `ct` | Ninguna | Se utiliza en la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). |
+| `cp` | Ninguno | Se utiliza en la dimensión [Tipo de visita](/help/components/dimensions/hit-type.md). |
+| `ct` | Ninguno | Se utiliza en la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md). |
 | `D` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) | Indica lo que se debe utilizar para variables dinámicas. |
 | `ev` | [`events`](../vars/page-vars/events/events-overview.md) | Abreviatura de la cadena de consulta `events`. |
 | `events` | [`events`](../vars/page-vars/events/events-overview.md) | Lista de eventos de la página separados por comas. Utilizado por la mayoría de las [métricas](/help/components/metrics/overview.md). |
@@ -64,32 +64,32 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abreviatura de la cadena de consulta `pageType`. |
 | `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Prefijo de varias variables que representan las [sugerencias del cliente](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensiones de jerarquía. |
-| `hp` | Ninguna | Ya no se utiliza. En versiones anteriores de Adobe Analytics, se determinó si la dirección URL actual era la página principal del explorador. |
+| `hp` | Ninguno | Ya no se utiliza. En versiones anteriores de Adobe Analytics, se determinó si la dirección URL actual era la página principal del explorador. |
 | `j` | Ninguna | Versión de JavaScript instalada en el explorador. |
-| `k` | Ninguna | Utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md). |
+| `k` | Ninguno | Utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variables de lista. |
-| `lrt` | Ninguna | El &quot;último tiempo de solicitud&quot;, que es el tiempo de ida y vuelta de la última solicitud, en milisegundos. Solo se envía cuando se produce más de una solicitud desde una página o cuando la página es una aplicación de una sola página (SPA). |
-| `mid` | Ninguna | ID de visitante de Experience Cloud. |
+| `lrt` | Ninguno | El &quot;último tiempo de solicitud&quot;, que es el tiempo de ida y vuelta de la última solicitud, en milisegundos. Solo se envía cuando se produce más de una solicitud desde una página o cuando la página es una aplicación de una sola página (SPA). |
+| `mid` | Ninguna | ID de visitante de CX Enterprise. |
 | `ndh` | Ninguna | Marca que indica si la solicitud de imagen se originó en AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Ayuda a determinar dónde se configuran las cookies. |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | Identificador de objeto de la última página. Se utiliza en Activity Map. |
 | `ot` | Ninguna | Nombre del objeto de la última página. Se utiliza en versiones anteriores de Activity Map. |
-| `p` | Ninguna | Ya no se utiliza. Lista de complementos utilizados en el explorador. |
+| `p` | Ninguno | Ya no se utiliza. Lista de complementos utilizados en el explorador. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Se utiliza en la dimensión [Página](/help/components/dimensions/page.md). |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Se utiliza en la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md). |
-| `pccr` | Ninguna | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza las cookies. |
+| `pccr` | Ninguno | Solo se configura para visitantes nuevos y siempre se establece como `true`. Ayuda a evitar redirecciones infinitas si un visitante rechaza las cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Determina el tipo de vínculo personalizado. Necesario para [Vínculos personalizados](/help/components/dimensions/custom-link.md), [Vínculos de descarga](/help/components/dimensions/download-link.md) y [Vínculos de salida](/help/components/dimensions/exit-link.md). |
 | `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | Dirección URL en la que se produjo el vínculo personalizado. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nombre reconocible del vínculo personalizado. |
 | `pev3` | Ninguna | Ya no se utiliza. Hitos rastreados en versiones anteriores de informes de vídeo. |
 | `pf` | Ninguna | Indicador de plataforma; solo para uso de Adobe. No se debe alterar. |
-| `pid` | Ninguna | Identificador de página de la última página. Se utiliza en versiones anteriores de Activity Map. |
+| `pid` | Ninguno | Identificador de página de la última página. Se utiliza en versiones anteriores de Activity Map. |
 | `pidt` | Ninguna | Tipo de identificador de página de la última página. Se utiliza en versiones anteriores de Activity Map. |
 | `pl` | [`products`](../vars/page-vars/products.md) | Abreviatura de la cadena de consulta `products`. |
 | `products` | [`products`](../vars/page-vars/products.md) | Variable Products. Se utiliza en las dimensiones [Producto](/help/components/dimensions/product.md) y [Categoría](/help/components/dimensions/category.md). |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | Se utiliza para la deduplicación de compras. |
 | `r` | [`referrer`](../vars/page-vars/referrer.md) | URL de referencia de la visita. Se utiliza en dimensiones de fuentes de tráfico, como [Remitente del reenvío](/help/components/dimensions/referrer.md) y [dominio de referencia](/help/components/dimensions/referring-domain.md) |
-| `s` | Ninguna | Resolución de pantalla, en `width x height`. Se utiliza en la dimensión [Resoluciones del monitor](/help/components/dimensions/monitor-resolution.md). |
+| `s` | Ninguno | Resolución de pantalla, en `width x height`. Se utiliza en la dimensión [Resoluciones del monitor](/help/components/dimensions/monitor-resolution.md). |
 | `server` | [`server`](../vars/page-vars/server.md) | Dimensión de [Servidor](/help/components/dimensions/server.md). |
 | `sv` | [`server`](../vars/page-vars/server.md) | Abreviatura de la cadena de consulta `server`. |
 | `state` | [`state`](../vars/page-vars/state.md) | Dimensión de estado. |

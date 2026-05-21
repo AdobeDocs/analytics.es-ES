@@ -11,10 +11,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 436
-ht-degree: 49%
+ht-degree: 44%
 
 ---
 
@@ -26,11 +26,11 @@ La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor p
 
 >[!IMPORTANT]
 >
->Si un grupo de informes no está vinculado a una organización de Experience Cloud, sus datos de uso no se reflejarán en este panel de control. Además, se podría asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
+>Si un grupo de informes no está vinculado a una organización de CX Enterprise, sus datos de uso no se reflejan en este panel. Además, se podría asociar un ID de facturación a varias organizaciones empresariales de CX; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
 El tablero Uso del grupo de informes
 
-* Muestra el uso de llamadas al servidor del periodo de uso actual (Todas las llamadas, Primarias, Secundarias, Primarias móviles, Secundarias móviles) para cada grupo de informes de su organización de Experience Cloud.
+* Muestra el uso de llamadas al servidor del período de uso actual (todas las llamadas, primarias, secundarias, primarias móviles, secundarias móviles) para cada grupo de informes de su organización empresarial de CX.
 * Muestra el porcentaje del uso general por categoría de llamada al servidor.
 * Se actualiza a diario.
 * Se puede descargar.

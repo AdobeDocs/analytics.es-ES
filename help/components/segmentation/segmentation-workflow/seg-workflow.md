@@ -13,10 +13,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 266
-ht-degree: 47%
+source-wordcount: 265
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ En este artículo se describe un flujo de trabajo sugerido para crear segmentos 
 | 4 | [Etiquetar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Etiquete segmentos para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas. |
 | 5 | [Aprobar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Apruebe segmentos para convertirlos en canónicos. |
 | 6 | [Usar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Puede aplicar segmentos de los componentes de segmentos directamente a un informe. |
-| 7 | [Compartir segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Comparta sus segmentos con el público deseado en otras herramientas de Analytics, así como en Adobe Target y Adobe Experience Cloud. |
+| 7 | [Compartir segmentos](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Comparta sus segmentos con la audiencia deseada en otras herramientas de Analytics y en Adobe Target y Adobe CX Enterprise. |
 | 8 | [Filtrar segmentos](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados). |
 | 9 | [Marcar segmento como favorito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo. |
 

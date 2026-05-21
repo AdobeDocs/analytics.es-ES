@@ -11,7 +11,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 567
 ht-degree: 16%
@@ -49,7 +49,7 @@ La lista de segmentos ➊ muestra todos los segmentos que posee, los segmentos a
 | **[!UICONTROL Propietario]** | El propietario del segmento. Como usuario, solo verá los segmentos que le pertenecen o las anotaciones que se han compartido con usted. |
 | **[!UICONTROL Etiquetas]** | Las etiquetas de este segmento. |
 | **[!UICONTROL Compartido con]** | El número de individuos o grupos con los que compartió el segmento. Seleccione esta opción para abrir el cuadro de diálogo **[!UICONTROL Compartir componente]**. Consulte [Compartir segmentos](t-seg-share.md) para obtener más información. |
-| **[!UICONTROL Publicado]** | Si el segmento [se ha publicado](seg-publish.md) en Experience Cloud. |
+| **[!UICONTROL Publicado]** | Si el segmento [se ha publicado](seg-publish.md) en CX Enterprise. |
 | **[!UICONTROL Fecha de modificación]** | La fecha y la hora de la última modificación del segmento. |
 
 Usa ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para especificar qué columnas deseas mostrar.

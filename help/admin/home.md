@@ -17,10 +17,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 353
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Introducci�
 
 Por el momento, Adobe Analytics tiene dos áreas para administradores:
 
-* Adobe Admin Console: Utilice esta área para proporcionar las herramientas de Experience Cloud y administrar permisos de usuario. Se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com).
+* Adobe Admin Console: Utilice esta área para aprovisionar las herramientas de CX Enterprise y administrar permisos de usuario. Se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com).
 * Herramientas de administración de Analytics: utilice esta área para el grupo de informes y la administración de variables. Se puede acceder a ella haciendo clic en [!UICONTROL Admin] en el encabezado superior de Adobe Analytics.
 
 Esta guía describe:

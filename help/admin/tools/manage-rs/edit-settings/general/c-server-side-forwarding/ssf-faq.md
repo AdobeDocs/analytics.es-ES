@@ -13,10 +13,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 707
-ht-degree: 75%
+ht-degree: 42%
 
 ---
 
@@ -36,11 +36,11 @@ Preguntas más frecuentes acerca de características, funcionalidades y problema
 | Pregunta | Respuesta |
 |--- |--- |
 | P: ¿Qué pasa si en mi sitio tengo etiquetado multigrupo? ¿Duplicará el reenvío del lado del servidor las llamadas de servidor a Audience Manager? | No, las visitas se reenvían una única vez de Analytics a Audience Manager, con independencia del número de grupos de informes que haya en ellas. Si tiene en Audience Manager fuentes de datos correspondientes para cada grupo de informes de la visita, todas ellas se rellenarán apropiadamente a partir de esa única visita.  Tenga en cuenta, no obstante, que si utiliza la recopilación de datos de lado de clientes (DIL) y habilita el reenvío del lado del servidor sin instalar el módulo Gestión de público, estará duplicando las llamadas de servidor a Audience Manager, independientemente del número de grupos de informes que tenga en su visita de Analytics. |
-| P: ¿Qué sucede si tengo grupos de informes etiquetados multigrupo asignados a distintas organizaciones de Experience Cloud? | Nunca debe enviar datos de una misma visita de Analytics a dos grupos de informes que pertenezcan a organizaciones de Experience Cloud diferentes, pero, si esto ocurre, únicamente se reenviará la visita a la organización de Experience Cloud que coincida con la configuración del Servicio de identidad en la página. |
-| Q: ¿Qué sucede si tengo etiquetado multigrupo y solo uno de mis grupos de informes está asignado a mi organización de Experience Cloud? | En este caso, se reenvía la visita al servidor de recopilación de datos correspondiente a la organización de Experience Cloud del grupo de informes asignado, aunque, como el grupo de informes no asignado no tendrá asociada una fuente de datos en Audience Manager, no se registrará ningún dato para dicho grupo en Audience Manager. |
-| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones de Experience Cloud? | Analytics considerará este grupo de informes como no asignado y no permitirá que se active el reenvío del lado del servidor para este grupo de informes. Póngase en contacto con el servicio de atención al cliente para resolver este problema de asignación. |
+| P: ¿Qué sucede si tengo grupos de informes etiquetados multigrupo asignados a distintas organizaciones empresariales de CX? | Nunca debe enviar datos de una sola visita de Analytics a dos grupos de informes que pertenezcan a organizaciones empresariales de CX independientes, pero, si esto ocurre, únicamente se reenviará la visita a la organización empresarial de CX que coincida con la configuración del servicio de ID en la página. |
+| P: ¿Qué sucede si tengo etiquetado multigrupo y solo uno de mis grupos de informes está asignado a mi organización empresarial CX y el otro no? | La visita se reenviará al servidor de recopilación de datos correspondiente a la organización empresarial CX de su grupo de informes asignado. Sin embargo, como el grupo de informes no asignado no tendrá asociada una fuente de datos en Audience Manager, no se registrará ningún dato para el grupo de informes no asignado en Audience Manager. |
+| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones empresariales de CX? | Analytics considerará este grupo de informes como no asignado y no permitirá que se active el reenvío del lado del servidor para este grupo de informes. Póngase en contacto con el servicio de atención al cliente para resolver este problema de asignación. |
 | P: ¿Será más lento el método de reenvío de servidor basado en grupos de informes que el basado en servidores de seguimiento? | No, el tiempo de respuesta es el mismo. |
-| P: ¿Qué sucede si tengo dos organizaciones de Experience Cloud (o instancias de Adobe Audience Manager) y quiero compartir datos entre ambas? ¿Puedo utilizar el reenvío de servidor para enviar una sola visita de Analytics a varias organizaciones de Experience Cloud? | No. Si necesita compartir datos recopilados por una organización de Experience Cloud con otra, se recomienda enviar las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
+| P: ¿Qué sucede si tenemos dos organizaciones empresariales CX (o instancias de Adobe Audience Manager) y queremos compartir datos entre ambas? ¿Puedo utilizar el reenvío de servidor para enviar una sola visita de Analytics a varias organizaciones empresariales de CX? | No. Si necesita compartir datos recopilados por una organización empresarial de CX con otra, le recomendamos que envíe las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
 | P: ¿Resultará el reenvío del lado del servidor en alguna facturación adicional en Audience Manager o Analytics? | En Analytics no se producirá ninguna facturación adicional. En Audience Manager, las visitas reenviadas se tratan como cualquier otra visita y se facturan.  Por eso es tan importante no tener habilitados al mismo tiempo DIL y el reenvío del lado del servidor, lo que podría provocar dobles facturaciones, además de la duplicación de datos. |
 
 >[!MORELIKETHIS]

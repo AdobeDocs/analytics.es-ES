@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 583
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Si su organización recopila cadenas de consulta de `utm`, puede elegir entre:
 
 Una vez que haya configurado correctamente la implementación para recopilar datos de código de seguimiento, puede ver los informes en Analysis Workspace.
 
-1. Inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com) y seleccione [!UICONTROL Adobe Analytics].
+1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) y seleccione [!UICONTROL Adobe Analytics].
 1. Cree un [proyecto del espacio de trabajo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. En la lista de componentes de la izquierda, arrastre la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md) al lienzo del espacio de trabajo.
 1. Arrastre la métrica deseada, como [Visitas](/help/components/metrics/visits.md) o [Pedidos](/help/components/metrics/orders.md) a la parte derecha del lienzo del espacio de trabajo.
