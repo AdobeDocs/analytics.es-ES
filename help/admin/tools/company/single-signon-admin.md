@@ -27,4 +27,4 @@ ht-degree: 28%
 
 El inicio de sesión único en Adobe CX Enterprise se implementa mediante Admin Console.
 
-Si necesita ayuda, consulte la [Guía del usuario para la administración](https://www.adobe.com/go/analytics_sso_en).
+Si necesita ayuda, consulte la [Guía del usuario para la administración](https://www.adobe.com/go/analytics_sso_es).
