@@ -203,7 +203,7 @@ Para acceder a todas las plantillas creadas previamente que están disponibles:
 >[!CONTEXTUALHELP]
 >id="template--keyMetricsReport"
 >title="Consultar un informe que muestra en paralelo las métricas de vistas de página, visitas y visitantes únicos. Los datos se muestran a lo largo de un período de tiempo y se comparan con los períodos anteriores."
->abstract="**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y la cantidad de sesiones.<br/>**En función de lo que aprenda, podría** hacer cualquier cosa, como evaluar el número promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo cambió eso durante ciertas épocas del año o antes y después de ejecutar las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
+>abstract="**Esto puede ayudarle** a comparar estas métricas importantes para obtener una imagen más completa del número de personas únicas que visitan el sitio, el número de veces que se visitaron las páginas y la cantidad de sesiones.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar el promedio de páginas que vio cada persona al visitar el sitio en una semana o mes determinados, y cómo eso cambió durante determinadas épocas del año o antes y después de que se ejecutaran las campañas de marketing. <br/>Esta plantilla usa la dimensión Día, la métrica Vistas de página, la métrica Visitas y la métrica Visitantes únicos."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -509,7 +509,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--exitPageRankedReport"
 >title="Vea las páginas principales a las que los usuarios acceden inmediatamente antes de abandonar el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a la gente del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
+>abstract="**Esto puede ayudarle** a comprender mejor qué páginas están alejando a las personas del sitio. <br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar las páginas de salida comunes para optimizar la experiencia que obtienen las personas antes de irse, o incluir contenido o vínculos para animar a las personas a que permanezcan en su sitio.<br/>Esta plantilla usa la métrica Sesiones. También utiliza la visualización Barra y la visualización Tabla de forma libre."
 
 <!-- markdownlint-enable MD034 -->
 
