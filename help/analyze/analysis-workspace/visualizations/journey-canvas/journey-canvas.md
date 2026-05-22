@@ -38,7 +38,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/><br/>_Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/><br/>_Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -146,5 +146,5 @@ Puede crear análisis en el lienzo de recorridos que estén basados en cualquier
 
 >[!MORELIKETHIS]
 >
-> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=es)
+> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
