@@ -5,9 +5,17 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 569
@@ -28,7 +36,7 @@ La Guía de herramientas de Analytics incluye información acerca de caracterís
 | **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map es una aplicación de Adobe Analytics diseñada para clasificar la actividad de los vínculos usando superposiciones visuales y que ofrece un tablero de análisis en tiempo real para monitorizar la participación de la audiencia en las páginas web. <br>Activity Map permite configurar distintas vistas para identificar visualmente la aceleración de la actividad del cliente, cuantificar las iniciativas de marketing y responder a las necesidades y los comportamientos del público.&quot; |
 | **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | El nuevo complemento de Report Builder para Microsoft Excel es compatible con Mac, Windows y exploradores web. Report Builder permite crear solicitudes personalizadas a partir de datos de Adobe Analytics que se insertan en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. |
 | **[Report Builder heredado](/help/analyze/legacy-report-builder/home.md)** | Report Builder heredado es un complemento para Microsoft Excel, compatible únicamente con Microsoft Windows. Report Builder permite crear solicitudes personalizadas a partir de datos de Adobe Analytics que se insertan en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos. |
-| **[API de Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Las API de Analytics le permiten llamar directamente a los servidores de Adobe para realizar casi cualquier acción que pueda hacer en la interfaz de usuario. Puede crear informes para explorar, obtener perspectivas o responder a preguntas importantes acerca de sus datos. También puede administrar componentes de Adobe Analytics, como la creación de segmentos o métricas calculadas. |
+| **[API de Analytics &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Las API de Analytics le permiten llamar directamente a los servidores de Adobe para realizar casi cualquier acción que pueda hacer en la interfaz de usuario. Puede crear informes para explorar, obtener perspectivas o responder a preguntas importantes acerca de sus datos. También puede administrar componentes de Adobe Analytics, como la creación de segmentos o métricas calculadas. |
 
 Para obtener más información acerca de los conceptos básicos de Adobe Analytics, consulte la *Introducción a Adobe Analytics: seminario web de Experience Builder* a continuación. El vídeo le explica cómo se capturan los datos, cómo se envían a Adobe Analytics y qué capacidades de visualización puede utilizar en Adobe Analytics. El vídeo proporciona una base para generar, implementar, recopilar e interpretar datos... le permite proporcionar perspectivas y recomendaciones procesables basadas en los datos recopilados.
 
