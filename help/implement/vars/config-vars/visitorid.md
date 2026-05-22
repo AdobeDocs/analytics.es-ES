@@ -4,18 +4,13 @@ description: Utilice un ID de visitante personalizado.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 20%
@@ -69,4 +64,4 @@ s.visitorID = "abc123";
 
 ## ID de visitante con Web SDK
 
-Adobe Experience Platform Edge Network le permite proporcionar varios identificadores utilizando el [mapa de identidad](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=es#using-identitymap) de XDM. Cada identidad de un mapa de identidad tiene un área de nombres diferente. Puede especificar qué área de nombres debe usarse para el ID de visitante como parte de [configuración de secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es#analytics). Una vez configurado este campo, cuando se envía un evento con un valor especificado para esta área de nombres, se utiliza automáticamente como ID de visitante en Analytics.
+Adobe Experience Platform Edge Network le permite proporcionar varios identificadores utilizando el [mapa de identidad](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) de XDM. Cada identidad de un mapa de identidad tiene un área de nombres diferente. Puede especificar qué área de nombres debe usarse para el ID de visitante como parte de [configuración de secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una vez configurado este campo, cuando se envía un evento con un valor especificado para esta área de nombres, se utiliza automáticamente como ID de visitante en Analytics.

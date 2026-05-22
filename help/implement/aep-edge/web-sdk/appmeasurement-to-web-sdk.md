@@ -2,17 +2,13 @@
 title: Migración de AppMeasurement a Web SDK
 description: Actualice la implementación de Adobe Analytics de la biblioteca JavaScript de AppMeasurement a la biblioteca JavaScript de Web SDK.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/7Oexe7sCsatMVf6-F8m-boQWyyUdwNL66GFCDrgdLr8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1434
 ht-degree: 9%
@@ -71,9 +67,9 @@ Hacer referencia a la última versión de `alloy.js` para que se puedan usar sus
 
 +++**3. Configurar Web SDK**
 
-Configure la implementación para que apunte a la secuencia de datos creada en el paso anterior mediante el comando Web SDK [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview). El comando `configure` debe estar establecido en todas las páginas para que pueda incluirlo junto con el código de instalación de la biblioteca.
+Configure la implementación para que apunte a la secuencia de datos creada en el paso anterior mediante el comando Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). El comando `configure` debe estar establecido en todas las páginas para que pueda incluirlo junto con el código de instalación de la biblioteca.
 
-Use las propiedades [`datastreamId`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/datastreamid) y [`orgId`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/orgid) en el comando `configure` de Web SDK:
+Use las propiedades [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) y [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) en el comando `configure` de Web SDK:
 
 * Establezca `datastreamId` en el ID de secuencia de datos recuperado del paso anterior.
 * Establezca `orgId` en la organización de IMS de su organización.
@@ -85,7 +81,7 @@ alloy("configure", {
 });
 ```
 
-Opcionalmente, puede establecer otras propiedades en el comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview) en función de los requisitos de implementación de su organización.
+Opcionalmente, puede establecer otras propiedades en el comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) en función de los requisitos de implementación de su organización.
 
 +++
 
@@ -126,7 +122,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Actualizar las llamadas de método para utilizar Web SDK**
 
-Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions/t-method.md) y a [`s.tl()`](../../vars/functions/tl-method.md), reemplazándolas por el comando [`sendEvent`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/sendevent/overview). Hay tres escenarios a considerar:
+Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions/t-method.md) y a [`s.tl()`](../../vars/functions/tl-method.md), reemplazándolas por el comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Hay tres escenarios a considerar:
 
 * **Seguimiento de vista de página**: reemplace la llamada de seguimiento de vista de página con el comando `sendEvent` de Web SDK:
 
@@ -138,7 +134,7 @@ Actualice todas las instancias en las que llame a [`s.t()`](../../vars/functions
   alloy("sendEvent", dataObj);
   ```
 
-* **Seguimiento automático de vínculos**: La propiedad de configuración [`clickCollectionEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada de manera predeterminada. Establece automáticamente las variables de seguimiento de vínculos correctas para enviar datos a Adobe Analytics. Si desea deshabilitar el seguimiento automático de vínculos, establezca esta propiedad en `false` dentro del comando [`configure`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Seguimiento automático de vínculos**: La propiedad de configuración [`clickCollectionEnabled`](https://experienceleague.adobe.com/es/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) está habilitada de manera predeterminada. Establece automáticamente las variables de seguimiento de vínculos correctas para enviar datos a Adobe Analytics. Si desea deshabilitar el seguimiento automático de vínculos, establezca esta propiedad en `false` dentro del comando [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Seguimiento manual de vínculos**: Web SDK no tiene comandos independientes entre las llamadas pageview y no pageview. Proporcione esa distinción dentro del objeto de carga útil.
 

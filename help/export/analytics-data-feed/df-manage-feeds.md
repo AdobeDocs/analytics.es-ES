@@ -3,17 +3,15 @@ title: Administrar fuentes de datos
 description: Obtenga información sobre cómo navegar por la interfaz de fuentes de datos. Descubra cómo crear, editar y ver una fuente de datos.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-TQID: https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -54,7 +52,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
 ## Edición de una fuente de datos
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Busque la fuente de datos que desea editar. Para localizar una fuente de datos, puede [filtrar y buscar en la lista de fuentes de datos](#filter-and-search-the-list-of-data-feeds).
 
@@ -74,7 +72,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
 ## Filtrar y buscar la lista de fuentes de datos
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Utilice la búsqueda o los filtros para localizar una fuente específica.
 
@@ -88,7 +86,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
 ## Ver trabajos de fuentes de datos
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la ficha [!UICONTROL **Trabajos**] para ver los trabajos individuales que cada una de las fuentes crea.
 
@@ -98,7 +96,7 @@ El botón **[!UICONTROL Crear fuente de datos]** le permite crear una nueva fuen
 
 ## Copiar una fuente de datos
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que desea copiar y, a continuación, seleccione [!UICONTROL **Copiar**].
 
@@ -118,7 +116,7 @@ Cuando reactiva la fuente después de pausarla, los datos durante el tiempo que 
 
 Para pausar una fuente de datos:
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que desea pausar y, a continuación, seleccione [!UICONTROL **Pausar**].
 
@@ -134,7 +132,7 @@ Cuando se reactiva una fuente, es posible que los datos no se procesen automáti
 
 Para activar una fuente de datos:
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos inactiva que desea activar y, a continuación, seleccione [!UICONTROL **Activar**].
 
@@ -144,7 +142,7 @@ Al eliminar una fuente de datos, su estado se establece en [!UICONTROL Eliminada
 
 Para eliminar una fuente de datos:
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que desea eliminar y, a continuación, seleccione [!UICONTROL **Eliminar**].
 

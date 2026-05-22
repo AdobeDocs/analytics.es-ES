@@ -4,19 +4,13 @@ description: (Obsoleto) Ayude a AppMeasurement a determinar dónde almacenar las
 feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/bsJTIAuqcWoXWWus0oPME9LEwEMaiCGjd1ChmCuSjKY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/bsJTIAuqcWoXWWus0oPME9LEwEMaiCGjd1ChmCuSjKY'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 394
 ht-degree: 18%
@@ -44,7 +38,7 @@ La variable `cookieDomainPeriods` ayudó a AppMeasurement a determinar dónde es
 >
 >No tenga en cuenta los subdominios para esta variable. Por ejemplo, no configure `cookieDomainPeriods` en la URL de ejemplo `store.toys.example.com`. AppMeasurement reconoce que las cookies se almacenan en `example.com`, incluso en direcciones URL con muchos subdominios.
 
-En implementaciones de AppMeasurement v2.26.x o posterior, la cookie [`s_ac`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) se usa para ayudar a determinar automáticamente el dominio de cookie correcto. En primer lugar, la biblioteca intenta escribir una cookie que incluye dos puntos de dominio. Si se produce un error al configurar esta cookie, vuelve a intentarlo, incluidos más periodos de dominio hasta que se realiza correctamente. Esta cookie se elimina inmediatamente una vez configurada.
+En implementaciones de AppMeasurement v2.26.x o posterior, la cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) se usa para ayudar a determinar automáticamente el dominio de cookie correcto. En primer lugar, la biblioteca intenta escribir una cookie que incluye dos puntos de dominio. Si se produce un error al configurar esta cookie, vuelve a intentarlo, incluidos más periodos de dominio hasta que se realiza correctamente. Esta cookie se elimina inmediatamente una vez configurada.
 
 ## Períodos del dominio de cookies mediante Web SDK
 

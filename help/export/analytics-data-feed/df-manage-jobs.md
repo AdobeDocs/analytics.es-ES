@@ -3,19 +3,15 @@ title: Administrar trabajos de fuentes de datos
 description: Obtenga información sobre cómo administrar trabajos individuales en fuentes de datos. Navegue por la interfaz, utilice filtros y búsquedas, y busque definiciones de columnas.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-TQID: https://experienceleague.adobe.com/gbbWfT4BTiEfr41Og6ICrB5qfQVJGUmaZaf85ZcB6ww
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/4ACex-y-w3ppGhC1tRX8qH4WeU1NT9ubcJBlhSh9sY0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -82,7 +78,7 @@ Cuando vuelve a enviar un trabajo de fuente de datos, vuelve a enviar el archivo
 
 Para reenviar uno o varios trabajos de fuentes de datos:
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea reenviar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 
@@ -98,7 +94,7 @@ Cuando vuelve a procesar un trabajo de fuente de datos, vuelve a procesar los da
 
 Para volver a procesar uno o varios trabajos de fuentes de datos:
 
-1. En Adobe Analytics, seleccione [!UICONTROL **Administración**] > [!UICONTROL **Fuentes de datos**].
+1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
 1. Seleccione la casilla que está junto a la fuente de datos que contiene los trabajos que desea volver a procesar y, a continuación, seleccione [!UICONTROL **Historial de trabajos**].
 

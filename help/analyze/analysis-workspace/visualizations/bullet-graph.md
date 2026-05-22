@@ -4,15 +4,12 @@ title: Viñeta
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 295
 ht-degree: 77%
@@ -41,7 +38,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización de viñetas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
+_Este artículo documenta la visualización de viñetas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulte [Viñeta](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -53,7 +50,7 @@ El gráfico de bala presenta una única medida principal (por ejemplo, los ingre
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización del gráfico de viñetas](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -64,7 +61,7 @@ Puede definir una configuración específica para una visualización de [!UICONT
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta &#x200B;]**&#x200B;es el objetivo principal que busca.**[!UICONTROL &#x200B; Meta baja &#x200B;]**&#x200B;y&#x200B;**[!UICONTROL &#x200B; Meta media &#x200B;]**&#x200B;crean intervalos por debajo de la Meta alta. Nota: Cuando la opción&#x200B;**[!UICONTROL &#x200B; Porcentajes &#x200B;]**&#x200B;esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
+| **[!UICONTROL Opciones de viñeta]** | Especifique valores para **[!UICONTROL Meta alta]**, **[!UICONTROL Meta media]** y **[!UICONTROL Meta baja]** en la visualización de [!UICONTROL Viñeta]. <br/>**[!UICONTROL Meta alta ]**es el objetivo principal que busca.**[!UICONTROL  Meta baja ]**y**[!UICONTROL  Meta media ]**crean intervalos por debajo de la Meta alta. Nota: Cuando la opción**[!UICONTROL  Porcentajes ]**esté marcada, escriba las metas como números enteros. Por ejemplo: `20` si su meta es el veinte por ciento. |
 
 >[!MORELIKETHIS]
 >
