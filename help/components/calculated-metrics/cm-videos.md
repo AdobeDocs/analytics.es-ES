@@ -43,7 +43,7 @@ En estos breves vídeos se proporciona información general sobre cómo optimiza
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Funciones](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=es){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar las métricas calculadas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Administrar las métricas calculadas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=es){target="_blank"}
 
 
 >[!ENDSHADEBOX]
