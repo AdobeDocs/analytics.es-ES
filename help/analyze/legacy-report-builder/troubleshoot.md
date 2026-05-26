@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 65%
+source-wordcount: 1471
+ht-degree: 63%
 
 ---
 
@@ -102,3 +102,10 @@ Esta sección incluye una lista de ejemplo de los mensajes de error que pueden p
    4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
    5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
 * **Las celdas de Excel asociadas con los filtros de entrada o el rango de salida pueden haberse eliminado**: Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina los nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
+
+## Solicitudes de registro
+
+Para registrar solicitudes con fines de resolución de problemas, en el complemento heredado de Report Builder:
+
+1. Seleccionar **[!UICONTROL opciones]**
+1. Seleccione **[!UICONTROL Registrar solicitud de Report Builder en archivo local (para solución de problemas)]**.<br/>Las solicitudes se almacenan en un archivo local con fecha y sello en un directorio **[!UICONTROL ReportBuilderLogs]** dentro de la carpeta **[!UICONTROL Documentos]**.
