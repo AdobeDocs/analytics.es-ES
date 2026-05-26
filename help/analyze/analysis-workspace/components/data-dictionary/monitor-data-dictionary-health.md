@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="Compartir componente principal"
->abstract="Cuando se selecciona esta opción, el componente principal se comparte con todos los que tienen acceso a los componentes duplicados (tanto los propietarios como cualquiera con los que se comparten los componentes). Estos usuarios pueden seleccionar el componente principal de la lista de componentes para proyectos futuros. Sin embargo, no pueden editar el componente, aunque sean los propietarios de un componente duplicado que se haya consolidado. <br/>Esta opción solo está disponible cuando el componente principal es un segmento, una métrica calculada o un intervalo de fechas. Las métricas y dimensiones siempre están disponibles para todos los usuarios."
+>abstract="Cuando se selecciona esta opción, el componente principal se comparte con todas las personas que tienen acceso a los componentes duplicados (tanto los propietarios como cualquier persona con los que se comparten los componentes). A continuación, estos usuarios pueden seleccionar el componente principal de la lista de componentes para proyectos futuros. Sin embargo, no pueden editar el componente, aunque sean los propietarios de un componente duplicado que se haya consolidado. <br/>Esta opción solo está disponible cuando el componente principal es un segmento, una métrica calculada o un intervalo de fechas. Las métricas y dimensiones siempre están disponibles para todos los usuarios.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 

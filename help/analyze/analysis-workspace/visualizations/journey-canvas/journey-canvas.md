@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="Lienzo de recorrido"
->abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas."
+>abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Utilícelo para recorridos con varios puntos de entrada y rutas."
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Lienzo de recorrido"
->abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Se utiliza para recorridos con varios puntos de entrada y rutas."
+>abstract="Muestra cómo las personas avanzan o abandonan en una serie de puntos de contacto. Utilícelo para recorridos con varios puntos de entrada y rutas."
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
