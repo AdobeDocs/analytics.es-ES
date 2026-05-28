@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
 workflow-type: tm+mt
 source-wordcount: 785
 ht-degree: 60%
@@ -52,7 +52,7 @@ Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio pri
 
 A continuación, se muestra cómo que se puede capturar este ID mediante el elemento de datos. Asegúrese de rellenar correctamente el ID de organización empresarial de CX en el elemento de datos.
 
-```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
+`return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
 Una vez configurado este elemento de datos, siga [estas instrucciones](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=es) para pasar los ID declarados a la herramienta ECID con etiquetas en Adobe Experience Platform.
 

@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 29%
@@ -84,7 +84,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 1. Seleccione **[!UICONTROL Agregar]** para crear un nuevo segmento.
    ![Publicar CX Enterprise](assets/publish-ec.png)
 1. Proporcione un título y una descripción para el segmento. Estos campos son obligatorios antes de poder guardar el segmento.
-1. En la sección **[!UICONTROL Publicación empresarial de CX]**, seleccione la opción **[!UICONTROL Publicar este segmento en CX Enterprise (para *grupo de informes*)]**.
+1. En la sección **[!UICONTROL Publicación de Experience Cloud]**, seleccione la opción **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**.
 
    >[!IMPORTANT]
    >
