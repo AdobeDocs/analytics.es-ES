@@ -32,9 +32,9 @@ Para usar estas métricas, habilita **[!UICONTROL Anuncios multimedia]** en [[!U
 
 Las métricas disponibles son las siguientes:
 
-* [[!UICONTROL Finalización del anuncio]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL El anuncio comienza]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL Tiempo invertido en publicidad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL Tiempo invertido en contenido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL Finalización del anuncio]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL El anuncio comienza]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL Tiempo invertido en publicidad]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL Tiempo invertido en contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 Consulte [Servicios y dimensiones de medios de streaming](../dimensions/sm-ads.md) para ver las dimensiones correspondientes.
