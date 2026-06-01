@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Publicación empresarial de CX"
->abstract="Puede publicar la audiencia en la Biblioteca de audiencias, donde podrá utilizarla para actividades de marketing en Target y otras soluciones de CX Enterprise."
+>title="Publicación de CX Enterprise"
+>abstract="Puede publicar el público en la biblioteca de públicos, donde este se puede utilizar para actividades de marketing de Target y otras soluciones de CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"

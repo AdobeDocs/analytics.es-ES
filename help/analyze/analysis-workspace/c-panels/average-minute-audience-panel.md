@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1841
 ht-degree: 91%
 
 ---
@@ -203,8 +203,8 @@ El panel Público medio por minuto de medios solo utiliza la métrica Público m
 >[!MORELIKETHIS]
 >
 > [Crear un panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Panel Visualizadores simultáneos de medios](media-concurrent-viewers.md)
-> [Panel Tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
+> [Panel de visualizadores simultáneos de medios](media-concurrent-viewers.md)
+> [Panel de tiempo invertido en la reproducción de medios](media-playback-time-spent.md)
 >
 
 

@@ -115,7 +115,7 @@ La siguiente visualización forma parte de la salida del panel.
 
 {{attribution-container}}
 
-## Ventana de retroactividad
+## Período de retroactividad
 
 {{attribution-lookback-window}}
 

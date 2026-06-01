@@ -71,7 +71,7 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 >[!MORELIKETHIS]
 >
->[Configure una visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configuración de una visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 

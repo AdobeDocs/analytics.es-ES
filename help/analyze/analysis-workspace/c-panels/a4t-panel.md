@@ -66,7 +66,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panel de Analyti
 
 >[!ENDSHADEBOX]
 
-## Utiliza
+## Usar
 
 Para usar un panel de **[!UICONTROL Analytics for Target]** haga lo siguiente:
 

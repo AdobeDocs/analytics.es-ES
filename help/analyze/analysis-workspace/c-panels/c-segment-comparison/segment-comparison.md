@@ -60,7 +60,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparació
 
 
 
-## Utiliza
+## Usar
 
 Para usar un panel **[!UICONTROL Comparación de segmentos]**:
 

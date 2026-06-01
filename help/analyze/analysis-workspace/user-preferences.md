@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 3534
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -78,7 +78,7 @@ Puede personalizar las preferencias generales de proyecto de todos los proyectos
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Requerir autenticación de CX Enterprise"
->abstract="Cuando está habilitada, las personas a las que se les da acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace, deben autenticarse con sus credenciales de CX Enterprise."
+>abstract="Cuando se ha habilitado, las personas que tienen acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace deben autenticarse con sus credenciales de CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -131,7 +131,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Mostrar** | | |
-|  | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacta</li><li>Cómoda</li><li>Expandido (predeterminado)</li></ul> |
+|  | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Elija cuánto contenido se mostrará en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. <ul><li>Compacto</li><li>Cómodo</li><li>Expandido (predeterminado)</li></ul> |
 | | [Paleta de color](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Elija las paletas de colores de visualización que se utilizan en Analysis Workspace.<ul><li>**Paleta categórica**: se aplica a muchas visualizaciones de Analysis Workspace. Cada color representa un valor categórico distinto. Elija entre las opciones que proporciona Adobe o introduzca una paleta personalizada definida por valores hexadecimales delimitados por comas.</li><li>**Paleta divergente**: se aplica a la tabla de cohortes de Analysis Workspace. Esta paleta contiene un significado numérico con dos extremos y una línea de base en el medio.</li><li>**Paleta secuencial**: se aplica al análisis guiado de tendencias de frecuencia (barra apilada). Esta paleta contiene un significado numérico, de claro a oscuro.</li></ul> |
 | **Datos** | | |
 |  | [Grupo de informes](/help/analyze/analysis-workspace/c-panels/panels.md) | Elija desde dónde las tablas y las visualizaciones obtienen sus datos. <ul><li>Más reciente (predeterminado)</li><li>Grupo de informes específico seleccionado de una lista</li></ul> |
@@ -139,7 +139,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 |  | [Tipo de panel](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>Improvisado (predeterminado)</li><li>En blanco</li><li>Acceso rápido a información</li></ul> |
 |  | Formato de número | <ul><li>1.000,00 (predeterminado)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Contar instancias repetidas | Especifica si las instancias repetidas se cuentan en los informes. Por ejemplo, esta configuración (cuando está activada) trata varias vistas de página consecutivas a la misma página como varias vistas de página. Si está desactivada, se cuentan como una sola vista de página. <p>**Nota:** esta configuración solo afecta a determinadas métricas (como las Visitas a una sola página) y no se aplica a las visualizaciones de Flujo o Visita en orden previsto.</p> |
-|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Canalización</li><li>Período</li><li>Espacio</li><li>Tabulación</li></ul> |
+|  | Carácter separador de CSV | <ul><li>Coma (predeterminado)</li><li>Punto y coma</li><li>Dos puntos</li><li>Barra vertical</li><li>Periodo</li><li>Espacio</li><li>Tabulación</li></ul> |
 |  | Mostrar anotaciones | Elija si las anotaciones estarán visibles en los proyectos. Para obtener más información sobre las anotaciones, consulte la [Información general sobre anotaciones](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
 ## Preferencias de tabla de forma libre {#freeform-table-preferences}
@@ -170,7 +170,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
 | **Tabla** | | |
-| | Tipo de tabla | <ul><li>Forma libre</li><li>Generador de tablas</li></ul> |
+| | Tipo de tabla | <ul><li>De forma libre</li><li>Generador de tablas</li></ul> |
 | | Métrica predeterminada de la tabla | <ul><li>Ocurrencias</li><li>Visitantes únicos</li><li>Visitas</li></ul> |
 | | Dimensión predeterminada de tabla | Elija entre Minuto, Hora, Día, Semana, Mes, Trimestre o Año. |
 | | Alinear fechas | Seleccione esta opción para alinear fechas de cada columna con todas a partir de la misma fila. |
@@ -236,7 +236,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Mostrar minigráficos | Se muestran u ocultan gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Mostrar máx. y mín. en los reflectores | Se muestran valores mínimos y máximos en gráficos de líneas principales y de comparación. |
 | | Mostrar comparación | Se muestran datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
-| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio en el porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
+| | Opciones de valor numérico | En la sección [!UICONTROL **Resumen de métricas clave**] <ul><li>Mostrar cambio de porcentaje</li><li>Mostrar diferencia en bruto</li>Diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario</ul> |
 | **[Visita en orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
 | | Contenedor | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. <p>Las opciones disponibles son las siguientes:</p> <ul><li>Visita</li><li>Visitante</li></ul> |
 | **[Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
@@ -250,14 +250,14 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de contenedores | Elija el número de intervalos de datos (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
-| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Acción</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por visita individual. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por visita individual. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensión de trazado | <ul><li>Latitud/longitud Mobile</li><li>Dimensión geográfica</li></ul> |
 | | Tipo de mapa | <ul><li>Burbujas</li><li>Mapa de calor</li></ul> |
 | | Tema de color | Elija entre Coral, Rojos, Verdes, Azules, Mapa de calor y Positivo/Negativo. |
 | | Estilo de mapa | Elija entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
 | **[Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio en el porcentaje</li><li>Diferencia en bruto</li></ul> |
+| | Valor | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>Cambio porcentual</li><li>Diferencia en bruto</li></ul> |
 | | Porcentajes | Muestra valores en porcentajes para las visualizaciones de Cambio de resumen. |
 | | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización de Cambio de resumen. |
 | | Valor abreviado | Cuando se selecciona, especifique el número de decimales. |
