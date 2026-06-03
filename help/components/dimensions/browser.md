@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El va
 Los elementos de dimensión incluyen los nombres y las versiones de los exploradores utilizados. Las distintas versiones del mismo explorador son elementos de dimensión independientes.
 
 Algunos elementos de dimensión contienen `"(unknown version)"` en lugar de su número de versión. Este elemento de dimensión hace referencia a una versión reciente del explorador que Adobe aún no ha agregado a sus tablas de búsqueda. Dado que los navegadores se actualizan con frecuencia, la `"(unknown version)"` de un navegador determinado es común y temporal. Adobe suele actualizar las tablas de búsqueda durante las revisiones de mantenimiento mensuales.
+
+Algunos elementos de dimensión contienen `.999` como número de versión menor, como `"Chrome 148.999"`. Este valor indica que Adobe no pudo determinar de forma fiable la versión secundaria del explorador. Cuando los exploradores Chrome o Edge envían solicitudes sin [sugerencias del cliente](/help/technotes/client-hints.md), la versión secundaria de la cadena del agente de usuario no se considera de confianza. En lugar de inflar elementos de dimensión con versiones menores potencialmente inexactas, Adobe reemplaza esas versiones menores con `.999`. Del mismo modo, si algún explorador informa de un número de versión inusualmente alto (por encima de 99999), Adobe lo normaliza a `999.999`.
