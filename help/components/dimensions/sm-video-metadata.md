@@ -33,14 +33,14 @@ Para usar estas dimensiones, habilite **[!UICONTROL Metadatos de vídeo]** en [[
 Las dimensiones disponibles son las siguientes:
 
 * [[!UICONTROL Cargas de publicidad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
-* [[!UICONTROL Parte del día]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL Episodio]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL Tipo de fuente de medios]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL Género]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL Red]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL Temporada]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL Mostrar]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL Mostrar tipo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL Parte del día]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL Episodio]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL Tipo de fuente de medios]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL Género]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL Red]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL Temporada]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL Mostrar]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL Mostrar tipo]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/show-type)
 
 Consulte [Métricas de metadatos de vídeo de los servicios de medios de streaming](../metrics/sm-video-metadata.md) para ver las métricas correspondientes.
