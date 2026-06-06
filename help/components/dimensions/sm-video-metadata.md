@@ -32,7 +32,7 @@ Para usar estas dimensiones, habilite **[!UICONTROL Metadatos de vídeo]** en [[
 
 Las dimensiones disponibles son las siguientes:
 
-* [[!UICONTROL Cargas de publicidad]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
+* [[!UICONTROL Cargas de publicidad]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/ad-load-type)
 * [[!UICONTROL Parte del día]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/day-part)
 * [[!UICONTROL Episodio]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL Tipo de fuente de medios]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/media-feed-type)
