@@ -3,7 +3,7 @@ description: Obtenga información sobre cómo utilizar el lienzo de recorrido en
 title: Información general sobre el lienzo de recorrido
 feature: Visualizations
 role: User, Admin
-source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 89%
@@ -38,11 +38,9 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/><br/>_Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/><br/>_Consulte [Información general del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 La visualización de lienzo de recorrido le permite analizar y obtener información detallada sobre los recorridos que proporciona a sus usuarios y clientes. Le permite definir un recorrido y ver cómo la gente se fue (abandonó) o continuó a través del recorrido.
 
@@ -146,5 +144,5 @@ Puede crear análisis en el lienzo de recorridos que estén basados en cualquier
 
 >[!MORELIKETHIS]
 >
-> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=es)
+> * [Guía para la visualización del lienzo de recorrido en Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
