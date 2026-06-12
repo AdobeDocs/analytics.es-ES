@@ -4,15 +4,10 @@ description: Obtenga información sobre qué son las búsquedas dinámicas y có
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
@@ -35,7 +30,7 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Habilitar búsquedas dinámicas"
->abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en el feed de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:<ul><li>Nombre de operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
+>abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en el feed de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:<ul><li>Nombre del operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 
