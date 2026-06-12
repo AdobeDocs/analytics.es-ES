@@ -35,7 +35,7 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Habilitar búsquedas dinámicas"
->abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en el feed de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:<ul><li>Nombre de operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
+>abstract="Seleccione esta opción para recibir archivos de búsqueda adicionales en el feed de datos; de lo contrario, no estarán disponibles. Esta configuración permite enviar las siguientes tablas de búsqueda con cada archivo de feed de datos:<ul><li>Nombre del operador</li><li>Atributos móviles</li><li>Tipo de sistema operativo</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 
