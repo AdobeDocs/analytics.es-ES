@@ -13,14 +13,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 860
 ht-degree: 95%
 
 ---
 
-# Guardar proyectos {#save-projects}
+# Guardar proyectos
 
 <!-- markdownlint-disable MD034 -->
 
@@ -54,7 +54,7 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
       * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
       * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
+   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
   Al guardar el proyecto, se guardará una versión del proyecto que se almacena durante 90 días.
 
@@ -190,7 +190,7 @@ To open a previously saved version of a project:
 
 
 <!--
-# Save projects {#save-projects}
+# Save projects
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"

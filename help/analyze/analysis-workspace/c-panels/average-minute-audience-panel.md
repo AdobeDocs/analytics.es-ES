@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1841
 ht-degree: 91%
@@ -174,7 +174,7 @@ El panel Público medio por minuto de medios solo utiliza la métrica Público m
 |--------|-------------|
 | **[!UICONTROL Público medio por minuto]** | El tiempo empleado en ver el flujo de medios dividido por la duración del vídeo proporcionada mediante clasificaciones. |
 
-#### Período de tiempo personalizado {#custom-time-period-output}
+#### Período de tiempo personalizado
 
 El panel Público medio por minuto de medios devuelve lo siguiente:
 
@@ -331,7 +331,7 @@ The Media average minute audience panel uses only the Average Minute Audience me
 |--------|-------------|
 | Average Minute Audience | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-### Custom time period {#custom-time-period-output}
+### Custom time period
 
 The Media average minute audience panel returns the following:
 

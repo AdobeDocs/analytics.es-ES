@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 941
 ht-degree: 100%
@@ -65,7 +65,7 @@ Para acceder al panel Componentes, selecciona ![Depurar](/help/assets/icons/Cura
 Consulta [Crear un proyecto](/help/analyze/analysis-workspace/home.md) para obtener información sobre el uso de Componentes en un proyecto.
 
 
-## Administrar componentes {#actions}
+## Administrar componentes
 
 Puedes crear rápidamente un nuevo componente con el menú **[!UICONTROL Componentes]** de Analysis Workspace. Consulta el [menú de Analysis Workspace](/help/analyze/analysis-workspace/home.md#menu) para obtener más información.
 
@@ -197,7 +197,7 @@ Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICO
 ![](assets/date-ranges.png)
 
 
-## Manage components {#actions}
+## Manage components
 
 You can manage components directly in the left rail. 
 
