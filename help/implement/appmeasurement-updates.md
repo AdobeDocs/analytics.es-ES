@@ -5,34 +5,14 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2885
+source-wordcount: 2881
 ht-degree: 70%
 
 ---
@@ -57,7 +37,7 @@ Fecha de versión: **martes, 12 de agosto de 2024**
 
 Fecha de versión: **martes, 04 de marzo de 2024**
 
-* AppMeasurement reconoce y utiliza automáticamente el dominio raíz de los dominios de nivel superior de código de país, que anteriormente requerían configuraciones de dominio de cookies específicas. La actualización puede tener implicaciones debido a este reconocimiento automático. Consulte [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) para obtener más información.
+* AppMeasurement reconoce y utiliza automáticamente el dominio raíz de los dominios de nivel superior de código de país, que anteriormente requerían configuraciones de dominio de cookies específicas. La actualización puede tener implicaciones debido a este reconocimiento automático.
 * La distribución incluye Identity Service Library 5.5.0 y Data Integration Library 9.6.
 
 ## Versión 2.25.0
@@ -331,7 +311,7 @@ Actualizado: **4 de agosto de 2016**
 
 >[!IMPORTANT]
 >
->La versión 1.6.0 del servicio de Experience Cloud ID *requiere* AppMeasurement para JavaScript versión 1.6.3 o superior. Si desea actualizar el servicio de Experience Cloud ID a la versión 1.6.0, compruebe que está utilizando la versión 1.6.3 o superior de AppMeasurement.
+>La versión 1.6.0 del servicio Experience Cloud ID *requiere* AppMeasurement para JavaScript versión 1.6.3 o superior. Si desea actualizar el servicio de Experience Cloud ID a la versión 1.6.0, compruebe que está utilizando la versión 1.6.3 o superior de AppMeasurement.
 
 ## Versión 1.6.2
 

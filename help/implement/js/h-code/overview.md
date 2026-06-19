@@ -5,17 +5,12 @@ feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 385
 ht-degree: 92%
 
 ---
@@ -33,8 +28,8 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 >Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
 
 1. **Actualizar variables de archivos JS principales**: Edite el archivo `s_code.js` y asegúrese que las siguientes variables están actualizadas:
-   * `s_account` contiene el ID del grupo de informes al que desea enviar los datos. Consulte
-   * `s.trackingServer` contiene la ubicación en la que se almacenan las cookies. Consulte [trackingServer](../../vars/config-vars/trackingserver.md).
+   * `s_account` contiene el ID del grupo de informes al que desea enviar los datos.
+   * `s.trackingServerSecure` contiene la ubicación en la que se almacenan las cookies.
 1. **Aloje el archivo `s_code.js` en el sitio**: Este archivo suele alojarse con otras secuencias de comandos del servidor web.
 1. **Haga referencia a `s_code.js` en todas las páginas**: Asegúrese de que todas las páginas individuales llamen al archivo principal de JavaScript y hágalo dentro de la etiqueta HTML `<body>` (no la etiqueta `<head>`).
 

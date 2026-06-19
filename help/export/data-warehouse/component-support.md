@@ -1,133 +1,89 @@
 ---
 title: Compatibilidad con componentes en Data Warehouse
-description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
+description: Descubra qué dimensiones y métricas están disponibles al crear una solicitud de Data Warehouse, cuáles no están disponibles y cuáles se comportan de forma diferente.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 580
-ht-degree: 47%
+source-wordcount: 362
+ht-degree: 11%
 
 ---
 
 # Compatibilidad con componentes en Data Warehouse
 
-El procesamiento único en la arquitectura de Data Warehouse permite algunos componentes que no suelen estar disponibles en otras funciones de Adobe Analytics. Debido a su arquitectura única, algunos componentes no están disponibles para su uso en informes o segmentos. Utilice esta página para comprender qué se puede usar y qué no.
+En esta página se describen las dimensiones y métricas que puede utilizar para crear una solicitud de Data Warehouse. Las secciones incluyen qué componentes están disponibles, cuáles no y cuáles se comportan de forma diferente que en otras herramientas de Adobe Analytics.
 
-## Componentes únicos de Data Warehouse
+## Dimensiones exclusivas de Data Warehouse
 
-Algunas dimensiones y métricas que se pueden usar en Data Warehouse no están disponibles cuando se usan otras funcionalidades en Adobe Analytics.
+Las siguientes dimensiones se pueden utilizar en Data Warehouse, pero no están disponibles en otras funciones de Adobe Analytics.
 
-### Dimensiones admitidas exclusivamente
+* [[!UICONTROL ID de visitante de Experience Cloud]](/help/components/dimensions/experience-cloud-visitor-id.md)
+* [[!UICONTROL Dirección IP]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL URL de la página]](/help/components/dimensions/page-url.md)
+* [[!UICONTROL ID de compra]](/help/components/dimensions/purchase-id.md)
+* [[!UICONTROL ID de visitante]](/help/components/dimensions/visitor-id.md)
 
-* **Experience Cloud ID**: Para implementaciones que usan el servicio Experience Cloud ID (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
-* **Dirección URL de la página**: Dirección URL de la página en la que se produjo la visita.
-* **ID de compra**: Identificador único de una compra, establecido mediante la variable purchaseID.
-* **ID de visitante**: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado de las columnas `visid_high` y `visid_low` de las fuentes de datos. Consulte [Referencia de la columna de datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
+## Dimensiones no admitidas
 
-### Métricas admitidas de forma exclusiva
+Las siguientes dimensiones no están disponibles en los informes ni en los segmentos de Data Warehouse:
 
-* **Visitas**: Esta métrica en el contexto de Data Warehouse excluye las visitas de cookies no persistentes.
-* **Visitas - Todos los visitantes**: Esta métrica en el contexto de Data Warehouse se parece más a la métrica de visitas en otras herramientas de Adobe Analytics.
+* [[!UICONTROL a. m./p. m.]](/help/components/dimensions/am-pm.md)
+* Todas las dimensiones de entrada, excepto [[!UICONTROL Página de entrada]](/help/components/dimensions/entry-dimensions.md) y [[!UICONTROL Página de entrada original]](/help/components/dimensions/entry-dimensions.md), que están permitidas
+* Todas las dimensiones de salida, excepto [[!UICONTROL Página de salida]](/help/components/dimensions/exit-dimensions.md) y [[!UICONTROL Vínculo de salida]](/help/components/dimensions/exit-link.md) que están permitidos
+* [[!UICONTROL Profundidad de la visita]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL Frecuencia de retorno]](/help/components/dimensions/return-frequency.md)
+* [[!UICONTROL Tiempo previo al evento]](/help/components/dimensions/time-prior-to-event.md)
+* [[!UICONTROL Tiempo empleado en la página - Agrupado]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL Tiempo empleado por visita - Agrupado]](/help/components/dimensions/time-spent-per-visit.md)
+* [[!UICONTROL Clasificación de todas las páginas de búsqueda]](/help/components/dimensions/all-search-page-rank.md)
+* [[!UICONTROL Variables de jerarquía]](/help/components/dimensions/overview.md#retired-dimensions)
+* [[!UICONTROL Tipo de visita]](/help/components/dimensions/hit-type.md)
+* [[!UICONTROL Búsqueda de pago]](/help/components/dimensions/paid-search.md)
+* [[!UICONTROL Visitas a una sola página]](/help/components/dimensions/single-page-visits.md)
+* [[!UICONTROL Motivo de exclusión de seguimiento]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL Estados de EE. UU.]](/help/components/dimensions/us-states.md)
 
-## Componentes no admitidos en Data Warehouse
+Algunas dimensiones están disponibles en una solicitud de Data Warehouse, pero no se pueden usar dentro de un segmento. Consulte [Compatibilidad de segmentos de Data Warehouse](segment-compatibility.md) para obtener más información.
 
-Algunas dimensiones y métricas no son compatibles con Data Warehouse.
+## Dimensiones con formato de fecha no estándar
 
->[!NOTE]
->
->Si una dimensión o métrica no se admite en Data Warehouse, tampoco se admiten los segmentos que utilizan estos componentes. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
+Las siguientes dimensiones basadas en el tiempo son compatibles con los informes de Data Warehouse, pero su salida utiliza un formato no estándar:
 
-### Dimensiones no admitidas
+* [[!UICONTROL Año]](/help/components/dimensions/year.md)
+* [[!UICONTROL Trimestre]](/help/components/dimensions/quarter.md)
+* [[!UICONTROL Mes]](/help/components/dimensions/month.md)
+* [[!UICONTROL Semana]](/help/components/dimensions/week.md)
+* [[!UICONTROL Día]](/help/components/dimensions/day.md)
+* [[!UICONTROL Hora]](/help/components/dimensions/hour.md)
+* [[!UICONTROL Minuto]](/help/components/dimensions/minute.md)
 
-* AM/PM
-* Algunas dimensiones basadas en rutas, entre ellas:
-   * Todas las dimensiones de entrada, excepto Página de entrada
-   * Todas las dimensiones de salida, excepto Página de salida y Vínculo de salida
-   * Profundidad de la visita
-   * Frecuencia de retorno
-   * Tiempo previo al evento
-   * Tiempo empleado en la página - Agrupado
-   * Tiempo empleado por visita - General
-* Clasificación de todas las páginas de búsqueda
-* Variables de jerarquía
-* Tipo de visita
-* Páginas no encontradas (disponibles como dimensión; no compatibles con la segmentación)
-* Búsqueda de pago
-* Visitas de página única
-* Motivo de exclusión de seguimiento
-* Estados estadounidenses
+Los valores de fecha se muestran con el formato `1YYMMDDHHMM`:
 
-### Métricas no admitidas
+* **Año (AA)**: Desplazamiento por 1900. Agregue `1900` a los tres primeros dígitos. Por ejemplo, `125` = año **2025**.
+* **Mes**: basado en cero. Enero = `00`, febrero = `01`, ..., diciembre = `11`.
 
-* Algunas métricas basadas en rutas, entre ellas:
-   * Devoluciones
-   * Entradas
-   * Salidas
-   * Recargas
-   * Acceso único
-   * Métricas de “tiempo empleado”
-* Métricas de participación (como se describe en [Crear una métrica de &quot;participación&quot;](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
+Por ejemplo, si el campo Intervalo de fechas de la semana muestra `1260901`, el año es 1900 + 126 = **2026** y el mes es 09 = **octubre**.
 
-### Dimensiones compatibles de una manera diferente (formato de fecha no estándar)
+## Métricas definidas de forma diferente en Data Warehouse
 
-Se admiten las siguientes dimensiones basadas en el tiempo:
+* **[[!UICONTROL Visitas]](/help/components/metrics/visits.md)**: Excluye las visitas de cookies no persistentes, a diferencia de la métrica Visitas de otras herramientas de Adobe Analytics.
+* **[[!UICONTROL Visitas - Todos los visitantes]](/help/components/metrics/visits.md)**: Cuenta todos los visitantes, incluidos los que tienen cookies no persistentes, por lo que es el equivalente más cercano a la métrica estándar [!UICONTROL Visitas] que se usa en otras partes de Adobe Analytics.
 
-* Año
-* Trimestre
-* Mes
-* Semana
-* Día
-* Hora
-* Minuto
+## Métricas no admitidas
 
-Sin embargo, la salida de las fechas no es estándar al utilizar dichas dimensiones.
+Las siguientes métricas no están disponibles en Data Warehouse:
 
-Tenga en cuenta lo siguiente al calcular el resultado de las fechas en Data Warehouse:
-
-* Las dimensiones de fecha se muestran en el siguiente formato: `1YYMMDDHHMM`
-
-* El año (AA) está compensado por 1900. Esto significa que usted agrega `1900` a los primeros 3 valores del campo de fecha.
-
-  Por ejemplo, si el valor del campo Intervalo de fechas de la semana en Data Warehouse es `1250901`, debe agregar 1900 a 125, lo que resulta en el año 2025.
-
-* Todos los meses tienen una base cero, con enero representado por 00, febrero por 01, y así sucesivamente, de la siguiente manera:
-
-   * 00: enero
-   * 1 de febrero
-   * 02: marzo
-   * 3 de abril
-   * 04: mayo
-   * 05: junio
-   * 06: julio
-   * 07: agosto
-   * 08: septiembre
-   * 09: octubre
-   * 10 de noviembre
-   * 11 de diciembre
-
-  Por ejemplo, si el valor del campo Intervalo de fechas por semana en Data Warehouse es `1250901`, el mes se representa como 09, lo que indica octubre.
-
-
-
-
-## Segmentos como dimensiones en Data Warehouse
-
-Cuando se utiliza un segmento como dimensión en Data Warehouse, el informe devuelve una columna que contiene `"0"` o `"1"`:
-
-* **`"0"`**: El elemento de dimensión no cumplía los criterios del segmento.
-* **`"1"`**: El elemento de dimensión cumplía los criterios del segmento.
+* [[!UICONTROL Devoluciones]](/help/components/metrics/bounces.md)
+* [[!UICONTROL Entradas]](/help/components/metrics/entries.md)
+* [[!UICONTROL Salidas]](/help/components/metrics/exits.md)
+* [[!UICONTROL Recargas]](/help/components/metrics/reloads.md)
+* [[!UICONTROL Acceso único]](/help/components/metrics/single-access.md)
+* Cualquier métrica de [[!UICONTROL tiempo empleado]](/help/components/metrics/time-spent.md)
+* Cualquier métrica que use un modelo de atribución [participación](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)
