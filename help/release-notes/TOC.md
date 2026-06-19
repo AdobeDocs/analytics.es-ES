@@ -6,7 +6,7 @@ breadcrumb-title: Notas de la versión
 user-guide-description: Descubra las nuevas funciones y correcciones de Adobe Analytics.
 nudge: true
 source-git-commit: 64e425e1cfe2062fd053596f92b4518bc7afdecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
 ht-degree: 100%
 
