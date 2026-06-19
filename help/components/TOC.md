@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '774'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 98%
    + [Clasificación de todas las páginas de búsqueda](dimensions/all-search-page-rank.md)
    + [ID de AMO](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)
+   + [ID de clic de Meta Ads de AMO](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Nombre de bot](dimensions/bot-name.md)
    + [Altura del explorador](dimensions/browser-height.md)
@@ -59,14 +59,15 @@ ht-degree: 98%
    + [eVar (comercialización)](dimensions/evar-merchandising.md)
    + [Dimensiones de salida](dimensions/exit-dimensions.md)
    + [Vínculo de salida](dimensions/exit-link.md)
+   + [ID de visitante de Experience Cloud](dimensions/experience-cloud-visitor-id.md)
    + [Canal de primer contacto](dimensions/first-touch-channel.md)
    + [Detalles de canal de primer contacto](dimensions/first-touch-detail.md)
-   + [Jerarquía](dimensions/hierarchy.md)
    + [Profundidad de la visita](dimensions/hit-depth.md)
    + [Tipo de visita](dimensions/hit-type.md)
    + [Hora del día](dimensions/hour-of-day.md)
    + [Hora](dimensions/hour.md)
    + [Estado identificado](dimensions/identified-state.md)
+   + [Dirección IP](dimensions/ip-address.md)
    + [Habilitado para Java](dimensions/java-enabled.md)
    + [Idioma](dimensions/language.md)
    + [Canal de último contacto](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 98%
    + [Compatibilidad con cookies persistentes](dimensions/persistent-cookie-support.md)
    + [Producto](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [ID de compra](dimensions/purchase-id.md)
    + [Trimestre del año](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
    + [Tipo de referente](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 98%
    + [Dimensiones de voz](dimensions/voice-dimensions.md)
    + [Profundidad de la visita](dimensions/visit-depth.md)
    + [Número de visita](dimensions/visit-number.md)
+   + [ID de visitante](dimensions/visitor-id.md)
    + [Semana](dimensions/week.md)
    + [Día de la semana/Fin de semana](dimensions/weekday-weekend.md)
    + [Año](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [Uso de segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
    + Referencia {#segment-reference}
       + [Operadores](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidad del segmento con el Almacén de datos](segmentation/seg-reference/seg-compatibility.md)
       + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
       + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
    + [Preguntas frecuentes sobre segmentos heredados](segmentation/seg-transition.md)

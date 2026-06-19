@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +64,21 @@ Las dimensiones y métricas disponibles que se pueden leer y escribir mediante r
 | --- | --- | --- |
 | **eVar 1-250** | Lectura y escritura | Dimensiones [eVar](/help/components/dimensions/evar.md). |
 | **Campaign** | Lectura y escritura | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
-| **ID de compra** | Lectura y escritura | Variable de implementación [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **Estado** | Lectura y escritura | (Retirado) La variable de implementación [`state`](/help/implement/vars/page-vars/state.md). |
+| **ID de compra** | Lectura y escritura | La dimensión [ID de compra](/help/components/dimensions/purchase-id.md). |
+| **Estado** | Lectura y escritura | (Retirado) La dimensión [Estado del visitante](/help/components/dimensions/overview.md#retired-dimensions). |
 | **Código postal** | Lectura y escritura | Dimensión [Código postal](/help/components/dimensions/zip-code.md). |
 | **Código de divisa** | Lectura y escritura | Variable de implementación [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: Si establece esta variable en un valor no válido, la visita se descarta. |
 | **ID de transacción** | Lectura y escritura | Variable de implementación [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->Adobe no admite la configuración de la variable de implementación [`products`](/help/implement/vars/page-vars/products.md) mediante reglas de procesamiento.
+>Adobe no admite la configuración de la dimensión [Product](/help/components/dimensions/product.md) mediante reglas de procesamiento.
 
 ## Variables de tráfico
 
 | Variable | Estado de lectura y escritura | Descripción |
 | --- | --- | --- |
 | **Prop 1-75** | Lectura y escritura | Dimensiones [Prop](/help/components/dimensions/prop.md). |
-| **Jerarquía 1-5** | Lectura y escritura | (Retirado) [Jerarquía](/help/components/dimensions/hierarchy.md) dimensiones. |
+| **Jerarquía 1-5** | Lectura y escritura | (Retirado) [Jerarquía](/help/components/dimensions/overview.md#retired-dimensions) dimensiones. |
 | **Servidor** | Lectura y escritura | La dimensión [Servidor](/help/components/dimensions/server.md). |
 | **Canal** | Lectura y escritura | Dimensión [Sección del sitio](/help/components/dimensions/site-section.md). |
 

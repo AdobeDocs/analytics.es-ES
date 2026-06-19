@@ -22,21 +22,21 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 164
-ht-degree: 84%
+ht-degree: 34%
 
 ---
 
 # Tipo de visita
 
-El &quot;Tipo de visita&quot; [dimension](overview.md) determina si una aplicación móvil estaba en primer o segundo plano cuando la visita se envió a los servidores de recopilación de datos de Adobe. Esta dimensión solo es relevante para los grupos de informes que contienen datos para aplicaciones móviles. Los datos del explorador recopilados con AppMeasurement siempre informan de la visita como “Primer plano”.
+El &quot;Tipo de visita&quot; [dimension](overview.md) determina si una aplicación móvil estaba en primer o segundo plano cuando la visita se envió a los servidores de recopilación de datos de Adobe. Esta dimensión solo es relevante para los grupos de informes que contienen datos para aplicaciones móviles. Los datos del explorador recopilados mediante AppMeasurement siempre informan de la visita como `"Foreground"`.
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión funciona de forma predeterminada para todas las implementaciones de SDK móvil en la versión 4.13.6 o superior. Si no utiliza el SDK móvil, todas las visitas se enumeran en el elemento de dimensión “Primer plano”. Si la opción “Deshabilitar informes y atribuciones anteriores para visitas en segundo plano” está activada, las visitas individuales en segundo plano solo aparecerán en el [Grupo de informes virtual](../vrs/vrs-mobile-visit-processing.md).
+Esta dimensión funciona de forma predeterminada para todas las implementaciones de SDK móvil en la versión 4.13.6 o superior. La SDK móvil establece la variable [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) (el parámetro de consulta `cp`) para indicar si cada visita se produjo en primer o segundo plano. Si no usa el SDK móvil, todas las visitas se enumeran bajo `"Foreground"`. Si **[!UICONTROL Impedir que las visitas en segundo plano inicien una nueva visita]** está seleccionado al configurar un [grupo de informes virtuales](../vrs/vrs-mobile-visit-processing.md), las visitas en segundo plano no inflan [[!UICONTROL Visitas]](../metrics/visits.md) ni [[!UICONTROL Visitantes únicos]](../metrics/unique-visitors.md).
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen `"Foreground"` y `"Background"`. Cualquier visita individual que no se haya enviado en segundo plano de una aplicación móvil pertenece al elemento de dimensión `"Foreground"`. Cualquier visita enviada donde la aplicación móvil estaba en segundo plano pertenece al elemento de dimensión `"Background"`.
+Los elementos de dimensión incluyen `"Foreground"` y `"Background"`. Las visitas en segundo plano solo se producen en dispositivos móviles en los que la aplicación rastreada está en segundo plano.

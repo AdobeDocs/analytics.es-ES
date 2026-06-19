@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 94%
+source-wordcount: 1052
+ht-degree: 89%
 
 ---
 
@@ -144,6 +144,10 @@ Analysis Workspace contiene estas funciones adicionales:
 - [Compare segmentos](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
 - Utilice segmentos como dimensiones en visualizaciones de tablas de forma libre.
 - Utilice segmentos en el [análisis de visitas en el orden previsto](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
+
+## Compatibilidad con Data Warehouse
+
+No todas las funciones de los segmentos son compatibles con Data Warehouse. Ciertas estructuras y dimensiones de segmentos no son compatibles y los segmentos que las utilizan no aparecen al crear una solicitud de Data Warehouse. Para obtener una lista completa de las características admitidas y no admitidas, consulte [Compatibilidad con segmentos de Data Warehouse](/help/export/data-warehouse/segment-compatibility.md).
 
 ## Segmentos proporcionados por Adobe
 

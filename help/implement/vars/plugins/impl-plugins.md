@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 96%
+source-wordcount: 410
+ht-degree: 79%
 
 ---
 
@@ -53,3 +53,9 @@ Cada organización tiene diferentes necesidades de implementación, por lo que p
 4. Valide la implementación y publíquelo.
 
 Muchas organizaciones llaman a complementos con la función [`doPlugins`](../functions/doplugins.md). Aunque esta función no es obligatoria, Adobe considera que es recomendable utilizarla. AppMeasurement llama a esta función justo antes de compilar y enviar una solicitud de imagen, lo cual es ideal ya que varios complementos dependen de otras variables de Analytics.
+
+## Complementos retirados
+
+Se han retirado los siguientes complementos. Están documentados aquí como referencia si los encuentra en una implementación heredada.
+
+* **`getPageLoadTime`**: se midió el tiempo que tardó una página en cargarse completamente mediante el objeto de rendimiento de JavaScript. Ya no se admite porque su código depende de la interfaz [`PerformanceTiming`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming), que está obsoleta en la mayoría de los exploradores modernos. No hay reemplazo directo, y las instrucciones de instalación y el código de plug-in ya no están disponibles.

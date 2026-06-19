@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 273
-ht-degree: 87%
+source-wordcount: 295
+ht-degree: 81%
 
 ---
 
@@ -36,6 +36,10 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 ```
 
 La altura del explorador siempre es menor o igual a la altura de la pantalla, ya que la altura del explorador no incluye la navegación del explorador ni los bordes.
+
+>[!NOTE]
+>
+>Data Warehouse también proporciona una dimensión &#39;[!UICONTROL Alto del explorador - granular]&#39;, que indica el alto de píxel exacto en lugar de agrupar valores en bloques predefinidos.
 
 ## Rellene esta dimensión con datos
 

@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 163
-ht-degree: 100%
+source-wordcount: 436
+ht-degree: 37%
 
 ---
 
@@ -41,3 +41,18 @@ Cada dimensión representa una parte o faceta diferente del sitio. Puede combina
 ## Agregar descripciones de dimensión
 
 Los administradores de Analytics pueden añadir descripciones para dimensiones y otros componentes tanto dentro del grupo de informes como directamente dentro de Analysis Workspace. Para obtener información acerca de cómo añadir descripciones a dimensiones, consulte [Adición de descripciones de componentes](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+
+## Dimensiones retiradas
+
+Se retiran las siguientes dimensiones. La mayoría eran informes de Reports &amp; Analytics que no están disponibles en Analysis Workspace. Se documentan aquí como referencia si los encuentra en informes heredados o datos históricos.
+
+* **Jerarquía**: Una dimensión personalizada (`hier1`-`hier5`) que se usa para capturar la estructura jerárquica de un sitio para los informes. Se ha retirado y no está disponible en Analysis Workspace. En su lugar, use [eVars](evar.md) y clasificaciones.
+* **Página principal**: Un indicador que indica si la página actual era la página principal del explorador del visitante. Es una dimensión heredada sin equivalente moderno debido a las prácticas modernas de privacidad del explorador.
+* **Compatibilidad con JavaScript**: Indica si el explorador del visitante admite JavaScript. Dimensión heredada que ya no es significativa para la medición moderna.
+* **Versión de JavaScript**: Se informó de la versión de JavaScript que admitía el explorador del visitante. Una dimensión heredada que ya no se recopila.
+* **Página siguiente**: Una dimensión de rutas que muestra la página siguiente que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
+* **Página anterior**: Una dimensión de rutas que muestra la página anterior que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
+* **Zona horaria**: La zona horaria del visitante, derivada del desplazamiento de la marca de tiempo en las solicitudes de imagen de AppMeasurement. Web SDK recopila la zona horaria mediante [`placeContext`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/context).
+* **Dominio de nivel superior**: Dominio de nivel superior del punto de acceso del visitante. Un informe heredado de Reports &amp; Analytics; use la dimensión [Dominio](domain.md) en su lugar.
+* **Número de página de visita**: El número de página dentro de una visita. Un informe heredado de Reports &amp; Analytics; use la dimensión [Profundidad de visita](hit-depth.md) en su lugar.
+* **Estado del visitante**: Informó del estado de EE. UU. desde la variable `s.state`. Se sustituye por la dimensión [Estados de EE. UU.](us-states.md), que utiliza la segmentación geográfica.

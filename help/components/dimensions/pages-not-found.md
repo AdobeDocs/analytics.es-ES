@@ -16,10 +16,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 77%
+source-wordcount: 232
+ht-degree: 73%
 
 ---
 
@@ -31,6 +31,10 @@ La dimensión “Páginas no encontradas” muestra las direcciones URL que cont
 
 * Puede utilizar esta dimensión en una [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) para ver en qué páginas hacen clic los visitantes para llegar al error. A continuación, puede trabajar con los equipos de desarrollo de su organización para corregir el vínculo en cada página.
 * Puede utilizar esta dimensión con la dimensión [“Remitente del reenvío”](referrer.md) para ver a qué parte de su sitio llegan los visitantes desde vínculos externos. A continuación, puede implementar redirecciones a la ubicación deseada o trabajar con el tercero para corregir el vínculo.
+
+>[!NOTE]
+>
+>En Data Warehouse, esta dimensión se denomina &#39;[!UICONTROL Error de tipo de página]&#39;.
 
 ## Rellene esta dimensión con datos
 

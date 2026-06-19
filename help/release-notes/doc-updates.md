@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
-ht-degree: 94%
+source-wordcount: 7391
+ht-degree: 93%
 
 ---
 
@@ -52,6 +52,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Junio de 2026** | |
+| Actualización de referencia de cadena de consulta | Revisiones significativas de [parámetros de consulta de recopilación de datos](/help/implement/validate/query-parameters.md). |
+| Segmentos en Data Warehouse | Se ha actualizado [la compatibilidad de segmentos de Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |
 | Se ha sustituido GA por una guía AA | La guía de GA a AA hace referencia a Universal Analytics, que expiró en 2023. Una nueva guía la ha reemplazado: [Transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mayo de 2026** | |
 | Dimensiones y métricas de medios de streaming | Actualizaciones significativas en la documentación de medios de streaming. Los vínculos a ejemplos incluyen [dimensiones principales de servicios de medios de streaming](/help/components/dimensions/sm-core.md) y [métricas principales de servicios de medios de streaming](/help/components/metrics/sm-core.md). |
@@ -78,7 +80,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Configuración de la atribución | Actualizaciones adicionales para reflejar las nuevas opciones de configuración de atribución del modelo, el contenedor y la ventana de retrospección. |
 | Mejoras adicionales en la identificación de visitantes | Se agregó la sección [Identificación de visitantes](/help/implement/id/overview.md), en la que se describe la manera recomendada de identificar a los visitantes en todos los tipos de implementación. |
 | **Septiembre de 2025** | |
-| Mejoras en la identificación del visitante | Se han aclarado las prácticas recomendadas sobre la identificación de visitantes, centrándose en el propósito de las variables [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) y [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) en AppMeasurement. |
+| Mejoras en la identificación del visitante | Se han aclarado las prácticas recomendadas sobre la identificación de visitantes, centrándose en el propósito de las variables `trackingServer` y [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) en AppMeasurement. |
 | **Agosto de 2025** | |
 | Los nombres del feed de datos deben ser únicos | Se ha aclarado por qué [los nombres del feed de datos deben ser únicos](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Advertencias de caducidad | Se han agregado advertencias de caducidad a los artículos de las secciones [Clasificación del generador de reglas](/help/components/classifications/crb/classification-rule-builder.md) e [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md). |
@@ -92,7 +94,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Marzo de 2025** |  |
 | Inventario de Analytics | [Inventario de Analytics](/help/admin/tools/analytics-inventory.md) proporciona información general completa sobre el entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios, etc. |
 | Guía de actualización de Customer Journey Analytics | Le permite generar una [guía paso a paso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para actualizar de Adobe Analytics a Customer Journey Analytics. |
-| Se ha aclarado el formato de fecha en las exportaciones de Data Warehouse | Los valores de dimensión basados en el tiempo en las exportaciones de Data Warehouse tienen un formato de fecha no estándar. Se ha añadido información que explica cómo interpretar los valores de fecha de las exportaciones de Data Warehouse. <p>Véase [Dimensiones admitidas de forma diferente (formato de fecha no estándar)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) en [Compatibilidad de los componentes de Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Se ha aclarado el formato de fecha en las exportaciones de Data Warehouse | Los valores de dimensión basados en el tiempo en las exportaciones de Data Warehouse tienen un formato de fecha no estándar. Se ha añadido información que explica cómo interpretar los valores de fecha de las exportaciones de Data Warehouse. <p>Ver [Dimensiones con formato de fecha no estándar](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting) en [Compatibilidad con componentes en Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Información actualizada sobre exclusiones de IP | Se ha añadido información que explica que [las exclusiones de IP](/help/admin/tools/exclude-ip.md) pueden tardar hasta 5 minutos en surtir efecto y que los cambios se aplican solamente a las nuevas visitas (los datos capturados antes de que se establezca la exclusión no se verán afectados). <p>También se ha actualizado el diseño del contenido para mejorar la legibilidad.</p> |
 | **Febrero de 2025** |  |
 | Se ha actualizado la información sobre la pausa y reactivación de un feed de datos | Al [pausar y reactivar un feed de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se ha aclarado el comportamiento de los feeds activos. El procesamiento de datos no se produce desde el momento en que el feed se pone en pausa hasta el momento en que se reactiva. |
@@ -124,7 +126,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Junio de 2024** | |
 | Se ha actualizado el nombre del producto que hace referencia a las funciones de servicios de medios de streaming | Se han reemplazado las instancias de “Media Analytics” y “Medios de streaming” por el nombre de “Colección de medios de streaming” al hacer referencia al conjunto de funciones de medios de streaming que recopilan datos de medios de streaming y los muestran en Analysis Workspace. <p>Estas actualizaciones están disponibles en toda la documentación de Adobe Analytics, así como en la [Documentación de la colección de medios de streaming](https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview).</p> |
 | Documentación sobre alertas mejorada | Se ha actualizado y mejorado la documentación sobre alertas. Estas actualizaciones incluyen información sobre la [creación de alertas](/help/components/alerts/alert-builder.md), la [administración de alertas](/help/components/alerts/alert-manager.md), e [información general](/help/components/alerts/alerts-overview.md). |
-| Obsoleto `cookieDomainPeriods` | Ahora que el AppMeasurement detecta automáticamente el dominio correcto en el que se configurarán las cookies, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) está obsoleta. |
+| Obsoleto `cookieDomainPeriods` | Ahora que el AppMeasurement detecta automáticamente el dominio correcto en el que se configurarán las cookies, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) está obsoleta. |
 | Retirar documentación de Data Connectors | Se ha movido la página de finalización de la vida útil de Data Connectors a [Productos discontinuados](https://experienceleague.adobe.com/es/docs/discontinued/using/data-connectors). |
 | **Mayo de 2024** | |
 | Información necesaria al utilizar restricciones de política de organización con Google Cloud Platform en fuentes de datos y Data Warehouse | Se ha añadido el ID de organización de Google Cloud Platform propiedad de Adobe a la documentación de [fuentes de datos](/help/export/analytics-data-feed/create-feed.md) y [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Esta información solo es necesaria para las organizaciones que utilizan [Restricciones de política de organización](https://cloud.google.com/storage/docs/org-policy-constraints) en Google Cloud Platform.</p> |
@@ -137,7 +139,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Se ha eliminado la documentación relacionada con “Propietario” en los conjuntos de clasificación | El filtro “Propietario” y la columna se han eliminado del [Administrador de conjuntos de clasificación](/help/components/classifications/sets/manage-sets.md) y el campo “Propietario” se ha eliminado de [Configuración del conjunto de clasificación](/help/components/classifications/sets/manage/settings.md). <p>La documentación se ha actualizado para quitar este filtro, columna y campo.</p> |
 | Se han eliminado las secciones comprimibles de la documentación sobre la configuración de ubicaciones de importación y exportación en la nube | Se han eliminado las secciones comprimibles en [Configuración de ubicaciones de importación y exportación en la nube](/help/components/locations/configure-import-locations.md) para obtener información que explique los tipos de cuenta en la nube. |
 | **Marzo de 2024** | |
-| Actualización de AppMeasurement | [Notas de versión](/help/implement/appmeasurement-updates.md) de la actualización de AppMeasurement v2.26.0.<br/>Incluye referencia y actualización de [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) documentación de la variable de configuración. |
+| Actualización de AppMeasurement | [Notas de versión](/help/implement/appmeasurement-updates.md) de la actualización de AppMeasurement v2.26.0.<br/>Incluye referencia y actualización de [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) documentación de la variable de configuración. |
 | La información de uso relativa a la columna “Utilizado en” solo está disponible a partir de septiembre de 2023. | Se ha aclarado que la información de uso relativa a la columna **Utilizado en** en la [página de destino de proyectos](/help/analyze/landing.md) solo se remonta hasta septiembre de 2023. |
 | **Febrero de 2024** | |
 | Actualizaciones de información sobre la administración de solicitudes de Data Warehouse | Se ha aclarado que, de forma predeterminada, los usuarios solo pueden ver las solicitudes que crean cuando [administran las solicitudes de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md). |

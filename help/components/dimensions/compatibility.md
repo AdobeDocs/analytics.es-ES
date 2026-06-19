@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 47%
@@ -136,7 +136,7 @@ Esta página lista [dimensiones](overview.md) compatibles con sus respectivas ca
 | [Servidor de salida](exit-dimensions.md) | `exitserver` |
 | [Sección de sitio de salida](exit-dimensions.md) | `exitsitesections` |
 | [Profundidad de la visita](hit-depth.md) | `hitdepth` |
-| [Tipo de visita](hit-type.md) | `hittype` |
+| [Tipo de visita](hit-type.md) | `customerperspective` |
 | [Hora](hour.md) | `daterangehour` |
 | [Hora del día](hour-of-day.md) | `timeparthourofday` |
 | [Detalles de canal de mercadotecnia](marketing-detail.md) | `marketingchanneldetail` |
