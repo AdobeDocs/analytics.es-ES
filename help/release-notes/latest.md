@@ -24,14 +24,14 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8bfb44d4eeb1812ec9b91a68bd37c2b660eae76e
+source-git-commit: 6adcad3efbe3c7f38ba8b15f835d700861fd2209
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (mayo de 2026)
+# Notas de la versión actuales de Adobe Analytics (junio de 2026)
 
 **Última actualización**: 22 de junio de 2026
 
