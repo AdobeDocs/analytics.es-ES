@@ -3,11 +3,9 @@ title: Análisis de subvisita
 description: Descubra cómo el análisis de subvisitas le permite filtrar productos individuales dentro de una visita en Adobe Analytics, lo que elimina el sangrado de atribución en los informes de productos.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: f56d4b675d55608d4049fcebaf2de549aca40a5c
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -17,7 +15,6 @@ ht-degree: 0%
 # Análisis de subvisitas
 
 El análisis de subvisitas le permite analizar los datos de productos en un nivel más granular que el nivel de visita. En lugar de filtrar visitas individuales completas, puede segmentar productos individuales dentro de las visitas. Por ejemplo, segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido.
-
 
 En Adobe Analytics, la variable [Products](/help/components/dimensions/product.md) puede capturar varios productos con una sola visita. Sin el análisis de subvisitas, la segmentación en un atributo de producto devuelve todas las visitas en las que cualquier producto de una visita coincide con el atributo de producto. El resultado es una atribución incorrecta y métricas de ingresos infladas. El análisis de visitas secundarias establece el ámbito del filtro para filas de producto individuales dentro de una visita y resuelve estos problemas.
 
