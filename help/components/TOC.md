@@ -4,13 +4,12 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
+source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
 
 ---
-
 
 # [!DNL Adobe Analytics] Guía de componentes {#components}
 
