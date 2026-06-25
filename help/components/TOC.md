@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Administre datos con componentes como Segmentos, Métricas calculadas, Grupos de informes virtuales, Canales de marketing y Clasificaciones. Obtenga información acerca del análisis entre dispositivos.
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 98%
+source-wordcount: '777'
+ht-degree: 97%
 
 ---
 
@@ -185,6 +185,7 @@ ht-degree: 98%
    + [Acerca de los segmentos](segmentation/seg-overview.md)
    + [Acerca de los contenedores de segmentos](segmentation/seg-containers.md)
    + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
+   + {hide-from-toc}[Análisis de subvisitas](segmentation/sub-hit.md)
    + Flujo de trabajo {#segmentation-workflow}
       + [Información general](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planificar segmentos](segmentation/segmentation-workflow/seg-plan.md)
