@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -86,3 +86,4 @@ El Generador de segmentos incluye una nueva opción de filtro en el carril izqui
 La visualización de histograma incluye un nuevo menú desplegable de contenedor de visita secundaria. Esto permite agrupar los valores de las métricas en el nivel de producto. Por ejemplo, recuento de ocurrencias de productos por pedido en lugar de por visita.
 
 El histograma es la única visualización que requiere una selección de contenedor de visita secundaria. El resto de paneles y visualizaciones funcionan con datos de análisis de visitas secundarias sin necesidad de configuración adicional.
+
