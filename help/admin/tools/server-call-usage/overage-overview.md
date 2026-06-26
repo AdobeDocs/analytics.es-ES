@@ -5,23 +5,15 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 72%
+source-wordcount: 887
+ht-degree: 77%
 
 ---
 
@@ -39,8 +31,7 @@ Las principales ventajas del uso de llamadas al servidor son las siguientes:
 
 ## Requisitos previos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permisos:** Para tener acceso al panel de uso de llamadas al servidor y al generador o administrador de alertas, debe ser administrador de Adobe Analytics.
-* **Permisos:** Los administradores pueden conceder acceso a los no administradores. El permiso se llama **[!UICONTROL Uso de llamadas al servidor]**. Consulte [Permiso de uso de llamadas al servidor](#server-call-usage-permission).
+* **Permisos:** Debe tener acceso de administrador de Adobe Analytics o el elemento de permiso [Uso de llamadas al servidor](/help/admin/admin-console/permissions/analytics-tools.md) en Adobe Admin Console. Los administradores pueden asignar este elemento de permiso a los no administradores a través de un perfil de producto.
 
 ## Terminología importante {#terminology}
 
@@ -70,7 +61,7 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="/help/admin/tools/server-call-usage/overage-overview.md">permiso</a> adecuado. </p> </td> 
+    </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="/help/admin/admin-console/permissions/analytics-tools.md">permiso</a> adecuado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Organización empresarial </p> </td> 
@@ -87,40 +78,6 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
   <tr> 
    <td colname="col1"> <p>Periodo contractual </p> </td> 
    <td colname="col2"> <p>Los periodos contractuales pueden ser de varios años. Digamos que su empresa tiene una asignación de llamadas al servidor de 6 millones de llamadas para un periodo contractual de 3 años. Con fines de supervisión del uso de llamadas al servidor, este periodo de 3 años se puede desglosar en periodos de uso menores para facilitar las comparaciones anuales. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Permiso de uso de llamadas al servidor {#permission}
-
-El permiso Uso de llamadas al servidor se concede automáticamente a los administradores de Analytics. Permite a los usuarios ver el tablero y crear alertas de llamadas al servidor. Los administradores pueden elegir conceder este permiso a los no administradores.
-
->[!NOTE]
->
->Su empresa puede elegir qué empresas de inicio de sesión tienen acceso a Uso de llamadas al servidor.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nombre del permiso </th> 
-   <th colname="col3" class="entry"> Conceder permiso si ha iniciado sesión en Adobe Analytics (inicio de sesión heredado) </th> 
-   <th colname="col4" class="entry"> Conceder permiso si ha iniciado sesión en Adobe CX Enterprise </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Uso de llamadas al servidor </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Inicie sesión en Analytics a través de sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Vaya a <span class="ignoretag"> <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Toda la administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Herramientas de Analytics </span> &gt; <span class="uicontrol"> Personalizar </span> &gt; <span class="uicontrol"> Uso de llamadas al servidor </span> </span> </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experiencecloud.adobe.com.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Haga clic en <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"> <span class="uicontrol"> Productos </span> &gt; <span class="uicontrol"> Perfil de producto </span> &gt; <span class="uicontrol"> Permisos </span> &gt; <span class="uicontrol"> Herramientas de Analytics </span> &gt; <span class="uicontrol"> Uso de llamadas al servidor </span> </span> </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>
