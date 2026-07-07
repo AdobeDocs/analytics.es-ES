@@ -2,6 +2,7 @@
 title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,24 +25,27 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (junio de 2026)
+# Notas de la versión actuales de Adobe Analytics (julio de 2026)
 
-**Última actualización**: 25 de junio de 2026
+**Última actualización**: 8 de julio de 2026
 
-Estas notas de la versión abarcan el período de la versión de junio de 2026. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de la versión de julio de 2026. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ---- |
-| **Lienzo del recorrido en Adobe Analytics** <br/>Lienzo del recorrido es una visualización en Analysis Workspace que le permite obtener información exhaustiva de un recorrido de usuario definido al analizar las personas que pasan o salen de un recorrido. Permite crear un gráfico flexible de nodos y flechas que representan cualquier combinación de eventos, elementos de dimensión y segmentos incluidos en el recorrido. Los datos se actualizan conforme vaya arrastrando los nodos en el lienzo o reorganizando los eventos y las condiciones del recorrido.<p>Anteriormente, el lienzo de recorrido solo estaba disponible para Customer Journey Analytics.</p><p>Para obtener más información acerca de los lienzos del recorrido, consulte [Información general de los lienzos del recorrido](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Para aprender a crear una visualización de lienzo del recorrido en Adobe Analytics, consulte [Configurar lienzo del recorrido](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 de mayo de 2026 | 5 de junio de 2026 |
+| **Análisis de subvisitas** <br/>El análisis de subvisitas le permite analizar los datos de los productos con un nivel más granular que el nivel de la visita. En lugar de filtrar visitas individuales completas, puede segmentar productos individuales dentro de las visitas. Por ejemplo, segmentar una categoría de producto específica sin incluir todos los demás productos comprados en el mismo pedido. | Julio de 8 | Finales de julio de 2026 |
+| **Guía de características de búsqueda de API AA 2.0** <br/>Use características de búsqueda para [devolver un subconjunto de elementos de dimensión en los informes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | 1 de julio de 2026 |
+| **Automatización de informes recurrentes con API de AA** <br/>Configure informes automáticos y recurrentes de Analytics para su canalización de datos con métricas nuevas en una programación con [API de informe](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | 1 de julio de 2026 |
+| **Nuevos parámetros de expansión para AA** <br/>Use nuevos parámetros de expansión de la API de Dimension para recuperar los campos de configuración de eVar para los tipos de asignación, caducidades, tipos de datos y comercialización. <p>Para obtener más información, consulte [Referencia de API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) y [Guía de extremo de dimensiones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | 1 de julio de 2026 |
 
 ### Correcciones en Adobe Analytics
 
