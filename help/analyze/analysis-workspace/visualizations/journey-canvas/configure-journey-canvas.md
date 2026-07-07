@@ -3,7 +3,7 @@ description: Descubra cómo configurar una visualización de lienzo de recorrido
 title: Configuración de una visualización de lienzo de recorrido
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;versión de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -583,5 +583,4 @@ Puede eliminar una o varias flechas a la vez dentro de un recorrido. Cuando se e
 Para eliminar flechas entre nodos en Lienzo de recorrido:
 
 1. En una visualización de Lienzo de recorrido, seleccione una o varias flechas entre dos nodos que desee eliminar y, a continuación, haga clic con el botón derecho en una de las flechas seleccionadas.
-
 1. Seleccione [!UICONTROL **Eliminar**].
