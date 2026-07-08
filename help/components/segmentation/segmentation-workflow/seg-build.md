@@ -4,22 +4,14 @@ title: Generar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 94%
+source-wordcount: 2004
+ht-degree: 85%
 
 ---
 
@@ -84,7 +76,7 @@ El Generador de definiciones se utiliza para crear la definición del segmento. 
 Se puede configurar el tipo y el ámbito de la definición:
 
 1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y, luego, **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** del menú desplegable.
-1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Visitas individuales]**, **[!UICONTROL Visitas]** o **[!UICONTROL Visitantes]**.
+1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Visitas]**, **[!UICONTROL Visitas]**, **[!UICONTROL Visitantes]** o **[!UICONTROL Productos]**. Utiliza **[!UICONTROL Productos]** para [análisis de visitas secundarias](/help/components/segmentation/sub-hit.md) casos de uso.
 
 Siempre puede cambiar esta configuración más adelante.
 
@@ -96,7 +88,9 @@ Una parte vital de la creación de la definición del segmento es el uso de dime
 
 Para añadir un componente, haga lo siguiente:
 
-1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**.
+   * Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+   * Puede usar ![Filter](/help/assets/icons/Filter.svg) en la barra de componentes para filtrar ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobado]**, ![Estrella](/help/assets/icons/Star.svg) **[!UICONTROL Favoritos]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensiones]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Métricas]**, ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]**, ![Calendario](/help/assets/icons/Calendar.svg) Componentes de **[!UICONTROL intervalos de fechas]** y ![nivel](/help/assets/icons/Layer.svg) **[!UICONTROL productos]**. También puede filtrar las etiquetas ![Label](/help/assets/icons/Label.svg).
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor en **[!UICONTROL Seleccionar valor]**. O bien, introduzca un valor El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
 1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](../seg-reference/seg-operators.md) para obtener información general sobre los operadores disponibles.
 
@@ -121,7 +115,7 @@ Puede agrupar varios componentes en uno o varios contenedores y definir la lógi
 * Para añadir otro componente al contenedor, arrastre y suelte un componente del panel del componente en el contenedor. Utilice la línea de inserción azul como guía.
 * Para añadir otro componente fuera del contenedor, arrastre y suelte un componente del panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
 * Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los operadores **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Si selecciona **[!UICONTROL Then]**, convertirá el segmento en uno secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
-* Para cambiar el nivel de contenedor, seleccione ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Visitas individuales]**, ![Visita](/help/assets/icons/Visit.svg), **[!UICONTROL Visitas]** o ![Usuario](/help/assets/icons/User.svg), **[!UICONTROL Visitantes]**.
+* Para cambiar el nivel de contenedor, selecciona ![PáginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Visitas]**, ![Visitas](/help/assets/icons/Visit.svg) **[!UICONTROL Visitas]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitantes]** o ![MostrarTodaLaCapa](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Productos]**.
 
 Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
 
@@ -133,6 +127,9 @@ Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor pa
 | **[!UICONTROL Contenedor de nombres]** | Cambie el nombre del contenedor desde la descripción predeterminada. Escriba un nombre en el campo de texto. Si no proporciona ninguna entrada, se utiliza la descripción predeterminada. |
 | **[!UICONTROL Eliminar contenedor]** | Elimine el contenedor de la definición. |
 
+Cuando arrastra una dimensión de producto o métrica al Generador de segmentos, el sistema selecciona automáticamente el contenedor de **[!UICONTROL Producto]** y no utiliza el contenedor de **[!UICONTROL visita]** predeterminado. Este comportamiento mantiene el alcance del segmento en productos individuales, en lugar de en toda la visita.
+
+Al arrastrar componentes de nivel de producto y de nivel de visita en una única regla de segmento, el sistema usa el contenedor de **[!UICONTROL visita individual]**, que es el contenedor compartido más alto (menos granular). Si todos los componentes que forman parte de una regla de segmento son de nivel de producto, se utiliza el contenedor **[!UICONTROL Productos]**.
 
 ## Intervalos de fechas
 
@@ -143,7 +140,7 @@ Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -271,7 +268,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +329,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

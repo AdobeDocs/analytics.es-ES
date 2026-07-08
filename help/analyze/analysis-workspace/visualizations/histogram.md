@@ -6,19 +6,14 @@ feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 TQID: 'https://experienceleague.adobe.com/8sr6lBHkp8zWeToEqPsd9ZFRCMGNj2A1fn57d5wgvOI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 78%
+source-wordcount: 375
+ht-degree: 70%
 
 ---
 
@@ -32,7 +27,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del histograma en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Histograma](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/histogram) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
+_Este artículo documenta la visualización del histograma en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [Histograma](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/histogram) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +51,7 @@ En el ejemplo siguiente, se utiliza un histograma para agrupar las sesiones en f
 
 ![](assets/histogram.png)
 
-## Configuración avanzada
+## Ajustes avanzados
 
 Como parte de la visualización, hay una configuración específica del histograma.
 
@@ -65,7 +60,7 @@ Como parte de la visualización, hay una configuración específica del histogra
 | **[!UICONTROL Iniciando el intervalo]** | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
 | **[!UICONTROL Intervalos de métricas]** | Le permite aumentar/disminuir el número de rangos de datos (contenedores). El número máximo de contenedores es 50. |
 | **[!UICONTROL Tamaño del intervalo de métricas]** | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
-| **[!UICONTROL Método de recuento]** | Seleccione entre **[!UICONTROL Persona]**, **[!UICONTROL Sesión]** o **[!UICONTROL Evento]**. Por ejemplo, vistas de página por sesión o vistas de página por persona o visitas de página por evento. |
+| **[!UICONTROL Método de recuento]** | Seleccione entre **[!UICONTROL Persona]**, **[!UICONTROL Sesión]**, **[!UICONTROL Evento]** o **[!UICONTROL Productos]** (para [análisis de subvisita](/help/components/segmentation/sub-hit.md)). Por ejemplo, vistas de página por sesión o vistas de página por persona, vistas de página por evento o vistas de página por producto. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -78,8 +73,5 @@ Como parte de la visualización, hay una configuración específica del histogra
 
 >[!MORELIKETHIS]
 >
->[Agregar una visualización a un panel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Configuración de la visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menú contextual de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[Uso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=es)
+>[Agregar una visualización a un panelConfiguración de la visualizaciónMenú contextual de visualizaciónUso de histogramas para identificar valores de datos inesperados](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
