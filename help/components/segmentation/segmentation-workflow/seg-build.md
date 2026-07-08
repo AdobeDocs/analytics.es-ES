@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 94%
+source-wordcount: 2004
+ht-degree: 85%
 
 ---
 
@@ -84,7 +84,7 @@ El Generador de definiciones se utiliza para crear la definición del segmento. 
 Se puede configurar el tipo y el ámbito de la definición:
 
 1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y, luego, **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** del menú desplegable.
-1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Visitas individuales]**, **[!UICONTROL Visitas]** o **[!UICONTROL Visitantes]**.
+1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Visitas]**, **[!UICONTROL Visitas]**, **[!UICONTROL Visitantes]** o **[!UICONTROL Productos]**. Utiliza **[!UICONTROL Productos]** para [análisis de visitas secundarias](/help/components/segmentation/sub-hit.md) casos de uso.
 
 Siempre puede cambiar esta configuración más adelante.
 
@@ -96,7 +96,9 @@ Una parte vital de la creación de la definición del segmento es el uso de dime
 
 Para añadir un componente, haga lo siguiente:
 
-1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**. Puede utilizar la ![Búsqueda](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+1. Arrastre y suelte un componente del panel de componentes hasta **[!UICONTROL Arrastre y suelte aquí métricas, segmentos o dimensiones]**.
+   * Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
+   * Puede usar ![Filter](/help/assets/icons/Filter.svg) en la barra de componentes para filtrar ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobado]**, ![Estrella](/help/assets/icons/Star.svg) **[!UICONTROL Favoritos]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensiones]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Métricas]**, ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]**, ![Calendario](/help/assets/icons/Calendar.svg) Componentes de **[!UICONTROL intervalos de fechas]** y ![nivel](/help/assets/icons/Layer.svg) **[!UICONTROL productos]**. También puede filtrar las etiquetas ![Label](/help/assets/icons/Label.svg).
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor en **[!UICONTROL Seleccionar valor]**. O bien, introduzca un valor El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
 1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](../seg-reference/seg-operators.md) para obtener información general sobre los operadores disponibles.
 
@@ -121,7 +123,7 @@ Puede agrupar varios componentes en uno o varios contenedores y definir la lógi
 * Para añadir otro componente al contenedor, arrastre y suelte un componente del panel del componente en el contenedor. Utilice la línea de inserción azul como guía.
 * Para añadir otro componente fuera del contenedor, arrastre y suelte un componente del panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
 * Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los operadores **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Si selecciona **[!UICONTROL Then]**, convertirá el segmento en uno secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
-* Para cambiar el nivel de contenedor, seleccione ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Visitas individuales]**, ![Visita](/help/assets/icons/Visit.svg), **[!UICONTROL Visitas]** o ![Usuario](/help/assets/icons/User.svg), **[!UICONTROL Visitantes]**.
+* Para cambiar el nivel de contenedor, selecciona ![PáginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Visitas]**, ![Visitas](/help/assets/icons/Visit.svg) **[!UICONTROL Visitas]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitantes]** o ![MostrarTodaLaCapa](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Productos]**.
 
 Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
 
@@ -133,6 +135,9 @@ Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor pa
 | **[!UICONTROL Contenedor de nombres]** | Cambie el nombre del contenedor desde la descripción predeterminada. Escriba un nombre en el campo de texto. Si no proporciona ninguna entrada, se utiliza la descripción predeterminada. |
 | **[!UICONTROL Eliminar contenedor]** | Elimine el contenedor de la definición. |
 
+Cuando arrastra una dimensión de producto o métrica al Generador de segmentos, el sistema selecciona automáticamente el contenedor de **[!UICONTROL Producto]** y no utiliza el contenedor de **[!UICONTROL visita]** predeterminado. Este comportamiento mantiene el alcance del segmento en productos individuales, en lugar de en toda la visita.
+
+Al arrastrar componentes de nivel de producto y de nivel de visita en una única regla de segmento, el sistema usa el contenedor de **[!UICONTROL visita individual]**, que es el contenedor compartido más alto (menos granular). Si todos los componentes que forman parte de una regla de segmento son de nivel de producto, se utiliza el contenedor **[!UICONTROL Productos]**.
 
 ## Intervalos de fechas
 

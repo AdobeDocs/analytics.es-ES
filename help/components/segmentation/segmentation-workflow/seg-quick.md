@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ El área de encabezado determina el nombre, tipo y ámbito del segmento rápido.
 | Elemento | Descripción |
 |---|---|
 | **[!UICONTROL Nombre]** | El nombre se deriva automáticamente de la definición del segmento rápido. |
-| **[!UICONTROL Personas]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Vista previa de los datos resultantes del segmento rápido. Una barra y un porcentaje proporcionan a insight la cantidad de datos generales que forman parte del resultado del segmento rápido. Una ![alerta](/help/assets/icons/AlertRed.svg) indica que el segmento rápido no devuelve datos. |
+| **[!UICONTROL _Métrica_]** <br/>![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) ![Alerta](/help/assets/icons/Alert.svg) | Vista previa de los datos de métricas resultantes del segmento rápido. Una barra y un porcentaje proporcionan a insight la cantidad de datos generales que forman parte del resultado del segmento rápido. Una ![alerta](/help/assets/icons/AlertRed.svg) indica que el segmento rápido no devuelve datos. |
 | **[!UICONTROL Incluir]**<br/>**[!UICONTROL Excluir]** | Seleccione en la lista desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) si desea incluir o excluir los resultados del segmento rápido de los datos en el panel. |
-| **[!UICONTROL Evento]**<br/>**[!UICONTROL Sesión]**<br/>**[!UICONTROL Persona]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) el ámbito del segmento rápido. |
+| **[!UICONTROL Evento]**<br/>**[!UICONTROL Sesión]**<br/>**[!UICONTROL Persona]**<br/>**[!UICONTROL Productos]** | Seleccione en el menú desplegable ![ChevronDown](/help/assets/icons/ChevronDown.svg) el ámbito del segmento rápido. Use **[!UICONTROL productos]** para [análisis de visitas secundarias](/help/components/segmentation/sub-hit.md) casos de uso.<ul><li>Al arrastrar una dimensión de producto o una métrica de producto al panel Segmento rápido, el sistema selecciona automáticamente el contenedor **[!UICONTROL Productos]** y no utiliza el contenedor **[!UICONTROL Visita]** predeterminado. Este comportamiento mantiene el alcance del segmento en productos individuales, en lugar de en toda la visita.</li><li>Al arrastrar componentes de nivel de producto y de nivel de visita en una única regla de segmento, el sistema usa el contenedor de **[!UICONTROL visita individual]**, que es el contenedor compartido más alto (menos granular). Si todos los componentes que forman parte de una regla de segmento son de nivel de producto, se utiliza el contenedor **[!UICONTROL Productos]**.</li></ul> |
 
 ### Área de condición
 
