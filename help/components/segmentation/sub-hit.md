@@ -2,8 +2,10 @@
 title: Análisis de subvisita
 description: Descubra cómo el análisis de subvisitas le permite filtrar productos individuales dentro de una visita en Adobe Analytics, lo que elimina el sangrado de atribución en los informes de productos.
 feature: Segmentation
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
 workflow-type: tm+mt
 source-wordcount: 576
