@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ Por ejemplo:
 >Elimine los archivos de la ubicación de la nube manualmente o mediante una directiva de rotación de archivos una vez que los archivos se hayan importado y procesado correctamente. De lo contrario, los archivos se vuelven a importar y procesar en función de la última fecha de modificación del archivo y mediante un registro de 30 días. Consulte el ejemplo siguiente.
 >
 
-### Ejemplo
+#### Ejemplo
 
 Se crea un archivo de importación denominado `import.csv`, que se cargó el 1/5/2026 y se actualizó y cargó el 16/6/2026. Cuando no se elimina el archivo, en:
 
