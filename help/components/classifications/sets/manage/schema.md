@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
+source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
 workflow-type: tm+mt
-source-wordcount: 1893
+source-wordcount: 1895
 ht-degree: 9%
 
 ---
@@ -235,11 +235,11 @@ Se crea un archivo de importación denominado `import.csv`, que se cargó el 1/5
 | 5/1/26 | Se ha cargado un archivo con el título `import.csv` en el almacenamiento en la nube. |
 | 5/1/26 | El archivo se procesa (tiene menos de 30 días y no se ha procesado antes). |
 | 5/28/26 | El archivo **no** se ha procesado (el archivo tiene menos de 30 días, pero se ha procesado en los últimos 30 días). |
-| 6/15/26 | Se ha procesado el archivo **no** (el archivo ha transcurrido más de 30 días desde la última fecha de modificación o carga). |
+| 6/15/26 | El archivo está **no** procesado (el archivo tiene más de 30 días desde la última fecha de modificación/carga). |
 | 6/16/26 | Se hizo una actualización del mismo archivo, con el título `import.csv`, y se subió al almacenamiento en la nube. |
 | 6/16/26 | El archivo actualizado se procesará (el archivo actualizado tiene menos de 30 días y el archivo actualizado no se ha procesado antes). |
 | 6/30/26 | El archivo actualizado **no** se ha procesado (el archivo actualizado tiene menos de 30 días, pero se ha procesado en los últimos 30 días). |
-| 7/31/26 | El archivo actualizado **no se ha** procesado (el archivo actualizado ha transcurrido más de 30 días desde la última fecha de modificación o carga). |
+| 7/31/26 | El archivo actualizado **no se ha** procesado (el archivo actualizado tiene más de 30 días desde la última fecha de modificación o carga). |
 
 
 
