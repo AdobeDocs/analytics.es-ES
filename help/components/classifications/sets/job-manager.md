@@ -4,20 +4,13 @@ description: Obtenga información sobre cómo ver los trabajos de clasificación
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -52,7 +45,7 @@ La lista **[!UICONTROL Trabajos de clasificación]** ➊ muestra los trabajos de
 | **[!UICONTROL Estado]** | El estado del trabajo de clasificación. Los valores posibles son: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. Si se muestra, pase el ratón sobre la alerta ![Alerta](/help/assets/icons/Alert.svg) para ver información adicional. |
 | **[!UICONTROL Nombre del archivo]** | Identifica el nombre o la funcionalidad utilizados para importar o exportar el archivo como parte del trabajo de clasificación. Entre los posibles valores están: <ul><li>*sin valor*</li><li>El nombre del archivo que se procesa como parte del trabajo de clasificación.</li><li>**[!UICONTROL Exportación de SAINT]**: el trabajo es una exportación desde la [interfaz de clasificaciones heredadas](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL exportación para _conjunto de clasificación_ en _marca de tiempo_]**: el trabajo es una descarga desde la interfaz de [esquema](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Tipo de trabajo]** | El tipo de trabajo de clasificación. Los valores posibles son: **[!UICONTROL Importar]** o **[!UICONTROL Exportar]**. |
-| **[!UICONTROL Fuente]** | Origen del trabajo de clasificación. Los valores posibles son: **[!UICONTROL API web]**, **[!UICONTROL Carga directa de API]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** o **[!UICONTROL Desconocido]**. |
+| **[!UICONTROL Fuente]** | Origen del trabajo de clasificación. Consulte [Panel de filtro](#filter-panel) para obtener detalles sobre posibles orígenes. |
 | **[!UICONTROL Líneas modificadas]** | El número de líneas modificadas que modificó el trabajo de clasificación. |
 | **[!UICONTROL Líneas totales]** | Número total de líneas que ha procesado el trabajo de clasificación. |
 | **[!UICONTROL Hora de finalización]** | Hora de finalización del trabajo de clasificación. |
@@ -88,6 +81,21 @@ Seleccione ![Filter](/help/assets/icons/Filter.svg) para mostrar el panel de fil
 * **[!UICONTROL Estado]**. Seleccione uno de los posibles valores para filtrar la lista de trabajos de clasificación según su estado.
 * **[!UICONTROL Tipo de trabajo]**. Seleccione uno de los posibles valores para filtrar la lista de trabajos de clasificación por tipo de trabajo.
 * **[!UICONTROL Source]**. Seleccione uno de los posibles valores para filtrar la lista de trabajos de clasificación en el origen.
+
+  Los valores posibles de **[!UICONTROL Source]** son:
+
+  | Fuente | Explicación |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Trabajos creados por Adobe como parte de un proceso interno. Por ejemplo, consolidaciones. |
+  | **[!UICONTROL Servidor]** | Trabajos creados por el proceso de importación de FTP obsoleto. |
+  | **[!UICONTROL Ingesta en la nube]** | Trabajos que son el resultado de la importación de datos de clasificación desde una ubicación de nube. |
+  | **[!UICONTROL Exportación directa de API]** | Trabajos que son el resultado del uso de la API de Adobe Analytics 2.0 para exportar datos de clasificación. |
+  | **[!UICONTROL Carga directa de API]** | Trabajos que son el resultado del uso de la API de Adobe Analytics 2.0 para cargar datos de clasificación. |
+  | **[!UICONTROL Volver a publicar]** | Trabajos que son el resultado de una nueva publicación. |
+  | **[!UICONTROL Clasificaciones basadas en reglas]** | Trabajos que son el resultado de clasificaciones basadas en reglas. |
+  | **[!UICONTROL San]** | Trabajos que son el resultado de clasificaciones heredadas basadas en reglas. |
+  | **[!UICONTROL API web]** | Trabajos que son el resultado de utilizar la API web para exportar o cargar datos de clasificación. |
+  | **[!UICONTROL Desconocido]** | Trabajos para los que se desconoce el origen. |
 
 
 Seleccione ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Ocultar filtros]** para ocultar el panel Filtros.
