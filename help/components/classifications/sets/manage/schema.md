@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
+source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
 workflow-type: tm+mt
-source-wordcount: 1676
+source-wordcount: 1893
 ht-degree: 9%
 
 ---
@@ -223,7 +223,23 @@ Por ejemplo:
 
 >[!IMPORTANT]
 >
->Elimine los archivos de la ubicación de la nube manualmente o mediante una directiva de rotación de archivos una vez que los archivos se hayan importado y procesado correctamente. De lo contrario, los archivos se vuelven a importar y procesar en el siguiente trabajo de importación.
+>Elimine los archivos de la ubicación de la nube manualmente o mediante una directiva de rotación de archivos una vez que los archivos se hayan importado y procesado correctamente. De lo contrario, los archivos se vuelven a importar y procesar en función de la última fecha de modificación del archivo y mediante un registro de 30 días. Consulte el ejemplo siguiente.
+>
+
+### Ejemplo
+
+Se crea un archivo de importación denominado `import.csv`, que se cargó el 1/5/2026 y se actualizó y cargó el 16/6/2026. Cuando no se elimina el archivo, en:
+
+| Fecha | Acción |
+|---:|---|
+| 5/1/26 | Se ha cargado un archivo con el título `import.csv` en el almacenamiento en la nube. |
+| 5/1/26 | El archivo se procesa (tiene menos de 30 días y no se ha procesado antes). |
+| 5/28/26 | El archivo **no** se ha procesado (el archivo tiene menos de 30 días, pero se ha procesado en los últimos 30 días). |
+| 6/15/26 | Se ha procesado el archivo **no** (el archivo ha transcurrido más de 30 días desde la última fecha de modificación o carga). |
+| 6/16/26 | Se hizo una actualización del mismo archivo, con el título `import.csv`, y se subió al almacenamiento en la nube. |
+| 6/16/26 | El archivo actualizado se procesará (el archivo actualizado tiene menos de 30 días y el archivo actualizado no se ha procesado antes). |
+| 6/30/26 | El archivo actualizado **no** se ha procesado (el archivo actualizado tiene menos de 30 días, pero se ha procesado en los últimos 30 días). |
+| 7/31/26 | El archivo actualizado **no se ha** procesado (el archivo actualizado ha transcurrido más de 30 días desde la última fecha de modificación o carga). |
 
 
 
