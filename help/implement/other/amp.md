@@ -5,27 +5,15 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 67%
+source-wordcount: 939
+ht-degree: 66%
 
 ---
 
@@ -49,7 +37,7 @@ La siguiente tabla compara estos dos métodos:
 | Recuentos de visitante/visita en un grupo de informes existente | Inflación alta | Inflación mínima |
 | Usar un grupo de informes independiente | Recomendado | No es necesario |
 | Visitantes nuevos frente a visitantes de retorno | No admitido | Admitido |
-| Servicio de ID de visitante | No admitido | Admitido |
+| Servicio de ID de visitante (`VisitorAPI.js`) | No admitido | Admitido |
 | Seguimiento de vídeos y vínculos | Compatibilidad parcial | Aún no es compatible |
 | Dificultad de implementación | Difícil | Relativamente fácil |
 | Integraciones de Adobe CX Enterprise | No admitido | Compatibilidad parcial |
@@ -103,7 +91,7 @@ La etiqueta `<amp-analytics>` admite sustituciones de variables para que AMP pue
 >
 >Las solicitudes de imagen enviadas a Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de los parámetros de consulta de solicitudes de imagen y sus variables asociadas.
 
-Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de Adobe Experience Cloud ID no es compatible.
+Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de ID de visitante de Adobe no es compatible.
 
 Esta solución necesita que el servidor de seguimiento especificado en la propiedad `host` coincida con el servidor de seguimiento en su sitio principal. De esta manera, se respetan los controles de políticas de privacidad existentes. De lo contrario, cree una política de privacidad independiente para las páginas que utilicen AMP.
 
@@ -171,7 +159,7 @@ La plantilla `"adobeanalytics_nativeConfig"` también agrega parámetros de cade
 >
 >La página `stats.html` debe alojarse en un subdominio independiente en el que se aloja la AMP. El marco de AMP no permite iFrames del mismo subdominio en que la página AMP misma existe. Por ejemplo, si la AMP está alojada en `amp.example.com`, aloje la página `stats.html` en un subdominio independiente como `ampmetrics.example.com`.
 
-Con este método, si un usuario excluye el seguimiento en su sitio principal, también opta por excluirse del seguimiento en todas sus AMP. El uso de esta página de utilidades también significa que AMP puede admitir el servicio de Adobe Experience Cloud ID. No se necesita un grupo de informes separado.
+Con este método, si un usuario excluye el seguimiento en su sitio principal, también opta por excluirse del seguimiento en todas sus AMP. El uso de esta página de utilidades también significa que AMP puede admitir el servicio de ID de visitante de Adobe. No se necesita un grupo de informes separado.
 
 El seguimiento de vínculos y el seguimiento de vídeos no se pueden usar con este método. La etiqueta `iframeMessage` de AMP solo se puede cargar una vez por página, por lo que no se puede enviar ninguna otra solicitud de imagen después de que se cargue el marco. Este método también requiere más recursos de procesamiento para ejecutarse, lo que puede afectar al rendimiento del desplazamiento. Este método no afecta al tiempo de carga de la página, ya que todos los recursos se cargan asincrónicamente.
 

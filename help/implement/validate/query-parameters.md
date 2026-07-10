@@ -5,29 +5,15 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +23,8 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 
 | Parámetro | Variable de implementación de Analytics | Descripción |
 | --- | --- | --- |
-| `aamlh` | Ninguno | Sugerencia de ubicación de Audience Manager. Identifica el centro de datos regional utilizado para la sincronización de Audience Manager ID mediante el servicio de Experience Cloud ID. |
-| `aamb` | Ninguno | Blob de Audience Manager. Datos de perfil de Audience Manager codificados pasados durante la sincronización de ID mediante el servicio de Experience Cloud ID. |
+| `aamlh` | Ninguno | Sugerencia de ubicación de Audience Manager. Identifica el centro de datos regional utilizado para la sincronización de Audience Manager ID mediante el servicio de ID de visitante. |
+| `aamb` | Ninguno | Blob de Audience Manager. Los datos de perfil de Audience Manager codificados pasados durante la sincronización de ID mediante el servicio de ID de visitante. |
 | `aid` | Ninguno | El ID de visitante de Analytics heredado, almacenado en la cookie `s_vi`. Sustituido por el parámetro `mid` en implementaciones modernas. |
 | `AQB` | Ninguna | Indica el inicio de una solicitud de imagen de una cadena de consulta. |
 | `AQE` | Ninguna | Indica el final de una solicitud de imagen, lo que significa que no se truncó la solicitud. |
@@ -71,7 +57,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `lat` | Ninguna | **Ya no se usa.** Latitud. Configurado por implementaciones de SDK móvil heredadas; las implementaciones móviles actuales envían geolocalización a través de flujos de datos. |
 | `lon` | Ninguno | **Ya no se usa.** Longitud. Configurado por implementaciones de SDK móvil heredadas; las implementaciones móviles actuales envían geolocalización a través de flujos de datos. |
 | `lrt` | Ninguno | El &quot;último tiempo de solicitud&quot;, que es el tiempo de ida y vuelta de la última solicitud, en milisegundos. Solo se envía cuando se envía más de una solicitud desde una sola página, como en una aplicación de una sola página (SPA). |
-| `mcorgid` | Ninguno | El ID de organización de Experience Cloud, que identifica la organización en el servicio de Experience Cloud ID. |
+| `mcorgid` | Ninguno | El ID de organización de IMS, que identifica la organización en el servicio de ID de visitante. |
 | `mid` | Ninguno | Se utiliza en la dimensión [[!UICONTROL ID de visitante de Experience Cloud]](/help/components/dimensions/experience-cloud-visitor-id.md). |
 | `ms_a` | Ninguno | Establecido por Media SDK en `1` cuando los medios de streaming rastreados son audio en lugar de vídeo. |
 | `ndh` | Ninguno | Añadido por AppMeasurement a cada solicitud de imagen que genera. Dado que las solicitudes codificadas generalmente lo omiten, su presencia indica que la visita procede de AppMeasurement. |

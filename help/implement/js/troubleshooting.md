@@ -5,25 +5,15 @@ feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
 TQID: https://experienceleague.adobe.com/U97L94cxnWYpnqsJ3FJh7EBbdIHpFHxfJP7uqoqrGgU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 93%
+source-wordcount: 686
+ht-degree: 89%
 
 ---
 
@@ -103,7 +93,7 @@ Estos dos valores de variable se consideran independientes en Adobe Analytics. S
 
 Las implementaciones que rellenan muchas variables con valores largos a veces se pueden ejecutar en solicitudes de imagen truncadas. Algunos exploradores más antiguos, como Internet Explorer, imponen un límite de 2083 caracteres en las direcciones URL de solicitudes de imágenes. Si su organización se enfrenta a solicitudes de imagen muy largas, intente lo siguiente:
 
-* **Utilice el servicio de Experience Cloud ID**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte [Servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para obtener más información.
+* **Use la versión más reciente de AppMeasurement**: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante HTTP POST si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud.
 * **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
   Ejecutar siempre:<br>

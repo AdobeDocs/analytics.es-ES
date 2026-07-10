@@ -5,23 +5,15 @@ feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -87,11 +79,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Identificación de usuarios/visitantes
+## Identificación de visitantes
 
-Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
+Adobe Analytics usa el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o SHA1.
 
-El uso del servicio de ID proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
+El uso del servicio de ID de visitante proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

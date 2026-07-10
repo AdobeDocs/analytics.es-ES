@@ -5,32 +5,15 @@ feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 96%
+source-wordcount: 885
+ht-degree: 95%
 
 ---
 
@@ -67,7 +50,7 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
    >Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
 1. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio se rediseña con el tiempo.
 1. Uso de etiquetas en Adobe Experience Platform para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [información general sobre las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
-1. Incluya el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y use la función [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
+1. Incluya el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) y use la función [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
 
 ## Modificación de una implementación existente con un grupo de informes global
 
@@ -80,5 +63,4 @@ El proceso de mover una implementación existente en varios sitios a un único g
 
 >[!MORELIKETHIS]
 >
->[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
->[Comparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtualesComparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)

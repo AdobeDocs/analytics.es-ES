@@ -5,30 +5,15 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1728
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +57,7 @@ Adobe trata las visitas con marca de hora como si se hubieran recibido en el mom
 
 +++ ¿En qué se diferencia CDA del ID de visitante personalizado?
 
-Utilizar el ID de visitante personalizado es un método heredado para [conectar usuarios entre dispositivos](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `visitorID` variable anula los ID basados en cookies que estén presentes.
+El uso de un ID de visitante personalizado es un método heredado para conectar usuarios entre dispositivos. Con una ID de visitante personalizada, se utiliza la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `visitorID` variable anula los ID basados en cookies que estén presentes.
 
 Los ID de visitante personalizadas tienen varios efectos secundarios no deseados que la CDA supera o minimiza. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de [repetición](replay.md). Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. CDA repite los datos históricos de modo que las visitas no autenticadas pertenecen a la persona correcta.
 

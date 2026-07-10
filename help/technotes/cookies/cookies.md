@@ -5,29 +5,15 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c8add8f2-4250-4fd9-9cde-9707036c567did: e4f5f438-eabb-4c54-9133-b817e3d125f5id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 99%
+source-wordcount: 2104
+ht-degree: 93%
 
 ---
 
@@ -48,7 +34,7 @@ Además, Chrome actualmente solo permite que las cookies funcionen en un context
 
 #### ¿Qué cookies de terceros de Adobe se ven afectadas?
 
-El servicio de ID de visitante utiliza la cookie [demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) para proporcionar un identificador persistente para los visitantes en los distintos dominios de los clientes. En el servicio de ID de Analytics heredado, la cookie &quot;s_vi&quot;, se establece como una cookie de terceros para implementaciones que no utilizan un dominio de colección CNAME personalizado.
+El servicio de identificación del visitante usa la cookie &quot;[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es)&quot; para proporcionar un identificador persistente para los visitantes en los distintos dominios de los clientes. En el servicio de ID de Analytics heredado, la cookie &quot;s_vi&quot;, se establece como una cookie de terceros para implementaciones que no utilizan un dominio de colección CNAME personalizado.
 
 En los exploradores en los que están bloqueadas las cookies de terceros, el seguimiento entre dominios no está disponible.
 
@@ -73,8 +59,8 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
 * [cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
-* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
-* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=es), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
+* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
+* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
 #### ¿Cuál es el impacto de ITP en Safari para Analytics?
 
@@ -95,7 +81,7 @@ Si estas limitaciones afectan a sus datos, verá esto:
 
 Los sitios web que visitan los usuarios no crean cookies de terceros.
 
-Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de identidad de Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
+Aunque los exploradores tratan todas las cookies de terceros de la misma manera y las almacenan en consecuencia, las cookies de terceros pueden comportarse de manera diferente e importante. Con la implementación de cookies de terceros de Analytics de un cliente, los navegadores almacenan el ID de Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es) como una cookie de terceros, pero el cliente solo realiza llamadas de Adobe y no a dominios de terceros desconocidos o sospechosos. Esta cookie proporciona identificadores persistentes entre dominios y permite el uso de contenido seguro (https). Para obtener más información, consulte [Cookies y el servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es).
 
 Dentro de las implementaciones de Analytics, las cookies de terceros se utilizan para el seguimiento entre dominios y para casos de uso de publicidad, incluida la resegmentación de anuncios. Las cookies de terceros le permiten identificar a los visitantes a medida que visitan diferentes dominios de su propiedad o a medida que se muestran anuncios en sitios que no son de su propiedad.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -143,13 +129,13 @@ La siguiente tabla resume los atributos SameSite de las cookies de Analytics:
 
 Confirme que la configuración de JavaScript utiliza HTTPS para todas las llamadas a los servicios de Adobe.
 
-Si su sitio utiliza el servicio de ID de visitante de Experience Cloud, el servicio redirige las llamadas HTTP de terceros a su extremo HTTPS, lo que puede aumentar la latencia, pero significa que no es necesario que cambie la configuración.
+Si su sitio utiliza el servicio de ID de visitante, el servicio redirige las llamadas HTTP de terceros a su punto final HTTPS, lo que puede aumentar la latencia, pero significa que no es necesario que cambie la configuración.
 
 #### Cambie el valor SameSite cuando utilice un CNAME para varios dominios {#samesite-one-cname}
 
 >[!NOTE]
 >
->La siguiente información pertenece únicamente a los sitios que no utilizan el servicio de ID de visitante de Experience Cloud.
+>La siguiente información pertenece únicamente a los sitios que no utilizan el servicio de ID de visitante.
 
 Si tiene una implementación CNAME configurada en el mismo dominio que su sitio web, la cookie se crea en un contexto de origen y no necesita hacer cambios.
 
@@ -197,5 +183,4 @@ Si su empresa se ve afectada por la prevención del seguimiento de ITP, puede co
 
 >[!MORELIKETHIS]
 >
->[Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookieless.md)
->[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
+>[Opciones para mitigar el efecto de las limitaciones de cookies del exploradorEl impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
