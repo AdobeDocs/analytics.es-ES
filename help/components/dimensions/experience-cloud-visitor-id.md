@@ -14,16 +14,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: 106
 ht-degree: 21%
 
 ---
 
 # ID de visitante de Experience Cloud
 
-La &quot;ID de visitante de Experience Cloud&quot; [dimension](overview.md) proporciona el ID de Experience Cloud (ECID) para cada visitante. Es un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
+La &quot;ID de visitante de Experience Cloud&quot; [dimension](overview.md) proporciona el ECID para cada visitante. Es un número de 128 bits que consta de dos números concatenados de 64 bits seguidos de 19 dígitos.
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ La &quot;ID de visitante de Experience Cloud&quot; [dimension](overview.md) prop
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión requiere una implementación que utilice el servicio de Experience Cloud ID (ECID). Corresponde a la columna `mcvisid` de las fuentes de datos. Consulte [Referencia de columna de datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obtener más información.
+Esta dimensión requiere una implementación que utilice el servicio de ID de visitante (VisitorAPI) o el servicio de ID de Experience Platform. Corresponde a la columna `mcvisid` de las fuentes de datos. Consulte [Referencia de columna de datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obtener más información.
 
 ## Elementos de dimensión
 

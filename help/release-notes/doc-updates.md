@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 93%
 
 ---
@@ -58,7 +58,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Mayo de 2026** | |
 | Dimensiones y métricas de medios de streaming | Actualizaciones significativas en la documentación de medios de streaming. Los vínculos a ejemplos incluyen [dimensiones principales de servicios de medios de streaming](/help/components/dimensions/sm-core.md) y [métricas principales de servicios de medios de streaming](/help/components/metrics/sm-core.md). |
 | **Marzo de 2026** | |
-| Desglose de un panel | Se ha reestructurado la documentación en torno a la zona de colocación [para un panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) a fin de admitir la nueva funcionalidad [break down](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Desglose de un panel | Se ha reestructurado la documentación en torno a la [zona de colocación para un panel](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) a fin de admitir la nueva funcionalidad de [desglose](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Se ha identificado la opción predeterminada para la confusión de IP en los nuevos grupos de informes | Se ha agregado información para indicar que **Quitar dirección IP** es la opción predeterminada de confusión de IP [para los nuevos grupos de informes](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisión del orden de procesamiento | Mejoras significativas en [Orden de procesamiento en Adobe Analytics](/help/technotes/processing-order.md). |
 | Integración de Adobe Advertising | Adiciones de dimensiones y métricas de integración de Adobe Advertising, incluido [AMO ID](/help/components/dimensions/amo-id.md). |
@@ -217,7 +217,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Calendarios e intervalos de fechas del Espacio de trabajo | Se ha actualizado el contenido para describir intervalos de fechas relativos, actualizaciones de cálculo de fórmula y cambios en la IU del calendario. Consulte [Acerca de los intervalos de fechas relativos del panel](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cuadros de resultados móviles | Nueva sección de documentación para describir cómo mostrar y ocultar intervalos de fechas de comparación. Consulte [Mostrar intervalos de fechas de comparación](/help/analyze/mobile-app/create-scorecard.md) en Customer Journey Analytics. |
 | API 1.4 | La [API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) se ha reescrito por completo y ahora está publicada en Adobe Developer. |
-| Seguimiento en tipos de implementación | Se ha actualizado el caso de uso [Seguimiento en diferentes tipos de implementación](../implement/id/cross-type-implementation.md) para dar cabida al servicio de ID de Experience Cloud. |
+| Seguimiento en tipos de implementación | Se ha actualizado el caso de uso [Seguimiento en diferentes tipos de implementación](../implement/id/cross-type-implementation.md) para dar cabida al servicio de ID de visitante. |
 | **Enero de 2023** | |
 | Filtrado y ordenación de tablas | Se ha actualizado el contenido (incluyendo procedimientos y explicaciones de las opciones disponibles) en el artículo [Filtrado y ordenación de tablas](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Se ha cambiado el nombre de este artículo de “Paginación, filtrado y ordenación de tablas”. |
 | Carpetas | Páginas específicas para la [administración de carpetas](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

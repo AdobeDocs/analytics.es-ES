@@ -17,20 +17,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 505
 ht-degree: 2%
 
 ---
 
 # Identificación de visitantes con la extensión de etiquetas de Adobe Analytics
 
-La extensión de etiquetas de Adobe Analytics proporciona permite implementar AppMeasurement mediante una interfaz de administración de etiquetas. Como esta extensión de etiquetas es esencialmente AppMeasurement, ofrece métodos similares para identificar a los visitantes y requiere una extensión de etiqueta independiente para el servicio de ID de visitante.
+La extensión de etiquetas de Adobe Analytics proporciona permite implementar AppMeasurement mediante una interfaz de administración de etiquetas. Dado que esta extensión de etiquetas es esencialmente AppMeasurement, ofrece métodos similares para identificar visitantes y requiere una extensión de etiqueta independiente para recopilar ECID.
 
 ## Identificación de visitantes mediante el servicio de ID de visitante (recomendado)
 
-Para utilizar el servicio de ID de visitante con la extensión de etiqueta de Adobe Analytics, incluya la extensión de etiqueta del servicio de Experience Cloud ID en la propiedad de etiqueta.
+Para usar el servicio de ID de visitante con la extensión de etiquetas de Adobe Analytics, incluya la extensión de etiquetas [!UICONTROL Experience Cloud ID Service] (que implementa el servicio de ID de visitante) en su propiedad de etiquetas.
 
 1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 1. Vaya a **[!UICONTROL Recopilación de datos]** > **[!UICONTROL Etiquetas]**.
@@ -46,7 +46,7 @@ La extensión de etiqueta obtiene automáticamente el ID de organización de IMS
 >
 >Adobe recomienda evitar este método para identificar a los visitantes.
 
-Si su organización no utiliza la extensión de etiqueta del servicio de ID de visitante, la extensión de etiqueta de Adobe Analytics utilizará su propia forma de identificación del visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview).
+Si su organización no utiliza la extensión de etiqueta [!UICONTROL Experience Cloud ID Service], la extensión de etiqueta de Adobe Analytics utilizará su propia forma heredada de identificación de visitante. Cuando un visitante llega a su sitio por primera vez, la extensión comprueba la existencia de una cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Esta cookie se establece en el dominio que coincide con **[!UICONTROL SSL Tracking Server]** (para HTTPS) o **[!UICONTROL Tracking Server]** (para HTTP) al [configurar la extensión de etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 * Si participa en el [programa de certificados administrados](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), su servidor de seguimiento sería normalmente un dominio de origen, por lo que las cookies de `s_vi` serían de origen.
 * Si no participa en el programa de certificados administrados, el servidor de seguimiento suele ser un subdominio de `adobedc.net`, `omtrdc.net` o `2o7.net`, por lo que la cookie `s_vi` se convierte en una cookie de terceros. Debido a los estándares modernos de privacidad del explorador, la mayoría de los exploradores rechazan las cookies de terceros. Una vez rechazado, AppMeasurement intenta establecer una cookie de reserva (`fid`) de origen en su lugar.

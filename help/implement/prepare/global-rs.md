@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 96%
+source-wordcount: 885
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
    >Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
 1. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio se rediseña con el tiempo.
 1. Uso de etiquetas en Adobe Experience Platform para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [información general sobre las etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es).
-1. Incluya el [servicio de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) y use la función [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
+1. Incluya el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) y use la función [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=es). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
 
 ## Modificación de una implementación existente con un grupo de informes global
 
@@ -80,5 +80,4 @@ El proceso de mover una implementación existente en varios sitios a un único g
 
 >[!MORELIKETHIS]
 >
->[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtuales](../../components/vrs/vrs-considerations.md)
->[Comparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[Cambio del etiquetado de grupos múltiples a un grupo de informes globales y grupos de informes virtualesComparando resúmenes y grupos de informes globales](../../admin/tools/manage-rs/rollup-report-suite.md)

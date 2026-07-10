@@ -22,10 +22,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 67%
+source-wordcount: 939
+ht-degree: 66%
 
 ---
 
@@ -49,7 +49,7 @@ La siguiente tabla compara estos dos métodos:
 | Recuentos de visitante/visita en un grupo de informes existente | Inflación alta | Inflación mínima |
 | Usar un grupo de informes independiente | Recomendado | No es necesario |
 | Visitantes nuevos frente a visitantes de retorno | No admitido | Admitido |
-| Servicio de ID de visitante | No admitido | Admitido |
+| Servicio de ID de visitante (`VisitorAPI.js`) | No admitido | Admitido |
 | Seguimiento de vídeos y vínculos | Compatibilidad parcial | Aún no es compatible |
 | Dificultad de implementación | Difícil | Relativamente fácil |
 | Integraciones de Adobe CX Enterprise | No admitido | Compatibilidad parcial |
@@ -103,7 +103,7 @@ La etiqueta `<amp-analytics>` admite sustituciones de variables para que AMP pue
 >
 >Las solicitudes de imagen enviadas a Adobe mediante este método no incluyen datos para muchos informes predeterminados (por ejemplo, explorador, tamaño de pantalla o referente). Si desea incluir esta información en las visitas, asegúrese de que se incluya como parte de la cadena de consulta de solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para obtener una lista completa de los parámetros de consulta de solicitudes de imagen y sus variables asociadas.
 
-Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de Adobe Experience Cloud ID no es compatible.
+Adobe identifica a los visitantes mediante una función AMP integrada y establece la cookie `adobe_amp_id`. Este ID de visitante es único para cualquier otro ID establecido por Adobe Analytics. Se cuenta un visitante único diferente para cada CDN desde la que un visitante recupera contenido, lo que puede aumentar el recuento de visitantes únicos. Se recomienda encarecidamente utilizar un grupo de informes independiente para las páginas de AMP debido a la forma en que AMP identifica a los visitantes únicos. El servicio de ID de visitante de Adobe no es compatible.
 
 Esta solución necesita que el servidor de seguimiento especificado en la propiedad `host` coincida con el servidor de seguimiento en su sitio principal. De esta manera, se respetan los controles de políticas de privacidad existentes. De lo contrario, cree una política de privacidad independiente para las páginas que utilicen AMP.
 
@@ -171,7 +171,7 @@ La plantilla `"adobeanalytics_nativeConfig"` también agrega parámetros de cade
 >
 >La página `stats.html` debe alojarse en un subdominio independiente en el que se aloja la AMP. El marco de AMP no permite iFrames del mismo subdominio en que la página AMP misma existe. Por ejemplo, si la AMP está alojada en `amp.example.com`, aloje la página `stats.html` en un subdominio independiente como `ampmetrics.example.com`.
 
-Con este método, si un usuario excluye el seguimiento en su sitio principal, también opta por excluirse del seguimiento en todas sus AMP. El uso de esta página de utilidades también significa que AMP puede admitir el servicio de Adobe Experience Cloud ID. No se necesita un grupo de informes separado.
+Con este método, si un usuario excluye el seguimiento en su sitio principal, también opta por excluirse del seguimiento en todas sus AMP. El uso de esta página de utilidades también significa que AMP puede admitir el servicio de ID de visitante de Adobe. No se necesita un grupo de informes separado.
 
 El seguimiento de vínculos y el seguimiento de vídeos no se pueden usar con este método. La etiqueta `iframeMessage` de AMP solo se puede cargar una vez por página, por lo que no se puede enviar ninguna otra solicitud de imagen después de que se cargue el marco. Este método también requiere más recursos de procesamiento para ejecutarse, lo que puede afectar al rendimiento del desplazamiento. Este método no afecta al tiempo de carga de la página, ya que todos los recursos se cargan asincrónicamente.
 

@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 1. Haga clic en la propiedad de etiquetas recién creada para establecer su configuración.
 1. Haga clic en la pestaña **[!UICONTROL Extensiones]** y, a continuación, en **[!UICONTROL Catálogo]**.
 1. Busque Servicio de Experience Cloud ID y, a continuación, haga clic en **[!UICONTROL Instalar]**.
-1. Todas las configuraciones, incluido el ID de organización empresarial de CX, deberían estar completadas. Haga clic en **[!UICONTROL Guardar]**.
+1. Todas las opciones de configuración, incluido el ID de organización de IMS, deberían estar completos. Haga clic en **[!UICONTROL Guardar]**.
 1. Vuelva al catálogo de extensiones, busque Adobe Analytics y haga clic en **[!UICONTROL Instalar]**.
 
 Consulte la documentación completa para la [extensión de Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=es) para obtener información más detallada.

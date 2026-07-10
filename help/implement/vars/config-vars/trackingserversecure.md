@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ La variable `trackingServerSecure` determina el dominio que utiliza AppMeasureme
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) es una variante retirada de esta variable. Especificó el dominio para los datos enviados a través de HTTP; con la prevalencia de HTTPS, use `trackingServerSecure` en su lugar. Si `s.trackingServerSecure` está en blanco, AppMeasurement vuelve al valor `s.trackingServer`.
 
-Antes del [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home), esta variable también determinaba dónde se configuraban las cookies de terceros. Adobe recomienda encarecidamente utilizar el servicio de ID en todas las implementaciones siempre que sea posible.
+Antes del [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) (`VisitorAPI.js`), esta variable también determinaba dónde se configuraban las cookies de terceros. Adobe recomienda encarecidamente utilizar el servicio de ID de visitante en todas las implementaciones donde sea posible.
 
 ## Dominio de Edge que utiliza la extensión de Web SDK
 
@@ -90,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 El valor que use para `trackingServerSecure` (o `edgeDomain`) depende de varios factores:
 
 * Su participación en el [programa de certificados administrados por Adobe](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Si tiene el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home) implementado y configurado correctamente
+* Si tiene implementado y configurado correctamente el servicio [ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home)
 
 **Si su organización participa en el programa de certificados administrado por Adobe**, establezca el valor en el dominio de origen seleccionado al configurar el certificado. Normalmente, este valor es un subdominio propiedad de su organización. Por ejemplo, `data.example.com`. Los registros CNAME de su organización redirigen esos datos a Adobe.
 
@@ -110,15 +110,15 @@ Las implementaciones más antiguas pueden tener valores como `sc.omtrdc.net` o `
 
 Adobe recomienda encarecidamente mantener esta información en [documento de diseño de la solución](../../prepare/solution-design.md) para mantener la coherencia en toda su organización.
 
-## Ramificaciones por no utilizar el servicio de ID de visitante
+## Ramificaciones por no utilizar el servicio de ID de visitante o el servicio de ID de Experience Platform
 
-Adobe recomienda encarecidamente usar el [servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home) en todas las implementaciones. El servicio de ID se puede implementar de varias formas diferentes:
+Adobe recomienda encarecidamente utilizar ECID como la forma principal de identificar a los visitantes en todas las implementaciones. La recopilación de ECID se puede implementar de varias formas diferentes, según el tipo de implementación:
 
-* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de identidad de Experience Cloud para Analytics](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/setup-analytics) para obtener más información.
-* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la [extensión de etiqueta del servicio de ID de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview). Una vez añadida, no se requiere ninguna configuración adicional.
-* Las implementaciones que utilizan cualquier formulario de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) ya tienen el servicio de ID habilitado de forma nativa. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
+* Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de ID de visitante para Analytics](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/setup-analytics) para obtener más información.
+* Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la extensión de etiquetas [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa el servicio de ID de visitante. Una vez añadida, no se requiere ninguna configuración adicional.
+* Las implementaciones que utilizan cualquier formulario de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) incluyen automáticamente el servicio de identidad de Experience Platform. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
 
-**Si su implementación no utiliza el servicio de identidad**, tenga en cuenta los siguientes impactos en su implementación:
+**Si su implementación no usa ECID**, tenga en cuenta los siguientes impactos en su implementación:
 
-* Si no utiliza el servicio de identidad, `trackingServerSecure` determina la ubicación de la cookie. La configuración de esta variable en un dominio de terceros obliga a AppMeasurement a utilizar una cookie de reserva, ya que la mayoría de los exploradores modernos rechazan las cookies de terceros.
+* Si no utiliza el servicio de identificación del visitante o el servicio de identidad de Experience Platform, `trackingServerSecure` determina la ubicación de la cookie. La configuración de esta variable en un dominio de terceros obliga a AppMeasurement a utilizar una cookie de reserva, ya que la mayoría de los exploradores modernos rechazan las cookies de terceros.
 * El seguimiento de vínculos internos y Activity Map pueden ser menos fiables.
