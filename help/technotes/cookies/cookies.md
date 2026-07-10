@@ -73,8 +73,8 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
 * [cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
-* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
-* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
+* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
+* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
 #### ¿Cuál es el impacto de ITP en Safari para Analytics?
 
