@@ -3,10 +3,10 @@ description: Obtenga información sobre cómo utilizar el lienzo de recorrido en
 title: Información general sobre el lienzo de recorrido
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,10 @@ Puede [generar análisis de recorridos de usuario](/help/analyze/analysis-worksp
 [Los nodos están conectados](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) como una &quot;ruta final&quot;, lo que significa que los visitantes se cuentan siempre y cuando se muevan de un nodo al otro, independientemente de los eventos que se produzcan entre los dos nodos. El tiempo asignado para que los usuarios se desplacen por la ruta viene determinado por la configuración del contenedor.
 
 ![Lienzo de recorrido](assets/journey-canvas.png)
+
+## Requisitos de acceso
+
+El lienzo de recorrido está disponible para los clientes de Adobe Analytics [Prime](https://www.adobe.com/es/data-analytics-cloud/analytics/prime.html) y [Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html).
 
 ## Funciones principales
 
