@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 85%
+source-wordcount: 1963
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilidad del producto"
->abstract="Un pequeño número de criterios de segmento disponibles no son compatibles con todas las herramientas de Adobe Analytics. Las herramientas compatibles con el segmento se indican en esta lista. Para que un segmento sea compatible con todas las herramientas de Adobe Analytics, edite los criterios."
+>abstract="Algunos criterios de los segmentos no son compatibles con ciertas herramientas de Adobe Analytics. En esta lista se indican las herramientas compatibles. Edite los criterios para garantizar la compatibilidad."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Previsualización de los datos"
->abstract="Compara los datos de este segmento con los del grupo de informes. El porcentaje de vista previa se basa en el número total de los **últimos 90 días**.<br><br/>Si la vista previa no se carga, es posible que la conexión aún esté reponiendo los datos."
+>abstract="Compara datos de segmentos con datos de grupos de informes. El porcentaje de vista previa se basa en **últimos 90 días**.<br><br/>Si la vista previa no se carga, la conexión se está llenando de nuevo."
 
 
 El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear segmentos nuevos o editar los existentes. El cuadro de diálogo se titula **[!UICONTROL Nuevo segmento]** o **[!UICONTROL Editar segmento]** para los segmentos que se creen o administren desde el administrador de [[!UICONTROL Segmentos]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -69,7 +69,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    {style="table-layout:auto"}
 
 1. Para comprobar si la definición del segmento es correcta, utilice la previsualización constantemente actualizada de los resultados del segmento situada en la parte superior derecha.
-1. Para publicar el segmento en CX Enterprise, seleccione **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**. Consulte [Publicar segmentos en CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md) para obtener más información.
+1. Para publicar el segmento en CX Enterprise, seleccione **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**. Para obtener más información, consulte [Publicar segmentos en CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Seleccione lo siguiente:
    * **[!UICONTROL Guardar]** para guardar el segmento.
    * **[!UICONTROL Guardar como]** para guardar una copia del segmento.
@@ -83,7 +83,7 @@ El Generador de definiciones se utiliza para crear la definición del segmento. 
 
 Se puede configurar el tipo y el ámbito de la definición:
 
-1. Para especificar el tipo de definición, especifique si desea que la generación incluya o excluya una definición. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y, luego, **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** del menú desplegable.
+1. Para especificar el tipo de definición, especifique si desea crear una definición de inclusión o exclusión. Seleccione ![Configuración](/help/assets/icons/Setting.svg) **[!UICONTROL Opciones]** y, luego, **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** del menú desplegable.
 1. Para especificar el ámbito de su definición, seleccione en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]** si desea que el ámbito de la definición sea **[!UICONTROL Visitas]**, **[!UICONTROL Visitas]**, **[!UICONTROL Visitantes]** o **[!UICONTROL Productos]**. Utiliza **[!UICONTROL Productos]** para [análisis de visitas secundarias](/help/components/segmentation/sub-hit.md) casos de uso.
 
 Siempre puede cambiar esta configuración más adelante.
@@ -122,7 +122,7 @@ Puede agrupar varios componentes en uno o varios contenedores y definir la lógi
 * Para añadir un componente existente al contenedor, arrastre y suelte el componente en el contenedor.
 * Para añadir otro componente al contenedor, arrastre y suelte un componente del panel del componente en el contenedor. Utilice la línea de inserción azul como guía.
 * Para añadir otro componente fuera del contenedor, arrastre y suelte un componente del panel del componente fuera del contenedor, pero dentro del contenedor de definición principal. Utilice la línea de inserción azul como guía.
-* Para modificar la lógica entre los componentes de un contenedor, entre contenedores o entre un contenedor y un componente, seleccione los operadores **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Si selecciona **[!UICONTROL Then]**, convertirá el segmento en uno secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
+* Para modificar la lógica de los componentes, contenedores o sus combinaciones, seleccione los **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** adecuados. Si selecciona **[!UICONTROL Then]**, convertirá el segmento en uno secuencial. Consulte [Crear segmento secuencial](seg-sequential-build.md) para obtener más información.
 * Para cambiar el nivel de contenedor, selecciona ![PáginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Visitas]**, ![Visitas](/help/assets/icons/Visit.svg) **[!UICONTROL Visitas]**, ![Usuario](/help/assets/icons/User.svg) **[!UICONTROL Visitantes]** o ![MostrarTodaLaCapa](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Productos]**.
 
 Puede usar ![Configuración](/help/assets/icons/Setting.svg) en un contenedor para las siguientes acciones:
@@ -141,7 +141,7 @@ Al arrastrar componentes de nivel de producto y de nivel de visita en una única
 
 ## Intervalos de fechas
 
-Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tanto, puede responder preguntas sobre campañas o eventos en curso. Por ejemplo, puede crear un segmento que incluya *a todas las personas que hayan efectuado una compra en línea en los últimos 60 días*.
+Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tanto, puede responder preguntas sobre campañas o eventos en curso. Por ejemplo, puede generar un segmento que incluya a *todas las personas que hayan realizado una compra en línea en los últimos 60 días*.
 
 ![Segmento con intervalo de fechas móviles](assets/segment-rolling-date-range.png)
 
@@ -157,11 +157,11 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos 
 
 Puede crear un segmento mediante segmentos. Cuando utiliza segmentos en un segmento, puede optimizarlo y reducir la complejidad.
 
-Imagine que desea segmentar la combinación del canal de interacción (5) y estados de los EE. UU. (50). Puede crear 250 segmentos, cada uno para la combinación única de tipo de dispositivo (teléfono móvil frente a tableta) y por estado de los EE. UU. Para obtener los usuarios de tabletas de California, debe utilizar uno de los 250 segmentos:
+Imagine un escenario en el que desee segmentar la combinación de canal de interacción (5) y estados de EE. UU. (50). Puede crear 250 segmentos, cada uno para la combinación única de tipo de dispositivo (teléfono móvil frente a tableta) y por estado de los EE. UU. Para conseguir los usuarios de tabletas en California, utilice uno de los 250 segmentos:
 
 ![Segmento simple para California y tableta](assets/segment-ca-tablet-single.png)
 
-O bien, puede definir 55 segmentos: 50 segmentos para los estados de EE. UU. y 5 para los posibles canales de interacción. Y luego apilar los segmentos para obtener los mismos resultados. Para obtener los usuarios de aplicaciones móviles de California, apilaría dos segmentos:
+O bien, defina 55 segmentos: 50 segmentos para los estados de EE. UU. y 5 para los posibles canales de interacción. Para obtener los mismos resultados, apile los segmentos. Para obtener los usuarios de la aplicación móvil de California, apile dos segmentos:
 
 ![Segmento apilado para CA y tableta](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +188,7 @@ O bien, puede definir 55 segmentos: 50 segmentos para los estados de EE. UU. y 5
 
 
 
-Cuando se utiliza una dimensión en el Generador de segmentos, se tienen las opciones para especificar el modelo de atribución para esa dimensión. El modelo de atribución que seleccione determina si los datos cumplen los requisitos de la condición que ha especificado para el componente de dimensión.
+Cuando se utiliza una dimensión en el Generador de segmentos, se tiene la opción de especificar el modelo de atribución para esa dimensión. El modelo de atribución que seleccione determina si los datos cumplen los requisitos de la condición que ha especificado para el componente de dimensión.
 
 Seleccione ![Configuración](/help/assets/icons/Setting.svg) dentro del componente de dimensión y seleccione uno de los modelos de atribución en la ventana emergente:
 
@@ -196,7 +196,7 @@ Seleccione ![Configuración](/help/assets/icons/Setting.svg) dentro del componen
 |---|---|
 | **[!UICONTROL Modelo repetitivo (predeterminado)]** | Incluya valores de instancia y persistentes para la dimensión para determinar la calificación. |
 | **[!UICONTROL Instancia]** | Incluya solo valores de instancia para la dimensión para determinar la calificación. |
-| **[!UICONTROL Instancia no repetida]** | Incluya valores de instancia únicos (no repetitivos) para la dimensión para determinar la calificación. |
+| **[!UICONTROL Instancia no repetida]** | Incluya valores de instancia únicos (no repetitivos) para la dimensión para determinar la calificación. La instancia no repetida es el modelo aplicado en Flujo cuando se excluyen instancias repetidas. |
 
 
 ![Modelo de atribución en la dimensión al crear un segmento](assets/segment-dimension-attribution.png)
@@ -213,16 +213,11 @@ Como parte de una definición de segmento, ha especificado la siguiente condici�
 La tabla siguiente explica, para cada modelo de atribución, qué eventos entrantes se clasifican como ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) para esa condición.
 
 
-| Página Mujeres - Atribución - <br/>*modelo de atribución* | Evento 1:<br/>Nombre de página igual a<br/>Mujeres | Evento 2:<br/>Nombre de página igual a<br/>Hombres | Evento 3:<br/>Nombre de página igual a<br/>Mujer | Evento 4:<br/>Nombre de página igual a<br/>Mujer<br/>(persistió) | Evento 5:<br/>Nombre de página igual a<br/>Cierre de compra | Evento 6:<br/>Nombre de página igual a<br/>Mujeres | Evento 7:<br/>Nombre de página igual a<br/>Inicio |
+| Página Mujeres - Atribución - <br/>*modelo de atribución* | Evento 1:<br/>Nombre de página igual a<br/>Mujeres | Evento 2:<br/>Nombre de página igual a<br/>Hombres | Evento 3:<br/>Nombre de página igual a<br/>Mujer | Evento 4:<br/>Nombre de página igual a<br/>Mujer<br/>(persistió) | Evento 5:<br/>Nombre de página igual a<br/>Cierre de compra | Evento 6:<br/>Nombre de página igual a<br/>Mujeres | Evento 7:<br/>Nombre de página igual a<br/>Mujer (establecido explícitamente) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Repetido (predeterminado) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
-| Instancia | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
+| Repetido (predeterminado) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
+| Instancia | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) |
 | Instancia no repetida | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Eliminar](/help/assets/icons/Remove.svg) | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | ![Eliminar](/help/assets/icons/Remove.svg) |
-
-Un informe de ejemplo sobre los eventos que utilizan los tres segmentos tiene este aspecto:
-
-![Segmentar los resultados del modelo de atribución](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
