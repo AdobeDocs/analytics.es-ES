@@ -7,35 +7,25 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # Convertir libros heredados de Report Builder
 
-El Report Builder heredado finaliza su vida útil en junio de 2026. Debe migrar sus libros de trabajo de la versión heredada de Report Builder a la nueva versión de Report Builder. El nuevo Report Builder ofrece una forma cómoda de migrar libros rápidamente que se crean con el Report Builder heredado.
+El Report Builder heredado finaliza su vida útil en junio de 2026. Migre sus libros del Report Builder heredado al nuevo Report Builder. El nuevo Report Builder ofrece una forma cómoda de migrar rápidamente los libros creados con el Report Builder heredado.
 
 >[!IMPORTANT]
 >
->Duplique cada libro y cambie el nombre de una versión antes de convertir el libro heredado. Esto garantiza que siempre tenga una copia del libro heredado original, en caso de que lo necesite.
+>Duplique cada libro y cambie el nombre de una versión antes de convertir el libro heredado. Esto garantiza que siempre tenga una copia del libro heredado original, si lo necesita.
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +46,23 @@ Para abrir un libro de trabajo heredado, puede:
 
 * Abra un libro preexistente programado desde la ficha **[!UICONTROL Programar]** en [Report Builder hub](report-builder-hub.md). Esta acción es el método preferido para libros heredados programados. Tiene la opción de usar la programación asociada con el libro heredado en cuanto [programe el libro heredado convertido](#schedule-a-converted-legacy-workbook).
 
-   1. Abra [!DNL Excel] y seleccione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta [!DNL Excel].
+  1. Abra [!DNL Excel] y seleccione ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** en la barra de cinta [!DNL Excel].
 
-   1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
+  1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
 
-   1. Seleccione **[!UICONTROL Programar]** en [Report Builder hub](report-builder-hub.md).
-   1. Seleccione la ficha **[!UICONTROL Heredado]**. La pestaña enumera los libros programados basados en Report Builder heredados que ha creado.
+  1. Seleccione **[!UICONTROL Programar]** en [Report Builder hub](report-builder-hub.md).
+  1. Seleccione la ficha **[!UICONTROL Heredado]**. La pestaña enumera los libros programados basados en Report Builder heredados que ha creado.
 
-      ![Libros de trabajo heredados](assets/upgrade-legacy-schedule.png)
+     ![Libros de trabajo heredados](assets/upgrade-legacy-schedule.png)
 
-   1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) el libro programado que desea convertir de la lista y seleccione ![Descargar](/help/assets/icons/Download.svg). El libro se ha descargado y se abre en una nueva ventana en [!DNL Excel]. Ahora puede [convertir el libro Report Builder heredado](#convert-a--workbook).
+  1. Seleccione ![SelectBox](/help/assets/icons/SelectBox.svg) el libro programado que desea convertir de la lista y seleccione ![Descargar](/help/assets/icons/Download.svg). El libro se descargará y se abrirá en una nueva ventana de [!DNL Excel]. Ahora puede [convertir el libro Report Builder heredado](#convert-a--workbook).
 
 
-* Abra un libro heredado directamente desde el equipo local o la red. Cuando se utiliza este método, no se ofrece el uso de la programación que podría estar asociada con el libro de trabajo heredado. <br/>Cuando el libro heredado está abierto en [!DNL Excel]:
+* Abra un libro heredado directamente desde el equipo local o la red. Al utilizar este método, no se le ofrece la programación asociada con el libro de trabajo heredado. <br/>Cuando el libro heredado está abierto en [!DNL Excel]:
 
-   1. Seleccione ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** de la barra de cinta [!DNL Excel].
-   1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
-   1. A continuación [convierta el libro heredado](#convert-a-workbook).
+  1. Seleccione ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** de la barra de cinta [!DNL Excel].
+  1. Seleccione **[!UICONTROL Login]** e inicie sesión en Report Builder.
+  1. A continuación [convierta el libro heredado](#convert-a-workbook).
 
 
 ## Conversión de un libro heredado
@@ -116,17 +106,17 @@ Tiene la opción de usar los detalles de programación del libro heredado que de
 1. Para programar un libro heredado convertido con una programación heredada:
 
    * Seleccione **[!UICONTROL Enviar libro]** desde Report Builder hub o
-   * Seleccione **[!UICONTROL Programar libro]** de la ficha **[!UICONTROL Libros]** disponible en la ficha **[!UICONTROL Programaciones]** de Report Builder.
+   * Seleccione **[!UICONTROL Programar libro]** de la ficha **[!UICONTROL Libros]** de la ficha **[!UICONTROL Programaciones]** de Report Builder.
 
 1. Se le ofrece utilizar los detalles de programación del libro de trabajo heredado como la configuración de programación predeterminada.
 
    ![Captura de pantalla de las [!DNL Excel] opciones de configuración de programación heredadas de Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
    * Seleccione **[!UICONTROL Usar]** para usar los detalles de la programación heredada. Los detalles de la programación se rellenan previamente en la interfaz [Enviar libro](schedule-reportbuilder.md#schedule-a-workbook).
-   * Seleccione **[!UICONTROL No usar]** para no usar los detalles de la programación heredada.
+   * Seleccione **[!UICONTROL No usar]** para evitar el uso de los detalles de programación heredados.
    * Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
-   Seleccione **[!UICONTROL Quitar metadatos heredados del uso futuro]** para no usar los detalles de programación heredados para este libro en el futuro.
+   Seleccione **[!UICONTROL Quitar metadatos heredados del uso futuro]** para evitar usar los detalles de programación heredados para este libro en el futuro.
 
 
 ## Migración desde Report Builder heredado
@@ -141,24 +131,25 @@ Algunas funciones del Report Builder heredado no son compatibles, se admiten par
 
 * Opción **Publicar libro en [!DNL Power BI] para informes programados**. La opción de programar informes para [!DNL Power BI] ya no está disponible.
 
-* **Métricas de visitantes**. Las siguientes métricas se convierten en *visitantes únicos* en el libro heredado convertido, aunque el resultado del informe puede no ser una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esta conversión también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
+* **Métricas de visitantes**. Las siguientes métricas se convierten en *visitantes únicos* en el libro heredado convertido, aunque el resultado del informe no sea una coincidencia exacta: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` y `visitorsyearly`. Esta conversión también se aplica a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` y `mobilevisitorsyearly`.
 
+* **Granularidad**: Report Builder no tiene una opción específica para la granularidad como Report Builder heredado. Para aplicar un nivel de granularidad en el informe, utilice dimensiones de fecha en la solicitud.
 * **Reautenticación automática**. Cuando abra un nuevo archivo de [!DNL Excel], deberá volver a autenticarse explícitamente. Esta nueva autenticación es una característica de seguridad de la funcionalidad [!DNL Office Add-ins].
 
 * **Copie una hoja de cálculo con un grupo de bloques de datos**. Para admitir la copia de una hoja de cálculo que contenga más de un bloque de datos:
 
-   1. Seleccione la ficha de hoja de cálculo del libro [!DNL Excel] que desee copiar.
-   1. En el menú contextual de la ficha, seleccione **[!UICONTROL Mover o copiar...]**
-   1. En el diálogo **[!UICONTROL Mover o copiar]**:
-      1. Seleccione el lugar donde desea copiar la hoja de cálculo copiada.
-      1. Asegúrese de habilitar **[!UICONTROL Crear una copia]**.
-      1. Seleccione **[!UICONTROL Aceptar]**.
-   1. Desde la hoja de cálculo de origen:
-      1. Seleccione el rango de celdas que incluye todos los bloques de datos.
-      1. Seleccione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar bloque de datos]** del [concentrador de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
-   1. En la hoja de cálculo de destino:
-      1. Seleccione la celda en la que desea pegar el rango de celdas copiado.
-      1. Seleccione ![Pegar](/help/assets/icons/Paste.svg) **[!UICONTROL Pegar bloque de datos]** del [concentrador de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Seleccione la ficha de hoja de cálculo del libro [!DNL Excel] que desee copiar.
+  1. En el menú contextual de la ficha, seleccione **[!UICONTROL Mover o copiar...]**
+  1. En el diálogo **[!UICONTROL Mover o copiar]**:
+     1. Seleccione el lugar donde desea copiar la hoja de cálculo copiada.
+     1. Asegúrese de habilitar **[!UICONTROL Crear una copia]**.
+     1. Seleccione **[!UICONTROL Aceptar]**.
+  1. Desde la hoja de cálculo de origen:
+     1. Seleccione el rango de celdas que incluye todos los bloques de datos.
+     1. Seleccione ![Copiar](/help/assets/icons/Copy.svg) **[!UICONTROL Copiar bloque de datos]** del [concentrador de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. En la hoja de cálculo de destino:
+     1. Seleccione la celda en la que desea pegar el rango de celdas copiado.
+     1. Seleccione ![Pegar](/help/assets/icons/Paste.svg) **[!UICONTROL Pegar bloque de datos]** del [concentrador de Report Builder](/help/analyze/report-builder/report-builder-hub.md).
 
 * **Intervalo de fecha**. Report Builder no migra las opciones de formato de intervalo de fechas **[!UICONTROL Mostrar los períodos de inicio y finalización como]** aplicados a una etiqueta de fila para un intervalo de fechas en el Report Builder heredado.
 
