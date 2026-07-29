@@ -17,23 +17,23 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
-source-wordcount: 768
-ht-degree: 95%
+source-wordcount: 804
+ht-degree: 71%
 
 ---
 
 # Comparación de fechas
 
-La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre respecto a trimestre, mes sobre mes, etc.
+La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre o mes tras mes.
 
 ## Comparar períodos de tiempo
 
-El análisis requiere contexto, y este lo proporciona a menudo un período de tiempo previo. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
+El análisis requiere contexto, y un período de tiempo anterior a menudo proporciona ese contexto. Por ejemplo, la pregunta *¿Cuánto mejor o peor estás haciendo ahora en comparación con esta época del año pasado?* es esencial para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna *diferencia* que muestra el cambio porcentual en comparación con un período de tiempo concreto.
 
 1. Cree una [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) con cualquier dimensión y métrica que quiera comparar a lo largo de un período de tiempo.
-1. Establezca el período de tiempo en el panel o la columna para determinar el lapso de tiempo de comparación, y si es una comparación de tiempo móvil o fijo.
+1. Para determinar el lapso de tiempo de comparación y si es una comparación de tiempo móvil o fija, establezca el período de tiempo en el panel o la columna.
 
    Para crear una comparación de tiempo móvil, establezca el intervalo de fechas del panel o la columna en un intervalo de fechas móvil (por ejemplo, **[!UICONTROL últimos siete días]**, **[!UICONTROL últimos 30 días]**, etc.).
 
@@ -50,7 +50,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
 
    | Opción | Descripción |
    |---|---|
-   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Compare con el intervalo de fechas seleccionado inmediatamente antes de este intervalo de fechas. |
+   | **[!UICONTROL *x* semanas/meses/trimestres/años anteriores a este intervalo de fechas]** | Compare con el intervalo de fechas seleccionado inmediatamente antes de este intervalo de fechas. |
    | **[!UICONTROL Estas x semanas/meses/trimestres/años desde el año pasado hasta este intervalo de fechas]** | Compárelo con el mismo intervalo de fechas de hace un año. |
    | **[!UICONTROL Intervalo de fechas personalizado hasta este intervalo de fechas]** | Le permite definir un intervalo de fechas personalizado. |
 
@@ -66,7 +66,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un período de ti
 
 ## Agregar una columna Periodo de tiempo para comparar
 
-Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que permite añadir un período diferente al período en que está establecido el calendario.
+Ahora puede agregar un período de tiempo a cada columna de una tabla. Esto le permite agregar un período de tiempo diferente al período en el que está establecido el calendario.
 
 1. Haga clic con el botón secundario en una columna de la tabla y seleccione **[!UICONTROL Añadir columna de periodo de tiempo]**.
 
@@ -96,20 +96,21 @@ Ahora puede añadir un período de tiempo a cada columna en una tabla, lo que pe
 
 Puede alinear fechas de cada columna con todas a partir de la misma fila.
 
-Por ejemplo, realiza una comparación día tras día de la última semana (que termina el 5 de octubre de 2024) y de la semana anterior. De forma predeterminada, la columna izquierda comenzará el 22 de septiembre y la columna derecha comenzará el 29 de septiembre.
+Por ejemplo, se realiza una comparación día a día de la última semana (que termina el 5 de octubre de 2024) y de la semana anterior. De forma predeterminada, la columna izquierda comienza el 22 de septiembre y la columna derecha comienza el 29 de septiembre.
 
 ![Fechas no alineadas](assets/not-align-dates.png)
 
-Puede habilitar **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila]** en [Configuración](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) para la visualización de tabla de forma libre a fin de alinear las fechas de las columnas para que comiencen en la misma fila.
+Puede habilitar **[!UICONTROL Alinear fechas de cada columna para que todas empiecen en la misma fila]** en [Configuración](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) para la visualización de tabla de forma libre a fin de alinear las fechas de las columnas para que comiencen en la misma fila. La primera columna se utiliza para esta alineación.
 
 ![](assets/align-dates.png)
 
 Tenga en cuenta lo siguiente al utilizar esta opción:
 
-* Esta configuración está habilitada de forma predeterminada para todos los proyectos nuevos.
+* El sistema habilita esta configuración de forma predeterminada para todos los proyectos nuevos.
 
 * Esta configuración se aplica a toda la tabla. Por ejemplo, si cambia esta configuración para un desglose dentro de la tabla, se aplicará la configuración a toda la tabla.
 
+* Cuando esta configuración está habilitada, aparecen pequeños rótulos de fecha en la esquina superior derecha de todas las celdas de la columna para anotar la celda con la fecha adecuada (y la hora, cuando corresponda).
 
 <!--
 # Date comparison
