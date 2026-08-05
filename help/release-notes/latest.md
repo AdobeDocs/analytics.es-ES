@@ -25,10 +25,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3516dded61a29a1137a554a5f3ebf46f7c81903f
+source-git-commit: 26759b2b3290cbfdda78aa0a5b45fc3ade43c37e
 workflow-type: tm+mt
-source-wordcount: 1016
-ht-degree: 56%
+source-wordcount: 1270
+ht-degree: 44%
 
 ---
 
@@ -52,18 +52,18 @@ Estas notas de la versión abarcan el periodo de lanzamiento de agosto de 2026. 
 
 ### Correcciones en Adobe Analytics
 
-**Activity Map**:
-**Analysis Workspace**:
-**Clasificaciones**:
-**Fuentes de datos y Data Warehouse**:
-**Migración**:
+**Activity Map**: AN-404862
+**Analysis Workspace**: AN-466867, AN-465995, AN-465315, AN-465313, AN-464375, AN-463634, AN-463248, AN-463175, AN-463049, AN-462347, AN-462124, AN-461922, AN-458398, AN-457849, AN-455002, AN-453357, AN-456863, AN-459816, AN-459034, AN-460774, AN-460671, AN-457760, AN-443594, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN--, AN-Y-, AN-, AN-, AN-Y-Y-Y-, AN-Y-, AN-Y-Y-, Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-, Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-
+**Clasificaciones**: AN-467138, AN-467118, AN-467069, AN-466054, AN-465987, AN-465636, AN-465380, AN-464650, AN-464286, AN-463688, AN-462252, AN-462413, AN-462141, AN-462063, AN-462005, AN, AN-461806, AN-461862, AN-461777, AN-461158, AN-460954, AN-460905, AN-460850, AN-460803, AN-460272, AN-460023, AN-459814, AN-459367, AN-459328, AN-459300, AN-459279, AN-459006, AN-, AN-, AN-, AN-, AN-458417, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-458403, AN-457829, AN-, AN-457400, AN-454408, AN-449670, AN-460956, AN-459269, AN-458789, AN-461778, AN-461191, AN-460996 460506 459988 459854 458994 457561 457055 454224 454172 459473 459277 459026 455270, AN-
+**Fuentes de datos y Data Warehouse**: AN-465273, AN-464245, AN-462435, AN-461000, AN-460700, AN-459225, AN-459192
+**Migración**: AN-458185, AN-454285, AN-459239
 **Exportaciones**:
-**Report Builder**:
-**Sistema de informes**:
-**Grupos de informes**:
-**Informes programados**:
-**Segmentación**:
-**Otros**:
+**Report Builder**: AN-465346, AN-464768, AN-464580, AN-464301, AN-463048, AN-462800, AN-457042, AN-461033, AN-459042, AN-454250, AN-451735, AN-450776, AN-450200, AN-451665
+**Informes**: AN-467107, AN-459010, AN-455619, AN-459530, AN-454103
+**Grupos de informes**: AN-464246, AN-463756, AN-462101
+**Informes programados**: AN-455009, AN-460037, AN-462093
+**Segmentación**: AN-459002, AN-457730, AN-457146
+**Otros**: AN-467386, AN-466935, AN-462116, AN-458836, AN-451292, AN-454160, AN-458354, AN-455771, AN-426869, AN-437975
 
 ### Avisos de final de la vida útil {#eol}
 
