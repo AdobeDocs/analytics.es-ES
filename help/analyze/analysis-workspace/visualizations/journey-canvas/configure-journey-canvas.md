@@ -3,10 +3,10 @@ description: Descubra cómo configurar una visualización de lienzo de recorrido
 title: Configuración de una visualización de lienzo de recorrido
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;versión de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +69,33 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analyze/analy
 >id="aa_journeycanvas_percentage_value"
 >title="Elija cómo se calculan los porcentajes"
 >abstract="Los porcentajes que se muestran en cada nodo se basan en las métricas principales y secundarias que configure. Puede elegir si los porcentajes están relacionados con el nodo de inicio, el nodo anterior o todos los datos del grupo de informes."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="Configuración de flecha"
+>abstract="Elija si desea mostrar u ocultar las etiquetas en el lienzo. Las etiquetas son nombres personalizados creados dentro del lienzo de Recorrido."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="Mostrar visitas"
+>abstract="Los datos de visitas en el orden previsto muestran el porcentaje y el número de personas o sesiones en cada nodo del recorrido que no llegaron al siguiente nodo del recorrido. Es posible que hayan realizado otras acciones en el sitio, pero nunca cumplieron los criterios definidos por el siguiente nodo del recorrido.<br/>Los datos de visitas en el orden previsto muestran personas o sesiones (independientemente de la métrica principal que haya elegido) y se basan en la configuración del contenedor de lienzo de Recorrido."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="Comparar con"
+>abstract="Intervalo de fecha utilizado para comparar los datos de recorrido actuales con un período anterior. Al seleccionar un intervalo de fechas de comparación, cada nodo del recorrido muestra el cambio porcentual entre el intervalo de fechas actual y el seleccionado, en función de la métrica principal. "
 
 <!-- markdownlint-enable MD034 -->
 
