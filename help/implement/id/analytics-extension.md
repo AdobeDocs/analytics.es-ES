@@ -62,9 +62,9 @@ Si establece correctamente [!UICONTROL Servidor de seguimiento SSL], no se requi
 El uso de la variable **[!UICONTROL ID de visitante]** permite que su organización complete el control independiente que identifica a los visitantes. Si establece [!UICONTROL ID de visitante] con un elemento de datos, tenga en cuenta las siguientes limitaciones:
 
 * Cada visita debe contener el mismo valor de [!UICONTROL ID de visitante] que se contará como un visitante individual.
-   * Cualquier visita que omita el elemento de datos [!UICONTROL ID de visitante] intenta usar automáticamente otro método de identificación de visitante, tratándolo como un visitante separado.
-   * Cualquier visita que contenga un valor de [!UICONTROL ID de visitante] diferente al de una visita anterior se tratará como un visitante independiente.
-   * Adobe no ofrece una forma de unir las visitas con distintos ID de visitante en Adobe Analytics.
+  * Cualquier visita que omita el elemento de datos [!UICONTROL ID de visitante] intenta usar automáticamente otro método de identificación de visitante, tratándolo como un visitante separado.
+  * Cualquier visita que contenga un valor de [!UICONTROL ID de visitante] diferente al de una visita anterior se tratará como un visitante independiente.
+  * Adobe no ofrece una forma de unir las visitas con distintos ID de visitante en Adobe Analytics.
 * Las audiencias compartidas, Analytics para Target y los atributos del cliente no son compatibles con los visitantes identificados con [!UICONTROL ID de visitante].
 
 Consulte [`visitorID`](/help/implement/vars/config-vars/visitorid.md) para obtener instrucciones de implementación mediante esta variable.
