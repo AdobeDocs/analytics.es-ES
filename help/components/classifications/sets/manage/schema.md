@@ -4,26 +4,20 @@ description: Obtenga información sobre cómo ver y editar el esquema de un conj
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
 TQID: 'https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bceid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # Esquema del conjunto de clasificación
 
-El esquema es la lista de clasificaciones que desea aplicar a las dimensiones clave definidas para el conjunto de clasificaciones. Por ejemplo, si ha definido el producto como la dimensión clave y este campo contiene un SKU de producto, utilice el esquema para agregar clasificaciones como el nombre, el color y el tamaño del producto.
+El esquema es la lista de clasificaciones que desea aplicar a las dimensiones clave definidas para el conjunto de clasificaciones. Por ejemplo, si el producto es la dimensión clave, utilice el esquema para agregar clasificaciones como nombre del producto, color y tamaño.
 
 Para editar el esquema de un conjunto de clasificaciones:
 
@@ -74,7 +68,7 @@ Para agregar una nueva clasificación, seleccione ![Agregar](/help/assets/icons/
 
 ![Conjuntos de clasificaciones: agregar clasificación al esquema](assets/classification-sets-schema-add-classification.png)
 
-En el cuadro de diálogo **[!UICONTROL Agregar una nueva clasificación para _nombre del conjunto de clasificaciones_]**, escriba el **[!UICONTROL Nombre de clasificación]**&#x200B;y seleccione **[!UICONTROL Agregar]**. La clasificación se añade a la lista.
+En el cuadro de diálogo **[!UICONTROL Agregar una nueva clasificación para _nombre del conjunto de clasificaciones_]**, escriba el **[!UICONTROL Nombre de clasificación]**y seleccione **[!UICONTROL Agregar]**. La clasificación se añade a la lista.
 
 ### Cargar
 
@@ -133,7 +127,7 @@ En el cuadro de diálogo **[!UICONTROL Descargar datos para _nombre del conjunto
    * **[!UICONTROL Latin-1]**.
 
 
-1. Seleccione **[!UICONTROL Descargar]** para descargar los datos de clasificación. Puede encontrar el archivo descargado en el directorio de descarga predeterminado del explorador, con el título <code><i>Conjunto de clasificaciones</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si el archivo ya existe, un número de secuencia <code>(<i>x</i>)</code> se agrega al nombre de archivo.<br/>Si ha especificado opciones que no devuelven ningún dato, verá un cuadro de diálogo **[!UICONTROL Aviso]** para informarle de que debe cambiar las opciones de intervalo de fechas y de los datos devueltos.
+1. Seleccione **[!UICONTROL Descargar]** para descargar los datos de clasificación. Puede encontrar el archivo descargado en el directorio de descarga predeterminado del explorador, con el título <code><i>Conjunto de clasificaciones</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si el archivo existe, un número de secuencia <code>(<i>x</i>)</code> se agrega al nombre de archivo.<br/>Si no se devuelven datos, un cuadro de diálogo **[!UICONTROL Aviso]** le pedirá que ajuste el intervalo de fechas o las opciones de datos.
 
 
 ### Plantilla
@@ -164,19 +158,19 @@ En el cuadro de diálogo **[!UICONTROL Descargar plantilla para _nombre del conj
 >id="classificationsets_schema_automate_locationaccount"
 >title="Cuenta de ubicación"
 >abstract="Lista de cuentas de ubicación de tipos de cuenta que permiten importar datos de clasificación. Seleccione **[!UICONTROL Nueva cuenta]** para crear una nueva cuenta de ubicación."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=es" text="Configuración de las cuentas de importación y exportación en la nube"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics/components/locations/configure-import-accounts" text="Configuración de las cuentas de importación y exportación en la nube"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Ubicación"
 >abstract="Lista de ubicaciones en la cuenta de ubicación seleccionada que permiten importar datos de clasificación. Seleccione **[!UICONTROL Nueva ubicación]** para crear una nueva ubicación."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=es" text="Configuración de las ubicaciones de importación y exportación en la nube"
+>additional-url="https://experienceleague.adobe.com/es/docs/analytics/components/locations/configure-import-locations" text="Configuración de las ubicaciones de importación y exportación en la nube"
 
-Puede automatizar la ingesta de datos de clasificación mediante la configuración y el uso de cuentas y ubicaciones en la nube.
+Puede automatizar la ingesta de datos de clasificación configurando y utilizando cuentas y ubicaciones en la nube.
 
 >[!IMPORTANT]
->La automatización de la ingesta de clasificaciones desde cuentas en la nube requiere que usted (o su administrador de red) especifique rangos de direcciones IP para permitir la ingesta de datos en la red. Configure uno o varios intervalos de direcciones IP en función de la ubicación de los centros de datos de Analytics que utilice.
+>La automatización de la ingesta de clasificaciones desde cuentas en la nube requiere que usted (o su administrador de red) especifique intervalos de direcciones IP para permitir la ingesta de datos en la red. Configure uno o varios intervalos de direcciones IP en función de la ubicación de los centros de datos de Analytics que utilice.
 >
 >| Ubicación del centro de datos de Analytics | Agregar este intervalo de direcciones IP a una lista de permitidos de la red |
 >|---|---:|
@@ -213,7 +207,7 @@ En el cuadro de diálogo **[!UICONTROL Asociar/actualizar ubicación de ingesta 
    * **[!UICONTROL Latin-1]**.
 
 1. Para notificar a los usuarios la finalización de los trabajos de ingesta, escriba las direcciones de correo electrónico, separadas por comas, de **[!UICONTROL Correo electrónico para notificar cuando se completen los trabajos de ingesta (separados por comas)]**.
-1. Seleccione **[!UICONTROL Validar]**. Se valida la conexión con la ubicación de nube. Si la validación se realiza correctamente, aparece un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione&#x200B;**[!UICONTROL &#x200B; Guardar &#x200B;]**&#x200B;si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione&#x200B;**[!UICONTROL &#x200B; Actualizar &#x200B;]**. O bien, seleccione&#x200B;**[!UICONTROL &#x200B; Cancelar &#x200B;]**&#x200B;para cancelar la configuración de la ubicación de la nube.
+1. Seleccione **[!UICONTROL Validar]**. Se valida la conexión con la ubicación de nube. Si la validación se realiza correctamente, aparece un mensaje de mensaje que muestra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validación de ubicación correcta. Conexión al almacenamiento en la nube verificada.]**<br/>Seleccione**[!UICONTROL  Guardar ]**si ha creado la conexión con la conexión en la nube. De lo contrario, seleccione**[!UICONTROL  Actualizar ]**. O bien, seleccione**[!UICONTROL  Cancelar ]**para cancelar la configuración de la ubicación de la nube.
 
 Cuando carga archivos en la ubicación de la nube, en un plazo de 15 minutos, el archivo se detecta y se envía como un trabajo de importación. El resultado de ese trabajo de importación se recoge en el [Administrador de trabajos de clasificaciones](/help/components/classifications/sets/job-manager.md). Si se le agrega a la lista de usuarios a los que notificar la finalización de los trabajos de ingesta, también recibirá mensajes de correo electrónico.
 
@@ -252,4 +246,31 @@ La barra de acciones muestra las acciones disponibles para la clasificación sel
 | ![Examinar](/help/assets/icons/Browse.svg) | **[!UICONTROL Agregar búsqueda]** | Agregue un conjunto de clasificaciones como una búsqueda (subclasificación).<br/>En la tabla **[!UICONTROL Adjuntar búsqueda]**: <ol><li>Seleccione una clasificación de búsqueda en el menú desplegable **[!UICONTROL Nombre de clasificación]**.</li><li>Seleccione **[!UICONTROL Añadir]**.</li></ol>La clasificación de búsqueda se agrega a la clasificación y se enumera en la columna **[!UICONTROL Clasificado por]** mediante el identificador interno. |
 | ![QuitarCírculo](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Quitar búsqueda]** | Elimine un conjunto de clasificaciones como una búsqueda. Para eliminar la búsqueda permanentemente de la clasificación, en el cuadro de diálogo de confirmación **[!UICONTROL Quitar _conjunto de clasificación_ de _clasificación_]**, seleccione **[!UICONTROL Eliminar]**. |
 | ![Cambiar el nombre](/help/assets/icons/Rename.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de **[!UICONTROL Nombre de clasificación]** de una clasificación. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: _nombre de clasificación_]**, escriba un nombre nuevo y seleccione **[!UICONTROL Cambiar nombre]**. |
-| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar una clasificación. Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar _nombre de clasificación_]**. Seleccione **[!UICONTROL Eliminar]**&#x200B;para eliminar la clasificación. |
+| ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar una clasificación. Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar _nombre de clasificación_]**. Seleccione **[!UICONTROL Eliminar]**para eliminar la clasificación. |
+
+
+## Datos no clasificados
+
+Si se encuentran datos no clasificados después de una importación que se muestra como `none` en su informe, puede cambiar el nombre de la clave de clasificación `None`.
+
+1. [Descargar](#download) las clasificaciones en un archivo local.
+1. Agregue una fila al archivo local y escriba `~none~` en la columna Clave. Escriba los nombres de clasificación más descriptivos en las columnas correspondientes.
+
+   Por ejemplo:
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV:
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [Cargue](#upload) los datos de nuevo en Adobe Analytics.
