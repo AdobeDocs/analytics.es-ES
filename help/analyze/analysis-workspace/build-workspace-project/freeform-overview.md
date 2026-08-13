@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 91%
+source-wordcount: '1671'
+ht-degree: 92%
 
 ---
 
@@ -50,11 +50,11 @@ La lista del proyecto ➋ muestra todos los proyectos que posee y que han compar
 
 | Columna | Descripción |
 | --- | --- |
-| ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos, aparece una barra de acciones azul en la parte inferior de la interfaz de proyecto. Consulte las [acciones](#actions) para obtener más información.  |
+| ![SeleccionarCuadro](/help/assets/icons/SelectBox.svg) | Cuando se seleccionan uno o más proyectos, aparece una barra de acciones azul en la parte inferior de la interfaz de proyecto. Consulte las [acciones](#actions) para obtener más información. |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Selecciona para favorecer a ![Star](/help/assets/icons/Star.svg) o para desfavorecer a ![StarOutline](/help/assets/icons/StarOutline.svg) un proyecto. |
-| **[!UICONTROL Título y descripción]** | Para editar el proyecto, seleccione el vínculo del título, que abre el [proyecto de Workspace](/help/analyze/analysis-workspace/home.md). Los proyectos compartidos con usted se indican con ![Compartir](/help/assets/icons/ShareAlt.svg). Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual con acciones. Consulte las [Acciones](#actions) para obtener más información.  |
+| **[!UICONTROL Título y descripción]** | Para editar el proyecto, seleccione el vínculo del título, que abre el [proyecto de Workspace](/help/analyze/analysis-workspace/home.md). Los proyectos compartidos con usted se indican con ![Compartir](/help/assets/icons/ShareAlt.svg). Seleccione ![InfoOutline](/help/assets/icons/InfoOutline.svg) para mostrar una ventana emergente con más detalles para el conjunto de datos. Seleccione ![Más](/help/assets/icons/More.svg) para abrir un menú contextual con acciones. Consulte las [Acciones](#actions) para obtener más información. |
 | **[!UICONTROL Tipo]** | Un proyecto de Workspace, una carpeta ![FolderUser](/help/assets/icons/FolderUser.svg) o un [Cuadro de resultados móvil](/help/analyze/mobile-app/home.md). |
-| **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas al proyecto.  |
+| **[!UICONTROL Etiquetas]** | Las etiquetas aplicadas al proyecto. |
 | **[!UICONTROL Programado]** | Si un proyecto está programado para enviarse por correo electrónico a los destinatarios. Las opciones son ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Ver [Enviar datos de proyecto a otras personas](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
 | **[!UICONTROL Vínculo compartido (cualquiera)]** | Si un proyecto se comparte con alguien, incluso con personas que no tienen acceso a Analysis Workspace. Las opciones son ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Activo]** o ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactivo]**. Vea [Compartir un proyecto con alguien (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) en [Compartir proyectos](/help/analyze/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
 | **[!UICONTROL Función del proyecto]** | Su función en el proyecto. Las opciones son: Editar, Duplicar y Ver. Consulte las [funciones del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md) para obtener más información. |
@@ -65,7 +65,7 @@ La lista del proyecto ➋ muestra todos los proyectos que posee y que han compar
 | **[!UICONTROL Última apertura]** | Fecha y hora de última modificación del proyecto. |
 | **[!UICONTROL ID de componente]** | El ID del componente. |
 | **[!UICONTROL El intervalo de fecha más largo]** | El intervalo de fecha más largo de cualquiera de los paneles o visualizaciones del proyecto. |
-| **[!UICONTROL Cantidad de consultas]** | Cantidad total de consultas contenidas en el proyecto.  |
+| **[!UICONTROL Cantidad de consultas]** | Cantidad total de consultas contenidas en el proyecto. |
 | **[!UICONTROL Ubicación]** | Carpeta en la que reside el proyecto. |
 
 Pase el puntero por encima de cualquier encabezado de columna para ver ![ChevronDown](/help/assets/icons/ChevronDown.svg) y seleccione en el menú contextual:
@@ -83,7 +83,7 @@ Puede realizar acciones en uno o más proyectos mediante el menú contextual ![M
 | ![CrossSize75](/help/assets/icons/Close.svg) | **[!UICONTROL *x *seleccionado]** | Anule la selección de los proyectos y carpetas seleccionados y elimine la barra de acciones azul. |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Elimine uno o varios proyectos o carpetas. Se le pedirá una confirmación. <p>Proyectos que se eliminan:</p><ul><li>No se puede recuperar</li><li>Se eliminan de la lista de proyectos</li><li>Ya no se puede acceder a con su dirección URL</li><li>Ya no se incluyen en los envíos programados (en los casos en que estaban configurados previamente para envíos programados)<br/>Para obtener información acerca de los envíos programados, consulte [Proyectos programados](/help/components/scheduled-projects-manager.md).  </p> |
 | ![Compartir](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Compartir]** | Uso compartido de un proyecto. Consulte [Compartir un proyecto](/help/analyze/analysis-workspace/curate-share/share-projects.md) para obtener más información. |
-| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar nombre a un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione&#x200B;**[!UICONTROL Guardar &#x200B;]**. |
+| ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar nombre a un proyecto. Abre un cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de proyecto *]**. Escriba un nombre nuevo y seleccione**[!UICONTROL Guardar ]**. |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie uno o varios proyectos. Proyecto no obtiene el mismo nombre y sufijo `(Copy)`. |
 | ![PinOnff](/help/assets/icons/PinOff.svg) | **[!UICONTROL Anclar]** o **[!UICONTROL Desanclar]** | Anclar o desanclar uno o más proyectos o carpetas. Los proyectos y carpetas anclados aparecen en la parte superior de la lista e ignoran el orden de clasificación especificado. |
 | ![Flecha arriba](/help/assets/icons/ArrowUp.svg) | **[!UICONTROL Subir]** | Mueva un proyecto o una carpeta anclados hacia arriba en la lista de proyectos. |
@@ -121,7 +121,7 @@ El panel de filtro consta de las siguientes secciones.
 
 | Grupos de informes | Descripción |
 |---|---|
-| ![Grupo de informes](assets/projects-filters-reportsuites.png){width="300"} | La sección **[!UICONTROL Grupos de informes]** le permite filtrar los grupos de informes. <ul><li>Usted usa ![Buscar](/help/assets/icons/Search.svg) *Buscar grupos de informes* para buscar los grupos de informes que desea usar para filtrar.</li><li>Puede seleccionar más de un grupo de informes. Los grupos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**3︎⃣**: número de grupos de informes disponibles para los proyectos resultantes del filtro actual.</li><li>4︎⃣: número de proyectos asociados con el grupo de informes específico.</li></ul></li></ul> |
+| ![Grupo de informes](assets/projects-filters-reportsuites.png){width="300"} | La sección **[!UICONTROL Grupos de informes]** le permite filtrar los grupos de informes. <ul><li>Usted usa ![Buscar](/help/assets/icons/Search.svg) *Buscar grupos de informes* para buscar los grupos de informes que desea usar para filtrar.</li><li>Puede seleccionar más de un grupo de informes. Los grupos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican lo siguiente:<ul><li>**3︎⃣**: número de grupos de informes disponibles para los proyectos resultantes del filtro actual.</li><li>4︎⃣: número de proyectos asociados con el grupo de informes específico.</li></ul></li></ul> |
 
 
 ### Propietarios
@@ -157,6 +157,6 @@ Si el espacio es limitado para mostrar los filtros individuales, verá **[!UICON
 
 * Para quitar un filtro:
 
-   1. Utilice **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) en la parte superior para abrir un menú contextual que enumere los tipos de filtros y los filtros individuales.
-   1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
+  1. Utilice **[!UICONTROL *x *filtros]**![ChevronDown](/help/assets/icons/ChevronDown.svg) en la parte superior para abrir un menú contextual que enumere los tipos de filtros y los filtros individuales.
+  1. Seleccione ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar un filtro.
 

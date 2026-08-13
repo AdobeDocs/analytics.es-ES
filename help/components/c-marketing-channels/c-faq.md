@@ -4,19 +4,11 @@ description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1524
@@ -121,19 +113,19 @@ A veces, las reglas de procesamiento del canal de marketing se configuran incorr
 
 * **Los datos del canal de marketing se recopilan en tiempo real**: Los datos del canal de marketing se procesan tras la recopilación de datos y son 100 % permanentes. El cambio de las reglas de procesamiento no afecta a los datos de forma retroactiva.
 * **El cambio de las reglas de procesamiento no afecta inmediatamente a los datos de primer contacto**: Por ejemplo:
-   1. Un usuario ingresa a través de su canal de correo electrónico porque se configuró incorrectamente y luego abandona el sitio.
-   2. Al día siguiente, cambia la regla de procesamiento de correo electrónico para corregirla.
-   3. Ese usuario regresa varios días después a través de una búsqueda natural y realiza una compra.
-   4. El canal de correo electrónico recibe crédito de primer contacto y la búsqueda natural recibe crédito de último contacto.
+  1. Un usuario ingresa a través de su canal de correo electrónico porque se configuró incorrectamente y luego abandona el sitio.
+  2. Al día siguiente, cambia la regla de procesamiento de correo electrónico para corregirla.
+  3. Ese usuario regresa varios días después a través de una búsqueda natural y realiza una compra.
+  4. El canal de correo electrónico recibe crédito de primer contacto y la búsqueda natural recibe crédito de último contacto.
 
   Incluso varios días después de cambiar las reglas de procesamiento, los datos se pueden recopilar en el canal de primer contacto incorrecto. Los datos de primer contacto se recopilan continuamente en el canal incorrecto hasta que caduca la participación del visitante de todos los usuarios.
 
 La mejor manera de solucionar estas discrepancias es hacer una o ambas de las siguientes acciones:
 
 * **Caducar manualmente todos los períodos de participación de los visitantes**: Esta configuración caduca instantáneamente todos los canales de primer y último contacto en todos los visitantes:
-   1. Vaya a Herramientas de administración > Grupos de informes.
-   2. Pase el puntero por encima de la imagen Editar configuración > Canales de marketing > Caducidad de la participación del visitante
-   3. Haga clic en Caducar todo.
-   4. Haga clic en Aceptar en la ventana emergente de advertencia, lo cual reconoce que comprende lo que va a hacer.
+  1. Vaya a Herramientas de administración > Grupos de informes.
+  2. Pase el puntero por encima de la imagen Editar configuración > Canales de marketing > Caducidad de la participación del visitante
+  3. Haga clic en Caducar todo.
+  4. Haga clic en Aceptar en la ventana emergente de advertencia, lo cual reconoce que comprende lo que va a hacer.
 
 * **Ver solo las métricas de último contacto desde el momento en que se corrigieron las reglas hacia adelante**: Las métricas de último contacto siempre siguen el conjunto de reglas actual. La visualización del tiempo desde el momento en que se han cambiado las reglas de procesamiento hacia adelante refleja correctamente las reglas de procesamiento más actuales.

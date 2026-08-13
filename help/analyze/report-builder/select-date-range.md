@@ -7,16 +7,12 @@ type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 TQID: https://experienceleague.adobe.com/n7cZLIgBxk1kGdKdaQSlTubfN5VI9jCLLb7xr9DTd9M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: 860
 ht-degree: 49%
 
 ---
@@ -60,10 +56,10 @@ Para definir fechas móviles:
 
    - Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL año actual]** **[!UICONTROL más]** `1` **[!UICONTROL día]**. Elige el valor apropiado para cada parte individual de la expresión.
 
-      - Selecciona valor para actual. Por ejemplo, **[!UICONTROL año actual]**.
-      - Seleccione un valor para un cálculo adicional opcional. Por ejemplo, **[!UICONTROL plus]**.
-      - Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `1`.
-      - Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL día]**.
+     - Selecciona valor para actual. Por ejemplo, **[!UICONTROL año actual]**.
+     - Seleccione un valor para un cálculo adicional opcional. Por ejemplo, **[!UICONTROL plus]**.
+     - Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `1`.
+     - Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL día]**.
 
    - Cuando haya seleccionado **[!UICONTROL Día fijo]**, especifique un día fijo o use el selector para seleccionar un día.
 

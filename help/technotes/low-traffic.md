@@ -4,17 +4,10 @@ title: Valor de poco tráfico en Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 938
@@ -63,8 +56,8 @@ Los límites de umbral a veces se pueden cambiar por dimensión. Póngase en con
 * El ID del grupo de informes
 * La dimensión para la que desea aumentar el umbral
 * El primer y el segundo umbral deseado:
-   * El primer umbral (agrupamiento inicial) está establecido en **2.000.000** de forma predeterminada.
-   * El segundo umbral (filtrado más agresivo) está establecido en **2,100,000** de manera predeterminada.
+  * El primer umbral (agrupamiento inicial) está establecido en **2.000.000** de forma predeterminada.
+  * El segundo umbral (filtrado más agresivo) está establecido en **2,100,000** de manera predeterminada.
 
 >[!IMPORTANT]
 >
@@ -79,5 +72,5 @@ Las diferentes funcionalidades tratan los valores de [!UICONTROL Poco tráfico] 
 * **Data Warehouse:** En la mayoría de los casos, no hay límite en la cantidad de valores únicos en los informes de Data Warehouse. Su arquitectura única permite generar informes de cualquier cantidad de valores únicos. Sin embargo, los valores de [!UICONTROL Poco tráfico] pueden seguir apareciendo en algunos escenarios limitados. Algunos ejemplos son variables de lista, props de lista, eVars de comercialización y dimensiones de detalle del canal de marketing.
 * **Segmentación:** Si los criterios del segmento incluyen una dimensión con un número elevado de valores únicos, no se incluyen los valores capturados en [!UICONTROL Poco tráfico].
 * **Clasificaciones:** los informes de clasificación también están sujetos a límites únicos. Si el elemento de dimensión principal de una clasificación se incluye en [!UICONTROL Poco tráfico], el valor no se clasifica.
-   * [!UICONTROL Los valores de poco tráfico] clasificados a través del importador se pueden ver en Data Warehouse. <!-- AN-115871 -->
-   * Los valores de [!UICONTROL Poco tráfico] clasificados mediante el generador de reglas *no se pueden* ver en Data Warehouse. <!-- AN-122872 -->
+  * [!UICONTROL Los valores de poco tráfico] clasificados a través del importador se pueden ver en Data Warehouse. <!-- AN-115871 -->
+  * Los valores de [!UICONTROL Poco tráfico] clasificados mediante el generador de reglas *no se pueden* ver en Data Warehouse. <!-- AN-122872 -->

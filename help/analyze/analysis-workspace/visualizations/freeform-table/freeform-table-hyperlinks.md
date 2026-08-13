@@ -5,16 +5,10 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
 TQID: https://experienceleague.adobe.com/AOjXIFy8Vdjzay-aka5rFhLZIyvwlvF-PGOr1iycypw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1621
@@ -55,8 +49,8 @@ Tenga en cuenta lo siguiente al crear hipervínculos para uno o varios elementos
 
 * No se comprueba la validez de las direcciones URL al crear el hipervínculo. Si
 
-   * crear un hipervínculo con una dirección URL no válida, o
-   * crear un hipervínculo que haga referencia a un elemento de dimensión que no tiene un valor de dirección URL (ya sea haciendo referencia al elemento de dimensión directamente o utilizando las variables `$value` o `$breakdown`),
+  * crear un hipervínculo con una dirección URL no válida, o
+  * crear un hipervínculo que haga referencia a un elemento de dimensión que no tiene un valor de dirección URL (ya sea haciendo referencia al elemento de dimensión directamente o utilizando las variables `$value` o `$breakdown`),
 
   a continuación, los usuarios que hacen clic en el hipervínculo ven un mensaje de error que indica que la dirección URL no es válida.
 
@@ -70,23 +64,23 @@ Para crear hipervínculos para uno o varios elementos de dimensión:
 
    * **Crear un hipervínculo para un solo elemento de dimensión:** haga clic con el botón secundario en el elemento de dimensión de la tabla para la que desea crear el hipervínculo y, a continuación, seleccione [!UICONTROL **Crear hipervínculo**].
 
-      1. Abra el menú contextual del elemento de dimensión.
-      1. Seleccione [!UICONTROL **Crear hipervínculo**] en el menú contextual.
+     1. Abra el menú contextual del elemento de dimensión.
+     1. Seleccione [!UICONTROL **Crear hipervínculo**] en el menú contextual.
 
-         Se muestra el cuadro de diálogo [!UICONTROL **Crear hipervínculo**]. El nombre del elemento de dimensión para el que está creando un hipervínculo se muestra en el cuadro de diálogo.
+        Se muestra el cuadro de diálogo [!UICONTROL **Crear hipervínculo**]. El nombre del elemento de dimensión para el que está creando un hipervínculo se muestra en el cuadro de diálogo.
 
-         ![Crear hipervínculo para un solo cuadro de diálogo de elemento](assets/hyperlink-dialog-single.png)
+        ![Crear hipervínculo para un solo cuadro de diálogo de elemento](assets/hyperlink-dialog-single.png)
 
    * **Crear hipervínculos para todos los elementos de dimensión de una columna de dimensión:** haga clic con el botón secundario en el nombre de dimensión en el encabezado de columna de dimensión y, a continuación, seleccione [!UICONTROL **Crear hipervínculos para todos los elementos de dimensión**].
 
-      1. Abra el menú contextual desde el encabezado de la columna de dimensión.
-      1. Seleccione [!UICONTROL **Crear hipervínculo para todos los elementos de dimensión**] del menú contextual.
+     1. Abra el menú contextual desde el encabezado de la columna de dimensión.
+     1. Seleccione [!UICONTROL **Crear hipervínculo para todos los elementos de dimensión**] del menú contextual.
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         Se muestra el cuadro de diálogo [!UICONTROL **Crear hipervínculos para todos los elementos de dimensión**]. El nombre de la dimensión para la que está creando hipervínculos se muestra en el cuadro de diálogo.
+        Se muestra el cuadro de diálogo [!UICONTROL **Crear hipervínculos para todos los elementos de dimensión**]. El nombre de la dimensión para la que está creando hipervínculos se muestra en el cuadro de diálogo.
 
-         ![Cuadro de diálogo Crear hipervínculos](assets/hyperlink-dialog-multiple.png)
+        ![Cuadro de diálogo Crear hipervínculos](assets/hyperlink-dialog-multiple.png)
 
 1. Elija entre las siguientes opciones:
 
@@ -123,15 +117,15 @@ Puede editar hipervínculos que se hayan creado en dimensiones o elementos de di
 
    * **Edite un hipervínculo para un solo elemento de dimensión:**
 
-      1. Abra el menú contextual del elemento de dimensión.
-      1. Seleccione [!UICONTROL **Editar hipervínculo**] en el menú contextual.
+     1. Abra el menú contextual del elemento de dimensión.
+     1. Seleccione [!UICONTROL **Editar hipervínculo**] en el menú contextual.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **Edite hipervínculos para todos los elementos de dimensión de una columna de dimensión:**
 
-      1. Abra el menú contextual desde el encabezado de la columna de dimensión.
-      1. Seleccione **[!UICONTROL Editar hipervínculo para todos los elementos de dimensión]** en el menú contextual.
+     1. Abra el menú contextual desde el encabezado de la columna de dimensión.
+     1. Seleccione **[!UICONTROL Editar hipervínculo para todos los elementos de dimensión]** en el menú contextual.
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +151,14 @@ Para quitar los hipervínculos de los elementos de dimensión:
 
    * **Quite un hipervínculo de un solo elemento de dimensión:**
 
-      1. Abra el menú contextual del elemento de dimensión.
-      1. Seleccione [!UICONTROL **Quitar hipervínculo**] en el menú contextual.
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. Abra el menú contextual del elemento de dimensión.
+     1. Seleccione [!UICONTROL **Quitar hipervínculo**] en el menú contextual.
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **Quitar hipervínculos de todos los elementos de dimensión de una columna de dimensión:**
 
-      1. Abra el menú contextual desde el encabezado de la columna de dimensión.
-      1. Seleccione **[!UICONTROL Quitar hipervínculo para todos los elementos de dimensión]** en el menú contextual.
+     1. Abra el menú contextual desde el encabezado de la columna de dimensión.
+     1. Seleccione **[!UICONTROL Quitar hipervínculo para todos los elementos de dimensión]** en el menú contextual.
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

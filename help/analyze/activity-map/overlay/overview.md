@@ -6,20 +6,11 @@ feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 TQID: 'https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 681
@@ -48,14 +39,14 @@ El panel superior contiene los controles básicos de la superposición de Activi
 Ofrece la siguiente configuración:
 
 * **Vista estándar/en vivo**: Alterna entre la vista estándar y la vista en vivo.
-   * Vista estándar: muestra la superposición en función de los datos históricos.
-   * Vista en vivo: Muestra la superposición en función de los datos activos. El selector de fecha cambia a un menú desplegable que permite cambiar la granularidad de los datos activos.
+  * Vista estándar: muestra la superposición en función de los datos históricos.
+  * Vista en vivo: Muestra la superposición en función de los datos activos. El selector de fecha cambia a un menú desplegable que permite cambiar la granularidad de los datos activos.
 * **Selector de métrica**: permite cambiar la métrica de la que informa la superposición. Solo están disponibles [!UICONTROL Clics en vínculos] si ha seleccionado Vista en vivo.
 * **Selector de segmento**: le permite seleccionar un [segmento](/help/components/segmentation/seg-overview.md) y ver un subconjunto de datos dentro de la superposición. Los segmentos no están disponibles en la vista en vivo.
 * **Tipo de visualización de superposición**: permite cambiar la forma en que la superposición visualiza la clasificación de los vínculos.
-   * **[!UICONTROL Burbuja]**: los vínculos principales reciben una burbuja verde que muestra su clasificación numérica durante el período de informe. Puede cambiar el color de la burbuja en [Configuración](settings.md).
-   * **[!UICONTROL Degradado]**: los vínculos principales aparecen sombreados en rojo transparente. Los enlaces más populares son el rojo más oscuro. Puede cambiar el color del degradado en [Configuración](settings.md).
-   * **[!UICONTROL Desactivado]**: Deshabilitar superposiciones de vínculos.
+  * **[!UICONTROL Burbuja]**: los vínculos principales reciben una burbuja verde que muestra su clasificación numérica durante el período de informe. Puede cambiar el color de la burbuja en [Configuración](settings.md).
+  * **[!UICONTROL Degradado]**: los vínculos principales aparecen sombreados en rojo transparente. Los enlaces más populares son el rojo más oscuro. Puede cambiar el color del degradado en [Configuración](settings.md).
+  * **[!UICONTROL Desactivado]**: Deshabilitar superposiciones de vínculos.
 * **Selector de fecha**: permite cambiar el período de informe.
 
 El encabezado de este panel contiene la siguiente configuración:
@@ -63,11 +54,11 @@ El encabezado de este panel contiene la siguiente configuración:
 * **Expandir/contraer panel superior**: cambia el panel superior para mostrar la configuración horizontal o verticalmente (icono de flecha doble).
 * **[!UICONTROL Alternar detalles de página]**: muestra u oculta el panel inferior (icono en forma de ojo).
 * **[!UICONTROL Mostrar configuración]**: abre un menú para opciones que puedes cambiar (icono de engranaje):
-   * **[!UICONTROL Configuración]**: abre [Configuración](settings.md) de la extensión.
-   * **[!UICONTROL Ayuda]**: Abre la documentación en Experience League (esta página).
-   * **[!UICONTROL Comunidad de Adobe]**: Abre la [comunidad de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es).
-   * **[!UICONTROL Acerca de]**: muestra la versión de la extensión.
-   * **[!UICONTROL Cerrar sesión]**: cierra la sesión de la extensión y requiere que vuelva a iniciar sesión.
+  * **[!UICONTROL Configuración]**: abre [Configuración](settings.md) de la extensión.
+  * **[!UICONTROL Ayuda]**: Abre la documentación en Experience League (esta página).
+  * **[!UICONTROL Comunidad de Adobe]**: Abre la [comunidad de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es).
+  * **[!UICONTROL Acerca de]**: muestra la versión de la extensión.
+  * **[!UICONTROL Cerrar sesión]**: cierra la sesión de la extensión y requiere que vuelva a iniciar sesión.
 * **[!UICONTROL Salir de Activity Map]**: Cierra todas las superposiciones de la extensión (icono X).
 
 ## Superposición de página

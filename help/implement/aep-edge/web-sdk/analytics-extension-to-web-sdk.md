@@ -3,20 +3,11 @@ title: Migración de la extensión de etiquetas de Adobe Analytics a la extensi�
 description: Actualice la implementación de Analytics en las etiquetas de recopilación de datos de Adobe Experience Platform para utilizar la extensión de SDK web.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -141,9 +132,9 @@ Los pasos anteriores solo se aplican a las reglas que establecen valores. Los pa
    * [!UICONTROL Tipo de acción]: [!UICONTROL Enviar evento]
 1. A la derecha, cambie la configuración de la acción a lo siguiente:
    * [!UICONTROL Tipo]: Para `s.t()`, use **[!UICONTROL Vistas de página de detalles de páginas web]**. Para `s.tl()`, use **[!UICONTROL Clics en vínculos de interacción web]**. Si usa [`s.tl()`](../../vars/functions/tl-method.md), también debe incluir los campos siguientes en el objeto de datos. Estos campos se enumeran en [!UICONTROL Propiedades adicionales] al realizar la configuración de la acción [!UICONTROL Actualizar variable]:
-      * [Nombre de la vinculación](../../vars/functions/tl-method.md)
-      * [Tipo de vínculo](../../vars/functions/tl-method.md)
-      * [Dirección URL del vínculo](../../vars/config-vars/linkurl.md)
+     * [Nombre de la vinculación](../../vars/functions/tl-method.md)
+     * [Tipo de vínculo](../../vars/functions/tl-method.md)
+     * [Dirección URL del vínculo](../../vars/config-vars/linkurl.md)
 1. Seleccione **[!UICONTROL Conservar cambios]**.
 1. Repita estos pasos para cada configuración de acción que utilice Adobe Analytics para enviar una señalización.
 

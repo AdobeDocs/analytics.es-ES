@@ -4,14 +4,10 @@ description: Obtenga información sobre cómo navegar por la interfaz de fuentes
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
@@ -177,12 +173,12 @@ Para ajustar las columnas visibles en la tabla:
    * **Destino**: La ubicación en la que se coloca el archivo.
    * **Propietario**: cuenta de usuario que creó la fuente.
    * **Estado**: el estado de la fuente.
-      * Activa: la fuente se está ejecutando.
-      * Aprobación pendiente: en algunas circunstancias, una fuente requiere la aprobación de Adobe para poder empezar a generar trabajos.
-      * Eliminada: se elimina la fuente.
-      * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
-      * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
-      * Inactiva: equivalente a un estado “pausado” o “en espera”. Para obtener información sobre lo que sucede con las fuentes de relleno y las fuentes activas cuando se reactiva una fuente inactiva, consulte [Activar una fuente de datos](#activate-a-data-feed).
+     * Activa: la fuente se está ejecutando.
+     * Aprobación pendiente: en algunas circunstancias, una fuente requiere la aprobación de Adobe para poder empezar a generar trabajos.
+     * Eliminada: se elimina la fuente.
+     * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
+     * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
+     * Inactiva: equivalente a un estado “pausado” o “en espera”. Para obtener información sobre lo que sucede con las fuentes de relleno y las fuentes activas cuando se reactiva una fuente inactiva, consulte [Activar una fuente de datos](#activate-a-data-feed).
    * **Última modificación**: Fecha en la que se modificó la fuente por última vez. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
    * **Fecha de inicio**: La fecha del primer trabajo de esta fuente. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
    * **Fecha de finalización**: La fecha del último trabajo de esta fuente. Las fuentes de datos en curso no tienen una fecha de finalización.
