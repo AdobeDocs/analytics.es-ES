@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ Estas notas de la versión abarcan el periodo de lanzamiento de agosto de 2026. 
 | ----------- | ---------- | ---- |
 | **Extensión de Activity Map: actualización de la interfaz de usuario** <br/>La extensión de superposición de Activity Map tiene un aspecto y un funcionamiento actualizados, además de mejoras subyacentes que admiten futuras mejoras.<p>Para obtener información sobre la extensión de superposición de Activity Map, consulte [Interfaz de extensión de Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 de agosto de 2026<p>(Originalmente planificado para finales de julio)</p> |
 | **Mejoras en el lienzo de Recorrido**<br> Ya están disponibles las siguientes mejoras en el lienzo de Recorrido:<ul><li>Compare el recorrido con un lapso de tiempo anterior. Compare el recorrido actual con el recorrido 4 semanas antes, 2 trimestres antes, 1 año antes o con un intervalo de fechas personalizado.</li><li>Para un nodo seleccionado, mostrar los elementos de dimensión principales que aparecen después del nodo seleccionado en cualquier punto del recorrido. Utilícelo cuando el nodo seleccionado sea el evento clave del análisis y desee ver lo que hacen las personas en cualquier momento posterior.<p>Anteriormente, solo se podían mostrar los nodos primarios inmediatos antes o después del nodo seleccionado. </p></li><li>Cambie la forma y el estilo de las flechas entre los nodos. Arrastre las flechas entre los nodos para cambiar la forma (curvatura) de la flecha y haga clic con el botón secundario del mouse (ratón) en una flecha para cambiar su estilo a cualquiera de las siguientes opciones: sólido, discontinuo, punteado, discontinuo-punto o animado.</li></ul><p></p>Para obtener más información, consulte [Configuración de una visualización de lienzo de recorridos](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 de agosto de 2026 |
+| **Limitar segmentos al intervalo de fechas del informe**<br/> Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe cuando un segmento incluye componentes de intervalo de fechas.<p>Ahora hay disponible una nueva opción que le permite limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento. <p>Esta opción está disponible al crear o modificar un segmento cuyo contenedor de nivel superior sea Visitante.</p><p>Para obtener más información, consulte [Generar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de septiembre de 2026 |
 | **Referencia de canales de marketing API de Analytics**<br/> Use la referencia de canales de marketing API de Adobe Analytics 2.0 para recuperar información de canales de marketing de Analytics. Consulte la [referencia de canales de marketing API de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 de agosto de 2026 |
 | **Guía de extremo de canales de marketing API de Analytics**<br/> La guía de extremo de canales de marketing API de Adobe Analytics 2.0 proporciona instrucciones y ejemplos para utilizar el extremo. Consulte la [guía de extremo de canales de marketing API de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 de agosto de 2026 |
 | **Preguntas frecuentes sobre el cliente del fin de la vida útil de la API de Analytics 1.4**<br/> Las preguntas frecuentes del cliente del fin de la vida útil de la API de Analytics 1.4 proporcionan información sobre el desarrollo reciente de la API 2.0 para ayudar a los clientes que abandonan las API 1.4. | | 10 de agosto de 2026 |
