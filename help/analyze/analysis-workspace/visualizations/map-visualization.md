@@ -84,7 +84,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización d
 >[!ENDSHADEBOX]
 
 
-## Utiliza
+## Usar
 
 1. Añada una visualización ![Mapa](/help/assets/icons/Globe.svg) [!UICONTROL Mapa]. Consulte [Añadir una visualización a un panel](freeform-analysis-visualizations.md#add-visualizations-to-a-panel). Solo puede arrastrar una visualización de mapa sobre una tabla de forma libre.
 
@@ -110,9 +110,9 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización d
    * **Compare** dos o más visualizaciones de mapas en el mismo proyecto colocándolas una al lado de la otra.
    * **Mostrar comparaciones período tras período (por ejemplo, año tras año)**:
 
-      * Mostrar números negativos: por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
-      * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
-      * Un esquema de colores verde/rojo: positivo/negativo
+     * Mostrar números negativos: por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York.
+     * En cuanto a las métricas que son de tipo *por ciento*, el clústering calcula la media total de los porcentajes.
+     * Un esquema de colores verde/rojo: positivo/negativo
 
    * **Gira** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y moviendo el mapa.
 

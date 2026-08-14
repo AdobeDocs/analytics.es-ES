@@ -70,8 +70,8 @@ Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 * Cuando hay datos sin conexión que desea escribir de forma permanente en Adobe Analytics.
 * Opciones:
-   * Resumen: cargas de datos sencillas, por día o de dimensiones limitadas.
-   * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión).
+  * Resumen: cargas de datos sencillas, por día o de dimensiones limitadas.
+  * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión).
 
 **[Integraciones de Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** debe usarse:
 

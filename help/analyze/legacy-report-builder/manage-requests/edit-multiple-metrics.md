@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 6%
 
 ---
@@ -50,12 +50,12 @@ Para agregar una o más métricas
 
 Cuando reemplace métricas, tenga en cuenta las siguientes directrices:
 
-* Solo se permiten 1:1 sustituciones. No se permiten 1:many o varios:1.
+* Solo se permiten sustituciones 1:1. No se permiten 1:many o varios:1.
 * Si la métrica seleccionada no está presente en una de las solicitudes seleccionadas, la solicitud se deja sin cambios.
 * La nueva métrica se coloca en la misma ubicación que la métrica sustituida.
 
-   * **En un diseño de tabla dinámica**, si una solicitud de diseño de tabla dinámica genera fechas, visitas, visitantes, visitantes únicos diarios y *visitantes* son reemplazados por *ingresos*, el diseño de solicitud actualizado será: fecha, visita, ingresos y únicos diarios.
-   * **En un diseño personalizado**, si la métrica de *visitantes* se mostraba en la celda F11, el diseño de solicitud actualizado mostrará *ingresos* en la misma celda F11.
+  * **En un diseño de tabla dinámica**, si una solicitud de diseño de tabla dinámica genera fechas, visitas, visitantes, visitantes únicos diarios y *visitantes* son reemplazados por *ingresos*, el diseño de solicitud actualizado será: fecha, visita, ingresos y únicos diarios.
+  * **En un diseño personalizado**, si la métrica de *visitantes* se mostraba en la celda F11, el diseño de solicitud actualizado mostrará *ingresos* en la misma celda F11.
 
 * Si a la métrica sustituida se le ha aplicado alguna operación (promedio, texto prependiente, texto pospendiente, micrográficos), estas operaciones también se aplicarán a la nueva métrica.
 

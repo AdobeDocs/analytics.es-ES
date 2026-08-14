@@ -96,7 +96,7 @@ En las tablas siguientes se proporcionan ejemplos e información sobre los filtr
    <td colname="col3"> <p>Coincide con <span class="term"> abcd</span> pero no con <span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Finaliza con </p> </td> 
+   <td colname="col1"> <p>Termina por </p> </td> 
    <td colname="col02"> <p>Devuelve resultados que terminan con el valor específico. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
    <td colname="col3"> <p>Coincide con <span class="term"> wxyz</span>, pero no con <span class="term"> wxyz0</span> </p> </td> 

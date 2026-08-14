@@ -48,13 +48,13 @@ El objetivo del inventario de Analytics es ayudarle a responder a las siguientes
 
 * Una vez que haya determinado qué recurso debe migrar:
 
-   * ¿Debe realizar alguna limpieza de recursos antes de esta actualización?
+  * ¿Debe realizar alguna limpieza de recursos antes de esta actualización?
 
-   * ¿Debe llevar a cabo alguna consolidación de activos como parte del proceso?
+  * ¿Debe llevar a cabo alguna consolidación de activos como parte del proceso?
 
-   * ¿Cuál debe ser la secuencia de actualización de los recursos?
+  * ¿Cuál debe ser la secuencia de actualización de los recursos?
 
-   * ¿Qué grupos de informes debe actualizar primero o último?
+  * ¿Qué grupos de informes debe actualizar primero o último?
 
 ## Permisos
 

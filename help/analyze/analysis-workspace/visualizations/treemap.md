@@ -18,8 +18,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 72%
+source-wordcount: 203
+ht-degree: 73%
 
 ---
 
@@ -51,7 +51,7 @@ Con un gráfico de rectángulos, puede ver patrones que serían difíciles de id
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización de gráfico de rectángulos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

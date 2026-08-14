@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: 971
 ht-degree: 92%
 
 ---
@@ -122,7 +122,7 @@ Como parte de la configuración de visualización, hay disponibles opciones espe
 | **[!UICONTROL Mostrar porcentaje de comparación y líneas de tendencia]** | Muestre u oculte los datos de comparación. Cuando están ocultos, el gráfico de líneas de comparación y los objetos de cambio de resumen no se ven. |
 | **[!UICONTROL Mostrar número total]** | Mostrar u ocultar el número de resumen |
 | **[!UICONTROL Mostrar diferencia en bruto]** | Mostrar u ocultar la diferencia en bruto entre el valor total de la métrica en el intervalo de fechas principal y el secundario |
-| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Abreviatura**</td><td>**Resultado**</td></tr><tr><td>$12,011,141.25</td><td>No seleccionado</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 1</td><td align="right">12 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 2</td><td align="right">12,0 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 2</td><td align="right">12,011 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en 3</td><td align="right">12,011 mills. USD</td></tr></table> |
+| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Abreviatura**</td><td>**Resultado**</td></tr><tr><td>12.011.141,25 USD</td><td>No seleccionado</td><td align="right">12.011.141,25 USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 1</td><td align="right">12 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 2</td><td align="right">12,0 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 2</td><td align="right">12,011 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en 3</td><td align="right">12,011 mills. USD</td></tr></table> |
 
 ## Edición de la visualización
 

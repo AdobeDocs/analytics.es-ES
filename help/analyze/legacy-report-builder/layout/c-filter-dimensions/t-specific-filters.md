@@ -44,8 +44,8 @@ Puede buscar elementos de dimensión específicos creando un filtro que coincida
 1. Active una de las siguientes opciones específicas:
 
    * **Desde rango de celdas:** Permite seleccionar datos de celdas. Puede seleccionar:
-      * **Todas las celdas del rango:** Permite asignar todas las celdas del rango. El texto descriptivo explica cuántos grupos de celdas debe seleccionar. Para asignar más de un grupo de celdas, presione la tecla Ctrl mientras realiza selecciones sucesivas. Si el rango que se debe asignar contiene solo una celda, esta es la única opción disponible
-      * **Primera celda del rango:** Basta con seleccionar la celda superior izquierda del rango y, a continuación, elegir una dirección para los datos. Además, si la solicitud tiene varios períodos, puede elegir la dirección de los períodos y si desea omitir un número determinado de celdas entre períodos.
+     * **Todas las celdas del rango:** Permite asignar todas las celdas del rango. El texto descriptivo explica cuántos grupos de celdas debe seleccionar. Para asignar más de un grupo de celdas, presione la tecla Ctrl mientras realiza selecciones sucesivas. Si el rango que se debe asignar contiene solo una celda, esta es la única opción disponible
+     * **Primera celda del rango:** Basta con seleccionar la celda superior izquierda del rango y, a continuación, elegir una dirección para los datos. Además, si la solicitud tiene varios períodos, puede elegir la dirección de los períodos y si desea omitir un número determinado de celdas entre períodos.
    * **De la lista:** Permite seleccionar datos de una lista a la que se pueden agregar datos.
 1. Si habilita **[!UICONTROL Desde la lista]**, seleccione cualquier elemento disponible de la lista, o bien haga clic en **[!UICONTROL Añadir]**.
 

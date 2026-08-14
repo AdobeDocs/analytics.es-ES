@@ -39,16 +39,16 @@ Cambie la configuración general de la extensión y las superposiciones.
 * **[!UICONTROL Nombre de página]**: muestra el nombre de la página actual.
 * **[!UICONTROL Idioma]**: cambia el idioma de las etiquetas de extensión de Activity Map. Esta configuración no cambia el contenido del sitio web ni los nombres de los vínculos en los informes. Los idiomas admitidos son inglés, francés, chino (simplificado), chino (tradicional), alemán, japonés, coreano, español y portugués.
 * **[!UICONTROL Superposiciones de etiquetas con]**: Determina qué es el texto de degradado o burbuja. La configuración predeterminada es [!UICONTROL Rango]. Las opciones incluyen:
-   * **[!UICONTROL Sin etiqueta]**: no hay texto dentro de las etiquetas, lo que las convierte en cuadros de color
-   * **[!UICONTROL Valor]**: muestra el número de clics en vínculos ([Ocurrencias](/help/components/metrics/occurrences.md))
-   * **[!UICONTROL Porcentaje]**: muestra la proporción de clics en vínculos en comparación con el número total de clics en vínculos en la página
-   * **[!UICONTROL Rango]**: La clasificación numérica del vínculo según el número de clics en el mismo.
+  * **[!UICONTROL Sin etiqueta]**: no hay texto dentro de las etiquetas, lo que las convierte en cuadros de color
+  * **[!UICONTROL Valor]**: muestra el número de clics en vínculos ([Ocurrencias](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Porcentaje]**: muestra la proporción de clics en vínculos en comparación con el número total de clics en vínculos en la página
+  * **[!UICONTROL Rango]**: La clasificación numérica del vínculo según el número de clics en el mismo.
 * **[!UICONTROL Tamaño de fuente de etiqueta]**: Determina el tamaño del texto dentro de la burbuja o degradado.
 * **[!UICONTROL Color de degradado]**: permite cambiar el color de degradado cuando el tipo de visualización es [!UICONTROL Degradado].
 * **[!UICONTROL Color de burbuja]**: permite cambiar el color de la burbuja cuando el tipo de visualización es [!UICONTROL Burbuja].
 * **[!UICONTROL Degradado de color basado en]**: Determina en qué métrica se basa la intensidad de color de un vínculo cuando el tipo de visualización es [!UICONTROL Degradado].
-   * **[!UICONTROL Principales 30 rangos]**: La intensidad del color se normaliza para los 30 vínculos principales.
-   * **[!UICONTROL Valor absoluto de métrica]**: la intensidad del color es una función del valor absoluto de la métrica.
+  * **[!UICONTROL Principales 30 rangos]**: La intensidad del color se normaliza para los 30 vínculos principales.
+  * **[!UICONTROL Valor absoluto de métrica]**: la intensidad del color es una función del valor absoluto de la métrica.
 * **[!UICONTROL Transparencia de degradado]**: Determina la transparencia de las superposiciones de degradado cuando el tipo de visualización es [!UICONTROL Degradado]. Este control deslizante le permite hacer que la superposición de color sea completamente transparente, completamente opaca o en cualquier lugar intermedio.
 
 ## Configuración estándar
@@ -56,9 +56,9 @@ Cambie la configuración general de la extensión y las superposiciones.
 Ajuste la configuración de la vista estándar.
 
 * **[!UICONTROL Filtrado dinámico de datos]**: Permite cambiar los vínculos que se muestran.
-   * **[!UICONTROL Principales]**: Muestra los vínculos más populares. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos principales que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
-   * **[!UICONTROL Inferior]**: muestra los vínculos menos populares en función de la lista desplegable de números. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos inferiores que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
-   * **[!UICONTROL Todos los vínculos]**: no aplique el filtrado dinámico de datos. La lista desplegable numérica no se aplica cuando se selecciona esta opción.
+  * **[!UICONTROL Principales]**: Muestra los vínculos más populares. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos principales que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
+  * **[!UICONTROL Inferior]**: muestra los vínculos menos populares en función de la lista desplegable de números. Utilice la lista desplegable numérica de la derecha para determinar el número de vínculos inferiores que se mostrarán. Las opciones incluyen 1, 10, 50 y 100.
+  * **[!UICONTROL Todos los vínculos]**: no aplique el filtrado dinámico de datos. La lista desplegable numérica no se aplica cuando se selecciona esta opción.
 * **[!UICONTROL Ocultar superposiciones de vínculos que no recibieron ninguna visita]**: Los vínculos de la página sin ningún clic en vínculo no muestran ninguna superposición. Estos vínculos se excluyen del filtrado dinámico de datos.
 
 ## Configuración de Live

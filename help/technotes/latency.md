@@ -58,10 +58,10 @@ Existen varias estrategias para evitar la latencia o reducir el tiempo de recupe
 * **Informar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar todos los picos de tráfico en el sitio, puede haber casos en los que se espere un aumento significativo de tráfico. Por ejemplo, en un periodo festivo muy rentable o poco después de una gran campaña. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) en la guía del usuario de administración para obtener información sobre las notificaciones a Adobe relativas al aumento de tráfico.
 * **Tenga en cuenta la carga de procesamiento al activar nuevas características:** Algunas necesitan más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando habilite características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
-   * Implementación de más de veinte eventos en la misma página
-   * Reglas de VISTA complejas
-   * Más de veinte valores en la variable de productos
-   * Serialización de eventos
+  * Implementación de más de veinte eventos en la misma página
+  * Reglas de VISTA complejas
+  * Más de veinte valores en la variable de productos
+  * Serialización de eventos
 
 * Habilitar el filtrado para bots de la IAB: [el filtrado para bots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) puede reducir en gran medida la latencia si el grupo de informes se ve frecuentado por bots o rastreadores. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
 

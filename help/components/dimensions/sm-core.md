@@ -32,7 +32,7 @@ Para usar estas dimensiones, habilita **[!UICONTROL Media Core]** en [[!UICONTRO
 Las dimensiones disponibles son las siguientes:
 
 * [[!UICONTROL Contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL Canal de contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL Canal de contenido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
 * [[!UICONTROL Longitud del contenido (variable)]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-length)
 * [[!UICONTROL Nombre de contenido (variable)]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-name)
 * [[!UICONTROL Nombre del reproductor de contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/dimensions/content-player-name)

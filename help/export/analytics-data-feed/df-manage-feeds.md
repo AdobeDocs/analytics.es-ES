@@ -177,12 +177,12 @@ Para ajustar las columnas visibles en la tabla:
    * **Destino**: La ubicación en la que se coloca el archivo.
    * **Propietario**: cuenta de usuario que creó la fuente.
    * **Estado**: el estado de la fuente.
-      * Activa: la fuente se está ejecutando.
-      * Aprobación pendiente: en algunas circunstancias, una fuente requiere la aprobación de Adobe para poder empezar a generar trabajos.
-      * Eliminada: se elimina la fuente.
-      * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
-      * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
-      * Inactiva: equivalente a un estado “pausado” o “en espera”. Para obtener información sobre lo que sucede con las fuentes de relleno y las fuentes activas cuando se reactiva una fuente inactiva, consulte [Activar una fuente de datos](#activate-a-data-feed).
+     * Activa: la fuente se está ejecutando.
+     * Aprobación pendiente: en algunas circunstancias, una fuente requiere la aprobación de Adobe para poder empezar a generar trabajos.
+     * Eliminada: se elimina la fuente.
+     * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
+     * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
+     * Inactiva: equivalente a un estado “pausado” o “en espera”. Para obtener información sobre lo que sucede con las fuentes de relleno y las fuentes activas cuando se reactiva una fuente inactiva, consulte [Activar una fuente de datos](#activate-a-data-feed).
    * **Última modificación**: Fecha en la que se modificó la fuente por última vez. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
    * **Fecha de inicio**: La fecha del primer trabajo de esta fuente. La fecha y la hora se muestran en la zona horaria del grupo de informes con horario GMT.
    * **Fecha de finalización**: La fecha del último trabajo de esta fuente. Las fuentes de datos en curso no tienen una fecha de finalización.

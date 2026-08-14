@@ -38,11 +38,11 @@ Asegúrese de que está preparado con lo siguiente:
 * Un [ID del grupo de informes](/help/admin/tools/manage-rs/new-rs/new-report-suite.md) de desarrollo.
 * El dominio perimetral deseado para [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Su ID de organización de IMS:
-   1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
-   1. En cualquier lugar de la interfaz de CX Enterprise, pulse `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
-   1. Aparece un **[!UICONTROL depurador de datos de usuario]**. Seleccione la ficha **[!UICONTROL Organizaciones asignadas]**.
-   1. Expanda la organización IMS deseada.
-   1. Busque el campo **[!UICONTROL ID]**.
+  1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
+  1. En cualquier lugar de la interfaz de CX Enterprise, pulse `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+  1. Aparece un **[!UICONTROL depurador de datos de usuario]**. Seleccione la ficha **[!UICONTROL Organizaciones asignadas]**.
+  1. Expanda la organización IMS deseada.
+  1. Busque el campo **[!UICONTROL ID]**.
 
 Una vez que tenga los recursos anteriores, la siguiente página de ejemplo básica contiene las llamadas mínimas requeridas para enviar datos a Adobe Analytics:
 
@@ -98,9 +98,9 @@ Si establece `trackingServerSecure` correctamente, no se requieren más medidas 
 El uso de la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) permite que su organización complete el control independiente que identifica a los visitantes. Si usa `visitorID`, tenga en cuenta las siguientes limitaciones:
 
 * Cada visita debe contener el mismo valor `visitorID` para que pueda contarse como un solo visitante.
-   * Cualquier visita que omita `visitorID` intentará automáticamente usar otro método de identificación de visitante, tratándolo como un visitante separado.
-   * Cualquier visita que contenga un valor `visitorID` diferente de una visita anterior se tratará como un visitante independiente.
-   * Adobe no ofrece una forma de unir las visitas con distintos ID de visitante en Adobe Analytics.
+  * Cualquier visita que omita `visitorID` intentará automáticamente usar otro método de identificación de visitante, tratándolo como un visitante separado.
+  * Cualquier visita que contenga un valor `visitorID` diferente de una visita anterior se tratará como un visitante independiente.
+  * Adobe no ofrece una forma de unir las visitas con distintos ID de visitante en Adobe Analytics.
 * Las audiencias compartidas, Analytics para Target y los atributos del cliente no son compatibles con los visitantes identificados mediante `visitorID`.
 
 Consulte [`visitorID`](/help/implement/vars/config-vars/visitorid.md) para obtener instrucciones de implementación mediante esta variable.

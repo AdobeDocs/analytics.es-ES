@@ -63,8 +63,8 @@ Los límites de umbral a veces se pueden cambiar por dimensión. Póngase en con
 * El ID del grupo de informes
 * La dimensión para la que desea aumentar el umbral
 * El primer y el segundo umbral deseado:
-   * El primer umbral (agrupamiento inicial) está establecido en **2.000.000** de forma predeterminada.
-   * El segundo umbral (filtrado más agresivo) está establecido en **2,100,000** de manera predeterminada.
+  * El primer umbral (agrupamiento inicial) está establecido en **2.000.000** de forma predeterminada.
+  * El segundo umbral (filtrado más agresivo) está establecido en **2,100,000** de manera predeterminada.
 
 >[!IMPORTANT]
 >
@@ -79,5 +79,5 @@ Las diferentes funcionalidades tratan los valores de [!UICONTROL Poco tráfico] 
 * **Data Warehouse:** En la mayoría de los casos, no hay límite en la cantidad de valores únicos en los informes de Data Warehouse. Su arquitectura única permite generar informes de cualquier cantidad de valores únicos. Sin embargo, los valores de [!UICONTROL Poco tráfico] pueden seguir apareciendo en algunos escenarios limitados. Algunos ejemplos son variables de lista, props de lista, eVars de comercialización y dimensiones de detalle del canal de marketing.
 * **Segmentación:** Si los criterios del segmento incluyen una dimensión con un número elevado de valores únicos, no se incluyen los valores capturados en [!UICONTROL Poco tráfico].
 * **Clasificaciones:** los informes de clasificación también están sujetos a límites únicos. Si el elemento de dimensión principal de una clasificación se incluye en [!UICONTROL Poco tráfico], el valor no se clasifica.
-   * [!UICONTROL Los valores de poco tráfico] clasificados a través del importador se pueden ver en Data Warehouse. <!-- AN-115871 -->
-   * Los valores de [!UICONTROL Poco tráfico] clasificados mediante el generador de reglas *no se pueden* ver en Data Warehouse. <!-- AN-122872 -->
+  * [!UICONTROL Los valores de poco tráfico] clasificados a través del importador se pueden ver en Data Warehouse. <!-- AN-115871 -->
+  * Los valores de [!UICONTROL Poco tráfico] clasificados mediante el generador de reglas *no se pueden* ver en Data Warehouse. <!-- AN-122872 -->

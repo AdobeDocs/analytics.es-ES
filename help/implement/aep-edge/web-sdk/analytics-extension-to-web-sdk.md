@@ -141,9 +141,9 @@ Los pasos anteriores solo se aplican a las reglas que establecen valores. Los pa
    * [!UICONTROL Tipo de acción]: [!UICONTROL Enviar evento]
 1. A la derecha, cambie la configuración de la acción a lo siguiente:
    * [!UICONTROL Tipo]: Para `s.t()`, use **[!UICONTROL Vistas de página de detalles de páginas web]**. Para `s.tl()`, use **[!UICONTROL Clics en vínculos de interacción web]**. Si usa [`s.tl()`](../../vars/functions/tl-method.md), también debe incluir los campos siguientes en el objeto de datos. Estos campos se enumeran en [!UICONTROL Propiedades adicionales] al realizar la configuración de la acción [!UICONTROL Actualizar variable]:
-      * [Nombre de la vinculación](../../vars/functions/tl-method.md)
-      * [Tipo de vínculo](../../vars/functions/tl-method.md)
-      * [Dirección URL del vínculo](../../vars/config-vars/linkurl.md)
+     * [Nombre de la vinculación](../../vars/functions/tl-method.md)
+     * [Tipo de vínculo](../../vars/functions/tl-method.md)
+     * [Dirección URL del vínculo](../../vars/config-vars/linkurl.md)
 1. Seleccione **[!UICONTROL Conservar cambios]**.
 1. Repita estos pasos para cada configuración de acción que utilice Adobe Analytics para enviar una señalización.
 

@@ -63,12 +63,12 @@ Cada objeto JSON debe contener:
 * `key` (obligatorio): El identificador único del registro de clasificación
 * `data` (requerido para actualizaciones): un objeto que contiene nombres de columnas de clasificación y sus valores
 * `action` (opcional): la acción que se va a realizar. Los valores admitidos son:
-   * `update` (la acción predeterminada, cuando no se especifica ninguna acción)
-   * `delete-field`
-   * `delete-key`
+  * `update` (la acción predeterminada, cuando no se especifica ninguna acción)
+  * `delete-field`
+  * `delete-key`
 * `enc` (opcional): especificación de codificación de datos. Los valores admitidos son:
-   * `utf8` o `UTF8` (predeterminado)
-   * `latin1` o `LATIN1`
+  * `utf8` o `UTF8` (predeterminado)
+  * `latin1` o `LATIN1`
 
 Todos los nombres de campo JSON (`key`, `data`, `action`, `enc`) distinguen entre mayúsculas y minúsculas y deben escribirse en minúsculas.
 

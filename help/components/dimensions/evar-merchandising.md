@@ -64,9 +64,9 @@ No se recomienda utilizar la métrica [Instancias](../metrics/instances.md) en v
 
 * Para las variables de comercialización que utilizan sintaxis de producto, las instancias no se incrementan en absoluto.
 * Para las variables de comercialización que utilizan sintaxis de variable de conversión, las instancias se cuentan cada vez que se configura la eVar. Sin embargo, se atribuye al elemento de la dimensión `"None"` a menos que suceda lo siguiente en la misma visita:
-   * Que la eVar de comercialización se sobrescriba con un valor.
-   * La variable `products` se define con un valor.
-   * Se establece un evento de enlace.
+  * Que la eVar de comercialización se sobrescriba con un valor.
+  * La variable `products` se define con un valor.
+  * Se establece un evento de enlace.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

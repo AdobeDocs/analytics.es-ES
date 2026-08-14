@@ -34,14 +34,14 @@ Eliminar carpetas en Workspace
 
 * Selecciona una carpeta cuyo nombre desees cambiar en la [lista de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecciona **[!UICONTROL Cambiar nombre]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+  1. Selecciona **[!UICONTROL Cambiar nombre]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
+  1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
 
 * Dentro de la carpeta cuyo nombre deseas cambiar.
 
-   1. Selecciona **[!UICONTROL Cambiar nombre de carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecciona **[!UICONTROL Cambiar nombre de carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
+  1. En el cuadro de diálogo **[!UICONTROL Cambiar nombre: *nombre de carpeta *]**, escribe un nombre nuevo y selecciona&#x200B;**[!UICONTROL Guardar &#x200B;]**.
 
 
 ## Mover carpetas
@@ -52,18 +52,18 @@ Eliminar carpetas en Workspace:
 
 * Selecciona la carpeta que desees mover en la [lista de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecciona **[!UICONTROL Mover a]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
-   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
+  1. Selecciona **[!UICONTROL Mover a]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
+  1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
 
-   1. Seleccione **[!UICONTROL Mover]**.
+  1. Seleccione **[!UICONTROL Mover]**.
 
 * Dentro de la carpeta que deseas mover.
 
-   1. Selecciona **[!UICONTROL Mover carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecciona **[!UICONTROL Mover carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
+  1. En el cuadro de diálogo **[!UICONTROL Seleccionar carpeta]**, seleccione una carpeta del menú desplegable **[!UICONTROL Carpeta]** a la que mover la carpeta.
 
-   1. Seleccione **[!UICONTROL Mover]**.
+  1. Seleccione **[!UICONTROL Mover]**.
 
 
 ## Eliminar carpetas
@@ -79,15 +79,15 @@ Eliminar carpetas en Workspace
 
 * Selecciona una o más carpetas que desees eliminar en la [lista de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Selecciona **[!UICONTROL Eliminar]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
+  1. Selecciona **[!UICONTROL Eliminar]** de las [acciones](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles en el menú contextual ![Más](/help/assets/icons/More.svg) de la carpeta seleccionada o en la barra de acciones azul.
 
-   1. En el **[!UICONTROL ¿Está seguro?]** , seleccione **[!UICONTROL Aceptar]** para eliminar las carpetas.
+  1. En el **[!UICONTROL ¿Está seguro?]** , seleccione **[!UICONTROL Aceptar]** para eliminar las carpetas.
 
 * Selecciona el ajuste preestablecido que desees eliminar.
 
-   1. Selecciona **[!UICONTROL Eliminar carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Selecciona **[!UICONTROL Eliminar carpeta]** de ![Más](/help/assets/icons/More.svg) en el [área de título](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. En la carpeta **[!UICONTROL Eliminar *nombre*?]** diálogo, seleccione **[!UICONTROL Aceptar]**.
+  1. En la carpeta **[!UICONTROL Eliminar *nombre*?]** diálogo, seleccione **[!UICONTROL Aceptar]**.
 
 
 <!-- 

@@ -43,7 +43,7 @@ Los componentes de Analytics le ayudan a ajustar y potenciar su análisis de dat
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Información general de Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Informaci�
 
 ## Recursos clave de Analytics
 
-* [Póngase en contacto con el Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=Analytics?lang=es#support)
+* [Póngase en contacto con el Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Experience League](https://landing.adobe.com/experience-league/)

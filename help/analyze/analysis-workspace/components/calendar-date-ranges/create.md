@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 542
 ht-degree: 94%
 
 ---
@@ -76,12 +76,12 @@ También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú
 
      ![Fechas móviles](assets/rolliing-dates.png)
 
-      1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
-      1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL menos]** `20` **[!UICONTROL días]**. Elige el valor apropiado para cada parte individual de la expresión.
-         * Selecciona valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
-         * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL menos]**.
-         * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `20`.
-         * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL días]**.
+     1. Selecciona **[!UICONTROL Inicio de]**, **[!UICONTROL Fin de]** o **[!UICONTROL Día fijo]**.
+     1. Cuando hayas seleccionado **[!UICONTROL Inicio de]** o **[!UICONTROL Final de]**, puedes generar una expresión completa. Por ejemplo: **[!UICONTROL Fin de]** **[!UICONTROL trimestre actual]** **[!UICONTROL menos]** `20` **[!UICONTROL días]**. Elige el valor apropiado para cada parte individual de la expresión.
+        * Selecciona valor para actual. Por ejemplo, **[!UICONTROL trimestre actual]**.
+        * Selecciona un valor para realizar cálculos adicionales. Por ejemplo, **[!UICONTROL menos]**.
+        * Cuando haya especificado un cálculo adicional, especifique un valor. Por ejemplo, `20`.
+        * Cuando haya especificado un cálculo adicional, seleccione el período de tiempo que desea utilizar para el cálculo. Por ejemplo, **[!UICONTROL días]**.
 
      Selecciona **[!UICONTROL Ocultar detalles]** para ocultar los detalles del cálculo de fechas móviles.
 

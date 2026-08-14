@@ -39,15 +39,15 @@ Cree y configure variables de lista para usar en sistema de informes. Establezca
 * **[!UICONTROL Delimitador de valores]**: El carácter usado para separar valores dentro de la variable de lista. Normalmente, se trata de caracteres como comas, dos puntos, barras verticales o algo similar. Los caracteres de bytes múltiples no se admiten como delimitadores en variables de lista.
 
 * **[!UICONTROL Caduca después de]**: de forma similar a la caducidad de eVar, este campo determina la cantidad de tiempo que puede pasar entre la variable de lista y el evento de conversión para que se relacionen.
-   * **En una vista de página o nivel de visita**: Los eventos de éxito más allá de la vista de página o la visita no se vincularían de nuevo a ningún valor dentro de la variable de lista.
-   * **Basado en un período de tiempo, como día, semana, mes, etc**: Los eventos de éxito que superen el período de tiempo especificado no se vincularán de nuevo a ningún valor dentro de la variable de lista. También se puede definir un número personalizado de días.
-   * **Eventos de conversión específicos**: Los demás eventos de éxito que se activen después de designar el evento específico no se vincularán de nuevo a ningún valor de la variable de lista.
-   * **Nunca**: Puede pasar cualquier cantidad de tiempo entre la variable de lista y el evento de éxito.
+  * **En una vista de página o nivel de visita**: Los eventos de éxito más allá de la vista de página o la visita no se vincularían de nuevo a ningún valor dentro de la variable de lista.
+  * **Basado en un período de tiempo, como día, semana, mes, etc**: Los eventos de éxito que superen el período de tiempo especificado no se vincularán de nuevo a ningún valor dentro de la variable de lista. También se puede definir un número personalizado de días.
+  * **Eventos de conversión específicos**: Los demás eventos de éxito que se activen después de designar el evento específico no se vincularán de nuevo a ningún valor de la variable de lista.
+  * **Nunca**: Puede pasar cualquier cantidad de tiempo entre la variable de lista y el evento de éxito.
 
 * **[!UICONTROL Asignación]**: esta configuración determina cómo los eventos de éxito dividen el crédito entre los valores:
-   * **Completo**: Todos los valores de variables definidos antes de la caducidad de la variable obtienen crédito total por los eventos de éxito.
-   * **Lineal**: Todos los valores de variables definidos antes de la caducidad de la variable obtienen crédito dividido para los eventos de conversión.
-   * Los valores de las variables nunca se sobrescriben, sino que se añaden a los valores que obtienen crédito por los eventos de éxito.
+  * **Completo**: Todos los valores de variables definidos antes de la caducidad de la variable obtienen crédito total por los eventos de éxito.
+  * **Lineal**: Todos los valores de variables definidos antes de la caducidad de la variable obtienen crédito dividido para los eventos de conversión.
+  * Los valores de las variables nunca se sobrescriben, sino que se añaden a los valores que obtienen crédito por los eventos de éxito.
 
 * **[!UICONTROL Descripción]**: Una descripción de cómo su organización utiliza la variable de lista.
 

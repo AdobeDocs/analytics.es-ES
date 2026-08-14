@@ -20,8 +20,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 82%
+source-wordcount: 364
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 82%
 
 La &quot;Hora del día&quot; [dimension](overview.md) indica la hora numérica de cualquier día dado como un elemento de dimensión. Por ejemplo, si tiene un informe que abarca del 1 de enero al 7 de enero, la primera hora de cada día se agrupa en el mismo elemento de dimensión. Este informe es útil si desea un informe desglosado por hora del día relativa, pero no desea una hora estática como elementos de dimensión. Es especialmente útil como dimensión en los informes programados, ya que esta dimensión se desplaza con el intervalo de fechas seleccionado.
 
-Esta dimensión se basa en la zona horaria del grupo de informes y no en la del visitante. Por ejemplo, si el grupo de informes se encuentra en la zona Pacífico y un visitante de California visita el sitio a las 10:00 a. m., hora del Pacífico, los grupos de visitas se agrupan bajo el elemento de dimensión `11:00 AM`. Si desea una dimensión que registre la hora del visitante local, Adobe recomienda utilizar el complemento [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Esta dimensión se basa en la zona horaria del grupo de informes y no en la del visitante. Por ejemplo, si el grupo de informes se encuentra en la zona Pacífico y un visitante de California visita el sitio a las 10:00 a.m., hora del Pacífico, los grupos de visitas se agrupan bajo el elemento de dimensión `11:00 AM`. Si desea una dimensión que registre la hora del visitante local, Adobe recomienda utilizar el complemento [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Rellene esta dimensión con datos
 

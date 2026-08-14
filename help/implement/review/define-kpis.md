@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ Comience por comprender los objetivos empresariales, de modo que pueda elegir lo
 
 ## &#x200B;2. Formule una pregunta crucial
 
-Pregúntese a usted mismo: si su CEO estuviera atrapado en una isla y usted pudiera decirle solo 5 cosas acerca de la salud de la empresa, ¿cuáles serían esas cosas? Si le dijera que el tiempo promedio empleado en una página es de 1:30, eso no ayudaría en absoluto. Sin embargo, si le dijera que los ingresos promedios por visita fue de 2 dólares y que tenía 2 millones de visitas, eso le daría una verdadera indicación del éxito de la empresa.
+Pregúntese a usted mismo: si su CEO estuviera atrapado en una isla y usted pudiera decirle solo 5 cosas acerca de la salud de la empresa, ¿cuáles serían esas cosas? Si le dijera que el tiempo promedio empleado en una página era 1:30, eso no ayudaría en absoluto. Sin embargo, si le dijera que los ingresos promedios por visita fue de 2 dólares y que tenía 2 millones de visitas, eso le daría una verdadera indicación del éxito de la empresa.
 
 ## &#x200B;3. Recuerde cuáles son los KPI y cuáles no
 

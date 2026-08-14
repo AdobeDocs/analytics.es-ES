@@ -58,9 +58,9 @@ Otras cuestiones para tener en cuenta:
 * Si hay varios grupos de informes que se están poniendo en marcha o ampliando y que suman las cifras indicadas más arriba, el tiempo de espera se aplica como una suma del tráfico previsto para cada uno de ellos.
 * Disponga de la siguiente información para enviar un cambio de tráfico:
 
-   * ID del grupo de informes
-   * Visitas estimadas por día
-   * Fecha de entrada al modo de producción
+  * ID del grupo de informes
+  * Visitas estimadas por día
+  * Fecha de entrada al modo de producción
 
 * También son necesarias Alertas de cliente cuando el tráfico disminuye o un grupo de informes está obsoleto.
 

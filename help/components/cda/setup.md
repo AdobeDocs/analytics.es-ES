@@ -38,7 +38,8 @@ El departamento de ingeniería de Adobe ofrece las analíticas de varios disposi
 * El ID del grupo de informes perteneciente al grupo de informes entre dispositivos que desea habilitar con analíticas de varios dispositivos
 * Qué método de análisis multidispositivo desea utilizar (vinculación basada en el campo)
 * Si desea utilizar la vinculación basada en campos, el prop o eVar que contiene el ID de usuario
-* Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).
+* Su preferencia de frecuencia de repetición y longitud de retrospectiva. Las opciones incluyen una reproducción una vez a la semana con una ventana retrospectiva de 7 días o una reproducción cada día con una ventana retrospectiva de 1 día.
+El valor predeterminado es la reproducción semanal con una ventana retrospectiva de 7 días. En este caso, los datos de la última semana están sujetos a cambios (ya que se identifican y se actualizan progresivamente).
 
 Una vez que haya proporcionado esta información al Servicio de atención al cliente, estos se pondrán en contacto con el departamento de ingeniería de Adobe para habilitar el grupo de informes elegido para el procesamiento de analíticas de varios dispositivos.
 
