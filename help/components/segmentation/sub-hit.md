@@ -6,9 +6,9 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ En Adobe Analytics, el análisis de visitas secundarias se aplica específicamen
 
 En Adobe Analytics, la variable [Products](/help/components/dimensions/product.md) puede capturar varios productos con una sola visita. Sin el análisis de subvisitas, la segmentación en un atributo de producto devuelve todas las visitas en las que cualquier producto de una visita coincide con el atributo de producto. El resultado es una atribución incorrecta y métricas de ingresos infladas. El análisis de visitas secundarias establece el ámbito del filtro para filas de producto individuales dentro de una visita y resuelve estos problemas.
 
-En el análisis de subvisitas, la lógica de exclusión se comporta de forma diferente a la exclusión estándar en el nivel de visita con la variable Products. Cuando excluye atributos de producto dentro del contenedor [!UICONTROL Productos], el segmento devuelve visitas que **tienen productos** pero no coinciden con los criterios de exclusión. El segmento no devuelve visitas sin ningún producto.
+En el análisis de subvisitas, la lógica de exclusión se comporta de forma diferente a la exclusión estándar en el nivel de visita con la variable Products. Cuando excluye atributos de producto dentro del contenedor [!UICONTROL Productos], el segmento devuelve visitas que **tienen productos** pero no coinciden con los criterios de exclusión.
+
+En Adobe Analytics, cada visita tiene elementos de lista de productos aunque la visita no tenga un ID de producto. Como resultado, la lógica de exclusión del análisis de subvisitas devolverá visitas sin productos.
 
 ## Ejemplo
 
@@ -39,7 +41,8 @@ En el generador de segmentación o como parte de un **[!UICONTROL segmento rápi
 
 ![Panel que muestra la segmentación en el nivel de visita para la categoría de producto Hombres](./assets/product-category-segmentation-hits.png)
 
-Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**, y los ingresos de otros productos de esos pedidos se incluyen en la métrica **[!UICONTROL Ingresos en línea]**.Cuando se informa sobre categorías, se informa de todos los demás valores de **[!UICONTROL Venta minorista: Categoría de productos de moda]** que formaban parte de un pedido que incluía un producto con la **[!UICONTROL Categoría de productos de moda]** para hombres **[!UICONTROL Venta minorista]**.
+Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**, y los ingresos de otros productos de esos pedidos se incluyen en la métrica **[!UICONTROL Ingresos en línea]**.
+Cuando se informa sobre categorías, se informa de todos los demás valores de **[!UICONTROL Venta minorista: Categoría de productos de moda]** que formaban parte de un pedido que incluía un producto con la **[!UICONTROL Categoría de productos de moda]** para hombres **[!UICONTROL Venta minorista]**.
 
 >[!TAB Análisis de subvisitas]
 
@@ -47,7 +50,8 @@ En el generador de segmentación o como parte de un **[!UICONTROL segmento rápi
 
 ![Panel que muestra la segmentación en el nivel de subvisita para la categoría de productos Hombres](./assets/product-category-segmentation-sub-hits.png)
 
-Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**, y solo se incluyen los ingresos de productos que pertenecen a **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** para la métrica **[!UICONTROL Online Revenue]**.Cuando se informa sobre categorías, solo se informa sobre **[!UICONTROL Hombres]** **[!UICONTROL Comercio minorista: categoría de producto de moda]**.
+Como resultado, se tienen en cuenta todos los pedidos que contienen al menos **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**, y solo se incluyen los ingresos de productos que pertenecen a **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** para la métrica **[!UICONTROL Online Revenue]**.
+Cuando se informa sobre categorías, solo se informa sobre **[!UICONTROL Hombres]** **[!UICONTROL Comercio minorista: categoría de producto de moda]**.
 
 >[!TAB Análisis de subvisitas (excluir)]
 
