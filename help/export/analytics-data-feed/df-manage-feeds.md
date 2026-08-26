@@ -4,24 +4,20 @@ description: Obtenga información sobre cómo navegar por la interfaz de fuentes
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
 # Administración de fuentes de datos {#manage-data-feeds}
 
-El administrador de fuentes de datos le permite crear, editar y eliminar fuentes de datos para su organización. Si tiene permisos para acceder al administrador de fuentes de datos, puede administrar las fuentes de datos de todos los grupos de informes visibles para usted.
+El administrador de fuentes de datos le permite crear, editar y cancelar fuentes de datos para su organización. Si tiene permisos para acceder al administrador de fuentes de datos, puede administrar las fuentes de datos de todos los grupos de informes visibles para usted.
 
 
 >[!BEGINSHADEBOX]
@@ -140,15 +136,15 @@ Para activar una fuente de datos:
 
 1. Seleccione la casilla que está junto a la fuente de datos inactiva que desea activar y, a continuación, seleccione [!UICONTROL **Activar**].
 
-## Eliminar una fuente de datos
+## Cancelar una fuente de datos
 
-Al eliminar una fuente de datos, su estado se establece en [!UICONTROL Eliminada]. Las fuentes de datos deben tener el estado [!UICONTROL Activo] para poder eliminarse.
+Al cancelar una fuente de datos, su estado se establece en [!UICONTROL Cancelada]. Las fuentes de datos deben tener el estado [!UICONTROL Activo] para poder cancelarse.
 
-Para eliminar una fuente de datos:
+Para cancelar una fuente de datos:
 
 1. En Adobe Analytics, seleccione [!UICONTROL **Administrador**] > [!UICONTROL **Fuentes de datos**].
 
-1. Seleccione la casilla que está junto a la fuente de datos que desea eliminar y, a continuación, seleccione [!UICONTROL **Eliminar**].
+1. Seleccione la casilla que está junto a la fuente de datos que desea cancelar y, a continuación, seleccione [!UICONTROL **Cancelar**].
 
 ## Ordenar y personalizar columnas en el administrador de fuentes de datos
 
@@ -179,7 +175,7 @@ Para ajustar las columnas visibles en la tabla:
    * **Estado**: el estado de la fuente.
      * Activa: la fuente se está ejecutando.
      * Aprobación pendiente: en algunas circunstancias, una fuente requiere la aprobación de Adobe para poder empezar a generar trabajos.
-     * Eliminada: se elimina la fuente.
+     * Cancelada: la fuente se ha cancelado.
      * Completada: la fuente ha finalizado el procesamiento. Una fuente completada puede editarse, pausarse y cancelarse.
      * Pendiente: la fuente se crea pero aún no está activa. Las fuentes permanecen en este estado durante un corto periodo de transición.
      * Inactiva: equivalente a un estado “pausado” o “en espera”. Para obtener información sobre lo que sucede con las fuentes de relleno y las fuentes activas cuando se reactiva una fuente inactiva, consulte [Activar una fuente de datos](#activate-a-data-feed).
