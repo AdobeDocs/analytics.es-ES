@@ -4,22 +4,14 @@ title: Generar segmentos
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 73%
+source-wordcount: 2082
+ht-degree: 69%
 
 ---
 
@@ -100,7 +92,18 @@ Para añadir un componente, haga lo siguiente:
    * Puede usar ![Buscar](/help/assets/icons/Search.svg) en la barra de componentes para buscar componentes específicos.
    * Puede usar ![Filter](/help/assets/icons/Filter.svg) en la barra de componentes para filtrar ![Marca de verificación](/help/assets/icons/Checkmark.svg) **[!UICONTROL Aprobado]**, ![Estrella](/help/assets/icons/Star.svg) **[!UICONTROL Favoritos]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensiones]**, ![Evento](/help/assets/icons/Event.svg) **[!UICONTROL Métricas]**, ![Segmentación](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segmentos]**, ![Calendario](/help/assets/icons/Calendar.svg) Componentes de **[!UICONTROL intervalos de fechas]** y ![nivel](/help/assets/icons/Layer.svg) **[!UICONTROL productos]**. También puede filtrar las etiquetas ![Label](/help/assets/icons/Label.svg).
 1. Especifique los detalles del componente. Por ejemplo, seleccione un valor en **[!UICONTROL Seleccionar valor]**. O bien, introduzca un valor El hecho de especificar uno o varios valores y cómo hacerlo dependen del componente y del operador.
-1. Si lo desea, modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](../seg-reference/seg-operators.md) para obtener información general sobre los operadores disponibles.
+
+1. (Opcional) Habilite la opción para [!UICONTROL **Limitar los resultados al intervalo de fechas del informe**].
+
+   Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe si el segmento incluye componentes de intervalo de fechas.
+
+   Active esta opción para limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento.
+
+   Esta opción solo se muestra cuando se selecciona [!UICONTROL **Persona**] como el ámbito (contenedor) de su definición en el menú desplegable **[!UICONTROL Incluir]** o **[!UICONTROL Excluir]**.
+
+   **NOTA**: Esta funcionalidad se encuentra en la fase de prueba limitada de la versión y es posible que aún no esté disponible en su entorno. Esta nota se eliminará cuando la funcionalidad esté disponible de forma general. Para obtener información sobre el proceso de lanzamiento de Customer Journey Analytics, consulte [lanzamientos de características de Adobe Analytics](/help/release-notes/releases.md).
+
+1. (Opcional) Modifique el operador predeterminado. Por ejemplo, de **[!UICONTROL es igual a]** a **[!UICONTROL es igual a cualquiera de]**. Consulte [Operadores](../seg-reference/seg-operators.md) para obtener información general sobre los operadores disponibles.
 
 Para editar un componente:
 
@@ -148,7 +151,7 @@ Puede generar segmentos que contengan intervalos de fechas móviles. Por lo tant
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalos de fechas móviles en segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -271,7 +274,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +335,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
