@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,8 @@ Los conjuntos de clasificaciones admiten los siguientes formatos de archivo:
 
 * **JSON**: archivos de notación de objetos de JavaScript con datos estructurados
 * **CSV**: archivos de valores separados por comas
-* **TSV o TAB**: archivos de valores separados por tabulaciones
+* **TSV**: archivos de valores separados por tabuladores
+* **TAB**: archivos de valores separados por tabuladores con la extensión `.tab` (solo carga en el explorador; no compatible con la API)
 
 ## Requisitos generales de archivo
 
@@ -167,6 +168,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ Detalles de formato TSV y TAB
+
+>[!NOTE]
+>
+>Los archivos con la extensión `.tab` solo son compatibles con las cargas del explorador. La [API de clasificaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) no acepta el tipo de archivo `.tab`, aunque el contenido del archivo esté separado por tabulaciones. Para las cargas de API, use la extensión `.tsv` en su lugar (o `.json` o `.csv`).
 
 Los archivos TSV (valores separados por tabulaciones) y TAB utilizan caracteres de tabulación para separar los campos de datos de clasificación.
 
