@@ -13,10 +13,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 100%
+source-wordcount: 716
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ Puede cambiar el tiempo necesario para la definición de una visita a un interva
 
 ## Visitas que abarcan un límite de fecha
 
-Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:00 y envía su última solicitud de imagen el martes a las 00:00, en el informe aparecerá una visita atribuida tanto al lunes como al martes.:45:10 Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
+Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:45 y envía su última solicitud de imagen el martes a las 00:10, en el informe aparecerá una visita atribuida tanto al lunes como al martes. Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
 
 ## Visitas en una dimensión o visitas totales
 
@@ -68,4 +68,4 @@ Las visitas en el contexto de una dimensión (por ejemplo, [Canal de marketing](
 
 ## Visitas de todos los visitantes en Data Warehouse
 
-La métrica Visitas - Todos los visitantes está disponible en Data Warehouse además de la métrica Visitas. La métrica Visitas - Todos los visitantes es comparable a la métrica Visitas de otras herramientas de Analytics. La métrica Visitas de Data Warehouse excluye a los visitantes que no tienen cookies persistentes. Adobe recomienda usar Visitas - Todos los visitantes en solicitudes de Data Warehouse en las que se desean ver visitas como métricas.
+La métrica Visitas - Todos los visitantes está disponible en Data Warehouse en lugar de la métrica Visitas. La métrica Visitas - Todos los visitantes es comparable a la métrica Visitas de otras herramientas de Analytics. La métrica Visitas de Data Warehouse excluye a los visitantes que no tienen cookies persistentes. Adobe recomienda usar Visitas - Todos los visitantes en solicitudes de Data Warehouse en las que se desean ver visitas como métricas.
