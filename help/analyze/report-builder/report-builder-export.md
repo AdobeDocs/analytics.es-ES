@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 33%
+source-wordcount: 1297
+ht-degree: 32%
 
 ---
 
@@ -53,10 +53,6 @@ Utilice el siguiente proceso al exportar libros de Report Builder a la nube:
 ![Proceso de exportación descrito en los pasos del 1 al 4.](assets/report-builder-export-process.png)
 
 ## Exportación de un informe desde Report Builder
-
->[!NOTE]
->
->Antes de exportar los datos como se describe en esta sección, obtenga más información acerca de [el proceso de exportación](#understand-the-export-process) en la sección anterior.
 
 Para exportar informes desde Report Builder:
 
@@ -86,7 +82,7 @@ Para exportar informes desde Report Builder:
    | **[!UICONTROL Proteger el libro con contraseña]** | Especifique una contraseña para proteger el archivo exportado de modo que solo las personas con la contraseña puedan acceder a él. <p>Las contraseñas deben tener al menos 8 caracteres y contener al menos 1 número y 1 carácter especial (como `!`,`@`,`#` y `$`).</p> |
    | **[!UICONTROL Correo electrónico]** | Seleccione esta opción para enviar el archivo a una dirección de correo electrónico específica. Para obtener más información, vea [Programar libros compartiéndolos por correo electrónico](schedule-reportbuilder.md). |
    | **[!UICONTROL Otros envíos]** | Seleccione esta opción para enviar el archivo a una cuenta de la nube y, a continuación, utilice los menús desplegables de **[!UICONTROL Cuenta]** y **[!UICONTROL Ubicación]** que se describen a continuación para seleccionar la cuenta y la ubicación. |
-   | **[!UICONTROL Cuenta]** | Seleccione la cuenta de exportación a la nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:<ul><li>[!UICONTROL **Nombre de la cuenta de ubicación**]: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación </li><li>[!UICONTROL **Descripción de la ubicación de la cuenta**]: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**[!UICONTROL Poner la cuenta a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la cuenta. Tenga en cuenta lo siguiente a la hora de compartir cuentas:<ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul></li><li>[!UICONTROL **Tipo de cuenta**]: seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS y Azure RBAC.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el paso 6 en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y, a continuación, expanda la sección que corresponda al [!UICONTROL **tipo de cuenta**] que seleccionó. <p>Están disponibles los siguientes tipos de cuenta:</p><ul><li>ARN de función de Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
+   | **[!UICONTROL Cuenta]** | Seleccione la cuenta de exportación a la nube a la que desea enviar los datos. <p>O bien, si aún no ha configurado una cuenta en la nube que desee utilizar, puede configurar una nueva cuenta:<ol><li>Seleccione [!UICONTROL **Añadir cuenta**] y, a continuación, especifique la siguiente información:<ul><li>[!UICONTROL **Nombre de la cuenta de ubicación**]: especifique un nombre para la cuenta de ubicación. Este nombre aparece al crear una ubicación </li><li>[!UICONTROL **Descripción de la ubicación de la cuenta**]: proporcione una breve descripción de la cuenta para diferenciarla de otras cuentas del mismo tipo de cuenta.</li><li>**[!UICONTROL Poner la cuenta a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la cuenta. Tenga en cuenta lo siguiente a la hora de compartir cuentas:<ul><li>Las cuentas que comparta no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las cuentas compartidas.</li><li>Cualquiera puede crear una ubicación para la cuenta compartida.</li></ul></li><li>[!UICONTROL **Tipo de cuenta**]: seleccione el tipo de cuenta de nube a la que está exportando. Los tipos de cuenta disponibles son Amazon S3 Role ARN, Google Cloud Platform, Azure SAS y Azure RBAC.</li></ul><li>Para finalizar la configuración de la cuenta, continúe con el paso 6 en [Configurar cuentas de importación y exportación en la nube](/help/components/locations/configure-import-accounts.md) y, a continuación, expanda la sección que corresponda al [!UICONTROL **tipo de cuenta**] que seleccionó. <p>Están disponibles los siguientes tipos de cuenta:</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL Ubicación]** | Seleccione la ubicación de la cuenta a la que desea enviar los datos de exportación.<p>O bien, si aún no ha configurado la ubicación que desea utilizar en la cuenta seleccionada, puede configurar una nueva ubicación:<ol><li>Seleccione [!UICONTROL **Añadir ubicación**] y, a continuación, especifique la siguiente información: <ul><li>[!UICONTROL **Nombre**]: nombre de la ubicación.</li><li>[!UICONTROL **Descripción**]: proporcione una breve descripción de la ubicación para diferenciarla de otras ubicaciones del mismo tipo de ubicación.</li><li>**[!UICONTROL Poner la ubicación a disposición de todos los usuarios de su organización]**: seleccione esta opción para permitir que otros usuarios de su organización utilicen la ubicación. Tenga en cuenta lo siguiente a la hora de compartir cuentas:<ul><li>Las ubicaciones que comparte no se pueden dejar de compartir.</li><li>Solo el propietario de la cuenta puede editar las ubicaciones compartidas.</li><li>Las ubicaciones solo se pueden compartir si también se comparte la cuenta a la que está asociada la ubicación.</li></ul></li><li>[!UICONTROL **Ubicación de la cuenta**]: seleccione la cuenta en la que desea crear la ubicación.</li></ul><li>Para finalizar la configuración de la ubicación, continúe con el vínculo de abajo que corresponde al tipo de cuenta que seleccionó en el campo [!UICONTROL **Cuenta de ubicación**]:<ul><li>[ARN de la función Amazon S3](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL Mostrar opciones de horario]** | Seleccione esta opción para ver opciones adicionales para programar la exportación. Deje esta opción sin seleccionar si desea enviar la exportación solo una vez. Cuando esta opción no está seleccionada, la exportación se inicia inmediatamente. |
    | **[!UICONTROL A partir de]** | El día y la hora de inicio de la exportación programada. <p>Esta opción solo está disponible cuando se elige una frecuencia de exportación programada.</p> |
@@ -99,6 +95,9 @@ Para exportar informes desde Report Builder:
 
    Los datos se envían a la cuenta en la nube especificada con la frecuencia especificada.
 
+>[!NOTE]
+>
+>Una programación exporta la versión del libro que existía cuando se creó. Si posteriormente cambia y guarda el libro, la programación existente no recoge esos cambios y continúa exportando la versión original. Para exportar un libro actualizado, cree una nueva programación después de guardar los cambios.
 
 ## Ventajas de exportar a la nube
 
