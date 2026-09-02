@@ -4,21 +4,14 @@ title: Configuración del destino de un informe para una solicitud de Data Wareh
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 TQID: 'https://experienceleague.adobe.com/Afs4vP-j7tHMr2yx8Evojy-el6insIxLa4VRq0f9OSo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +148,7 @@ Para configurar el destino al que se envían los informes de Data Warehouse:
 
       >[!NOTE]
       >
-      >Las cuentas de correo electrónico solo se pueden usar con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md). (Las cuentas de correo electrónico no son compatibles con [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)).
+      >Las cuentas de correo electrónico solo se pueden usar con Data Warehouse. (Las cuentas de correo electrónico no son compatibles con [Fuentes de datos](/help/export/analytics-data-feed/create-feed.md) o [Conjuntos de clasificaciones](/help/components/classifications/sets/overview.md)).
 
       Para configurar una cuenta RBAC de Azure, especifique la siguiente información:
 
