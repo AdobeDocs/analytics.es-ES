@@ -28,17 +28,17 @@ Para usar estas métricas, habilita **[!UICONTROL Media Core]** en [[!UICONTROL 
 
 Las métricas disponibles son las siguientes:
 
-* [[!UICONTROL Público medio por minuto]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-minute-audience)
-* [[!UICONTROL Contenido finalizado]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)
-* [[!UICONTROL Flujos afectados por la pausa]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
-* [[!UICONTROL Pausar eventos]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)
-* [[!UICONTROL Duración total de la pausa]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)
-* [[!UICONTROL El contenido comienza]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
-* [[!UICONTROL Marcadores de progreso]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
-* [[!UICONTROL Reanudación del contenido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
-* [[!UICONTROL Vistas de segmentos de contenido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
-* [[!UICONTROL Comienzos de medios]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
-* [[!UICONTROL Tiempo invertido en contenido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
-* [[!UICONTROL Tiempo único reproducido]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
+* [[!UICONTROL Público medio por minuto]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/average-minute-audience)
+* [[!UICONTROL Contenido finalizado]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-completes)
+* [[!UICONTROL Flujos afectados por la pausa]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
+* [[!UICONTROL Pausar eventos]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/pause-events)
+* [[!UICONTROL Duración total de la pausa]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/total-pause-duration)
+* [[!UICONTROL El contenido comienza]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-starts)
+* [[!UICONTROL Marcadores de progreso]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/progress-markers)
+* [[!UICONTROL Reanudación del contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-resumes)
+* [[!UICONTROL Vistas de segmentos de contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL Comienzos de medios]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/media-starts)
+* [[!UICONTROL Tiempo invertido en contenido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL Tiempo único reproducido]](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/unique-time-played)
 
 Consulte [Dimensiones principales de los servicios de medios de streaming](../dimensions/sm-core.md) para ver las dimensiones correspondientes.

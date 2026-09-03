@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ## Cálculo de esta métrica
 
-Teniendo en cuenta cada [persona](people.md) (identificada o no identificada), esta [métrica](overview.md) aumenta si la visita contiene la cadena de consulta `mid` (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Teniendo en cuenta cada [persona](people.md) (identificada o no identificada), esta [métrica](overview.md) aumenta si la visita contiene la cadena de consulta `mid` (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Puede crear la métrica calculada `[People with ECID] ÷ [People]` para obtener el porcentaje de visitantes del sitio mediante el servicio de ID.
 
