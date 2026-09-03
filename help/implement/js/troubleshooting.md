@@ -107,9 +107,9 @@ Las implementaciones que rellenan muchas variables con valores largos a veces se
 * **Usar reglas de procesamiento**: Las [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
 
   Ejecutar siempre:<br>
-Sobrescribir el valor de prop1 con eVar1<br>
-Sobrescribir el valor de eVar2 con eVar1<br>
-Sobrescribir el valor de prop2 con eVar1<br>
+  Sobrescribir el valor de prop1 con eVar1<br>
+  Sobrescribir el valor de eVar2 con eVar1<br>
+  Sobrescribir el valor de prop2 con eVar1<br>
 
   Luego establezca eVar1 en la implementación:
 

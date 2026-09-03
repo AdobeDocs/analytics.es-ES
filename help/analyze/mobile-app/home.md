@@ -34,11 +34,11 @@ Para obtener más información sobre [!UICONTROL paneles de control] de Adobe An
 
 * [Recursos para los gestores de datos](/help/analyze/mobile-app/curator.md): diseñados para ayudar a los gestores de datos a configurar cuadros de resultados para sus usuarios ejecutivos en los [!UICONTROL paneles de control]. Los gestores de datos pueden ser administradores de la empresa o personas con otras funciones, y se encargan de configurar los informes de valoración:
 
-   * [Creación de cuadros de resultados](/help/analyze/mobile-app/create-scorecard.md)
-   * [Ayuda a que los ejecutivos configuren y usen la aplicación](/help/analyze/mobile-app/set-up-execs.md)
-   * Para ver un vídeo de información general sobre la experiencia de los gestores de datos, consulte [Generador del cuadro de resultados de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=es).
+  * [Creación de cuadros de resultados](/help/analyze/mobile-app/create-scorecard.md)
+  * [Ayuda a que los ejecutivos configuren y usen la aplicación](/help/analyze/mobile-app/set-up-execs.md)
+  * Para ver un vídeo de información general sobre la experiencia de los gestores de datos, consulte [Generador del cuadro de resultados de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=es).
 
 
 * [Guía rápida del usuario ejecutivo](/help/analyze/mobile-app/executive.md): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles de control]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivos móviles un amplio conjunto de datos de resumen importantes.
 
-   * Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=es).
+  * Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=es).

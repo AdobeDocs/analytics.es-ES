@@ -42,13 +42,13 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los requisitos previos siguientes:
 
 * La columna clave debe incluirse en la fuente de datos.
-   * Para `carrier.tsv`, debe incluir `carrier`.
-   * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
-   * Para `operating_system_type.tsv`, debe incluir `os`.
+  * Para `carrier.tsv`, debe incluir `carrier`.
+  * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
+  * Para `operating_system_type.tsv`, debe incluir `os`.
 * Las siguientes columnas deben estar **excluidas**. Si alguna de estas columnas se incluye en la fuente de datos, la búsqueda dinámica `mobile_attributes.tsv` no se incluye.
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 Una vez que la fuente de datos cumpla los requisitos de inclusión y exclusión de columnas, póngase en contacto con el Servicio de atención al cliente con el ID de la fuente de datos y solicite habilitar las búsquedas dinámicas.
 

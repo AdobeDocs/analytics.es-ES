@@ -192,7 +192,7 @@ Puede filtrar, ordenar y buscar la lista de proyectos en la página Migración d
 
 Puede filtrar por los siguientes criterios:
 
-| Filtrar | Descripción |
+| Filtro | Descripción |
 |---------|----------|
 | [!UICONTROL **Estado**] | El estado de la migración: <ul><li>[!UICONTROL **No iniciado**]</li><li>[!UICONTROL **Iniciado**]</li><li>[!UICONTROL **Completado**]</li><li>[!UICONTROL **Fallido**]</li></ul>. |
 | [!UICONTROL **Etiquetas**] | Seleccione cualquier etiqueta de la lista de etiquetas. Solo se muestran los proyectos que tienen las etiquetas seleccionadas aplicadas. |

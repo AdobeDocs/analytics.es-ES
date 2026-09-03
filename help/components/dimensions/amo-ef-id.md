@@ -67,9 +67,9 @@ Los elementos de Dimension incluyen identificadores de clic de anuncio generados
 * **`amovid`**: el ID de visitante de Adobe Advertising, también conocido como ID de internauta.
 * **`ts`**: marca de tiempo generada por Adobe Advertising.
 * **`channel`**: el tipo de canal responsable del clic o la exposición:
-   * **`d`**: un clic en un anuncio en pantalla de DSP (pulsación en pantalla).
-   * **`i`**: impresión en un anuncio en pantalla de DSP (visualización completa).
-   * **`s`**: un clic en un anuncio de búsqueda (pulsación de búsqueda).
+  * **`d`**: un clic en un anuncio en pantalla de DSP (pulsación en pantalla).
+  * **`i`**: impresión en un anuncio en pantalla de DSP (visualización completa).
+  * **`s`**: un clic en un anuncio de búsqueda (pulsación de búsqueda).
 
 ### Ejemplos
 

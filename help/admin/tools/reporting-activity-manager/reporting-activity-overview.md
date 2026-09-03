@@ -32,7 +32,7 @@ Si su organización experimenta una degradación en el rendimiento de creación 
 
 El Administrador de actividades de creación de informes ofrece las siguientes ventajas:
 
-* Le permite supervisar y administrar la capacidad de creación de informes de cada grupo de informes de su organización.
+* Le permite monitorizar y administrar la capacidad de creación de informes de cada grupo de informes de su organización.
 * Le informa, en tiempo real, sobre la capacidad actual de creación de informes entre sus grupos de informes.
 * Proporciona información detallada de las solicitudes de creación de informes actuales, tanto si están en cola como en curso.
 * Le permite optimizar la cola de creación de informes priorizando y cancelando solicitudes de creación de informes para liberar capacidad. Responde a preguntas como: ¿es necesario este informe en este momento o puedo cancelarlo para darle prioridad a informes más urgentes?

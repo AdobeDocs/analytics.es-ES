@@ -28,9 +28,9 @@ En este capítulo, se explican los conceptos que necesita conocer sobre los perf
 
 * Permisos
 
-   * [Perfiles de producto para Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Permisos de perfil de productos para las herramientas de grupo de informes](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Permisos de perfil de productos para las herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Perfiles de producto para Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+  * [Permisos de perfil de productos para las herramientas de grupo de informes](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Permisos de perfil de productos para las herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Añadir un administrador en Adobe Analytics
 

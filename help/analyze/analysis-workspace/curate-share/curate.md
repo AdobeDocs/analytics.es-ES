@@ -21,8 +21,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 75%
+source-wordcount: 539
+ht-degree: 76%
 
 ---
 

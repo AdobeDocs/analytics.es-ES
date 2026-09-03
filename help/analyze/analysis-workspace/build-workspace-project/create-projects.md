@@ -51,15 +51,15 @@ Ahora que ha creado un proyecto de Workspace en blanco, asegúrese de estar fami
 * Añadir [paneles](/help/analyze/analysis-workspace/c-panels/panels.md) a su proyecto Por ejemplo, la **[!DNL Example Panel]** ➊.
 
 * Añada [visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) a sus paneles. Por ejemplo:
-   * **[!DNL Line]** Visualización de [líneas](/help/analyze/analysis-workspace/visualizations/line.md) ➋
-   * **[!DNL US States]** Visualización de [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
+  * **[!DNL Line]** Visualización de [líneas](/help/analyze/analysis-workspace/visualizations/line.md) ➋
+  * **[!DNL US States]** Visualización de [tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
 * Añada [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) a sus visualizaciones. Por ejemplo:
-   * **[!DNL US States]** [dimensión](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [métrica](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [métrica calculada](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [segmento](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [intervalo de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [anotación](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [dimensión](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [métrica](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [métrica calculada](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [segmento](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [intervalo de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [anotación](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## Info y configuración del proyecto {#project-info-settings}

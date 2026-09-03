@@ -315,7 +315,7 @@ Para obtener más información sobre cómo implementar esta integración, consul
 | Segmento B de Nielsen | `nielsensegmentb` |
 | Segmento A de Nielsen | `nielsensegmenta` |
 | ID de contenido de Nielsen | `nielsencontentid` |
-| Programa/recurso Nielsen | `nielsenasset` |
+| Programa/recurso de Nielsen | `nielsenasset` |
 | VCID Nielsen | `nielsenvcid` |
 | Opción de exclusión de Nielsen | `nielsenoptout` |
 | ID + VCID de cliente de Nielsen | `nielsenclientidvcid` |

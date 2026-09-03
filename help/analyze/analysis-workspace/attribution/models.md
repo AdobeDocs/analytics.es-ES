@@ -40,7 +40,7 @@ El concepto de atribución en Adobe Analytics incluye tres componentes:
 {{attribution-container}}
 
 
-## Ventana de retroactividad
+## Período de retroactividad
 
 {{attribution-lookback-window}}
 

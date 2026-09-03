@@ -678,7 +678,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--bots"
 >title="Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar supervisando la actividad de los bots para poder identificar nuevos patrones."
+>abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar monitorizando la actividad de los bots para poder identificar nuevos patrones."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1051,7 +1051,7 @@ Las plantillas disponibles son las siguientes:
 | **Móvil** > **Mensajería de la aplicación móvil** | Vea los datos de rendimiento de la mensajería en la aplicación y la mensajería push para su aplicación.<p>**Esto puede ayudarle** a comprender mejor cómo usan las personas las funcionalidades de mensajería en la aplicación, así como la eficacia de las notificaciones push para dirigir el tráfico a su aplicación.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como mejorar la experiencia de la notificación push en la mensajería en la aplicación.</p><!-- This template uses the --> |
 | **Móvil** > **Rendimiento de la aplicación móvil** | Ver el rendimiento de su aplicación y dónde experimentan problemas los usuarios. <p>**Esto puede ayudarle** a comprender mejor si las personas que utilizan su aplicación experimentan lentitud o un rendimiento degradado. </p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como solucionar los problemas existentes o mejorar el rendimiento de su aplicación antes de que estos se produzcan.</p><!-- This template uses the --> |
 | **Móvil** > **Retención de aplicaciones móviles** | Vea qué usuarios son los más fieles a su aplicación y qué hacen dentro de ella. <p>**Esto puede ayudarle** a comprender mejor cómo utilizan su aplicación los usuarios más fieles.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como mejorar sus esfuerzos de marketing para las funciones que utilizan sus usuarios más fieles.</p><!-- This template uses the --> |
-| **Bots** | Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio. <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar supervisando la actividad de los bots para poder identificar nuevos patrones.</p><!-- This template uses the --> |
+| **Bots** | Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio. <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar monitorizando la actividad de los bots para poder identificar nuevos patrones.</p><!-- This template uses the --> |
 
 ### Adquisición {#web-acquisition}
 

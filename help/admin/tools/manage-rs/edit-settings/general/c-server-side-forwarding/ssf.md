@@ -66,12 +66,12 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: Tiene implementado el módulo Gestión de público, pero el reenvío de servidor no está configurado correctamente. Siga con el paso 3.
 * Una **imagen 2 x 2**: no tiene implementado el reenvío del lado del servidor o el módulo Gestión de público. Para corregir esto:
 
-   * **Clientes de Adobe Audience Manager con DIL**: se deben realizar los dos pasos siguientes en un breve tiempo:
+  * **Clientes de Adobe Audience Manager con DIL**: se deben realizar los dos pasos siguientes en un breve tiempo:
 
-      1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es).
-      1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
+    1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es).
+    1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
 
-   * **Nuevos clientes de Adobe Audience Manager**: instale el código de la página del [módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
+  * **Nuevos clientes de Adobe Audience Manager**: instale el código de la página del [módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 ## ![imagen step3_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Verificación de la implementación de reenvío de lado del servidor del grupo de informes
 

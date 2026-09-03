@@ -17,7 +17,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2424
+source-wordcount: 2429
 ht-degree: 4%
 
 ---
@@ -113,7 +113,7 @@ Identifique a los visitantes que visitaron una página y luego otra página solo
 
 ![Secuencia posterior](assets/sequence-after.png)
 
-Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 00:01.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
 ##### Operador [!UICONTROL Within]
 
@@ -121,7 +121,7 @@ Identificar a los visitantes que visitaron una página y luego otra en un plazo 
 
 ![Secuencia en](assets/sequence-within.png)
 
-Si el 1 de junio de 2024 se produce una vista de página de la página principal a las 12:01, se abrirá una vista de página para la página principal | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 12:16.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando esa vista de página se produzca antes del 15 de junio de 2024 a las 12:16.
 
 ##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
@@ -129,7 +129,7 @@ Identifique a los visitantes que visitaron una página y luego visitaron otra de
 
 ![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
 
-Cualquier visitante que visite la página principal el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califica para el segmento.
+Cualquier visitante que visite la página principal el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de Zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califican para el segmento.
 
 
 ### [!UICONTROL Visita individual], [!UICONTROL visita] y [!UICONTROL restricciones de Dimension]

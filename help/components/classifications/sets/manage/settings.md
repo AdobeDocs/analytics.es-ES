@@ -38,11 +38,11 @@ Para editar la configuración de un conjunto de clasificaciones:
    1. Agregue una o más **[!UICONTROL etiquetas (opcionales)]** al conjunto de clasificaciones. Seleccione una etiqueta existente del menú desplegable **[!UICONTROL Etiquetas]** o escriba una etiqueta nueva. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar una etiqueta.
    1. En la sección **[!UICONTROL Notificaciones de trabajo]**, seleccione a quién desea notificar en caso de error o éxito de los trabajos del conjunto de clasificación.
       * Para notificar un error a los usuarios:
-         1. habilitar **[!UICONTROL Notificar si se produce un error]**.
-         1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico con errores]**.
+        1. habilitar **[!UICONTROL Notificar si se produce un error]**.
+        1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico con errores]**.
       * Para notificar a los usuarios que se ha realizado correctamente:
-         1. Habilitar **[!UICONTROL Notificar si se realiza correctamente]**.
-         1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico de éxito]**.
+        1. Habilitar **[!UICONTROL Notificar si se realiza correctamente]**.
+        1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico de éxito]**.
    1. Editar las **[!UICONTROL suscripciones]**.
       * Puede definir varias combinaciones de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension]** en un conjunto de clasificaciones.
       * Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para eliminar una combinación de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension clave]**.

@@ -23,7 +23,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 11%
 
 ---
@@ -142,7 +142,7 @@ No, no se incluyen en el informe Canales de marketing.
 
 +++ ¿Cuándo se incorporan los datos de búsqueda a Analytics? 
 
-Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 6 a. m. (06:00) en la zona horaria del centro de datos de Analytics. Este es el momento en que los datos de AMO se recopilan y se insertan en el grupo de informes. A continuación, se convierten a la zona horaria del grupo de informes como parte del proceso de inserción de los datos en Analytics.
+Los datos de búsqueda se obtienen de los motores de búsqueda alrededor de las 6:00 a. m. en la zona horaria de su centro de datos de Analytics. Este es el momento en que los datos de AMO se recopilan y se insertan en el grupo de informes. A continuación, se convierten a la zona horaria del grupo de informes como parte del proceso de inserción de los datos en Analytics.
 
 +++
 

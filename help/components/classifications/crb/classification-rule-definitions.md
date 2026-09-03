@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 861
+source-wordcount: 865
 ht-degree: 67%
 
 ---
@@ -68,7 +68,7 @@ Esta página muestra las reglas en un conjunto de reglas.
    <td colname="col2"> <p>Rellene solo las celdas vacías (no establecidas). Las clasificaciones existentes no cambiarán. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ventana de retroactividad </p> </td> 
+   <td colname="col1"> <p>Ventana retroactiva </p> </td> 
    <td colname="col2"> <p>A la hora de activar y validar reglas, puede especificar si estas reglas deben sobrescribir las clasificaciones existentes de las claves afectadas. (Solo resultan afectadas las claves clasificadas que se han pasado previamente a <span class="keyword">Adobe Analytics</span> en el lapso de tiempo especificado). </p> <p>Si no desea especificar una ventana retrospectiva de <span class="term"></span>, las reglas se aplican aproximadamente al mes anterior (dependiendo del día actual del mes). Las clasificaciones existentes no se sobrescriben nunca, salvo que active esta opción. </p> <p><b>Centro de desarrolladores</b>: los socios pueden crear reglas de clasificación en el <span class="wintitle">Centro de desarrolladores</span>. Estas reglas se implementan cuando el cliente activa una integración. En el <span class="wintitle">Centro de desarrolladores</span>, la opción <span class="uicontrol">Sobrescribir desde</span> permite al socio especificar si el cliente puede determinar el valor de sobrescritura al activar o editar una integración. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Procesamiento de reglas</a> para obtener más información sobre cómo se procesan las reglas. </p> </td> 
   </tr> 
   <tr> 

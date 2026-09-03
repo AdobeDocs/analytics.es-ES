@@ -59,12 +59,12 @@ Para crear alertas adicionales,
    * **Fecha de caducidad**: De forma predeterminada, la fecha de caducidad es de un año a partir de la fecha de creación de la alerta.
    * **Enviar una alerta cuando**:
 
-      * Cualquiera de estas métricas Déclencheur
-Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
-         * mayor o igual que
-         * menor o igual que
-      * Con
-Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+     * Cualquiera de estas métricas Déclencheur
+       Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
+       * mayor o igual que
+       * menor o igual que
+     * Con
+       Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 

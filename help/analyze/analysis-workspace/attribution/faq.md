@@ -17,7 +17,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1214
 ht-degree: 71%
 
 ---
@@ -48,7 +48,7 @@ La tasa de salida hacia otro sitio siempre muestra 0% el 7 de septiembre en este
 Veamos otro ejemplo similar. La única diferencia entre el ejemplo siguiente y el ejemplo anterior son las fechas:
 
 1. Un usuario visita su página principal a las 11:55 p.m. del 31 de agosto.
-1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a. m. del 1 de septiembre.
+1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a.m. del 1 de septiembre.
 1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas del 1 de septiembre al 7 de septiembre.
 
 En este ejemplo, las entradas y la tasa de salida hacia otro sitio no mostraban datos del 31 de agosto. Tanto la ventana retroactiva como la ventana de creación de informes comienzan el 1 de septiembre, por lo que los datos no se pueden atribuir a partir del 31 de agosto.

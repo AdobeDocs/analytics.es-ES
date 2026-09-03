@@ -30,10 +30,10 @@ Tenga en cuenta los siguientes problemas al aplicar filtros de datos:
 
 * Puede utilizar comodines al definir el filtro de datos. Utilice un asterisco `*` para que coincida con cero o más caracteres y un signo de interrogación `?` para que coincida exactamente con un carácter. Utilice `?*` para que coincida con uno o más caracteres.
 * Normalmente, al aplicar ambos tipos de filtros de datos a una descarga, solo se descargan las filas que coinciden con ambas reglas. Sin embargo, se aplican las siguientes excepciones:
-   * Si Filas con columna vacía = Todas las columnas, se comprueba si todas las columnas, a excepción de la indicada en la primera regla, están vacías. Esta excepción garantiza que la herramienta descargue cualquier fila con una columna que coincida con la primera regla que también tenga todas las demás columnas vacías.
-   * Al descargar filas de datos basadas en columnas vacías, se comprueba si todas las columnas, excepto las especificadas en la primera regla, están vacías.
-   * Si se especifica la misma columna para ambas reglas de filtro (es casi imposible cumplir ambos criterios), solo se descargan las filas que coincidan con la primera regla.
-   * Las exportaciones de FTP tienen un límite de 30 columnas.
+  * Si Filas con columna vacía = Todas las columnas, se comprueba si todas las columnas, a excepción de la indicada en la primera regla, están vacías. Esta excepción garantiza que la herramienta descargue cualquier fila con una columna que coincida con la primera regla que también tenga todas las demás columnas vacías.
+  * Al descargar filas de datos basadas en columnas vacías, se comprueba si todas las columnas, excepto las especificadas en la primera regla, están vacías.
+  * Si se especifica la misma columna para ambas reglas de filtro (es casi imposible cumplir ambos criterios), solo se descargan las filas que coincidan con la primera regla.
+  * Las exportaciones de FTP tienen un límite de 30 columnas.
 
 ## Exportar clasificaciones a través del FTP
 

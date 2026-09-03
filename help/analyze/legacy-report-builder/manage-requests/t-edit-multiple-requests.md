@@ -46,7 +46,7 @@ Puede cambiar varias solicitudes al mismo tiempo en función del grupo de inform
    * **Por grupo de informes:** agrupa la visualización de las solicitudes por grupo de informes.
    * **Por segmento**: Agrupa las solicitudes en función del nombre del segmento.
 
-      * **Elegir segmento**: Muestra si no existen segmentos para las solicitudes. Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
+     * **Elegir segmento**: Muestra si no existen segmentos para las solicitudes. Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
 
    * **Por métrica:** Consulte [Editar métricas en varias solicitudes](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 

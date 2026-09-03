@@ -20,8 +20,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
-ht-degree: 90%
+source-wordcount: 1286
+ht-degree: 89%
 
 ---
 
@@ -107,9 +107,9 @@ Como los asistentes digitales son conversacionales, a menudo incluyen el concept
 
 **Google:** “Claro, ¿para cuándo lo quieres?”.
 
-**Consumidor:** &quot;8:30pm&quot;
+**Consumidor:** &quot;8:30 pm&quot;
 
-**Google:** &quot;Suena bien, el controlador llegará a las 8:30pm&quot;
+**Google:** &quot;Suena bien, el controlador llegará a las 8:30 pm&quot;
 
 Las sesiones son importantes para mantener el contexto y ayudar a recopilar más detalles para que el asistente digital sea más natural. Cuando se implementa Analytics en una conversación, hay dos cosas que deben hacerse al comienzo de una nueva sesión:
 

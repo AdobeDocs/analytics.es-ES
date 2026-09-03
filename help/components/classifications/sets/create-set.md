@@ -44,17 +44,17 @@ Para crear un conjunto de clasificaciones:
       * **[!UICONTROL Búsqueda]**. Normalmente denominada tabla de consulta como secundaria o subclasificaciones, es la clasificación de una clasificación principal. Una búsqueda es un metadato sobre un valor de clasificación, en lugar de la dimensión original. Por ejemplo, una dimensión *Product* puede tener una clasificación principal de *Código de color*. Se podría adjuntar una tabla de búsqueda de *Nombre de color* al *Código de color* para explicar cada código de color.
 1. En la sección **[!UICONTROL Notificaciones de trabajo]**, seleccione a quién desea notificar en caso de error o éxito de los trabajos del conjunto de clasificación.
    * Para notificar un error a los usuarios:
-      1. Habilitar **[!UICONTROL Notificar si se produce un error]**.
-      1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico con errores]**.
+     1. Habilitar **[!UICONTROL Notificar si se produce un error]**.
+     1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico con errores]**.
    * Para notificar a los usuarios que se ha realizado correctamente:
-      1. Habilitar **[!UICONTROL Notificar si se realiza correctamente]**.
-      1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico de éxito]**.
+     1. Habilitar **[!UICONTROL Notificar si se realiza correctamente]**.
+     1. Especifique una o más direcciones de correo electrónico separadas por comas en **[!UICONTROL Destinatarios de correo electrónico de éxito]**.
 1. En la sección **[!UICONTROL Suscripciones]**, en caso de que haya seleccionado **[!UICONTROL Principal]**, escriba una o más **[!UICONTROL Suscripciones]**.  Puede definir varias combinaciones de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension]** en un conjunto de clasificaciones.
 
    * Seleccione ![CrossSize400](/help/assets/icons/CrossSize400.svg) para eliminar una combinación de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension clave]**.
 
    Si agrega una combinación de **[!UICONTROL Grupo de informes]** y **[!UICONTROL Dimension de claves]** que ya existe en otro conjunto de clasificaciones, se mostrará un mensaje de color rojo.
-Puedes realizar lo siguiente:
+   Puedes realizar lo siguiente:
    * Seleccione **[!UICONTROL Agregar a]** existente para abrir el otro conjunto de clasificaciones y [agregar clasificaciones al esquema](manage/schema.md) para ese otro conjunto de clasificaciones.
    * Cambie **[!UICONTROL Report Suite]** y **[!UICONTROL Key Dimension]** por una combinación que ya no esté suscrita a otro conjunto de clasificaciones.
 1. Seleccione **[!UICONTROL Guardar]** para guardar el conjunto de clasificaciones. Seleccione **[!UICONTROL Cancelar]** para cancelar la definición.

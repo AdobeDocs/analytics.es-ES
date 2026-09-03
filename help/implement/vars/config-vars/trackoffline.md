@@ -40,8 +40,8 @@ Cuando está habilitada, AppMeasurement utiliza el siguiente proceso para enviar
 * Al compilar una solicitud de imagen, se incluye un parámetro de cadena de consulta de marca de tiempo.
 * Si el dispositivo no puede acceder a los servidores de recopilación de datos de Adobe, la visita se almacena localmente en el dispositivo.
 * Durante cada visita posterior, AppMeasurement intenta enviar una solicitud de imagen a Adobe.
-   * Si no puede acceder a los servidores de recopilación de datos de Adobe, la visita se agrega a la cola del dispositivo.
-   * Si puede acceder a los servidores de recopilación de datos de Adobe, se envían la visita y la cola de visitas mientras el dispositivo estaba sin conexión.
+  * Si no puede acceder a los servidores de recopilación de datos de Adobe, la visita se agrega a la cola del dispositivo.
+  * Si puede acceder a los servidores de recopilación de datos de Adobe, se envían la visita y la cola de visitas mientras el dispositivo estaba sin conexión.
 
 ## Seguimiento sin conexión mediante Web SDK
 

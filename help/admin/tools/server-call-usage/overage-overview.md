@@ -81,11 +81,11 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Periodo de uso </p> </td> 
-   <td colname="col2"> <p>Con fines de supervisión del uso de llamadas al servidor, esta asignación de llamadas al servidor total se desglosa en periodos de uso menores (como 3 meses) para facilitar las comparaciones anuales. </p> </td> 
+   <td colname="col2"> <p>Con fines de monitorización del uso de llamadas al servidor, esta asignación de llamadas al servidor total se desglosa en periodos de uso menores (como 3 meses) para facilitar las comparaciones anuales. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Periodo contractual </p> </td> 
-   <td colname="col2"> <p>Los periodos contractuales pueden ser de varios años. Digamos que su empresa tiene una asignación de llamadas al servidor de 6 millones de llamadas para un periodo contractual de 3 años. Con fines de supervisión del uso de llamadas al servidor, este periodo de 3 años se puede desglosar en periodos de uso menores para facilitar las comparaciones anuales. </p> </td> 
+   <td colname="col2"> <p>Los periodos contractuales pueden ser de varios años. Digamos que su empresa tiene una asignación de llamadas al servidor de 6 millones de llamadas para un periodo contractual de 3 años. Con fines de monitorización del uso de llamadas al servidor, este periodo de 3 años se puede desglosar en periodos de uso menores para facilitar las comparaciones anuales. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -16,8 +16,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1496
-ht-degree: 73%
+source-wordcount: 1508
+ht-degree: 72%
 
 ---
 
@@ -87,11 +87,11 @@ Para los rellenos de más de 10 días, Adobe recomienda encarecidamente utilizar
 
 ## ¿Cuál es el impacto del horario de verano en las fuentes de datos por hora? {#dst}
 
-En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2:00 AM).
+En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2 de la madrugada).
 
-Cuando realice las transiciones de tiempo STD -> DST (primavera hacia adelante), recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, recibirá un archivo correspondiente a la hora 1:00 y un archivo correspondiente a la hora 3:00. No hay ningún archivo de 2:00 porque, en 2:00 STD, se convierte en 3:00 DST.
+Cuando realice las transiciones de tiempo STD -> DST (primavera hacia adelante), recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, recibirá un archivo correspondiente a la 1 y un archivo correspondiente a las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
 
-Cuando realice transiciones de DST a STD (alternativa), recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2:00 a. m., el archivo de 1:00 se retrasará una hora, pero contendrá datos durante dos horas. Contiene datos de 1:00 DST a 2:00 STD (que habrían sido 3:00 DST). El siguiente archivo comienza en 2:00 STD.
+Cuando realice transiciones de DST a STD (alternativa), recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo comienza a las 2 STD.
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#ftp-failure}
 
