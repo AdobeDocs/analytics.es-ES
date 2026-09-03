@@ -5,27 +5,11 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 TQID: https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 634
@@ -41,17 +25,17 @@ Activity Map como concepto consta de varios componentes importantes:
 
 * **Configuración del grupo de informes**: un grupo de informes debe tener un Activity Map habilitado para que pueda empezar a utilizarlo. Consulte [Creación de informes de Activity Map](/help/admin/tools/manage-rs/edit-settings/activity-map.md) en la configuración del grupo de informes.
 * **Implementación**: La mayoría de la creación de informes de Activity Map está disponible de forma predeterminada. Sin embargo, algunos sitios web pueden requerir una implementación adicional para aprovechar al máximo el seguimiento de vínculos. Las variables de implementación siguientes están disponibles:
-   * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): Filtre datos de clics por nombre de vínculo.
-   * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): Filtre datos de clics por nombre de región.
-   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Cambie el atributo que rellena la dimensión Región de Activity Map.
-   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Personalice la lógica que utiliza Activity Map para rellenar la dimensión Vínculo de Activity Map.
-   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Personalice la lógica que utiliza Activity Map para rellenar la dimensión Región de Activity Map.
+  * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md): Filtre datos de clics por nombre de vínculo.
+  * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md): Filtre datos de clics por nombre de región.
+  * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): Cambie el atributo que rellena la dimensión Región de Activity Map.
+  * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): Personalice la lógica que utiliza Activity Map para rellenar la dimensión Vínculo de Activity Map.
+  * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): Personalice la lógica que utiliza Activity Map para rellenar la dimensión Región de Activity Map.
 * **Superposición**: Una extensión del explorador que le permite ver datos de clics superpuestos en el sitio web. Consulte [Interfaz de extensión de Activity Map](overlay/overview.md) para obtener más información. Esta función no está disponible para implementaciones de SDK web.
 * **Dimensiones**: Además de la extensión de superposición, Activity Map proporciona varias dimensiones que puede usar en Analysis Workspace.
-   * [Vínculo de Activity Map](/help/components/dimensions/activity-map-link.md): El nombre del vínculo donde se hizo clic.
-   * [Región de Activity Map](/help/components/dimensions/activity-map-region.md): El nombre de la región donde se hizo clic.
-   * [Página de Activity Map](/help/components/dimensions/activity-map-page.md): El nombre de la página en el momento en que se hizo clic en el vínculo.
-   * [Vínculo de Activity Map por región](/help/components/dimensions/activity-map-link-by-region.md): Un valor concatenado de vínculo de Activity Map y la región de Activity Map.
+  * [Vínculo de Activity Map](/help/components/dimensions/activity-map-link.md): El nombre del vínculo donde se hizo clic.
+  * [Región de Activity Map](/help/components/dimensions/activity-map-region.md): El nombre de la región donde se hizo clic.
+  * [Página de Activity Map](/help/components/dimensions/activity-map-page.md): El nombre de la página en el momento en que se hizo clic en el vínculo.
+  * [Vínculo de Activity Map por región](/help/components/dimensions/activity-map-link-by-region.md): Un valor concatenado de vínculo de Activity Map y la región de Activity Map.
 
 ## Funciones y ventajas
 

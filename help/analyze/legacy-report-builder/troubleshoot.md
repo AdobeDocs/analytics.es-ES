@@ -6,18 +6,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
@@ -50,8 +42,8 @@ Experimentará el siguiente efecto secundario al abrir un libro ARB v5.1 con sol
 Report Builder requiere autenticación para crear solicitudes de datos a partir de grupos de informes. A veces hay problemas al iniciar sesión en Report Builder, según la configuración en [!DNL Analytics] o la red.
 
 * **Empresa de inicio de sesión no válida**: este error se produce normalmente si se escribe incorrectamente el nombre de la empresa de inicio de sesión o si hay problemas de actividad de red. Haga lo siguiente:
-   * Revise el nombre de la compañía de inicio de sesión para asegurarse de que esté bien escrito y sin espacios innecesarios.
-   * Inicie sesión en Analytics con la misma empresa de inicio de sesión para asegurarse de que sea correcta. Si no puede iniciar sesión con esas credenciales, póngase en contacto con los administradores de su organización para que le faciliten el nombre correcto de la empresa de inicio de sesión.
+  * Revise el nombre de la compañía de inicio de sesión para asegurarse de que esté bien escrito y sin espacios innecesarios.
+  * Inicie sesión en Analytics con la misma empresa de inicio de sesión para asegurarse de que sea correcta. Si no puede iniciar sesión con esas credenciales, póngase en contacto con los administradores de su organización para que le faciliten el nombre correcto de la empresa de inicio de sesión.
 * **Firewall**: Report Builder usa los puertos 80 y 443. Asegúrese de que estos puertos tienen permiso de paso en el cortafuegos de su empresa. Consulte también las direcciones IP internas de Adobe para conocer otras exclusiones de cortafuegos.
 
 ## Recomendaciones para optimizar solicitudes {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -96,11 +88,11 @@ Esta sección incluye una lista de ejemplo de los mensajes de error que pueden p
 * **Salga de la celda de Excel seleccionada antes de usar esta característica.**: Si está en *modo de edición* en una celda de Excel y hace clic en uno de los iconos de Report Builder, aparecerá este mensaje de error. Estar en modo de edición en una celda de Excel significa que la celda está seleccionada y que el cursor aparece dentro de la celda. También se está en modo de edición en una celda de Excel cuando se escribe directamente en la barra de [!UICONTROL fórmulas] o en el [!UICONTROL cuadro de nombre] en la parte superior de Excel.
 * **El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.**: Este error aparecerá si ya ha asignado un conjunto de celdas a la hoja de cálculo.
 * **Repara el libro (Registros eliminados: Fórmula de la parte /xl/calcChain.xml)**: A veces, las fórmulas de un libro se dañan al guardarse o transferirse. Cuando se abre el archivo, Excel intenta ejecutar estas fórmulas y falla. Para resolver este problema, elimine `calcChain.xml` de la hoja de cálculo y Excel actualizará los cálculos de la fórmula.
-   1. Cambie el nombre de la extensión de archivo del libro de `.xlsx` a `.zip`.
-   2. Descomprima el contenido y abra la carpeta `/xl/`.
-   3. Eliminar `calcChain.xml`.
-   4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
-   5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
+  1. Cambie el nombre de la extensión de archivo del libro de `.xlsx` a `.zip`.
+  2. Descomprima el contenido y abra la carpeta `/xl/`.
+  3. Eliminar `calcChain.xml`.
+  4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
+  5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
 * **Las celdas de Excel asociadas con los filtros de entrada o el rango de salida pueden haberse eliminado**: Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina los nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
 
 ## Solicitudes de registro

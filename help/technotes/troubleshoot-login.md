@@ -4,15 +4,10 @@ description: Pasos a seguir cuando no se puede iniciar sesión en Adobe Analytic
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 607
@@ -30,7 +25,7 @@ Adobe Analytics utiliza varios métodos de autenticación para iniciar sesión:
 
 **Si accede con regularidad a Analytics y comienza a encontrar problemas de inicio de sesión de forma aleatoria, la mayoría de los problemas se resuelven al borrar las cookies y la caché del explorador.**
 
-Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com/es-es) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
+Ocasionalmente, los problemas de disponibilidad pueden afectar a la capacidad de iniciar sesión. Compruebe en [status.adobe.com](https://status.adobe.com) si hay algún incidente abierto. De lo contrario, utilice la sección adecuada según el método de autenticación de su organización.
 
 ## Adobe ID
 

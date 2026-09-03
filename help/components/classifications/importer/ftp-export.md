@@ -4,15 +4,10 @@ description: La exportación a FTP ofrece más flexibilidad con las descargas de
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 632
@@ -30,10 +25,10 @@ Tenga en cuenta los siguientes problemas al aplicar filtros de datos:
 
 * Puede utilizar comodines al definir el filtro de datos. Utilice un asterisco `*` para que coincida con cero o más caracteres y un signo de interrogación `?` para que coincida exactamente con un carácter. Utilice `?*` para que coincida con uno o más caracteres.
 * Normalmente, al aplicar ambos tipos de filtros de datos a una descarga, solo se descargan las filas que coinciden con ambas reglas. Sin embargo, se aplican las siguientes excepciones:
-   * Si Filas con columna vacía = Todas las columnas, se comprueba si todas las columnas, a excepción de la indicada en la primera regla, están vacías. Esta excepción garantiza que la herramienta descargue cualquier fila con una columna que coincida con la primera regla que también tenga todas las demás columnas vacías.
-   * Al descargar filas de datos basadas en columnas vacías, se comprueba si todas las columnas, excepto las especificadas en la primera regla, están vacías.
-   * Si se especifica la misma columna para ambas reglas de filtro (es casi imposible cumplir ambos criterios), solo se descargan las filas que coincidan con la primera regla.
-   * Las exportaciones de FTP tienen un límite de 30 columnas.
+  * Si Filas con columna vacía = Todas las columnas, se comprueba si todas las columnas, a excepción de la indicada en la primera regla, están vacías. Esta excepción garantiza que la herramienta descargue cualquier fila con una columna que coincida con la primera regla que también tenga todas las demás columnas vacías.
+  * Al descargar filas de datos basadas en columnas vacías, se comprueba si todas las columnas, excepto las especificadas en la primera regla, están vacías.
+  * Si se especifica la misma columna para ambas reglas de filtro (es casi imposible cumplir ambos criterios), solo se descargan las filas que coincidan con la primera regla.
+  * Las exportaciones de FTP tienen un límite de 30 columnas.
 
 ## Exportar clasificaciones a través del FTP
 

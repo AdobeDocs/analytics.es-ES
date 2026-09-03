@@ -4,19 +4,13 @@ title: Definiciones de reglas de clasificación
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 861
+source-wordcount: 865
 ht-degree: 67%
 
 ---
@@ -68,7 +62,7 @@ Esta página muestra las reglas en un conjunto de reglas.
    <td colname="col2"> <p>Rellene solo las celdas vacías (no establecidas). Las clasificaciones existentes no cambiarán. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ventana de retroactividad </p> </td> 
+   <td colname="col1"> <p>Ventana retroactiva </p> </td> 
    <td colname="col2"> <p>A la hora de activar y validar reglas, puede especificar si estas reglas deben sobrescribir las clasificaciones existentes de las claves afectadas. (Solo resultan afectadas las claves clasificadas que se han pasado previamente a <span class="keyword">Adobe Analytics</span> en el lapso de tiempo especificado). </p> <p>Si no desea especificar una ventana retrospectiva de <span class="term"></span>, las reglas se aplican aproximadamente al mes anterior (dependiendo del día actual del mes). Las clasificaciones existentes no se sobrescriben nunca, salvo que active esta opción. </p> <p><b>Centro de desarrolladores</b>: los socios pueden crear reglas de clasificación en el <span class="wintitle">Centro de desarrolladores</span>. Estas reglas se implementan cuando el cliente activa una integración. En el <span class="wintitle">Centro de desarrolladores</span>, la opción <span class="uicontrol">Sobrescribir desde</span> permite al socio especificar si el cliente puede determinar el valor de sobrescritura al activar o editar una integración. </p> <p>Consulte <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Procesamiento de reglas</a> para obtener más información sobre cómo se procesan las reglas. </p> </td> 
   </tr> 
   <tr> 

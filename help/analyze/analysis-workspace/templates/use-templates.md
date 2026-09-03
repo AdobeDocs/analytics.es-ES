@@ -5,36 +5,11 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e7d92df1-c5ba-4e93-85df-f83171b889beid: e9cb007b-c8b7-4975-bc81-11a788c535faid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18746
@@ -678,7 +653,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--bots"
 >title="Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio."
->abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar supervisando la actividad de los bots para poder identificar nuevos patrones."
+>abstract="**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar monitorizando la actividad de los bots para poder identificar nuevos patrones."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1051,7 +1026,7 @@ Las plantillas disponibles son las siguientes:
 | **Móvil** > **Mensajería de la aplicación móvil** | Vea los datos de rendimiento de la mensajería en la aplicación y la mensajería push para su aplicación.<p>**Esto puede ayudarle** a comprender mejor cómo usan las personas las funcionalidades de mensajería en la aplicación, así como la eficacia de las notificaciones push para dirigir el tráfico a su aplicación.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como mejorar la experiencia de la notificación push en la mensajería en la aplicación.</p><!-- This template uses the --> |
 | **Móvil** > **Rendimiento de la aplicación móvil** | Ver el rendimiento de su aplicación y dónde experimentan problemas los usuarios. <p>**Esto puede ayudarle** a comprender mejor si las personas que utilizan su aplicación experimentan lentitud o un rendimiento degradado. </p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como solucionar los problemas existentes o mejorar el rendimiento de su aplicación antes de que estos se produzcan.</p><!-- This template uses the --> |
 | **Móvil** > **Retención de aplicaciones móviles** | Vea qué usuarios son los más fieles a su aplicación y qué hacen dentro de ella. <p>**Esto puede ayudarle** a comprender mejor cómo utilizan su aplicación los usuarios más fieles.</p><p>**A partir de lo que aprenda, puede** hacer muchas cosas, como mejorar sus esfuerzos de marketing para las funciones que utilizan sus usuarios más fieles.</p><!-- This template uses the --> |
-| **Bots** | Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio. <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar supervisando la actividad de los bots para poder identificar nuevos patrones.</p><!-- This template uses the --> |
+| **Bots** | Ver las vistas de página y las tendencias relativas al tráfico de bots en el sitio. <p>**Esto puede ayudarle** a comprender mejor la cantidad de tráfico de bots que se filtra desde la creación de informes, según las reglas de bots que haya configurado.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como continuar monitorizando la actividad de los bots para poder identificar nuevos patrones.</p><!-- This template uses the --> |
 
 ### Adquisición {#web-acquisition}
 

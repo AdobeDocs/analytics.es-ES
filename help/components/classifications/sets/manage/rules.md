@@ -4,14 +4,10 @@ description: Aprenda a utilizar las reglas de conjuntos de clasificaciones para 
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1692
@@ -37,21 +33,21 @@ Para definir un conjunto de reglas para un conjunto de clasificaciones:
 
    * Si accede a la interfaz **[!UICONTROL Rules]** por primera vez para un conjunto de clasificaciones, o ha decidido hasta ahora seguir utilizando la interfaz heredada del generador de reglas, se le mostrará un cuadro de diálogo que le permitirá seleccionar cómo empezar. Las opciones son:
 
-      * **Migrar reglas existentes**. Importe las reglas de clasificación actuales y continúe trabajando con ellas en la nueva interfaz. Las reglas existentes se conservan y se convierten al nuevo formato.
-         * Seleccione **[!UICONTROL Migrar reglas]** para continuar.
-         * En el diálogo **[!UICONTROL Confirmar migración]**, lea las implicaciones de la migración.
-            * Seleccione **[!UICONTROL Migrar reglas]** para confirmar la migración. Una vez completada la migración, use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas y editar las reglas migradas existentes.
-            * Seleccione **[!UICONTROL Cancelar]** para cancelar la migración
+     * **Migrar reglas existentes**. Importe las reglas de clasificación actuales y continúe trabajando con ellas en la nueva interfaz. Las reglas existentes se conservan y se convierten al nuevo formato.
+       * Seleccione **[!UICONTROL Migrar reglas]** para continuar.
+       * En el diálogo **[!UICONTROL Confirmar migración]**, lea las implicaciones de la migración.
+         * Seleccione **[!UICONTROL Migrar reglas]** para confirmar la migración. Una vez completada la migración, use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas y editar las reglas migradas existentes.
+         * Seleccione **[!UICONTROL Cancelar]** para cancelar la migración
 
-      * **Empiece de nuevo**. Cree nuevas reglas de clasificación desde cero con el nuevo generador de reglas. Seleccione esta opción si desea volver a diseñar la lógica de clasificación o empezar de nuevo con nuevas reglas de clasificación.
-         * Seleccione **[!UICONTROL Crear nuevas reglas]** para continuar.
-         * En el cuadro de diálogo **[!UICONTROL Confirmar inicio reciente]**, lea las implicaciones de un nuevo inicio.
-            * Seleccione **[!UICONTROL Comenzar de nuevo]** para confirmar un nuevo inicio y descartar las reglas existentes. Use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas.
-            * Seleccione **[!UICONTROL Cancelar]** para cancelar.
+     * **Empiece de nuevo**. Cree nuevas reglas de clasificación desde cero con el nuevo generador de reglas. Seleccione esta opción si desea volver a diseñar la lógica de clasificación o empezar de nuevo con nuevas reglas de clasificación.
+       * Seleccione **[!UICONTROL Crear nuevas reglas]** para continuar.
+       * En el cuadro de diálogo **[!UICONTROL Confirmar inicio reciente]**, lea las implicaciones de un nuevo inicio.
+         * Seleccione **[!UICONTROL Comenzar de nuevo]** para confirmar un nuevo inicio y descartar las reglas existentes. Use la [interfaz del conjunto de reglas](#rule-set-interface) para crear nuevas reglas.
+         * Seleccione **[!UICONTROL Cancelar]** para cancelar.
 
 
-      * **Usar interfaz heredada**. Continúe utilizando la interfaz anterior del generador de reglas. Puede migrar a la nueva experiencia en cualquier momento cuando esté listo.
-         * Seleccione **[!UICONTROL Ir a la interfaz heredada]** para continuar. Se le dirigirá a la interfaz heredada de **[!UICONTROL Generador de reglas de clasificación]**.
+     * **Usar interfaz heredada**. Continúe utilizando la interfaz anterior del generador de reglas. Puede migrar a la nueva experiencia en cualquier momento cuando esté listo.
+       * Seleccione **[!UICONTROL Ir a la interfaz heredada]** para continuar. Se le dirigirá a la interfaz heredada de **[!UICONTROL Generador de reglas de clasificación]**.
 
    * Si ya ha migrado reglas o ha creado nuevas reglas para un conjunto de clasificaciones, acaba directamente en la interfaz del conjunto de reglas.
 

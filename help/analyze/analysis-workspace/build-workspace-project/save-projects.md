@@ -5,14 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 TQID: https://experienceleague.adobe.com/pw-VxFevFMNZ25B4-7KzpIasfnhELjtG-5k3FV2CxQk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 860
@@ -46,15 +41,15 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
   ![Guardar proyecto](assets/save-project.png)
 
-   1. Especifique lo siguiente:
+  1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-      * **[!UICONTROL Descripción]** Descripción del proyecto.
-      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
-      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
-      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
+     * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
+     * **[!UICONTROL Descripción]** Descripción del proyecto.
+     * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
+     * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
+     * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
+  1. Seleccione **[!UICONTROL Guardar]** para guardar el esquema.
 
   Al guardar el proyecto, se guardará una versión del proyecto que se almacena durante 90 días.
 
@@ -62,8 +57,8 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
   ![Guardar proyecto compartido](assets/save-project-shared.png)
 
-   * Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
-   * Seleccione **[!UICONTROL Guardar como]** para guardar el proyecto como un proyecto duplicado con un nombre nuevo.
+  * Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
+  * Seleccione **[!UICONTROL Guardar como]** para guardar el proyecto como un proyecto duplicado con un nombre nuevo.
 
 
 * **[!UICONTROL Guardar con notas]**
@@ -72,8 +67,8 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
   Al guardar el proyecto, añada notas sobre los cambios realizados. En el cuadro de diálogo Guardar notas de la versión:
 
-   1. Escriba sus **[!UICONTROL notas de la versión]** en el área de texto **[!UICONTROL Aañadir notas]**.
-   1. Seleccione **[!UICONTROL Guardar]**.
+  1. Escriba sus **[!UICONTROL notas de la versión]** en el área de texto **[!UICONTROL Aañadir notas]**.
+  1. Seleccione **[!UICONTROL Guardar]**.
 
   Las notas se almacenan con la versión del proyecto y están disponibles al [abrir una versión anterior](open-projects.md#open-previous-version) del proyecto. Las versiones guardadas con notas se almacenarán automáticamente durante un año.
 
@@ -83,15 +78,15 @@ Para guardar un proyecto manualmente, con su proyecto abierto en Analysis Worksp
 
   Cree un duplicado del proyecto con un nombre nuevo. Se muestra el cuadro de diálogo Guardar como.
 
-   1. Especifique lo siguiente:
+  1. Especifique lo siguiente:
 
-      * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
-      * **[!UICONTROL Descripción]** Descripción del proyecto.
-      * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
-      * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
-      * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
+     * **[!UICONTROL Nombre]** (obligatorio). nombre del proyecto.
+     * **[!UICONTROL Descripción]** Descripción del proyecto.
+     * **[!UICONTROL Etiquetas]** Busque etiquetas en el campo [!UICONTROL *Buscar etiquetas*] o añada nuevas etiquetas usando **[!UICONTROL ENTRAR]**.
+     * **[!UICONTROL Carpeta]** Seleccione una carpeta en el menú desplegable [!UICONTROL *Seleccionar una carpeta*]. Si no especifica una carpeta, el proyecto se guardará en la carpeta actual desde la que creó un nuevo proyecto.
+     * **[!UICONTROL Notas de la versión]**. Añada notas de la versión en el área de texto *Añadir notas*.
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
+  1. Seleccione **[!UICONTROL Guardar]** para guardar el proyecto.
 
   Puede guardar el proyecto en una carpeta diferente. El proyecto original no se verá afectado.
 

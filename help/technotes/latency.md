@@ -5,18 +5,10 @@ title: Disponibilidad y latencia de los datos
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 823
@@ -41,7 +33,7 @@ La latencia es un retraso que supera el periodo de dos horas que suelen tardan l
 La latencia está causada por una de las siguientes categorías generales:
 
 * **Pico de tráfico inesperado:** Este tipo de latencia se produce cuando un grupo de informes recibe un volumen de datos superior a lo esperado o a lo que se había acordado mediante contrato. Es la causa más común de latencia.
-* **Problemas normales de hardware:** Adobe emplea estrategias de primer nivel en la administración y supervisión del centro de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. La reparación de emergencia del hardware defectuoso puede exigir una parada obligatoria y provisional en el procesamiento de los datos (no en la recopilación) mientras el nuevo hardware se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
+* **Problemas normales de hardware:** Adobe emplea estrategias de primer nivel en la administración y monitorización del centro de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. La reparación de emergencia del hardware defectuoso puede exigir una parada obligatoria y provisional en el procesamiento de los datos (no en la recopilación) mientras el nuevo hardware se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
 * **Datos anormales:** los patrones de datos no naturales, como las visitas inusualmente largas causadas por un bot o un rastreador, pueden incrementar temporalmente determinadas cargas de procesamiento, provocando una latencia.
 
 ## Funciones que dependen de la latencia
@@ -67,4 +59,4 @@ Existen varias estrategias para evitar la latencia o reducir el tiempo de recupe
 
 ## Indicaciones sobre la latencia
 
-Es importante señalar que, cuando se produce latencia, Adobe supervisa activamente los canales de procesamiento y hace todo lo posible para restaurar el tiempo de procesamiento a la normalidad lo antes posible. Muchos de los problemas de latencia se resuelven en unas horas. Para obtener información sobre un grupo de informes determinado, debe solicitarse a un usuario de asistencia técnica de la organización que averigüe el ID del grupo de informes que está experimentando la latencia y que se ponga en contacto con el Servicio de atención al cliente. El representante de Adobe puede validar la latencia e informará al usuario cuando el problema mejore y se resuelva.
+Es importante señalar que, cuando se produce latencia, Adobe monitoriza activamente los canales de procesamiento y hace todo lo posible para restaurar el tiempo de procesamiento a la normalidad lo antes posible. Muchos de los problemas de latencia se resuelven en unas horas. Para obtener información sobre un grupo de informes determinado, debe solicitarse a un usuario de asistencia técnica de la organización que averigüe el ID del grupo de informes que está experimentando la latencia y que se ponga en contacto con el Servicio de atención al cliente. El representante de Adobe puede validar la latencia e informará al usuario cuando el problema mejore y se resuelva.

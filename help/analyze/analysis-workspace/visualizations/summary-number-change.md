@@ -6,21 +6,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
 TQID: https://experienceleague.adobe.com/d8sqa6xvvXnh4qJlJua3bTCHsmm7yjcVWbMabTcJdrI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 546
 ht-degree: 89%
 
 ---
@@ -29,13 +21,13 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta las visualizaciones Número de resumen y Cambio de resumen en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualización Número de resumen y Cambio de resumen](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +55,7 @@ Como parte de la configuración de visualización, hay disponibles opciones espe
 
 | Opción | Definición |
 |--- |--- |
-| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviatura**</td><td>**Resultado**</td></tr><tr><td>$12,011,141.25</td><td>No seleccionado</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `0`</td><td align="right">12 mills. USD</td></tr><tr><td>$12,011,141.25</td><td> Seleccionado, establecido en `1`</td><td  align="right">12,0 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `2`</td><td align="right">12,01 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `3`</td><td align="right">12,011 mills. USD</td></tr></table> |
+| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor numérico. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviatura**</td><td>**Resultado**</td></tr><tr><td>12.011.141,25 USD</td><td>No seleccionado</td><td  align="right">12.011.141,25 USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `0`</td><td align="right">12 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td> Seleccionado, establecido en `1`</td><td  align="right">12,0 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `2`</td><td align="right">12,01 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `3`</td><td align="right">12,011 mills. USD</td></tr></table> |
 | **[!UICONTROL Valor de resumen por]** | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
 ## Cambio de resumen {#summary-change}
@@ -103,7 +95,7 @@ Como parte de la configuración de visualización, hay **[!UICONTROL opciones de
 |--- |--- |
 | **[!UICONTROL Mostrar el porcentaje de cambio]** | Muestra el cambio porcentual entre los 2 números. |
 | **[!UICONTROL Mostrar diferencia en bruto]** | Muestra la diferencia en bruto entre los 2 números. También puede abreviar valores y mostrar hasta 3 decimales con esta opción. |
-| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor cambiado. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviatura**</td><td>**Resultado**</td></tr><tr><td>$12,011,141.25</td><td>No seleccionado</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `0`</td><td align="right">12 mills. USD</td></tr><tr><td>$12,011,141.25</td><td> Seleccionado, establecido en `1`</td><td  align="right">12,0 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `2`</td><td align="right">12,01 mills. USD</td></tr><tr><td>$12,011,141.25</td><td>Seleccionado, establecido en `3`</td><td align="right">12,011 mills. USD</td></tr></table> |
+| **[!UICONTROL Valor abreviado]** | Seleccione **[!UICONTROL Abreviar valor]** para abreviar de forma inteligente el valor cambiado. Cuando esta opción esté seleccionada, introduzca un número para definir la cantidad de abreviatura. Por ejemplo:<br/><table><tr><td>**Valor original**</td><td>**Valor de abreviatura**</td><td>**Resultado**</td></tr><tr><td>12.011.141,25 USD</td><td>No seleccionado</td><td  align="right">12.011.141,25 USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `0`</td><td align="right">12 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td> Seleccionado, establecido en `1`</td><td  align="right">12,0 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `2`</td><td align="right">12,01 mills. USD</td></tr><tr><td>12.011.141,25 USD</td><td>Seleccionado, establecido en `3`</td><td align="right">12,011 mills. USD</td></tr></table> |
 
 >[!MORELIKETHIS]
 >

@@ -4,15 +4,10 @@ description: Obtenga información sobre qué son las búsquedas dinámicas y có
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
@@ -42,13 +37,13 @@ Las búsquedas dinámicas permiten recibir archivos de búsqueda adicionales en 
 Si desea recibir los archivos de búsqueda mencionados, debe cumplir todos los requisitos previos siguientes:
 
 * La columna clave debe incluirse en la fuente de datos.
-   * Para `carrier.tsv`, debe incluir `carrier`.
-   * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
-   * Para `operating_system_type.tsv`, debe incluir `os`.
+  * Para `carrier.tsv`, debe incluir `carrier`.
+  * Para `mobile_attributes.tsv`, debe incluir `mobile_id`.
+  * Para `operating_system_type.tsv`, debe incluir `os`.
 * Las siguientes columnas deben estar **excluidas**. Si alguna de estas columnas se incluye en la fuente de datos, la búsqueda dinámica `mobile_attributes.tsv` no se incluye.
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 Una vez que la fuente de datos cumpla los requisitos de inclusión y exclusión de columnas, póngase en contacto con el Servicio de atención al cliente con el ID de la fuente de datos y solicite habilitar las búsquedas dinámicas.
 

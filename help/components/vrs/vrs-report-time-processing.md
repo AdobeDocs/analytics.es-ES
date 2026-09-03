@@ -6,27 +6,11 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1354
@@ -65,7 +49,7 @@ Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habili
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inicio de una nueva visita con evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -100,12 +84,12 @@ Las siguientes dimensiones y métricas no son compatibles con Procesamiento de i
 A continuación se ofrece una lista de dimensiones y métricas que pueden verse afectadas por la configuración seleccionada para Procesamiento de intervalo de tiempo:
 
 * Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, se producirán los siguientes cambios: Consulte [Creación de sesiones según el contexto](vrs-mobile-visit-processing.md) para obtener más información.
-   * [**Devoluciones**](/help/components/metrics/bounces.md) / [**Tasa de devoluciones:**](/help/components/metrics/bounce-rate.md) Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de devoluciones.
-   * [**Tiempo empleado en segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) Solo las visitas que incluyen visitas individuales que se producen en primer plano contribuyen a esta métrica.
-   * **Tiempo empleado por visita:** Solo las visitas que incluyen visitas individuales en primer plano contribuyen a esta métrica.
-   * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de salida:**](/help/components/metrics/exits.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
-   * [**Dimensión de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensiones de salida:**](/help/components/dimensions/exit-dimensions.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
-   * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) En los visitantes únicos no se incluyen los visitantes que solo tuvieron visitas individuales en segundo plano en el intervalo de fechas del informe.
+  * [**Devoluciones**](/help/components/metrics/bounces.md) / [**Tasa de devoluciones:**](/help/components/metrics/bounce-rate.md) Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de devoluciones.
+  * [**Tiempo empleado en segundos por visita:**](/help/components/metrics/time-spent-per-visit.md) Solo las visitas que incluyen visitas individuales que se producen en primer plano contribuyen a esta métrica.
+  * **Tiempo empleado por visita:** Solo las visitas que incluyen visitas individuales en primer plano contribuyen a esta métrica.
+  * [**Métrica de entrada**](/help/components/metrics/entries.md) / [**Métrica de salida:**](/help/components/metrics/exits.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
+  * [**Dimensión de entrada**](/help/components/dimensions/entry-dimensions.md) / [**Dimensiones de salida:**](/help/components/dimensions/exit-dimensions.md) En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
+  * [**Métrica de visitantes únicos:**](/help/components/metrics/unique-visitors.md) En los visitantes únicos no se incluyen los visitantes que solo tuvieron visitas individuales en segundo plano en el intervalo de fechas del informe.
 * [**Visitas:**](/help/components/metrics/visits.md) Las visitas reflejan cualquier configuración del grupo de informes virtuales, que pueden diferir de las del grupo de informes base.
 * **Eventos serializados con ID de evento:** Los duplicados de los eventos que utilizan la serialización de eventos con un ID de evento solo se eliminan en el caso de los eventos que se producen dentro del intervalo de fechas del informe para un visitante. Los duplicados de estos eventos no se eliminan en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
 * **Compras** / [**Ingresos**](/help/components/metrics/revenue.md) / [**Pedidos**](/help/components/metrics/orders.md) / [**Unidades:**](/help/components/metrics/units.md) Cuando se usa el ID de compra, estas métricas solo se deduplican para los ID de compra duplicados que se producen dentro del intervalo de fechas del informe para un visitante, en lugar de en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.

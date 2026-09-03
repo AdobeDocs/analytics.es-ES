@@ -5,14 +5,10 @@ feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 autotag-review: '2026-05-19T13:32:36.907Z'
 TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 552
@@ -45,8 +41,8 @@ La tabla consta de las siguientes columnas:
 - Para buscar tu cuenta publicitaria usando el campo de búsqueda ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 - Para seleccionar cuentas activas en la tabla, marque **[!UICONTROL Cuentas activas]**.
 - Para definir qué columnas mostrar en la tabla, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>En el diálogo **[!UICONTROL Personalizar tabla]**:
-   - Seleccione las columnas que desea mostrar.
-   - Seleccione **[!UICONTROL Aplicar]**.
+  - Seleccione las columnas que desea mostrar.
+  - Seleccione **[!UICONTROL Aplicar]**.
 
 Cuando selecciona una o más cuentas publicitarias, una barra de acciones azul, basada en el estado de las cuentas seleccionadas, le permite ![Editar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Cambiar nombre]**, ![Actualizar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Asignar grupos de informes]**, ![Reproducir](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activar]** o ![Pausar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pausar]** sus cuentas publicitarias.
 

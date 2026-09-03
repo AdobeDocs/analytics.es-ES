@@ -4,20 +4,14 @@ title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2424
+source-wordcount: 2429
 ht-degree: 4%
 
 ---
@@ -31,7 +25,7 @@ Además, puede restringir los segmentos secuenciales a una duración, granularid
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentación secuencial](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +84,7 @@ Para aplicar restricciones de tiempo al operador **[!UICONTROL Then]**:
 1. Seleccione ![Reloj](/help/assets/icons/Clock.svg).
 1. Seleccione **[!UICONTROL En]** o **[!UICONTROL Después]** del menú contextual.
 1. Especifique un período de tiempo (**[!UICONTROL Minuto]**, **[!UICONTROL Hora]**, hasta **[!UICONTROL Años]**).
-1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;para abrir una ventana emergente que le permita escribir o especificar un número con&#x200B;**[!UICONTROL -]**&#x200B;o&#x200B;**[!UICONTROL +]**.
+1. Seleccione ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**para abrir una ventana emergente que le permita escribir o especificar un número con**[!UICONTROL -]**o**[!UICONTROL +]**.
 
 Para quitar una restricción de tiempo, use ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -113,7 +107,7 @@ Identifique a los visitantes que visitaron una página y luego otra página solo
 
 ![Secuencia posterior](assets/sequence-after.png)
 
-Si el 1 de junio de 2024 a las 00:01 se produce una vista de página de la página principal, entonces cambie una vista de página a Mujer | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 00:01.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 00:01 horas, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando la vista de esa página se produzca después del 15 de junio de 2024 a las 00:01.
 
 ##### Operador [!UICONTROL Within]
 
@@ -121,7 +115,7 @@ Identificar a los visitantes que visitaron una página y luego otra en un plazo 
 
 ![Secuencia en](assets/sequence-within.png)
 
-Si el 1 de junio de 2024 se produce una vista de página de la página principal a las 12:01, se abrirá una vista de página para la página principal | Los zapatos coincidirán siempre que la vista de esa página se produzca antes del 15 de junio de 2024 12:16.
+Si se produce una vista de página para la página de inicio el 1 de junio de 2024 a las 12:01, se generará una vista de página para la página Mujeres | Los zapatos coincidirán siempre y cuando esa vista de página se produzca antes del 15 de junio de 2024 a las 12:16.
 
 ##### [!UICONTROL Después de] pero [!UICONTROL Dentro de] operador
 
@@ -129,7 +123,7 @@ Identifique a los visitantes que visitaron una página y luego visitaron otra de
 
 ![Secuencia posterior a pero dentro de](assets/sequence-afterbutwithin.png)
 
-Cualquier visitante que visite la página principal el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califica para el segmento.
+Cualquier visitante que visite la página principal el 1 de junio de 2024 y que vuelva a visitar a las mujeres | Página de Zapatos después del 15 de junio de 2019 00:01, pero antes del 1 de julio de 2019 califican para el segmento.
 
 
 ### [!UICONTROL Visita individual], [!UICONTROL visita] y [!UICONTROL restricciones de Dimension]
@@ -314,4 +308,4 @@ Por último, quiere identificar a los visitantes que han aprendido acerca de una
 
 >[!MORELIKETHIS]
 >
-> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=es)
+> * [Dominio de la lógica secuencial en AA y CJA: Introducción a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

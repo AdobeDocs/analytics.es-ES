@@ -4,17 +4,10 @@ title: Información general sobre alertas
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 TQID: 'https://experienceleague.adobe.com/FDzJzBjxMc-EkhW0k0NiENt-g53sRnzXQDs1XQWFseI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 435
@@ -34,13 +27,13 @@ Las alertas le permiten:
 * Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados.
 * Crear *alertas apiladas* que capturan varias métricas en una sola alerta.
 * Generar alertas basadas en:
-   * Anomalías en métricas que existen, que están por encima o por debajo de los valores de umbral esperados.
+  * Anomalías en métricas que existen, que están por encima o por debajo de los valores de umbral esperados.
 
-     [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) crea un valor esperado más un límite superior e inferior usando datos históricos. Si el valor real de la métrica va por encima o por debajo del límite inferior definido como valor de umbral, ese evento se considera una anomalía en el nivel de confianza de umbral y no almacena en déclencheur la alerta. Un umbral más alto (por ejemplo, 99 % o 99,9 %) implica una banda más ancha, lo que resulta en menos alertas causadas por anomalías más extremas. Un umbral más bajo (por ejemplo, 90 %) implica una banda más estrecha, lo que da como resultado más alertas causadas por anomalías menos extremas.
-   * Cambios en las métricas según un porcentaje específico.
-   * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
+    [Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) crea un valor esperado más un límite superior e inferior usando datos históricos. Si el valor real de la métrica va por encima o por debajo del límite inferior definido como valor de umbral, ese evento se considera una anomalía en el nivel de confianza de umbral y no almacena en déclencheur la alerta. Un umbral más alto (por ejemplo, 99 % o 99,9 %) implica una banda más ancha, lo que resulta en menos alertas causadas por anomalías más extremas. Un umbral más bajo (por ejemplo, 90 %) implica una banda más estrecha, lo que da como resultado más alertas causadas por anomalías menos extremas.
+  * Cambios en las métricas según un porcentaje específico.
+  * Métricas que están por encima, por debajo o iguales a un valor específico. (disponible solo para clientes de Adobe Analytics con un paquete Select, Prime o Ultimate)
 
-Este [tutorial en vídeo](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
+Este [tutorial en vídeo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) proporciona información general básica sobre las alertas.
 
 
 ## Retrospectiva de anomalías para alertas
