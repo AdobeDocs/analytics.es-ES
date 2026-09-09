@@ -2,6 +2,7 @@
 title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,51 +25,50 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
+source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
 workflow-type: tm+mt
-source-wordcount: 1246
-ht-degree: 43%
+source-wordcount: 1096
+ht-degree: 47%
 
 ---
 
-# Notas de la versión actuales de Adobe Analytics (agosto de 2026)
+# Notas de la versión actuales de Adobe Analytics (septiembre de 2026)
 
-**Última actualización**: 5 de agosto de 2026
+**Última actualización**: 8 de septiembre de 2026
 
-Estas notas de la versión abarcan el periodo de lanzamiento de agosto de 2026. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
+Estas notas de la versión abarcan el periodo de lanzamiento de septiembre de 2026. Las versiones de Adobe Analytics funcionan con un [modelo de entrega continua](releases.md) que permite un enfoque más escalable y gradual de la implementación de funcionalidades. Por lo tanto, estas notas de la versión se actualizan varias veces al mes. Compruébelas regularmente.
 
 ## Nuevas funciones o mejoras {#features}
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ---- |
-| **Extensión de Activity Map: actualización de la interfaz de usuario** <br/>La extensión de superposición de Activity Map tiene un aspecto y un funcionamiento actualizados, además de mejoras subyacentes que admiten futuras mejoras.<p>Para obtener información sobre la extensión de superposición de Activity Map, consulte [Interfaz de extensión de Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 de agosto de 2026<p>(Originalmente planificado para finales de julio)</p> |
-| **Mejoras en el lienzo de Recorrido**<br> Ya están disponibles las siguientes mejoras en el lienzo de Recorrido:<ul><li>Compare el recorrido con un lapso de tiempo anterior. Compare el recorrido actual con el recorrido 4 semanas antes, 2 trimestres antes, 1 año antes o con un intervalo de fechas personalizado.</li><li>Para un nodo seleccionado, mostrar los elementos de dimensión principales que aparecen después del nodo seleccionado en cualquier punto del recorrido. Utilícelo cuando el nodo seleccionado sea el evento clave del análisis y desee ver lo que hacen las personas en cualquier momento posterior.<p>Anteriormente, solo se podían mostrar los nodos primarios inmediatos antes o después del nodo seleccionado. </p></li><li>Cambie la forma y el estilo de las flechas entre los nodos. Arrastre las flechas entre los nodos para cambiar la forma (curvatura) de la flecha y haga clic con el botón secundario del mouse (ratón) en una flecha para cambiar su estilo a cualquiera de las siguientes opciones: sólido, discontinuo, punteado, discontinuo-punto o animado.</li></ul><p></p>Para obtener más información, consulte [Configuración de una visualización de lienzo de recorridos](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 de agosto de 2026 |
-| **Limitar segmentos al intervalo de fechas del informe**<br/> Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe cuando un segmento incluye componentes de intervalo de fechas.<p>Ahora hay disponible una nueva opción que le permite limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento. <p>Esta opción está disponible al crear o modificar un segmento cuyo contenedor de nivel superior sea Visitante.</p><p>Para obtener más información, consulte [Generar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de septiembre de 2026 |
-| **Referencia de canales de marketing API de Analytics**<br/> Use la referencia de canales de marketing API de Adobe Analytics 2.0 para recuperar información de canales de marketing de Analytics. Consulte la [referencia de canales de marketing API de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 de agosto de 2026 |
-| **Guía de extremo de canales de marketing API de Analytics**<br/> La guía de extremo de canales de marketing API de Adobe Analytics 2.0 proporciona instrucciones y ejemplos para utilizar el extremo. Consulte la [guía de extremo de canales de marketing API de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 de agosto de 2026 |
-| **Preguntas frecuentes sobre el cliente del fin de la vida útil de la API de Analytics 1.4**<br/> Las preguntas frecuentes del cliente del fin de la vida útil de la API de Analytics 1.4 proporcionan información sobre el desarrollo reciente de la API 2.0 para ayudar a los clientes que abandonan las API 1.4. | | 10 de agosto de 2026 |
+| **Limitar segmentos al intervalo de fechas del informe**<br/> Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe cuando un segmento incluye componentes de intervalo de fechas.<p>Ahora hay disponible una nueva opción que le permite limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento.</p><p>Esta opción está disponible al crear o modificar un segmento cuyo contenedor de nivel superior sea Visitante.</p><p>Para obtener más información, consulte [Generar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de septiembre de 2026 |
+| **Actualizaciones de detección de bots**<br/> Al utilizar la recopilación de datos de Edge con Web SDK, están disponibles las siguientes actualizaciones de detección de bots:<ul><li>Ahora puede crear reglas de detección de bots para identificar excepciones en el tráfico que, de lo contrario, se tratarían como generadas por bots. Las reglas existentes y futuras seguirán marcando de forma predeterminada el tráfico coincidente como generado por el bot.</li><li>Las reglas de bots personalizadas ahora se ejecutan antes que las reglas de detección de bots de IAB. Este cambio no afecta a las puntuaciones de bots, pero los nombres de reglas de bots asociados a un evento pueden cambiar.</li></ul><p>Nota: Esta actualización solo se aplica a las implementaciones de recopilación de datos de Edge que utilizan Web SDK. No se aplica a bibliotecas antiguas, como AppMeasurement.</p><p>(Vínculo a la documentación a continuación).</p> | | Principios de septiembre de 2026 |
+| **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Adobe Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Septiembre de 2026 |
+| **Actualizaciones de API de conjuntos de clasificaciones**<br/> La documentación de API de conjuntos de clasificaciones ahora incluye información actualizada sobre parámetros y puntos de conexión para configurar solicitudes de API de conjuntos de clasificaciones.<p>Para obtener más información, consulte la [Guía de extremo de clasificaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
+| **Directrices de codificación de ItemId de fecha en las guías de informes de la API 2.0**<br/> Las guías de informes de tendencias de fecha de la API Adobe Analytics 2.0 ahora incluyen nuevas secciones que explican cómo se codifican los parámetros y valores de fecha `itemId`. Esto puede ayudarle a configurar y migrar a los servicios de API 2.0 desde las API 1.4, ahora obsoletas.<p>Para obtener más información, consulte la [guía de informes KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) y la [guía de informes avanzados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
 
 ### Correcciones en Adobe Analytics
 
-**Activity Map**: AN-404862
-**Analysis Workspace**: AN-466867, AN-465995, AN-465315, AN-465313, AN-464375, AN-463634, AN-463248, AN-463175, AN-463049, AN-462347, AN-462124, AN-461922, AN-458398, AN-457849, AN-455002, AN-453357, AN-456863, AN-459816, AN-459034, AN-460774, AN-460671, AN-457760, AN-443594, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN--, AN-Y-, AN-, AN-, AN-Y-Y-Y-, AN-Y-, AN-Y-Y-, Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-, Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-Y-
-**Clasificaciones**: AN-467138, AN-467118, AN-467069, AN-466054, AN-465987, AN-465636, AN-465380, AN-464650, AN-464286, AN-463688, AN-462252, AN-462413, AN-462141, AN-462063, AN-462005, AN, AN-461806, AN-461862, AN-461777, AN-461158, AN-460954, AN-460905, AN-460850, AN-460803, AN-460272, AN-460023, AN-459814, AN-459367, AN-459328, AN-459300, AN-459279, AN-459006, AN-, AN-, AN-, AN-, AN-458417, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-458403, AN-457829, AN-, AN-457400, AN-454408, AN-449670, AN-460956, AN-459269, AN-458789, AN-461778, AN-461191, AN-460996 460506 459988 459854 458994 457561 457055 454224 454172 459473 459277 459026 455270, AN-
-**Fuentes de datos y Data Warehouse**: AN-465273, AN-464245, AN-462435, AN-461000, AN-460700, AN-459225, AN-459192
-**Migración**: AN-458185, AN-454285, AN-459239
-**Exportaciones**:
-**Report Builder**: AN-465346, AN-464768, AN-464580, AN-464301, AN-463048, AN-462800, AN-457042, AN-461033, AN-459042, AN-454250, AN-451735, AN-450776, AN-450200, AN-451665
-**Informes**: AN-467107, AN-459010, AN-455619, AN-459530, AN-454103
-**Grupos de informes**: AN-464246, AN-463756, AN-462101
-**Informes programados**: AN-455009, AN-460037, AN-462093
-**Segmentación**: AN-459002, AN-457730, AN-457146
-**Otros**: AN-467386, AN-466935, AN-462116, AN-458836, AN-451292, AN-454160, AN-458354, AN-455771, AN-426869, AN-437975
+**Activity Map**: AN-488579, AN-487247
+**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
+**Clasificaciones**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468326, AN-468592, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911, AN-464338, AN-463677, AN-462729, AN-462577, AN-461040, AN-459316, AN-, AN-, AN-, AN-, AN-
+**Fuentes de datos y Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483
+**Migración**:
+**Exportaciones**: AN-467131
+**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
+**Informes**: AN-468621, AN-465383, AN-463924
+**Grupos de informes**: AN-468484, AN-468460, AN-465385
+**Informes programados**:
+**Segmentación**: AN-486561
+**Otros**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514
 
 ### Avisos de final de la vida útil {#eol}
 
 | Final de la vida útil de producto o función | Fecha de incorporación o actualización | Descripción |
 | --- | --- | --- |
 | **Report Builder heredado** | 18 de junio de 2025 | El complemento heredado de Report Builder se eliminará en junio de 2026. Todos los usuarios deberían empezar a actualizar sus libros heredados al [nuevo Report Builder](/help/analyze/report-builder/rb-overview.md). El nuevo Report Builder está disponible para los clientes de Adobe Analytics y Customer Journey Analytics. Tiene [casi paridad de características](/help/analyze/report-builder/convert-workbooks.md#unsupported), además de muchas nuevas características convenientes y mejoras en la interfaz de usuario. Para facilitar el proceso de actualización, el nuevo Report Builder incluye una sencilla función de conversión de libros. El nuevo Report Builder solo está disponible como complemento en Microsoft Store. Muchas organizaciones requieren un proceso de aprobación interno para poder poner el complemento a disposición de los usuarios. Deje tiempo para este proceso y empiece a trabajar con su organización ahora para asegurarse de que dispone de tiempo suficiente para actualizar los libros antes de la fecha límite. |
-| **API de Adobe Analytics (versión 1.4)** | 17 de julio de 2024 | El **12 de agosto de 2026**, los siguientes servicios de la API heredada de Analytics llegarán al final de su vida útil y se cerrarán, y las integraciones actuales creadas con estos servicios dejarán de funcionar:<ul><li>API de Adobe Analytics (versión 1.4)</li><li>Autenticación WSSE de Adobe Analytics</li></ul><p>Las integraciones que usan la API de Adobe Analytics (versión 1.4) deben migrarse a la [API de Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/), mientras que las integraciones de WSSE deben migrarse a un protocolo de autenticación basado en OAuth en [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte las [preguntas frecuentes sobre el final de la vida útil de la API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) para obtener respuestas a dudas comunes y más indicaciones.</p> |
+| **API de Adobe Analytics (versión 1.4)** | 17 de julio de 2024 | El **31 de agosto de 2026**, los siguientes servicios de la API heredada de Analytics llegaron al final de su vida útil y se cerraron, y todas las integraciones creadas con estos servicios ya no funcionan:<ul><li>API de Adobe Analytics (versión 1.4)</li><li>Autenticación WSSE de Adobe Analytics</li></ul><p>Las integraciones que usan la API de Adobe Analytics (versión 1.4) deben migrarse a la [API de Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/), mientras que las integraciones de WSSE deben migrarse a un protocolo de autenticación basado en OAuth en [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Consulte las [preguntas frecuentes sobre el final de la vida útil de la API de Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/) para obtener respuestas a dudas comunes y más indicaciones.</p> |
 
 ## AppMeasurement
 
