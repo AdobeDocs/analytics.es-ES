@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dd4e1e089cf72c03c8d2fd43ac87e919efa0602
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1061
+ht-degree: 49%
 
 ---
 
@@ -44,7 +29,6 @@ Estas notas de la versión abarcan el periodo de lanzamiento de septiembre de 20
 | ----------- | ---------- | ---- |
 | **Limitar segmentos al intervalo de fechas del informe**<br/> Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe cuando un segmento incluye componentes de intervalo de fechas.<p>Ahora hay disponible una nueva opción que le permite limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento.</p><p>Esta opción está disponible al crear o modificar un segmento cuyo contenedor de nivel superior sea Visitante.</p><p>Para obtener más información, consulte [Generar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de septiembre de 2026 |
 | **Actualizaciones de detección de bots**<br/> Al utilizar la recopilación de datos de Edge con Web SDK, están disponibles las siguientes actualizaciones de detección de bots:<ul><li>Ahora puede crear reglas de detección de bots para identificar excepciones en el tráfico que, de lo contrario, se tratarían como generadas por bots. Las reglas existentes y futuras seguirán marcando de forma predeterminada el tráfico coincidente como generado por el bot.</li><li>Las reglas de bots personalizadas ahora se ejecutan antes que las reglas de detección de bots de IAB. Este cambio no afecta a las puntuaciones de bots, pero los nombres de reglas de bots asociados a un evento pueden cambiar.</li></ul><p>Nota: Esta actualización solo se aplica a las implementaciones de recopilación de datos de Edge que utilizan Web SDK. No se aplica a bibliotecas antiguas, como AppMeasurement.</p><p>(Vínculo a la documentación a continuación).</p> | | Principios de septiembre de 2026 |
-| **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Adobe Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Septiembre de 2026 |
 | **Actualizaciones de API de conjuntos de clasificaciones**<br/> La documentación de API de conjuntos de clasificaciones ahora incluye información actualizada sobre parámetros y puntos de conexión para configurar solicitudes de API de conjuntos de clasificaciones.<p>Para obtener más información, consulte la [Guía de extremo de clasificaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
 | **Directrices de codificación de ItemId de fecha en las guías de informes de la API 2.0**<br/> Las guías de informes de tendencias de fecha de la API Adobe Analytics 2.0 ahora incluyen nuevas secciones que explican cómo se codifican los parámetros y valores de fecha `itemId`. Esto puede ayudarle a configurar y migrar a los servicios de API 2.0 desde las API 1.4, ahora obsoletas.<p>Para obtener más información, consulte la [guía de informes KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) y la [guía de informes avanzados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
 
