@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 7421
+source-wordcount: 7447
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Septiembre de 2026** | |
+| Nuevas acciones de acceso directo de redimensionado | Los nuevos métodos abreviados de teclado en Analysis Workspace ahora le permiten [cambiar el tamaño de un panel o una visualización](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) más ancha, más estrecha, más alta o más corta. |
 | **Agosto de 2026** | |
 | Se han añadido nuevas herramientas de IA conversacional a la dimensión Tipo de referente | La dimensión &quot;Tipo de referente&quot; ahora incluye las siguientes [herramientas de IA conversacional](/help/components/dimensions/referrer-type.md#conversational-ai-tools) adicionales en la tabla de búsqueda que utiliza Adobe:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Junio de 2026** | |
@@ -97,10 +99,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Inventario de Analytics | [Inventario de Analytics](/help/admin/tools/analytics-inventory.md) proporciona información general completa sobre el entorno de Adobe Analytics, incluido el número de proyectos y componentes, grupos de informes, usuarios, etc. |
 | Guía de actualización de Customer Journey Analytics | Le permite generar una [guía paso a paso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) para actualizar de Adobe Analytics a Customer Journey Analytics. |
 | Se ha aclarado el formato de fecha en las exportaciones de Data Warehouse | Los valores de dimensión basados en el tiempo en las exportaciones de Data Warehouse tienen un formato de fecha no estándar. Se ha añadido información que explica cómo interpretar los valores de fecha de las exportaciones de Data Warehouse. <p>Ver [Dimensiones con formato de fecha no estándar](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting) en [Compatibilidad con componentes en Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
-| Información actualizada sobre exclusiones de IP | Se ha añadido información que explica que [las exclusiones de IP](/help/admin/tools/exclude-ip.md) pueden tardar hasta 5 minutos en surtir efecto y que los cambios se aplican solamente a las nuevas visitas (los datos capturados antes de que se establezca la exclusión no se verán afectados). <p>También se ha actualizado el diseño del contenido para mejorar la legibilidad.</p> |
+| Información actualizada sobre exclusiones de IP | Se ha añadido información que explica que [las exclusiones de IP](/help/admin/tools/exclude-ip.md) pueden tardar hasta 5 minutos en surtir efecto y que los cambios se aplican solamente a los nuevos hits (los datos capturados antes de que se establezca la exclusión no se verán afectados). <p>También se ha actualizado el diseño del contenido para mejorar la legibilidad.</p> |
 | **Febrero de 2025** |  |
 | Se ha actualizado la información sobre la pausa y reactivación de un feed de datos | Al [pausar y reactivar un feed de datos](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), se ha aclarado el comportamiento de los feeds activos. El procesamiento de datos no se produce desde el momento en que el feed se pone en pausa hasta el momento en que se reactiva. |
-| Período de retención del ID de transacción cambiado | El período de retención del ID de transacción de 90 días se ha ampliado a 25 meses. La variable transactionID identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Ver [variables de página](/help/implement/vars/page-vars/transactionid.md) y [fuentes de datos](/help/import/data-sources/transactionid.md). |
+| Período de retención del ID de transacción cambiado | El período de retención del ID de transacción de 90 días se ha ampliado a 25 meses. La variable transactionID identifica de forma exclusiva una transacción para que el hit se pueda enlazar a los datos cargados a través de las fuentes de datos. Ver [variables de página](/help/implement/vars/page-vars/transactionid.md) y [fuentes de datos](/help/import/data-sources/transactionid.md). |
 | API de Livestream: implementación de cliente | Utilice la [implementación de cliente de Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) para utilizar datos de Livestream. |
 | Actualización de la API de clasificaciones | Ahora puede [quitar campos de clasificación o claves individuales del servidor](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values). Esto proporciona una alternativa a eliminar un conjunto de datos de clasificación completo con el método DELETE. |
 | **Enero de 2025** |  |
@@ -414,4 +416,4 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 de enero de 2019 | [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md): Las principales mejoras realizadas en Análisis de cohorte le permiten hacer lo siguiente:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Cálculo de cohorte móvil: calcule la retención y la pérdida en función de un período de tiempo previo, no de la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
 | 17 de enero de 2019 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. Puede acceder a ella desde Proyecto > Info y configuración del proyecto. |
-| 17 de enero de 2019 | [Compatibilidad con variables de diversos valores en Atribución](/help/analyze/analysis-workspace/attribution/overview.md). Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de comercialización. Analysis Workspace permite aplicar Atribución a cualquiera de estos tipos de variables en el nivel de visita. |
+| 17 de enero de 2019 | [Compatibilidad con variables de diversos valores en Atribución](/help/analyze/analysis-workspace/attribution/overview.md). Algunas dimensiones en Analytics pueden contener múltiples valores en un solo hit, como listVars, la variable de producto, las props de lista o eVars de comercialización. Analysis Workspace permite aplicar Atribución a cualquiera de estos tipos de variables en el nivel de hit. |

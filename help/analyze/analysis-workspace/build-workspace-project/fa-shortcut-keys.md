@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -91,6 +91,17 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | --- | --- | --- |
 | Mover panel hacia arriba | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
 | Mover panel hacia abajo | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
+
+## Cambiar el tamaño del panel para acciones de visualización
+
+| Acción | Acceso directo a Mac | Acceso directo a Windows |
+| --- | --- | --- |
+| Cambiar tamaño más ancho | **[!UICONTROL *cmd + opt + mayús + right *]** | **[!UICONTROL *ctrl + alt + mayús + right *]** |
+| Redimensionar más estrecho | **[!UICONTROL *cmd + opt + mayús + left *]** | **[!UICONTROL *ctrl+alt+mayús+izquierda *]** |
+| Cambiar tamaño más alto | **[!UICONTROL *cmd + opt + mayús + down *]** | **[!UICONTROL *ctrl+alt+mayús+down *]** |
+| Redimensionar más corto | **[!UICONTROL *cmd + opt + mayús + up *]** | **[!UICONTROL *ctrl+alt+mayús+up *]** |
+
+El ancho cambia de tamaño en pasos de una columna de cuadrícula y el alto cambia de tamaño en pasos de una celda de cuadrícula (aproximadamente 25 píxeles).
 
 ## Acciones de democratización
 
