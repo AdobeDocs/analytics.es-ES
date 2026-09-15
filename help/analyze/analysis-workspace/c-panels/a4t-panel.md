@@ -7,30 +7,42 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: '1287'
 ht-degree: 94%
-
 ---
-
 # Panel de Analytics for Target {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -84,7 +96,7 @@ Puede configurar el panel de Analytics for Target utilizando esta configuración
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Actividad de Target]** | Seleccione de una lista de actividades de Target: La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 visita. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
+| **[!UICONTROL Actividad de Target]** | Seleccione de una lista de actividades de Target: La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 hit. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
 | **[!UICONTROL Experiencia de control]** | Seleccione la experiencia de control. |
 | **[!UICONTROL Métrica de normalización]** | Seleccionar visitantes, visitas o impresiones. Se recomiendan [!UICONTROL Visitantes] para la mayoría de los casos de uso de análisis. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza. |
 | **[!UICONTROL Métricas de éxito]** | Seleccione hasta 3 eventos de éxito estándar (no calculados) en el menú desplegable o arrastre y suelte las métricas desde el carril de Componentes. Cada métrica tiene una tabla y una visualización dedicadas en el panel procesado. |
@@ -121,7 +133,7 @@ Use ![Editar](/help/assets/icons/Edit.svg) para reconfigurar y regenerar el pane
 | ¿Qué tipos de actividades se admiten en Analytics for Target? | [Obtenga más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) sobre los tipos de actividad admitidos. |
 | ¿Se admiten las métricas calculadas en los cálculos de alza y confianza? | No. [Obtenga más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sobre por qué las métricas calculadas no son compatibles con el alza y la confianza. Sin embargo, las métricas calculadas pueden utilizarse en sistemas de informes de Analytics for Target fuera de estas métricas. |
 | ¿Por qué los visitantes únicos varían entre Target y Analytics? | [Obtenga más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sobre las variaciones de visitantes únicos entre productos. |
-| Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de Analytics for Target es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
+| Cuando se aplica un segmento de hit para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de Analytics for Target es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
 | ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://experienceleague.adobe.com/es/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sobre cómo Analytics calcula la confianza. |
 | ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son “métricas bloqueadas” a la dimensión de experiencias de Target, porque requieren un control y una variante para calcularlas. De este modo, no pueden desglosarse ni utilizarse con otras dimensiones. |
 | ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se genera el panel, su intervalo de fechas cambia o se aplica un segmento al panel o la tabla. Al aplicar un filtro de segmento a la tabla de forma libre, el segmento debe aplicarse en todas las columnas, o el alza y la confianza no se actualizarán correctamente. No se admiten segmentos de nivel de columna. |
