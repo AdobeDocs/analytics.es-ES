@@ -106,10 +106,10 @@ La integración entrante de CJA se basa en un conjunto de datos de resumen de so
 
 #### Limitaciones importantes
 
-- No se incluyen ID de visitante, ECID, visitas ni datos de usuario único. Son datos de resumen agregados no vinculados con el visitante.
-- Las variables reservadas no admiten la configuración del tipo de asignación o del tipo de caducidad, ya que no están vinculadas a un visitante.
-- Los datos no se pueden unir con otros conjuntos de datos o dimensiones de Analytics de la forma que se puede en Customer Journey Analytics.
-- Utilice la métrica **Solicitudes** para medir el volumen de tráfico real y de bots. No lo utilice de forma intercambiable con métricas basadas en visitas o visitas en cualquier otra parte del grupo de informes.
+&#x200B;- No se incluyen ID de visitante, ECID, visitas ni datos de usuario único. Son datos de resumen agregados no vinculados con el visitante.
+&#x200B;- Las variables reservadas no admiten la configuración del tipo de asignación o del tipo de caducidad, ya que no están vinculadas a un visitante.
+&#x200B;- Los datos no se pueden unir con otros conjuntos de datos o dimensiones de Analytics de la forma que se puede en Customer Journey Analytics.
+&#x200B;- Utilice la métrica **Solicitudes** para medir el volumen de tráfico real y de bots. No lo utilice de forma intercambiable con métricas basadas en visitas o visitas en cualquier otra parte del grupo de informes.
 
 El conjunto exacto de campos disponibles debe confirmarse con la configuración de variables del grupo de informes una vez habilitado el conector.
 
@@ -135,10 +135,10 @@ La configuración del conector entrante conlleva responsabilidades tanto para [A
 
 Confirme lo siguiente antes de activar el conector:
 
-- Ha completado la incorporación de Adobe Brand Visibility para el sitio al que desea conectarse.
-- El reenvío de registros BYOCDN está configurado y confirmado para ese sitio (consulte [requisitos previos](#inbound-integration)).
-- Se muestran datos en el tablero de tráfico de Adobe Brand Visibility Agent para ese sitio.
-- Sabe a qué grupo de informes desea conectar el sitio.
+&#x200B;- Ha completado la incorporación de Adobe Brand Visibility para el sitio al que desea conectarse.
+&#x200B;- El reenvío de registros BYOCDN está configurado y confirmado para ese sitio (consulte [requisitos previos](#inbound-integration)).
+&#x200B;- Se muestran datos en el tablero de tráfico de Adobe Brand Visibility Agent para ese sitio.
+&#x200B;- Sabe a qué grupo de informes desea conectar el sitio.
 
 Cada sitio de Adobe Brand Visibility se conecta exactamente a un grupo de informes. Si desea incluir datos de más de un sitio de Visibilidad de la marca, conecte cada sitio a un grupo de informes independiente.
 
@@ -235,20 +235,20 @@ Consulte los siguientes problemas y cómo solucionarlos.
 >[Referencia de integración de Visibilidad de la marca /LMO](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
 >[Referencia de reenvío de registro BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
----
+&#x200B;---
 
 ## Notas de redacción para documentos (no para publicación)
 
 Esta sección es para revisión interna y debe eliminarse antes de publicar.
 
-- **Source de verdad usado:** los nombres de campo, la lista de variables reservada y el flujo de trabajo del Administrador de grupos de informes provienen de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, estado Nuevo a partir del 28 de agosto de 2026), que es más actual y más específico que la solicitud de documentación original [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der, estado Nuevo). La copia de página para las pantallas de aprovisionamiento/desaprovisionamiento incorpora los refinamientos de redacción de la revisión interna del 28 de agosto de 2026 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), que reemplazó la abreviatura &quot;ABV&quot; del ticket sin procesar por &quot;Adobe Brand Visibility&quot; en el texto orientado al cliente.
-- **Discrepancia del conjunto de campos que se debe conciliar antes de la publicación:** La lista de dimensiones original de AN-449989 era Host, URL/Ruta de página, Proveedor de CDN, Agente de usuario y Tipo de bot de LLM, con una sola métrica de recuento de solicitudes de agente. La lista de variables reservadas real de AN-468884 es la dirección URL, el tipo de bot, el agente de usuario, el estado y el referente, con un solo evento de solicitudes. El host y el proveedor de CDN no están presentes como variables reservadas independientes en AN-468884; el estado es nuevo. Este borrador sigue AN-468884 como autorizado según el ticket de eng, pero ambos deben reconciliarse con Aaron Kern / David Wardell antes de que esto finalice, ya que los nombres de campo que los clientes ven pueden no coincidir con lo que los equipos de cuenta han descrito utilizando el idioma AN-449989 más antiguo.
-- **Aún no se ha confirmado, no se indica como hecho en la versión publicada:**
-  - Fecha exacta de la GA. AN-431416 lleva FixVersion H2 2026 (ventana de versión 2026-11-30) y está en estado de ejecución a partir del 01-09-2026; AN-468884 (implementación de variable reservada) y AN-449989 (este documento) siguen siendo nuevos. No publicar hasta que se envíe eng.
-  - Si el tipo de asignación o el tipo de caducidad se suprimen completamente en las evars reservadas en producción. La revisión del 28 de agosto de 2026 indicó que un grupo de informes de prueba muestra actualmente estas evars con Asignación establecida en Más reciente (último), que puede ser un valor predeterminado que debe borrarse en lugar de confirmar el comportamiento final.
-  - El punto final de la API de LLMO para enumerar sitios ABV por la organización de IMS (rellena el menú desplegable Selección de sitio) y la API de desprovisión/deshabilitación seguían pendientes de Joe Bass a partir del comentario del ticket del 2026-08-26.
-  - La comparación exacta del recuento de campos de CJA. El ticket original de AN-449989 afirma que CJA tiene &quot;9 dimensiones adicionales&quot; y &quot;5 métricas adicionales&quot;, pero varias de ellas (Bloque de sesiones de LLM, Recuento de sesiones únicas de LLM, Recuento de duplicaciones de solicitudes de LLM) no se confirmaron para existir en el grupo de campos `cdn-requests-summary` entregado en la revisión del 18 de junio de 2026. Este borrador evita intencionadamente citar recuentos específicos en la comparación de CJA por ese motivo.
-  - La cadencia de sincronización de esta ruta AA se indica aquí por hora, coincidiendo con el idioma de vale de AN-468884 (&quot;ejecutar sincronizaciones por hora&quot; / &quot;proceso de sincronización por hora&quot;). Esto no se ha validado de forma independiente para el comportamiento de las fuentes de datos AA de producción como se hacía con la cadencia de CJA.
+&#x200B;- **Source de verdad usado:** los nombres de campo, la lista de variables reservada y el flujo de trabajo del Administrador de grupos de informes provienen de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, estado Nuevo a partir del 28 de agosto de 2026), que es más actual y más específico que la solicitud de documentación original [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der, estado Nuevo). La copia de página para las pantallas de aprovisionamiento/desaprovisionamiento incorpora los refinamientos de redacción de la revisión interna del 28 de agosto de 2026 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), que reemplazó la abreviatura &quot;ABV&quot; del ticket sin procesar por &quot;Adobe Brand Visibility&quot; en el texto orientado al cliente.
+&#x200B;- **Discrepancia del conjunto de campos que se debe conciliar antes de la publicación:** La lista de dimensiones original de AN-449989 era Host, URL/Ruta de página, Proveedor de CDN, Agente de usuario y Tipo de bot de LLM, con una sola métrica de recuento de solicitudes de agente. La lista de variables reservadas real de AN-468884 es la dirección URL, el tipo de bot, el agente de usuario, el estado y el referente, con un solo evento de solicitudes. El host y el proveedor de CDN no están presentes como variables reservadas independientes en AN-468884; el estado es nuevo. Este borrador sigue AN-468884 como autorizado según el ticket de eng, pero ambos deben reconciliarse con Aaron Kern / David Wardell antes de que esto finalice, ya que los nombres de campo que los clientes ven pueden no coincidir con lo que los equipos de cuenta han descrito utilizando el idioma AN-449989 más antiguo.
+&#x200B;- **Aún no se ha confirmado, no se indica como hecho en la versión publicada:**
+  &#x200B;- Fecha exacta de la GA. AN-431416 lleva FixVersion H2 2026 (ventana de versión 2026-11-30) y está en estado de ejecución a partir del 01-09-2026; AN-468884 (implementación de variable reservada) y AN-449989 (este documento) siguen siendo nuevos. No publicar hasta que se envíe eng.
+  &#x200B;- Si el tipo de asignación o el tipo de caducidad se suprimen completamente en las evars reservadas en producción. La revisión del 28 de agosto de 2026 indicó que un grupo de informes de prueba muestra actualmente estas evars con Asignación establecida en Más reciente (último), que puede ser un valor predeterminado que debe borrarse en lugar de confirmar el comportamiento final.
+  &#x200B;- El punto final de la API de LLMO para enumerar sitios ABV por la organización de IMS (rellena el menú desplegable Selección de sitio) y la API de desprovisión/deshabilitación seguían pendientes de Joe Bass a partir del comentario del ticket del 2026-08-26.
+  &#x200B;- La comparación exacta del recuento de campos de CJA. El ticket original de AN-449989 afirma que CJA tiene &quot;9 dimensiones adicionales&quot; y &quot;5 métricas adicionales&quot;, pero varias de ellas (Bloque de sesiones de LLM, Recuento de sesiones únicas de LLM, Recuento de duplicaciones de solicitudes de LLM) no se confirmaron para existir en el grupo de campos `cdn-requests-summary` entregado en la revisión del 18 de junio de 2026. Este borrador evita intencionadamente citar recuentos específicos en la comparación de CJA por ese motivo.
+  &#x200B;- La cadencia de sincronización de esta ruta AA se indica aquí por hora, coincidiendo con el idioma de vale de AN-468884 (&quot;ejecutar sincronizaciones por hora&quot; / &quot;proceso de sincronización por hora&quot;). Esto no se ha validado de forma independiente para el comportamiento de las fuentes de datos AA de producción como se hacía con la cadencia de CJA.
 
 
 ## Integración saliente
