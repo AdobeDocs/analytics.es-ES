@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # La clasificación establece reglas
 
-Las reglas se utilizan para admitir clasificaciones automáticas en escenarios en los que la dimensión clave cambia constantemente. La actualización de clasificaciones mediante [upload](/help/components/classifications/sets/manage/schema.md#upload) o [automation](/help/components/classifications/sets/manage/schema.md#automate) se convierte en un proceso engorroso o retrasa la clasificación adecuada para los nuevos valores de dimensión. Por ejemplo, campañas internas, códigos de seguimiento o SKU de productos.
+Las reglas se utilizan para admitir clasificaciones automáticas en escenarios en los que la dimensión clave cambia constantemente. La actualización de clasificaciones mediante [upload](/help/components/classifications/sets/manage/schema.md#upload) o [automation](/help/components/classifications/sets/manage/schema.md#automate) se convierte en un proceso engorroso o carece de la clasificación adecuada para los nuevos valores de dimensión. Por ejemplo, campañas internas, códigos de seguimiento o SKU de productos.
 
 La dimensión debe contener valores que le permitan aplicar una o más reglas para poder derivar datos de clasificación de los valores de dimensión.
 
 Usted define las reglas en el contexto de un conjunto de clasificación. Este contexto implica que las reglas se aplican (cuando se activan) a todos los grupos de informes y combinaciones de dimensiones clave suscritas al conjunto de clasificaciones. Esta implementación es diferente al funcionamiento del generador de reglas de clasificación heredado. En el Generador de reglas de clasificación, defina una o más reglas como parte de un conjunto de reglas por separado y, a continuación, asocie el conjunto de reglas a uno o más grupos de informes. En la nueva interfaz, las reglas dentro del conjunto de clasificaciones también se denominan conjunto de reglas. Sin embargo, los conjuntos de reglas se definen en la misma interfaz en la que se configuran otros atributos de conjuntos de clasificaciones.
+
+>[!IMPORTANT]
+>
+>El contexto diferente que utiliza el nuevo generador de reglas implica que las subclasificaciones se evalúan en función del valor de la columna de clasificación principal inmediata y no del valor de dimensión raíz original.
+
 
 
 Para definir un conjunto de reglas para un conjunto de clasificaciones:
@@ -35,7 +42,7 @@ Para definir un conjunto de reglas para un conjunto de clasificaciones:
 1. En el administrador **[!UICONTROL Conjuntos de clasificaciones]**, seleccione el conjunto de clasificaciones para el que desea definir las reglas.
 1. En el cuadro de diálogo **[!UICONTROL Conjunto de clasificaciones: _nombre del conjunto de clasificaciones_]**, seleccione la pestaña **[!UICONTROL Reglas]**.
 
-   * Si accede a la interfaz **[!UICONTROL Rules]** por primera vez para un conjunto de clasificaciones, o ha decidido hasta ahora seguir utilizando la interfaz heredada del generador de reglas, se le mostrará un cuadro de diálogo que le permitirá seleccionar cómo empezar. Las opciones son:
+   * Si accede a la interfaz **[!UICONTROL Rules]** por primera vez, o si utiliza el generador heredado, aparecerá un cuadro de diálogo para ayudarle a empezar. Las opciones son:
 
      * **Migrar reglas existentes**. Importe las reglas de clasificación actuales y continúe trabajando con ellas en la nueva interfaz. Las reglas existentes se conservan y se convierten al nuevo formato.
        * Seleccione **[!UICONTROL Migrar reglas]** para continuar.
@@ -228,7 +235,7 @@ Escriba un valor para **[!UICONTROL Expresión regular]**. Por ejemplo: `^(.+)\:
 
 #### Caso de uso
 
-Desea definir una regla para asignar valores a las clasificaciones **[!UICONTROL Channel]**, **[!UICONTROL Type]** y **[!UICONTROL Year]** aplicando la expresión regular `^(.+)\:(.+)\:FY(.+)$` y utilizando grupos de coincidencia (`$1`, `$2` y `$3`) a los valores de la dimensión clave Campaña interna.
+Defina una regla para asignar valores a las clasificaciones **[!UICONTROL Channel]**, **[!UICONTROL Type]** y **[!UICONTROL Year]** aplicando la expresión regular `^(.+)\:(.+)\:FY(.+)$` y utilizando grupos de coincidencia (`$1`, `$2` y `$3`) a la dimensión de clave de campaña interna.
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ La última regla determina el valor de la clasificación si:
 * Un valor de dimensión clave coincide con varias reglas.
 * El conjunto de reglas contiene reglas con la misma operación **[!UICONTROL Set Classification]**.
 
-Por lo tanto, debe clasificar la operación **[!UICONTROL Set Classification]** más importante como parte de la última regla del conjunto de reglas.
+Clasifique la operación **[!UICONTROL Set Classification]** más importante como parte de la última regla del conjunto de reglas.
 
 Si crea varias reglas que no comparten la misma operación de **[!UICONTROL Establecer clasificación]**, el orden de procesamiento no importa.
 
