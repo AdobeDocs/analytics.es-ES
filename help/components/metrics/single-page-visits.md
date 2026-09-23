@@ -33,7 +33,7 @@ ht-degree: 33%
 
 >[!ENDSHADEBOX]
 
-La **[!UICONTROL métrica](overview.md) [visitas de página única]** muestra el número de visitas donde el elemento de dimensión [Página](../dimensions/page.md) solo contenía un valor para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
+La **[[!UICONTROL métrica]](overview.md) [visitas de página única]** muestra el número de visitas donde el elemento de dimensión [Página](../dimensions/page.md) solo contenía un valor para toda la visita. Esta métrica es útil en el contexto de dimensiones en las que desea ver visitas cortas, pero no tiene reglas tan estrictas como [[!UICONTROL Devoluciones]](bounces.md).
 
 ## Cálculo de esta métrica
 

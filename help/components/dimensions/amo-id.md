@@ -168,26 +168,26 @@ Al habilitar la integración de [Analytics para Advertising](https://experiencel
 
 | Clasificación | Descripción | DSP | Buscar,<br>Social y<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Cuenta]** | El nombre de la cuenta. | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL URL para mostrar el anuncio]** | Dirección URL mostrada en el anuncio. | | &amp;comprobar; |
-| **[!UICONTROL Descripción del anuncio]** | La descripción del anuncio (DSP) o el cuerpo del anuncio (Search, Social y Commerce). | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL URL de destino de anuncio]** | La URL de destino del anuncio. | | &amp;comprobar; |
-| **[!UICONTROL Grupo de anuncios]** | El nombre del grupo de publicidad. | | &amp;comprobar; |
-| **[!UICONTROL Plataforma de publicidad]** | El nombre del DSP de publicidad o del motor de búsqueda. | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Título de anuncio]** | El tipo de anuncio (DSP) o su título (Search, Social y Commerce). | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Tipo de anuncio]** | El tipo de anuncio, como `text`, `video`, `display` o `native`. | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Atributo de AdCloud 1]** -<br>**[!UICONTROL Atributo de AdCloud 5 ]** | Clasificaciones de marcadores de posición reservadas para atributos personalizados futuros. No está en uso actualmente. | | |
-| **[!UICONTROL Campaign]** | Nombre de la campaña. | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Nombre de experiencia Creative]** | Nombre de la experiencia creativa asociada con la interacción publicitaria, que representa un grupo de variaciones creativas utilizadas en las pruebas o la personalización. | &amp;comprobar; | |
-| **[!UICONTROL Nombre de rama de Creative]** | Nombre de la rama de una experiencia creativa que representa una variación o ruta específica en el experimento creativo. | &amp;comprobar; | |
-| **[!UICONTROL ID de sucursal de Creative]** | Identificador único asignado a una rama creativa dentro de una experiencia creativa. | &amp;comprobar; | |
-| **[!UICONTROL Nombre de Creative]** | Nombre del recurso específico y creativo que se proporcionó al usuario. | &amp;comprobar; | |
-| **[!UICONTROL Nombre de variante de Creative]** | Nombre de la variante específica de un elemento creativo utilizado dentro de una experiencia o rama creativa. | &amp;comprobar; | |
-| **[!UICONTROL Palabra clave]** | La palabra clave. | | &amp;comprobar; |
-| **[!UICONTROL Tipo de coincidencia de palabra clave]** | La palabra clave y el tipo de coincidencia. | | &amp;comprobar; |
-| **[!UICONTROL Tipo de aterrizaje]** | Si la entrada de la página de aterrizaje fue una visualización o un clic. | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Tipo de coincidencia]** | El tipo de coincidencia de búsqueda. | | &amp;comprobar; |
-| **[!UICONTROL Red]** | RTB (DSP) o el nombre de la red de publicidad (Search, Social y Commerce). | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Optimización]** | El nombre del paquete (DSP) o el nombre del portafolio (Search, Social y Commerce). | &amp;comprobar; | &amp;comprobar; |
-| **[!UICONTROL Ubicación]** | El nombre de la ubicación. | &amp;comprobar; | |
-| **[!UICONTROL Destino del producto]** | El destino de un producto para un anuncio de lista de productos. | | &amp;comprobar; |
+| **[!UICONTROL Cuenta]** | El nombre de la cuenta. | &comprobar; | &comprobar; |
+| **[!UICONTROL URL para mostrar el anuncio]** | Dirección URL mostrada en el anuncio. | | &comprobar; |
+| **[!UICONTROL Descripción del anuncio]** | La descripción del anuncio (DSP) o el cuerpo del anuncio (Search, Social y Commerce). | &comprobar; | &comprobar; |
+| **[!UICONTROL URL de destino de anuncio]** | La URL de destino del anuncio. | | &comprobar; |
+| **[!UICONTROL Grupo de anuncios]** | El nombre del grupo de publicidad. | | &comprobar; |
+| **[!UICONTROL Plataforma de publicidad]** | El nombre del DSP de publicidad o del motor de búsqueda. | &comprobar; | &comprobar; |
+| **[!UICONTROL Título de anuncio]** | El tipo de anuncio (DSP) o su título (Search, Social y Commerce). | &comprobar; | &comprobar; |
+| **[!UICONTROL Tipo de anuncio]** | El tipo de anuncio, como `text`, `video`, `display` o `native`. | &comprobar; | &comprobar; |
+| **[!UICONTROL Atributo de AdCloud 1]** -<br>**[!UICONTROL Atributo de AdCloud 5 &#x200B;]** | Clasificaciones de marcadores de posición reservadas para atributos personalizados futuros. No está en uso actualmente. | | |
+| **[!UICONTROL Campaign]** | Nombre de la campaña. | &comprobar; | &comprobar; |
+| **[!UICONTROL Nombre de experiencia Creative]** | Nombre de la experiencia creativa asociada con la interacción publicitaria, que representa un grupo de variaciones creativas utilizadas en las pruebas o la personalización. | &comprobar; | |
+| **[!UICONTROL Nombre de rama de Creative]** | Nombre de la rama de una experiencia creativa que representa una variación o ruta específica en el experimento creativo. | &comprobar; | |
+| **[!UICONTROL ID de sucursal de Creative]** | Identificador único asignado a una rama creativa dentro de una experiencia creativa. | &comprobar; | |
+| **[!UICONTROL Nombre de Creative]** | Nombre del recurso específico y creativo que se proporcionó al usuario. | &comprobar; | |
+| **[!UICONTROL Nombre de variante de Creative]** | Nombre de la variante específica de un elemento creativo utilizado dentro de una experiencia o rama creativa. | &comprobar; | |
+| **[!UICONTROL Palabra clave]** | La palabra clave. | | &comprobar; |
+| **[!UICONTROL Tipo de coincidencia de palabra clave]** | La palabra clave y el tipo de coincidencia. | | &comprobar; |
+| **[!UICONTROL Tipo de aterrizaje]** | Si la entrada de la página de aterrizaje fue una visualización o un clic. | &comprobar; | &comprobar; |
+| **[!UICONTROL Tipo de coincidencia]** | El tipo de coincidencia de búsqueda. | | &comprobar; |
+| **[!UICONTROL Red]** | RTB (DSP) o el nombre de la red de publicidad (Search, Social y Commerce). | &comprobar; | &comprobar; |
+| **[!UICONTROL Optimización]** | El nombre del paquete (DSP) o el nombre del portafolio (Search, Social y Commerce). | &comprobar; | &comprobar; |
+| **[!UICONTROL Ubicación]** | El nombre de la ubicación. | &comprobar; | |
+| **[!UICONTROL Destino del producto]** | El destino de un producto para un anuncio de lista de productos. | | &comprobar; |
