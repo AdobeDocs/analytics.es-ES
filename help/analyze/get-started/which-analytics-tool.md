@@ -6,34 +6,50 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 TQID: https://experienceleague.adobe.com/xk485fKU7Q2DeZIYaTtN-a4JKnyVamAygW03z7ffAOk
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 98%
-
+source-wordcount: '1172'
+ht-degree: 97%
 ---
-
 # ¿Qué herramienta de Adobe Analytics debo usar?
 
 Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
@@ -43,7 +59,7 @@ Para obtener más información sobre comparaciones de productos de Adobe Analyti
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/30136?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparación de herramientas](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +93,7 @@ Las **[Fuentes de datos](/help/import/data-sources/overview.md)** deben usarse:
 
 * Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Las aplicaciones de integración suelen incorporar en Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
-**[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+**[API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)**
 
 * La API de inserción de datos en lotes acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Adobe recomienda utilizar la API de inserción de datos en lotes para cualquier implementación que requiera código del lado del servidor o que no pueda utilizar AppMeasurement o SDK web para la recopilación de datos.
 
@@ -93,7 +109,7 @@ Deben usarse **[atributos del cliente](https://experienceleague.adobe.com/docs/c
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** debe usarse:
 
 * Si quiere incorporar datos de público de Adobe Audience Manager, como la información demográfica (p. ej., género o nivel de ingresos), la información psicográfica (p. ej., intereses y aficiones), los datos CRM o los datos de impresión publicitaria a cualquier flujo de trabajo de Analytics.
-* Si desea que los datos CRM cargados estén basados en el tiempo, ya que esta integración envía nueva información a Analytics visita tras visita.
+* Si desea que los datos CRM cargados estén basados en el tiempo, ya que esta integración envía nueva información a Analytics hit tras hit.
 
 ## Exportación de datos desde Adobe Analytics {#export}
 
@@ -110,20 +126,20 @@ El **[Report Builder](/help/analyze/report-builder/rb-overview.md)** debe usars
 * Para acceder a variables que no se muestran en la interfaz de usuario (como Dirección IP, Experience Cloud ID, ID de visitante de Analytics, URL de página).
 * Para acceder a datos más granulares de los que están disponibles en la interfaz de usuario (vista de tabla no normalizada).
 * Para descargar datos en un formato adecuado para una entrada de tabla dinámica.
-* Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de visita).
+* Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de hit).
 * Para acceder a todos los elementos de dimensión únicos si aparece “Poco tráfico” en Adobe Analytics.
 
 Se debe usar la **[Fuente de datos de Analytics:](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**
 
-* Para usar la fuente de datos más granular disponible (ID de visitante, visita).
+* Para usar la fuente de datos más granular disponible (ID de visitante, hit).
 * Si el cliente desea almacenar los datos de Adobe en una base de datos del lado del cliente, con el nivel más granular que podemos enviar.
-* Si el cliente desea desarrollar una herramienta de inteligencia empresarial (BI) o especificar datos de Adobe de nivel de visita en una herramienta de terceros.
+* Si el cliente desea desarrollar una herramienta de inteligencia empresarial (BI) o especificar datos de Adobe de nivel de hit en una herramienta de terceros.
 
 Las **[API de informes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)** deben usarse cuando el resto de las opciones de visualización no satisfagan sus necesidades. Estas son las tres opciones de la API:
 
 * **Procesamiento total**: cuando desea usar datos con funciones avanzadas (como visitas, visitantes y segmentos). Son datos resumidos típicos de la interfaz de usuario de Analytics que están disponibles en ~30-90 minutos. Se puede usar mediante el Report Builder.
 * **Tiempo real:** si desea ver unas pocas métricas y dimensiones con segundos de latencia. Son datos resumidos limitados y procesados parcialmente que están disponibles en ~30 segundos. Se incluyen algoritmos únicos de los más populares, ganadores y perdedores. Se puede usar mediante el Report Builder.
-* **[!UICONTROL Emisión en directo]**: Si desea un flujo de datos de Analytics de nivel de visita procesados parcialmente pocos segundos después de su recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
+* **[!UICONTROL Emisión en directo]**: Si desea un flujo de datos de Analytics de nivel de hit procesados parcialmente pocos segundos después de su recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
 
 ## Soluciones personalizadas {#custom-solutions}
 

@@ -6,43 +6,55 @@ exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 80%
-
+source-wordcount: '330'
+ht-degree: 61%
 ---
-
 # Código postal
 
 El &quot;Código postal&quot; [dimension](overview.md) indica el código postal del visitante. Puede utilizar esta dimensión para comprender mejor el éxito de la publicidad local o para ver en qué parte del mundo su sitio funciona mejor.
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión es única, ya que contiene varias formas de rellenarla con datos. Puede usar uno o una combinación de ambos.
+Esta dimensión es única, ya que contiene varias formas de rellenarla con datos. Puede utilizar uno o una combinación de ambos:
 
-* Configure el código postal directamente mediante la variable `zip`; o
-* Configúrela para extraer de los datos de geolocalización.
+* Configure el código postal directamente usando la variable [`zip`](/help/implement/vars/page-vars/zip.md).
+* Configúrela para extraer de los datos de geolocalización. Cuando se utiliza geo zip, no se establece ninguna variable. Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada. Para implementaciones de Web SDK, habilita [!UICONTROL Búsqueda geográfica] al [configurar una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
 
-La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controla cómo desea rellenar esta dimensión.
+La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) controla cómo desea rellenar esta dimensión. La tabla de referencia siguiente se aplica cuando establece la variable `zip` directamente.
 
-Si decide utilizar cualquier opción que implique geo zip:
-
-* Para implementaciones de AppMeasurement, esta dimensión funciona de forma predeterminada.
-* Para implementaciones de Web SDK, habilita [!UICONTROL Búsqueda geográfica] al [configurar una secuencia de datos](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=es).
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **Campo Web SDK / XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Parámetro de consulta** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **etiqueta XML** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Límite de bytes** | 50 bytes |
+| **Persistencia** | Hit |
 
 ## Elementos de dimensión
 

@@ -8,22 +8,26 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 TQID: https://experienceleague.adobe.com/A5HaPb0TghRKVykJ9V2UMJ0mlsYElLkCyBwxzTd6VII
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 8%
-
+source-wordcount: '196'
+ht-degree: 11%
 ---
-
 # Vínculo de Activity Map
 
 El &quot;vínculo de Activity Map&quot; [dimension](overview.md) muestra los vínculos más populares en los que se hizo clic. Puede utilizar esta dimensión para comparar qué vínculos del sitio se utilizan más, independientemente de dónde se hizo clic en los vínculos.
@@ -31,6 +35,15 @@ El &quot;vínculo de Activity Map&quot; [dimension](overview.md) muestra los ví
 ## Rellene esta dimensión con datos
 
 Esta dimensión recupera datos de la [variable de datos de contexto](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Si su implementación utiliza [Activity Map](/help/analyze/activity-map/overview.md), esta variable de datos de contexto recopila datos automáticamente cuando se hace clic en los vínculos.
+
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | Ninguno (recopilado por el módulo [Activity Map](/help/analyze/activity-map/overview.md)) |
+| **Campo Web SDK / XDM** | Ninguno (recopilado por el módulo [Activity Map](/help/analyze/activity-map/overview.md)) |
+| **Parámetro de consulta** | n/a |
+| **etiqueta XML** | n/a |
+| **Límite de bytes** | 255 bytes |
+| **Persistencia** | n/a |
 
 Para un vínculo determinado en el que se hizo clic, Activity Map busca lo siguiente (en orden):
 

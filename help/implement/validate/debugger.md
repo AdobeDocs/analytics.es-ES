@@ -7,31 +7,38 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # Depurador heredado
 
 >[!IMPORTANT]
 >
 >Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la [extensión de Chrome de Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=es).
 
-[!UICONTROL Legacy Debugger] inspecciona las etiquetas de la mayoría de los servicios empresariales de Adobe CX. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
+[!UICONTROL Legacy Debugger] inspecciona las etiquetas de la mayoría de los servicios de Adobe CX Enterprise. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
 
 ## Instalación de versiones anteriores de Debugger
 
@@ -97,6 +104,6 @@ El depurador tiene varias opciones disponibles, que personalizan el modo en que 
 * **[!UICONTROL Productos de Experience Cloud mostrados]**: muestra u oculta solicitudes de imagen para cada producto de CX Enterprise correspondiente.
 * **[!UICONTROL Descodificación de URL]**: La URL descodifica la solicitud de imagen para que coincida con lo que se muestra en los informes. Adobe recomienda dejar esta casilla marcada.
 * **[!UICONTROL Actualización automática]**: actualiza automáticamente la ventana emergente cada pocos segundos para buscar más solicitudes de imagen en la página. Si necesita copiar/pegar contenido en el depurador, deshabilite la actualización automática para que la selección se mantenga.
-* **[!UICONTROL Formato sencillo]**: cambia el formato de presentación entre etiquetas útiles y cadenas de consulta sin procesar en una solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](query-parameters.md) para obtener más información.
+* **[!UICONTROL Formato sencillo]**: cambia el formato de presentación entre etiquetas útiles y cadenas de consulta sin procesar en una solicitud de imagen. Consulte [Parámetros de consulta de recopilación de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) para obtener más información.
 
 Para guardar las opciones de visualización predeterminadas del depurador, haga clic con el botón derecho en el vínculo “Adobe Debugger” en la esquina superior derecha y copie la dirección del vínculo. Edite el bookmarklet del depurador actual y pegue el fragmento de código actualizado en el campo URL.

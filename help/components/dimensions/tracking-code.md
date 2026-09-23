@@ -6,23 +6,28 @@ exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 TQID: https://experienceleague.adobe.com/8e9126PxGCNXJqo4a3XYTgXwrcHdf34FVwygpHXm5JI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 100%
-
+source-wordcount: '625'
+ht-degree: 88%
 ---
-
 # Código de seguimiento
 
 La [dimensión](overview.md) “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Puede colocar vínculos con diferentes valores de parámetros de cadenas de consulta en diferentes lugares de internet. Esta dimensión puede ayudarle a entender mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio.
@@ -31,7 +36,16 @@ Añadir cadenas de consulta de código de seguimiento es habitual en los correos
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la [`v0`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
+AppMeasurement recopila estos datos mediante la variable [`campaign`](/help/implement/vars/page-vars/campaign.md). Esta variable generalmente obtiene su valor de una cadena de consulta utilizando el método de utilidad [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md), aunque su organización determina exactamente cómo configurarla.
+
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
+| **Campo Web SDK / XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Parámetro de consulta** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **etiqueta XML** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Límite de bytes** | 255 bytes |
+| **Persistencia** | Configurable |
 
 ## Elementos de dimensión
 
@@ -43,7 +57,7 @@ Algunos usuarios que configuran reglas de procesamiento de canal de marketing co
 
 ### Canales anteriores en reglas de procesamiento
 
-Las reglas de procesamiento de los canales de marketing que se encuentran más arriba en la lista pueden impedir que las visitas se atribuyan a su canal de marketing de códigos de seguimiento. Por ejemplo:
+Las reglas de procesamiento de los canales de marketing que se encuentran más arriba en la lista pueden impedir que los hits se atribuyan a su canal de marketing de códigos de seguimiento. Por ejemplo:
 
 1. Tiene “Redes sociales” configuradas como la primera regla y “Códigos de seguimiento” como la segunda.
 2. Un usuario publica un vínculo a su sitio que contiene un código de seguimiento en un sitio de medios sociales y varios de sus amigos hacen clic en ese vínculo a su sitio.

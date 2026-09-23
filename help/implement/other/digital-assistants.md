@@ -7,190 +7,133 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Machine learning
+source-git-commit: f801835bb65be97db52dfccd217ecba268230eea
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 89%
-
+source-wordcount: '1252'
+ht-degree: 11%
 ---
-
 # Implementar Analytics para asistentes digitales
 
-Con los recientes avances en computación en la nube, aprendizaje automático y procesamiento de lenguajes naturales, los asistentes digitales se están convirtiendo en parte de la vida cotidiana. Los consumidores están empezando a hablar con sus dispositivos y a esperar que comprendan y respondan de formas parecidas a las humanas. El establecimiento cada vez mayor de estas plataformas permite a las marcas presentar sus servicios a los consumidores de un modo realista y natural. Por ejemplo, un consumidor puede preguntar cosas como:
+Con los avances en computación en la nube, aprendizaje automático y procesamiento de lenguajes naturales, los asistentes digitales son parte de la vida cotidiana. Los consumidores hablan con sus dispositivos y esperan respuestas similares a las humanas, y las marcas pueden presentar sus servicios a través de estas mismas experiencias. Por ejemplo, los consumidores pueden preguntar:
 
 * “Alexa, pregunta al coche cuándo hay que cambiarle el aceite”.
-* “Cortana, ¿qué saldo tengo en la cuenta corriente?”.
+* &quot;Oye Google, ¿cuál es el saldo de mi cuenta corriente?&quot;
 * “Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche”.
 
-Esta página describe de forma general el mejor modo de utilizar Adobe Analytics para medir y optimizar este tipo de experiencias.
+Esta página proporciona información general sobre cómo utilizar Adobe Analytics para medir y optimizar este tipo de experiencias.
 
 ## Información general de la arquitectura de la experiencia digital
 
 ![Flujo de trabajo del asistente digital](assets/Digital-Assitants.png)
 
-La mayoría de los asistentes digitales de hoy en día siguen una arquitectura de alto nivel similar:
+La mayoría de los asistentes digitales siguen una arquitectura de alto nivel similar:
 
-1. **Dispositivo:** hay un dispositivo (como un Amazon Echo o un teléfono) con un micrófono que permite al usuario hacer una pregunta.
-1. **Asistente digital:** el dispositivo interactúa con el servicio que alimenta el asistente digital. Es donde el habla se convierte en intenciones comprensibles para la máquina y donde se analizan los detalles de la solicitud. Una vez entendida la intención del usuario, el asistente digital la transmite junto con los detalles de la solicitud a la aplicación que se encarga de tramitar dicha solicitud.
-1. **“Aplicación”:** puede tratarse de una aplicación que hay en el teléfono o de una aplicación de voz. La aplicación es la encargada de responder a la solicitud. Responde al asistente digital, que a su vez responde al usuario.
+1. **Dispositivo**: Un dispositivo (como un altavoz inteligente o un teléfono) con un micrófono que permite al usuario hacer una pregunta.
+1. **Asistente digital**: El servicio que alimenta el asistente. Convierte el habla en intenciones comprensibles para el equipo y analiza los detalles de la solicitud. Una vez entendida la intención, el asistente la transmite junto con los detalles a la aplicación que se encarga de la solicitud.
+1. **&quot;Aplicación&quot;**: Una aplicación en el teléfono o una aplicación de voz que responde a la solicitud. Responde al asistente digital, que luego responde al usuario.
+
+## Envío de datos a Adobe Analytics
+
+Una aplicación de asistente digital se suele ejecutar en un servidor o plataforma que no tiene ninguna biblioteca del lado del cliente de Adobe (AppMeasurement o Web SDK). Envíe visitas del lado del servidor **mediante la API de inserción de datos [2}**. ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)Cada interacción que desea medir se convierte en una solicitud de API de inserción de datos cuya cadena de consulta (o cuerpo XML) lleva las variables descritas en esta página (generalmente [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md)) que se asignan a eVars, props y eventos con [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md).
+
+Esta página se centra en *qué* medir y cómo modelarlo en Analytics. Para el extremo, las codificaciones de cadena de consulta y XML, los componentes necesarios y los tipos de respuesta, consulte la [documentación de API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/). Cada variable nombrada a continuación se asigna a un parámetro de cadena de consulta y etiqueta XML en la [referencia de variable](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 
 ## Dónde se implementa Analytics
 
-Uno de los mejores lugares para implementar Analytics es en la aplicación. La aplicación recibe la intención y los detalles del asistente digital y, a continuación, la aplicación determina cómo responder.
-
-Hay dos ocasiones durante una solicitud que pueden resultar útiles para enviar datos a Adobe Analytics.
+Uno de los mejores lugares para implementar Analytics es en la aplicación, que recibe la intención y los detalles del asistente digital y determina cómo responder. Hay dos momentos durante una solicitud que son útiles para enviar datos a Adobe Analytics:
 
 1. Cuando se envía la solicitud a la aplicación.
 1. Tras devolverse la respuesta desde la aplicación.
 
-Si simplemente está interesado en registrar lo sucedido con el cliente para una futura optimización, envíe una solicitud a Adobe Analytics una vez devuelta la respuesta. Dispondrá del contexto completo y sabrá cuál era la solicitud y cómo respondió el sistema.
+Si le interesa registrar lo sucedido para una futura optimización, envíe la visita una vez devuelta la respuesta; a continuación, tendrá el contexto completo de la solicitud y la forma en que respondió el sistema.
 
-## Nuevas instalaciones
+## Qué medir
 
-Con algunos asistentes digitales, recibe una notificación cuando alguien instala la habilidad, especialmente cuando se trata del proceso de autenticación. Adobe recomienda enviar un evento de instalación configurando la variable de datos de contexto `a.InstallEvent=1`. Tenga en cuenta que este procedimiento no está disponible en todos los asistentes digitales, pero, cuando está presente, es útil para comprobar la retención. El siguiente ejemplo de código envía los valores del evento de instalación, fecha de instalación y AppID a las variables de datos de contexto.
+### Nuevas instalaciones
 
-```text
-GET
-/b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
-HTTP/1.1
-Host:
-<xref href="https://example.data.adobedc.net">
-  example.data.adobedc.net
- Cache-Control: no-cache
-</xref href="https:>
-```
+Para los asistentes que le avisan cuando alguien instala la aptitud (especialmente cuando se trata de autenticación), envíe un evento de instalación configurando la variable de datos de contexto `a.InstallEvent=1`, junto con `a.InstallDate` y el ID de la aplicación (`a.AppID`). Esto no está disponible en todas las plataformas, pero resulta útil para el análisis de retención cuando está presente.
 
-## Múltiples asistentes o aplicaciones
+### Múltiples asistentes o aplicaciones
 
-Es probable que su organización quiera aplicaciones para varias plataformas. Es recomendable incluir un ID de aplicación con cada solicitud. Esta variable se puede establecer en la variable de datos de contexto `a.AppID`. Siga el formato de `[AppName] [BundleVersion]`, por ejemplo, BigMac para Alexa 1.2:
+Las organizaciones suelen crear aplicaciones para varias plataformas. Incluya un id. de aplicación en cada solicitud en la variable de datos de contexto `a.AppID`, con el formato `[AppName] [BundleVersion]` (por ejemplo, `Spoofify 1.0`). Agregue una plataforma o variable de datos de contexto del sistema operativo (como `OSType`) para poder distinguir Alexa, el Ayudante de Google y otras plataformas en los informes.
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+### Identificación de visitantes
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+Adobe Analytics usa el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un(a) `userID` que puede usar como identificador único (páselo como anulación de ID de visitante (`vid`). Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos; en estos casos, se hace un hash con un valor de longitud fija con un algoritmo estándar como MD5 o SHA-1.
 
-## Identificación de visitantes
+El uso del servicio de ID de visitante proporciona el mayor valor al asignar un ECID a varios dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice Experience Platform Mobile SDK y envíe el ID de usuario con el método `setCustomerID`. Si su aplicación es un servicio, utilice el ID de usuario proporcionado por el servicio como ID de visitante y configúrelo también con `setCustomerID`. Para obtener información sobre cómo establecer identificadores en una solicitud del lado del servidor, consulte [Identificación de visitantes mediante la API de inserción de datos](../id/data-insertion.md).
 
-Adobe Analytics usa el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o SHA1.
+### Sesiones
 
-El uso del servicio de ID de visitante proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
+Como los asistentes digitales son conversacionales, a menudo incluyen el concepto de sesión (intercambio de varias vueltas). Cuando se inicia una nueva sesión, Adobe recomienda dos cosas:
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+1. **Póngase en contacto con Audience Manager** para obtener los segmentos a los que pertenece el usuario y personalizar la respuesta.
+1. **Envíe un evento de inicio** con la primera respuesta configurando la variable de datos de contexto `a.LaunchEvent=1`.
 
-## Sesiones
+### Intenciones
 
-Como los asistentes digitales son conversacionales, a menudo incluyen el concepto de sesión. Por ejemplo:
+Cada asistente detecta las intenciones y las pasa a la aplicación. Una intención es una representación sucinta de la solicitud; por ejemplo, &quot;Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche&quot; podría resolver la intención *sendMoney*. Envíe cada intención a una variable de datos de contexto que asigne a una eVar para poder ejecutar informes de rutas de acuerdo con las intenciones. Asegúrese de que la aplicación también administre las solicitudes sin intención; Adobe recomienda enviar `No Intent Specified` en lugar de omitir la variable.
 
-**Consumidor:** “Vale, Google, llámame un taxi”.
+### Parámetros, ranuras y entidades
 
-**Google:** “Claro, ¿para cuándo lo quieres?”.
-
-**Consumidor:** &quot;8:30 pm&quot;
-
-**Google:** &quot;Suena bien, el controlador llegará a las 8:30 pm&quot;
-
-Las sesiones son importantes para mantener el contexto y ayudar a recopilar más detalles para que el asistente digital sea más natural. Cuando se implementa Analytics en una conversación, hay dos cosas que deben hacerse al comienzo de una nueva sesión:
-
-1. **Póngase en contacto con Audience Manager:** obtenga los segmentos relevantes a los que pertenece un usuario para que pueda personalizar la respuesta. (Por ejemplo, esa persona es elegible en este momento para del descuento multicanal).
-2. **Envíe un evento de nueva sesión o de inicio:** cuando envíe la primera respuesta a Analytics, incluya un evento de inicio. Normalmente puede hacerse estableciendo los datos de contexto `a.LaunchEvent=1`.
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## Intenciones
-
-Todos los asistentes digitales cuentan con algoritmos que detectan las intenciones para luego transmitirlas a la “Aplicación” de modo que esta sepa lo que debe hacer. Estas intenciones son una representación sucinta de la solicitud.
-
-Por ejemplo, si un usuario dice: &quot;Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche&quot;, la intención podría ser algo así como *sendMoney*.
-
-Al enviar cada una de estas solicitudes como una eVar, puede realizar informes de control de rutas de todas las intenciones de una aplicación conversacional. Asegúrese de que la aplicación pueda también gestionar solicitudes sin intención. Adobe recomienda pasar “Sin intención especificada” a la variable de datos de contexto por intención, en lugar de omitir la variable.
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
-Cache-Control: no-cache
-```
-
-O bien
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## Parámetros/Espacios/Entidades
-
-Además de la intención, los asistentes digitales cuentan a menudo con un conjunto de pares de clave-valor que proporcionan los detalles de la intención. Reciben el nombre de espacios, entidades o parámetros. Por ejemplo: “Siri, envía a John 20 dólares desde mi aplicación de banca por la cena de anoche” tendría los siguientes parámetros:
+Además de la intención, los asistentes a menudo proporcionan detalles clave/valor de la solicitud (denominados espacios, entidades o parámetros). Por &quot;Siri, envía a John 20 dólares por la cena de anoche&quot;, los parámetros podrían ser:
 
 * Quién = John
 * Cantidad = 20
 * Por qué = Cena
 
-Por lo general, una aplicación cuenta con un número finito de estos parámetros. Para realizar un seguimiento de los mismos en Analytics, envíelos como datos de contexto y, a continuación, asigne cada uno de los parámetros a una eVar.
+Normalmente, hay un conjunto finito de ellos por aplicación. Enviarlos a variables de datos de contexto y asignarlos a una eVar.
+
+### Estados de error
+
+A veces, el asistente pasa entradas que tu aplicación no puede manejar (por ejemplo, &quot;Siri, envía a John 20 bolsas de carbón desde mi aplicación de banca&quot;). Cuando esto ocurra, haga que la aplicación pida aclaraciones y envíe datos que indiquen un estado de error: establezca `a.Error=1` junto con una eVar que especifique el tipo de error. Incluya tanto los errores en los que las entradas no son válidas como los errores en los que la propia aplicación tuvo un problema.
+
+### Capacidades de los dispositivos
+
+Aunque la mayoría de las plataformas no exponen el dispositivo exacto, sí exponen sus capacidades (como audio, pantalla o vídeo), que definen los tipos de contenido que puede utilizar. Cuando mida las capacidades del dispositivo, concatenarlas en orden alfabético con dos puntos al inicio y al final (por ejemplo, `":Audio:Camera:Screen:Video:"`) para que pueda generar segmentos como &quot;todas las visitas con capacidades de `:Audio:`&quot;.
+
+* [Referencia de la interfaz Alexa de Amazon](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
+* [Funciones de superficie del Ayudante de Google](https://developers.google.com/actions/assistant/surface-capabilities)
+
+## Solicitud de ejemplo
+
+La siguiente solicitud GET de la API de inserción de datos registra una intención *SendPayment* para una aplicación bancaria, y establece el ID de la aplicación, un evento de inicio, la intención y los valores de la ranura como datos de contexto:
 
 ```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo%201.0&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&pageName=SendPayment HTTP/1.1
 Host: example.data.adobedc.net
-Cache-Control: no-cache
 ```
 
-## Estados de error
+Para obtener el formato de solicitud, los extremos y los tipos de respuesta completos, consulte la [documentación de la API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/request).
 
-En ocasiones, el asistente digital proporciona entradas que la aplicación no sabe cómo manejar. Por ejemplo: “Siri, envía a John 20 bolsas de carbón desde mi aplicación de banca por la cena de anoche”.
+## Ejemplo de modelo de medición
 
-Cuando esto ocurra, haga que la aplicación pida una aclaración. Además, envíe datos a Adobe que indiquen que la aplicación tiene un estado de error junto con una eVar que especifique el tipo de error. Asegúrese de que incluye los errores que se producen cuando las entradas no son correctas y aquellos en los que la aplicación ha tenido un problema.
+La siguiente tabla muestra cómo se asignan las acciones comunes de una aplicación de música a variables de Analytics. Configúrelas como variables de datos de contexto en cada solicitud de API de inserción de datos y, a continuación, asígnelas a eVars y eventos con reglas de procesamiento.
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## Capacidades de los dispositivos
-
-Aunque la mayoría de las plataformas no exponen el dispositivo con el que habló el usuario, sí exponen las capacidades del dispositivo. Por ejemplo: audio, pantalla, vídeo, etc. Esta información es útil porque define los tipos de contenido que se pueden utilizar al interactuar con los usuarios. Cuando se miden las capacidades de los dispositivos, es conveniente concatenarlas (en orden alfabético).
-
-Ejemplo: `":Audio:Camera:Screen:Video:"`
-
-Los dos puntos al inicio y al final ayudan a crear segmentos. Por ejemplo, mostrar todas las visitas con capacidades de `:Audio:`.
-
-* [Capacidades de Amazon](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) con Amazon Alexa
-* [Capacidades de Google](https://developers.google.com/actions/assistant/surface-capabilities) mediante acciones en Google
-
-## Ejemplos
-
-| Persona | Respuesta del dispositivo | Acción/Intención | GET solicitud |
-|---|---|---|---|
-| Instala Spoofify | Sin respuesta | Se instala | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce Spoofify | “Vale, reproduciendo Spoofify” | Play | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Cambia canción | “Vale, ¿qué canción quieres?” | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce “Baby Shark” | “Vale, reproduciendo ‘Baby Shark’ de PinkFong” | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Cambia lista de reproducción | “Vale, ¿qué lista de reproducción quieres?” | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Reproduce mi lista de reproducción de canciones favoritas | “Vale, reproduciendo tu lista de canciones favoritas” | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| Apaga la música | Sin respuesta, la música se apaga | Off | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| Acción de persona | Intención/evento | Datos de contexto para establecer |
+| --- | --- | --- |
+| Instalación de la aplicación | Se instala | `a.InstallEvent=1`, `a.InstallDate`, `a.AppID`, `OSType` |
+| Inicie la aplicación | Launch | `a.LaunchEvent=1`, `a.AppID`, `Intent=Play` |
+| Pide cambiar la canción | ChangeSong | `a.AppID`, `Intent=ChangeSong` |
+| Reproducir una canción específica | ChangeSong | `a.AppID`, `Intent=ChangeSong`, `SongID` |
+| Cambio de la lista de reproducción | ChangePlaylist | `a.AppID`, `Intent=ChangePlaylist`, `Playlist` |
+| Encontrar una entrada no válida | (error) | `a.Error=1`, `ErrorName` |

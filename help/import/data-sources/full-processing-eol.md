@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # Fin de la vida útil de las fuentes de datos de procesamiento completo
 
-Históricamente, las fuentes de datos de procesamiento completo han permitido a las organizaciones enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados a través de medios tradicionales de recopilación de datos, como AppMeasurement. En 2020, Adobe lanzó la [API de inserción masiva de datos](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con características adicionales. Esta página proporciona detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y describe las diferencias en los formatos de archivo.
+Históricamente, las fuentes de datos de procesamiento completo han permitido a las organizaciones enviar datos de nivel de visita a Adobe Analytics. Estos datos se procesaron del mismo modo que los datos recopilados a través de medios tradicionales de recopilación de datos, como AppMeasurement. En 2020, Adobe lanzó la [API de inserción masiva de datos](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), que realiza las mismas funciones que las fuentes de datos de procesamiento completo, pero con características adicionales. Esta página proporciona detalles sobre la funcionalidad adicional proporcionada por la API de inserción de datos en lote y describe las diferencias en los formatos de archivo.
 
 El 25 de marzo de 2021, Adobe impidió que se crearan nuevas conexiones de fuentes de datos de procesamiento completo. El 31 de enero de 2022, se desactivaron todos los servicios de procesamiento completo de datos.
 
@@ -39,7 +47,7 @@ El 25 de marzo de 2021, Adobe impidió que se crearan nuevas conexiones de fuent
 * La inserción de datos en lote tiene funcionalidades de validación de datos y gestión de errores, lo que elimina parte del trabajo administrativo del envío de datos de visitas.
 * La inserción de datos en lote admite varios métodos de identificación de ID de visitante.
 * La inserción de datos en lote tiene algunos campos obligatorios adicionales: Una columna de identificación de visitante, un `pageName` (o vínculo equivalente), `reportSuiteID`, `timestamp` y `userAgent`.
-* Para garantizar la continuidad y la atribución del visitante, la inserción de datos en lote requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
+* Para garantizar la continuidad y la atribución del visitante, la inserción de datos en lote requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
 * La inserción de datos en lote requiere que los archivos estén comprimidos en .csv en formato .gzip.
 * BDIA usa `timestamp` en lugar de `date`.
 
@@ -50,7 +58,7 @@ Las siguientes variables se introdujeron para la inserción de datos en lote, qu
 * **`aamlh`**: sugerencia de ubicación de Adobe Audience Manager.
 * **`contextData.key`**: [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variables del servicio de ID de visitante. Incluye `id`, `authState`y `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=es) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` y `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variables. Incluye `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` y `wow64`.
 * **`ipaddress`**: la dimensión [dirección IP](/help/components/dimensions/ip-address.md).
 * **`language`**: La dimensión [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variables de lista](/help/implement/vars/page-vars/list.md).

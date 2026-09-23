@@ -7,23 +7,28 @@ exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 626
-ht-degree: 78%
-
+source-wordcount: '636'
+ht-degree: 77%
 ---
-
 # Asignación de campos de objeto de datos a Adobe Analytics
 
 En la tabla siguiente se muestra el campo de objeto de datos que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo de objetos de datos, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
@@ -34,11 +39,11 @@ Se recomienda utilizar estos campos si tiene intención de utilizar Customer Jou
 
 La mayoría de los campos de objeto de datos de esta tabla corresponden a un [campo XDM asignado](xdm-var-mapping.md). Durante la ingesta de Adobe Analytics, los valores se asignan primero de XDM a variables de Analytics. A continuación, se asignan los campos de objeto de datos reconocidos y se sobrescriben los valores establecidos anteriormente cuando se asignan a la misma variable de Analytics. Por ejemplo, si `data.__adobe.analytics.events` está presente, reemplaza todo el conjunto de eventos que, de lo contrario, se derivarían de XDM; los eventos no se combinan en ambos orígenes. Una cadena vacía (`""`) en un campo de objeto de datos deja en blanco su variable de Analytics asignada para la visita, incluso si el campo XDM correspondiente contiene un valor.
 
-Algunos campos de objeto de datos también admiten su [valor de parámetro de consulta](../validate/query-parameters.md) respectivo como valores abreviados. Puede utilizar de forma intercambiable campos de objeto de datos estándar y campos de objeto de datos abreviados, siempre y cuando cada uno de ellos sea para variables únicas. Evite establecer un campo de objeto de datos estándar y su campo de objeto de datos abreviado respectivo al mismo tiempo. Adobe no puede garantizar qué campo tiene prioridad.
+Algunos campos de objeto de datos también admiten su [valor de parámetro de consulta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) respectivo como valores abreviados. Puede utilizar de forma intercambiable campos de objeto de datos estándar y campos de objeto de datos abreviados, siempre y cuando cada uno de ellos sea para variables únicas. Evite establecer un campo de objeto de datos estándar y su campo de objeto de datos abreviado respectivo al mismo tiempo. Adobe no puede garantizar qué campo tiene prioridad.
 
 ## Asignación de campo de objeto de datos
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/implement/aep-edge/data-var-mapping.md) de esta página. Al igual que las variables de AppMeasurement, todos los campos de objeto de datos distinguen entre mayúsculas y minúsculas.
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) de esta página. Al igual que las variables de AppMeasurement, todos los campos de objeto de datos distinguen entre mayúsculas y minúsculas.
 
 | Ruta del campo del objeto de datos | Descripción y variable de Analytics |
 | --- | --- |
