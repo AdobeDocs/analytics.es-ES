@@ -6,36 +6,51 @@ exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 88%
-
+source-wordcount: '542'
+ht-degree: 76%
 ---
-
 # Tipo de referente
 
 El &quot;tipo de referente&quot; [dimension](overview.md) indica en qué canales genéricos hicieron clic los visitantes para llegar a su sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los [canales de marketing](marketing-channel.md), donde su organización mantiene reglas para cada canal.
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
+Adobe deriva esta dimensión del [referente](referrer.md) de cada visita, comparándola con varias tablas de búsqueda internas de Adobe. No hay ninguna variable que establecer. Dado que cada valor depende del referente, asegúrese de que la dimensión de referente y los [filtros de URL internos](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) estén correctamente configurados.
+
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | Ninguno (derivado del referente) |
+| **Campo Web SDK / XDM** | Ninguno (derivado del referente) |
+| **Parámetro de consulta** | n/a |
+| **etiqueta XML** | n/a |
+| **Límite de bytes** | n/a |
+| **Persistencia** | N/A |
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen el tipo de remitente del reenvío de la visita. Los valores específicos incluyen los siguientes:
+Los elementos de dimensión incluyen el tipo de remitente del reenvío del hit. Los valores específicos incluyen los siguientes:
 
-* **Escritos o marcados**: No existen datos de remitente del reenvío para la visita.
+* **Escritos o marcados**: No existen datos de remitente del reenvío para el hit.
 * **Motores de búsqueda**: El remitente del reenvío proviene de un motor de búsqueda reconocido que incluye una cadena de consulta de palabra clave.
 * **Herramientas de inteligencia artificial aplicada a la conversación**: el referente proviene de una herramienta de inteligencia artificial aplicada a la conversación reconocida.
 * **Redes sociales:** Los datos de Remitente del reenvío pertenecían a una red social reconocida por Adobe.

@@ -6,33 +6,47 @@ exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 TQID: https://experienceleague.adobe.com/2WMG5X3GNmogf-9Bbapq78pjVg5ibQQw7Bgb0qNpF1E
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 93%
-
+source-wordcount: '515'
+ht-degree: 82%
 ---
-
 # Prop
+
+>[!BEGINSHADEBOX]
 
 *Esta página de ayuda describe cómo funcionan las props como una [dimensión](overview.md). Para obtener información sobre cómo implementar props, consulte [props](/help/implement/vars/page-vars/prop.md) en la guía del usuario sobre implementación.*
 
-Las propiedades son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá de la visita en la que están configuradas.
+>[!ENDSHADEBOX]
+
+Las propiedades son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá del hit en el que están configuradas.
 
 >[!TIP]
 >
@@ -42,9 +56,16 @@ Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solutio
 
 ## Rellenar props con datos
 
-Cada propiedad recopila datos de las cadenas de consulta [`c1` - `c75` &#x200B;](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `c1` recopila datos para prop1, mientras que el parámetro de cadena de consulta `c68` recopila datos para prop68.
+Cada propiedad recopila datos utilizando la variable [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) correspondiente en AppMeasurement. Por ejemplo, la variable `prop1` rellena la dimensión prop1, mientras que la variable `prop68` rellena la dimensión prop68.
 
-AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `prop1` - `prop75`. Consulte [prop](/help/implement/vars/page-vars/prop.md) en la Guía del usuario sobre implementación para ver las directrices de implementación.
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) |
+| **Campo Web SDK / XDM** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Parámetro de consulta** | [`c1` - `c75`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **etiqueta XML** | [`<prop1>` - `<prop75>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Límite de bytes** | 100 bytes |
+| **Persistencia** | Hit |
 
 ## Elementos de dimensión
 
@@ -65,7 +86,7 @@ Puede hacer que cualquier prop distinga mayúsculas de minúsculas. También pue
 Adobe recomienda utilizar eVars en la mayoría de los casos. Las excepciones a esta declaración son las siguientes:
 
 * Puede utilizar props en informes en tiempo real. Las eVars tardan al menos 30 minutos en aparecer en el sistema de informes.
-* Las props pueden convertirse en props de lista, que aceptan varios valores en la misma visita. Las variables de lista son una variable independiente y sólo hay tres variables de lista disponibles.
+* Las props pueden convertirse en props de lista, que aceptan varios valores en el mismo hit. Las variables de lista son una variable independiente y sólo hay tres variables de lista disponibles.
 * Al habilitar las rutas en una propiedad, las dimensiones [Entrada](entry-dimensions.md) y [Salida](exit-dimensions.md) estarán disponibles inmediatamente. Si desea dimensiones de entrada y salida para eVars, puede crear manualmente un segmento.
 
 Consulte [eVar](evar.md) para ver más comparaciones entre props y eVars.

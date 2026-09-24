@@ -7,25 +7,33 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1283
-ht-degree: 78%
-
+source-wordcount: '1278'
+ht-degree: 76%
 ---
-
 # Información general y preguntas frecuentes sobre sugerencias del cliente
 
 Las sugerencias del cliente son información individual acerca del dispositivo de un usuario. Las proporcionan exploradores Chromium como Google Chrome y Microsoft Edge. Para estos, las sugerencias del cliente reemplazarán gradualmente al agente de usuario como fuente de información del dispositivo. Adobe Analytics actualizará su proceso de búsqueda de dispositivos para que utilice sugerencias del cliente además de las del agente de usuario para determinar la información del dispositivo.
@@ -58,7 +66,7 @@ El explorador proporciona automáticamente sugerencias de baja entropía, ingeri
 
 Para ambas bibliotecas, la colección de sugerencias de alta entropía está **desactivada de forma predeterminada**.
 
-Para los datos enviados mediante API, como [API de inserción de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) o [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más detalles.
+Para los datos enviados mediante API, como [API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) o [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/), las sugerencias deben incluirse explícitamente en la carga útil. Consulte la documentación correspondiente para obtener más detalles.
 
 +++
 
@@ -152,7 +160,7 @@ No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión 
 
 +++**¿Cómo puedo incluir datos de sugerencias del cliente al utilizar el envío de API?**
 
-Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
 
 +++
 

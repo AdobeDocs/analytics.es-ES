@@ -6,24 +6,32 @@ exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 TQID: https://experienceleague.adobe.com/X1RtHTTmu0VIblFC3jANE7d6bIbtm4W5OvqFZDp8bLE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '263'
 ht-degree: 88%
-
 ---
-
 # Tiempo empleado por visita (segundos)
 
+>[!BEGINSHADEBOX]
+
 *En esta página de ayuda se describe el funcionamiento de “Tiempo empleado por visita” como métrica. Consulte la dimensión [Tiempo empleado por visita](../dimensions/time-spent-per-visit.md) para obtener más información.*
+
+>[!ENDSHADEBOX]
 
 La [métrica](overview.md) &quot;Tiempo empleado por visita (segundos)&quot; muestra la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión determinado durante cada visita.
 
@@ -37,7 +45,7 @@ Esta métrica utiliza la fórmula [`[Total seconds spent]`](total-seconds-spent.
 
 Esta métrica y el [Tiempo promedio empleado en el sitio](average-time-on-site.md) son similares, pero tienen varias diferencias clave. Ambas métricas utilizan el numerador “Segundos totales empleados”. Sin embargo, “Tiempo promedio en el sitio” utiliza las secuencias que incluyen un elemento de dimensión como denominador. El tiempo empleado por visita utiliza el recuento de visitas como denominador.
 
-Como resultado, ambas métricas generan resultados similares en el nivel de visita, pero distintos en el de visita individual.
+Como resultado, ambas métricas generan resultados similares en el nivel de visita, pero distintos en el de hit.
 
 ## Porcentajes superiores al 100%
 

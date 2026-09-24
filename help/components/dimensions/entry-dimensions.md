@@ -7,25 +7,33 @@ exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 292
-ht-degree: 75%
-
+source-wordcount: '351'
+ht-degree: 65%
 ---
-
 # Dimensiones de entrada
 
+>[!BEGINSHADEBOX]
+
 *Esta página de ayuda describe cómo funcionan las entradas como una [dimensión](overview.md). Para obtener información sobre cómo funcionan las entradas como métricas, consulte la métrica [Entradas](../metrics/entries.md).*
+
+>[!ENDSHADEBOX]
 
 Las dimensiones de entrada están [basadas en visitas](../metrics/visits.md). Registran el primer elemento de dimensión y lo mantienen durante toda la visita. Las dimensiones de entrada están disponibles para todas las variables con las rutas habilitadas en [Variables de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
@@ -34,7 +42,16 @@ Las dimensiones de entrada están [basadas en visitas](../metrics/visits.md). Re
 
 ## Rellenar dimensiones de entrada con datos
 
-Una entrada determinada [dimension](overview.md) se basa en su variable de tráfico asociada. Si la variable que no es de entrada tiene datos, su dimensión de entrada asociada también contendrá datos. No se requieren cambios de implementación para las dimensiones de entrada si las variables de tráfico contienen datos.
+Una entrada determinada [dimension](overview.md) se basa en su variable de tráfico asociada. Adobe deriva cada dimensión de entrada del primer valor visto para esa variable durante la visita; no hay ninguna variable dedicada que establecer. Si la variable que no es de entrada tiene datos, su dimensión de entrada asociada también contendrá datos. No se requieren cambios de implementación para las dimensiones de entrada si las variables de tráfico contienen datos.
+
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | Ninguno (derivado de la primera visita del visitante) |
+| **Campo Web SDK / XDM** | Ninguno (derivado de la primera visita del visitante) |
+| **Parámetro de consulta** | n/a |
+| **etiqueta XML** | n/a |
+| **Límite de bytes** | n/a |
+| **Persistencia** | Visita |
 
 ## Elementos de dimensión
 

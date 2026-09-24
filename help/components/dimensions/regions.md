@@ -6,32 +6,48 @@ exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 87%
-
+source-wordcount: '422'
+ht-degree: 73%
 ---
-
 # Regiones
 
 La dimensión [Regiones](overview.md) indica la región geográfica del visitante. Es una zona geográfica más pequeña que un país, pero más grande que ciudad. En algunos países, una región es un estado, una provincia o una prefectura. En otras zonas, se trata de un país constituyente, departamento o región metropolitana. El uso de esta dimensión es ideal si desea obtener una perspectiva más granular que [Países](countries.md) pero no tan granular como [Ciudades](cities.md).
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en la dirección IP enviada con la visita. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es/) para mantener búsquedas entre la dirección IP y el país. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
+Adobe deriva esta dimensión del lado del servidor de la dirección IP del visitante, comparándola con una tabla de búsqueda interna. Adobe se asocia con [Digital Element](https://www.digitalelement.com/es/) para mantener búsquedas entre la dirección IP y la región. No hay ninguna variable que establecer. Esta dimensión funciona de forma predeterminada para todas las implementaciones.
+
+| Propiedad | Valor |
+| --- | --- |
+| **variable de AppMeasurement** | Ninguno (derivado de la dirección IP del visitante) |
+| **Campo Web SDK / XDM** | Ninguno (derivado de la dirección IP del visitante) |
+| **Parámetro de consulta** | n/a |
+| **etiqueta XML** | n/a |
+| **Límite de bytes** | n/a |
+| **Persistencia** | N/A |
 
 ## Elementos de dimensión
 

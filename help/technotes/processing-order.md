@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Orden de procesamiento de los datos en Adobe Analytics
 
 Adobe ofrece muchas maneras de modificar o manipular los datos antes de que aparezcan en la creación de informes. Esta página muestra el orden en que varias funciones de Adobe Analytics procesan los datos. Puede utilizar esta lista para solucionar problemas de inconsistencias de datos o determinar la mejor funcionalidad que debe utilizarse cuando sea necesario realizar ajustes de datos.
@@ -39,9 +48,9 @@ Antes de enviar los datos a Adobe, suelen compilarse en el lado del cliente medi
 * **AppMeasurement**: un archivo JavaScript alojado en el sitio al que se hace referencia en cada página. Los datos se envían directamente a Adobe Analytics.
 * **SDK web de Adobe Experience Platform**: un archivo JavaScript alojado en el sitio al que se hace referencia en cada página. Los datos se envían al Edge Network de Adobe Experience Platform.
 * **Etiquetas en la recopilación de datos de Adobe Experience Platform**: un archivo JavaScript al que se hace referencia en cada página y que contiene reglas creadas dentro de la IU de recopilación de datos. La extensión de Adobe Analytics ofrece una forma más sencilla de implementar AppMeasurement. La extensión del SDK web ofrece una forma más sencilla de implementar el SDK web.
-* **API**: tanto AppMeasurement como Edge Network ofrecen métodos programáticos para enviar datos a Adobe. AppMeasurement ofrece la [API de inserción de datos](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) y la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); Edge Network ofrece la [API de recopilación de datos](https://developer.adobe.com/data-collection-apis/docs/).
+* **API**: tanto AppMeasurement como Edge Network ofrecen métodos programáticos para enviar datos a Adobe. AppMeasurement ofrece la [API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) y la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/); Edge Network ofrece la [API de recopilación de datos](https://developer.adobe.com/data-collection-apis/docs/).
 
-Si envía datos a Edge Network, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones empresariales de Adobe CX). Independientemente del método de implementación, los datos de visitas recopilados llegan finalmente a los servidores de procesamiento de Adobe Analytics en un formato que puede analizar.
+Si envía datos a Edge Network, puede configurarlos para que reenvíen datos a Adobe Analytics (así como a muchas otras soluciones de Adobe CX Enterprise). Independientemente del método de implementación, los datos de visitas recopilados llegan finalmente a los servidores de procesamiento de Adobe Analytics en un formato que puede analizar.
 
 ## Preprocesamiento en la colección de Adobe Analytics
 

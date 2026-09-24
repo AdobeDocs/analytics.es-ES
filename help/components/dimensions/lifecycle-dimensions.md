@@ -6,23 +6,30 @@ exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 TQID: https://experienceleague.adobe.com/VUN8x5eMzIfJ9VGw76v2pWfKWU7b-ct-kI6liwWTObw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: '192'
 ht-degree: 29%
-
 ---
-
 # Dimensiones del ciclo de vida móvil
 
+>[!BEGINSHADEBOX]
+
 *Esta página hace referencia a datos que se rastrean comúnmente a través de Adobe Experience Platform Mobile SDK. Para obtener información de dispositivos móviles que usan el agente de usuario, consulte [Dimensiones de búsqueda móvil](mobile-dimensions.md). Para las métricas rastreadas con el SDK móvil, consulte [Métricas del ciclo vital móvil](../metrics/lifecycle-metrics.md).*
+
+>[!ENDSHADEBOX]
 
 | Nombre de dimensión de ciclo vital | Descripción | Variable de datos de contexto |
 | --- | --- | --- |
@@ -34,7 +41,7 @@ ht-degree: 29%
 | [!UICONTROL Id. de aplicación] | | `a.AppID` |
 | [!UICONTROL Medium de adquisición] | | `a.referrer.campaign.medium` |
 | [!UICONTROL Término de adquisición] | | `a.referrer.campaign.term` |
-| [!UICONTROL Contenido de adquisición] | | `a.refferer.campaign.content` |
+| [!UICONTROL Contenido de adquisición] | | `a.referrer.campaign.content` |
 | [!UICONTROL Nombre de adquisición] | | `a.referrer.campaign.name` |
 | [!UICONTROL Ubicación (menos de 10 km)] | Latitud y longitud del visitante, con precisión del primer decimal. Por ejemplo, `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
 | [!UICONTROL Ubicación (menos de 100 m)] | Latitud y longitud del visitante, con precisión del tercer decimal. Por ejemplo, `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
@@ -53,7 +60,5 @@ ht-degree: 29%
 | [!UICONTROL Hora del día (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Día de la semana (SDK)] | | `a.DayOfWeek` |
 | [!UICONTROL Id. de punto de interés] | | |
-
-{style="table-layout:auto"}
 
 <!-- Missing: Install Date -->

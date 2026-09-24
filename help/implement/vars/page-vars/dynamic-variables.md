@@ -7,31 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 82%
-
+source-wordcount: '454'
+ht-degree: 80%
 ---
-
 # Variables dinámicas
 
 Las variables dinámicas permiten copiar valores de una variable a otra sin aumentar la longitud de la solicitud de imagen. Resultan útiles a la hora de capturar los mismos datos en varias variables.
 
 En versiones anteriores de Analytics, la longitud de solicitud de imagen era importante para evitar que los datos se truncaran. Las mejoras en AppMeasurement permiten cadenas de consulta de solicitud de imagen mucho más largas, por lo que las variables dinámicas generalmente no son necesarias.
 
-Las variables dinámicas admiten parámetros de cadena de consulta o encabezados HTTP en una solicitud de imagen. Consulte los [parámetros de consulta de recopilación de datos](../../validate/query-parameters.md) para obtener una lista completa de los parámetros disponibles a los que hacer referencia. Consulte [Campos de solicitud estándar](https://es.wikipedia.org/wiki/Anexo:Cabeceras_HTTP) en Wikipedia para obtener una lista completa de los campos de solicitud HTTP disponibles a los que hacer referencia.
+Las variables dinámicas admiten parámetros de cadena de consulta o encabezados HTTP en una solicitud de imagen. Consulte los [parámetros de consulta de recopilación de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) para obtener una lista completa de los parámetros disponibles a los que hacer referencia. Consulte [Campos de solicitud estándar](https://es.wikipedia.org/wiki/Anexo:Cabeceras_HTTP) en Wikipedia para obtener una lista completa de los campos de solicitud HTTP disponibles a los que hacer referencia.
 
 Cuando Adobe reconoce un prefijo de variable dinámica, copia automáticamente la cadena de consulta o el valor del encabezado HTTP en el grupo de informes. Esta acción se produce antes que cualquier otro procesamiento, incluidas las reglas de procesamiento y las reglas de VISTA.
 
