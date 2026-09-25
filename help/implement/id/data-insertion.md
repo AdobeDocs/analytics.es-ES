@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 ---
 # Identificación de visitante mediante la API de inserción de datos
@@ -54,15 +54,15 @@ var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Envíe ese valor en cada visita como parámetro de consulta `mid` o etiqueta XML `<marketingCloudVisitorId>`. Si los datos se reenvían a Audience Manager, envíe también la región de [`getLocationHint`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getlocationhint) como el parámetro `aamlh` (o la etiqueta `<imsRegion>`). Para asociar sus propios identificadores de cliente con el visitante, use [`setCustomerIDs`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/setcustomerids).
+Envíe ese valor en cada visita como el parámetro de consulta `mid`, junto con su ID de organización de IMS como el parámetro `mcorgid`, de modo que el ECID se resuelva correctamente. Si los datos se reenvían a Audience Manager, envíe también la región de [`getLocationHint`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getlocationhint) como el parámetro `aamlh`. Para asociar sus propios identificadores de cliente con el visitante, use [`setCustomerIDs`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/setcustomerids).
 
 Para la recopilación del lado del servidor, obtenga el ECID en el cliente y reenvíelo a su servidor para que lo envíe en cada visita. Para generar un ECID completamente del lado del servidor, sin un cliente, use la [integración directa](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/direct-integration) del servicio de ID.
 
 ## Uso del ID de visitante de Analytics
 
-El identificador de visitante de Analytics (`aid`) se almacena en la cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Cuando llega una visita sin un identificador, el servidor de recopilación asigna un `aid` y lo devuelve en el cuerpo de respuesta. Algunos [tipos de respuesta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) también incluyen este identificador en el cuerpo de respuesta. Quién almacena ese ID y lo reenvía es la diferencia entre los dos estilos de implementación.
+El identificador de visitante de Analytics (`aid`) se almacena en la cookie [`s_vi`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics). Cuando llega una visita sin un identificador, el servidor de recopilación asigna un `aid` e intenta establecer una cookie que contenga ese identificador. Algunos [tipos de respuesta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) también incluyen este identificador en el cuerpo de respuesta.
 
-* **Lado del cliente (solicitudes de imagen directas).** El explorador almacena la cookie `s_vi` que devuelve el servidor y la envía en cada solicitud posterior al mismo dominio de recopilación, de modo que el visitante se reconoce automáticamente. Para que esto funcione, el dominio de recopilación debe poder establecer y leer la cookie (utilice un servidor de seguimiento CNAME de origen). Dado que este modelo depende de las cookies, se degrada allí donde los exploradores las restringen (bloqueo de cookies de terceros, prevención inteligente del seguimiento); prefiera el ECID para una identidad duradera.
+* **Lado del cliente (solicitudes de imagen directas).** El explorador almacena la cookie `s_vi` que devuelve el servidor y la envía en cada solicitud posterior al mismo dominio de recopilación. El visitante se reconoce automáticamente, sin que `aid` se establezca a sí mismo. Dado que este modelo depende de las cookies, lleva los mismos límites de durabilidad que cualquier identidad basada en cookies. Consulte la [Identificación de visitantes con AppMeasurement](appmeasurement.md) para ver el comportamiento de las cookies de origen frente a las de terceros, y el [orden de operaciones](overview.md) para ver cómo Adobe elige qué identificador utilizar. Adobe recomienda utilizar un ECID para la identidad duradera.
 
   >[!NOTE]
   >
@@ -76,7 +76,7 @@ El identificador de visitante de Analytics (`aid`) se almacena en la cookie [`s_
 
   La primera visita sin identificador ya se atribuye al `aid` que devuelve el servidor, por lo que no pierde datos al enviarlo antes de tener un ID. Para los tipos de respuesta que devuelven el identificador (`3` para JavaScript, `11` para XML, `10` para JSON) y el formato de solicitud, consulte [Tipo de respuesta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) en la documentación de la API de inserción de datos.
 
-  Dado que una solicitud del lado del servidor no lleva cookies de visitante, y que su propia dirección IP y agente de usuario pertenecen al remitente, también reenvía la dirección IP real del visitante (el encabezado `X-Forwarded-For`) y el agente de usuario (el encabezado `User-Agent`), de modo que las visitas se atribuyen correctamente.
+  Una solicitud del lado del servidor no lleva cookies de visitante, y su propia dirección IP y agente de usuario pertenecen al remitente. Para atribuir las visitas correctamente, reenvíe también la dirección IP real del visitante (el encabezado `X-Forwarded-For`) y el agente de usuario (el encabezado `User-Agent`).
 
 ## Uso de un ID de visitante personalizado
 
