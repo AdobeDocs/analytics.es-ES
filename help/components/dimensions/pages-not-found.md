@@ -56,7 +56,7 @@ AppMeasurement recopila estos datos mediante la variable [`pageType`](/help/imp
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **Campo Web SDK / XDM** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Campo Web SDK / XDM** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parámetro de consulta** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | n/a |

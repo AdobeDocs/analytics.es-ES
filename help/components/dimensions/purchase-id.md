@@ -45,7 +45,7 @@ Esta dimensión se ha establecido mediante la variable [`purchaseID`](/help/impl
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **Campo Web SDK / XDM** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Campo Web SDK / XDM** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Parámetro de consulta** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | 20 bytes |

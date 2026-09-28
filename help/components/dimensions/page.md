@@ -51,7 +51,7 @@ Establecer la variable [`pageName`](/help/implement/vars/page-vars/pagename.md) 
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Campo Web SDK / XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Campo Web SDK / XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parámetro de consulta** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | 100 bytes |

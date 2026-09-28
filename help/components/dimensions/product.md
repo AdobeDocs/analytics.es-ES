@@ -45,7 +45,7 @@ Esta dimensión hace referencia al nombre del producto en la variable [`products
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Campo Web SDK / XDM** | [`productListItems[].name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Campo Web SDK / XDM** | [`productListItems[].name`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Parámetro de consulta** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | 100 bytes |

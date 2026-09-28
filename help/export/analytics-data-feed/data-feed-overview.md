@@ -62,6 +62,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
