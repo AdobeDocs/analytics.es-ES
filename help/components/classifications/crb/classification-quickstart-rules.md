@@ -155,7 +155,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &amp;Sombrero;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &Sombrero;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 

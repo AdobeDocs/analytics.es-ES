@@ -37,7 +37,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del histograma en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [Histograma](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/histogram) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versión de este artículo._
+_Este artículo documenta la visualización del histograma en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [Histograma](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/histogram) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versión de este artículo._
 
 >[!ENDSHADEBOX]
 
