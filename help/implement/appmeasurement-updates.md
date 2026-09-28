@@ -4,39 +4,59 @@ description: Recopilación de notas de versiones de AppMeasurement para JavaScri
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
+TQID: 'https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2880
+source-wordcount: '2880'
 ht-degree: 69%
-
 ---
-
 # Notas de la versión de AppMeasurement para JavaScript
 
 >[!IMPORTANT]
@@ -109,7 +129,7 @@ Fecha de versión: **17 de agosto de 2021**
 
 Fecha de versión: **4 de agosto de 2020**
 
-* Se ha corregido el referente que falta cuando la primera visita no se envió debido a las preferencias de exclusión del usuario.
+* Se ha corregido el referente que falta cuando el primer hit no se envió debido a las preferencias de exclusión del usuario.
 
 ## Versión 2.21.0
 
@@ -140,14 +160,14 @@ Fecha de versión: **13 de febrero de 2020**
 Fecha de lanzamiento: **23 de agosto de 2019**
 
 * Se ha agregado compatibilidad con la reordenación de las cadenas de consulta Baidu. (AN-182483)
-* Se ha corregido un problema que indicaba valores de visitantes antiguos en las visitas que se ponían en cola mientras se esperaba la inclusión. (AN-184391)
+* Se ha corregido un problema que indicaba valores de visitantes antiguos en los hits que se ponían en cola mientras se esperaba la inclusión. (AN-184391)
 
 ## Versión 2.16.0
 
 Fecha de versión: **15 de agosto de 2019**
 
-* Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Aunque la página no se cargue, si una visita utiliza `sendBeacon`, la solicitud se terminará de completar. Esto resulta muy útil para los vínculos de salida porque es más probable que la visita llegue a los servidores de recopilación de datos. (AN-175142)
-* Los valores ECID/fid ahora se almacenan en la caché en la primera visita, aunque cambie la configuración de OptIn. (AN-175142)
+* Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Aunque la página no se cargue, si un hit utiliza `sendBeacon`, la solicitud se terminará de completar. Esto resulta muy útil para los vínculos de salida porque es más probable que el hit llegue a los servidores de recopilación de datos. (AN-175142)
+* Los valores ECID/fid ahora se almacenan en la caché en el primer hit, aunque cambie la configuración de OptIn. (AN-175142)
 * Módulo de Gestión de público actualizado a DIL 9.3. (AN-182704)
 * Conmutador expuesto en `s.ActivityMap.trackScrollReach` para activar o desactivar el seguimiento de alcance de desplazamiento. (AN-182754)
 * AppMeasurement actualizado para utilizar el servicio de ID de visitante 4.4.0. (AN-182912)
@@ -163,14 +183,14 @@ Fecha de publicación:**15 de julio de 2019**
 
 Fecha de versión: **21 de mayo de 2019**
 
-* Se han corregido los errores relacionados con la administración del estado de los parámetros del rastreador cuando hay varias visitas pendientes. (AN-176931, AN-176629, DTM-12758)
+* Se han corregido los errores relacionados con la administración del estado de los parámetros del rastreador cuando hay varios hits pendientes. (AN-176931, AN-176629, DTM-12758)
 * AppMeasurement actualizado para incluir Visitor.js 4.3.0 (AN-180049)
 
 ## Versión 2.13.0
 
 Fecha de versión: **10 de abril de 2019**
 
-* Corrección de varios problemas detectados con clearVars. El problema se produce cuando las visitas se envían antes de que el rastreador esté listo. Cuando el rastreador está listo, la biblioteca puede establecer variables que ya se han borrado o cambiado. (AN-176931, AN-176629, DTM-12758).
+* Corrección de varios problemas detectados con clearVars. El problema se produce cuando los hits se envían antes de que el rastreador esté listo. Cuando el rastreador está listo, la biblioteca puede establecer variables que ya se han borrado o cambiado. (AN-176931, AN-176629, DTM-12758).
 
 ## Versión 2.12.0
 

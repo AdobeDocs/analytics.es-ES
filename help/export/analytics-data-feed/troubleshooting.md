@@ -6,20 +6,26 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # Solución de problemas de las fuentes de datos
 
 Determine los posibles motivos por los que un trabajo puede no procesarse o entregarse.
@@ -32,9 +38,9 @@ Si tiene una fuente de datos que funcionaba correctamente cada hora o cada día,
 * Asegúrese de que haya suficiente espacio disponible en el sitio FTP. Si el sitio FTP se queda sin espacio en disco, elimine algunos archivos del servidor para dejar espacio a los nuevos archivos.
 * Si no hay problemas conocidos y el sitio FTP tiene suficiente espacio en disco, puede volver a enviar la fuente de datos.
 
-   1. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Administración]** > **[!UICONTROL Fuentes de datos]**.
-   2. Busque las fuentes de datos que desee y, a continuación, haga clic en la casilla de verificación situada junto a cada una de las fuentes que desee volver a ejecutar.
-   3. Haga clic en **[!UICONTROL Volver a ejecutar]**.
+  1. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Administración]** > **[!UICONTROL Fuentes de datos]**.
+  2. Busque las fuentes de datos que desee y, a continuación, haga clic en la casilla de verificación situada junto a cada una de las fuentes que desee volver a ejecutar.
+  3. Haga clic en **[!UICONTROL Volver a ejecutar]**.
 
   ![Volver a ejecutar](assets/rerun.png)
 

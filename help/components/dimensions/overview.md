@@ -3,25 +3,34 @@ title: Información general de dimensiones
 description: Obtenga información sobre las dimensiones y cómo se utilizan en Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
+TQID: 'https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 37%
-
 ---
-
 # Información general de dimensiones
 
 Las dimensiones son variables en Adobe Analytics que generalmente contienen valores de cadena. Las dimensiones comunes incluyen [Página](page.md), [Dominio de referencia](referring-domain.md) o una [eVar](evar.md). Por el contrario, las [métricas](../metrics/overview.md) contienen valores numéricos que se vinculan a una dimensión. Un informe básico muestra filas de valores de cadena (dimensión) frente a una columna de valores numéricos (métrica).
@@ -52,7 +61,7 @@ Se retiran las siguientes dimensiones. La mayoría eran informes de Reports &amp
 * **Versión de JavaScript**: Se informó de la versión de JavaScript que admitía el explorador del visitante. Una dimensión heredada que ya no se recopila.
 * **Página siguiente**: Una dimensión de rutas que muestra la página siguiente que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
 * **Página anterior**: Una dimensión de rutas que muestra la página anterior que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
-* **Zona horaria**: La zona horaria del visitante, derivada del desplazamiento de la marca de tiempo en las solicitudes de imagen de AppMeasurement. Web SDK recopila la zona horaria mediante [`placeContext`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/context).
+* **Zona horaria**: La zona horaria del visitante, derivada del desplazamiento de la marca de tiempo en las solicitudes de imagen de AppMeasurement. Web SDK recopila la zona horaria mediante [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Dominio de nivel superior**: Dominio de nivel superior del punto de acceso del visitante. Un informe heredado de Reports &amp; Analytics; use la dimensión [Dominio](domain.md) en su lugar.
 * **Número de página de visita**: El número de página dentro de una visita. Un informe heredado de Reports &amp; Analytics; use la dimensión [Profundidad de visita](hit-depth.md) en su lugar.
 * **Estado del visitante**: Informó del estado de EE. UU. desde la variable `s.state`. Se sustituye por la dimensión [Estados de EE. UU.](us-states.md), que utiliza la segmentación geográfica.

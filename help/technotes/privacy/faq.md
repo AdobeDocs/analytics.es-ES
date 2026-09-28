@@ -4,35 +4,48 @@ title: Preguntas frecuentes sobre la gobernanza de datos
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+TQID: 'https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: '2101'
 ht-degree: 86%
-
 ---
-
 # Preguntas frecuentes sobre privacidad de Adobe Analytics
 
 +++ **¿De qué modo admite Adobe Analytics las solicitudes de acceso y eliminación de usuarios finales (interesados) validadas por los clientes (responsables del tratamiento de datos)?**
 
-Cuando entre en vigor el reglamento de privacidad de datos (RGPD, CCPA), Adobe Analytics admitirá el procesamiento de solicitudes verificadas enviadas por los responsables del tratamiento de datos a la API de privacidad de datos empresarial de CX para permitir un proceso más automatizado. La API de privacidad de datos de Adobe se ha diseñado para ayudar a procesar las solicitudes de derechos individuales (como las solicitudes de acceso y eliminación) relacionadas con los datos de nuestros clientes almacenados en las soluciones empresariales de Adobe CX. Resulta flexible y se escala según el número de solicitudes de acceso y eliminación de datos que recibe su compañía por parte de los interesados.
+Cuando entre en vigor el reglamento de privacidad de datos (RGPD, CCPA), Adobe Analytics admitirá el procesamiento de solicitudes verificadas enviadas por los responsables del tratamiento de datos a la API de privacidad de datos de CX Enterprise para permitir un proceso más automatizado. La API de privacidad de datos de Adobe se ha diseñado para ayudar a tramitar las solicitudes de derechos individuales (como las solicitudes de acceso y eliminación) relacionadas con los datos de nuestros clientes almacenados en las soluciones de Adobe CX Enterprise. Resulta flexible y se escala según el número de solicitudes de acceso y eliminación de datos que recibe su compañía por parte de los interesados.
 
 Además, la API de Privacy Service permite que los clientes comprueben el estado de cumplimiento de las solicitudes de acceso y eliminación. Para obtener más información, consulte la documentación de la [API de Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
@@ -78,7 +91,7 @@ Sin embargo, con una configuración normal, el procesamiento de solicitudes de R
 
 Con todo, hay varias maneras de probar el procesamiento de privacidad de datos antes de aplicarlo a todos los grupos de informes:
 
-* Una opción consiste en configurar una organización empresarial de CX independiente que contenga únicamente grupos de informes de prueba. A continuación, utilice esta organización empresarial de CX para sus pruebas de privacidad de datos y su organización empresarial de CX normal para el procesamiento real de la privacidad de datos.
+* Una opción consiste en configurar una organización de CX Enterprise independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de CX Enterprise para sus pruebas de privacidad de datos y su organización normal de CX Enterprise para el procesamiento real de la privacidad de datos.
 
 * Otra opción consiste en asignar diferentes espacios de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada espacio de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo espacios de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los espacios de nombres `visitorId`, AAID, ECID o `customVisitorId`. Estos espacios de nombres están codificados y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
 
@@ -124,7 +137,7 @@ También debe tener en cuenta los casos en los cuales los empleados hayan descar
 
 La [API de Privacy Service de datos](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) se proporciona para ayudarle a completar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe.
 
-Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
+Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes. También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine un hit (actualizado o anonimizado) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
 Póngase en contacto con el equipo de cuentas de Adobe para que el equipo de consultoría de arquitectura de ingeniería realice una revisión más exhaustiva para eliminar cualquier problema con la información o los datos personales.
 
@@ -134,7 +147,7 @@ Póngase en contacto con el equipo de cuentas de Adobe para que el equipo de con
 
 La [API de Privacy Service de datos](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) se proporciona para ayudarle a completar las solicitudes de privacidad de datos, que suelen ser urgentes. Adobe no admite el uso de esta API para otros fines, y ello puede afectar a la capacidad de Adobe para proporcionar el retorno puntual de solicitudes de privacidad de datos iniciadas por los usuarios y de alta prioridad a otros clientes de Adobe. Le rogamos que no use la API de privacidad de datos para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
 
-También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
+También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine un hit (actualizado o anonimizado) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que el número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API de privacidad de datos no es apropiada para este uso.
 
 Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con nuestro equipo de consultoría encargado de la arquitectura de ingeniería para revisar más a fondo y proporcionar el nivel de esfuerzo necesario para eliminar cualquier problema relacionado con la información de identificación personal o los datos.
 
@@ -143,5 +156,5 @@ Póngase en contacto con su equipo de cuentas de Adobe para que se coordine con 
 Recursos adicionales de privacidad de datos:
 
 * [Términos comunes del RGPD](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* [Paquete de atención](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) de privacidad de datos empresariales de CX
+* [Paquete de atención](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) de privacidad de datos de CX Enterprise
 * Privacidad de la experiencia [Publicación en el blog](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/)

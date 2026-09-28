@@ -3,31 +3,39 @@ description: Obtenga información sobre cómo filtrar segmentos por etiquetas, p
 title: Filtrar segmentos
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-TQID: https://experienceleague.adobe.com/JDDirfaJAvIbfsgSduuZsGz9eveVWQu9sBfy3TAtRlk
+TQID: 'https://experienceleague.adobe.com/JDDirfaJAvIbfsgSduuZsGz9eveVWQu9sBfy3TAtRlk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 168
+source-wordcount: '168'
 ht-degree: 29%
-
 ---
-
 # Filtrar la lista de segmentos
 
 Puede filtrar la lista de segmentos. El uso de un filtro en los segmentos facilita la búsqueda de los segmentos que están disponibles para usted y la administración de segmentos desde el [Administrador de segmentos](seg-manage.md).
 
 >[!NOTE]
 >
->La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [&#128279;](seg-manage.md#filter-panel)y parte de ese mismo [Administrador de segmentos](seg-manage.md).
+>La lista de segmentos hace referencia a la [lista de segmentos](seg-manage.md#filters-list) como parte de [Administrador de segmentos](seg-manage.md). Puede filtrar esa lista usando el ![Panel de filtro](/help/assets/icons/Filter.svg) [y parte de ese mismo [Administrador de segmentos](seg-manage.md).](seg-manage.md#filter-panel)
 >
 
 

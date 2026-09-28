@@ -3,7 +3,7 @@ title: Motivo de exclusión de seguimiento
 description: Previsualiza qué datos se excluirán si habilita la Configuración de privacidad.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-TQID: https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY
+TQID: 'https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 13%
@@ -42,13 +46,13 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-La dimensión &quot;Razón de exclusión de seguimiento&quot; actúa como una previsualización de los datos que se excluirían si se habilita la Configuración de privacidad. Esta dimensión se usa principalmente para determinar si su implementación se vería afectada negativamente si habilitó [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=es) en Configuración del grupo de informes.
+La dimensión &quot;Razón de exclusión de seguimiento&quot; actúa como una previsualización de los datos que se excluirían si se habilita la Configuración de privacidad. Esta dimensión se usa principalmente para determinar si su implementación se vería afectada negativamente si habilitó [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) en Configuración del grupo de informes.
 
 Las implementaciones típicas ven un 1% o menos del tráfico total del grupo de informes en esta dimensión si la configuración de privacidad aún no se ha habilitado. Los porcentajes superiores al 1 % de todo el tráfico sugieren un posible problema de implementación que impide que AppMeasurement establezca cookies de origen.
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión funciona de forma predeterminada para todas las implementaciones que aún no han habilitado [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=es). Si su organización ya ha habilitado la configuración **[!UICONTROL Eliminar usuarios que bloquearon todas las cookies]** tanto para el escritorio como para los exploradores móviles, esta dimensión no contiene datos.
+Esta dimensión funciona de forma predeterminada para todas las implementaciones que aún no han habilitado [Configuración de privacidad](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Si su organización ya ha habilitado la configuración **[!UICONTROL Eliminar usuarios que bloquearon todas las cookies]** tanto para el escritorio como para los exploradores móviles, esta dimensión no contiene datos.
 
 | Propiedad | Valor |
 | --- | --- |

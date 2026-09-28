@@ -1,33 +1,41 @@
 ---
 title: registerPostTrackCallback
-description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
+description: Cree funciones de llamada de retorno después de enviar un hit a Adobe.
 feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/v-FVX1yPqGLFBhyOzW2rHbr56kRoho0vSzAhS4whSOc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '367'
 ht-degree: 70%
-
 ---
-
 # registerPostTrackCallback
 
-La variable `registerPostTrackCallback` permite a su organización conectar una función de JavaScript inmediatamente después de que una visita se envíe correctamente a Adobe. Si falla una llamada de seguimiento, esta función no se ejecuta. Puede utilizar esta variable para enviar los datos recopilados por AppMeasurement a un socio o a una infraestructura interna, o para limpiar los valores de las variables en aplicaciones de una sola página.
+La variable `registerPostTrackCallback` permite a su organización conectar una función de JavaScript inmediatamente después de que un hit se envíe correctamente a Adobe. Si falla una llamada de seguimiento, esta función no se ejecuta. Puede utilizar esta variable para enviar los datos recopilados por AppMeasurement a un socio o a una infraestructura interna, o para limpiar los valores de las variables en aplicaciones de una sola página.
 
 >[!WARNING]
 >
@@ -55,7 +63,7 @@ alloy("sendEvent",{
 });
 ```
 
-Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=es#handling-responses-from-events) en la documentación de Web SDK para obtener más información.
+Consulte [Gestión de respuestas de eventos](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) en la documentación de Web SDK para obtener más información.
 
 ## Registro de devoluciones de llamada posterior al seguimiento con la extensión Adobe Analytics
 
@@ -90,7 +98,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Caso de uso
 
-El registro de la función [`clearVars()`](clearvars.md) en la devolución de llamada posterior al seguimiento puede ser beneficioso para aplicaciones de una sola página. Cada vez que envía una visita a Adobe, se ejecuta la función `clearVars()`. La implementación puede definir las variables de nuevo sin preocuparse por los valores que persisten incorrectamente.
+El registro de la función [`clearVars()`](clearvars.md) en la devolución de llamada posterior al seguimiento puede ser beneficioso para aplicaciones de una sola página. Cada vez que envía un hit a Adobe, se ejecuta la función `clearVars()`. La implementación puede definir las variables de nuevo sin preocuparse por los valores que persisten incorrectamente.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

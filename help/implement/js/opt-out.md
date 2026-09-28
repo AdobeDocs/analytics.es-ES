@@ -5,38 +5,51 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+TQID: 'https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 69%
-
+source-wordcount: '653'
+ht-degree: 64%
 ---
-
 # Implementación de Vínculos de no participación
 
 >[!IMPORTANT]
 >
-> Este artículo proporciona a **clientes de Adobe Analytics que (están planeando) implementar Adobe Analytics** en su sitio web instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de no participación. <p><p>> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulta [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa Adobe tu información.
+> Este artículo proporciona a **clientes de Adobe Analytics que (están planeando) implementar Adobe Analytics** en su sitio web instrucciones sobre cómo proporcionar a los usuarios del sitio web vínculos de no participación. <p><p>
+> Si está **visitando un sitio web que ha implementado Adobe Analytics** y desea excluirse, **<span style="color:red">este artículo NO es para usted</span>**. Consulta [Opciones de privacidad de Adobe](https://www.adobe.com/es/privacy/opt-out.html) para controlar cómo usa Adobe tu información.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite excluir a los visitantes de un sitio web del análisis de su información.
 
-Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión empresarial de Adobe CX](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos empresariales de Adobe CX, incluidos Adobe Analytics y AppMeasurement.
+Los vínculos de exclusión permiten a los visitantes del sitio web omitir sus datos en los informes de Analytics. Estos vínculos se limitan a implementaciones de AppMeasurement; Adobe recomienda usar el [servicio de inclusión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es) en su lugar. El servicio de inclusión (Opt-in) es más robusto y funciona con varios productos de Adobe CX Enterprise, incluidos Adobe Analytics y AppMeasurement.
 
 Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, AppMeasurement continúa enviando datos a Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
@@ -49,19 +62,19 @@ Cuando un visitante llega a una URL de exclusión, se le solicita que instale un
 La página de exclusión de su organización depende del valor de la variable [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) en la implementación.
 
 * En la extensión de Analytics:
-   1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-   1. Haga clic en la propiedad de etiquetas deseada.
-   1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
-   1. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].
+  1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
+  1. Haga clic en la propiedad de etiquetas deseada.
+  1. Haga clic en la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Configurar] en Adobe Analytics.
+  1. Haga clic en el acordeón [!UICONTROL General] y anote el valor [!UICONTROL Servidor de seguimiento].
 
 * En una implementación de JavaScript:
-   1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
-   1. Tenga en cuenta el valor de la variable `trackingServer`.
+  1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
+  1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Uso de [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
-   1. Vaya a su sitio mediante el explorador Chrome.
-   1. Abra CX Enterprise Debugger y vaya a la [!UICONTROL pestaña Red].
-   1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
+* Usando [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
+  1. Vaya a su sitio mediante el explorador Chrome.
+  1. Abra CX Enterprise Debugger y vaya a la [!UICONTROL pestaña Red].
+  1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:
 

@@ -13,9 +13,13 @@ feature_v2:
     internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -26,7 +30,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: f801835bb65be97db52dfccd217ecba268230eea
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 11%
@@ -53,7 +57,7 @@ La mayoría de los asistentes digitales siguen una arquitectura de alto nivel si
 
 ## Envío de datos a Adobe Analytics
 
-Una aplicación de asistente digital se suele ejecutar en un servidor o plataforma que no tiene ninguna biblioteca del lado del cliente de Adobe (AppMeasurement o Web SDK). Envíe visitas del lado del servidor **mediante la API de inserción de datos [2&rbrace;**. &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)Cada interacción que desea medir se convierte en una solicitud de API de inserción de datos cuya cadena de consulta (o cuerpo XML) lleva las variables descritas en esta página (generalmente [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md)) que se asignan a eVars, props y eventos con [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md).
+Una aplicación de asistente digital se suele ejecutar en un servidor o plataforma que no tiene ninguna biblioteca del lado del cliente de Adobe (AppMeasurement o Web SDK). Envíe visitas del lado del servidor **mediante la API de inserción de datos [2}**. ](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)Cada interacción que desea medir se convierte en una solicitud de API de inserción de datos cuya cadena de consulta (o cuerpo XML) lleva las variables descritas en esta página (generalmente [variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md)) que se asignan a eVars, props y eventos con [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md).
 
 Esta página se centra en *qué* medir y cómo modelarlo en Analytics. Para el extremo, las codificaciones de cadena de consulta y XML, los componentes necesarios y los tipos de respuesta, consulte la [documentación de API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/). Cada variable nombrada a continuación se asigna a un parámetro de cadena de consulta y etiqueta XML en la [referencia de variable](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 

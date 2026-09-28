@@ -3,23 +3,28 @@ title: Administrar conjuntos de clasificaciones
 description: Administrar conjuntos de clasificaciones en Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
+TQID: 'https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '621'
 ht-degree: 5%
-
 ---
-
 # Administrar conjuntos de clasificación
 
 Puede crear, cambiar el nombre, editar, consolidar, eliminar y etiquetar conjuntos de clasificaciones en la interfaz de administración de conjuntos de clasificaciones. También puede filtrar y buscar conjuntos de clasificaciones específicos.
@@ -78,7 +83,7 @@ Al seleccionar uno o más conjuntos de clasificaciones en la lista de conjuntos 
 | ![Cambiar el nombre](/help/assets/icons/Rename.svg) | **[!UICONTROL Cambiar el nombre]** | Cambie el nombre de un conjunto de clasificaciones.<br/>En el cuadro de diálogo **[!UICONTROL Cambiar nombre: _conjunto de clasificación_]**, escriba un nombre nuevo y seleccione **[!UICONTROL Cambiar nombre]**. |
 | ![Combinar](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidar]** | [Consolidar conjuntos de clasificaciones](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Eliminar](/help/assets/icons/Delete.svg) | **[!UICONTROL Eliminar]** | Eliminar un conjunto de clasificaciones.<br/>El **[!UICONTROL conjunto de clasificación _para eliminar_?]** aparece el cuadro de diálogo. No se puede deshacer la eliminación de un conjunto de clasificaciones. Todos los proyectos programados o consolidaciones que utilicen este conjunto de clasificaciones seguirán utilizando la definición de este conjunto de clasificaciones hasta que vuelva a guardar los proyectos programados o a validar las consolidaciones programadas. Seleccione **[!UICONTROL Eliminar]** para eliminar el conjunto de clasificaciones. |
-| ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete el conjunto de clasificaciones.<br/>En el cuadro de diálogo **[!UICONTROL Etiqueta: _conjunto de clasificación_]**, seleccione una o más etiquetas del menú desplegable **[!UICONTROL Etiquetas]**&#x200B;para agregar etiquetas. O introduzca una o más etiquetas nuevas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar una etiqueta. <br/>Seleccione **[!UICONTROL Guardar]**&#x200B;para guardar las etiquetas. |
+| ![Etiqueta](/help/assets/icons/Label.svg) | **[!UICONTROL Etiqueta]** | Etiquete el conjunto de clasificaciones.<br/>En el cuadro de diálogo **[!UICONTROL Etiqueta: _conjunto de clasificación_]**, seleccione una o más etiquetas del menú desplegable **[!UICONTROL Etiquetas]**para agregar etiquetas. O introduzca una o más etiquetas nuevas. Use ![CrossSize100](/help/assets/icons/CrossSize100.svg) para quitar una etiqueta. <br/>Seleccione **[!UICONTROL Guardar]**para guardar las etiquetas. |
 
 
 ### Panel Filtro

@@ -8,32 +8,50 @@ autotag-review: '2026-05-22T09:22:51.975Z'
 TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+    internal-label: View density
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3534
+source-wordcount: '3534'
 ht-degree: 93%
-
 ---
-
 # Preferencias del usuario
 
 Puede administrar la configuración de Analysis Workspace y sus componentes relacionados para todos los proyectos o paneles nuevos que cree. Los proyectos y paneles existentes no se ven afectados.
@@ -41,7 +59,7 @@ Puede administrar la configuración de Analysis Workspace y sus componentes rela
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut &#x200B;](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut ](/help/assets/icons/VideoCheckedOut.svg) [Administrar preferencias](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +112,7 @@ Puede actualizar las preferencias de la compañía que se aplican a todas las pe
 |  | Pestaña Ocultar plantillas | Oculta la pestaña Plantillas a todas las personas de su organización. |
 | **Uso compartido de proyectos** | | |
 | | Permitir compartir solo con usuarios de Workspace | Cuando esta opción está habilitada, las personas de su organización no pueden ver la opción **[!UICONTROL Compartir con cualquiera]** en el menú **[!UICONTROL Compartir]**. Los usuarios no pueden compartir proyectos con personas que no tengan una cuenta de Analysis Workspace en su organización como se describe en [Comparta un proyecto con nadie (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Esta opción está deshabilitada de forma predeterminada para todas las organizaciones, excepto para los clientes con licencia de Healthcare Shield. <p>Tenga en cuenta lo siguiente al habilitar o deshabilitar esta opción:<ul><li>Cuando se habilita esta opción, las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** ya no pueden acceder al proyecto.</li><li>Si esta opción está habilitada (para permitir el uso compartido solo con usuarios de Workspace) y luego deshabilitada (para permitir el uso compartido con cualquier persona), las personas que anteriormente recibieron acceso a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** no recuperan automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL **El vínculo está activo**] que está disponible cuando se comparte un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Para los clientes que tengan licencia de Healthcare Shield:** esta opción está habilitada de forma predeterminada y no se puede deshabilitar. Antes de deshabilitar esta opción para que los usuarios puedan usar la opción de uso compartido **[!UICONTROL Compartir con cualquiera]**, debe añadir primero el permiso [!UICONTROL Compartir vínculos de proyectos con cualquiera] (que se encuentra en [!UICONTROL Herramientas de creación de informes]) en Adobe Admin Console. Una vez añadido el permiso, puede deshabilitar esta opción y aceptar el aviso legal resultante. Para obtener información sobre cómo añadir un permiso en Admin Console, consulte [Administración de permisos de productos en Admin Console](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Requerir autenticación de CX Enterprise | Cuando esta opción está habilitada, las personas a las que se les da acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** de Analysis Workspace deben autenticarse con sus credenciales de CX Enterprise.<p>Una vez habilitada esta opción, cada vez que un usuario comparta un proyecto con la opción de uso compartido **[!UICONTROL Compartir con alguien]**, se habilitará la opción **[!UICONTROL Requerir autenticación empresarial de CX]** en el cuadro de diálogo de uso compartido y el usuario que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Ten en cuenta lo siguiente al habilitar esta opción: <ul><li>Cuando habilita esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** y que no tienen activada la opción [!UICONTROL Requerir autenticación empresarial de CX].<p>Si esta opción está habilitada (para requerir la autenticación de CX Enterprise) y luego deshabilitada (para permitir que cualquier persona con el vínculo acceda al proyecto), las personas que hayan recibido acceso a un proyecto anteriormente a través de la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** no recuperarán automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulta [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
+| | Requerir autenticación de CX Enterprise | Cuando esta opción está habilitada, las personas a las que se les da acceso a un proyecto desde la opción **[!UICONTROL Compartir con cualquiera]** en Analysis Workspace deben autenticarse con sus credenciales de CX Enterprise.<p>Una vez habilitada esta opción, cada vez que un usuario comparta un proyecto con la opción de uso compartido **[!UICONTROL Compartir con alguien]**, se habilitará la opción **[!UICONTROL Requerir autenticación de CX Enterprise]** en el cuadro de diálogo de uso compartido y el usuario que comparte el proyecto no podrá deshabilitarla. Para obtener información sobre cómo los usuarios pueden compartir proyectos con cualquier persona, consulte [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Ten en cuenta lo siguiente al habilitar esta opción: <ul><li>Cuando habilita esta opción, se desactivan todos los proyectos que se compartieron anteriormente con la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** y que no tienen activada la opción [!UICONTROL Requerir autenticación de CX Enterprise].<p>Si esta opción está habilitada (para requerir autenticación de CX Enterprise) y luego deshabilitada (para permitir que cualquier persona con el vínculo tenga acceso al proyecto), las personas que hayan recibido acceso anteriormente a un proyecto mediante la opción de uso compartido **[!UICONTROL Compartir con cualquiera]** no recuperarán automáticamente su acceso al proyecto. En este caso, el usuario que ha compartido el proyecto debe habilitar la opción [!UICONTROL El vínculo está activo] que está disponible al compartir un proyecto con cualquier persona **([!UICONTROL Compartir]** > **[!UICONTROL Compartir con cualquiera]** > **[!UICONTROL El vínculo está activo]**), tal como se describe en [Compartir un proyecto con cualquiera (no se requiere inicio de sesión)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Esta opción solo está disponible si el SSO está implementado en su organización. Para obtener información sobre cómo los administradores del sistema pueden habilitar el SSO para su organización, consulta [Configurar la identidad y el inicio de sesión único](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html).</p><p>Si SSO está configurado para su organización, compruebe si se ha implementado algún tipo de creación de cuenta automática en la consola. Normalmente, un administrador del sistema lo configuraría, tal como se describe en [Habilitar la creación automática de cuentas](https://helpx.adobe.com/es/enterprise/using/automatic-account-creation.html).</li><li>Si su organización dispone de licencias para Healthcare Shield, esta opción está habilitada de forma predeterminada y no se puede deshabilitar.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -124,7 +142,7 @@ Haga clic en los títulos de las preferencias vinculadas para obtener más infor
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/es/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -177,7 +195,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | **[Columna](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | Justificar el texto del encabezado | Justifique el texto del encabezado en las tablas de forma libre para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. La justificación resulta útil en el renderizado de archivos .pdf y en las métricas con nombres largos. Está habilitada de forma predeterminada. |
 | | Mostrar totales | Este total suele ser igual a o un subconjunto del [!UICONTROL Total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
-| | Mostrar totales generales | Este total representa todas las visitas recopiladas, a veces denominadas *total del grupo de informes*. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| | Mostrar totales generales | Este total representa todos los hits recopilados, a veces denominados *total del grupo de informes*. Cuando se aplica un segmento en el nivel de panel o en la tabla de forma libre, este total se ajusta para reflejar todos los hits que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostrar minigráfico | Muestre u oculte gráficos de líneas en la parte inferior del gráfico. Cuando esté oculta, la leyenda cambiará para no hacer referencia visual a las líneas. |
 | | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica son visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila, dividido por el total de visualizaciones de la página para la columna.  Nota: Para ser más precisos, a veces se muestran porcentajes superiores al 100 %. El límite superior se ha establecido en 1000 % para garantizar que las columnas puedan aumentar su anchura hasta valores muy elevados. |
@@ -250,7 +268,7 @@ Haga clic en los títulos de las secciones vinculadas para obtener más informac
 | | Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización “apilada al 100 %”. <p>Para obtener más información, consulte [Barra y barra apilada](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | Número de contenedores | Elija el número de intervalos de datos (contenedores) en la visualización. El número máximo de contenedores es 50. <p>Para obtener más información, consulte [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
-| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por visita individual. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
+| | Método de recuento | Elija entre las siguientes opciones: <ul><li>Visita individual</li><li>Visita</li><li>Visitante</li></ul> <p>Por ejemplo, cuando se usa junto con las vistas de página, podría elegir las vistas de página por visitante, por visita o por hit. Para hits, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre.</p> |
 | **[Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensión de trazado | <ul><li>Latitud/longitud Mobile</li><li>Dimensión geográfica</li></ul> |
 | | Tipo de mapa | <ul><li>Burbujas</li><li>Mapa de calor</li></ul> |

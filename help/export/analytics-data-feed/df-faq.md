@@ -7,20 +7,32 @@ exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 TQID: 'https://experienceleague.adobe.com/bTksilYRAeqiQ-QbO6-NZLWUndN76VzXnOobkAji1zo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: '1508'
 ht-degree: 72%
-
 ---
-
 # Preguntas frecuentes sobre las fuentes de datos
 
 Preguntas frecuentes sobre las fuentes de datos.
@@ -47,7 +59,7 @@ Para evitar la sobrescritura de un archivo, considere las siguientes soluciones:
 
 ## ¿Cuándo se procesan los datos? {#processed}
 
-Antes de procesar datos por hora o por día, las fuentes de datos esperan hasta que todas las visitas que han supuesto recopilación de datos dentro del marco de tiempo (un día o una hora) se han registrado en el almacén de datos. A continuación, las fuentes de datos recopilan los datos con marcas de tiempo incluidas dentro del marco de tiempo, las comprimen y las envían por FTP. En el caso de las fuentes por hora, los archivos se suelen registrar en el almacén de datos dentro de los 15-30 minutos posteriores a la hora, pero no hay un período de tiempo definido. Si no ha habido datos con marcas de tiempo incluidas en el marco de tiempo, el proceso vuelve a intentarlo con el siguiente marco de tiempo. El proceso actual de fuente de datos utiliza el campo `date_time` para determinar las visitas que corresponden a la hora. Este campo está basado en la zona horaria del grupo de informes.
+Antes de procesar datos por hora o por día, las fuentes de datos esperan hasta que todos los hits que han supuesto recopilación de datos dentro del marco de tiempo (un día o una hora) se han registrado en el almacén de datos. A continuación, las fuentes de datos recopilan los datos con marcas de tiempo incluidas dentro del marco de tiempo, las comprimen y las envían por FTP. En el caso de las fuentes por hora, los archivos se suelen registrar en el almacén de datos dentro de los 15-30 minutos posteriores a la hora, pero no hay un período de tiempo definido. Si no ha habido datos con marcas de tiempo incluidas en el marco de tiempo, el proceso vuelve a intentarlo con el siguiente marco de tiempo. El proceso actual de fuente de datos utiliza el campo `date_time` para determinar los hits que corresponden a la hora. Este campo está basado en la zona horaria del grupo de informes.
 
 ## ¿Cuál es la diferencia entre columnas con prefijo `post_` y columnas sin un prefijo `post_`? {#post}
 
@@ -71,9 +83,9 @@ Algunos editores de hojas de cálculo, especialmente Microsoft Excel, redondean 
 
 Adobe recomienda no abrir automáticamente los archivos `hit_data.tsv` en Microsoft Excel. En su lugar, utilice el cuadro de diálogo Importar datos de Excel y asegúrese de que todos los campos se tratan como texto.
 
-## ¿Se garantiza que columnas como `hitid_high`, `hitid_low`, `visid_high` y `visid_low` sean únicas para la visita? {#hitid}
+## ¿Se garantiza que columnas como `hitid_high`, `hitid_low`, `visid_high` y `visid_low` sean únicas para el hit o la visita? {#hitid}
 
-En casi todos los casos, la concatenación de `hitid_high` y `hitid_low` identifica una visita de forma exclusiva. El mismo concepto se aplica a la concatenación de `visid_high` y `visid_low` para las visitas. Sin embargo, las anomalías de procesamiento rara vez hacen que dos visitas compartan el mismo ID. Adobe recomienda no crear flujos de trabajo de fuentes de datos que dependan de que cada visita sea única de forma inflexible.
+En casi todos los casos, la concatenación de `hitid_high` y `hitid_low` identifica un hit de forma exclusiva. El mismo concepto se aplica a la concatenación de `visid_high` y `visid_low` para las visitas. Sin embargo, las anomalías de procesamiento rara vez hacen que dos hits compartan el mismo ID. Adobe recomienda no crear flujos de trabajo de fuentes de datos que dependan de que cada hit sea único de forma inflexible.
 
 ## ¿Por qué falta información en la columna de dominio para algunos operadores? {#domain}
 

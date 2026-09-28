@@ -7,19 +7,28 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/ljT8qsJ--cy-PEZ6FtzBsyTzxrIctzf8lHkvMGeqePo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 172
+source-wordcount: '172'
 ht-degree: 66%
-
 ---
-
 # Ocuparse de una implementación de Adobe Analytics existente
 
 ¿Va a asumir el control de una implementación de Adobe Analytics de un propietario técnico anterior? Nuestro libro de estrategias de implementación heredada le ayudará a asumir el cargo de nuevo propietario técnico de una implementación existente. En la hoja de cálculo descargable, le guiaremos por las actividades de descubrimiento, auditoría y documentación que debe realizar en sus primeras 10 semanas de trabajo a medida que se hace cargo de una implementación existente.
@@ -33,7 +42,7 @@ Consulte estas sugerencias de su compañera propietaria técnica, Sarah Owen. Sa
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use el libro de estrategias de implementación heredada](https://video.tv.adobe.com/v/3438742?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use el libro de estrategias de implementación heredada](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

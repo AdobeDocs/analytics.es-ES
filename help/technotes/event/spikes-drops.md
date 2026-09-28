@@ -3,28 +3,41 @@ title: Solución de problemas de picos y caídas de datos
 description: Conocer las posibles razones por las que puede ver incrementos o disminuciones drásticos en los informes de tendencias.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+TQID: 'https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # Solución de problemas de picos y caídas de datos
 
 A medida que el sitio recopila datos, hay muchos factores externos que pueden afectar drásticamente a la recopilación de datos o a la generación de informes. La siguiente es una lista de posibles motivos por los cuales determinadas variables o el tráfico general aumentan o disminuyen de forma considerable.
@@ -40,7 +53,7 @@ Las caídas del tráfico se clasifican en dos secciones: datos parciales y datos
 * **Latencia del grupo de informes**: En ocasiones, un grupo de informes puede experimentar [latencia](../latency.md) debido a una serie de factores. Muchos de los problemas de latencia se resuelven en unas horas. Si le preocupa un grupo de informes específico, póngase en contacto con el servicio de atención al cliente de Adobe con la ID del grupo de informes correspondiente.
 * **Eliminación de la implementación**: A veces, cuando una organización realiza cambios de implementación o reestructura su sitio, se pasa por alto la reimplementación de Analytics. Trabaje con los desarrolladores de su organización para volver a implementar el código en su sitio.
 * **Problema de caché/interfaz de Analytics**: En raras ocasiones, la memoria caché de un explorador contiene datos no válidos que hacen que todos los informes devuelvan ceros. Borre las cookies y la memoria caché del explorador para resolver el problema. Si la eliminación de cookies o de la memoria caché no funciona, póngase en contacto con el servicio de atención al cliente con el informe y el intervalo de fechas que faltan; pueden duplicar el problema y proporcionar información adicional.
-* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/es/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
+* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
 
 ### Posibles causas de la pérdida parcial de datos o la disminución del tráfico
 

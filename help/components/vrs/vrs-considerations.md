@@ -4,34 +4,49 @@ keywords: Grupo de informes virtuales
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1657'
 ht-degree: 72%
-
 ---
-
 # Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 
 Los grupos de informes virtuales le permiten ver datos de un grupo de informes que recopila datos de sus propiedades digitales, pero con un segmento aplicado de forma permanente.
@@ -48,9 +63,9 @@ Tenga en cuenta las siguientes consideraciones a la hora de determinar si debe u
 
 ### Publicación de segmentos en Adobe CX Enterprise
 
-El uso compartido de segmentos con Adobe CX Enterprise no es compatible con los grupos de informes virtuales. Los usuarios que deseen compartir un segmento con CX Enterprise deben tener acceso al grupo de informes de origen.
+No se admite el uso compartido de segmentos con Adobe CX Enterprise en los grupos de informes virtuales. Los usuarios que deseen compartir un segmento con CX Enterprise deben tener acceso al grupo de informes de origen.
 
-Los segmentos no se pueden publicar en Adobe CX Enterprise desde un grupo de informes virtuales para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, desea que los usuarios solo tengan acceso a los datos de su región geográfica, pero desea que puedan crear y compartir segmentos de Adobe Analytics a Adobe CX Enterprise para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
+Los segmentos no se pueden publicar en Adobe CX Enterprise desde un grupo de informes virtuales para su personalización y segmentación. Todos los usuarios que publiquen segmentos deben tener acceso a un grupo de informes para este fin. Por ejemplo, quiere que los usuarios solo tengan acceso a los datos de su región geográfica, pero quiere que puedan crear y compartir segmentos de Adobe Analytics a Adobe CX Enterprise para realizar la segmentación en Adobe Target. En este caso, Adobe recomienda utilizar el etiquetado de grupos múltiples. Si no le importa que los usuarios tengan acceso al grupo de informes globales o no necesita publicar segmentos para usarlos en otras soluciones, se pueden utilizar los grupos de informes virtuales.
 
 ### Límites únicos (poco tráfico)
 
@@ -88,7 +103,7 @@ Que su organización realiza los análisis en una sola moneda no causa ningún p
 
 Las fuentes de datos no pueden utilizar grupos de informes virtuales. Sin embargo, puede recibir una fuente de datos de un grupo de informes globales y luego separarla.
 
-Las fuentes de datos le permiten recibir una exportación diaria o por hora de todos sus datos de Adobe Analytics a nivel de visita individual. Las fuentes de datos no se pueden segmentar previamente antes de que se le entreguen, por lo que solo puede recibir una fuente de datos para su grupo de informes globales. Si su organización tiene una gran necesidad de fuentes de datos individuales en un nivel granular, de marca, propiedad, región u otro, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
+Las fuentes de datos le permiten recibir una exportación diaria o por hora de todos sus datos de Adobe Analytics a nivel de hit. Las fuentes de datos no se pueden segmentar previamente antes de que se le entreguen, por lo que solo puede recibir una fuente de datos para su grupo de informes globales. Si su organización tiene una gran necesidad de fuentes de datos individuales en un nivel granular, de marca, propiedad, región u otro, considere la posibilidad de utilizar el etiquetado de grupos múltiples.
 
 ### Data Connectors con cuentas de socio
 
@@ -100,7 +115,7 @@ Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empr
 
 Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Como las cargas de fuentes de datos de resumen contienen métricas agregadas *sin un ID de visitante*, no se pueden segmentar en los contenedores [!UICONTROL Visita] y [!UICONTROL Visitante]. Dado que el grupo de informes virtuales funciona mediante la segmentación, los datos importados mediante fuentes de datos de resumen no estarán disponibles en los grupos de informes virtuales si el segmento se crea con un contenedor de visita o visitante.
 
-Las fuentes de datos de resumen se muestran en el grupo de informes virtual si se utiliza un contenedor de visita individual y si este tiene reglas condicionadas para incluir la información de la fuente de datos.
+Las fuentes de datos de resumen se muestran en el grupo de informes virtual si se utiliza un contenedor de hit y si este tiene reglas condicionadas para incluir la información de la fuente de datos.
 
 >[!TIP]
 >
@@ -113,7 +128,7 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
 1. Cree grupos de informes virtuales de modo que coincidan con los datos en los grupos de informes secundarios. Segmente en una dimensión personalizada que distinga los sitios entre sí.
    * Si migra desde una implementación con etiquetado de grupos múltiples que ya existe, compare los segmentos del grupo de informes virtuales con los grupos de informes secundarios existentes. Antes de mover usuarios al grupo de informes virtuales, debe asegurarse de que los datos sean comparables.
    * Se recomienda utilizar el [apilamiento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
-   * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
+   * Utilice contenedores de hit si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
    * En la extensión de Adobe Analytics dentro de la recopilación de datos de Adobe Experience Platform, haga clic en la &quot;x&quot; junto a los grupos de informes que ya no desee utilizar.
    * En implementaciones de JavaScript antiguas, ubique la variable `s.account` y elimine todos los ID de los grupos de informes que ya no desee usar.

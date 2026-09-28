@@ -7,27 +7,40 @@ exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 TQID: 'https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Customer profiles
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: '522'
 ht-degree: 41%
-
 ---
-
 # Resumen de Audience Analytics
 
 Adobe Audience Manager (Adobe Audience Manager) es una potente plataforma de administración de datos que le ayuda a crear perfiles de audiencia únicos a partir de integraciones de datos de origen, secundarias o de socio, y de terceros. Para los anunciantes, estos perfiles de público ayudan a definir los segmentos más valiosos que se pueden utilizar en cualquier canal digital.
@@ -37,7 +50,7 @@ Con la integración de Audience Analytics, puede incorporar datos de audiencia d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -56,11 +69,11 @@ La integración de Audience Analytics ofrece las siguientes ventajas principales
 
 ![](assets/mc-aud-dataflow.png)
 
-1. Cada vez que un visitante llega a una de sus propiedades digitales, las visitas se recopilan y se envían a Analytics.
+1. Cada vez que un visitante llega a una de sus propiedades digitales, los hits se recopilan y se envían a Analytics.
 1. Con el [reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), cada visita que Analytics recibe se envía automáticamente a Adobe Audience Manager en tiempo real.
 1. Con la integración de Audience Analytics, para cada visita se busca en Adobe Audience Manager si el visitante pertenece a alguna audiencia y se devuelve a Analytics una lista de ID de segmento para su procesamiento en tiempo real.
 
-Como los segmentos de Adobe Audience Manager se insertan por visita, puede estar seguro de que no le faltará ningún dato de Adobe Audience Manager sobre un visitante, y de que los datos de las visitas de dicho visitante estarán actualizados. Esta característica es mejor que un complemento de AppMeasurement, ya que los complementos solo pueden ofrecer los segmentos en la siguiente visita (y no en la visita actual).
+Como los segmentos de Adobe Audience Manager se insertan por visita, puede estar seguro de que no le faltará ningún dato de Adobe Audience Manager sobre un visitante, y de que los datos de las visitas de dicho visitante estarán actualizados. Esta característica es mejor que un complemento de AppMeasurement, ya que los complementos solo pueden ofrecer los segmentos en el siguiente hit (y no en el hit actual).
 
 Además, clasificamos automáticamente los ID de segmento de Adobe Audience Manager con sus nombres descriptivos para que no tengan que ver los ID alfanuméricos en los informes de Analytics.
 

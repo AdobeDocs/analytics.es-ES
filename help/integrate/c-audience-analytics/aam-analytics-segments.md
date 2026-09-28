@@ -6,20 +6,30 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 89%
-
 ---
-
 # Explicación de los segmentos en Analytics y Audience Manager
 
 Tanto Analytics como Audience Manager emplean segmentos. Sin embargo, los segmentos de Analytics no son exactamente iguales a los de Audience Manager. Estas diferencias contribuyen, en parte, a las discrepancias que se pueden apreciar entre los informes de Analytics y de Audience Manager. Por tanto, es importante y útil comprender estas diferencias al comenzar a trabajar con segmentos en ambas soluciones.
@@ -41,7 +51,7 @@ Para obtener más información, consulte [Datos de población de característica
 
 ## Segmentos de Analytics {#analytics-segments}
 
-Un segmento de Analytics es un mecanismo de filtrado para los datos de sus informes. El filtrado puede producirse en el nivel del visitante o de la visita, y no solo estrictamente en el nivel del visitante, como sucede en Audience Manager. Hay varios factores importantes a considerar al comparar un segmento de Analytics con uno de Audience Manager:
+Un segmento de Analytics es un mecanismo de filtrado para los datos de sus informes. El filtrado puede producirse en el nivel del visitante, la visita o el hit, y no solo estrictamente en el nivel del visitante, como sucede en Audience Manager. Hay varios factores importantes a considerar al comparar un segmento de Analytics con uno de Audience Manager:
 
 * Los segmentos de Analytics operan sobre un conjunto de datos distinto de los de Audience Manager. Durante la recopilación de datos, Analytics aplica a estos muchos pasos de posprocesado que no están disponibles en Audience Manager. Estos pasos pueden incluir la persistencia de eVar, reglas de procesamiento, búsquedas (geolocalización, dispositivo móvil), VISTA y muchos otros. Audience Manager recibe los datos preprocesados mediante reenvío de lado del servidor (o DIL).
 
@@ -49,7 +59,7 @@ Un segmento de Analytics es un mecanismo de filtrado para los datos de sus infor
 
   Por ejemplo, si eVar = azul y está establecido para que nunca caduque en Analytics, cualquier segmento de Analytics con el criterio “eVar = azul” siempre incluirá a este visitante. Por su parte, en Audience Manager, este visitante podría quedar fuera de un segmento definido de forma similar pasado un tiempo establecido.
 
-* Los segmentos de Analytics tienen más capacidades que los de Adobe Audience Manager. Los segmentos de Audience Manager siempre se evalúan en el nivel del visitante. Los segmentos de Analytics pueden definirse en el nivel del visitante o de la visita (o una combinación de estos). Además, Analytics admite capacidades de segmentación avanzada que Audience Manager no admite, como la segmentación secuencial.
+* Los segmentos de Analytics tienen más capacidades que los de Adobe Audience Manager. Los segmentos de Audience Manager siempre se evalúan en el nivel del visitante. Los segmentos de Analytics pueden definirse en el nivel del visitante, visita o hit (o una combinación de estos). Además, Analytics admite capacidades de segmentación avanzada que Audience Manager no admite, como la segmentación secuencial.
 
 * Como se ha mencionado antes, los usuarios pueden entrar o salir de un segmento dependiendo de si cumplen o no los criterios del mismo en un momento dado.
 

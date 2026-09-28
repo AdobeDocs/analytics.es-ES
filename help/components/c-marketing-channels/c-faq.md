@@ -3,27 +3,37 @@ title: Preguntas más frecuentes sobre los canales de marketing
 description: Preguntas más frecuentes sobre los canales de marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+TQID: 'https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: '1524'
 ht-degree: 100%
-
 ---
-
 # Preguntas más frecuentes sobre los canales de marketing
 
 >[!NOTE]
@@ -51,11 +61,11 @@ Compruebe que el nombre del parámetro esté especificado en los campos del par�
 
 ## ¿Por qué se atribuye todo mi tráfico de último contacto a un dominio interno?
 
-Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada visita que el visitante haga al sitio, y no solo con la primera visita. Si tiene una regla como *`Page URL exists`* sin ningún otro criterio, con cada visita sucesiva a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
+Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada hit que el visitante haga al sitio, y no solo con la primera visita. Si tiene una regla como *`Page URL exists`* sin ningún otro criterio, con cada hit sucesivo a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
 
 ## ¿Cómo se depura el tráfico que se muestra en No se ha identificado el canal, en el informe?
 
-Las reglas se procesan en orden. Si no se encuentra ninguna concordancia con un criterio específico, las visitas caen en una de estas tres categorías:
+Las reglas se procesan en orden. Si no se encuentra ninguna concordancia con un criterio específico, los hits caen en una de estas tres categorías:
 
 1. Sin referente (visita directa).
 
@@ -71,7 +81,7 @@ Asegúrese de tener un canal para estas tres posibilidades. Por ejemplo, cree re
 
 3. **[!UICONTROL Referente]** y **[!UICONTROL Existe]** y **[!UICONTROL El referente no concuerda con los filtros de dirección URL internos]**.
 
-Por último, cree el canal *Otros* para que capture las visitas restantes, tal como se describe en [No se ha identificado el canal](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
+Por último, cree el canal *Otros* para que capture los hits restantes, tal como se describe en [No se ha identificado el canal](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
 ## Relación entre primer y último contacto
 
@@ -105,7 +115,7 @@ El último contacto interno (actualización de la sesión) solo se puede produci
 
 * **Tráfico entre dominios**: Un visitante pasa de un dominio que se activa con el grupo A a un segundo dominio que se activa con el grupo B. Si en el grupo B los filtros de URL internos incluyen el primer dominio, la visita en el grupo B se registrará como interna, ya que los canales de marketing la ven como una nueva visita en el segundo grupo. La visita se clasificará como “Actualización de sesión”.
 
-* **Tiempos de carga de la página de entrada largos**: Un visitante llega a la página A, que tiene mucho contenido, y el código de Adobe Analytics se encuentra en la parte inferior de la página. Antes de cargar todo el contenido (incluida la solicitud de imagen de Adobe Analytics), el visitante hace clic en la página B. La página B activa su solicitud de imagen de Adobe Analytics. Dado que la solicitud de imagen de la página “A” nunca se cargó, la segunda página aparece como la primera visita individual en Adobe Analytics, con la página “A” como referente. La visita se clasificará como “Actualización de sesión”.
+* **Tiempos de carga de la página de entrada largos**: Un visitante llega a la página A, que tiene mucho contenido, y el código de Adobe Analytics se encuentra en la parte inferior de la página. Antes de cargar todo el contenido (incluida la solicitud de imagen de Adobe Analytics), el visitante hace clic en la página B. La página B activa su solicitud de imagen de Adobe Analytics. Dado que la solicitud de imagen de la página “A” nunca se cargó, la segunda página aparece como el primer hit de la visita en Adobe Analytics, con la página “A” como referente. La visita se clasificará como “Actualización de sesión”.
 
 * **Borrar cookies en el sitio en mitad de la sesión**: Un visitante ingresa al sitio y luego borra las cookies a mitad de la sesión. Los canales de primer y último contacto se restablecerían y la visita se clasificaría como “Actualización de sesión” (porque el referente sería interno).
 
