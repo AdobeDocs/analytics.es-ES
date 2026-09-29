@@ -3,28 +3,39 @@ description: Obtenga información sobre cómo publicar segmentos para la activid
 title: Publicar segmentos
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+TQID: 'https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1432'
 ht-degree: 31%
-
 ---
-
 # Publicar segmentos {#publish-segments}
 
 >[!CONTEXTUALHELP]
@@ -64,14 +75,14 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 * **Límites del grupo de informes**: Puede publicar hasta 75 segmentos por grupo de informes. Este límite se aplica. Si ya ha publicado 75 segmentos, no podrá publicar ningún segmento adicional hasta que cancele la publicación de suficientes segmentos para bajar del umbral de 75 segmentos.
 * **Límites de miembros**: las audiencias compartidas en CX Enterprise desde Adobe Analytics no pueden superar los 20 millones de miembros únicos.
-* Los públicos de **Privacidad de los datos** no se filtran según el estado de autenticación de un visitante. Un visitante podría examinar el sitio en los estados de autenticado y no autenticado. Las acciones que se producen cuando un visitante no está autenticado todavía pueden hacer que se incluya a un visitante en una audiencia. Revise la [privacidad empresarial de Adobe CX](https://www.adobe.com/es/privacy/experience-cloud.html) para comprender las implicaciones de privacidad completas del uso compartido de audiencias.
+* Los públicos de **Privacidad de los datos** no se filtran según el estado de autenticación de un visitante. Un visitante podría examinar el sitio en los estados de autenticado y no autenticado. Las acciones que se producen cuando un visitante no está autenticado todavía pueden hacer que se incluya a un visitante en una audiencia. Revise la [privacidad de Adobe CX Enterprise](https://www.adobe.com/es/privacy/experience-cloud.html) para comprender las implicaciones de privacidad completas del uso compartido de audiencias.
 * Para ver una discusión sobre las **diferencias entre los segmentos de [!DNL Adobe Analytics] y Audience Manager**, consulte [Comprender los segmentos en Analytics y Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Cronología de publicación de segmentos
 
 | Qué está disponible | Cuándo esté disponible | Dónde está disponible |
 |---|---|---|
-| Metadatos (título y definición del segmento) | Inmediatamente después de la publicación | Audience Manager, Biblioteca de audiencias empresariales de CX, Target |
+| Metadatos (título y definición del segmento) | Inmediatamente después de la publicación | Audience Manager, Biblioteca de audiencias de CX Enterprise, Target |
 | Segmento utilizable al ser miembro | ~ 8 horas después de la publicación | Visor de perfiles de visitante en Audience Manager |
 | Población de miembros y características | En un plazo de 24-48 horas | Audience Manager |
 
@@ -93,7 +104,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 
 | Elemento | Descripción |
 |---|---|
-| **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]** | Cuando esta opción está habilitada, el título y la definición del segmento se comparten con CX Enterprise de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando esa audiencia está asociada con una actividad en Target, por ejemplo, [!DNL Analytics] comienza a enviar ID para los visitantes que son aptos para esa audiencia de CX Enterprise y Target. En ese momento, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la página [!DNL Audience Library] de CX Enterprise. </br> |
+| **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]** | Cuando esta opción está habilitada, el título y la definición del segmento se comparten con CX Enterprise de forma instantánea, mientras que la pertenencia al segmento se evalúa y comparte cada 4 horas. <br> Cuando dicha audiencia está asociada con una actividad en Target, por ejemplo, [!DNL Analytics] comienza a enviar ID para los visitantes que son aptos para esa audiencia de CX Enterprise y Target. En este punto, el nombre de audiencia y los datos correspondientes empiezan a mostrarse en la página [!DNL Audience Library] de CX Enterprise. </br> |
 | **[!UICONTROL Ventana de creación de público]** | El lapso de tiempo seleccionado se utiliza para crear la audiencia en un calendario móvil. Por ejemplo, **[!UICONTROL Últimos 30 días]** (predeterminado) incluye visitantes que han cumplido los requisitos para la audiencia durante los últimos 30 días respecto a la fecha actual (NO desde la fecha original en que se creó el segmento). |
 | **[!UICONTROL Crear en la biblioteca de públicos]** | Los segmentos que cree y publique pueden estar disponibles sin latencia en la página [!DNL Audience Library] de CX Enterprise. No dependen de las actualizaciones de Analytics. Estos segmentos no cuentan con el límite de 75 segmentos publicados. |
 | **[!UICONTROL x de 75 publicados]** | El número de segmentos que ha publicado en CX Enterprise. Haga clic en el vínculo para ver una lista de los segmentos publicados y su grupo de informes y propietario asociados. |
@@ -155,7 +166,7 @@ El UUID de Adobe Audience Manager en el explorador se encuentra de forma predete
 
 En Adobe Audience Manager, la lista de visitantes con ECID para un segmento determinado se evalúa mientras que Analytics comparte segmentos con CX Enterprise.
 
-1. En Audience Manager, vaya a **[!UICONTROL Datos de audiencia]** > **[!UICONTROL Características]** > **[!UICONTROL Características de Analytics]**. Verá una carpeta para cada grupo de informes de Analytics asignada a su organización empresarial CX. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y Públicos/Personas.
+1. En Audience Manager, vaya a **[!UICONTROL Datos de audiencia]** > **[!UICONTROL Características]** > **[!UICONTROL Características de Analytics]**. Verá una carpeta para cada grupo de informes de Analytics asignada a su organización de CX Enterprise. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y Públicos/Personas.
 1. Seleccione la carpeta para el grupo de informes en el que creó el segmento que quería compartir con Audience Manager. Verá el segmento o la audiencia que creó. Cuando comparte un segmento, ocurren dos cosas en Audience Manager:
    * Se crea una característica, primero sin datos en ella. Aprox. 8 horas después de que se publique el segmento en [!DNL Analytics], la lista de ECID se incorpora y comparte con Audience Manager y otras soluciones de CX Enterprise.
 

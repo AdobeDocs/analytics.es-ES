@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 91%
-
 ---
-
 # Complemento de Adobe: getTimeBetweenEvents
 
 {{plug-in}}
@@ -87,15 +95,15 @@ La función `getTimeBetweenEvents` utiliza los siguientes argumentos:
 * **`cn`** (opcional, cadena): El nombre de la cookie en la que se almacena la hora del primer evento. El valor predeterminado es `"s_tbe"`.
 * **`etd`** (opcional, entero): El tiempo de caducidad de la cookie en días. Configúrelo en `0` para que caduque al terminar la sesión del explorador. Si no se configura de forma distinta, el valor predeterminado es 1 día.
 * **`fmt`** (opcional, cadena): El formato del tiempo en el que se devuelve el número de segundos (el valor predeterminado es nada)
-   * `"s"` para los segundos
-   * `"m"` para los minutos
-   * `"h"` para las horas
-   * `"d"` para los días
-   * Si no se establece, el formato del valor devuelto se basa en las siguientes reglas:
-      * Cualquier valor inferior a un minuto se redondea a la referencia de 5 segundos más cercana. Por ejemplo: 10 segundos, 15 segundos
-      * Cualquier valor entre un minuto y una hora se redondea a la referencia de 1/2 minuto más cercana. Por ejemplo, 30,5 minutos, 31 minutos
-      * Cualquier valor entre una hora y un día se redondea a la referencia de cuarto de hora más cercana. Por ejemplo, 2,25 horas, 3,5 horas
-      * Cualquier valor mayor que un día se redondea a la referencia del día más próximo. Por ejemplo: 1 día, 3 días, 9 días
+  * `"s"` para los segundos
+  * `"m"` para los minutos
+  * `"h"` para las horas
+  * `"d"` para los días
+  * Si no se establece, el formato del valor devuelto se basa en las siguientes reglas:
+    * Cualquier valor inferior a un minuto se redondea a la referencia de 5 segundos más cercana. Por ejemplo: 10 segundos, 15 segundos
+    * Cualquier valor entre un minuto y una hora se redondea a la referencia de 1/2 minuto más cercana. Por ejemplo, 30,5 minutos, 31 minutos
+    * Cualquier valor entre una hora y un día se redondea a la referencia de cuarto de hora más cercana. Por ejemplo, 2,25 horas, 3,5 horas
+    * Cualquier valor mayor que un día se redondea a la referencia del día más próximo. Por ejemplo: 1 día, 3 días, 9 días
 * **`bml`** (opcional, número): La duración de la referencia de redondeo según el formato del argumento `fmt`. Por ejemplo, si el argumento `fmt` es `"s"` y este argumento es `2`, el valor devuelto se redondea a la referencia de 2 segundos más cercana. Si el argumento `fmt` es `"m"` y este argumento es `0.5`, el valor devuelto se redondea a la referencia de medio minuto más cercana.
 * **`rte`** (opcional, cadena): La cadena delimitada por comas de eventos de Analytics que anulan o eliminan el temporizador. No tiene valor predeterminado.
 

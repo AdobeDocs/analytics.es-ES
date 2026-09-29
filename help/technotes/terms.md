@@ -3,45 +3,73 @@ title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+TQID: 'https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2638
+source-wordcount: '2638'
 ht-degree: 86%
-
 ---
-
 # Términos utilizados en Adobe Analytics
 
 Este glosario le ayudará a comprender el contexto de muchos de los términos que utiliza Adobe Analytics.
@@ -56,7 +84,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **AppMeasurement:** biblioteca de códigos utilizada para recopilar datos y enviarlos a Adobe. Consulte la [Página de inicio](/help/implement/home.md) de la guía de usuario sobre implementación.
 * **Ranura ASI:** ya no existe. En versiones anteriores de Adobe Analytics, las ranuras ASI proporcionaban un contenedor temporal de grupos de informes que permitía ver los datos segmentados. En la versión actual de Adobe Analytics, los segmentos se pueden aplicar instantáneamente a cualquier informe.
 * **Desglose:** permite ver una dimensión dentro del contexto de otra dimensión. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la Guía de herramientas de Analytics.
-* **Devolución:** una visita individual que consiste en una sola visita. Consulte [Devoluciones](/help/components/metrics/bounces.md) en la guía de usuario sobre componentes. Consulte también Acceso único.
+* **Devolución:** una visita que consiste en un solo hit. Consulte [Devoluciones](/help/components/metrics/bounces.md) en la guía de usuario sobre componentes. Consulte también Acceso único.
 * **Métrica calculada:** permite combinar las métricas, las funciones estadísticas y las fórmulas existentes para su uso en la creación de informes. Consulte [Métricas calculadas](/help/components/calculated-metrics/cm-overview.md) en la guía de usuario sobre componentes.
 * **Campaign o Campaña:** puede hacer referencia a:
   * La variable de campaña, que rellena la dimensión Código de seguimiento. Consulte [campaña](../implement/vars/page-vars/campaign.md) en la guía de usuario sobre implementación.
@@ -74,11 +102,11 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
 * **Variable de conversión:** Conocidas de forma coloquial como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la Guía de herramientas de Analytics.
-* **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
+* **Vínculo personalizado:** tipo de hit que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
 * **Atributos del cliente:** Característica de CX Enterprise que permite cargar datos de atributos. Consulte [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=es) en la guía de usuario de los servicios principales.
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **Conectores de datos:** Una solución de desarrollo retirada que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. Se reemplazó con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
-* **Fuente de datos:** exportación de datos sin procesar que enumera cada visita en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
+* **Fuente de datos:** exportación de datos sin procesar que enumera cada hit en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
 * **Capa de datos:** Una [capa de datos](/help/implement/prepare/data-layer.md) es un marco de objetos JavaScript en su sitio que contiene los valores de variables utilizados en su implementación de Analytics. Permite un mayor control y un mantenimiento más sencillo al asignar valores a variables de Analytics.
 * **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/data-sources/overview.md) en la guía de usuario sobre importación.
 * **Data Warehouse:** característica de Adobe Analytics que permite solicitar informes de mayor tamaño. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario sobre exportación.
@@ -88,11 +116,11 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Serialización de eventos:** un proceso de aplicación de medidas para evitar la recopilación de eventos duplicados. Consulte [Serialización de eventos](../implement/vars/page-vars/events/event-serialization.md) en la guía de usuario sobre implementación.
 * **eVar:** Consulte Variable de conversión.
 * **Evento:** Consulte Evento de éxito.
-* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes de la visita del evento. Consulte [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
+* **Caducidad:** define, en el contexto de una variable de conversión, cuánto tiempo persiste el valor en el backend. Esta persistencia permite que los eventos se asocien con valores de variables antes del hit del evento. Consulte [Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de usuario de administración.
 * **Flujo:** tipo de visualización en Analysis Workspace que muestra las rutas de los usuarios por el sitio. Consulte [Visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en la Guía de herramientas de Analytics.
-* **Grupo de informes globales:** término que designa un grupo de informes que recopila visitas de varios sitios.
+* **Grupo de informes globales:** término que designa un grupo de informes que recopila hits de varios sitios.
 * **Código H:** el predecesor de AppMeasurement. En versiones anteriores de Adobe Analytics, se hablaba de “versiones H” del código, como H.27.5, H.26, etc.
-* **Visita:** una solicitud de imagen individual enviada a los servidores de recopilación de datos de Adobe. Las vistas de página y los vínculos personalizados se pueden denominar visitas.
+* **Hit:** una solicitud de imagen individual enviada a los servidores de recopilación de datos de Adobe. Las vistas de página y los vínculos personalizados se pueden denominar hits.
 * **Solicitud de imagen:** imagen transparente de 1x1 píxeles que se utiliza para comunicarse con los servidores de recopilación de datos de Adobe. Un sitio web solicita esta imagen invisible con una cadena de consulta larga que contiene datos; Adobe devuelve la imagen invisible y analiza la cadena de consulta recibida.
 * **Insight:** puede hacer referencia a:
   * El nombre anterior de Data Workbench.
@@ -100,24 +128,24 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **KPI:** sigla de “key performance indicator” (indicador clave de rendimiento) Son métricas que ayudan a las empresas a comprender el rendimiento de su sitio. Cada organización tiene diferentes KPI que miden diferentes aspectos de su negocio. Consulte [Creación de un documento de diseño de solución](/help/implement/prepare/solution-design.md) en la guía del usuario sobre implementación.
 * **Latencia:** el lapso de tiempo entre el momento de recopilación de los datos y el momento en que estos están disponibles en los informes. La latencia típica en un grupo de informes es de 30 a 90 minutos. Consulte [Latencia](/help/technotes/latency.md) en la guía de usuario sobre Technotes.
 * **Launch:** Ya no se usa como término. El nombre anterior abreviado de las etiquetas en Adobe Experience Platform, la solución de implementación actual de Adobe. Consulte [Información general de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es) en la guía del usuario de Adobe Experience Platform.
-* **Prop de lista:** una configuración que transforma una variable de tráfico estándar para que admita varios valores en la misma visita. Cualquier variable de tráfico personalizada puede convertirse en un prop de lista si la configuración está habilitada. Consulte [prop](../implement/vars/page-vars/prop.md) en la guía de usuario sobre implementación.
-* **List var:** una variable concreta independiente de las variables de conversión. Las list var admiten varios valores en la misma visita, y los valores de variable se conservan en una visita de forma similar a las variables de conversión. Solo hay tres list var disponibles para una organización. Consulte [list](/help/implement/vars/page-vars/list.md) en la guía de usuario sobre implementación.
+* **Prop de lista:** una configuración que transforma una variable de tráfico estándar para que admita varios valores en el mismo hit. Cualquier variable de tráfico personalizada puede convertirse en un prop de lista si la configuración está habilitada. Consulte [prop](../implement/vars/page-vars/prop.md) en la guía de usuario sobre implementación.
+* **List var:** una variable concreta independiente de las variables de conversión. Las list var admiten varios valores en el mismo hit, y los valores de variable se conservan en una visita de forma similar a las variables de conversión. Solo hay tres list var disponibles para una organización. Consulte [list](/help/implement/vars/page-vars/list.md) en la guía de usuario sobre implementación.
 * **Empresa de inicio de sesión:** una recopilación de los grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de la organización.
-* **Canal de marketing:** característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de marketing. Consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
+* **Canal de marketing:** característica de Adobe Analytics que categoriza los hits según la forma en que llegaron al sitio. La lógica utilizada para categorizar los hits se puede personalizar mediante reglas de procesamiento del canal de marketing. Consulte [Introducción a los canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
 * **Métrica:** un tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Su homólogo suele ser una dimensión.
 * **Aplicación móvil:** Conocida también como **paneles de [!UICONTROL Adobe Analytics]**, la aplicación móvil permite que los usuarios accedan mediante dispositivos móviles a cuadros de resultados intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 * **Mobile Services:** Un producto retirado de Adobe que aúna las capacidades de marketing móvil para aplicaciones móviles de Adobe CX Enterprise, lo que le permite comprender y mejorar la participación del usuario en sus aplicaciones.
 * **Etiquetado de grupos múltiples:** la práctica de enviar la misma visita a varios grupos de informes. Con la introducción de los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los procesos de etiquetado de grupos múltiples se centran en un grupo de informes global.
 * **Normalización:** forma de organizar una visualización que recoge todas las métricas e iguala sus proporciones, lo que permite una comparación más sencilla de las tendencias.
-* **Ocurrencias:** un tipo de métrica que muestra el número de visitas para el que se configuró o durante el cual persistió un elemento de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.
+* **Ocurrencias:** un tipo de métrica que muestra el número de hits para el que se configuró o durante el cual persistió un elemento de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.
 * **Omniture:** ya no se usa como término. Era la organización propietaria de Adobe Analytics antes de ser adquirida por Adobe en 2009.
 * **Rutas:** Consulte Flujo.
-* **Vista de página:** tipo de visita que incrementa las vistas de página. Consulte la métrica [Vistas de página](/help/components/metrics/page-views.md) en la guía del usuario Componentes. Consulte también Visita.
-* **Persistencia:** concepto abstracto de las variables de conversión que permite la vinculación de un valor de variable con un evento que se produzca en visitas independientes. Consulte también Caducidad.
-* **Llamada primaria al servidor:** nombre alternativo para las solicitudes de imagen o las visitas que se utiliza principalmente en el contexto del etiquetado y de la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, el primer grupo de informes es una llamada primaria al servidor, mientras que el resto son llamadas secundarias al servidor. Esta regla se aplica a todos los tipos de visitas, lo cual incluye la vista de página y el seguimiento de vínculos. Consulte también Llamadas secundarias al servidor.
+* **Vista de página:** tipo de hit que incrementa las vistas de página. Consulte la métrica [Vistas de página](/help/components/metrics/page-views.md) en la guía del usuario Componentes. Consulte también Hit.
+* **Persistencia:** concepto abstracto de las variables de conversión que permite la vinculación de un valor de variable con un evento que se produzca en hits independientes. Consulte también Caducidad.
+* **Llamada primaria al servidor:** nombre alternativo para las solicitudes de imagen o los hits que se utiliza principalmente en el contexto del etiquetado y de la facturación de grupos múltiples. Cuando se envía el mismo hit a varios grupos de informes, el primer grupo de informes es una llamada primaria al servidor, mientras que el resto son llamadas secundarias al servidor. Esta regla se aplica a todos los tipos de hits, lo cual incluye la vista de página y el seguimiento de vínculos. Consulte también Llamadas secundarias al servidor.
 * **Reglas de procesamiento:** puede hacer referencia a:
   * Reglas de procesamiento, una forma de modificar la recopilación de datos mediante ciertas reglas de Admin Console. Consulte [Reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) en la guía de usuario de administración.
-  * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece una visita. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) en la guía de usuario de administración.
+  * Reglas de procesamiento del canal de marketing, un conjunto de reglas que determina a qué canal de marketing pertenece un hit. Consulte [Reglas de procesamiento del canal de marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) en la guía de usuario de administración.
 * **Prop:** Consulte Variable de tráfico.
 * **Informe de clasificación:** formato de informe que suele mostrar métricas para las dimensiones. Este tipo de informe permite ver los elementos principales, como las páginas más vistas del sitio. Consulte también Informe de tendencias.
 * **Tiempo real:** muestra con poca o ninguna latencia las variables configuradas en cuanto se recopilan. Consulte [Informes en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) en la guía de usuario de administración.
@@ -129,18 +157,18 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **s.t():** nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de vista de página. Algunas bibliotecas de AppMeasurement utilizan `s.track()` en su lugar. Consulte [t](../implement/vars/functions/t-method.md) en la guía de usuario sobre implementación.
 * **s<span>.</span>tl():** Nombre de la función de una biblioteca de AppMeasurement que envía una solicitud de imagen de seguimiento de vínculos. Algunas bibliotecas de AppMeasurement utilizan `s.trackLink()` en su lugar. Consulte [tl](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación.
 * **s_code.js:** nombre del archivo JavaScript utilizado en versiones históricas de Adobe Analytics. El nombre actual del archivo JavaScript utilizado es AppMeasurement.js.
-* **Llamada secundaria al servidor:** nombre alternativo para solicitudes de imagen o visitas que se utiliza principalmente en el contexto del etiquetado y la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, todos los grupos de informes menos el primero que recibe la visita se consideran llamadas secundarias al servidor. Consulte también Llamadas primarias al servidor.
+* **Llamada secundaria al servidor:** nombre alternativo para solicitudes de imagen o hits que se utiliza principalmente en el contexto del etiquetado y la facturación de grupos múltiples. Cuando se envía el mismo hit a varios grupos de informes, todos los grupos de informes menos el primero que recibe el hit se consideran llamadas secundarias al servidor. Consulte también Llamadas primarias al servidor.
 * **Segmento:** le permite centrarse en un subconjunto específico de los datos. Consulte [Segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario sobre componentes.
 * **Contenedor de segmento:** parte de un segmento que determina la cantidad de datos que se va a incluir. Los contenedores pueden basarse en la vista de página, la visita o el visitante. Consulte [Segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario sobre componentes.
 * **Serialización:** Consulte Serialización de eventos.
-* **Llamada al servidor:** nombre alternativo para una solicitud de imagen o una visita que se utiliza principalmente en el contexto de la facturación.
-* **Acceso único:** visita en la que una dimensión tenía tan solo un valor único individual. La visita individual puede tener varias visitas, siempre y cuando no haya varios valores únicos. Consulte la métrica [Acceso único](/help/components/metrics/single-access.md) en la guía del usuario Componentes. Consulte también Devolución.
+* **Llamada al servidor:** nombre alternativo para una solicitud de imagen o un hit que se utiliza principalmente en el contexto de la facturación.
+* **Acceso único:** visita en la que una dimensión tenía tan solo un valor único individual. La visita puede tener varios hits, siempre y cuando no haya varios valores únicos. Consulte la métrica [Acceso único](/help/components/metrics/single-access.md) en la guía del usuario Componentes. Consulte también Devolución.
 * **SiteCatalyst:** ya no se usa como término. Se trata del antiguo nombre de Adobe Analytics.
 * **Documento de diseño de solución:** también se conoce como referencia de diseño de solución o SDR. Documento interno de una organización que describe cómo se utilizan las variables personalizadas y la lógica utilizada para rellenarlas. Consulte [Creación de un documento de diseño de solución](/help/implement/prepare/solution-design.md) en la guía del usuario sobre implementación.
 * **Subrelación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En versiones anteriores de Adobe Analytics, las subrelaciones permitían desglosar variables de conversión. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la Guía de herramientas de Analytics.
 * **Evento de éxito:** acción rastreada que realizó un usuario. Su organización determina qué eventos rastrear y qué variables de eventos de éxito utilizar para realizar el seguimiento. Consulte [Eventos personalizados](/help/components/metrics/custom-events.md) en la guía de usuario sobre componentes.
 * **Usuario admitido:** consulte Delegado de asistencia al cliente.
-* **Variable de tráfico:** Conocida coloquialmente como prop. Almacena un valor personalizado para una sola visita. Las versiones anteriores de Adobe Analytics daban a las props un valor único, pero las mejoras realizadas en la plataforma hacen que las variables de tráfico personalizadas sean prácticamente innecesarias. Adobe recomienda utilizar variables de conversión personalizadas (eVars) en la mayoría de los casos. Consulte la dimensión [Prop](/help/components/dimensions/prop.md) en la guía del usuario Componentes.
+* **Variable de tráfico:** Conocida coloquialmente como prop. Almacena un valor personalizado para un solo hit. Las versiones anteriores de Adobe Analytics daban a las props un valor único, pero las mejoras realizadas en la plataforma hacen que las variables de tráfico personalizadas sean prácticamente innecesarias. Adobe recomienda utilizar variables de conversión personalizadas (eVars) en la mayoría de los casos. Consulte la dimensión [Prop](/help/components/dimensions/prop.md) en la guía del usuario Componentes.
 * **Informe de tendencias:** formato de informe que generalmente muestra varios intervalos de fecha con una métrica. Este tipo de informe permite ver el rendimiento de una métrica a lo largo del tiempo. Consulte también Informe de clasificación.
 * **Visitante único**: representa el número de individuos únicos que visitaron el sitio. Un visitante único puede tener varias visitas. Consulte la métrica de [Visitantes únicos](/help/components/metrics/unique-visitors.md) en la guía del usuario Componentes.
 * **Grupo de informes virtual:** contenedor virtual de datos que hace referencia a un grupo de informes estándar y que permite refinar los datos. Los datos no se envían a un grupo de informes virtual; en su lugar, se envían a un grupo de informes estándar y se genera un grupo de informes virtual a partir de los datos recopilados. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes.

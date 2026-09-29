@@ -7,34 +7,47 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '588'
 ht-degree: 40%
-
 ---
-
 # Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 
 En esta sección se explican las mejoras aplicadas en el reenvío del lado del servidor debido a la [normativa de cumplimiento de cookies de la UE](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), que entró en vigor el 30 de septiembre de 2017.
 
-El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones empresariales de CX, como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones de CX Enterprise, como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
-Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear entre el consentimiento y los eventos/visitas previos al consentimiento. A partir del 1 de noviembre de 2018, usted como responsable del tratamiento de datos (cliente de Adobe Analytics) tendrá la opción de restringir a Adobe Analytics los datos previos al consentimiento y de evitar que se reenvíen a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a Adobe Audience Manager hasta haber recibido el consentimiento.
+Anteriormente, el reenvío del lado del servidor no tenía una forma de delinear entre el consentimiento y los eventos/visitas previos al consentimiento. A partir del 1 de noviembre de 2018, usted como responsable del tratamiento de datos (cliente de Adobe Analytics) tendrá la opción de restringir a Adobe Analytics los datos previos al consentimiento y de evitar que se reenvíen a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar los hits en los que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a Adobe Audience Manager hasta haber recibido el consentimiento.
 
 Cuando esta nueva variable contextual, `cm.ssf=1`, existe en una visita, esta se marca y no se reenvía del lado del servidor a Adobe Audience Manager. Por el contrario, si esta cadena no aparece en una visita, la visita se reenvía a Adobe Audience Manager.
 

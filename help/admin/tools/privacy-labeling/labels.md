@@ -4,32 +4,47 @@ title: Etiquetas de privacidad de datos para variables de Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 98%
-
 ---
-
 # Etiquetas de privacidad de datos para variables de Analytics
 
 Los clientes de Adobe, como responsables del tratamiento de datos, son responsables de cumplir las leyes aplicables sobre privacidad de datos, como el reglamento general de protección de datos (RGPD) y la ley californiana sobre la protección de la vida privada de los consumidores (CCPA). Los clientes deben consultar con sus propios equipos jurídicos para determinar cómo se deben administrar sus datos para cumplir con las leyes de privacidad de datos. Adobe comprende que cada uno de sus clientes tiene necesidades específicas relacionadas con la privacidad, por lo que Adobe permite a sus clientes personalizar la configuración que deseen para el procesamiento de datos de privacidad de datos. De este modo, cada cliente único puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
@@ -75,8 +90,8 @@ Las etiquetas de gobernanza de datos confieren a los usuarios la capacidad de cl
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
 | Ninguna | Seleccione esta opción si esta variable no contiene datos que deban incluirse en los datos devueltos al interesado como parte de una solicitud de acceso a la privacidad de datos. | |
-| ACC-ALL | Los valores de este campo se deben incluir en todas las solicitudes de acceso de la privacidad de datos. Si esta visita provenía de un dispositivo compartido por varias personas, al aplicar esta etiqueta, usted, como controlador de datos, indica que es aceptable compartir los datos de este campo con cualquier persona que tenga acceso al dispositivo compartido. | Los campos con esta etiqueta se devolverán para todas las solicitudes de la privacidad de datos. |
-| ACC-PERSON | Los valores de este campo se deben incluir únicamente para solicitudes de acceso de la privacidad de datos cuando tengamos la certeza, dentro de lo razonable, de que la visita correspondía al interesado, tal y como se determine mediante la coincidencia de un ID de solicitud de la privacidad de datos con el valor de un campo ID-PERSON. | También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. |
+| ACC-ALL | Los valores de este campo se deben incluir en todas las solicitudes de acceso de la privacidad de datos. Si este hit provenía de un dispositivo compartido por varias personas, al aplicar esta etiqueta, usted, como controlador de datos, indica que es aceptable compartir los datos de este campo con cualquier persona que tenga acceso al dispositivo compartido. | Los campos con esta etiqueta se devolverán para todas las solicitudes de la privacidad de datos. |
+| ACC-PERSON | Los valores de este campo se deben incluir únicamente para solicitudes de acceso de la privacidad de datos cuando tengamos la certeza, dentro de lo razonable, de que el hit correspondía al interesado, tal y como se determine mediante la coincidencia de un ID de solicitud de la privacidad de datos con el valor de un campo ID-PERSON. | También debe tener una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará. |
 
 {style="table-layout:auto"}
 
@@ -90,8 +105,8 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
-| DEL-DEVICE | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-DEVICE presente en la visita.  Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estas otras instancias no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. En dispositivos compartidos, esto podría eliminar identificadores de otras personas, aparte de los del interesado.  Los recuentos no cambian si este campo también tiene una etiqueta ID-DEVICE y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>Debe enviar solicitudes mediante un ID-DEVICE o establecer expandIDs como true; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
-| DEL-PERSON | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-PERSON presente en la visita.  Si el mismo valor aparece en otras visitas que no se vayan a eliminar, estos otros valores no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. Los recuentos no cambiarán si este campo también tiene una etiqueta ID-PERSON y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>También debe enviar solicitudes con una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
+| DEL-DEVICE | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-DEVICE presente en el hit.  Si el mismo valor aparece en otros hits que no se vayan a eliminar, estas otras instancias no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. En dispositivos compartidos, esto podría eliminar identificadores de otras personas, aparte de los del interesado.  Los recuentos no cambian si este campo también tiene una etiqueta ID-DEVICE y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se puede establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>Debe enviar solicitudes mediante un ID-DEVICE o establecer expandIDs como true; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
+| DEL-PERSON | En el caso de solicitudes de eliminación de la privacidad de datos, los valores de este campo deben convertirse en anónimos solo para aquellas solicitudes en las que haya una etiqueta ID-PERSON presente en el hit.  Si el mismo valor aparece en otros hits que no se vayan a eliminar, estos otros valores no se modificarán. Esto conllevará que los recuentos cambien en informes que calculen recuentos únicos en este campo. Los recuentos no cambiarán si este campo también tiene una etiqueta ID-PERSON y el valor del campo se ha utilizado como ID para la solicitud de privacidad de datos. | <ul><li>También requiere una etiqueta I1, I2 o S1.</li><li>No se puede establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li></li><li>No se puede establecer en clasificaciones.</li><li>También debe enviar solicitudes con una etiqueta ID-PERSON configurada en alguna variable dentro de este grupo de informes y enviar solicitudes mediante ese ID; de lo contrario, esta etiqueta nunca se aplicará.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -100,8 +115,8 @@ Se requiere una etiqueta de eliminación únicamente para los campos que contien
 | Etiqueta | Definición | Otros requisitos |
 | --- | --- | --- |
 | Ninguna | Esta variable no contiene ningún ID que se usará para las solicitudes de privacidad de datos. | Únicamente debe establecer una de estas otras etiquetas si este campo contiene un ID que utilizará al enviar las solicitudes de acceso o eliminación mediante la interfaz de usuario o la [API de servicio de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=es). |
-| ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2.<ul><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
-| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | <ul><li>También requiere una etiqueta I1 o I2.</li><li>No se pueden establecer en eventos.</li><li>No se pueden establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-DEVICE | Este campo contiene un ID que puede utilizarse para identificar un dispositivo para una solicitud de privacidad de datos, pero no puede distinguir entre distintos usuarios de un dispositivo compartido.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si envía solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | También requiere una etiqueta I1 o I2.<ul><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
+| ID-PERSON | Este campo contiene un ID que se puede usar para identificar a un usuario autenticado (una persona específica) cuando se realice una solicitud de privacidad de datos.  No necesita especificar esta etiqueta para todas las variables que contienen ID (ese el propósito de las etiquetas I1/I2). Utilice esta etiqueta si enviará solicitudes de privacidad de datos mediante las ID almacenadas en esta variable y desea buscar esta variable para los ID especificados. | <ul><li>También requiere una etiqueta I1 o I2.</li><li>No se pueden establecer en eventos.</li><li>No se puede establecer en eVars de comercialización.</li><li>No se puede establecer en clasificaciones.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -155,7 +170,7 @@ El etiquetado de privacidad de datos afecta a cuatro clases amplias de variables
 
 | Tipo de variable | Etiquetas admitidas | Etiquetas no admitidas |
 |--- |--- |--- |
-| <ul><li>Eventos exitosos personalizados</li><li>eVars de comercialización</li><li>Variables multivalor (mvVars)</li><li>Variables de jerarquía</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>Eventos de éxito personalizados</li><li>eVars de comercialización</li><li>Variables multivalor (mvVars)</li><li>Variables de jerarquía</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Clasificaciones | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variables de tráfico (props)</li><li>Variables de comercio (eVars no relacionadas con el marketing)</li></ul> | Todas las etiquetas | - |
 | La mayoría de las demás variables (*Vea la tabla siguiente para ver las excepciones*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
@@ -239,11 +254,11 @@ En la tabla siguiente se describe cómo se “eliminan” las distintas variable
 
 | Variables | Método de eliminación |
 | --- | --- |
-| <ul><li>Variables de tráfico (props)</li><li>Variables de Commerce (eVars)</li></ul> | El valor existente se reemplaza con uno nuevo con el formulario “Privacidad de datos-356396D55C4F9C7AB3FBB2F2FA223482”, donde el valor hexadecimal de 32 dígitos después del prefijo “Privacidad de datos” es un número pseudoaleatorio con cifrado de 128 bits.<p>Como, en esencia, se está reemplazando con una cadena aleatoria, no hay forma de determinar el valor original a partir de este nuevo valor ni forma de derivar el nuevo si se conoce el valor original.  En una variable determinada, si el valor idéntico al que se va a reemplazar se produce dentro de otras visitas que también se van a eliminar como parte de la misma solicitud de privacidad de datos, todas las instancias de dicho valor se sustituirán por el mismo valor nuevo.<p>Si algunas instancias de un valor se reemplazan con una solicitud de eliminación y una solicitud posterior elimina otras (nuevas) instancias del valor original, el nuevo valor de reemplazo será distinto del valor de reemplazo original. |
+| <ul><li>Variables de tráfico (props)</li><li>Variables de Commerce (eVars)</li></ul> | El valor existente se reemplaza con uno nuevo con el formulario “Privacidad de datos-356396D55C4F9C7AB3FBB2F2FA223482”, donde el valor hexadecimal de 32 dígitos después del prefijo “Privacidad de datos” es un número pseudoaleatorio con cifrado de 128 bits.<p>Como, en esencia, se está reemplazando con una cadena aleatoria, no hay forma de determinar el valor original a partir de este nuevo valor ni forma de derivar el nuevo si se conoce el valor original.  En una variable determinada, si el valor idéntico al que se va a reemplazar se produce dentro de otros hits que también se van a eliminar como parte de la misma solicitud de privacidad de datos, todas las instancias de dicho valor se sustituirán por el mismo valor nuevo.<p>Si algunas instancias de un valor se reemplazan con una solicitud de eliminación y una solicitud posterior elimina otras (nuevas) instancias del valor original, el nuevo valor de reemplazo será distinto del valor de reemplazo original. |
 | ID de compra | El valor existente se reemplaza con uno nuevo con la forma “G-7588FCD8642718EC50”, donde los 18 dígitos hexadecimales después del prefijo “G-” son los primeros 18 dígitos de un número pseudoaleatorio con cifrado de 128 bits. Todos los comentarios que se aplican a la eliminación de tráfico y las variables de comercio se aplican aquí también.<p>El ID de compra es un ID de transacción cuyo propósito principal es garantizar que una compra no se cargue por duplicado, como cuando alguien actualiza la página de confirmación de compra. El propio ID puede asociar la compra a una fila de su propia base de datos en que se haya registrado la compra. En la mayoría de los casos no es necesario eliminar este ID, de modo que no se elimina de forma predeterminada.<p>Si sigue pudiendo vincular la compra a un usuario después de la solicitud de eliminación amparada en la privacidad de datos de sus propios datos, es posible que tenga que eliminar este campo, de modo que los datos de Analytics para este visitante no se puedan vincular al comprador. |
 | ID de visitante | El valor es un entero de 128 bits y se reemplaza con un valor pseudoaleatorio con cifrado de 128 bits. |
 | <ul><li>MCID</li><li>ID de visitante personalizado</li><li>Dirección IP</li><li>Dirección IP 2 | El valor se borra (establecido como cadena vacía o 0, según el tipo de variable). |
-| <ul><li>Acción de ClickMap (heredada)</li><li>Contexto de ClickMap (heredada)</li><li>Página</li><li>URL de la página</li><li>URL de la página de la entrada original</li><li>Referente</li><li>URL de la página del inicio de la visita</li></ul> | Los parámetros de URL se borran o eliminan. Si el valor no parece una URL, se borra (se establece en la cadena vacía). |
+| <ul><li>Acción de ClickMap (heredada)</li><li>Contexto de ClickMap (heredada)</li><li>Página</li><li>URL de la página</li><li>URL de la página de la entrada original</li><li>Remitente del reenvío</li><li>URL de la página del inicio de la visita</li></ul> | Los parámetros de URL se borran o eliminan. Si el valor no parece una URL, se borra (se establece en la cadena vacía). |
 | <ul><li>Latitud</li><li>Longitud</li></ul> | La precisión se reduce hasta no ser mejor que 1 km. |
 
 {style="table-layout:auto"}
@@ -257,13 +272,13 @@ Es importante comprender qué tipo de datos contiene cada variable antes de toma
 | Variable | Comentarios |
 | --- | --- |
 | [!UICONTROL ID de visitante nuevo] | El ID del visitante nuevo es un valor booleano que se establece en true la primera vez que vemos un ID de visitante determinado. No es necesario eliminarlo una vez que el ID del visitante se anonimiza. Después de la anonimización, corresponderá a la primera vez que hayamos visto este ID anonimizado. |
-| [!UICONTROL Código postal]<p>[!UICONTROL Código postal geográfico] | Los códigos postales solo se establecen para visitas originadas en los EE. UU. No se establecen para visitas provenientes de la UE. Incluso una vez configurados, solo proporcionan un área geográfica amplia que dificulta volver a identificar al interesado. |
+| [!UICONTROL Código postal]<p>[!UICONTROL Código postal geográfico] | Los códigos postales solo se establecen para hits originados en los EE. UU. No se establecen para hits provenientes de la UE. Incluso una vez configurados, solo proporcionan un área geográfica amplia que dificulta volver a identificar al interesado. |
 | [!UICONTROL Latitud geográfica]<p>[!UICONTROL Longitud geográfica] | Proporcionan una ubicación aproximada derivada de la dirección IP. La precisión es generalmente similar a la de un código postal, con un radio de unas decenas de kilómetros de la ubicación real. |
 | [!UICONTROL Agente de usuario] | El agente de usuario identifica la versión del explorador que se ha utilizado. |
 | [!UICONTROL ID de usuario] | Especifica el grupo de informes de Analytics (como un número) que contiene los datos. |
 | [!UICONTROL ID del grupo de informes &#x200B;] | Especifica el nombre del grupo de informes de Analytics que contiene los datos. |
-| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estos ID tienen la etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
-| [!UICONTROL ID de AMO] | El Adobe Advertising ID es una variable de solución que tiene una etiqueta [!UICONTROL DEL-DEVICE] que no se puede modificar. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de las visitas siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
+| [!UICONTROL ID de visitante]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | Estos ID tienen la etiqueta DEL-DEVICE, pero no se puede agregar la etiqueta DEL-PERSON. Si desea que estos ID de cookie se anonimicen en los hits que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, las cantidades de visitantes únicos cambiarán en los informes del historial. |
+| [!UICONTROL ID de AMO] | El Adobe Advertising ID es una variable de solución que tiene una etiqueta [!UICONTROL DEL-DEVICE] que no se puede modificar. Se rellena a partir de una cookie, del mismo modo que el ID del visitante y el MCID. Debe eliminarse de los hits siempre que se eliminen esos otros ID. Consulte la descripción de dichas variables para obtener más información. |
 
 {style="table-layout:auto"}
 
@@ -273,8 +288,8 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 | Marcador de tiempo | Definición |
 | --- | --- |
-| Hit Time UTC | La hora a la que Adobe Analytics recibió la visita. |
-| Custom Hit Time UTC | Hora a la que se produjo la visita, lo que para algunas aplicaciones móviles y otras implementaciones puede ser antes de la hora en que se recibió. Por ejemplo, si una conexión de red no estaba disponible cuando se produjo, la aplicación puede retener la visita y enviarla cuando vuelva a disponer de conexión. |
+| Hit Time UTC | La hora a la que Adobe Analytics recibió el hit. |
+| Custom Hit Time UTC | Hora a la que se produjo el hit, lo que para algunas aplicaciones móviles y otras implementaciones puede ser antes de la hora en que se recibió. Por ejemplo, si una conexión de red no estaba disponible cuando se produjo, la aplicación puede retener el hit y enviarlo cuando vuelva a disponer de conexión. |
 | Date Time | El mismo valor que Custom Hit Time UTC, pero en la zona horaria del grupo de informes, no en la zona GMT. |
 | First Hit Time GMT | El valor Custom Hit Time UTC para la primera visita recibida para el valor ID de visitante de esta visita. |
 | Visit Start Time UTC | El valor Custom Hit Time UTC para la primera visita recibida para la visita actual por este ID de visitante. |
@@ -283,4 +298,4 @@ Hay cinco variables estándar que contienen marcadores de tiempo:
 
 El código para generar los archivos devueltos por las solicitudes de acceso amparadas en la privacidad de datos requiere que al menos una de las tres primeras variables de marcador de tiempo se incluya en la solicitud de acceso (que tenga una etiqueta ACC que se aplique al tipo de solicitud). Si no se incluye ninguna de estas marcas, Custom Hit Time UTC se trata como si tuviera una etiqueta ACC-ALL.
 
-El archivo CSV del nivel de visita que devuelven las solicitudes de acceso bajo la privacidad de datos convertirá los valores de estos campos de marca de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha, `YYYY-MM-DD`, con el fin de reducir el número de valores únicos que se producen en estos campos.
+El archivo CSV del nivel de hit que devuelven las solicitudes de acceso bajo la privacidad de datos convertirá los valores de estos campos de marca de tiempo Unix en campos de fecha y hora con el formato `YYYY-MM-DD HH:MM:SS` (por ejemplo, `2018-05-01 13:49:22`). En el archivo HTML de resumen, estos valores de marca de tiempo se truncarán para incluir únicamente la fecha, `YYYY-MM-DD`, con el fin de reducir el número de valores únicos que se producen en estos campos.

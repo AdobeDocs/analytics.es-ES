@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/vpopS2WlO27GSPIGw5sn-Zm-X7UsGq5P-My-n9tGmG0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '410'
 ht-degree: 79%
-
 ---
-
 # transactionID
 
 La variable `transactionID` identifica de forma exclusiva una transacción para que la visita pueda proporcionar valores de dimensión a los datos cargados a través de [fuentes de datos de ID de transacción](/help/import/data-sources/transactionid.md). Esta variable es útil si desea rellenar datos de canal sin conexión con valores recopilados a partir de datos de canal en línea.
@@ -33,7 +41,7 @@ La variable `transactionID` identifica de forma exclusiva una transacción para 
 >
 >Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
-Cuando se configura `transactionID` en caso de una visita, Adobe toma una “instantánea” de todas las variables de Analytics que estaban establecidas o que persistían en ese momento. Consulte [Fuentes de datos del ID de transacción](/help/import/data-sources/transactionid.md) para ver la lista de dimensiones incluidas en la instantánea. Adobe registra todos los valores de ID de transacción (vinculados y desvinculados) durante un máximo de 25 meses.
+Cuando se configura `transactionID` en caso de un hit, Adobe toma una “instantánea” de todas las variables de Analytics que estaban establecidas o que persistían en ese momento. Consulte [Fuentes de datos del ID de transacción](/help/import/data-sources/transactionid.md) para ver la lista de dimensiones incluidas en la instantánea. Adobe registra todos los valores de ID de transacción (vinculados y desvinculados) durante un máximo de 25 meses.
 
 ## ID de transacción con el SDK web
 
@@ -63,7 +71,7 @@ La variable `s.transactionID` es una cadena que contiene un identificador único
 s.transactionID = "ABC123";
 ```
 
-Si tiene más de un ID de transacción para una visita, puede delimitar cada uno con una coma. Si existen varios ID de transacción, el límite de 100 bytes se sigue aplicando.
+Si tiene más de un ID de transacción para un hit, puede delimitar cada uno con una coma. Si existen varios ID de transacción, el límite de 100 bytes se sigue aplicando.
 
 ```js
 s.transactionID = "ABC123,XYZ456";

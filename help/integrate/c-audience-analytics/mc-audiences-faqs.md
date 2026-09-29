@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 29%
-
 ---
-
 # Preguntas frecuentes
 
 Respuestas a preguntas que podría tener al implementar Audience Analytics.
@@ -118,11 +129,11 @@ Es probable que tenga en Adobe Audience Manager un conflicto de controles de pri
 
 De forma predeterminada, la integración de Audience Analytics para Adobe Audience Manager envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de Adobe Audience Manager en una sola visita, se enviarán a Analytics los **150 segmentos para los que se ha obtenido cualificación más recientemente**, mientras que el resto se truncará. Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de públicos” en la dimensión Nombre de público y “-1” en la dimensión ID de público.
 
-Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de públicos” aparece en su informe, tiene dos opciones:
+Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en un hit particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de públicos” aparece en su informe, tiene dos opciones:
 
 * Opción 1: permita que la integración siga funcionando del modo predeterminado, con el envío de los 150 segmentos para los que un visitante particular ha obtenido cualificación más recientemente.
 
-* Opción 2: en Adobe Audience Manager, elija para la integración los 150 segmentos más relevantes para su negocio. A continuación, Adobe Audience Manager comprobará la adecuación de los visitantes a estos 150 segmentos. La desventaja de este enfoque es que solo recibirá estos 150 segmentos para todos los visitantes. Por su parte, la opción 1 puede ofrecer segmentos ilimitados, ya que la integración se produce por visita.
+* Opción 2: en Adobe Audience Manager, elija para la integración los 150 segmentos más relevantes para su negocio. A continuación, Adobe Audience Manager comprobará la adecuación de los visitantes a estos 150 segmentos. La desventaja de este enfoque es que solo recibirá estos 150 segmentos para todos los visitantes. Por su parte, la opción 1 puede ofrecer segmentos ilimitados, ya que la integración se produce por hit.
 
 +++
 
@@ -142,7 +153,7 @@ Sí. En la configuración de destino de Adobe Audience Manager solo verá los gr
 
 +++ ¿Por qué no puedo activar el reenvío de servidor para determinados grupos de informes en Administración de Analytics?
 
-Solo pueden habilitarse los grupos asignados a su organización empresarial de CX.
+Solo pueden habilitarse los grupos asignados a su organización de CX Enterprise.
 
 Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

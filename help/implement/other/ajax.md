@@ -8,32 +8,41 @@ autotag-review: '2026-05-22T08:06:40.936Z'
 TQID: 'https://experienceleague.adobe.com/M0MNFZRcHpPwxL-ZtTky67DHDr1A0fL-peaGKicXgIM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 373
+source-wordcount: '373'
 ht-degree: 100%
-
 ---
-
 # Implementación con AJAX
 
 AJAX es una práctica para utilizar JavaScript y HTML para borrar y generar contenido sin cargar una nueva página.
 
-Adobe Analytics normalmente depende de la recarga de páginas para restablecer el objeto de seguimiento de Analytics. Cada vez que se desplaza a una dirección URL diferente, se restauran todas las variables de Analytics y se pueden definir de nuevo. Al utilizar AJAX en el sitio, ajuste la implementación en función de la falta de actualizaciones de página para asegurarse de que los datos no persistan incorrectamente entre las visitas.
+Adobe Analytics normalmente depende de la recarga de páginas para restablecer el objeto de seguimiento de Analytics. Cada vez que se desplaza a una dirección URL diferente, se restauran todas las variables de Analytics y se pueden definir de nuevo. Al utilizar AJAX en el sitio, ajuste la implementación en función de la falta de actualizaciones de página para asegurarse de que los datos no persistan incorrectamente entre los hits.
 
 Una vez que haya implementado medidas para borrar los valores de las variables, la implementación de Adobe Analytics en sitios que usan AJAX es mayormente la misma que otros métodos de implementación.
 
-## Determinación de interacciones y tipos de visitas
+## Determinación de interacciones y tipos de hits
 
 Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias interacciones que un usuario puede realizar en el sitio. Al implementar Adobe Analytics, asegúrese de diferenciar las vistas de página de las llamadas de seguimiento de vínculos. Tenga en cuenta la siguiente pregunta para cada interacción que un usuario pueda realizar en el sitio:
 
@@ -48,7 +57,7 @@ Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias 
 
 ## Borrado de variables en cada página
 
-Los valores de las variables persisten en las páginas que utilizan AJAX, ya que la página no se vuelve a cargar. Por lo tanto, se requiere un ajuste especial para borrar los valores de las variables de modo que no persistan incorrectamente entre las visitas. Adobe ofrece la función [`clearVars`](../vars/functions/clearvars.md) para borrar fácilmente los valores de las variables. Asegúrese de utilizar esta función después de enviar cada visita a Adobe y antes de establecer los valores de las variables para la siguiente visita.
+Los valores de las variables persisten en las páginas que utilizan AJAX, ya que la página no se vuelve a cargar. Por lo tanto, se requiere un ajuste especial para borrar los valores de las variables de modo que no persistan incorrectamente entre los hits. Adobe ofrece la función [`clearVars`](../vars/functions/clearvars.md) para borrar fácilmente los valores de las variables. Asegúrese de utilizar esta función después de enviar cada hit a Adobe y antes de establecer los valores de las variables para el siguiente hit.
 
 >[!TIP]
 >

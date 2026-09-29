@@ -4,34 +4,44 @@ description: Información general sobre el uso de datos XDM de Experience Platfo
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/-WWT7-dW4vo8g0DXtuQK9E30DktJ2yjzbc6w69oxJnc
+TQID: 'https://experienceleague.adobe.com/-WWT7-dW4vo8g0DXtuQK9E30DktJ2yjzbc6w69oxJnc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 100%
-
 ---
-
 # Implementación de Adobe Analytics con la red Edge de Adobe Experience Platform
 
 La red Edge de Adobe Experience Platform le permite enviar datos destinados a varios productos a una ubicación centralizada. La red Edge reenvía la información adecuada a los productos deseados. Este concepto le permite consolidar los esfuerzos de implementación, especialmente abarcando varias soluciones de datos. Adobe Analytics es uno de los productos a los que puede enviar datos mediante Edge Network.
 
 ## Cómo gestiona Adobe Analytics los datos de Edge Network
 
-Dado que los datos enviados a Edge Network y a AppMeasurement funcionan de forma diferente, la carga útil de Edge Network determina cómo Adobe Analytics gestiona la visita. Consulte [Tipos de eventos de Edge Network en Adobe Analytics](hit-types.md) para obtener más información.
+Dado que los datos enviados a Edge Network y a AppMeasurement funcionan de forma diferente, la carga útil de Edge Network determina cómo Adobe Analytics gestiona el hit. Consulte [Tipos de eventos de Edge Network en Adobe Analytics](hit-types.md) para obtener más información.
 
 Los datos enviados a Adobe Experience Platform Edge Network pueden tener tres formatos: **objeto XDM**, **objeto de datos** y **datos de contexto**. En el momento en que la secuencia de datos reenvía datos a Adobe Analytics, se traducen a un formato que Adobe Analytics puede gestionar.
 

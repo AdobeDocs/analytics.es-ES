@@ -1,5 +1,5 @@
 ---
-description: El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+description: El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 solution: Analytics
 title: Resumen del reenvío del lado del servidor
 feature: Report Suite Settings
@@ -8,29 +8,41 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 84%
-
 ---
-
 # Resumen del reenvío del lado del servidor
 
-El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise y enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
+El reenvío del lado del servidor está diseñado para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de CX Enterprise. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de CX Enterprise. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
 El reenvío del lado del servidor mejora la recopilación de datos porque:
 
@@ -43,7 +55,7 @@ El reenvío del lado del servidor mejora la recopilación de datos porque:
 >Los clientes existentes de Audience Manager que utilicen Analytics deberían migrar al reenvío del lado del servidor. Los nuevos clientes de Adobe Analytics y Audience Manager deberían implementar el reenvío del lado del servidor (en lugar de DIL) como método predeterminado de recopilación y transferencia de datos.
 
 >[!IMPORTANT]
->A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a Adobe Audience Manager hasta haber recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
+>A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager. Una nueva variable de contexto de implementación le permite marcar los hits en los que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichos hits se envíen a Adobe Audience Manager hasta haber recibido el consentimiento. Para obtener más información, consulte [RGPD_ePrivacy cumplimiento y reenvío del lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 
@@ -87,4 +99,4 @@ Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccion
 
 >[!NOTE]
 >
->Los datos no aparecerán en otras soluciones de CX Enterprise, como [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es) hasta que se hayan completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
+>No aparecerán datos en otras soluciones de CX Enterprise, como [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es) o [Audiencias](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es), hasta que se hayan completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.

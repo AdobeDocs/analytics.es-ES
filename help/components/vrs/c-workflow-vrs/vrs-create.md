@@ -4,27 +4,38 @@ keywords: Grupo de informes virtuales
 title: Crear un grupo de informes virtuales
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+TQID: 'https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 53%
-
+source-wordcount: '702'
+ht-degree: 52%
 ---
-
 # Crear un grupo de informes virtuales
 
 Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
@@ -71,7 +82,7 @@ Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajustar una defi
 | Tiempo de espera de la visita | Define la cantidad de inactividad que debe tener un visitante único antes de que se inicie automáticamente una nueva visita. Esto afectará la métrica de visitas, el contenedor de segmentos de visita y las eVars que caducan en la visita. |
 | Iniciar nueva visita con evento | Inicia una nueva sesión cuando cualquiera de los eventos especificados se activa independientemente de si una sesión ha excedido el tiempo de espera. |
 | **Configuración de visitas a aplicaciones móviles** | Modifique cómo se definen las visitas para las visitas a aplicaciones móviles recopiladas por los SDK para móviles de Adobe. Esta configuración no es destructiva y se aplica solo en Analysis Workspace. |
-| Evitar que las visitas en segundo plano generen una nueva visita individual | Evita que los resultados de fondo comiencen una nueva visita y que inflen las visitas y las métricas de visitante único. |
+| Evitar que los hits en segundo plano generen una nueva visita | Evita que los resultados de fondo comiencen una nueva visita y que inflen las visitas y las métricas de visitante único. |
 | Iniciar una nueva visita cada vez que se abre una aplicación | Se inicia una nueva sesión cuando se abre una aplicación. [Más información](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Incluir y cambiar el nombre de los componentes

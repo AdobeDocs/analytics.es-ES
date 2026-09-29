@@ -3,24 +3,33 @@ title: Comparar fechas afectadas por un evento con intervalos anteriores
 description: Obtenga información acerca del impacto de un evento, como un problema de implementación o una interrupción, comparándolo con las tendencias anteriores.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+TQID: 'https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 0%
-
 ---
-
 # Comparar fechas afectadas por un evento con intervalos anteriores
 
 Si tiene datos [afectados por un evento](overview.md), puede observar las tendencias históricas para medir su impacto. Esta comparación es valiosa para comprender en qué medida un evento afecta a los datos, por lo que puede decidir si excluirlos, agregarles una nota o ignorarlos.

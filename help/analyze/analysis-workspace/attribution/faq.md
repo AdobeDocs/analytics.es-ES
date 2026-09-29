@@ -7,21 +7,30 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 71%
-
 ---
-
 # Preguntas frecuentes
 
 Aquí encontrará respuestas a las preguntas más frecuentes acerca de la atribución.
@@ -41,9 +50,9 @@ Algunas métricas basadas en visitas, como [Entradas](/help/components/metrics/e
 1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a.m. del 8 de septiembre.
 1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas del 8 de septiembre al 14 de septiembre.
 
-Las métricas basadas en visitas, como [Vistas de página](/help/components/metrics/page-views.md), producirían el resultado esperado; los datos fueron tendencia todos los días del 8 de septiembre al 14 de septiembre. Sin embargo, las métricas basadas en visitas también mostrarían la visita anterior del 7 de septiembre. La entrada atribuida a la visita se produjo el 7 de septiembre y la ventana retroactiva predeterminada es del 1 de septiembre al 31 de septiembre.
+Las métricas basadas en hits, como [Vistas de página](/help/components/metrics/page-views.md), producirían el resultado esperado; los datos fueron tendencia todos los días del 8 de septiembre al 14 de septiembre. Sin embargo, las métricas basadas en visitas también mostrarían la visita anterior del 7 de septiembre. La entrada atribuida a la visita se produjo el 7 de septiembre y la ventana retroactiva predeterminada es del 1 de septiembre al 31 de septiembre.
 
-La tasa de salida hacia otro sitio siempre muestra 0% el 7 de septiembre en este ejemplo. Esta métrica se define como `Bounces divided by Entries`, que es una métrica basada en visitas dividida por una métrica basada en visitas. Las salidas consisten en una sola solicitud de imagen, por lo que no pueden abarcar varios días. Cualquier salida producida el 7 de septiembre se produjo fuera de la ventana de creación de informes, lo que provoca la tasa de salida hacia otro sitio del 0% garantizada para ese día. Otras métricas basadas en visitas también mostrarían 0 para el 7 de septiembre en este informe, ya que esas visitas no se incluyen en la ventana de creación de informes.
+La tasa de salida hacia otro sitio siempre muestra 0% el 7 de septiembre en este ejemplo. Esta métrica se define como `Bounces divided by Entries`, que es una métrica basada en hits dividida por una métrica basada en visitas. Las salidas consisten en una sola solicitud de imagen, por lo que no pueden abarcar varios días. Cualquier salida producida el 7 de septiembre se produjo fuera de la ventana de creación de informes, lo que provoca la tasa de salida hacia otro sitio del 0% garantizada para ese día. Otras métricas basadas en hits también mostrarían 0 para el 7 de septiembre en este informe, ya que esos hits no se incluyen en la ventana de creación de informes.
 
 Veamos otro ejemplo similar. La única diferencia entre el ejemplo siguiente y el ejemplo anterior son las fechas:
 
@@ -120,7 +129,7 @@ Sí, las clasificaciones son compatibles.
 
 Sí, la mayoría de las fuentes de datos son compatibles. Attribution no es compatible con fuentes de datos de resumen porque estas fuentes de datos no están vinculadas a un identificador de visitante de Analytics.
 
-Las fuentes de datos del ID de transacción se tratan como cualquier otra visita. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tienen valores de eVar propagados desde visitas que se producen cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagan desde visitas que se produjeron cerca del momento de la transacción original.
+Las fuentes de datos del ID de transacción se tratan como cualquier otro hit. Las fuentes de datos del ID de transacción no utilizan el procesamiento especial que se suele emplear en los informes tradicionales. En otras palabras, al utilizar el procesamiento del tiempo de los informes, las visitas del ID de transacción tienen valores de eVar propagados desde visitas que se producen cerca de la marca de tiempo de la visita del ID de transacción. Los valores no se propagan desde visitas que se produjeron cerca del momento de la transacción original.
 
 Cuando es posible, la atribución se basa en el valor de columna MID que se envía dentro de un evento en la fuente de datos, en lugar de en un valor persistente. El modelo de atribución se aplica a los valores de columna MID en la fuente de datos sobre la marcha. Por ejemplo, cuando se usa la atribución de [último contacto](models.md), el modelo se inicia a partir de cada instancia de una métrica. Y retrocede secuencialmente en las visitas individuales hasta que el modelo alcanza el último valor observado en la columna MID.
 
@@ -149,9 +158,9 @@ Dado que las dimensiones del canal de marketing dependen de una definición de v
 
 +++## ¿Cómo funciona la atribución con variables de varios valores, como las variables de lista?
 
-Algunas dimensiones en Analytics pueden contener varios valores en una sola visita. Algunos ejemplos comunes son las variables de lista y la variable Products.
+Algunas dimensiones en Analytics pueden contener varios valores en un solo hit. Algunos ejemplos comunes son las variables de lista y la variable Products.
 
-Cuando la atribución se aplica a visitas con varios valores, todos los valores de la misma visita obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se deduplica, mientras que cada elemento de dimensión individual obtiene el crédito adecuado.
+Cuando la atribución se aplica a hits con varios valores, todos los valores del mismo hit obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se deduplica, mientras que cada elemento de dimensión individual obtiene el crédito adecuado.
 
 +++
 
@@ -166,6 +175,6 @@ Por ejemplo, si crea un grupo de informes virtual y le aplica un segmento “Dis
 
 >[!NOTE]
 >
->Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos elementos de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
+>Si un segmento suprime los hits que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos elementos de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
 
 +++

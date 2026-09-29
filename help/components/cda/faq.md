@@ -4,34 +4,51 @@ description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
+TQID: 'https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 96%
-
 ---
-
 # Preguntas frecuentes
 
 {{available-existing-customers}}
@@ -59,14 +76,14 @@ La vinculación entre dispositivos de CDA se produce en dos procesos simultáneo
 
 * El primer proceso se denomina “vinculación activa” y se produce cuando los datos se transfieren a Adobe Analytics. Durante la vinculación activa, CDA hace todo lo posible para reiterar los datos con respecto a la persona. Sin embargo, si la persona es desconocida en el momento de la vinculación activa, CDA vuelve al ID de visitante para representar a la persona.
 
-* El segundo proceso se llama “repetición”. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar las visitas en las que la persona era anteriormente desconocida.
+* El segundo proceso se llama “repetición”. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar los hits en los que la persona era anteriormente desconocida.
 
 
 +++
 
-+++ ¿Cómo gestiona CDA las visitas con marca de hora?
++++ ¿Cómo gestiona CDA los hits con marca de hora?
 
-Adobe trata las visitas con marca de hora como si se hubieran recibido en el momento de la marca de hora, no cuando Adobe recibió la visita. Las visitas con marca de tiempo anteriores a 1 mes nunca se vinculan, ya que están fuera del rango que utiliza Adobe para la vinculación.
+Adobe trata los hits con marca de hora como si se hubieran recibido en el momento de la marca de hora, no cuando Adobe recibió el hit. Los hits con marca de tiempo anteriores a 1 mes nunca se vinculan, ya que están fuera del rango que utiliza Adobe para la vinculación.
 
 +++
 
@@ -74,7 +91,7 @@ Adobe trata las visitas con marca de hora como si se hubieran recibido en el mom
 
 El uso de un ID de visitante personalizado es un método heredado para conectar usuarios entre dispositivos. Con una ID de visitante personalizada, se utiliza la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `visitorID` variable anula los ID basados en cookies que estén presentes.
 
-Los ID de visitante personalizadas tienen varios efectos secundarios no deseados que la CDA supera o minimiza. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de [repetición](replay.md). Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. CDA repite los datos históricos de modo que las visitas no autenticadas pertenecen a la persona correcta.
+Los ID de visitante personalizadas tienen varios efectos secundarios no deseados que la CDA supera o minimiza. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de [repetición](replay.md). Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. CDA repite los datos históricos de modo que los hits no autenticados pertenecen a la persona correcta.
 
 +++
 
@@ -123,7 +140,7 @@ Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidore
 
 +++ Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir visitas?
 
-Sí. Si un individuo envía visitas desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
+Sí. Si un individuo envía hits desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
 
 +++
 
@@ -174,9 +191,9 @@ Si un cliente abandona Ultimate, ya no tendrá acceso a los datos enlazados. Se 
 
 +++
 
-+++ ¿Por qué el número total de visitas es diferente entre mi grupo de informes de origen y el grupo de informes virtuales CDA?
++++ ¿Por qué el número total de hits es diferente entre mi grupo de informes de origen y el grupo de informes virtuales CDA?
 
-CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de visitas entre el grupo de informes original y el grupo de informes virtuales de CDA.
+CDA utiliza una compleja canalización de procesamiento paralela, con varios componentes dependientes. Se espera una discordancia de datos de aproximadamente el 1 % para el número total de hits entre el grupo de informes original y el grupo de informes virtuales de CDA.
 
 +++
 
@@ -190,6 +207,6 @@ Para la vinculación basada en el campo, la variable personalizada de identifica
 
 +++ Al ver el identificador prop/eVar, ¿por qué veo valores distintos de cero para la métrica “Personas no identificadas”?
 
-Esta situación suele ocurrir cuando un visitante genera visitas autenticadas y no autenticadas en la ventana de informes. El visitante pertenece a “No identificado” e “Identificado” en la dimensión [Estado identificado](/help/components/dimensions/identified-state.md), lo que provoca que se atribuyan visitas no identificadas a un identificador. Este escenario puede cambiar después de que se ejecute [Reproducir](replay.md), según la frecuencia de reproducción y la tasa de éxito.
+Esta situación suele ocurrir cuando un visitante genera hits autenticados y no autenticados en la ventana de informes. El visitante pertenece a “No identificado” e “Identificado” en la dimensión [Estado identificado](/help/components/dimensions/identified-state.md), lo que provoca que se atribuyan hits no identificados a un identificador. Este escenario puede cambiar después de que se ejecute [Reproducir](replay.md), según la frecuencia de reproducción y la tasa de éxito.
 
 +++

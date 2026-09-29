@@ -6,32 +6,52 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1993
+source-wordcount: '1993'
 ht-degree: 95%
-
 ---
-
 # Explicación de la interfaz de Analytics
 
 La interfaz de Adobe Analytics consta de las siguientes áreas principales, que incluyen pestañas para gestionar proyectos en Analysis Workspace, componentes de administración, herramientas y funciones de administrador.
@@ -67,7 +87,7 @@ La pestaña [!UICONTROL Componentes] incluye características que le ayudan a af
 
    | Funcionalidad del producto | Función | Más información |
    |---------|----------|----------|
-   | Segmentos | Adobe Analytics le permite crear, gestionar, compartir y aplicar a sus informes poderosos segmentos centrados en la audiencia utilizando las funcionalidades de Analytics, Adobe CX Enterprise, Adobe Target y otros productos integrados de Adobe. | [Segmentación de Analytics](/help/components/segmentation/seg-home.md) |
+   | Segmentos | Adobe Analytics le permite generar, administrar, compartir y aplicar a sus informes poderosos segmentos centrados en la audiencia utilizando funcionalidades de Analytics, Adobe CX Enterprise, Adobe Target y otros productos integrados de Adobe. | [Segmentación de Analytics](/help/components/segmentation/seg-home.md) |
    | Métricas calculadas | Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que se pueden crear a partir de métricas existentes.  Permiten a especialistas en marketing, gestores de productos y analistas hacer preguntas sobre los datos sin tener que cambiar la implementación de Analytics. | [Métricas calculadas y calculadas avanzadas](/help/components/calculated-metrics/cm-overview.md) |
    | Intervalos de fechas | Analysis Workspace incluye una lista de intervalos de fechas predeterminados que se pueden utilizar al crear análisis. Además, puede crear intervalos de fechas personalizados y difundirlos en Analysis Workspace. | [Crear intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Grupos de informes virtuales | Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento. | [Resumen de los grupos de informes virtuales](/help/components/vrs/vrs-about.md) |
@@ -129,7 +149,7 @@ La pestaña Administración incluye funciones y opciones de configuración para 
    | Fuentes de datos | Utilice el administrador de fuente de datos para crear, editar o desactivar fuentes de datos. También puede utilizar esta interfaz para realizar un seguimiento del estado de los archivos cargados en las ubicaciones FTP de las fuentes de datos. | [Administración de fuentes de datos](/help/import/data-sources/manage.md) |
    | Administrador de códigos | El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles | [Administrador de códigos](/help/admin/tools/code-manager-admin.md) |
    | Administración del tráfico | La página Administración de tráfico permite especificar los cambios esperados en el volumen de tráfico. Esta configuración permite que Adobe asigne los recursos adecuados para garantizar que el tráfico se pueda rastrear y procesar de manera oportuna. | [Información general de administración de tráfico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
-   | Uso de llamadas al servidor | Una llamada al servidor, también conocida como “visita individual” o “solicitud de imagen”, es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. Dispone de un panel de control de uso de llamadas al servidor que realiza un seguimiento de los datos de consumo de llamadas al servidor y los compara con su límite contractual. Puede configurar alertas para evitar exceder el límite. | [Información general sobre Uso de llamadas al servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
+   | Uso de llamadas al servidor | Una llamada al servidor, también conocida como “hit” o “solicitud de imagen”, es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. Dispone de un panel de control de uso de llamadas al servidor que realiza un seguimiento de los datos de consumo de llamadas al servidor y los compara con su límite contractual. Puede configurar alertas para evitar exceder el límite. | [Información general sobre Uso de llamadas al servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
    | Registros | Los archivos de registro le permiten ver cuándo la gente inicia sesión, su uso, los accesos, los grupos de informes y los cambios de administración. | [Registros](/help/admin/tools/logs.md) |
    | Advertising Analytics | Configure Adobe Analytics para mostrar todos los datos de búsqueda de pago de Google Ads y Microsoft Advertising juntos. | [Configuración de Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | Fuentes de datos | Las fuentes de datos son una forma eficaz de obtener datos sin procesar de Adobe Analytics. Estos datos sin procesar se pueden utilizar en otras plataformas fuera de Adobe para su uso según convenga a su organización. | [Resumen de la fuente de datos de Analytics](/help/export/analytics-data-feed/data-feed-overview.md) |

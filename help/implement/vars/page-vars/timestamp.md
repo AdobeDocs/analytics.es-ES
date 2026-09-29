@@ -1,37 +1,45 @@
 ---
 title: timestamp
-description: Establecer manualmente la marca de tiempo de la visita.
+description: Establecer manualmente la marca de tiempo del hit.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/f2r9jWtF5HgCP6jUKg3YnLFxNwx1DiUBI-2Nquy5-K0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 67%
-
 ---
-
 # timestamp
 
-La variable `timestamp` establece manualmente la marca de tiempo de la visita en los grupos de informes que tengan habilitada la marca de tiempo.
+La variable `timestamp` establece manualmente la marca de tiempo del hit en los grupos de informes que tengan habilitada la marca de tiempo.
 
 >[!WARNING]
 >
->No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
+>No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar hits con marca de tiempo. AppMeasurement establece automáticamente la hora de un hit en los grupos de informes que no admiten hits con marca de tiempo. Si envía un hit con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
 
 ## Marca de tiempo mediante Web SDK
 
@@ -43,7 +51,7 @@ No hay ningún campo dedicado en la extensión de Adobe Analytics para utilizar 
 
 ## s.timestamp en AppMeasurement y el editor de código personalizado de la extensión de Analytics
 
-La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos para la marca de tiempo son [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) y [Unix time](https://es.wikipedia.org/wiki/Tiempo_Unix) en segundos.
+La variable `s.timestamp` es una cadena que contiene la fecha y la hora del hit. Los formatos válidos para la marca de tiempo son [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) y [Unix time](https://es.wikipedia.org/wiki/Tiempo_Unix) en segundos.
 
 ```js
 // Timestamp using ISO 8601

@@ -7,29 +7,42 @@ exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 TQID: 'https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 91%
-
 ---
-
 # Exención de consentimiento de CNIL
 
 El 1 de octubre de 2020, la autoridad francesa de protección de datos (Commission nationale de l&#39;informatique et des libertés, “CNIL”) publicó una versión revisada de sus directrices sobre cookies (las “Directrices”) y recomendaciones finales (las “Recomendaciones”) sobre la obtención del consentimiento de los usuarios para almacenar o leer cookies no esenciales y tecnologías similares en los dispositivos o exploradores de los usuarios.
@@ -38,13 +51,13 @@ Las Directrices establecen una exención limitada del requisito de consentimient
 
 * Retención de datos máxima de 25 meses.  Puede revisar la configuración de retención de datos actual en [!UICONTROL Analytics] > [!UICONTROL Administración] > [!UICONTROL Gobernanza de datos].  [Retención de datos](/help/technotes/data-retention.md)
 * Desactive las cookies de terceros en ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=es#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=es#id-service-api) y [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=es#id-service-api)
-* Límite de cookies de 13 meses.  Puede anular la caducidad de la cookie de análisis mediante la variable `cookieLifetime`. Las cookies de CX Enterprise, incluidos Analytics y ECID, amplían la fecha de caducidad de las cookies con cada visita.  Para establecer una caducidad de una cookie estática no móvil, puede hacer lo siguiente: (1) escribir un código personalizado para establecer una fecha en la que eliminar la cookie, o (2) usar su CMP para controlar la fecha de restablecimiento de la cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) y [cookies de CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es#ec-cookies)
+* Límite de cookies de 13 meses.  Puede anular la caducidad de la cookie de análisis mediante la variable `cookieLifetime`. Las cookies de CX Enterprise, incluidos Analytics y el ECID, amplían la fecha de caducidad de las cookies con cada visita.  Para establecer una caducidad de una cookie estática no móvil, puede hacer lo siguiente: (1) escribir un código personalizado para establecer una fecha en la que eliminar la cookie, o (2) usar su CMP para controlar la fecha de restablecimiento de la cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) y [cookies de CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=es#ec-cookies)
 * Ámbito limitado. El ámbito de la cookie debe limitarse a un solo sitio o aplicación. [Cookies del explorador](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anónimización. Anonimizar el último octeto de la dirección IP. [Configuración general de la cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Ocultar el ID de visitante de la creación de informes.  De forma predeterminada, los ID de visitante no están visibles en Adobe Workspace ni en Adobe Reports &amp; Analytics.  Los ID de visitante están disponibles en Data Feeds y Data Warehouse.  Se puede limitar el acceso a las fuentes de datos y a Data Warehouse con [Permisos de acceso en Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es) y [Referencia sobre columnas de feed de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * Parámetros de geolocalización. El nivel de precisión de la geolocalización es equiparable al de los códigos postales. [Opción de código postal](/help/implement/vars/page-vars/zip.md) y [Configuración general de la cuenta](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Configuración de las opciones de inclusión.  Con el servicio de inclusión puede configurar protocolos para que los usuarios puedan decidir si permiten la instalación de cookies en sus dispositivos o exploradores cuando visitan su sitio web. [Servicio de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es)
-* Impedir el uso compartido de datos.  Para impedir el uso compartido de datos en Adobe Audience Manager, utilice la variable de contexto `opt.dmp` para la [Creación de informes de privacidad](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) a fin de impedir que se compartan datos sobre visitas.
+* Impedir el uso compartido de datos.  Para impedir el uso compartido de datos en Adobe Audience Manager, utilice la variable de contexto `opt.dmp` para la [Creación de informes de privacidad](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) a fin de impedir que se compartan datos sobre hits.
 * Capacidad de acceso y eliminación. Utilización de Privacy Service para acceder y eliminar solicitudes. [Analytics y Privacy Service](gdpr.md)
 
 ## Consideraciones adicionales para la recopilación de datos
@@ -54,7 +67,7 @@ Se aplican las siguientes consideraciones adicionales:
 * Adobe Analytics opera en centros de procesamiento de datos en los Estados Unidos, el Reino Unido y Singapur, con el fin de proporcionar flexibilidad a todos los clientes para recopilar, procesar y almacenar sus datos a nivel regional. Al establecer la configuración inicial de Adobe Analytics, los clientes pueden seleccionar la ubicación del centro de procesamiento de datos que deseen. En última instancia, los datos de los clientes se almacenan dentro de su región seleccionada para el producto principal de Analytics.
 * Considere la posibilidad de recopilar el estado de inclusión en una variable de Analytics para separar los datos de inclusión de los datos de exclusión para la segmentación, para los grupos de informes virtuales o para dirigirlos a puntos finales independientes.
 * No se efectúa ninguna medición fuera del sitio o de la aplicación sin consentimiento previo, por ejemplo, campañas externas, campañas por correo electrónico o iFrames.
-* La colección de información personal en variables no está permitida sin consentimiento. [Controlar actividades empresariales de CX basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=es#implementing-opt-in-on-the-page)
+* La colección de información personal en variables no está permitida sin consentimiento. [Controlar actividades de CX Enterprise basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=es#implementing-opt-in-on-the-page)
 * Los datos solo se utilizan para producir estadísticas anónimas, sin combinarlas con otros datos.
 * Los datos no se utilizan para acciones de referencias cruzadas.
 * No se recopilan datos de geolocalización GPS.

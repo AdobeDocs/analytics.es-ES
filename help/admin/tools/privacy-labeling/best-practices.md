@@ -4,32 +4,47 @@ title: Prácticas recomendadas de etiquetado
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
+TQID: 'https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2341
+source-wordcount: '2341'
 ht-degree: 96%
-
 ---
-
 # Prácticas recomendadas de etiquetado
 
 Recuerde que el etiquetado debe revisarse cada vez que se cree un nuevo grupo de informes o cuando se habilite una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se habiliten nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
@@ -92,19 +107,19 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
 
 >[!NOTE]
 >
->Las props nunca distinguen entre mayúsculas y minúsculas. Las eVars tampoco distinguen entre mayúsculas y minúsculas, pero pueden configurarse con la ayuda del servicio de atención al cliente de Adobe para que realicen esta distinción. Si tiene una eVar que distingue entre mayúsculas y minúsculas y que contiene un ID, es su responsabilidad usar la combinación correcta de mayúsculas y minúsculas a la hora de enviar una solicitud de privacidad de datos, de modo que la combinación empleada en la solicitud coincida con la utilizada en las visitas que contengan esos ID.
+>Las props nunca distinguen entre mayúsculas y minúsculas. Las eVars tampoco distinguen entre mayúsculas y minúsculas, pero pueden configurarse con la ayuda del servicio de atención al cliente de Adobe para que realicen esta distinción. Si tiene una eVar que distingue entre mayúsculas y minúsculas y que contiene un ID, es su responsabilidad usar la combinación correcta de mayúsculas y minúsculas a la hora de enviar una solicitud de privacidad de datos, de modo que la combinación empleada en la solicitud coincida con la utilizada en los hits que contengan esos ID.
 
 Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderación. Cuando se aplican a una variable que no contiene un ID que se usaba como parte de la solicitud de privacidad de datos, los recuentos (las métricas) de los informes históricos de Analytics casi siempre cambiarán.
 
 * Se recomienda aplicar una de estas etiquetas a cualquier variable etiquetada como I1, I2 o S1. No se pueden aplicar a ninguna variable que no esté etiquetada como I1, I2 o S1.
-* Las etiquetas DEL- harán que estas variables se conviertan en [anónimas](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels) (es decir, que el ID se sustituya por una cadena aleatoria con el prefijo “Privacidad de datos”). El mismo valor convertido en anónimo sustituirá a todas las instancias del valor original en todas las visitas que se hayan identificado con un ID utilizado en la solicitud. Si el valor original de este campo era uno de esos ID, las métricas del informe no cambiarán.
+* Las etiquetas DEL- harán que estas variables se conviertan en [anónimas](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels) (es decir, que el ID se sustituya por una cadena aleatoria con el prefijo “Privacidad de datos”). El mismo valor convertido en anónimo sustituirá a todas las instancias del valor original en todos los hits que se hayan identificado con un ID utilizado en la solicitud. Si el valor original de este campo era uno de esos ID, las métricas del informe no cambiarán.
 * Por lo general, si un campo presenta la etiqueta ID-DEVICE, también debería asignarle la etiqueta DEL-DEVICE.
 * Del mismo modo, si un campo presenta la etiqueta ID-PERSON, también debería asignarle la etiqueta DEL-PERSON.
 * Si un campo no tiene una etiqueta de ID, pero contiene información de identificación que desea convertir en anónima, la etiqueta apropiada (DEVICE o PERSON) depende de su implementación. Si solo usa ID de cookie para las solicitudes de privacidad de datos, debería utilizar DEL-DEVICE.
 * Si utiliza ID personalizados en un campo distinto con una etiqueta ID-PERSON, y solo desea que se eliminen estos datos en las filas donde aparezca ese ID, use DEL-PERSON.
-* Tenga en cuenta que si se especifica una etiqueta DEL-DEVICE o DEL-PERSON en cualquier variable que no se utilice también como ID para dicha solicitud (incluida la expansión de ID), entonces los valores únicos de dicha variable solo se volverán anónimos en las visitas donde se produzca una especificación (o expansión) de ID. Si otras visitas contienen el mismo valor, no se actualizará en esas otras ubicaciones. Esto puede provocar el cambio de los recuentos (métricas).
+* Tenga en cuenta que si se especifica una etiqueta DEL-DEVICE o DEL-PERSON en cualquier variable que no se utilice también como ID para dicha solicitud (incluida la expansión de ID), entonces los valores únicos de dicha variable solo se volverán anónimos en los hits donde se produzca una especificación (o expansión) de ID. Si otros hits contienen el mismo valor, no se actualizará en esas otras ubicaciones. Esto puede provocar el cambio de los recuentos (métricas).
 
-  Por ejemplo, si cuenta con tres visitas que contienen el valor “foo” en eVar7, pero solo una de ellas contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicha visita se modificará por uno como “Privacidad de datos-123456789”, mientras que en las otras dos visitas permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
+  Por ejemplo, si cuenta con tres hits que contienen el valor “foo” en eVar7, pero solo uno de ellos contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicho hit se modificará por uno como “Privacidad de datos-123456789”, mientras que en los otros dos hits permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
 
 ## Prácticas recomendadas para establecer etiquetas de acceso {#best-practices-access}
 
@@ -120,7 +135,7 @@ Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual q
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Solo ID de dispositivo </p> </td> 
-   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso, uno que contiene una fila por cada visita coincidente con todos los campos ACC-ALL especificados y otro que contiene un resumen de estos datos. </p> </td> 
+   <td colname="col2"> <p>Si los únicos ID que usa son ID de cookie o los que tienen una etiqueta ID-DEVICE, solo debe utilizar la etiqueta ACC-ALL. </p> <p>Obtendrá un par de archivos para cada solicitud de acceso, uno que contiene una fila por cada hit coincidente con todos los campos ACC-ALL especificados y otro que contiene un resumen de estos datos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

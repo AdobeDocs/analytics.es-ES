@@ -1,5 +1,5 @@
 ---
-description: Muestra ejemplos de cómo etiquetar datos para datos de visitas, solicitudes de acceso y solicitudes de eliminación
+description: Muestra ejemplos de cómo etiquetar datos para datos de hits, solicitudes de acceso y solicitudes de eliminación
 title: Ejemplos de etiquetado
 feature: Data Governance
 role: Admin
@@ -7,27 +7,35 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 86%
-
 ---
-
 # Ejemplos de etiquetado
 
-## Ejemplo de datos de visita {#hit}
+## Ejemplo de datos de hit {#hit}
 
 Supongamos que tiene los siguientes datos de visitas:
 
@@ -49,7 +57,7 @@ Supongamos que tiene los siguientes datos de visitas:
 
 ## Muestra de solicitud de acceso {#access}
 
-Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada visita recibida para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el interesado y el número de veces que se vio cada valor único.
+Si envía una solicitud de acceso, recibirá dos archivos que puede devolver al interesado. Un archivo CSV contiene una fila por cada hit recibido para el interesado y una columna para cada variable con la etiqueta de acceso adecuada. El otro archivo es un archivo HTML de resumen que enumera cada variable, seguida de todos los valores únicos vistos para esa variable para el interesado y el número de veces que se vio cada valor único.
 
 Para nuestro ejemplo, el archivo de resumen contiene los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, 0 solo un archivo de persona o ambos. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y `expandIds` es &quot;true&quot;.
 
@@ -161,7 +169,7 @@ Tenga en cuenta que la configuración de `expandIDs` no supone ninguna diferenci
 
 ## Muestras de solicitudes de eliminación {#delete}
 
-Con una solicitud de eliminación que utiliza valores de API en la primera fila de la tabla, la tabla de visitas se actualizará para buscar algo parecido a esto:
+Con una solicitud de eliminación que utiliza valores de API en la primera fila de la tabla, la tabla de hits se actualizará para buscar algo parecido a esto:
 
 <table>
   <tr>
