@@ -7,41 +7,64 @@ exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+    internal-label: Advertising Analytics
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+    internal-label: Streaming Media
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
-source-wordcount: 18746
+source-wordcount: '18746'
 ht-degree: 100%
-
 ---
-
 # Uso de plantillas
 
 Las plantillas (o plantillas de la compañía) de Analysis Workspace proporcionan información rápida de los escenarios más habituales de creación de informes. A continuación, se muestran algunos ejemplos de preguntas a las que se puede responder con las plantillas:
@@ -573,7 +596,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="template--productconversionreport"
->title="Ver la conversión del producto en una visualización de canal que muestra carros de compras, cierres de compra y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos."
+>title="Ver la conversión del producto en una visualización de embudo que muestra carros de compras, cierres de compra y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos."
 >abstract="**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido."
 
 <!-- markdownlint-enable MD034 -->
@@ -592,7 +615,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--cartconversionreport"
 >title="Ver la cantidad de veces que las personas realizaron eventos clave de cierre de compra, como agregar artículos al carro de compras, ver el carro de compras, quitar artículos del carro de compras y cerrar la compra."
->abstract="**Esto puede ayudarle** a comprender mejor qué partes del canal del proceso de cierre de compra generan conversión y cuáles son las más propensas al abandono del carro de compras.<br/>**Según lo que aprenda, podría** hacer muchas cosas, como reducir la fricción en ciertos pasos del proceso de cierre de compra.<br/>Esta plantilla usa el"
+>abstract="**Esto puede ayudarle** a comprender mejor qué partes del embudo del proceso de cierre de compra generan conversión y cuáles son las más propensas al abandono del carro de compras.<br/>**Según lo que aprenda, podría** hacer muchas cosas, como reducir la fricción en ciertos pasos del proceso de cierre de compra.<br/>Esta plantilla usa el"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -619,7 +642,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--cartadditionsovertimereport"
 >title="Ver la cantidad de veces que las personas agregaron algo al carro de compras."
->abstract="**Esto puede ayudarle** a comprender mejor la parte del canal de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.<br/>**Según lo que aprenda, podría** hacer muchas cosas, como mejorar las recomendaciones de los productos para todos los clientes. Esto se puede hacer analizando qué productos se añaden con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras."
+>abstract="**Esto puede ayudarle** a comprender mejor la parte del embudo de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.<br/>**Según lo que aprenda, podría** hacer muchas cosas, como mejorar las recomendaciones de los productos para todos los clientes. Esto se puede hacer analizando qué productos se añaden con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -628,7 +651,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--cartremovalsovertimereport"
 >title="Ver la cantidad de veces que las personas han eliminado algo del carro de compras."
->abstract="**Esto puede ayudarle** a entender mejor la parte del canal de conversión en la que los clientes ya no están interesados en un producto o dónde pueden existir problemas en el proceso de cierre de compra.<br/>**Según lo que aprenda, podría** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de cierre de compra, como una experiencia del usuario complicada.<br/>Esta plantilla usa la métrica Eliminaciones del carro de compras."
+>abstract="**Esto puede ayudarle** a entender mejor la parte del embudo de conversión en la que los clientes ya no están interesados en un producto o dónde pueden existir problemas en el proceso de cierre de compra.<br/>**Según lo que aprenda, podría** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de cierre de compra, como una experiencia del usuario complicada.<br/>Esta plantilla usa la métrica Eliminaciones del carro de compras."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -636,7 +659,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="template--purchaseconversionreport"
->title="Ver la conversión de compras en una visualización de canal que muestra sesiones, carros de compras y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos."
+>title="Ver la conversión de compras en una visualización de embudo que muestra sesiones, carros de compras y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos."
 >abstract="**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido."
 
 <!-- markdownlint-enable MD034 -->
@@ -645,16 +668,16 @@ Las plantillas disponibles son las siguientes:
 
 | Nombre de plantilla | Por qué utilizar esta plantilla<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
-| [!UICONTROL **Canal de conversión de productos**] | Ver la conversión del producto en una visualización de canal que muestra carros de compras, cierres de compra y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos.<p>**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido.</p> |
+| [!UICONTROL **Embudo de conversión de productos**] | Ver la conversión del producto en una visualización de embudo que muestra carros de compras, cierres de compra y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos.<p>**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido.</p> |
 | **Productos** | Ver qué productos están impulsando las métricas clave, como los más vendidos o los más vistos. <p>**Esto puede ayudarle** a comprender mejor qué productos tienen más éxito.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como aumentar los fondos para productos exitosos y disminuirlos para productos menos exitosos.</p><p>Esta plantilla utiliza la métrica Pedidos y la dimensión Producto. |
 | **Rendimiento de los productos** | Ver qué productos tienen el mayor rendimiento.<p>**Esto puede ayudarle** a comprender mejor qué productos tienen más éxito.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como aumentar los fondos para productos exitosos y disminuirlos para productos menos exitosos.</p><p>Esta plantilla usa las métricas Vistas del producto, Adiciones al carro de compras, Pedidos, Ingresos y Unidades. También utiliza la dimensión Producto. |
 | **Categorías** | Ver el número de visitas asociadas con cada categoría de producto en el sitio. Esto resulta útil en implementaciones que utilizan la variable de productos y desean ver métricas sobre la categoría de productos. La dimensión que cumplimenta esta plantilla puede estar intencionadamente en blanco si no tiene ningún producto en su sitio.<p>**Esto puede ayudarle** a comprender mejor los productos más vendidos o más vistos. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como medir la eficacia de una campaña de marketing de un producto determinado.</p><p>Esta plantilla utiliza la dimensión de Categoría y la métrica Visitas. |
-| **Canales de conversión del carro de compras** | Ver la cantidad de veces que las personas realizaron eventos clave de cierre de compra, como agregar artículos al carro de compras, ver el carro de compras, quitar artículos del carro de compras y cerrar la compra. <p>**Esto puede ayudarle** a comprender mejor qué partes del canal del proceso de cierre de compra generan conversión y cuáles son las más propensas al abandono del carro de compras.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como reducir la fricción en ciertos pasos del proceso de cierre de compra.</p><p>Esta plantilla utiliza la |
+| **Embudos de conversión del carro de compras** | Ver la cantidad de veces que las personas realizaron eventos clave de cierre de compra, como agregar artículos al carro de compras, ver el carro de compras, quitar artículos del carro de compras y cerrar la compra. <p>**Esto puede ayudarle** a comprender mejor qué partes del embudo del proceso de cierre de compra generan conversión y cuáles son las más propensas al abandono del carro de compras.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como reducir la fricción en ciertos pasos del proceso de cierre de compra.</p><p>Esta plantilla utiliza la |
 | **Carros de compras** | Ver el número de personas que agregaron un producto al carro de compras.<p>**Esto puede ayudarle** a comprender mejor el número de personas que agregan un producto al carro de compras, a diferencia del número total de productos que se agregan al carro de compras.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como medir la efectividad de las páginas de producto.</p><p>Esta plantilla utiliza la métrica Carros de compras. |
 | **Vistas del carro de compras** | Ver la cantidad de veces que las personas vieron el carro de compras. <p>**Esto puede ayudarle** a comprender mejor la experiencia de cierre de compra en un esfuerzo por reducir las tasas de abandono del carro de compras o a analizar el tiempo entre adiciones al carro de compras y cierres de compras entre diferentes productos.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ofrecer promociones de productos que permanezcan en los carros durante más tiempo y que corran el mayor riesgo de ser abandonados.</p><p>Esta plantilla utiliza la métrica Vistas del carro de compras. |
-| **Adiciones al carro de compras** | Ver la cantidad de veces que las personas agregaron algo al carro de compras. <p>**Esto puede ayudarle** a comprender mejor la parte del canal de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como mejorar las recomendaciones de los productos para todos los clientes. Esto se puede hacer analizando qué productos se agregan con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras. |
-| **Eliminaciones del carro de compras** | Ver la cantidad de veces que las personas han eliminado algo del carro de compras.<p>**Esto puede ayudarle** a entender mejor la parte del canal de conversión en la que los clientes ya no están interesados en un producto o dónde pueden existir problemas en el proceso de cierre de compra.</p><p>**Según lo que aprenda, podría** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de cierre de compra, como una experiencia del usuario complicada.</p><p>Esta plantilla usa la métrica Eliminaciones del carro de compras. |
-| **Canal de conversión de compra** | Ver la conversión de compras en una visualización de canal que muestra sesiones, carros de compras y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos.<p>**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido.</p> |
+| **Adiciones al carro de compras** | Ver la cantidad de veces que las personas agregaron algo al carro de compras. <p>**Esto puede ayudarle** a comprender mejor la parte del embudo de conversión en la que el interés del cliente en un producto es lo suficientemente alto como para agregarlo al carro de compras.</p><p>**Según lo que aprenda, podría** hacer muchas cosas, como mejorar las recomendaciones de los productos para todos los clientes. Esto se puede hacer analizando qué productos se agregan con frecuencia a los mismos carros de compras y sugiriendo productos relacionados en función de los artículos que ya están en el carro de compras. |
+| **Eliminaciones del carro de compras** | Ver la cantidad de veces que las personas han eliminado algo del carro de compras.<p>**Esto puede ayudarle** a entender mejor la parte del embudo de conversión en la que los clientes ya no están interesados en un producto o dónde pueden existir problemas en el proceso de cierre de compra.</p><p>**Según lo que aprenda, podría** hacer cualquier cosa, como eliminar cualquier posible barrera que pueda existir en el proceso de cierre de compra, como una experiencia del usuario complicada.</p><p>Esta plantilla usa la métrica Eliminaciones del carro de compras. |
+| **Embudo de conversión de compra** | Ver la conversión de compras en una visualización de embudo que muestra sesiones, carros de compras y pedidos. También puede ver porcentajes de conversión, promedios de ingresos, promedios unitarios y promedios de pedidos.<p>**Esto puede ayudarle** a comprender mejor cómo avanzan y abandonan las personas durante el proceso de conversión.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como mejorar el sitio web para facilitar un proceso de cierre de compra más fluido.</p> |
 | **Ingresos** | <!--duplicated in Most popular section-->Vea el importe monetario de los productos comprados dentro de todos los pedidos.<p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a los ingresos, combinando la métrica Ingresos con cualquier dimensión. Por ejemplo, podría ver las campañas principales (usando la dimensión Código de seguimiento ) que contribuyeron a los ingresos. </p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar las campañas que no cumplen los objetivos de ingresos previstos.</p><p>Esta plantilla usa la métrica Ingresos. |
 | **Pedidos** | <!--duplicated in Most popular section-->Ver el número total de eventos de compra realizados en el sitio. <p>**Esto puede ayudarle** a comprender mejor qué elementos de dimensión contribuyeron a un pedido, combinando la métrica Pedidos con cualquier dimensión. Por ejemplo, podría ver las campañas principales (usando la dimensión Código de seguimiento) que contribuyeron a las compras.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar las campañas que no cumplen los objetivos de compra previstos. </p><p>Esta plantilla usa la métrica Pedidos. |
 | [!UICONTROL **Unidades**] | Ver el número total de unidades compradas dentro de todos los pedidos. Los datos se muestran a lo largo de un período de tiempo y se comparan con los períodos anteriores. <p>**Esto puede ayudarle** a comprender mejor cómo los ingresos aumentan o disminuyen con el tiempo. Puede aplicar un segmento para conocer qué clientes o regiones geográficas compran más unidades y cómo evolucionan las ventas de esas unidades a lo largo del tiempo.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como evaluar la eficacia de una campaña de marketing lanzada recientemente comparando ventas de unidades antes y después del lanzamiento de la campaña. O podría comparar las ventas de unidades año tras año durante los días festivos.</p><p>Esta plantilla utiliza la [dimensión Día](/help/components/dimensions/day.md) y la [métrica Unidades](/help/components/metrics/units.md).</p> |
@@ -821,7 +844,7 @@ Las plantillas disponibles son las siguientes:
 
 >[!CONTEXTUALHELP]
 >id="aa-template--dayssincelastpurchaserankedreport"
->title="Ver la cantidad de tiempo transcurrido entre la visita actual del visitante y su compra más reciente en ese momento."
+>title="Ver la cantidad de tiempo transcurrido entre el hit actual del visitante y su compra más reciente en ese momento."
 >abstract="**Esto puede ayudarle** a comprender mejor el comportamiento de los visitantes después de comprar algo en su sitio.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar el sitio para fomentar compras sucesivas.<br/>Esta plantilla usa la dimensión Días desde la última compra."
 
 <!-- markdownlint-enable MD034 -->
@@ -1038,7 +1061,7 @@ Las plantillas disponibles son las siguientes:
 | **Retención de visitantes** > **Número de visitas** | Ver cuántas veces ha visitado un visitante el sitio.<p>**Esto puede ayudarle** a comprender mejor el grado de participación de los visitantes cuando regresan a su sitio. Esto es aplicable a la vida útil del visitante, independientemente del intervalo de fechas del proyecto.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como ajustar los esfuerzos de marketing para los visitantes frecuentes.</p><p>Esta plantilla utiliza la dimensión Número de visitas.</p> |
 | **Retención de visitantes** > **Ciclo de ventas** > **Lealtad del cliente** | Vea el número de visitantes al sitio que hayan realizado 0 compras anteriores, 1 compra anterior, 2 compras anteriores o más de 3 compras anteriores. <p>**Esto puede ayudarle** a comprender mejor cómo el sitio afecta al comportamiento de compra.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrarse en los visitantes que regresan para hacer una compra, para así poder fomentar un comportamiento similar para los nuevos visitantes.</p><p>Esta plantilla utiliza la dimensión Lealtad del cliente.</p> |
 | **Retención de visitantes** > **Ciclo de ventas** > **Días antes de la primera compra** | Vea la cantidad de días que transcurren entre la primera vez que un visitante accede al sitio y el momento en el que realizan una compra. Por ejemplo, si un visitante realiza una compra un día después de la primera visita, cualquier visita o evento posterior pertenece al elemento de dimensión “1 día”.<p>**Esto puede ayudarle** a comprender mejor cuánto tiempo tardan los visitantes en realizar una compra.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar el sitio para fomentar una adquisición más rápida.</p><p>Esta plantilla usa la dimensión Días antes de la primera compra.</p> |
-| **Retención de visitantes** > **Ciclo de ventas** > **Días desde la última compra** | Ver la cantidad de tiempo transcurrido entre la visita actual del visitante y su compra más reciente en ese momento.<p>**Esto puede ayudarle** a comprender mejor el comportamiento de los visitantes después de comprar algo en su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar el sitio para fomentar compras sucesivas.</p><p>Esta plantilla usa la dimensión Días desde la última compra.</p> |
+| **Retención de visitantes** > **Ciclo de ventas** > **Días desde la última compra** | Ver la cantidad de tiempo transcurrido entre el hit actual del visitante y su compra más reciente en ese momento.<p>**Esto puede ayudarle** a comprender mejor el comportamiento de los visitantes después de comprar algo en su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como actualizar el sitio para fomentar compras sucesivas.</p><p>Esta plantilla usa la dimensión Días desde la última compra.</p> |
 | **Móviles** > **Dispositivos** | Ver la marca y el modelo de dispositivos móviles que los usuarios utilizan para acceder al sitio.<p>**Esto puede ayudarle** a comprender mejor qué dispositivos móviles son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar la representación del sitio para los dispositivos móviles más comunes.</p><p>Esta plantilla usa la dimensión Nombre de dispositivo móvil.</p> |
 | **Móvil** > **Tipo de dispositivo** | Vea los tipos de dispositivos móviles que usan los usuarios para acceder al sitio, como teléfonos y tabletas.<p>**Esto puede ayudarle** a comprender mejor los distintos tipos de dispositivos móviles que se usan para acceder al sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como optimizar el sitio para los tipos de dispositivos móviles que más se usan.</p><p>Esta plantilla utiliza la dimensión Tipo de dispositivo móvil.</p> |
 | **Móvil** > **Fabricante** | Ver qué fabricantes producen los dispositivos móviles que usan los usuarios para acceder al sitio, como Apple y Samsung.<p>**Esto puede ayudarle** a entender mejor qué fabricantes son los más populares entre su base de usuarios.</p><p>**En función de lo que aprenda, puede** hacer cualquier cosa, como adaptar su entrega de contenido en función de las capacidades de diferentes fabricantes para garantizar una experiencia de usuario sin problemas.</p><p>Esta plantilla usa la dimensión Fabricante del móvil.</p> |
@@ -1109,7 +1132,7 @@ Las plantillas disponibles son las siguientes:
 >[!CONTEXTUALHELP]
 >id="template--firstouchchanneldetailrankedreport"
 >title="Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada)."
->abstract="**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.<br/>Esta plantilla usa la dimensión Detalle de canal de primer toque."
+>abstract="**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.<br/>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.<br/>Esta plantilla usa la dimensión Detalle de canal de primer toque."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1236,10 +1259,10 @@ Las plantillas disponibles son las siguientes:
 | --- | --- |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Informe de información general sobre los canales**] | Al utilizar la atribución personalizada, esta plantilla muestra cómo llegan los visitantes al sitio.<p>**Esto puede ayudarle** a entender mejor cuáles de sus canales de marketing son los más efectivos.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como invertir más en canales de marketing efectivos y desinvertir en canales de marketing menos eficaces.</p><p>Esta plantilla usa la dimensión ID (variables/canal de mercadotecnia) y la métrica Ingresos.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de primer contacto**] | Consulte el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días). <p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.</p> |
-| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalles de canal de primer contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Detalle de canal de primer contacto.</p> |
+| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalles de canal de primer contacto**] | Ver detalles sobre el primer canal de marketing con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Detalle de canal de primer contacto.</p> |
 | [!UICONTROL **Canales de marketing**] > [!UICONTROL **Canal de último contacto**] | Consulte el canal de marketing más reciente con el que un visitante coincide durante el período de participación de ese visitante (de forma predeterminada, 30 días).<p>**Esto puede ayudarle** a comprender mejor qué canales de marketing dirigen el tráfico inicial a su sitio y generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas.</p><p>Esta plantilla usa la dimensión Canal de primer contacto.  </p> |
-| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalles de canal de último contacto**] | Vea detalles sobre el canal de marketing más reciente con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que la visita coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas. </p><p>Esta plantilla usa la dimensión Detalle del canal de último toque. </p> |
-| [!UICONTROL **Campañas**] > [!UICONTROL **Canal de conversión de campaña**] | Ver la cantidad de clics y cierres de compra de sus campañas. <p>**Esto puede ayudarle** a comprender mejor cómo las campañas de marketing generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como determinar qué campañas de marketing generan el máximo retorno de la inversión.</p> |
+| [!UICONTROL **Canales de marketing**] > [!UICONTROL **Detalles de canal de último contacto**] | Vea detalles sobre el canal de marketing más reciente con el que un visitante coincide durante el período de participación de ese visitante (30 días de forma predeterminada).<p>**Esto puede ayudarle** a comprender qué contribuyó a que el hit coincidiera con un canal de marketing. Por ejemplo: si un visitante llegó a su sitio y coincidió con el canal de marketing de “Búsqueda de pago”, puede utilizar el detalle de canal para ver qué motor de búsqueda se utilizó o qué palabra clave buscó.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en las áreas más efectivas. </p><p>Esta plantilla usa la dimensión Detalle del canal de último toque. </p> |
+| [!UICONTROL **Campañas**] > [!UICONTROL **Embudo de conversión de campaña**] | Ver la cantidad de clics y cierres de compra de sus campañas. <p>**Esto puede ayudarle** a comprender mejor cómo las campañas de marketing generan conversiones.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como determinar qué campañas de marketing generan el máximo retorno de la inversión.</p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Rendimiento de la campaña**] | Ver detalles sobre el rendimiento de sus campañas de marketing.<p>**Esto puede ayudarle** a comprender mejor los distintos indicadores de éxito asociados con las campañas, como los ingresos, las vistas de productos, los pedidos, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos. </p><p>Esta plantilla usa las métricas Ingresos, Vistas del producto, Adiciones al carro de compras, Pedidos y Unidades. También utiliza la dimensión Código de seguimiento y Dominio de referencia. </p> |
 | [!UICONTROL **Campañas**] > [!UICONTROL **Código de seguimiento**] | Ver los nombres de los códigos de seguimiento en su sitio. Puede colocar vínculos con diferentes valores de parámetro de cadena de consulta en diferentes lugares de Internet.<p>**Estoi puede ayudarle** a conocer mejor qué vínculos fueron los más exitosos a la hora de impulsar el tráfico al sitio. Añadir cadenas de consulta de código de seguimiento es habitual en los correos electrónicos, anuncios de medios sociales y otros esfuerzos de marketing que utiliza su organización</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como centrar los esfuerzos de marketing en las campañas que generan la mayor cantidad de ingresos.</p><p>Esta plantilla utiliza la dimensión Código de seguimiento. </p> |
 | **Adquisición web** | Ver cómo su sitio web obtiene visitantes.<p>**Esto puede ayudarle** a comprender mejor los distintos factores que llevan a la adquisición, como palabras clave de búsqueda, dominio de referencia, etc.</p><p>**En función de lo que aprenda, podría** hacer muchas cosas, como enfocar los esfuerzos de marketing en los canales más efectivos.</p><p>Esta plantilla usa las métricas de Tasa de salida hacia otro sitio y Rechazos. También utiliza las dimensiones Motor de búsqueda, Palabra clave de búsqueda, Página de entrada, Dominio de referencia, Código de seguimiento y Referente.  </p> |
