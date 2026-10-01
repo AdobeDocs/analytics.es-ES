@@ -7,24 +7,31 @@ exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 TQID: https://experienceleague.adobe.com/N4hzk5uKr5Mh3FA6V1x8KqyCod6ZIK8TO7l2TZvzR4A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1095'
 ht-degree: 98%
-
 ---
-
 # Visualización de información de componentes en el diccionario de datos
 
 El diccionario de datos permite ver información acerca de un componente, incluida su descripción, componentes similares, otros componentes con los que se utiliza con frecuencia, etc.
@@ -45,9 +52,9 @@ Para ver información acerca de un componente en el diccionario de datos:
 
 1. (Opcional) En el campo de búsqueda, empiece a escribir el nombre del componente que desea ver.
 
-   El tipo de componente se puede identificar mediante colores e iconos. **Dimensiones** ![Los iconos de dimensión](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) son naranjas, **Segmentos** ![Los iconos de segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) son azules, **Intervalos de fechas** ![Los iconos de intervalos de fecha](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) son morados y **Métricas** ![Los iconos de métrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) son verdes. El icono de Adobe indica una plantilla de métrica calculada o un segmento, y el icono de la calculadora ![Icono Calculadora](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indicó una métrica calculada que creó un administrador de Analytics en su organización.
+   El tipo de componente se puede identificar mediante colores e iconos. **Dimensiones** ![Los iconos de dimensión](/help/assets/icons/Data.svg) son naranjas, **Segmentos** ![Los iconos de segmento](/help/assets/icons/Segmentation.svg) son azules, **Intervalos de fechas** ![Los iconos de intervalos de fecha](/help/assets/icons/Calendar.svg) son morados y **Métricas** ![Los iconos de métrica](/help/assets/icons/Event.svg) son verdes. El icono de Adobe indica una plantilla de métrica calculada o un segmento, y el icono de la calculadora ![Icono Calculadora](/help/assets/icons/Calculator.svg) indicó una métrica calculada que creó un administrador de Analytics en su organización.
 
-1. (Opcional) Seleccione el icono **Filtrar** ![del diccionario de datos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, cualquiera de las siguientes opciones para filtrar la lista de componentes:
+1. (Opcional) Seleccione el icono **Filtrar** ![del diccionario de datos](/help/assets/icons/Filter.svg) y, a continuación, cualquiera de las siguientes opciones para filtrar la lista de componentes:
 
    | Opción | Función |
    |---------|----------|
@@ -66,7 +73,7 @@ Para ver información acerca de un componente en el diccionario de datos:
 
    {style="table-layout:auto"}
 
-1. (Opcional) Seleccione el icono de **Ordenar** ![icono de Ordenar componentes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
+1. (Opcional) Seleccione el icono de **Ordenar** ![icono de Ordenar componentes](/help/assets/icons/SortOrderDown.svg) y, a continuación, seleccione cualquiera de las siguientes opciones de filtro para ordenar la lista de componentes:
 
    {{components-sort-options}}
 

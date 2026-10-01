@@ -8,29 +8,34 @@ exl-id: d3388990-7919-461d-a96e-4c996b8bdb8b
 TQID: https://experienceleague.adobe.com/56Wyy-f9kDXxFSanTNILr4rNQ0OB3YtbIFPcRT082sc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Troubleshooting
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 474
-ht-degree: 45%
-
+source-wordcount: '468'
+ht-degree: 44%
 ---
-
 # Opciones de Report Builder
 
 {{legacy-arb}}
 
 En el panel Opciones se puede especificar la configuración de fecha, la configuración de latencia (Datos actuales), el registro de información y configurar actualizaciones.
 
-1. En la barra de herramientas Complementos, haga clic en **[!UICONTROL Opciones]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg):
+1. En la barra de herramientas Complementos, haga clic en **[!UICONTROL Opciones]** ![](/help/assets/icons/Setting.svg):
 
 | Elemento | Descripción |
 |--- |--- |

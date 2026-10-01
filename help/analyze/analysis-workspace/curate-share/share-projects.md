@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # Compartir proyectos {#share-projects}
@@ -222,13 +222,13 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
      * Si esta opción está habilitada y atenuada, el administrador de Analytics requiere la autenticación de CX Enterprise para todos los que accedan a proyectos de Analysis Workspace.
 
-1. Junto al campo **[!UICONTROL Compartir con cualquiera (no es necesario iniciar sesión)]**, haga clic en el icono **Copiar enlace** ![icono Copiar enlace](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) para copiar el enlace en el portapapeles del sistema.
+1. Junto al campo **[!UICONTROL Compartir con cualquiera (no es necesario iniciar sesión)]**, haga clic en el icono **Copiar enlace** ![icono Copiar enlace](/help/assets/icons/Link.svg) para copiar el enlace en el portapapeles del sistema.
 
 1. Comparta el enlace con las personas que quiera que tengan acceso al proyecto. Por ejemplo, puede pegar el enlace en un correo electrónico.
 
    Cualquier persona con la que comparta el enlace podrá ver el proyecto de Analysis Workspace.
 
-1. (Opcional) Puede hacer clic en el icono **Generar nuevo enlace** ![icono Generar enlace](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) para quitar el acceso de los usuarios que anteriormente recibieron un enlace al proyecto. Se genera un nuevo enlace que puede compartir con los usuarios que desee que accedan al proyecto.
+1. (Opcional) Puede hacer clic en el icono **Generar nuevo enlace** ![icono Generar enlace](/help/assets/icons/Refresh.svg) para quitar el acceso de los usuarios que anteriormente recibieron un enlace al proyecto. Se genera un nuevo enlace que puede compartir con los usuarios que desee que accedan al proyecto.
 
 1. Seleccione **[!UICONTROL Cerrar]** para cerrar el cuadro de diálogo de compartir. Los cambios se guardan automáticamente.
 

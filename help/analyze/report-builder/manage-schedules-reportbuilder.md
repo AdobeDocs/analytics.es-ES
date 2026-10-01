@@ -9,18 +9,20 @@ exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 383
-ht-degree: 6%
-
+source-wordcount: '381'
+ht-degree: 4%
 ---
-
 # Administrar libros de trabajo programados
 
 Puede programar un libro para compartirlo por correo electrónico o exportarlo a un destino de nube, tal como se describe en los siguientes artículos:
@@ -49,7 +51,7 @@ Puede ver y administrar todos los libros programados en la ficha **[!UICONTROL L
 
    * Seleccione el icono de columna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
-   * Seleccione el icono de filtro ![Icono de filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) y, a continuación, seleccione [!UICONTROL **Mostrar todos**] para mostrar todos los libros programados para una organización determinada.
+   * Seleccione el icono de filtro ![Icono de filtro](/help/assets/icons/Filter.svg) y, a continuación, seleccione [!UICONTROL **Mostrar todos**] para mostrar todos los libros programados para una organización determinada.
 
 1. Seleccione uno o varios libros.
 
@@ -78,7 +80,7 @@ Puede ver el historial y el estado de los libros programados en la ficha **[!UIC
    ![Historial programado](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    Use ![Buscar](/help/assets/icons/Search.svg) para buscar libros específicos en la lista.
-Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
+   Use ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) para definir qué columnas mostrar.
 
    La ficha **[!UICONTROL Historial]** le permite revisar el estado de cada tarea programada. Una fila independiente documenta el cambio de estado de cada tarea programada.
 
