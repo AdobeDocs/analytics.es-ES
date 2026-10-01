@@ -7,22 +7,26 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 455
-ht-degree: 9%
-
+source-wordcount: '399'
+ht-degree: 5%
 ---
-
 # Administrar cuentas de usuario, recursos y caducidades heredados
 
 Puede administrar cuentas de usuario heredadas, su estado de migración, los datos de caducidad, la transferencia de recursos a otros usuarios y mucho más mediante **[!UICONTROL Administración] > [!UICONTROL Todos los administradores] > [!UICONTROL Usuarios y administradores de Analytics]**.
@@ -42,18 +46,18 @@ La pantalla Usuarios muestra una lista de los usuarios actuales de Adobe Analyti
 
 ![Usuarios](assets/users.png)
 
-- Para buscar un usuario específico, usa el campo ![Buscar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Buscar por título*.
-- Para filtrar la lista según el estado de migración, seleccione ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Estado de migración]**.
-- Para filtrar la lista según el estado de inicio de sesión heredado, seleccione ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL Inicio de sesión heredado]**.
-- Para cambiar la visualización de las columnas, seleccione ![Configuración de columna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) y seleccione las columnas en la ventana emergente.
+- Para buscar un usuario específico, usa el campo ![Buscar](/help/assets/icons/Search.svg) *Buscar por título*.
+- Para filtrar la lista según el estado de migración, seleccione ![Chevron](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Estado de migración]**.
+- Para filtrar la lista según el estado de inicio de sesión heredado, seleccione ![Chevron](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Inicio de sesión heredado]**.
+- Para cambiar la visualización de las columnas, seleccione ![Configuración de columna](/help/assets/icons/ColumnSetting.svg) y seleccione las columnas en la ventana emergente.
 
 Puede aplicar varias acciones al seleccionar uno o varios usuarios de la lista:
 
 | Acción | Descripción |
 |---|---|
-| ![Migrar](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL Migrar]** | Puede migrar uno o varios usuarios a Enterprise ID o Adobe ID. |
-| ![Calendario bloqueado](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL Establecer caducidad]** | Puede establecer una fecha de caducidad para el uso del inicio de sesión heredado de Adobe Analytics para los usuarios seleccionados.  Seleccione la fecha para utilizar una ventana emergente de calendario para especificar la fecha. Seleccione **[!UICONTROL Listo]** para confirmar la caducidad. |
-| ![Transferir recursos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL Transferir recursos]** | Esta acción solo está disponible al seleccionar un usuario. Si el usuario tiene recursos que se pueden transferir, puede seleccionar los elementos de la cuenta (como marcadores, tableros, etc.). Seleccione **[!UICONTROL Transferir]** para completar la transferencia.<br/>![Transfiere recursos](assets/transfer-assets.png) |
-| ![Eliminar cuentas](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL Eliminar cuentas]** | Se muestra un cuadro de diálogo para confirmar la eliminación de las cuentas seleccionadas. Seleccione **[!UICONTROL Aceptar]** para eliminar las cuentas. Seleccione **[!UICONTROL Cancelar]** para cancelar. |
-| ![Exportar a CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL Exportar a CSV]** | Esta acción descarga inmediatamente un archivo que contiene una lista de valores separados por comas de los usuarios seleccionados con sus detalles (nombre, estado de migración, correo electrónico, etc.). |
+| ![Migrar](/help/assets/icons/Briefcase.svg) **[!UICONTROL Migrar]** | Puede migrar uno o varios usuarios a Enterprise ID o Adobe ID. |
+| ![Calendario bloqueado](/help/assets/icons/CalendarLocked.svg) **[!UICONTROL Establecer caducidad]** | Puede establecer una fecha de caducidad para el uso del inicio de sesión heredado de Adobe Analytics para los usuarios seleccionados.  Seleccione la fecha para utilizar una ventana emergente de calendario para especificar la fecha. Seleccione **[!UICONTROL Listo]** para confirmar la caducidad. |
+| ![Transferir recursos](/help/assets/icons/Switch.svg) **[!UICONTROL Transferir recursos]** | Esta acción solo está disponible al seleccionar un usuario. Si el usuario tiene recursos que se pueden transferir, puede seleccionar los elementos de la cuenta (como marcadores, tableros, etc.). Seleccione **[!UICONTROL Transferir]** para completar la transferencia.<br/>![Transfiere recursos](assets/transfer-assets.png) |
+| ![Eliminar cuentas](/help/assets/icons/Delete.svg) **[!UICONTROL Eliminar cuentas]** | Se muestra un cuadro de diálogo para confirmar la eliminación de las cuentas seleccionadas. Seleccione **[!UICONTROL Aceptar]** para eliminar las cuentas. Seleccione **[!UICONTROL Cancelar]** para cancelar. |
+| ![Exportar a CSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Esta acción descarga inmediatamente un archivo que contiene una lista de valores separados por comas de los usuarios seleccionados con sus detalles (nombre, estado de migración, correo electrónico, etc.). |
 
