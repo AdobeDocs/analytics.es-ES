@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
-ht-degree: 92%
+source-wordcount: '7553'
+ht-degree: 91%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
 
@@ -77,6 +77,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | --- | --- |
 | **Septiembre de 2026** | |
 | Comparación de lienzo de recorrido en flechas y visitas en orden previsto | Se ha actualizado la opción &#39;[!UICONTROL Comparar con]&#39; en [Configurar una visualización de lienzo de Recorrido](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que el cambio porcentual entre intervalos de fechas ahora se muestra en cada nodo, flecha y visita en orden previsto del recorrido. |
+| eVars de comercialización | Se ha revisado y consolidado la documentación sobre variables de comercialización en componentes relevantes:<ul><li>[Dimensión de eVar (comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía Componentes</li><li>[Variable eVar (comercialización)](/help/implement/vars/page-vars/evar-merchandising.md) en la guía de implementación</li><li>[Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de administración</li></ul> |
 | Nuevas acciones de acceso directo de redimensionado | Los nuevos métodos abreviados de teclado en Analysis Workspace ahora le permiten [cambiar el tamaño de un panel o una visualización](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) más ancha, más estrecha, más alta o más corta. |
 | [API de recopilación de datos de Adobe Analytics](https://developer.adobe.com/analytics-collection-apis/) | Nuevo repositorio para desarrolladores que añade y moderniza las estrategias de recopilación de datos para Adobe Analytics sin el uso de AppMeasurement ni etiquetas. |
 | **Agosto de 2026** | |
@@ -84,7 +85,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Junio de 2026** | |
 | Actualización de referencia de cadena de consulta | Revisiones significativas de [parámetros de consulta de recopilación de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference). |
 | Segmentos en Data Warehouse | Se ha actualizado [la compatibilidad de segmentos de Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |
-| Se ha sustituido GA por una guía AA | La guía de GA a AA hace referencia a Universal Analytics, que expiró en 2023. Una nueva guía la ha reemplazado: [Transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
+| Se ha sustituido GA por una guía AA | La guía de GA a AA hace referencia a Universal Analytics, que expiró en 2023. Una nueva guía la ha reemplazado: [Transición de Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mayo de 2026** | |
 | Dimensiones y métricas de medios de streaming | Actualizaciones significativas en la documentación de medios de streaming. Los vínculos a ejemplos incluyen [dimensiones principales de servicios de medios de streaming](/help/components/dimensions/sm-core.md) y [métricas principales de servicios de medios de streaming](/help/components/metrics/sm-core.md). |
 | **Marzo de 2026** | |
@@ -317,7 +318,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 5 de agosto de 2021 | Se ha actualizado la documentación de clasificaciones en [plantillas](/help/components/classifications/importer/c-download-saint-data.md), [importación del explorador](/help/components/classifications/importer/browser-import.md) y [exportación del explorador](/help/components/classifications/importer/browser-export.md) para indicar que las opciones que no están disponibles para los grupos de informes que están habilitados para la nueva arquitectura de clasificación. |
 | 2 de agosto de 2021 | Se han actualizado varias páginas para reflejar el cambio de marca de [Adobe Experience Platform Launch](/help/implement/launch/overview.md) |
 | **Julio de 2021** |  |
-| 23 de julio de 2021 | Nuevo análisis en profundidad de [eVars de comercialización](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) |
+| 23 de julio de 2021 | Nuevo análisis en profundidad de [eVars de comercialización](/help/components/dimensions/evar-merchandising.md) |
 | 15 de julio de 2021 | Se ha añadido nueva documentación sobre la nueva [página de destino de Adobe Analytics](/help/analyze/landing.md) |
 | **Junio de 2021** |  |
 | 15 de junio de 2021 | Se han actualizado las [prácticas recomendadas de los canales de marketing](/help/components/c-marketing-channels/mchannel-best-practices.md) |
