@@ -51,7 +51,7 @@ Las eVars de comercialización solo funcionan con la variable [`products`](/help
 
 >[!TIP]
 >
->Para enlazar valores persistentes a una dimensión que no sea productos, considere la posibilidad de usar [[!UICONTROL dimensiones de enlace]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) en Customer Journey Analytics.
+>Para enlazar valores persistentes a una dimensión que no sea productos, considere la posibilidad de usar [[!UICONTROL dimensiones de enlace]](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) en Customer Journey Analytics.
 
 ## Razones para utilizar eVars de comercialización
 
