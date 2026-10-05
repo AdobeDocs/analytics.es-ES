@@ -2,6 +2,7 @@
 title: Notas de la versión de Adobe Analytics actual
 description: Ver las notas de la versión actuales de Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -39,10 +40,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e799ccd83844b80268377a1b7094baee6a1cbc0e
+source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 54%
 ---
 # Notas de la versión actuales de Adobe Analytics (septiembre de 2026)
 
@@ -54,11 +55,9 @@ Estas notas de la versión abarcan el periodo de lanzamiento de septiembre de 20
 
 | Función y descripción | [Inicio del despliegue](releases.md) | [Disponibilidad general](releases.md) |
 | ----------- | ---------- | ---- |
-| **Limitar segmentos al intervalo de fechas del informe**<br/> Los datos de un informe de Workspace pueden extenderse más allá del intervalo de fechas del informe cuando un segmento incluye componentes de intervalo de fechas.<p>Ahora hay disponible una nueva opción que le permite limitar los resultados al intervalo de fechas de la creación de informes independientemente de cualquier componente de fecha incluido en el segmento.</p><p>Esta opción está disponible al crear o modificar un segmento cuyo contenedor de nivel superior sea Visitante.</p><p>Para obtener más información, consulte [Generar segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 de agosto de 2026 | 9 de septiembre de 2026 |
-| **Actualizaciones de detección de bots**<br/> Al utilizar la recopilación de datos de Edge con Web SDK, están disponibles las siguientes actualizaciones de detección de bots:<ul><li>Ahora puede crear reglas de detección de bots para identificar excepciones en el tráfico que, de lo contrario, se tratarían como generadas por bots. Las reglas existentes y futuras seguirán marcando de forma predeterminada el tráfico coincidente como generado por el bot.</li><li>Las reglas de bots personalizadas ahora se ejecutan antes que las reglas de detección de bots de IAB. Este cambio no afecta a las puntuaciones de bots, pero los nombres de reglas de bots asociados a un evento pueden cambiar.</li></ul><p>Nota: Esta actualización solo se aplica a las implementaciones de recopilación de datos de Edge que utilizan Web SDK. No se aplica a bibliotecas antiguas, como AppMeasurement.</p><p>Para obtener más información, consulte [Configurar la detección de bots para flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/bot-detection).</p> | | Principios de septiembre de 2026 |
+| **Generar automáticamente descripciones de componentes** <br/>Ahora puede generar automáticamente descripciones para dimensiones, métricas, métricas calculadas, segmentos e intervalos de fechas. Esto permite a los usuarios de Workspace comprender qué componentes utilizar, especialmente en organizaciones con bibliotecas de componentes grandes. <p>Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.</p> <p>(Vínculo a la documentación a continuación).<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 de octubre de 2026 |
+| **Integración de Adobe Brand Visibility**<br/> Conecte Adobe Brand Visibility con los datos de Adobe Analytics de su organización para que pueda medir cómo la detección impulsada por IA se traduce en participación real en el sitio web y resultados comerciales.<p>(Vínculo a la documentación a continuación).</p> | | Octubre de 2026</p> |
 | **CX Enterprise Coworker: Analice los datos de Adobe Analytics en el chat de compañeros** <br/>Adobe CX Enterprise Coworker Chat ahora puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus grupos de informes de Adobe Analytics, lo que le permite explorar esos datos y obtener respuestas a las preguntas que se hacen en lenguaje natural.<p>(Vínculo a la documentación a continuación).</p> | 2 de octubre de 2026 | Por determinar<p>(Originalmente planificado para el 25 de septiembre de 2026)</p> |
-| **Actualizaciones de API de conjuntos de clasificaciones**<br/> La documentación de API de conjuntos de clasificaciones ahora incluye información actualizada sobre parámetros y puntos de conexión para configurar solicitudes de API de conjuntos de clasificaciones.<p>Para obtener más información, consulte la [Guía de extremo de clasificaciones](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
-| **Directrices de codificación de ItemId de fecha en las guías de informes de la API 2.0**<br/> Las guías de informes de tendencias de fecha de la API Adobe Analytics 2.0 ahora incluyen nuevas secciones que explican cómo se codifican los parámetros y valores de fecha `itemId`. Esto puede ayudarle a configurar y migrar a los servicios de API 2.0 desde las API 1.4, ahora obsoletas.<p>Para obtener más información, consulte la [guía de informes KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) y la [guía de informes avanzados](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 de septiembre de 2026 | 30 de septiembre de 2026 |
 
 ### Correcciones en Adobe Analytics
 
