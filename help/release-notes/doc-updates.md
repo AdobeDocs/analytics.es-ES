@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
-ht-degree: 91%
+source-wordcount: '7591'
+ht-degree: 90%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
 
@@ -75,6 +75,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Octubre de 2026** | |
+| Métrica Ocurrencias de productos de bots | Se ha agregado la métrica [Ocurrencias de productos de bots](/help/components/metrics/bot-product-occurrences.md), que muestra el número de subvisitas de cadenas de productos que coinciden con las reglas de bots. <p>También se han actualizado la dimensión [Nombre de bot](/help/components/dimensions/bot-name.md) y la métrica [Ocurrencias de bots](/help/components/metrics/bot-occurrences.md) para hacer referencia a la nueva métrica.</p> |
 | **Septiembre de 2026** | |
 | Comparación de lienzo de recorrido en flechas y visitas en orden previsto | Se ha actualizado la opción &#39;[!UICONTROL Comparar con]&#39; en [Configurar una visualización de lienzo de Recorrido](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que el cambio porcentual entre intervalos de fechas ahora se muestra en cada nodo, flecha y visita en orden previsto del recorrido. |
 | eVars de comercialización | Se ha revisado y consolidado la documentación sobre variables de comercialización en componentes relevantes:<ul><li>[Dimensión de eVar (comercialización)](/help/components/dimensions/evar-merchandising.md) en la guía Componentes</li><li>[Variable eVar (comercialización)](/help/implement/vars/page-vars/evar-merchandising.md) en la guía de implementación</li><li>[Variables de conversión](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) en la guía de administración</li></ul> |
