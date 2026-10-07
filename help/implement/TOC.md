@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 96%
+source-wordcount: '459'
+ht-degree: 92%
 ---
 
 # Guía de implementación de Adobe Analytics {#implementation}
@@ -143,8 +143,15 @@ ht-degree: 96%
   + [Tipos de eventos de Edge Network](aep-edge/hit-types.md)
   + SDK web {#web-sdk}
     + [Información general del SDK web](aep-edge/web-sdk/overview.md)
-    + Planificador de migración {#planner}
-      + [Información general del planificador](aep-edge/web-sdk/planner/overview.md)
+    + Asistente de actualización {#upgrade-assistant}
+      + [Información general del asistente de actualización](aep-edge/web-sdk/upgrade-assistant/overview.md)
+      + [Administración de migraciones](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [Selección de componentes](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [Conclusiones de auditoría](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [Verificación del grupo de informes](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [Asignación de XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Implementación de Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Revisión final](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migración al SDK web mediante etiquetas](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migración al SDK web mediante JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [Nueva implementación mediante etiquetas](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -184,8 +191,7 @@ ht-degree: 96%
   + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
   + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validar la implementación {#validate}
-  + [Depurador heredado](validate/debugger.md)
-  + [Monitores de paquetes](validate/packet-monitor.md)
+  + [Herramientas de depuración](validate/debugging-tools.md)
   + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
 + Revisar la implementación {#review}

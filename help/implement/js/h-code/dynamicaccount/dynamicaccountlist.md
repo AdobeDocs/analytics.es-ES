@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Si no coincide ninguna regla, se usa el grupo de informes predeterminado de `s_account`.
 * Si su página se guarda en el disco duro de otra persona o se traduce mediante un motor de traducción web (como las páginas traducidas por Google), la selección de cuentas dinámicas probablemente no funcionará.
 * Las reglas `dynamicAccountSelection` solo se aplican a la sección de la dirección URL especificada en `dynamicAccountMatch`.
-* Use Adobe CX Enterprise Debugger para probar el grupo de informes de destino.
+* Utilice Adobe Experience Platform Debugger para probar el grupo de informes de destino.

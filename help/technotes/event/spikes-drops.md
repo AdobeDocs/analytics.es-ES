@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # Solución de problemas de picos y caídas de datos
 
@@ -53,11 +53,11 @@ Las caídas del tráfico se clasifican en dos secciones: datos parciales y datos
 * **Latencia del grupo de informes**: En ocasiones, un grupo de informes puede experimentar [latencia](../latency.md) debido a una serie de factores. Muchos de los problemas de latencia se resuelven en unas horas. Si le preocupa un grupo de informes específico, póngase en contacto con el servicio de atención al cliente de Adobe con la ID del grupo de informes correspondiente.
 * **Eliminación de la implementación**: A veces, cuando una organización realiza cambios de implementación o reestructura su sitio, se pasa por alto la reimplementación de Analytics. Trabaje con los desarrolladores de su organización para volver a implementar el código en su sitio.
 * **Problema de caché/interfaz de Analytics**: En raras ocasiones, la memoria caché de un explorador contiene datos no válidos que hacen que todos los informes devuelvan ceros. Borre las cookies y la memoria caché del explorador para resolver el problema. Si la eliminación de cookies o de la memoria caché no funciona, póngase en contacto con el servicio de atención al cliente con el informe y el intervalo de fechas que faltan; pueden duplicar el problema y proporcionar información adicional.
-* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/es/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
+* **Disponibilidad de Analytics**: Compruebe [status.adobe.com](https://status.adobe.com/products/1173/es) para ver si hay algún problema con la recopilación o el procesamiento de datos.
 
 ### Posibles causas de la pérdida parcial de datos o la disminución del tráfico
 
-* **Cambios de implementación**: Use el [depurador](/help/implement/validate/debugger.md) para comprobar que las dimensiones deseadas funcionan.
+* **Cambios de implementación**: Use una [herramienta de depuración](/help/implement/validate/debugging-tools.md) para comprobar que las dimensiones deseadas funcionan.
 * **Se ha reducido el tráfico de referencia**: Si se elimina una publicidad tipo titular o un hipervínculo popular de otro sitio, puede causar una disminución drástica del tráfico. Haga un seguimiento de la dimensión [Dominios de referencia](/help/components/dimensions/referring-domain.md) desde antes y después de la colocación para buscar más información.
 * **Problemas de rendimiento del sitio**: La distribución incorrecta del tráfico a través de equilibradores de carga o problemas con el servidor que aloja el sitio puede contribuir a una disminución del sistema de informes de Analytics. Trabaje con el equipo de su organización que administra la integridad y el estado del sitio para investigar cualquier problema de rendimiento potencial.
 * **Cambios en la clasificación de búsqueda natural**: El tráfico puede disminuir potencialmente si otro sitio elimina la clasificación de búsqueda natural de algunas de sus palabras clave. Esta disminución puede ser especialmente evidente si el sitio ya no se encuentra en la primera página de resultados de búsqueda. Haga un seguimiento de la dimensión [Motores de búsqueda](/help/components/dimensions/search-engine.md) para buscar más información.

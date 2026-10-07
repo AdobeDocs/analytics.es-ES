@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # Implementación de Adobe Analytics
 
@@ -118,7 +118,7 @@ Para su **aplicación móvil**, están disponibles los siguientes métodos de im
 ## Artículos de implementación de Analytics clave
 
 * [Ocuparse de una implementación de Adobe Analytics existente](/help/implement/prepare/existing-implementation.md)
-* [Adobe Debugger](validate/debugger.md)
+* [Herramientas de depuración](validate/debugging-tools.md)
 * [Creación de una propiedad de etiquetas en Experience Platform](launch/create-analytics-property.md)
 * [Actualizaciones de AppMeasurement](appmeasurement-updates.md)
 * [Tutorial sobre la configuración de Adobe Analytics con Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=es)
@@ -127,7 +127,7 @@ Para su **aplicación móvil**, están disponibles los siguientes métodos de im
 
 ## Recursos clave de Analytics
 
-* [Póngase en contacto con el Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=Analytics?lang=es#support)
+* [Póngase en contacto con el Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Analytics?lang=es#support)
 * [Comunidad de Adobe Analytics en Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=es)
 * [Recursos de Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=es)
 * [Últimas notas de la versión](../release-notes/latest.md)

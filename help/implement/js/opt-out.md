@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # Implementación de Vínculos de no participación
 
@@ -71,9 +71,9 @@ La página de exclusión de su organización depende del valor de la variable [`
   1. En el servidor web, abra el archivo AppMeasurement.js que se utiliza en el sitio en un editor de código o texto.
   1. Tenga en cuenta el valor de la variable `trackingServer`.
 
-* Usando [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=es):
+* Usando [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/home):
   1. Vaya a su sitio mediante el explorador Chrome.
-  1. Abra CX Enterprise Debugger y vaya a la [!UICONTROL pestaña Red].
+  1. Abra Adobe Experience Platform Debugger y vaya a la [!UICONTROL pestaña Red].
   1. Tenga en cuenta el valor de [!UICONTROL Solicitar URL: Nombre de host].
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:

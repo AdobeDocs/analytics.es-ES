@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1441'
 ht-degree: 31%
 ---
 # Publicar segmentos {#publish-segments}
@@ -56,7 +56,7 @@ Puede publicar segmentos de Analytics en CX Enterprise en menos de 8 horas. Util
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar segmentos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -135,14 +135,14 @@ Para ver los segmentos publicados:
 
 Existen dos formas de registrar el UUID de Adobe Audience Manager asociado actualmente al explorador:
 
-* Adobe CX Enterprise Debugger
+* Adobe Experience Platform Debugger
 * Herramienta nativa para desarrolladores en navegadores (por ejemplo, Chrome Developer Tools)
 
 Las siguientes capturas de pantalla muestran cómo recuperar el UUID de Adobe Audience Manager en el explorador y utilizarlo en el visor de perfiles de visitantes de Audience Manager para validar la pertenencia de los rasgos y segmentos.
 
-### Método 1: Uso de Adobe CX Enterprise Debugger
+### Método 1: Uso de Adobe Experience Platform Debugger
 
-1. Descargue e instale [Adobe CX Enterprise Debugger](/help/implement/validate/debugger.md) en Chrome Web Store.
+1. Descargue e instale [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/home) en Chrome Web Store.
 1. Inicie Debugger al cargar una página.
 1. Desplácese hasta la sección Audience Manager y busque el UUID de Adobe Audience Manager definido en la página actual del navegador
 (`35721780439475290181087231320657663953` en el ejemplo siguiente)
@@ -153,14 +153,14 @@ Las siguientes capturas de pantalla muestran cómo recuperar el UUID de Adobe Au
 
 1. Iniciar Herramientas para desarrolladores Chrome antes de cargar una página
 1. Cargue la página y seleccione Aplicaciones > Cookies. El UUID de Adobe Audience Manager debe configurarse en el
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) en el ejemplo siguiente). El parámetro de campo es el conjunto UUID de Adobe Audience Manager
 en el explorador (`35721780439475290181087231320657663953` en el ejemplo siguiente).
 
    ![Herramientas para desarrolladores Chrome](assets/devtools.png)
 
 ## Uso del [!UICONTROL Visor de perfiles de visitantes] de Audience Manager
 
-El UUID de Adobe Audience Manager en el explorador se encuentra de forma predeterminada cuando se carga el [!UICONTROL Visor de perfiles de visitante]. Si verifica la realización de características para otros usuarios, escriba un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obtener más información.
+El UUID de Adobe Audience Manager en el explorador se encuentra de forma predeterminada cuando se carga el [!UICONTROL Visor de perfiles de visitante]. Si verifica la realización de características para otros usuarios, escriba un UUID en el campo UUID y haga clic en [!UICONTROL Actualizar]. Consulte [Visor de perfiles de visitantes](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) para obtener más información.
 
 ## Vea las características del segmento en Audience Manager
 
