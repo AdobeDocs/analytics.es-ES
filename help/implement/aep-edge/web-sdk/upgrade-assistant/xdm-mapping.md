@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # Asignación de XDM
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-El SDK web envía datos usando [campos del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), por lo que cada variable de Analytics que transfiera desde la [verificación del grupo de informes](rs-verification.md) necesita un campo coincidente en un esquema XDM. En este paso, elige un esquema y asigna las variables a sus campos.
+Web SDK envía datos mediante [modelos de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos, de modo que cada variable de Analytics que transfiera desde [preparación del asignador](mapper-prep.md) necesita un campo coincidente en un esquema XDM. En este paso, elige un esquema y asigna las variables a sus campos.
 
 ## Elección de un esquema {#schema}
 
@@ -69,7 +69,7 @@ Puede crear la asignación de una de las dos maneras siguientes:
 
 <!-- markdownlint-enable MD034 -->
 
-Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
+Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
 
 ## Revisión de la asignación {#review}
 

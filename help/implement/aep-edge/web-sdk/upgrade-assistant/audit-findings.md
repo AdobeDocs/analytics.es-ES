@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 2%
 ---
 # Conclusiones de auditoría
@@ -58,7 +58,7 @@ El asistente de actualización comprueba las reglas y los elementos de datos sel
 * Elementos de datos duplicados que se pueden consolidar.
 * Elementos de datos que pueden no usarse y que se pueden deshabilitar
 
-Este paso es opcional. Puede resolver todos los hallazgos que quiera o continuar directamente con la [verificación del grupo de informes](rs-verification.md).
+Este paso es opcional. Puede resolver todos los resultados que desee o continuar directamente con [Preparación del asignador](mapper-prep.md).
 
 ## Revisión de un resultado {#review}
 
