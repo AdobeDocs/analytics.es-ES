@@ -69,7 +69,7 @@ Puede crear la asignación de una de las dos maneras siguientes:
 
 <!-- markdownlint-enable MD034 -->
 
-Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
+Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
 
 ## Revisión de la asignación {#review}
 
