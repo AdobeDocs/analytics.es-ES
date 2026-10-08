@@ -19,15 +19,15 @@ role_v2:
 source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# Usar resultados en caché en proyectos de Workspace
+# Utilizar los resultados almacenados en caché en los proyectos de Workspace
 
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
->title="Usar resultados en caché para una carga más rápida"
->abstract="Cuando se habilita, los resultados se cargan instantáneamente durante 12 horas después de que un usuario abra un proyecto por primera vez o se envíe mediante una programación. Cualquiera que abra el proyecto durante ese tiempo verá los mismos resultados, aunque los datos sigan fluyendo en segundo plano. Para cargar los resultados más recientes, actualice paneles individuales o todo el proyecto."
+>title="Utilizar los resultados almacenados en caché para una carga más rápida"
+>abstract="Cuando se activa esta opción, los resultados se cargan instantáneamente durante doce horas después de que un usuario abra un proyecto por primera vez o se envíe mediante una programación. Cualquiera que abra el proyecto durante ese tiempo obtendrá los mismos resultados, aunque los datos sigan fluyendo en el fondo. Para cargar los resultados más recientes, actualice los paneles individuales o todo el proyecto."
 
 {{release-limited-testing}}
 
