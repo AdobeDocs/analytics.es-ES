@@ -7,27 +7,36 @@ exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '426'
 ht-degree: 16%
-
 ---
-
 # Solucionar problemas de recopilación de datos de Activity Map
 
 Si no ve datos para dimensiones de Activity Map, utilice esta página para determinar por qué.
@@ -36,7 +45,7 @@ Si no ve datos para dimensiones de Activity Map, utilice esta página para deter
 
 En primer lugar, asegúrese de que AppMeasurement recopila correctamente los datos de Activity Map.
 
-1. Descargue e instale la [extensión de Chrome para Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/home).
+1. Descargue e instale [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/home).
 2. Vaya a la página web y, a continuación, haga clic en un vínculo.
 3. Cuando se cargue la página siguiente, abra el depurador. Compruebe que ve variables de datos de contexto de Activity Map colocadas entre `activitymap.` y `.activitymap`:
 
@@ -47,8 +56,8 @@ Compruebe cada una de las siguientes opciones para asegurarse de que los compone
 * **Versión de AppMeasurement**: Activity Map es compatible con v1.6 y versiones posteriores. Muchos problemas de casos extremos se resuelven al actualizar a la última versión estable de AppMeasurement.
 * **módulo Activity Map**: Compruebe si el módulo `AppMeasurement_Module_Activity_Map` está presente en el archivo `AppMeasurement.js`. Si su implementación utiliza Adobe Experience Platform para recopilar datos, asegúrese de que la opción **[!UICONTROL Habilitar ClickMap]** esté seleccionada al configurar la extensión de Analytics en **[!UICONTROL Seguimiento de vínculos]**.
 * **La cookie `s_sq`**: Activity Map depende de la cookie `s_sq` para la recopilación de datos.
-   * Asegúrese de que la variable `cookieDomainPeriods` esté configurada correctamente, especialmente para dominios regionales como `*.co.uk` o `*.co.jp`.
-   * Asegúrese de que la variable `linkInternalFilters` esté configurada con los valores deseados. Si un vínculo en el que se hizo clic no coincide con los filtros internos, Activity Map lo considera un vínculo de salida y no recopila datos.
+  * Asegúrese de que la variable `cookieDomainPeriods` esté configurada correctamente, especialmente para dominios regionales como `*.co.uk` o `*.co.jp`.
+  * Asegúrese de que la variable `linkInternalFilters` esté configurada con los valores deseados. Si un vínculo en el que se hizo clic no coincide con los filtros internos, Activity Map lo considera un vínculo de salida y no recopila datos.
 * **Superposición de Activity Map en ejecución**: AppMeasurement no realiza el seguimiento de los datos de clics de la página web cuando la superposición de Activity Map está habilitada.
 
 Muestra los parámetros de explorador que no son compatibles con el uso de Activity Map. Adobe recomienda desactivar esta configuración.

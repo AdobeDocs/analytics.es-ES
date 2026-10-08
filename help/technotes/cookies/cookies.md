@@ -7,30 +7,42 @@ role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 2104
+source-wordcount: '2102'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics y cookies de explorador
 
 Este documento explica cómo las medidas de prevención del seguimiento de los exploradores principales afectan a las cookies de terceros y de origen configuradas por Adobe Analytics. Incluye información sobre el programa Intelligent Tracking Prevention (ITP) de Apple, así como las limitaciones de Chrome en las cookies de terceros a través del atributo SameSite.
@@ -72,7 +84,7 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
-* [cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ECID (Adobe Experience Cloud ID)
+* [&#x200B; cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del Servicio de ID de visitante (ECID) de Adobe
 * La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
 * La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
@@ -161,27 +173,27 @@ Adobe recomienda que los clientes midan el impacto dentro de su propia compañí
 
 * Mida el porcentaje de tráfico de los exploradores controlados por ITP:
 
-   1. Cree un segmento para ver cuántos visitantes utilizan una plataforma de ITP.
+  1. Cree un segmento para ver cuántos visitantes utilizan una plataforma de ITP.
 
-      >[!NOTE]
-      >
-      >Los exploradores específicos afectados por ITP dependen de si estaba utilizando una implementación CNAME. Consulte [Cronología de los cambios más importantes en la directiva de ITP](#ITP-timeline) para obtener más información.
+     >[!NOTE]
+     >
+     >Los exploradores específicos afectados por ITP dependen de si estaba utilizando una implementación CNAME. Consulte [Cronología de los cambios más importantes en la directiva de ITP](#ITP-timeline) para obtener más información.
 
-      ![Segmento para visitantes de ITP](/help/technotes/assets/itp-visitor-segment.png)
+     ![Segmento para visitantes de ITP](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. Aplique el segmento al número de visitas para comprender el uso relativo de Safari en su base de usuarios. Esto permite crear una tabla como esta:
+  2. Aplique el segmento al número de visitas para comprender el uso relativo de Safari en su base de usuarios. Esto permite crear una tabla como esta:
 
-      ![Porcentaje de visitas de visitantes de ITP](/help/technotes/assets/visits-vs-safari-visits.png)
+     ![Porcentaje de visitas de visitantes de ITP](/help/technotes/assets/visits-vs-safari-visits.png)
 
 * Mida el porcentaje de visitantes que utilizan exploradores que no son de Safari y que no regresan en un plazo de siete días. Si los visitantes regresan repetidamente en un plazo de siete días, es posible que el tráfico de Safari no se vea afectado de manera significativa.
 
-   1. Cree un segmento como el siguiente para el tráfico que no sea de Safari.
+  1. Cree un segmento como el siguiente para el tráfico que no sea de Safari.
 
-      ![Segmento para visitantes que regresan después de siete días](/help/technotes/assets/visits-after-seven-days.png)
+     ![Segmento para visitantes que regresan después de siete días](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. Aplique el segmento al número de visitas para comprender el uso relativo de Safari en su base de usuarios. Esto permite crear una tabla como esta:
+  2. Aplique el segmento al número de visitas para comprender el uso relativo de Safari en su base de usuarios. Esto permite crear una tabla como esta:
 
-      ![Porcentaje de visitantes que regresan después de siete días](/help/technotes/assets/percent-visits-after-seven-days.png)
+     ![Porcentaje de visitantes que regresan después de siete días](/help/technotes/assets/percent-visits-after-seven-days.png)
 
 ### Formas de ajustar los datos durante la creación de informes
 
@@ -197,4 +209,5 @@ Si su empresa se ve afectada por la prevención del seguimiento de ITP, puede co
 
 >[!MORELIKETHIS]
 >
->[Opciones para mitigar el efecto de las limitaciones de cookies del exploradorEl impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
+>[Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookieless.md)
+>[El impacto del nuevo marco de trabajo de transparencia de seguimiento de aplicaciones de Apple en Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=es)
