@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # Asignación de campos de objeto de datos a Adobe Analytics
 
 En la tabla siguiente se muestra el campo de objeto de datos que Adobe Experience Platform Edge Network asigna automáticamente a Adobe Analytics. Si utiliza estas rutas de campo de objetos de datos, no es necesaria ninguna configuración adicional para enviar datos a Adobe Analytics.
 
-Se recomienda utilizar estos campos si tiene intención de utilizar Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos a Adobe mediante SDK web sin ajustarse a un esquema XDM. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, puede usar [Asignación de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep#mapping) para apuntar los campos de objeto de datos a sus respectivos campos XDM.
+Se recomienda utilizar estos campos si tiene intención de pasar a Customer Journey Analytics en el futuro. Este método de implementación permite a su organización enviar datos a Adobe Analytics mediante Web SDK sin ajustarse a un esquema XDM. Estas asignaciones solo se aplican a Adobe Analytics. Cuando su organización esté lista para enviar datos a Adobe Experience Platform, utilice [Asignación de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/data-prep#mapping) para asignar campos de objeto de datos a los campos del esquema XDM.
 
 ## Prioridades de valor
 
@@ -47,7 +47,7 @@ Algunos campos de objeto de datos también admiten su [valor de parámetro de co
 
 ## Asignación de campo de objeto de datos
 
-Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.es-ES/commits/main/help/implement/aep-edge/data-var-mapping.md) de esta página. Al igual que las variables de AppMeasurement, todos los campos de objeto de datos distinguen entre mayúsculas y minúsculas.
+Las actualizaciones anteriores de esta tabla se encuentran en el [historial de confirmaciones en GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) de esta página. Al igual que las variables de AppMeasurement, todos los campos de objeto de datos distinguen entre mayúsculas y minúsculas.
 
 | Ruta del campo del objeto de datos | Descripción y variable de Analytics |
 | --- | --- |
