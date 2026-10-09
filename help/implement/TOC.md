@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 92%
+source-wordcount: '458'
+ht-degree: 93%
 ---
 
 # Guía de implementación de Adobe Analytics {#implementation}
@@ -148,7 +148,7 @@ ht-degree: 92%
       + [Administración de migraciones](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [Selección de componentes](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [Conclusiones de auditoría](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [Verificación del grupo de informes](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [Preparación del asignador](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [Asignación de XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [Implementación de Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Revisión final](aep-edge/web-sdk/upgrade-assistant/final-review.md)

@@ -1,5 +1,5 @@
 ---
-title: Verificación de grupos de informes en el asistente de actualización de Web SDK
+title: Preparación del asignador en el asistente de actualización de Web SDK
 description: Revise las variables de Analytics en los grupos de informes y elija las que desea transferir a la asignación XDM.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# Verificación del grupo de informes
+# Preparación del asignador
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Verificación del grupo de informes"
+>id="aa_upgradeassistant_mapperprep"
+>title="Preparación del asignador"
 >abstract="Revise las variables de Analytics que la propiedad de etiquetas envía a cada grupo de informes. Las variables que seleccione aquí se transfieren a la asignación XDM. Utilice las pestañas para comprobar si hay datos recientes, buscar variables duplicadas y comparar la configuración entre grupos de informes."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Si la propiedad de etiquetas envía datos a más de un grupo de informes, la fic
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Actualizar datos de grupos de informes"
 >abstract="Vuelve a comprobar los grupos de informes vinculados a esta propiedad de etiquetas, incluida su configuración de variables y los datos recientes, y vuelve a ejecutar el análisis de variables. Si el asistente de actualización aún no ha encontrado ningún grupo de informes, primero lo busca en la propiedad de etiquetas. Las selecciones y decisiones se mantienen."
 

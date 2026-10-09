@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # Asignación de XDM
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-El SDK web envía datos usando [campos del Modelo de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home), por lo que cada variable de Analytics que transfiera desde la [verificación del grupo de informes](rs-verification.md) necesita un campo coincidente en un esquema XDM. En este paso, elige un esquema y asigna las variables a sus campos.
+Web SDK envía datos mediante [modelos de datos de experiencia (XDM)](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) campos, de modo que cada variable de Analytics que transfiera desde [preparación del asignador](mapper-prep.md) necesita un campo coincidente en un esquema XDM. En este paso, elige un esquema y asigna las variables a sus campos.
 
 ## Elección de un esquema {#schema}
 
