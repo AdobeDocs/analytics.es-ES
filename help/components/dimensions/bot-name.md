@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # Nombre de bot
@@ -45,7 +45,6 @@ Las visitas que coinciden con [!UICONTROL reglas de bots] se filtran automática
 Dado que los informes de bots están separados del resto de los datos del grupo de informes, solo se admiten las siguientes dimensiones y métricas con esta dimensión:
 
 * [Página](page.md)
-* [Producto](product.md) (solo con [ocurrencias de productos Bot](../metrics/bot-product-occurrences.md))
 * Dimensiones basadas en el tiempo (por ejemplo, [Día](day.md), [Semana](week.md) o [Mes](month.md))
 * [Ocurrencias de bots](../metrics/bot-occurrences.md)
 * [Vistas de páginas de bots](../metrics/bot-page-views.md)
