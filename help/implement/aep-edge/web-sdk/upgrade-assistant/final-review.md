@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # Revisión final
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="Revisión final"
->abstract="Seleccione la zona protegida de Experience Platform que desea utilizar y, a continuación, revise todo lo que esta migración crea o cambia. Nada cambia hasta que finalice la migración. Cuando lo finaliza, el asistente de actualización crea todo a la vez, agrega los cambios de las etiquetas a una nueva biblioteca y hace que esta migración sea de solo lectura. A continuación, publique esa biblioteca en producción usted mismo."
+>abstract="Seleccione la zona protegida de Experience Platform que desea utilizar y, a continuación, revise todo lo que esta migración crea o cambia. Nada cambia hasta que finalice la migración. Cuando la finalice, el asistente de actualización creará todo a la vez, añadirá los cambios de las etiquetas a una nueva biblioteca y hará que esta migración sea de solo lectura. A continuación, publique esa biblioteca en producción usted mismo."
 
 <!-- markdownlint-enable MD034 -->
 

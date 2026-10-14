@@ -38,25 +38,25 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
-# Administración de migraciones
+# Administrar migraciones
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="Migraciones"
->abstract="Cada migración actualiza la implementación de Adobe Analytics en una propiedad de etiquetas a Web SDK. Abra una migración para continuar donde lo dejó o seleccione &quot;Nuevo&quot; para iniciar una."
+>abstract="Cada migración actualiza la implementación de Adobe Analytics en una propiedad de etiquetas a SDK web. Abra una migración para continuar donde lo dejó o seleccione “Nuevo” para iniciar una."
 
 La página **[!UICONTROL Migraciones]** es el punto de partida para el asistente de actualización de Web SDK. Enumera las migraciones de su organización, incluido el progreso de cada migración, su estado y quién las creó. Utilice esta página para crear una migración o para abrir una existente.
 
-## Creación de una migración {#create}
+## Crear una migración {#create}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="Nueva migración"
->abstract="Seleccione la propiedad de etiquetas que desee migrar y una biblioteca en esa propiedad. El asistente de actualización toma una instantánea de la biblioteca cuando crea la migración. No se incluyen los cambios realizados en la biblioteca después de una instantánea de migración. La propiedad de etiquetas no cambia hasta que finaliza la migración."
+>abstract="Seleccione la propiedad de etiquetas que desee migrar y una biblioteca en esa propiedad. El asistente de actualización hace una instantánea de la biblioteca cuando crea la migración. No se incluyen los cambios realizados en la biblioteca después de una instantánea de migración. Su propiedad de etiquetas no cambia hasta que finalice la migración."
 
 <!-- markdownlint-enable MD034 -->
 

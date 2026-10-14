@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
-# Asignación de XDM
+# Asignación XDM
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
->title="Asignación de XDM"
->abstract="Asigne las variables de Analytics seleccionadas a los campos de un esquema XDM. El asistente de actualización puede crear un nuevo esquema con asignaciones sugeridas por IA o puede asignar variables a un esquema que ya tenga. Revise todas las asignaciones antes de continuar."
+>title="Asignación XDM"
+>abstract="Asigne las variables de Analytics seleccionadas a los campos de un esquema XDM. El asistente de actualización puede crear un nuevo esquema con asignaciones sugeridas por IA, o puede usted asignar variables a un esquema que ya tenga. Revise todas las asignaciones antes de continuar."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -69,7 +69,7 @@ Puede crear la asignación de una de las dos maneras siguientes:
 
 <!-- markdownlint-enable MD034 -->
 
-Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
+Al crear un nuevo esquema, también puede elegir si el asistente de actualización prefiere los grupos de campos estándar o personalizados. Los grupos de campos estándar los define Adobe, mientras que los grupos de campos personalizados los define su organización. Consulte [Grupo de campos](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) en la documentación de XDM.
 
 ## Revisión de la asignación {#review}
 

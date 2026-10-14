@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
 # Selección de componentes
 
@@ -64,12 +64,12 @@ Los componentes que seleccione determinan qué pasos posteriores funcionan con. 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
 >title="Uso de etiquetas"
->abstract="Reglas, elementos de datos y extensiones que utilizan este componente. El uso de extensiones solo abarca los ajustes de configuración de extensión. El uso dentro de una regla aparece en Uso de reglas."
+>abstract="Las reglas, los elementos de datos y las extensiones que utilizan este componente. El uso de extensiones solo abarca los ajustes de configuración de la extensión. El uso dentro de una regla aparece en Uso de reglas."
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
 >title="Uso de Analytics"
->abstract="Las variables Adobe Analytics a las que está asignado este componente, agrupadas por tipo de variable."
+>abstract="Las variables de Adobe Analytics a las que está asignado este componente, agrupadas por tipo de variable."
 
 <!-- markdownlint-enable MD034 -->
 
