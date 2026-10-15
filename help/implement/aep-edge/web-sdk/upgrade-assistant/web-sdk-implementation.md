@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Implementación de Web SDK
+# Implementación de SDK web
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Implementación de Web SDK"
->abstract="Revise las acciones de Web SDK que el asistente de actualización añade a las reglas. Las acciones de Adobe Analytics se mantienen en su lugar. Seleccione un componente para comparar sus configuraciones actuales y de Web SDK en paralelo. A la migración solo se agregan los componentes en cola."
+>title="Implementación de SDK web"
+>abstract="Revise las acciones de SDK web que el asistente de actualización añade a las reglas. Las acciones de Adobe Analytics se mantienen en su lugar. Seleccione un componente para comparar sus configuraciones actuales y de SDK web en paralelo. A la migración solo se añadirán los componentes que ponga en cola."
 
 <!-- markdownlint-enable MD034 -->
 
