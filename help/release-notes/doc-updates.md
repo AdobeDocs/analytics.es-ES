@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7621'
 ht-degree: 90%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
@@ -76,6 +76,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2026** | |
+| Recopilación de datos a través de una CDN | Se agregó [recopilación de datos de ruta a través de una CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) a la interfaz de CX Enterprise y a la guía de administración. |
 | Métrica Ocurrencias de productos de bots | Se ha agregado la métrica [Ocurrencias de productos de bots](/help/components/metrics/bot-product-occurrences.md), que muestra el número de subvisitas de cadenas de productos que coinciden con las reglas de bots. <p>También se han actualizado la dimensión [Nombre de bot](/help/components/dimensions/bot-name.md) y la métrica [Ocurrencias de bots](/help/components/metrics/bot-occurrences.md) para hacer referencia a la nueva métrica.</p> |
 | **Septiembre de 2026** | |
 | Comparación de lienzo de recorrido en flechas y visitas en orden previsto | Se ha actualizado la opción &#39;[!UICONTROL Comparar con]&#39; en [Configurar una visualización de lienzo de Recorrido](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) para mostrar que el cambio porcentual entre intervalos de fechas ahora se muestra en cada nodo, flecha y visita en orden previsto del recorrido. |
