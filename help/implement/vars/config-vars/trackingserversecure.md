@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 El valor que use para `trackingServerSecure` (o `edgeDomain`) depende de cómo su organización envíe los datos a Adobe:
 
-* **Si su organización utiliza un dominio de origen**, como a través del [programa de certificados administrado por Adobe](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificado administrado por el cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) o una [red de distribución de contenido (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), establezca el valor en ese dominio. Por ejemplo, `data.example.com`.
+* **Si su organización utiliza un dominio de origen**, como a través del [programa de certificados administrado por Adobe](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificado administrado por el cliente](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/customer-managed-cert) o una [red de distribución de contenido (CDN)](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cdn), establezca el valor en ese dominio. Por ejemplo, `data.example.com`.
 * **Si su organización utiliza un dominio de terceros**, establezca el valor en el subdominio de ID de inquilino de `data.adobedc.net`. Por ejemplo, `example.data.adobedc.net`.
 
-Consulte [Elegir un dominio de recopilación de datos](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) en la interfaz de CX Enterprise y la guía de administración para obtener detalles sobre cada opción, incluido cómo encontrar el ID de inquilino.
+Consulte [Elegir un dominio de recopilación de datos](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/collection-domain) en la interfaz de CX Enterprise y la guía de administración para obtener detalles sobre cada opción, incluido cómo encontrar el ID de inquilino.
 
 Adobe recomienda encarecidamente mantener esta información en [documento de diseño de la solución](../../prepare/solution-design.md) para mantener la coherencia en toda su organización.
 
