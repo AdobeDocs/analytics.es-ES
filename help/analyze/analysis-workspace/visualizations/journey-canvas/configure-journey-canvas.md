@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;versión de este artículo._
+_Este artículo documenta la visualización del lienzo de Recorrido en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Consulte [Configuración de una visualización del lienzo de Recorrido](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) para la _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**versión de este artículo._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Consulte [Información general sobre el lienzo de recorrido](/help/analyze/analy
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="Comparar porcentajes"
->abstract="Compara el cambio porcentual en cada nodo, flecha y visita en orden previsto del recorrido entre el intervalo de fechas actual y el seleccionado, según la métrica principal. Cuando esta opción está desactivada, se muestra el porcentaje de valor sin procesar en lugar del cambio porcentual."
+>abstract="Compara el cambio porcentual en cada nodo, flecha y abandono del recorrido entre el intervalo de fechas actual y el intervalo de fechas de comparación seleccionado, en función de la métrica principal. Cuando esta opción está desactivada, se muestra el porcentaje de valor sin procesar en lugar del cambio porcentual."
 
 <!-- markdownlint-enable MD034 -->
 
