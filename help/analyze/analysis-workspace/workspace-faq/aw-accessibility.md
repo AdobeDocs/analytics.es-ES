@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 61%
 ---
 # Accesibilidad en Analysis Workspace
 
@@ -79,6 +79,47 @@ La navegación en [!UICONTROL Analysis Workspace] funciona desde arriba a abajo 
 1. Pulsa **[!UICONTROL Intro]** para seleccionar.
 1. Utilice las teclas de flecha para desplazarse hasta el área en la que desea soltar el componente.
 1. Pulsa **[!UICONTROL Intro]** para colocar el componente.
+
+### Navegación por teclado para columnas de tabla {#table-columns}
+
+Puede cambiar el tamaño y reorganizar las columnas de la tabla con el teclado. Las mismas claves funcionan en macOS y Windows.
+
+#### Redimensionar columnas {#resize-columns}
+
+Puede cambiar el tamaño de las columnas en tablas improvisadas y tablas de cohorte mediante el separador de tamaño de columna, que es el límite entre dos encabezados de columna.
+
+1. Presione **[!UICONTROL Tab]** hasta que el separador de cambio de tamaño de columna esté seleccionado.
+
+   Instrucciones para cambiar el tamaño de la pantalla mientras el separador está seleccionado. Los lectores de pantalla anuncian estas instrucciones y el ancho actual de la columna como porcentaje.
+
+1. Utilice las siguientes claves para cambiar el tamaño de la columna. No se puede cambiar el tamaño de una columna más allá de su anchura mínima o máxima.
+
+   | Clave | Acción |
+   | --- | --- |
+   | **[!UICONTROL Flecha izquierda]** | Reduzca la columna a la izquierda del separador en 10 píxeles. |
+   | **[!UICONTROL Flecha derecha]** | Amplíe la columna a la izquierda del separador en 10 píxeles. |
+   | **[!UICONTROL Entrar]** | Restablezca el ancho de la columna. |
+
+#### Reorganizar columnas {#rearrange-columns}
+
+En una tabla de forma libre que puede editar, puede mover una columna a la izquierda o a la derecha mediante el menú **[!UICONTROL Reorganizar]** del encabezado de la columna.
+
+1. Presione **[!UICONTROL Tab]** hasta que el botón **[!UICONTROL Reorganizar]** del encabezado de la columna esté seleccionado.
+1. Presione **[!UICONTROL Intro]**, **[!UICONTROL Espacio]** o **[!UICONTROL Flecha abajo]** para abrir el menú.
+1. Seleccione **[!UICONTROL Mover columna a la izquierda]** o **[!UICONTROL Mover columna a la derecha]**.
+
+   Para cerrar el menú sin mover la columna, presione **[!UICONTROL Esc]**. El enfoque vuelve al botón **[!UICONTROL Reorganizar]**.
+
+   Después de mover una columna, los lectores de pantalla anuncian su nombre y su nueva posición dentro del grupo.
+
+Tenga en cuenta lo siguiente al reorganizar columnas con el teclado:
+
+* Una columna solo se mueve dentro de su grupo de columnas del mismo nivel, que son las columnas del mismo nivel bajo el mismo encabezado principal. No puede utilizar el teclado para mover una columna a un grupo diferente o para copiar una columna.
+* Al mover un encabezado principal, sus columnas y filtros anidados se mueven con él.
+* **[!UICONTROL Mover columna a la izquierda]** está deshabilitado para la primera columna de un grupo. **[!UICONTROL Mover columna a la derecha]** está deshabilitado para la última columna de un grupo.
+* El botón **[!UICONTROL Reorganizar]** solo está disponible para columnas que también puede reorganizar arrastrando. No está disponible para:
+  * Tablas de solo lectura o tablas con interacciones deshabilitadas.
+  * Columnas de fecha en tablas de cohorte.
 
 ### Métodos abreviados de teclado (teclas de acceso directo)
 

@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7653'
 ht-degree: 90%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
@@ -76,6 +76,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | Función | Descripción |
 | --- | --- |
 | **Octubre de 2026** | |
+| Navegación por teclado para columnas de tabla | Se ha documentado cómo [cambiar el tamaño](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) y [reorganizar](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) columnas de tabla en Analysis Workspace mediante el teclado, incluidos los comentarios de los lectores de pantalla. También se agregó una sección [Acciones de columna de tabla](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) a las teclas de acceso directo. |
 | Recopilación de datos a través de una CDN | Se agregó [recopilación de datos de ruta a través de una CDN](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cdn) a la interfaz de CX Enterprise y a la guía de administración. |
 | Métrica Ocurrencias de productos de bots | Se ha agregado la métrica [Ocurrencias de productos de bots](/help/components/metrics/bot-product-occurrences.md), que muestra el número de subvisitas de cadenas de productos que coinciden con las reglas de bots. <p>También se han actualizado la dimensión [Nombre de bot](/help/components/dimensions/bot-name.md) y la métrica [Ocurrencias de bots](/help/components/metrics/bot-occurrences.md) para hacer referencia a la nueva métrica.</p> |
 | **Septiembre de 2026** | |

@@ -8,27 +8,36 @@ exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '527'
+ht-degree: 72%
 ---
-
 # Teclas de acceso directo
 
 Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
@@ -102,6 +111,10 @@ Ten en cuenta que en el teclado se pueden utilizar los siguientes símbolos:
 | Redimensionar más corto | **[!UICONTROL *cmd + opt + mayús + up *]** | **[!UICONTROL *ctrl+alt+mayús+up *]** |
 
 El ancho cambia de tamaño en pasos de una columna de cuadrícula y el alto cambia de tamaño en pasos de una celda de cuadrícula (aproximadamente 25 píxeles).
+
+## Acciones de columna de tabla
+
+Puede cambiar el tamaño y reorganizar las columnas de la tabla con el teclado. Estas acciones no son métodos abreviados de teclado globales. Están disponibles cuando está seleccionado un separador de tamaño de columna o el botón **[!UICONTROL Reorganizar]** del encabezado de columna. Consulte [Navegación por teclado para columnas de tabla](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns).
 
 ## Acciones de democratización
 
