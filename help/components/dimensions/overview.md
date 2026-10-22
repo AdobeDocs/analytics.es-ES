@@ -26,10 +26,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 37%
+source-wordcount: '418'
+ht-degree: 38%
 ---
 # Información general de dimensiones
 
@@ -58,10 +58,9 @@ Se retiran las siguientes dimensiones. La mayoría eran informes de Reports &amp
 * **Jerarquía**: Una dimensión personalizada (`hier1`-`hier5`) que se usa para capturar la estructura jerárquica de un sitio para los informes. Se ha retirado y no está disponible en Analysis Workspace. En su lugar, use [eVars](evar.md) y clasificaciones.
 * **Página principal**: Un indicador que indica si la página actual era la página principal del explorador del visitante. Es una dimensión heredada sin equivalente moderno debido a las prácticas modernas de privacidad del explorador.
 * **Compatibilidad con JavaScript**: Indica si el explorador del visitante admite JavaScript. Dimensión heredada que ya no es significativa para la medición moderna.
-* **Versión de JavaScript**: Se informó de la versión de JavaScript que admitía el explorador del visitante. Una dimensión heredada que ya no se recopila.
 * **Página siguiente**: Una dimensión de rutas que muestra la página siguiente que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
 * **Página anterior**: Una dimensión de rutas que muestra la página anterior que vio un visitante. Utilice la [visualización de flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) en Analysis Workspace para las dimensiones de rutas actuales.
-* **Zona horaria**: La zona horaria del visitante, derivada del desplazamiento de la marca de tiempo en las solicitudes de imagen de AppMeasurement. Web SDK recopila la zona horaria mediante [`placeContext`](https://experienceleague.adobe.com/es/docs/experience-platform/collection/js/commands/configure/context).
+* **Zona horaria**: La zona horaria del visitante, derivada del desplazamiento de la marca de tiempo en las solicitudes de imagen de AppMeasurement. Web SDK recopila la zona horaria mediante [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Dominio de nivel superior**: Dominio de nivel superior del punto de acceso del visitante. Un informe heredado de Reports &amp; Analytics; use la dimensión [Dominio](domain.md) en su lugar.
 * **Número de página de visita**: El número de página dentro de una visita. Un informe heredado de Reports &amp; Analytics; use la dimensión [Profundidad de visita](hit-depth.md) en su lugar.
 * **Estado del visitante**: Informó del estado de EE. UU. desde la variable `s.state`. Se sustituye por la dimensión [Estados de EE. UU.](us-states.md), que utiliza la segmentación geográfica.
