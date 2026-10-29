@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 72%
+source-wordcount: '2128'
+ht-degree: 70%
 ---
 # Generar segmentos
 
@@ -68,7 +68,7 @@ El cuadro de diálogo **[!UICONTROL Generador de segmentos]** se usa para crear 
    | **[!UICONTROL Grupo de informes]** | Puede seleccionar el grupo de informes para el segmento. |
    | **[!UICONTROL Segmento solo de proyecto]** | Un cuadro de información para explicar que el segmento solo es visible en el proyecto en el que se crea. Y que el segmento no se añada a la lista de componentes. Habilite **[!UICONTROL Poner este segmento a disposición de todos los proyectos y añadirlo a la lista de componentes]** para cambiar esa configuración. Este cuadro de información solo es visible cuando crea un [segmento rápido](seg-quick.md) y convierte su información en un segmento normal mediante la opción **[!UICONTROL Abrir generador]** de la interfaz de [!UICONTROL Segmento rápido]. |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne un nombre al segmento como, por ejemplo, `Last month mobile visitors`. |
-   | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`. |
+   | **[!UICONTROL Descripción]** | <p>Proporcione una descripción para el segmento, por ejemplo, `Segment to define the mobile customers for the last month`.</p><p>Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Esta opción no estará disponible hasta que cree la definición del segmento.</p><p>Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]**, y puede editarlo una vez generadas. Para obtener más información, vea [Generar descripciones automáticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Etiquetas]** | Organice el segmento creando o aplicando una o varias etiquetas. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
    | **[!UICONTROL Definición]** ![requerida](/help/assets/icons/Required.svg) | Defina su segmento con el [Generador de definiciones](#definition-builder). |
 

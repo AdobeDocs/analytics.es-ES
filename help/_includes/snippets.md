@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3238'
 ht-degree: 93%
-
 ---
 # Fragmentos
 
@@ -190,7 +189,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 | Otros filtros | Descripción |
 |---|---|
-| ![Otros filtros](/help/assets/filter-other.png){width="300"} | La sección **[!UICONTROL Otros filtros]** le permite filtrar otros filtros predefinidos.<ul><li>Puede seleccionar una o varias de las siguientes opciones:<ul><li> **[!UICONTROL Mostrar todo]**</li><li>**[!UICONTROL Compartidos conmigo]**</li><li>**[!UICONTROL Míos]**</li><li>**[!UICONTROL Aprobado]**</li><li>**[!UICONTROL Favoritos]**</li></ul> Lo que puede seleccionar depende de la función y los permisos.</li><li>Puede seleccionar más de un otro filtro. Los otros filtros disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de otros filtros seleccionados (si se seleccionan uno o más filtros).</li><li>**5︎⃣**: el número de otros filtros disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de proyectos asociados al otro filtro específico.</li></ul></li></ul> |
+| ![Otros filtros](/help/assets/filter-other.png){width="300"} | La sección **[!UICONTROL Otros filtros]** le permite filtrar otros filtros predefinidos.<ul><li>Puede seleccionar una o varias de las siguientes opciones:<ul><li> **[!UICONTROL Mostrar todo]**</li><li>**[!UICONTROL Compartidos conmigo]**</li><li>**[!UICONTROL Míos]**</li><li>**[!UICONTROL Aprobado]**</li><li>**[!UICONTROL Favoritos]**</li><li>**[!UICONTROL Falta la descripción]**</li></ul> Lo que puede seleccionar depende de la función y los permisos.</li><li>Puede seleccionar más de un otro filtro. Los otros filtros disponibles dependen de las selecciones realizadas en otras secciones del panel de filtros.</li><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de otros filtros seleccionados (si se seleccionan uno o más filtros).</li><li>**5︎⃣**: el número de otros filtros disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de proyectos asociados al otro filtro específico.</li></ul></li></ul> |
 
 ## Sección de filtro Intervalo de fecha  {#daterangefiltersection}
 

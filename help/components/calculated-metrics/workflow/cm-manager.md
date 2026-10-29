@@ -22,13 +22,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 32%
-
+source-wordcount: '969'
+ht-degree: 30%
 ---
-
 # Administrar métricas calculadas
 
 Puede compartir, filtrar, etiquetar, aprobar, cambiar el nombre, copiar, eliminar, exportar métricas calculadas y marcar las métricas calculadas como favoritas desde una interfaz de administración central de [!UICONTROL Métricas calculadas]. Para administrar métricas calculadas:
@@ -55,7 +53,7 @@ La lista de métricas calculadas ➊ muestra todas las métricas calculadas que 
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleccione para favorecer a ![Estrella](/help/assets/icons/Star.svg) o dejar de favorecer a ![EsquemaDeEstrella](/help/assets/icons/StarOutline.svg) en una métrica calculada. Ver [Marcar métrica calculada como favorita](cm-favorite.md) |
 | **[!UICONTROL Título y descripción]** | Para editar la métrica calculada, seleccione el vínculo del título, que abre el [Creador de métricas calculadas](c-build-metrics/cm-build-metrics.md). Se indica una métrica calculada compartida con ![Compartir](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Grupo de informes]** | Los grupos de informes a los que se aplica esta métrica calculada. |
-| **[!UICONTROL Propietario]** | Propietario de la métrica calculada. Si no eres el administrador, solo podrás ver las anotaciones que te pertenecen o que se han compartido contigo. |
+| **[!UICONTROL Propietario]** | Propietario de la métrica calculada. Como usuario, solo podrás ver las anotaciones que te pertenecen o que se han compartido contigo. |
 | **[!UICONTROL Etiquetas]** | Enumera las etiquetas de esta métrica calculada. |
 | **[!UICONTROL Compartido con]** | Indica cuántos individuos o grupos han compartido la métrica calculada con. Seleccione para abrir el cuadro de diálogo **[!UICONTROL Compartir métrica calculada]**. Consulte [Compartir métricas calculadas](cm-sharing.md) para obtener más información. |
 | **[!UICONTROL Fecha de modificación]** | La fecha y la hora de la última modificación de la métrica calculada. |
@@ -80,6 +78,7 @@ Puede realizar acciones en los filtros mediante la barra de acciones ➋. La bar
 | ![Editar](/help/assets/icons/Edit.svg) | **[!UICONTROL Cambiar el nombre]** | Cambiar el nombre de una única métrica calculada seleccionada. Cuando se selecciona, puede cambiar el nombre de la métrica calculada en línea. |
 | ![Círculo de verificación](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Aprobar]** | Aprobar las métricas calculadas seleccionadas. Ver [Aprobar métricas calculadas](cm-approving.md). |
 | ![Copiar](/help/assets/icons/Copy.svg) | **[!UICONTROL Copiar]** | Copie las métricas calculadas seleccionadas. Las nuevas métricas calculadas se crean con el mismo nombre y sufijo `(Copy)` |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Generar descripciones]** | <p>Generar descripciones para las métricas calculadas seleccionadas y reemplazar las descripciones existentes.</p><p>Para evitar sobrescribir las descripciones existentes, primero [filtre](#filter-panel) la lista para mostrar solo las métricas calculadas sin una descripción (en el filtro, en [!UICONTROL **Otros filtros**], seleccione [!UICONTROL **Falta la descripción**]).</p><p>Se le pedirá una confirmación. Las solicitudes grandes se ejecutan en segundo plano y recibe una notificación cuando se completan.</p><p>Consulte [Generar descripciones automáticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) para obtener más información.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exportar a CSV]** | Exportar las métricas calculadas a un archivo de `Calculated  metric List.csv`. |
 
 ### Barra de filtro activa
