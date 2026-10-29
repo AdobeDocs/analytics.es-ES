@@ -44,7 +44,7 @@ Para ver los pasos y las herramientas que se aplican a toda la recopilación de 
 | --- | --- | --- |
 | AppMeasurement o la extensión de etiquetas de Analytics | Solicitudes del explorador directamente a los servidores de recopilación de datos de Analytics | [AppMeasurement](#appmeasurement) |
 | SDK web | Seguimiento de Edge, después de que Edge Network convierta su evento en una visita de Analytics | [SDK web &#x200B;](#web-sdk) |
-| SDK móvil | La vista Eventos de Analytics en Assurance. Si usa la extensión Edge Network o Edge Bridge, active la **[!UICONTROL Vista de Analytics Edge]**. | [Vista de eventos de Adobe Analytics en Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| SDK móvil | La vista Eventos de Analytics en Assurance. Si usa la extensión Edge Network o Edge Bridge, active la **[!UICONTROL Vista de Analytics Edge]**. | [Vista de eventos de Adobe Analytics en Assurance](https://experienceleague.adobe.com/es/docs/experience-platform/assurance/view/adobe-analytics) |
 | API de inserción de datos | Las solicitudes salientes del servidor y sus respuestas | [Solucionar problemas de solicitudes de API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement y la extensión de Analytics {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement envía solicitudes de vínculo de salida, y todas las solicitudes
 
 Con Web SDK, el explorador envía eventos a Edge Network en lugar de directamente a Analytics, por lo que no ve una solicitud `/b/ss/`. [Inspeccione la solicitud de Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) y confirme lo siguiente:
 
-* El parámetro `configId` coincide con un conjunto de datos que tiene habilitado el servicio [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics) con los grupos de informes que espera.
+* El parámetro `configId` coincide con un conjunto de datos que tiene habilitado el servicio [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#analytics) con los grupos de informes que espera.
 * La carga útil se califica como una vista de página o un evento de vínculo. Analytics ignora las cargas útiles que no contienen detalles de página ni un tipo de interacción web. Ver [tipos de eventos de Edge Network en Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Comprobación de lo que Analytics ha recibido {#web-sdk-contents}
