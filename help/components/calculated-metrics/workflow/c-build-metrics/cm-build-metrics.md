@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 99%
+source-wordcount: '1543'
+ht-degree: 94%
 ---
 # Crear métricas calculadas {#build-metrics}
 
@@ -58,7 +58,7 @@ El cuadro de diálogo **[!UICONTROL Generador de métricas calculadas]** se usa 
    | **[!UICONTROL Grupo de informes]** | Puede seleccionar el grupo de informes para la métrica calculada.  La métrica calculada que defina estará disponible en los proyectos de Workspace en función del grupo de informes seleccionado. |
    | **[!UICONTROL Métrica solo de proyecto]** | Aparece un cuadro de información en la parte superior de este cuadro de diálogo cuando edita una métrica calculada que se creó para un solo proyecto, como se describe en [Crear métricas calculadas para un solo proyecto](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). <p>Si desea que esta métrica calculada esté disponible para todos los proyectos, seleccione la opción **[!UICONTROL Poner esta métrica a disposición de todos los proyectos y agregarla a la lista de componentes]**.</p> |
    | **[!UICONTROL Título]** ![Requerido](/help/assets/icons/Required.svg) | Asigne una métrica calculada, como por ejemplo `Conversion Rate`. |
-   | **[!UICONTROL Descripción]** | Proporcione una descripción para el segmento, por ejemplo, `Calculated metric to define the conversion rate.`. No es necesario describir la fórmula para la métrica calculada, dado que la fórmula ya está disponible automáticamente en [!UICONTROL Resumen]. |
+   | **[!UICONTROL Descripción]** | <p>Proporcione una descripción para la métrica calculada, por ejemplo, `Calculated metric to define the conversion rate.`. No es necesario describir la fórmula para la métrica calculada, ya que la fórmula ya está disponible automáticamente en [!UICONTROL Resumen].</p><p>Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Esta opción no estará disponible hasta que cree la definición de métrica calculada.</p><p>Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]**, y puede editarlo una vez generadas. Para obtener más información, vea [Generar descripciones automáticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Formato]** | Seleccione un formato para la métrica calculada: puede elegir entre **[!UICONTROL Decimal]**, **[!UICONTROL Hora]**, **[!UICONTROL Porcentaje]** y **[!UICONTROL Moneda]**. |
    | **[!UICONTROL Cifras decimales]** | Especifique el número de decimales para el formato seleccionado. Solo se habilita cuando el formato seleccionado es Decimal, Moneda y Porcentaje. |
    | **[!UICONTROL Mostrar tend ascendente como]** | Especifique si una tendencia al alza de la métrica calculada se muestra como ▲ **[!UICONTROL Buena (verde)]** o como ▼ **[!UICONTROL Mala (rojo)]**. |

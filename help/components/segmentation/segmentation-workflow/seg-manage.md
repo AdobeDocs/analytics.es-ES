@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '632'
 ht-degree: 16%
 ---
 # Administración de segmentos
@@ -79,6 +79,7 @@ Puede realizar acciones en los segmentos mediante la barra de acciones ➋. La b
 | ![Editar](/help/assets/icons/Edit.svg) **[!UICONTROL Cambiar nombre]** | Cambiar el nombre de un solo segmento seleccionado. Cuando se selecciona, puede cambiar el nombre del segmento en línea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Aprobar]** | Apruebe los segmentos seleccionados. Consulte [Aprobar segmentos](seg-approve.md) para obtener más información. |
 | ![Copiar](/help/assets/icons/Copy.svg)  **[!UICONTROL Copiar]** | Copie el segmento seleccionado. Los segmentos nuevos se crean con el mismo nombre y sufijo `(Copy)`. |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL Generar descripciones]** | <p>Genere descripciones para los segmentos seleccionados y sustituya las descripciones existentes.</p><p>Para evitar sobrescribir las descripciones existentes, primero [filtre](#filter-panel) la lista para mostrar solo los segmentos sin descripción (en el filtro, en [!UICONTROL **Otros filtros**], seleccione [!UICONTROL **Falta la descripción**]).</p><p>Se le pedirá una confirmación. Las solicitudes grandes se ejecutan en segundo plano y recibe una notificación cuando se completan.</p><p>Consulte [Generar descripciones automáticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions) para obtener más información.</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exportar a CSV]** | Exportar los segmentos a un archivo de `Segments List.csv`. |
 
 ### Barra de filtro activa
@@ -156,6 +157,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=es) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

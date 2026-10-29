@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 94%
+source-wordcount: '589'
+ht-degree: 87%
 ---
 # Crear intervalos de fechas
 
@@ -68,6 +68,11 @@ El cuadro de diálogo **[!UICONTROL Nuevo intervalo de fechas]** o **[!UICONTROL
 
 1. Especifique un **[!UICONTROL Título]** para este intervalo de fechas. Por ejemplo, **[!UICONTROL Trimestral]**.
 1. Opcionalmente, especifique una **[!UICONTROL Descripción]**.
+
+   Para que Adobe genere una descripción, seleccione **[!UICONTROL Generar descripción]**. Esta opción no estará disponible hasta que cree la definición del intervalo de fechas.
+
+   Las descripciones generadas incluyen el texto **[!UICONTROL Generado por Adobe mediante IA]**, y puede editarlo una vez generadas. Para obtener más información, vea [Generar descripciones automáticamente](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).
+
 1. Organice el segmento creando o aplicando una o más **[!UICONTROL Etiquetas]**. Empiece a escribir para buscar las etiquetas existentes que puede seleccionar. O pulse **[!UICONTROL Entrar]** para añadir una etiqueta nueva. Selecciona ![CrossSize75](/help/assets/icons/CrossSize75.svg) para quitar una etiqueta. |
 1. Seleccione un **[!UICONTROL Intervalo de fechas]** seleccionando primero la fecha de inicio y, a continuación, la fecha de finalización.
 También puede seleccionar un **[!UICONTROL ajuste preestablecido]** en el menú desplegable [!UICONTROL *Seleccionar un ajuste preestablecido*].
