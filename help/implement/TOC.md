@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: Aprenda formas de implementar Adobe Analytics. Personalice qué se recopila para aprovechar al máximo los datos de Analytics.
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Guía de implementación de Adobe Analytics {#implementation}
@@ -145,12 +145,12 @@ ht-degree: 93%
     + [Información general del SDK web](aep-edge/web-sdk/overview.md)
     + Asistente de actualización {#upgrade-assistant}
       + [Información general del asistente de actualización](aep-edge/web-sdk/upgrade-assistant/overview.md)
-      + [Administración de migraciones](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [Administrar migraciones](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [Selección de componentes](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
-      + [Conclusiones de auditoría](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [Resultados de la auditoría](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
       + [Preparación del asignador](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
-      + [Asignación de XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [Implementación de Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Asignación XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Implementación de SDK web](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Revisión final](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migración al SDK web mediante etiquetas](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migración al SDK web mediante JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [Uso de AppMeasurement con iFrames](use-cases/iframe.md)
   + [Flujo de trabajo de seguimiento de campaña](use-cases/campaign-tracking.md)
 + Validar la implementación {#validate}
-  + [Herramientas de depuración](validate/debugging-tools.md)
+  + [Recopilación de datos de Debug Analytics](validate/debugging.md)
   + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
 + Revisar la implementación {#review}

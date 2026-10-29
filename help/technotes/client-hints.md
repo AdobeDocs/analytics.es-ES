@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
@@ -50,7 +50,7 @@ A partir de octubre de 2022, las nuevas versiones de los exploradores Chromium e
 
 Las sugerencias del cliente se incorporaron al proceso de búsqueda de dispositivos de Analytics el 2 de marzo de 2023. Este cambio se aplica tanto a las implementaciones de AppMeasurement como de Web SDK.
 
-Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), es posible que desee habilitar la recopilación de sugerencias de alta entropía.[
 
 ## Preguntas frecuentes
 
@@ -160,7 +160,7 @@ No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión 
 
 +++**¿Cómo puedo incluir datos de sugerencias del cliente al utilizar el envío de API?**
 
-Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 
@@ -178,7 +178,7 @@ Consulte la [documentación del esquema](https://github.com/adobe/xdm/blob/maste
 
 +++**¿Admitirá el reenvío del lado del servidor Adobe Audience Manager las sugerencias del cliente?** 
 
-Sí. Las sugerencias del cliente se incluirán en los datos reenviados a Adobe Audience Manager. Tenga en cuenta que Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), es posible que desee habilitar la recopilación de sugerencias de alta entropía.
+Sí. Las sugerencias del cliente se incluirán en los datos reenviados a Adobe Audience Manager. Tenga en cuenta que Adobe Audience Manager requiere que se recopilen sugerencias de alta entropía para conservar la funcionalidad completa. Si está usando el reenvío del lado del servidor a Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), es posible que desee habilitar la recopilación de sugerencias de alta entropía.[
 
 +++
 

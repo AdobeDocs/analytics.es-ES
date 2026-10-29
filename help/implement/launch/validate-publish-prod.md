@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 66%
+source-wordcount: '516'
+ht-degree: 59%
 ---
 # Validación de una implementación de desarrollo y publicación en producción
 
@@ -80,14 +80,7 @@ Confirme que está viendo los datos en la versión activa del sitio y comience l
 
 ## Resolución de problemas
 
-**No aparecen datos en Debugger.**
-
-En el sitio, abra la consola del desarrollador del explorador (normalmente F12). Observe el código fuente de la página y asegúrese de que se cumple lo siguiente:
-
-* No hay errores de JavaScript en la consola. Póngase en contacto con los propietarios del sitio web de su organización para asegurarse de que se han resuelto todos los errores de JS.
-* El código de encabezado está correctamente implementado: Asegúrese de que el código de encabezado se encuentra dentro de la etiqueta `<head>` y de que el archivo existe.
-* La biblioteca AppMeasurement existe: Navegue directamente al origen de JS para asegurarse de que el archivo JS contiene código. Si no es así, asegúrese de que se crea cada entorno y de que la biblioteca se publica en el entorno correspondiente.
-* Interferir extensiones: Algunas extensiones, como los bloqueadores de anuncios, pueden evitar que se activen solicitudes de imagen. Deshabilite las extensiones que puedan impedir el envío de datos a Adobe.
+Si no aparecen datos de Analytics en Debugger o estos no son los esperados, consulte [Recopilación de datos de Debug Analytics](../validate/debugging.md#appmeasurement).
 
 ## Pasos siguientes
 
