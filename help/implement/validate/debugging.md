@@ -43,7 +43,7 @@ Para ver los pasos y las herramientas que se aplican a toda la recopilación de 
 | Método de implementación | Dónde ver los datos que Analytics recibe | Guía |
 | --- | --- | --- |
 | AppMeasurement o la extensión de etiquetas de Analytics | Solicitudes del explorador directamente a los servidores de recopilación de datos de Analytics | [AppMeasurement](#appmeasurement) |
-| SDK web | Seguimiento de Edge, después de que Edge Network convierta su evento en una visita de Analytics | [SDK web ](#web-sdk) |
+| SDK web | Seguimiento de Edge, después de que Edge Network convierta su evento en una visita de Analytics | [SDK web &#x200B;](#web-sdk) |
 | SDK móvil | La vista Eventos de Analytics en Assurance. Si usa la extensión Edge Network o Edge Bridge, active la **[!UICONTROL Vista de Analytics Edge]**. | [Vista de eventos de Adobe Analytics en Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
 | API de inserción de datos | Las solicitudes salientes del servidor y sus respuestas | [Solucionar problemas de solicitudes de API de inserción de datos](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
