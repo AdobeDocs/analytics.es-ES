@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
@@ -160,7 +160,7 @@ No. Las sugerencias del cliente solo se pueden recopilar mediante una conexión 
 
 +++**¿Cómo puedo incluir datos de sugerencias del cliente al utilizar el envío de API?**
 
-Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+Consulte la documentación para incluirlas mediante la [API de inserción de datos en lotes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 

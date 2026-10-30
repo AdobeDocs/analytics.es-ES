@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ El 25 de marzo de 2021, Adobe impidió que se crearan nuevas conexiones de fuent
 * La inserción de datos en lote tiene funcionalidades de validación de datos y gestión de errores, lo que elimina parte del trabajo administrativo del envío de datos de visitas.
 * La inserción de datos en lote admite varios métodos de identificación de ID de visitante.
 * La inserción de datos en lote tiene algunos campos obligatorios adicionales: Una columna de identificación de visitante, un `pageName` (o vínculo equivalente), `reportSuiteID`, `timestamp` y `userAgent`.
-* Para garantizar la continuidad y la atribución del visitante, la inserción de datos en lote requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
+* Para garantizar la continuidad y la atribución del visitante, la inserción de datos en lote requiere que las filas de los archivos se ordenen en orden cronológico. Consulte [Grupos de visitantes](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) para obtener más información sobre el orden de la actividad del visitante en todos los archivos.
 * La inserción de datos en lote requiere que los archivos estén comprimidos en .csv en formato .gzip.
 * BDIA usa `timestamp` en lugar de `date`.
 
