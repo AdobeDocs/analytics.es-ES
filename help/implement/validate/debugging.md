@@ -38,7 +38,7 @@ ht-degree: 2%
 
 En este artículo se explica qué comprobar al depurar los datos enviados a Adobe Analytics. Busque el método de implementación en la tabla siguiente y siga su sección. Si está investigando datos de informes inesperados, comience con [Comparar solicitudes con informes](#reports).
 
-Para ver los pasos y las herramientas que se aplican a toda la recopilación de datos de Adobe, como capturar solicitudes de red, habilitar el registro de depuración e investigar solicitudes canceladas, consulte [Depuración y solución de problemas de la recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview).
+Para ver los pasos y las herramientas que se aplican a toda la recopilación de datos de Adobe, como capturar solicitudes de red, habilitar el registro de depuración e investigar solicitudes canceladas, consulte [Depuración y solución de problemas de la recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/debugging/overview).
 
 | Método de implementación | Dónde ver los datos que Analytics recibe | Guía |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ Para ver los pasos y las herramientas que se aplican a toda la recopilación de 
 
 ### Buscar la solicitud {#appmeasurement-find}
 
-[Capturar solicitudes de red](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web) y filtrar para `/b/ss/`. Los depuradores de etiquetas como Adobe Experience Platform Debugger identifican y descodifican estas solicitudes por usted.
+[Capturar solicitudes de red](https://experienceleague.adobe.com/es/docs/experience-platform/collection/debugging/inspect-requests#web) y filtrar para `/b/ss/`. Los depuradores de etiquetas como Adobe Experience Platform Debugger identifican y descodifican estas solicitudes por usted.
 
 Si no aparece ninguna solicitud `/b/ss/`:
 
 * Compruebe si hay errores de JavaScript en la consola del explorador.
-* Si utiliza la extensión de etiqueta de Analytics, confirme que el código incrustado de etiqueta se encuentra dentro del elemento `<head>` de la página y que la biblioteca se ha publicado en el entorno que está probando. [Modo de depuración de etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging) muestra si se activó la regla que envía la visita.
+* Si utiliza la extensión de etiqueta de Analytics, confirme que el código incrustado de etiqueta se encuentra dentro del elemento `<head>` de la página y que la biblioteca se ha publicado en el entorno que está probando. [Modo de depuración de etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/collection/debugging/logging) muestra si se activó la regla que envía la visita.
 * Si aloja AppMeasurement, abra la dirección URL de la biblioteca directamente para confirmar que el archivo se carga y contiene código de.
 * Deshabilite las extensiones de explorador, como los bloqueadores de anuncios, que pueden evitar que se envíen solicitudes.
 * Debugger no reconoce solicitudes enviadas desde dentro de un iframe. En su lugar, utilice las herramientas para desarrolladores del explorador. Ver [Usar AppMeasurement con iFrames](../use-cases/iframe.md).
@@ -73,20 +73,20 @@ Si los valores están presentes pero son incorrectos, consulte [Solucionar probl
 
 Una respuesta de `2xx` confirma únicamente que el servidor de recopilación de datos recibió la solicitud, pero no que se registró la visita. Con el tipo de respuesta predeterminado, una solicitud puede devolver un resultado correcto incluso cuando se pierde la visita. Se espera una respuesta `302` en la primera solicitud de un nuevo visitante. Ver [códigos de respuesta HTTP](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes).
 
-AppMeasurement envía solicitudes de vínculo de salida, y todas las solicitudes cuando [`useBeacon`](../vars/config-vars/usebeacon.md) está habilitado, con `navigator.sendBeacon()`. Las herramientas para desarrolladores pueden etiquetar estas solicitudes como canceladas incluso cuando el explorador las envía. Ver [solicitudes anuladas](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
+AppMeasurement envía solicitudes de vínculo de salida, y todas las solicitudes cuando [`useBeacon`](../vars/config-vars/usebeacon.md) está habilitado, con `navigator.sendBeacon()`. Las herramientas para desarrolladores pueden etiquetar estas solicitudes como canceladas incluso cuando el explorador las envía. Ver [solicitudes anuladas](https://experienceleague.adobe.com/es/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
 
 ## SDK web {#web-sdk}
 
 ### Buscar la solicitud {#web-sdk-find}
 
-Con Web SDK, el explorador envía eventos a Edge Network en lugar de directamente a Analytics, por lo que no ve una solicitud `/b/ss/`. [Inspeccione la solicitud de Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) y confirme lo siguiente:
+Con Web SDK, el explorador envía eventos a Edge Network en lugar de directamente a Analytics, por lo que no ve una solicitud `/b/ss/`. [Inspeccione la solicitud de Edge Network](https://experienceleague.adobe.com/es/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) y confirme lo siguiente:
 
 * El parámetro `configId` coincide con un conjunto de datos que tiene habilitado el servicio [Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure#analytics) con los grupos de informes que espera.
 * La carga útil se califica como una vista de página o un evento de vínculo. Analytics ignora las cargas útiles que no contienen detalles de página ni un tipo de interacción web. Ver [tipos de eventos de Edge Network en Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Comprobación de lo que Analytics ha recibido {#web-sdk-contents}
 
-Inicie un [seguimiento de Edge](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace) y reproduzca la acción. Busque la fila que comienza con **[!UICONTROL Asignación automática de Analytics]** y, a continuación, expanda `mappedQueryParams` y el ID del grupo de informes debajo de ella.
+Inicie un [seguimiento de Edge](https://experienceleague.adobe.com/es/docs/experience-platform/debugger/edge-trace) y reproduzca la acción. Busque la fila que comienza con **[!UICONTROL Asignación automática de Analytics]** y, a continuación, expanda `mappedQueryParams` y el ID del grupo de informes debajo de ella.
 
 * **Variables**: los valores asignados utilizan los mismos nombres de parámetros de consulta que las solicitudes de AppMeasurement, a veces en forma abreviada, como `gn` para el nombre de página y `pl` para los productos. Consulte [Asignación de campos de objetos XDM](../aep-edge/xdm-var-mapping.md) y [Asignación de campos de objetos de datos](../aep-edge/data-var-mapping.md).
 * **Datos de contexto**: los campos XDM que no se asignan a una variable de Analytics aparecen como datos de contexto con el prefijo `c.a.x.`. Use [reglas de procesamiento](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) para asignarlas a variables.
