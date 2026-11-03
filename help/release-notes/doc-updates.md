@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
 
@@ -75,6 +75,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Función | Descripción |
 | --- | --- |
+| **Noviembre de 2026** | |
+| Incluir el tráfico de IA sin referente | Algunas herramientas de IA, como ChatGPT, abren vínculos sin enviar a un referente, por lo que el tipo de referente &quot;Herramientas de IA conversacional&quot; no cuenta esas visitas. La documentación ahora lo explica y muestra cómo informar sobre este tráfico:<ul><li>Se ha agregado una sección sobre [uso de parámetros de UTM](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) para capturar el tráfico de IA que no tiene referente.</li><li>Se ha agregado una nota sobre este comportamiento a la sección [Herramientas de inteligencia artificial aplicada a la conversación](/help/components/dimensions/referrer-type.md#conversational-ai-tools) de la dimensión &#39;Tipo de referente&#39;.</li><li>Se ha agregado una nota sobre este comportamiento a [Analizar el tráfico de las herramientas de inteligencia artificial aplicada a la conversación](/help/technotes/ai-traffic.md).</li></ul> |
 | **Octubre de 2026** | |
 | Bloquear selección para visualizaciones | Se ha reestructurado [Administrar fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) para separar la configuración del origen de datos del bloqueo de la selección. También aclaró cómo funciona [bloquear selección](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) cuando una visualización está bloqueada a filas en una tabla de forma libre, lo que incluye lo que sucede cuando las filas de desglose bloqueadas ya no están en la tabla. |
 | Navegación por teclado para columnas de tabla | Se ha documentado cómo [cambiar el tamaño](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) y [reorganizar](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) columnas de tabla en Analysis Workspace mediante el teclado, incluidos los comentarios de los lectores de pantalla. También se agregó una sección [Acciones de columna de tabla](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) a las teclas de acceso directo. |
