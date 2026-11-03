@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # Analizar el tráfico desde las herramientas de IA conversacional
 
 Adobe Analytics proporciona herramientas para analizar el tráfico de IA en el sitio web.
@@ -72,9 +70,11 @@ Puede usar la dimensión Tipo de remitente del reenvío en Analysis Workspace pa
 
 * Flujos de trabajo agénticos
 
-La dimensión Tipo de remitente del reenvío incluye el [elemento de dimensión Herramientas de inteligencia artificial aplicada a la conversación](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Este elemento de dimensión incluye una lista predefinida de bots de chat de IA.
+La dimensión Tipo de remitente del reenvío incluye el [elemento de dimensión Herramientas de inteligencia artificial aplicada a la conversación](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Este elemento de dimensión incluye solo las visitas que tienen un referente de una lista predefinida de bots de chat de IA.
 
-Para obtener más información, consulte [Tipo de referente](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Algunas herramientas de inteligencia artificial aplicada a la conversación, como ChatGPT, no envían un referente cuando abren vínculos, por lo que sus visitas no se incluyen en este elemento de dimensión. Para obtener más información, consulte [Incluir tráfico de IA sin referente](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Análisis del tráfico de IA mediante la detección de bots
 
