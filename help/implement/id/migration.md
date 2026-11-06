@@ -55,7 +55,7 @@ Si coordina la implementación del servicio de ID de visitante en todas las áre
 
 Algunas implementaciones de ID de visitante de Analytics heredadas pueden utilizar &quot;cookies de terceros descriptivas&quot;, en las que dos dominios comparten la misma cookie de visitante en un dominio común como `data.example.com`. Dado que las cookies de terceros sencillas siguen siendo cookies de terceros, muchos exploradores modernos las rechazan, lo que provoca que Analytics dependa de un ID de reserva (`fid`) para la identificación del visitante. El paso al servicio de ID de visitante permite a todos los dominios establecer la cookie `AMCV` en un contexto de origen, lo que aumenta su viabilidad para conservar un ID de visitante.
 
-Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el ECID (`mid`) de un visitante entre sus dominios.
+Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` &#x200B;](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el ECID (`mid`) de un visitante entre sus dominios.
 
 ## Seguimiento del lado del servidor
 
