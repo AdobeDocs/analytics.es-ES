@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # Visitantes con Experience Cloud ID
 
-La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud ID]&#39; muestra el número de visitantes únicos identificados por Adobe con un ECID (mediante el [servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). Esta métrica es útil para compararla con la métrica [Visitantes únicos](unique-visitors.md) a fin de asegurarse de que la mayoría de los visitantes del sitio use un ECID. Si una gran parte de los visitantes no utiliza este identificador, puede indicar un problema en la implementación.
+La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud ID]&#39; muestra el número de visitantes únicos identificados por Adobe con un ECID (mediante el [servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/overview)). Esta métrica es útil para compararla con la métrica [Visitantes únicos](unique-visitors.md) a fin de asegurarse de que la mayoría de los visitantes del sitio use un ECID. Si una gran parte de los visitantes no utiliza este identificador, puede indicar un problema en la implementación.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud I
 
 ## Cálculo de esta métrica
 
-Esta métrica se basa en la métrica [visitantes únicos](unique-visitors.md), excepto que solo incluye personas identificadas mediante la `mid`cadena de consulta (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Esta métrica se basa en la métrica [visitantes únicos](unique-visitors.md), excepto que solo incluye personas identificadas mediante la `mid`cadena de consulta (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Depurar la configuración de ECID
 
