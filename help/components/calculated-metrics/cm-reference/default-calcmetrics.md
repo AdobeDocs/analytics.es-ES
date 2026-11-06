@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # Métricas calculadas predeterminadas
 
 Adobe Analytics proporciona varias métricas calculadas para cubrir los casos de uso más comunes. Estas métricas calculadas están disponibles de forma predeterminada en Analysis Workspace.
@@ -62,13 +60,13 @@ A continuación se muestra una lista de cada métrica calculada proporcionada po
 | Usuarios de la aplicación | Número total de usuarios de una aplicación móvil | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | Longitud promedio de sesión (móvil) | Promedio de tiempo que los visitantes pasan en el sitio durante una sola sesión. | En blanco |
 | Promedio de tiempo en el sitio | Cantidad promedio de tiempo que un visitante pasa en el sitio antes de salir o navegar. | `[Average Time Spent on Site (Seconds)]` |
-| Tasa de salida hacia otro sitio | La proporción de visitas que contenían exactamente una visita en comparación con el número de visitas en esa página. Esta métrica puede ayudar a comprender qué elementos de dimensión tienen la tasa de salida hacia otro sitio más alta o para ver una tasa de salida hacia otro sitio total agregada a lo largo del tiempo. | `[Bounces] / [Entries]` |
+| Tasa de salida hacia otro sitio | La proporción de visitas que contenían exactamente un hit en comparación con el número de visitas en esa página. Esta métrica puede ayudar a comprender qué elementos de dimensión tienen la tasa de salida hacia otro sitio más alta o para ver una tasa de salida hacia otro sitio total agregada a lo largo del tiempo. | `[Bounces] / [Entries]` |
 | Proporción de vistas de página de bots | La proporción de vistas de página de bots comparada con la cantidad total de vistas de página. | `[Bot Page Views] / [Page Views]` |
 | Velocidad del contenido | La velocidad a la que se crea y publica nuevo contenido en el sitio y la velocidad con la que genera la participación del usuario. | `[Page Views] / [Visits]` |
 | Tasa de conversión | Porcentaje de visitantes que realizaron una acción deseada, como una compra. | `[Orders] / [Visits]` |
 | Tasa de entrada | Porcentaje de visitantes que entraron al sitio en una página determinada, comparado con el número total de sesiones en el sitio. | `[Entries] / [Visits]` |
 | Visitantes únicos estimados (ITP 2.1) | Para los visitantes de ITP (usuarios en navegadores Safari), divida los visitantes únicos entre 2 o menos. Esta métrica calculada supone que se configuran cookies mediante JavaScript del lado del cliente (no mediante una implementación CNAME). Las implementaciones que establecen cookies mediante JavaScript del lado del cliente se vieron afectadas a partir de ITP 2.1. Consulte [Prevención inteligente del seguimiento](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) para obtener más información. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Alcance del ID de Experience Cloud | Porcentaje de visitantes que tienen un ID de Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Alcance del ID de Experience Cloud | El porcentaje de visitantes que tienen un ECID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Tasa de salida | Porcentaje de visitantes que abandonan el sitio después de ver una página en particular. | `[Exits] / [Visits]` |
 | Visitantes únicos/Visitantes únicos de ITP 2.1 | El porcentaje de visitantes únicos que utilizan un explorador afectado por las limitaciones de cookies de ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Asistencias de pedidos | Número de veces que un canal o fuente contribuyó al recorrido de un cliente hacia la realización de una compra, pero no resultó en la compra final. | `[Orders (Visit Participation)] - [Orders]` |

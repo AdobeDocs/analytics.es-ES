@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 29%
 ---
 # Preguntas frecuentes
@@ -155,7 +155,7 @@ Sí. En la configuración de destino de Adobe Audience Manager solo verá los gr
 
 +++ ¿Por qué no puedo activar el reenvío de servidor para determinados grupos de informes en Administración de Analytics?
 
-Solo pueden habilitarse los grupos asignados a su organización de CX Enterprise.
+Solo pueden habilitarse los grupos asignados a su organización de Adobe.
 
 Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

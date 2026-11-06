@@ -20,10 +20,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 90%
 ---
 # Versiones de funcionalidades de Adobe Analytics
 
@@ -35,9 +35,9 @@ Las versiones de Adobe Analytics funcionan con un modelo de entrega continuo que
 
 * **Prueba limitada**: una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. A continuación, se pone a disposición de un pequeño grupo de cuentas del cliente para garantizar que la funcionalidad satisfaga sus necesidades y expectativas.
 
-* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. El despliegue por fases se produce a nivel de organización en CX Enterprise, por lo que todos los usuarios con derecho en una organización reciben la misma experiencia.
+* **Inicio del despliegue**: el despliegue de una versión por fases comienza con la prueba limitada. Después, la versión se escalará con una disponibilidad del 0 % al 100 % en el transcurso de un par de meses. La implementación por fases se produce en el nivel de organización de Adobe, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
-* **Disponibilidad general (GA)**: la funcionalidad está disponible para el 100 % de las organizaciones de CX Enterprise y la versión de la funcionalidad está completa.
+* **Disponibilidad general (GA)**: La característica está disponible para el 100% de las organizaciones autorizadas y la versión de la característica se ha completado.
 
 Con cada versión de la funcionalidad, la cronología desde el inicio del despliegue hasta su disponibilidad general puede variar. El objetivo es reducir el número de versiones, de modo que, en los dos meses posteriores al inicio del despliegue, la funcionalidad esté disponible de forma general.
 

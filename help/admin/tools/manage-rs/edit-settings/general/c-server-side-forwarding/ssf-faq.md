@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 42%
+source-wordcount: '687'
+ht-degree: 43%
 ---
 # Preguntas frecuentes acerca del reenvío del lado del servidor
 
@@ -50,12 +50,12 @@ Preguntas más frecuentes acerca de características, funcionalidades y problema
 
 | Pregunta | Respuesta |
 |--- |--- |
-| P: ¿Qué pasa si en mi sitio tengo etiquetado multigrupo? ¿Duplicará el reenvío del lado del servidor las llamadas de servidor a Audience Manager? | No, los hits se reenvían una única vez de Analytics a Audience Manager, con independencia del número de grupos de informes que haya en ellas. Si tiene en Audience Manager fuentes de datos correspondientes para cada grupo de informes del hit, todas ellas se rellenarán apropiadamente a partir de ese único hit.  Tenga en cuenta, no obstante, que si utiliza la recopilación de datos de lado de clientes (DIL) y habilita el reenvío del lado del servidor sin instalar el módulo Gestión de público, estará duplicando las llamadas de servidor a Audience Manager, independientemente del número de grupos de informes que tenga en su visita de Analytics. |
-| P: ¿Qué sucede si tengo grupos de informes etiquetados multigrupo asignados a distintas organizaciones de CX Enterprise? | Nunca debe enviar datos de una sola visita de Analytics a dos grupos de informes que pertenezcan a organizaciones de CX Enterprise independientes, pero, si esto ocurre, únicamente se reenviará la visita a la organización de CX Enterprise que coincida con la configuración del servicio de ID en la página. |
-| P: ¿Qué sucede si tengo etiquetado multigrupo y solo uno de mis grupos de informes está asignado a mi organización de CX Enterprise y el otro no? | Reenviaremos la visita al servidor de recopilación de datos correspondiente a la organización de CX Enterprise de su grupo de informes asignado, pero, como el grupo de informes no asignado no tendrá asociada una fuente de datos en Audience Manager, no se registrará ningún dato para el grupo de informes no asignado en Audience Manager. |
-| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones de CX Enterprise? | Analytics considerará este grupo de informes como no asignado y no permitirá que se active el reenvío del lado del servidor para este grupo de informes. Póngase en contacto con el servicio de atención al cliente para resolver este problema de asignación. |
+| P: ¿Qué pasa si en mi sitio tengo etiquetado multigrupo? ¿Duplicará el reenvío del lado del servidor las llamadas de servidor a Audience Manager? | No, los hits se reenvían una única vez de Analytics a Audience Manager, con independencia del número de grupos de informes que haya en ellas. Si tiene en Audience Manager fuentes de datos correspondientes para cada grupo de informes del hit, todas ellas se rellenarán apropiadamente a partir de ese único hit.  Tenga en cuenta, no obstante, que si utiliza la recopilación de datos de lado de clientes (DIL) y habilita el reenvío del lado del servidor sin instalar el módulo Gestión de público, estará duplicando las llamadas de servidor a Audience Manager, independientemente del número de grupos de informes que tenga en su hit de Analytics. |
+| P: ¿Qué sucede si tengo grupos de informes etiquetados multigrupo asignados a distintas organizaciones de Adobe? | Nunca debe enviar datos de una sola visita de Analytics a dos grupos de informes que pertenezcan a organizaciones distintas, pero, si esto ocurre, únicamente se reenviará la visita a la organización que coincida con la configuración del servicio de ID de visitante en la página. |
+| P: ¿Qué sucede si tengo etiquetado multigrupo y solo uno de mis grupos de informes está asignado a mi organización, mientras que el otro no? | Reenviaremos la visita al servidor de recopilación de datos correspondiente a la organización en su grupo de informes asignado, pero como el grupo de informes no asignado no tendrá una fuente de datos asociada en Audience Manager, no se registrarán datos para el grupo de informes no asignado en Audience Manager. |
+| P: ¿Qué sucede si tengo un grupo de informes asignado a varias organizaciones? | Analytics considerará este grupo de informes como no asignado y no permitirá que se active el reenvío del lado del servidor para este grupo de informes. Póngase en contacto con el servicio de atención al cliente para resolver este problema de asignación. |
 | P: ¿Será más lento el método de reenvío de servidor basado en grupos de informes que el basado en servidores de seguimiento? | No, el tiempo de respuesta es el mismo. |
-| P: ¿Qué sucede si tenemos dos organizaciones de CX Enterprise (o instancias de Adobe Audience Manager) y queremos compartir datos entre ambas? ¿Puedo utilizar el reenvío de servidor para enviar una sola visita de Analytics a varias organizaciones de CX Enterprise? | No. Si necesita compartir datos recopilados por una organización de CX Enterprise con otra, se recomienda enviar las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
+| P: ¿Qué sucede si tenemos dos organizaciones (o instancias de Adobe Audience Manager) y queremos compartir datos entre ambas? ¿Puedo utilizar el reenvío de servidor para enviar una sola visita de Analytics a varias organizaciones? | No. Si necesita compartir datos recopilados por una organización con otra, le recomendamos que envíe las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
 | P: ¿Resultará el reenvío del lado del servidor en alguna facturación adicional en Audience Manager o Analytics? | En Analytics no se producirá ninguna facturación adicional. En Audience Manager, los hits reenviados se tratan como cualquier otro hit y se facturan.  Por eso es tan importante no tener habilitados al mismo tiempo DIL y el reenvío del lado del servidor, lo que podría provocar dobles facturaciones, además de la duplicación de datos. |
 
 >[!MORELIKETHIS]

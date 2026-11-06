@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 33%
+source-wordcount: '247'
+ht-degree: 17%
 ---
 # Comprobar la implementación del reenvío del lado del servidor
 
@@ -50,7 +50,7 @@ Para comprobar el estado del reenvío del lado del servidor:
 
 >[!CAUTION]
 >
->Si la respuesta contiene el par clave-valor `"status":"SUCCESS"` o una imagen 2 x 2, el reenvío del lado del servidor no está configurado correctamente. Compruebe que el servicio de identidad esté correctamente implementado, que haya implementado el módulo AppMeasurement, que el grupo de informes aplicable esté asignado al ID de organización correcto y que el reenvío del lado del servidor esté habilitado en las herramientas de administración de Analytics.
+>Si la respuesta contiene el par clave-valor `"status":"SUCCESS"` o una imagen 2 x 2, el reenvío del lado del servidor no está configurado correctamente. Asegúrese de que el servicio de ID de visitante esté correctamente implementado, de que haya implementado el módulo AppMeasurement, de que el grupo de informes aplicable esté asignado al ID de organización correcto y de que el reenvío del lado del servidor esté habilitado en las herramientas de administración de Analytics.
 
 >[!MORELIKETHIS]
 >

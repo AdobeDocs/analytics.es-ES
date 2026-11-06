@@ -1,6 +1,6 @@
 ---
 title: Usuarios con Experience Cloud ID
-description: El número de personas en el análisis entre dispositivos que tienen un Experience Cloud ID.
+description: El número de personas en el análisis entre dispositivos que tienen un ECID.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
@@ -18,16 +18,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 58%
-
+source-wordcount: '146'
+ht-degree: 28%
 ---
-
 # Usuarios con Experience Cloud ID
 
-&quot;Personas con Experience Cloud ID&quot; es una métrica de [análisis entre dispositivos](../cda/overview.md) que muestra el número de [personas](people.md) que fueron identificadas por Adobe usando el [servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o el [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home).
+&quot;Personas con Experience Cloud ID&quot; es una métrica de [análisis entre dispositivos](../cda/overview.md) que muestra el número de [personas](people.md) identificadas por Adobe mediante el [servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/overview).
 
 ## Cálculo de esta métrica
 
@@ -35,4 +33,4 @@ Teniendo en cuenta cada [persona](people.md) (identificada o no identificada), e
 
 Puede crear la métrica calculada `[People with ECID] ÷ [People]` para obtener el porcentaje de visitantes del sitio mediante el servicio de ID.
 
-Consulte la métrica equivalente que no es de CDA [Visitantes con Experience Cloud ID](visitors-with-ecid.md) para obtener más información sobre la importancia del ID de Experience Cloud y la depuración de la configuración.
+Consulte la métrica equivalente que no es de CDA [Visitantes con Experience Cloud ID](visitors-with-ecid.md) para obtener más información sobre la importancia de ECID y la depuración de la configuración.

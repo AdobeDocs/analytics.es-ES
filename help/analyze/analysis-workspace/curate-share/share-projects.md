@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # Compartir proyectos {#share-projects}
@@ -214,7 +214,7 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
    * **[!UICONTROL Requerir autenticación de CX Enterprise]:**
 
-     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe CX Enterprise en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Adobe Analytics.
+     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Adobe Analytics.
 
      Los administradores de Analytics pueden configurar esta preferencia para la compañía, como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Dependiendo de cómo haya configurado esta opción el administrador, puede encontrarse con los siguientes escenarios:
 

@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1977'
 ht-degree: 75%
 ---
 # Asignación de campo de objeto XDM a Adobe Analytics
@@ -103,7 +103,7 @@ Las actualizaciones anteriores de esta tabla se encuentran en el [historial de c
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Establece las dimensiones respectivas [Prop](/help/components/dimensions/prop.md). |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Aplica la [serialización de eventos](../vars/page-vars/events/event-serialization.md) a la métrica respectiva [Eventos personalizados](/help/components/metrics/custom-events.md). Cada ID de evento reside en su página principal de 100 grupos. Por ejemplo, para aplicar la serialización a `event678`, utilice `xdm._experience.analytics.event601to700.event678.id`. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la métrica respectiva [Eventos personalizados](/help/components/metrics/custom-events.md) por la cantidad deseada. Cada evento reside en su página principal de 100 grupos. Por ejemplo, el campo de `event567` es `xdm._experience.analytics.event501to600.event567.value`. |
-| `xdm.identityMap.ECID[0].id` | El ECID, recopilado mediante el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) o el [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home). |
+| `xdm.identityMap.ECID[0].id` | El ECID, recopilado mediante el [servicio de ID de visitante de Adobe](https://experienceleague.adobe.com/es/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/overview). |
 | `xdm.marketing.trackingCode` | Establece la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
 | `xdm.media.mediaTimed.completes.value` | Métrica de servicios de medios de streaming [Contenido completado](https://experienceleague.adobe.com/es/docs/media-analytics/using/reporting/metrics/content-completes). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |

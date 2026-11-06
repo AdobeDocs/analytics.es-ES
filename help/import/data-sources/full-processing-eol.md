@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 5%
 ---
 # Fin de la vida útil de las fuentes de datos de procesamiento completo
@@ -62,7 +62,7 @@ Las siguientes variables se introdujeron para la inserción de datos en lote, qu
 * **`ipaddress`**: la dimensión [dirección IP](/help/components/dimensions/ip-address.md).
 * **`language`**: La dimensión [Idioma](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variables de lista](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: el Experience Cloud ID del visitante.
+* **`marketingCloudVisitorID`**: el ECID del visitante.
 * **`tnta`**: carga de datos de destino usada en integraciones de [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es).
 * **`trackingServer`**: la variable [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md).
 * **`transactionID`**: la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md).

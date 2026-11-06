@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 13%
 ---
 # Motivo de exclusión de seguimiento
 
 >[!BEGINSHADEBOX]
 
-*Esta página hace referencia a la [dimensión](overview.md) que le permite ver el posible impacto de los datos al habilitar ciertas opciones de configuración del grupo de informes. No está relacionado con el [servicio de inclusión de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es).*
+*Esta página hace referencia a la [dimensión](overview.md) que le permite ver el posible impacto de los datos al habilitar ciertas opciones de configuración del grupo de informes. No está relacionado con el servicio de identificación del visitante [Servicio de inclusión](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=es).*
 
 >[!ENDSHADEBOX]
 

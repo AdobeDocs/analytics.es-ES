@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 97%
+source-wordcount: '1170'
+ht-degree: 95%
 ---
 # ¿Qué herramienta de Adobe Analytics debo usar?
 
@@ -123,7 +123,7 @@ El **[Report Builder](/help/analyze/report-builder/rb-overview.md)** debe usars
 
 **[El Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** debe usarse para:
 
-* Para acceder a variables que no se muestran en la interfaz de usuario (como Dirección IP, Experience Cloud ID, ID de visitante de Analytics, URL de página).
+* Para acceder a variables que no se muestran en la interfaz de usuario (como dirección IP, ECID, ID de visitante de Analytics, URL de página).
 * Para acceder a datos más granulares de los que están disponibles en la interfaz de usuario (vista de tabla no normalizada).
 * Para descargar datos en un formato adecuado para una entrada de tabla dinámica.
 * Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de hit).

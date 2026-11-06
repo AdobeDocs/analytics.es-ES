@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Consideraciones sobre la migración del servicio de ID de visitante para Adobe Analytics
 
 Si su organización planea pasar al servicio de ID de visitante con una implementación de Analytics existente, hay que tener en cuenta algunos temas importantes. Estas consideraciones le permiten conservar la integridad de identificación del visitante y comprender cómo funciona el servicio de ID de visitante en presencia de una implementación de Analytics existente.
 
 >[!TIP]
 >
->Esta página solo se aplica a las implementaciones de extensión de AppMeasurement o Analytics existentes y agrega el servicio de ID de visitante o actualiza a una implementación de Web SDK. En otras palabras, su implementación utiliza un ID de Analytics heredado (`aid`) y se está acercando al uso de un ECID (`mid`). Todas las implementaciones de Web SDK utilizan el [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home), que usa un ECID (`mid`) de forma predeterminada.
+>Esta página solo se aplica a las implementaciones de extensión de AppMeasurement o Analytics existentes y agrega el servicio de ID de visitante o actualiza a una implementación de Web SDK. En otras palabras, su implementación utiliza un ID de Analytics heredado (`aid`) y se está acercando al uso de un ECID (`mid`). Todas las implementaciones de Web SDK usan [Edge Network identity](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/overview), que usa un ECID (`mid`) de forma predeterminada.
 
 ## Interacción del servicio de ID de visitante con cookies de visitante de Analytics heredadas
 

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -102,15 +102,15 @@ Consulte [Elegir un dominio de recopilación de datos](https://experienceleague.
 
 Adobe recomienda encarecidamente mantener esta información en [documento de diseño de la solución](../../prepare/solution-design.md) para mantener la coherencia en toda su organización.
 
-## Ramificaciones por no utilizar el servicio de ID de visitante o el servicio de ID de Experience Platform
+## Ramificaciones por no utilizar el servicio de ID de visitante o Web SDK {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe recomienda encarecidamente utilizar ECID como la forma principal de identificar a los visitantes en todas las implementaciones. La recopilación de ECID se puede implementar de varias formas diferentes, según el tipo de implementación:
 
 * Las implementaciones manuales de AppMeasurement utilizan `VisitorAPI.js` y llaman al método `getInstance`. Consulte [Implementar el servicio de ID de visitante para Analytics](https://experienceleague.adobe.com/es/docs/id-service/using/implementation/setup-analytics) para obtener más información.
 * Las implementaciones que usan la extensión de etiquetas de Adobe Analytics usan la extensión de etiquetas [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/id-service/overview), que implementa el servicio de ID de visitante. Una vez añadida, no se requiere ninguna configuración adicional.
-* Las implementaciones que utilizan cualquier formulario de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) incluyen automáticamente el servicio de identidad de Experience Platform. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
+* Las implementaciones que utilizan cualquier forma de Web SDK (`alloy.js` o la extensión de etiquetas de Web SDK) incluyen automáticamente Edge Network identity. No se requiere ninguna configuración aparte de establecer el valor `edgeDomain`.
 
 **Si su implementación no usa ECID**, tenga en cuenta los siguientes impactos en su implementación:
 
-* Si no utiliza el servicio de identificación del visitante o el servicio de identidad de Experience Platform, `trackingServerSecure` determina la ubicación de la cookie. La configuración de esta variable en un dominio de terceros obliga a AppMeasurement a utilizar una cookie de reserva, ya que la mayoría de los exploradores modernos rechazan las cookies de terceros.
+* Si no utiliza el servicio de identificación del visitante o Web SDK, `trackingServerSecure` determina la ubicación de la cookie. La configuración de esta variable en un dominio de terceros obliga a AppMeasurement a utilizar una cookie de reserva, ya que la mayoría de los exploradores modernos rechazan las cookies de terceros.
 * El seguimiento de vínculos internos y Activity Map pueden ser menos fiables.

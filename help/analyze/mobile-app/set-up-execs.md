@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # Configure usuarios ejecutivos con la aplicación
 
 En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección presenta información que le ayudará a proporcionar esa asistencia.
@@ -78,7 +76,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
    Aparece la pantalla **[!UICONTROL Elija una compañía]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo.
 
-1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización empresarial de CX que se aplica al cuadro de resultados que ha compartido.
+1. Haga que pulsen el nombre de la empresa de inicio de sesión o de la organización de Adobe que corresponda al cuadro de resultados que ha compartido.
 
    A continuación, la lista de cuadros de resultados muestra todos los cuadros de resultados que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
 

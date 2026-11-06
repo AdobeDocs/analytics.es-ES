@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '432'
 ht-degree: 44%
-
 ---
-
 # Ver uso del grupo de informes
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
@@ -37,11 +35,11 @@ La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor p
 
 >[!IMPORTANT]
 >
->Si un grupo de informes no está vinculado a una organización de CX Enterprise, sus datos de uso no se reflejan en este panel. Además, se podría asociar un ID de facturación a varias organizaciones empresariales de CX; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
+>Si un grupo de informes no está vinculado a una organización de Adobe, sus datos de uso no se reflejan en este panel. Además, se puede asociar un ID de facturación a varias organizaciones; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
 El tablero Uso del grupo de informes
 
-* Muestra el uso de llamadas al servidor del período de uso actual (todas las llamadas, primarias, secundarias, primarias móviles, secundarias móviles) para cada grupo de informes de su organización empresarial de CX.
+* Muestra el uso de llamadas al servidor del periodo de uso actual (Todas las llamadas, Primarias, Secundarias, Primarias móviles, Secundarias móviles) para cada grupo de informes de su organización.
 * Muestra el porcentaje del uso general por categoría de llamada al servidor.
 * Se actualiza a diario.
 * Se puede descargar.

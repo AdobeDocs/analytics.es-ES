@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 99%
+source-wordcount: '559'
+ht-degree: 98%
 ---
 # Referencia de datos y código del reenvío del lado del servidor
 
@@ -50,7 +50,7 @@ Los parámetros con el prefijo `d_*` identifican pares clave-valor especiales de
 | `d_rs` | (Se establece con reenvío del lado del servidor heredado/basado en el servidor de seguimiento) <br>Se establece en los grupos de informes pasados con el hit a Analytics. |
 | `d_dst_filter` | (Se establece con el reenvío del lado del servidor basado en grupos de informes) <br>Se establece en los ID de grupo de informes pasados con el hit a Analytics. |
 | `d_dst` | Se establece en `d_dst=1` <br>si la solicitud a Analytics espera contenido acerca del destino que se va a devolver al cliente. |
-| `d_mid` | El Experience Cloud ID transferido a Analytics. |
+| `d_mid` | El ECID pasado a Analytics. |
 
 ## Encabezados HTTP {#section_0549705E76004F9585224AEF872066C0}
 

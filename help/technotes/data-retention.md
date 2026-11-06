@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # Política de retención de datos
@@ -63,7 +63,7 @@ Una vez que los datos hayan superado el límite temporal de la política de rete
 
 ## Ver/administrar la directiva de retención de datos actual
 
-El cuadro de diálogo Gobernanza de datos en las herramientas del [!UICONTROL Administrador] proporciona información general sobre los grupos de informes que se han configurado para la gobernanza de datos. También indica si se han asignado a una organización de CX Enterprise y si se ha implementado una directiva de retención de datos para este grupo de informes.
+El cuadro de diálogo Gobernanza de datos en las herramientas del [!UICONTROL Administrador] proporciona información general sobre los grupos de informes que se han configurado para la gobernanza de datos. También indica si se han asignado a una organización de Adobe y si se ha implementado una directiva de retención de datos para este grupo de informes.
 
 ## Preguntas frecuentes
 

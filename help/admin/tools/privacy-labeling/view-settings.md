@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 92%
 ---
 # Ver/administrar el etiquetado de privacidad para la gobernanza de datos
@@ -79,7 +79,7 @@ Si desea aplicar la misma configuración de privacidad de datos a más de un gru
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de CX Enterprise.
+   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de Adobe.
 
    Cuando copia las etiquetas de una variable o establece variables en distintos grupos de informes, la copia se dirige a la variable de la posición correspondiente en el grupo de informes de destino. Para los componentes estándar, las variables de lista y los eventos de éxito, las etiquetas se copiarán en la variable con el **mismo nombre** en el grupo de informes de destino.
 

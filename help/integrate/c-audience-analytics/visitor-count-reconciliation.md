@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 46%
+source-wordcount: '306'
+ht-degree: 42%
 ---
 # Diferencias en la contabilización de visitantes
 
@@ -46,11 +46,11 @@ Las métricas de visitante son:
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=es"  > Adobe Audience Manager: Propagación total de segmentos</a> </p> </td> 
-   <td colname="col3"> <p>Se trata del número de dispositivos (Experience Cloud ID) que formaban parte de su segmento durante el período retroactivo. </p> </td> 
+   <td colname="col3"> <p>Recuento de dispositivos (ECID) que formaban parte de su segmento durante el período retroactivo. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=es"  > Adobe Audience Manager: Propagación de segmentos en tiempo real</a> </p> </td> 
-   <td colname="col3"> <p>Recuento de dispositivos (Experience Cloud ID) que eran miembros de su segmento y llegaron a sus propiedades durante el período retroactivo. </p> </td> 
+   <td colname="col3"> <p>Recuento de dispositivos (ECID) que eran miembros de su segmento y llegaron a sus propiedades durante el período retroactivo. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Visitantes únicos </p> </td> 
@@ -58,7 +58,7 @@ Las métricas de visitante son:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: Visitantes con Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Muestra el número de visitantes únicos con un Experience Cloud ID que llegaron a sus propiedades durante la ventana de creación de informes. </p> </td> 
+   <td colname="col3"> <p>Muestra el número de visitantes únicos con un ECID que llegaron a sus propiedades durante la ventana de creación de informes. </p> </td>
   </tr> 
  </tbody> 
 </table>

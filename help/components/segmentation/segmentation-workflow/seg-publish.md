@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # Publicar segmentos {#publish-segments}
@@ -68,7 +68,7 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publicar se
 ## Requisitos previos
 
 * Asegúrese de que el grupo de informes en el que está guardando este segmento esté [habilitado para CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). De lo contrario, no podrá publicarlo en CX Enterprise.
-* Asegúrese de que su organización utiliza Experience Cloud ID.
+* Asegúrese de que su organización utiliza ECID.
 * Para poder publicar segmentos, el administrador debe asignar el permiso [!UICONTROL Publicación de segmentos] a un perfil de producto en [Admin Console](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/admin-tool-experience-cloud) y agregarlo al perfil de producto.
 
 ## Consideraciones
@@ -166,7 +166,7 @@ El UUID de Adobe Audience Manager en el explorador se encuentra de forma predete
 
 En Adobe Audience Manager, la lista de visitantes con ECID para un segmento determinado se evalúa mientras que Analytics comparte segmentos con CX Enterprise.
 
-1. En Audience Manager, vaya a **[!UICONTROL Datos de audiencia]** > **[!UICONTROL Características]** > **[!UICONTROL Características de Analytics]**. Verá una carpeta para cada grupo de informes de Analytics asignada a su organización de CX Enterprise. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y Públicos/Personas.
+1. En Audience Manager, vaya a **[!UICONTROL Datos de audiencia]** > **[!UICONTROL Características]** > **[!UICONTROL Características de Analytics]**. Verá una carpeta para cada grupo de informes de Analytics asignada a su organización de Adobe. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y Públicos/Personas.
 1. Seleccione la carpeta para el grupo de informes en el que creó el segmento que quería compartir con Audience Manager. Verá el segmento o la audiencia que creó. Cuando comparte un segmento, ocurren dos cosas en Audience Manager:
    * Se crea una característica, primero sin datos en ella. Aprox. 8 horas después de que se publique el segmento en [!DNL Analytics], la lista de ECID se incorpora y comparte con Audience Manager y otras soluciones de CX Enterprise.
 
