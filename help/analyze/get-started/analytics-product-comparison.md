@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Comparación de productos y requisitos de Analytics
 
 Esta página contiene una comparación de varios productos de Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Fuentes de datos y Analytics API 2.0.
@@ -62,8 +60,8 @@ Para obtener información sobre qué producto de Adobe Analytics utilizar, consu
 | Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [API de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **Método de acceso** | [Explorador](/help/analyze/get-started/sys-reqs.md) | [MS Excel para Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/analyze/get-started/sys-reqs.md) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de Adobe Developer. [Más información](https://developer.adobe.com/analytics-apis/docs/2.0/) |
-| **Granularidad de los datos** | Agregado | Agregado | Agregado | Visita individual | Agregado |
-| **Experience Cloud ID (ECID) disponible** | No | No | Sí | Sí | No |
+| **Granularidad de los datos** | Agregado | Agregado | Agregado | Hit | Agregado |
+| **ECID disponible** | No | No | Sí | Sí | No |
 | **Marca de tiempo disponible** | No | No | No | Sí | No |
 | **Nivel de procesamiento** | Procesamiento completo | Procesamiento completo, con [informe en tiempo real](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) independiente | Procesamiento completo | Procesamiento completo | Procesamiento completo |
 | **Datos del filtro de bots de administrador incluidos** <br> [Más información](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | No | Sí: informe de bots independiente | No | No | No |

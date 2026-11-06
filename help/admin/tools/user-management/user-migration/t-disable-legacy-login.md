@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 52%
-
 ---
-
 # Desactivación de inicios de sesión heredados
 
 Obtenga información sobre cómo deshabilitar los inicios de sesión heredados para los usuarios de Analytics.
 
-Una vez que los usuarios hayan migrado del sistema de administración de usuarios de Analytics heredado a Adobe Admin Console, podrá desactivar sus inicios de sesión heredados. Deshabilitar los inicios de sesión heredados redirige a los usuarios al inicio de sesión de CX Enterprise si intentan utilizar el inicio de sesión heredado.
+Una vez que los usuarios hayan migrado del sistema de administración de usuarios de Analytics heredado a Adobe Admin Console, podrá desactivar sus inicios de sesión heredados. Al deshabilitar los inicios de sesión heredados, se redirige a los usuarios al inicio de sesión de CX Enterprise si intentan utilizar el inicio de sesión heredado.
 
 1. Abra la herramienta de migración en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Migración de ID de usuario]**.
 1. En la sección [!DNL User Information], busque el dominio que contiene los usuarios con los que desea trabajar y, a continuación, haga clic en **[!UICONTROL Seleccionar usuarios]**.
@@ -44,4 +42,4 @@ Una vez que los usuarios hayan migrado del sistema de administración de usuario
 
    Desactivar inicio de sesión heredado indica cuál de sus usuarios puede continuar utilizando el nombre de usuario y contraseña de [!DNL my.omniture.com] heredados.
 
-   No puede deshabilitar los inicios de sesión heredados para un usuario que aún no se ha migrado. Una vez desactivado, el usuario debe utilizar su Experience Cloud ID para iniciar sesión y acceder a Analytics.
+   No puede deshabilitar los inicios de sesión heredados para un usuario que aún no se ha migrado. Una vez desactivado, el usuario debe utilizar sus credenciales de CX Enterprise para iniciar sesión y acceder a Analytics.

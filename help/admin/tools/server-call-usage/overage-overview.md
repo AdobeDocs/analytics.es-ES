@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 77%
 ---
 # Uso de llamadas al servidor
@@ -69,7 +69,7 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de facturación (ID de facturación) </p> </td> 
-   <td colname="col2"> <p>La entidad legal a la que se facturan las llamadas al servidor. Por ejemplo, adobe.com. Cada empresa de facturación tiene un ID de facturación que se utiliza para identificar de forma exclusiva al cliente de facturación. Se puede asociar un ID de facturación a varias organizaciones de CX Enterprise; no siempre hay una relación 1:1 entre una organización y un ID de facturación. </p> </td> 
+   <td colname="col2"> <p>La entidad legal a la que se facturan las llamadas al servidor. Por ejemplo, adobe.com. Cada empresa de facturación tiene un ID de facturación que se utiliza para identificar de forma exclusiva al cliente de facturación. Se puede asociar un ID de facturación a varias organizaciones de Adobe; no siempre hay una relación 1:1 entre una organización y un ID de facturación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inicio de sesión de la empresa </p> </td> 
@@ -82,7 +82,7 @@ Los siguientes términos son importantes para comprender el uso de llamadas al s
     </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="/help/admin/admin-console/permissions/analytics-tools.md">permiso</a> adecuado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organización de CX Enterprise </p> </td> 
+   <td colname="col1"> <p>Organización de Adobe </p> </td> 
    <td colname="col2"> <p>Una organización es la entidad que permite a un administrador configurar grupos y usuarios, así como para controlar el inicio de sesión único en CX Enterprise. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de CX Enterprise. </p> <p>La mayoría de las veces, la organización es el nombre de empresa. Sin embargo, una empresa puede tener muchas organizaciones. </p> </td> 
   </tr> 
   <tr> 

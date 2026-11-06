@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 84%
+source-wordcount: '888'
+ht-degree: 77%
 ---
 # Resumen del reenvío del lado del servidor
 
@@ -59,14 +59,14 @@ El reenvío del lado del servidor mejora la recopilación de datos porque:
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 
-## ![imagen step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificar implementación del servicio ECID
+## ![imagen step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificar implementación del servicio de ID de visitante
 
-Compruebe si el servicio Experience Cloud ID (ECID) está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=es).
+Compruebe si el servicio de ID de visitante está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=es).
 
-En la pestaña Solicitud, compruebe que haya un valor establecido para ECID. Esto indica que el Servicio de identidad está implementado correctamente, un requisito previo para el reenvío de lado del servidor.
+En la pestaña Solicitud, compruebe que haya un valor establecido para ECID. Esto indica que el servicio de ID de visitante está implementado correctamente, un requisito previo para el reenvío del lado del servidor.
 
 * Si ve un valor para ECID, siga con el paso 2.
-* Si no ve un valor para ECID, [implemente el Servicio de identidad](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es) antes de seguir con el paso 2.
+* Si no ve un valor para ECID, [implemente el servicio de ID de visitante](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=es) antes de continuar con el paso 2.
 
 ## ![imagen step2_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Verificar la versión de implementación de reenvío del lado del servidor
 

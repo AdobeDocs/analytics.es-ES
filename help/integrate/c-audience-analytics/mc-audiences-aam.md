@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 41%
+ht-degree: 40%
 ---
 # Resumen de Audience Analytics
 
@@ -52,7 +52,7 @@ Con la integración de Audience Analytics, puede incorporar datos de audiencia d
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -85,8 +85,8 @@ Asegúrese de que se cumplen los siguientes requisitos previos:
 
 * Es cliente tanto de Audience Manager como de Adobe Analytics.
 * Es administrador de Audience Manager.
-* Utiliza Identity Service 1.5 o posterior.
-* Los grupos de informes de Adobe Audience Manager y Adobe Analytics se asignan a la misma organización de CX Enterprise.
+* Utiliza el servicio de ID de visitante v1.5 o posterior.
+* Los grupos de informes de Adobe Audience Manager y Adobe Analytics se asignan a la misma organización de Adobe.
 * Utiliza el [reenvío de lado del servidor](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=es) (sin código DIL): AppMeasurement 1.5 o posterior.
 
 Estos requisitos previos se describen en el [flujo de trabajo de Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

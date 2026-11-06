@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 18%
 ---
 # Habilitación de un grupo de informes para Advertising Analytics
@@ -36,7 +36,7 @@ Para ver los datos de búsqueda de Advertising Analytics en Analytics, debe conf
 
 1. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
-1. Seleccione el grupo de informes asignado a su organización de CX Enterprise.
+1. Seleccione el grupo de informes asignado a su organización de Adobe.
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Configuración de Advertising Analytics]**.
 
    ![Creación de informes](assets/aa-reporting.png)

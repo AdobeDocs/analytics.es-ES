@@ -1,6 +1,6 @@
 ---
 title: ID de visitante de Experience Cloud
-description: El Experience Cloud ID (ECID) del visitante, disponible en Data Warehouse.
+description: El ECID del visitante, disponible en Data Warehouse.
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # ID de visitante de Experience Cloud
 
@@ -40,12 +40,12 @@ La &quot;ID de visitante de Experience Cloud&quot; [dimension](overview.md) prop
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión requiere una implementación que utilice el servicio de ID de visitante (VisitorAPI) o el servicio de ID de Experience Platform. Corresponde a la columna `mcvisid` de las fuentes de datos. Consulte [Referencia de columna de datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obtener más información.
+Esta dimensión requiere una implementación que utilice el servicio de ID de visitante (VisitorAPI) o Web SDK. Corresponde a la columna `mcvisid` de las fuentes de datos. Consulte [Referencia de columna de datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) para obtener más información.
 
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | Ninguno (lo establece el servicio de ID de visitante de Adobe) |
-| **Campo Web SDK / XDM** | Ninguno (configurado por el servicio de identidad de Experience Platform) |
+| **Campo Web SDK / XDM** | Ninguno (configurado por Edge Network) |
 | **Parámetro de consulta** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | n/a |

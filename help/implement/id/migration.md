@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Consideraciones sobre la migración del servicio de ID de visitante para Adobe Analytics
 
 Si su organización planea pasar al servicio de ID de visitante con una implementación de Analytics existente, hay que tener en cuenta algunos temas importantes. Estas consideraciones le permiten conservar la integridad de identificación del visitante y comprender cómo funciona el servicio de ID de visitante en presencia de una implementación de Analytics existente.
 
 >[!TIP]
 >
->Esta página solo se aplica a las implementaciones de extensión de AppMeasurement o Analytics existentes y agrega el servicio de ID de visitante o actualiza a una implementación de Web SDK. En otras palabras, su implementación utiliza un ID de Analytics heredado (`aid`) y se está acercando al uso de un ECID (`mid`). Todas las implementaciones de Web SDK utilizan el [servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home), que usa un ECID (`mid`) de forma predeterminada.
+>Esta página solo se aplica a las implementaciones de extensión de AppMeasurement o Analytics existentes y agrega el servicio de ID de visitante o actualiza a una implementación de Web SDK. En otras palabras, su implementación utiliza un ID de Analytics heredado (`aid`) y se está acercando al uso de un ECID (`mid`). Todas las implementaciones de Web SDK usan [Edge Network identity](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview), que usa un ECID (`mid`) de forma predeterminada.
 
 ## Interacción del servicio de ID de visitante con cookies de visitante de Analytics heredadas
 
@@ -57,8 +55,8 @@ Si coordina la implementación del servicio de ID de visitante en todas las áre
 
 Algunas implementaciones de ID de visitante de Analytics heredadas pueden utilizar &quot;cookies de terceros descriptivas&quot;, en las que dos dominios comparten la misma cookie de visitante en un dominio común como `data.example.com`. Dado que las cookies de terceros sencillas siguen siendo cookies de terceros, muchos exploradores modernos las rechazan, lo que provoca que Analytics dependa de un ID de reserva (`fid`) para la identificación del visitante. El paso al servicio de ID de visitante permite a todos los dominios establecer la cookie `AMCV` en un contexto de origen, lo que aumenta su viabilidad para conservar un ID de visitante.
 
-Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` &#x200B;](https://experienceleague.adobe.com/es/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el ECID (`mid`) de un visitante entre sus dominios.
+Aunque el servicio de ID de visitante intenta establecer una cookie de terceros para el seguimiento entre dominios (la cookie [`demdex` ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), los exploradores modernos suelen rechazarla. Considere utilizar el método [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) para pasar el ECID (`mid`) de un visitante entre sus dominios.
 
 ## Seguimiento del lado del servidor
 
-Puede llamar a [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getmcvid) para obtener el ECID (`mid`) y a [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/es/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) para obtener el ID de Analytics heredado (`aid`). Adobe recomienda comprobar ambos para conservar la lógica de identificación del visitante.
+Puede llamar a [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) para obtener el ECID (`mid`) y a [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) para obtener el ID de Analytics heredado (`aid`). Adobe recomienda comprobar ambos para conservar la lógica de identificación del visitante.

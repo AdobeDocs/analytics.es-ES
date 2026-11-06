@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 92%
 ---
 # Ver/administrar el etiquetado de privacidad para la gobernanza de datos
@@ -59,7 +59,7 @@ El cuadro de diálogo **[!UICONTROL Etiquetado de privacidad para la gobernanza 
 | **[!UICONTROL Confidencialidad]** | Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial. [Más información](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
 | **[!UICONTROL Acceso a RGPD]** | Las etiquetas de gobernanza de datos confieren a los usuarios la capacidad de clasificar datos que reflejen consideraciones relacionadas con la privacidad y condiciones contractuales a fin de cumplir las normativas y las políticas corporativas. [Más información](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
 | **[!UICONTROL Eliminación de RGPD]** | Se requiere una etiqueta de eliminación únicamente para los campos que contienen un valor que pueda permitir la visita con los datos del sujeto (por ejemplo, que permita la identificación del sujeto). [Más información](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
-| Espacio de nombres **&#x200B;**&#x200B;| Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un espacio de nombres. Puede utilizar un espacio de nombres definido anteriormente o definir uno nuevo. |
+| Espacio de nombres **** | Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un espacio de nombres. Puede utilizar un espacio de nombres definido anteriormente o definir uno nuevo. |
 | **[!UICONTROL Categoría]** | Hace referencia al tipo de componente, como componente estándar, variable de conversión, etc. |
 
 {style="table-layout:auto"}
@@ -79,7 +79,7 @@ Si desea aplicar la misma configuración de privacidad de datos a más de un gru
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de CX Enterprise.
+   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de Adobe.
 
    Cuando copia las etiquetas de una variable o establece variables en distintos grupos de informes, la copia se dirige a la variable de la posición correspondiente en el grupo de informes de destino. Para los componentes estándar, las variables de lista y los eventos de éxito, las etiquetas se copiarán en la variable con el **mismo nombre** en el grupo de informes de destino.
 

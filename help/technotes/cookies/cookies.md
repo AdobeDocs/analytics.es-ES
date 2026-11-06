@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics y cookies de explorador
@@ -84,9 +84,9 @@ Las políticas de ITP evolucionan con frecuencia. Para ver las políticas más r
 
 Todas las cookies de origen configuradas por Adobe y las bibliotecas de JavaScript relacionadas se ven afectadas por las políticas de ITP:
 
-* [&#x200B; cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del Servicio de ID de visitante (ECID) de Adobe
-* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos de origen mediante un CNAME
-* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
+* [ cookies &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=es) establecidas por la biblioteca del servicio de ID de visitante de Adobe
+* La [cookie &quot;s_vi&quot;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) heredada de Analytics cuando se configura con la recopilación de datos propios mediante un CNAME
+* La cookie [&quot;s_fid&quot; heredada de Analytics](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), que es la cookie de reserva que se usa cuando &quot;s_vi&quot; no se puede configurar
 
 #### ¿Cuál es el impacto de ITP en Safari para Analytics?
 

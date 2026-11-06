@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # Compartir proyectos {#share-projects}
@@ -73,7 +73,7 @@ Cualquier [depuración](curate.md) que haya aplicado antes del uso compartido se
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir proyectos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -189,7 +189,7 @@ Puede conceder [acceso de solo lectura](/help/analyze/analysis-workspace/curate-
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir un vínculo con alguien](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -214,7 +214,7 @@ Para compartir un proyecto de Analysis Workspace con personas que no tienen acce
 
    * **[!UICONTROL Requerir autenticación de CX Enterprise]:**
 
-     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe CX Enterprise en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Adobe Analytics.
+     Cuando esta opción está habilitada, los únicos usuarios que pueden acceder al proyecto son los que pueden iniciar sesión en la organización de Adobe en la que se creó el proyecto que está compartiendo. Sin embargo, no es necesario que los usuarios con los que comparte tengan acceso a Adobe Analytics.
 
      Los administradores de Analytics pueden configurar esta preferencia para la compañía, como se describe en [Preferencias](/help/analyze/analysis-workspace/user-preferences.md). Dependiendo de cómo haya configurado esta opción el administrador, puede encontrarse con los siguientes escenarios:
 
@@ -244,7 +244,7 @@ Puede compartir los componentes incrustados que forman parte del proyecto.
 
 >[!BEGINSHADEBOX]
 
-Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/327499?captions=spa&quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
+Vea ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Compartir componentes incrustados](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 

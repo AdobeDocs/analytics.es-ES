@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # Visitantes con Experience Cloud ID
 
-La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud ID]&#39; muestra el número de visitantes únicos identificados por Adobe con un ECID (mediante el [Servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o el [Servicio de identidad de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/identity/home)). Esta métrica es útil para compararla con la métrica [Visitantes únicos](unique-visitors.md) a fin de asegurarse de que la mayoría de los visitantes del sitio use un ECID. Si una gran parte de los visitantes no utiliza este identificador, puede indicar un problema en la implementación.
+La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud ID]&#39; muestra el número de visitantes únicos identificados por Adobe con un ECID (mediante el [servicio de ID de visitante](https://experienceleague.adobe.com/es/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). Esta métrica es útil para compararla con la métrica [Visitantes únicos](unique-visitors.md) a fin de asegurarse de que la mayoría de los visitantes del sitio use un ECID. Si una gran parte de los visitantes no utiliza este identificador, puede indicar un problema en la implementación.
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ La [métrica](overview.md) de &#39;[!UICONTROL Visitantes con Experience Cloud I
 
 ## Cálculo de esta métrica
 
-Esta métrica se basa en la métrica [visitantes únicos](unique-visitors.md), excepto que solo incluye personas identificadas mediante la `mid`cadena de consulta (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/cookies/analytics)).
+Esta métrica se basa en la métrica [visitantes únicos](unique-visitors.md), excepto que solo incluye personas identificadas mediante la `mid`cadena de consulta (basada en la cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Depurar la configuración de ECID
 
-La métrica &quot;[!UICONTROL Visitantes con Experience Cloud ID]&quot; puede resultar útil para solucionar problemas de integraciones de CX Enterprise o identificar áreas del sitio que no tienen implementado el servicio de ID de visitante o el servicio de Experience Platform ID.
+La métrica &quot;[!UICONTROL Visitantes con Experience Cloud ID]&quot; puede resultar útil para solucionar problemas de integraciones de CX Enterprise o identificar áreas del sitio que no tienen implementado el servicio de ID de visitante o Web SDK.
 
 Arrastre los &#39;[!UICONTROL visitantes con Experience Cloud ID]&#39; en paralelo con los visitantes únicos para compararlos:
 

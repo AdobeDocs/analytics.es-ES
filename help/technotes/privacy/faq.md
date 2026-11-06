@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 86%
 ---
 # Preguntas frecuentes sobre privacidad de Adobe Analytics
@@ -87,11 +87,11 @@ Para obtener más información sobre las etiquetas de gobernanza de datos, consu
 
 Normalmente, los clientes de Analytics configuran algunos grupos de informes de prueba para verificar la funcionalidad antes de que se publique al público general. Las aplicaciones o los sitios web de preproducción envían datos a estos grupos de informes de prueba, desarrollo o control de calidad para evaluar cómo funcionará todo cuando el código se publique antes de que el tráfico real se envíe a los grupos de informes de producción.
 
-Sin embargo, con una configuración normal, el procesamiento de solicitudes de RGPD no se puede probar primero en estos grupos de informes de prueba antes de aplicar solicitudes a los grupos de informes de producción. Esto se debe a que una solicitud amparada en la privacidad de datos se aplica automáticamente a todos los grupos de informes de la organización de CX Enterprise, que a menudo son todos los grupos de informes de su empresa.
+Sin embargo, con una configuración normal, el procesamiento de solicitudes de RGPD no se puede probar primero en estos grupos de informes de prueba antes de aplicar solicitudes a los grupos de informes de producción. Esto se debe a que una solicitud amparada en la privacidad de datos se aplica automáticamente a todos los grupos de informes de la organización de Adobe, que a menudo son todos los grupos de informes de su empresa.
 
 Con todo, hay varias maneras de probar el procesamiento de privacidad de datos antes de aplicarlo a todos los grupos de informes:
 
-* Una opción consiste en configurar una organización de CX Enterprise independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de CX Enterprise para sus pruebas de privacidad de datos y su organización normal de CX Enterprise para el procesamiento real de la privacidad de datos.
+* Una opción es configurar una organización independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización para sus pruebas de privacidad de datos y su organización normal para el procesamiento real de la privacidad de datos.
 
 * Otra opción consiste en asignar diferentes espacios de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción. Por ejemplo, puede utilizar el prefijo “qa-” en cada espacio de nombres en los grupos de informes de prueba. Al enviar solicitudes de privacidad de datos con solo espacios de nombres con el prefijo qa, estas solicitudes se ejecutarán únicamente en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Este es el método recomendado, a menos que utilice los espacios de nombres `visitorId`, AAID, ECID o `customVisitorId`. Estos espacios de nombres están codificados y no se pueden especificar nombres alternativos en los grupos de informes de prueba.**
 
