@@ -19,26 +19,30 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 38%
+source-wordcount: '317'
+ht-degree: 36%
 ---
 # Atribución algorítmica
+
+>[!NOTE]
+>
+>Debe tener el paquete **Ultimate** para usar la funcionalidad descrita en esta sección. Póngase en contacto con su administrador si no está seguro de qué paquete de Adobe Analytics tiene.
 
 El [modelo de atribución](models.md) algorítmica en Analysis Workspace difiere de otros modelos en que utiliza técnicas estadísticas para asignar crédito entre los elementos de dimensión del informe o la tabla de forma libre. Al igual que todos los demás modelos de atribución en Analysis Workspace, la atribución algorítmica se puede utilizar en cualquier dimensión o métrica. La atribución algorítmica admite segmentación y desgloses ilimitados y distribuye el 100 % de las conversiones a una o más dimensiones de la tabla (también conocida como atribución &quot;fraccional&quot;).
 
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Atribución algorítmica](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/algorithmic-model-in-attribution-iq){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
 
 El algoritmo utilizado para la atribución se basa en el dividendo de Harsanyi de la teoría de juegos cooperativa. El dividendo de Harsanyi es una generalización de la solución del valor de Shapley (llamada así por Lloyd Shapley, economista ganador del Premio Nobel) para distribuir crédito entre los jugadores en un juego con contribuciones desiguales al resultado.
 
-En un nivel superior, el cálculo de atribución del crédito de conversión para cada punto de contacto considera cada uno de los puntos de contacto de marketing dentro de una ventana retrospectiva como una coalición de actores. Para esa coalición de actores, se debe distribuir equitativamente un superávit. La distribución del superávit de cada coalición se determina desde hasta el superávit que cada subcoalición creó recursivamente anteriormente.
+El cálculo de atribución del crédito de conversión para cada punto de contacto considera cada uno de los puntos de contacto de marketing dentro de una ventana retrospectiva como una coalición de actores. Para esa coalición de actores, se debe distribuir equitativamente un superávit. La distribución del superávit de cada coalición se determina a partir del superávit que cada subcoalición creó recursivamente con anterioridad.
 
 Para más detalles, vea los artículos originales de John Harsanyi y Lloyd Shapley:
 
