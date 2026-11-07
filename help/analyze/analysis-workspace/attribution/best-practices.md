@@ -20,17 +20,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 64%
+source-wordcount: '445'
+ht-degree: 58%
 ---
 # Prácticas recomendadas de atribución
 
 Elegir el modelo de atribución correcto para su organización depende de una serie de consideraciones. Este artículo explora una metodología y algunas prácticas recomendadas generales:
 
 * [Análisis exploratorio](#exploratory-analysis)
-* [Atribuciones basadas en reglas](#rule-base-attribution)
+* [Atribución basada en reglas](#rule-based-attribution)
 * [Uso de atribución algorítmica](#use-algorithmic-attribution)
 
 ## Análisis de exploración
@@ -44,11 +44,11 @@ Esta fase consiste inicialmente en comprender el comportamiento del cliente y de
 * La proporción/distribución de estos comportamientos
 
 Por ejemplo, si el 50 % de los clientes tocan tres canales antes de la conversión, ¿existe interacción entre esos tres canales?
-A continuación puede realizar análisis de embudo superior e inferior para ampliar su comprensión.
+Para ampliar su comprensión, realice análisis de funnel superiores e inferiores.
 
 ### Análisis del embudo superior
 
-Los embudos de análisis del embudo superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Puede usar el [modelo de atribución Time Decay](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV con el tiempo.
+Los embudos de análisis del embudo superior se utilizan para concienciar sobre la marca o el producto. Por ejemplo, el objetivo de la mayoría de los anuncios de TV es la imagen de marca. Use el [modelo de atribución Time Decay](/help/analyze/analysis-workspace/attribution/models.md), ya que las personas se olvidarán de su anuncio de TV con el tiempo.
 
 ### Análisis de embudo inferior
 
@@ -62,15 +62,19 @@ El propósito de este paso es validar las hipótesis.
 
 Supongamos que su hipótesis es: &quot;*Mi canal de primer contacto tiene más impacto en la conversión que mi canal de último contacto.*&quot;
 
-En este caso, debe usar el [modelo de atribución en forma de J invertida](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
+En este caso, use el [modelo de atribución en forma de J inverso](/help/analyze/analysis-workspace/attribution/models.md) para probar esta hipótesis. Este modelo proporciona el 60 % del crédito al primer punto de contacto.
 
 **Ejemplo 2**
 
-Supongamos que su hipótesis es: *&quot;En un sector específico (como el de los viajes), la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar un producto.*&quot;
+Supongamos que su hipótesis es: *&quot;En la industria de viajes, la ventana de atribución es de 60 o 90 días, no de 30, porque los clientes investigan mucho antes de comprar.&quot;*
 
-En este caso, cambiaría su [ventana retrospectiva](/help/analyze/analysis-workspace/attribution/models.md) a 90 días.
+En este caso, cambie su [ventana retrospectiva](/help/analyze/analysis-workspace/attribution/models.md) a 90 días.
 
 ## Uso de atribución algorítmica
+
+>[!NOTE]
+>
+>Debe tener el paquete **Ultimate** para usar la atribución algorítmica. Póngase en contacto con su administrador si no está seguro de qué paquete de Adobe Analytics tiene.
 
 Si todavía no tiene un modelo de atribución que proporcione respuestas satisfactorias a todas las preguntas, puede emplear [atribución algorítmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Como es muy difícil validar un gran número de hipótesis y combinaciones posibles, la atribución algorítmica recurre a algoritmos integrados para asignar crédito entre elementos de dimensión.
 
