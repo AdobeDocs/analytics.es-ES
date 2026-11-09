@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 24%
-
 ---
-
 # Casos de uso de reglas de procesamiento
 
 Las aplicaciones de cómo puede utilizar las reglas de procesamiento en su organización son amplias. En las secciones siguientes se describen algunas formas comunes de utilizarlas para su propio beneficio.
@@ -149,7 +147,7 @@ Adobe recomienda utilizar la opción de coincidencia más restrictiva posible pa
 
 +++
 
-+++Eliminar un evento de una visita
++++Eliminar un evento de un hit
 
 Puede eliminar o descartar un evento específico de una visita mediante reglas de procesamiento sin alterar la implementación. Si establece el evento en el valor personalizado `0`, el evento no se contará.
 
@@ -157,6 +155,6 @@ Puede eliminar o descartar un evento específico de una visita mediante reglas d
 | Condición | Ninguno (ejecutar siempre) |
 | Acción | [!UICONTROL Establecer evento] Event1 en [!UICONTROL Valor personalizado] `0` |
 
-![Captura de pantalla de la interfaz de reglas de procesamiento que muestra a para quitar un evento](assets/remove_event.png)
+![Captura de pantalla de la interfaz de reglas de procesamiento que muestra cómo quitar un evento](assets/remove_event.png)
 
 +++

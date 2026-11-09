@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 23%
-
 ---
-
 # Uso de funciones de Report Builder con Microsoft Excel
 
 {{legacy-arb}}
@@ -48,7 +46,7 @@ En la tabla siguiente se enumeran las funciones expuestas.
 | AsyncRefreshActiveWorksheet() | string | Actualiza todas las solicitudes de Report Builder presentes en el libro activo. |
 | AsyncRefreshWorksheet(string nombreHojaDeCálculo) | string | Actualiza todas las solicitudes de Report Builder presentes en el libro especificado (el nombre del libro tal y como aparece en la ficha). |
 | AsyncRefreshWorksheetAltTextParam(); | string | Actualiza todas las solicitudes de Report Builder presentes en el libro concreto que se pasó por el Texto alternativo de MS Form Control. |
-| String GetLastRunStatus() | string | Devuelve una cadena que describe el estado de la última ejecución. |
+| GetLastRunStatus() | string | Devuelve una cadena que describe el estado de la última ejecución. |
 
 Para tener acceso a las funciones de Report Builder, vaya a **[!UICONTROL Fórmulas]** > **[!UICONTROL Insertar función]**. Utilice el campo de búsqueda para buscar una función o seleccione una categoría para enumerar las funciones de esa categoría.
 

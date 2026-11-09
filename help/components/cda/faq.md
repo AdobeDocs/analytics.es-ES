@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # Preguntas frecuentes
 
@@ -59,7 +59,7 @@ Puede utilizar una visualización de [!UICONTROL flujo] con la dimensión Tipo d
 
 1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
 2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
-3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión “Tipo de dispositivo móvil” a la ubicación central denominada “Dimensión o elemento”.
+3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión &quot;Tipo de dispositivo móvil&quot; a la ubicación central denominada &quot;Dimension o elemento&quot;.
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 +++
@@ -134,7 +134,7 @@ Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidore
 
 1. Con una sesión iniciada en Analysis Workspace, vaya a [!UICONTROL Ayuda] > [!UICONTROL Habilitar depurador].
 2. Haga clic en el icono de depuración en el panel deseado y, a continuación, seleccione la visualización y la hora deseadas de la solicitud.
-3. Busque la solicitud JSON, que puede utilizar en su llamada de API a Adobe.
+3. Busque la solicitud JSON, que puede utilizar en su llamada API a Adobe.
 
 +++
 

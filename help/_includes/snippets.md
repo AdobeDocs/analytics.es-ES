@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -99,7 +99,7 @@ Un contenedor de atribución define el ámbito deseado para la atribución. Las 
 * **Visita**: examina las conversiones desde el ámbito del contenedor de la visita. Cuando se selecciona **[!UICONTROL Visita]**, la [Ventana de retrospección de atribución](#atribution-lookback-window) se establece automáticamente en **[!UICONTROL Ventana de creación de informes]** y no se puede cambiar.
 * **Visitante**: examina las conversiones desde el ámbito del contenedor del visitante.
 
-## Ventana de retrospección de atribución {#attribution-lookback-window}
+## Ventana retrospectiva de atribución {#attribution-lookback-window}
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Si un elemento de dimensión se establece fuera de la ventana de retrospección, el valor no se incluye en ningún cálculo de atribución.
 
@@ -165,7 +165,7 @@ Utilice la siguiente información para elegir la visualización que mejor se ada
 
 | Grupo de informes | Descripción |
 |---|---|
-| ![Grupo de informes](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Grupo de informes]** le permite filtrar por grupos de informes. <ul><li>Puede ![Búsqueda](/help/assets/icons/Search.svg) *Buscar grupos de informes* para buscar grupos de informes que puede utilizar para filtrar.</li><li>Puede seleccionar más de un grupo de informes. Los grupos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de grupos de informes seleccionados (si se seleccionan uno o más grupos de informes).</li><li>**5︎⃣**: el número de grupos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados al grupo de informes específico.</li></ul></li></ul> |
+| ![Grupo de informes](/help/assets/filter-reportsuite.png){width="300"} | La sección **[!UICONTROL Grupo de informes]** le permite filtrar los grupos de informes. <ul><li>Puede ![Búsqueda](/help/assets/icons/Search.svg) *Buscar grupos de informes* para buscar grupos de informes que puede utilizar para filtrar.</li><li>Puede seleccionar más de un grupo de informes. Los grupos de informes disponibles dependen de las selecciones realizadas en otras secciones del panel de filtro.</li><li>Los números indican lo siguiente:<ul><li>**(1)**: el número de grupos de informes seleccionados (si se seleccionan uno o más grupos de informes).</li><li>**5︎⃣**: el número de grupos de informes disponibles para los elementos resultantes del filtro actual.</li><li>4︎⃣: el número de elementos asociados al grupo de informes específico.</li></ul></li></ul> |
 
 ## Sección de filtro Estado habilitado {#enabledstatusfiltersection}
 

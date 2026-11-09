@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Actualizaciones de documentación técnica para Adobe Analytics
@@ -206,7 +206,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Septiembre de 2023** | |
 | Estructura actualizada de los artículos del panel Tiempo empleado en la reproducción de medios | Se ha eliminado la carpeta denominada Tiempo empleado en la reproducción de medios y se ha combinado el contenido de la carpeta en un solo artículo: [Panel Tiempo empleado en la reproducción de medios](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Este cambio está más en línea con la documentación de otros paneles.</p> |
 | Introducción a las mejoras de contenido | Se ha añadido información en la que se describen las tareas y recursos clave de introducción para administradores, analistas, usuarios finales y desarrolladores. Están disponibles las siguientes nuevas correcciones rápidas: <ul><li>[Introducción (por función)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Explicación de la interfaz de Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casos de uso](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Mejoras en la documentación de creación de informes para la colección de medios de streaming | Se ha reorganizado parte del contenido de la sección de creación de informes de la guía de la colección de medios de streaming, incluida la consolidación de la documentación de la API en su propia sección y el ajuste del orden de algunos artículos. |
+| Mejoras en la documentación de creación de informes para la colección de medios de streaming | Se ha reorganizado parte del contenido de la sección Informes de la guía de recopilación de medios de streaming, incluida la consolidación de la documentación de la API en su propia sección y el ajuste del orden de algunos artículos. |
 | **Agosto de 2023** | |
 | Aclaración sobre la fuente de datos | Se ha actualizado [la definición de las fechas de inicio y finalización](/help/export/analytics-data-feed/create-feed.md) para aclarar que, al procesar fuentes de datos para datos históricos, puede establecer la fecha de inicio en cualquier fecha en el pasado en que se recopilen datos. |
 | Administración de datos de la red Edge de Adobe Experience Platform | Se ha añadido contenido sobre cómo Adobe Analytics [administra datos de la red Edge](../implement/aep-edge/overview.md). |
@@ -240,7 +240,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Abril de 2023** | |
 | Transferir recursos de usuario y establecer caducidades de cuenta | Se ha añadido información sobre cómo [transferir recursos de usuario y establecer caducidades de cuenta](/help/admin/tools/user-management/users-assets.md). |
 | 2 nuevas guías de punto final para la API de Adobe Analytics 2.0 | <ul><li>[API de dimensiones de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API de métricas de Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Segmentos de proyecto (segmentos ad hoc y rápidos) | Se ha simplificado la documentación acerca de los segmentos del proyecto y se ha eliminado la información duplicada. Los pasos para crear segmentos ad hoc ahora se combinan con los pasos para [crear segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Segmentos de proyecto (segmentos ad hoc y rápidos) | Se ha optimizado la documentación acerca de los segmentos del proyecto y se ha eliminado la información duplicada. Los pasos para crear segmentos ad hoc ahora se combinan con los pasos para [crear segmentos rápidos](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Búsquedas dinámicas | Se ha añadido información adicional sobre las [búsquedas dinámicas](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Anteriormente, la información solo existía para atributos móviles, que es una de las varias búsquedas dinámicas. |
 | **Marzo de 2023** | |
 | Compatibilidad del SDK web con Activity Map | Actualización de la [implementación de Adobe Analytics](/help/implement/home.md). |
@@ -361,7 +361,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | **Octubre de 2020** | |
 | 23 de octubre de 2020 | Visualización Línea del Espacio de trabajo: [Opción de línea de tendencia promedio móvil](/help/analyze/analysis-workspace/visualizations/line.md): Esta configuración se ha añadido a la configuración de la línea de tendencia de visualización de [!UICONTROL Línea]. Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
 | 23 de octubre de 2020 | La [página Ayuda de rendimiento](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) del Espacio de trabajo muestra los diferentes factores que afectan al rendimiento del proyecto y los vínculos a sugerencias para la optimización. |
-| 23 de octubre de 2020 | Se han añadido mejoras a la documentación de los paneles de Adobe Analytics. El estilo del cuadro de resultados móvil en el Espacio de trabajo ahora coincide con la aplicación. |
+| 23 de octubre de 2020 | Se han añadido mejoras a la documentación de paneles de Adobe Analytics. El estilo del cuadro de resultados móvil en el Espacio de trabajo ahora coincide con la aplicación. |
 | **Septiembre de 2020** | |
 | 17 de septiembre de 2020 | [Descargar 50 000 elementos para una sola dimensión](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items): Ahora puede descargar 50 000 elementos para una sola dimensión en una tabla de forma libre, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
 | 17 de septiembre de 2020 | [Mejoras en la visualización de Línea](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |

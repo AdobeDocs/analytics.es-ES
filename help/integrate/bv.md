@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -256,4 +256,4 @@ Esta sección es para revisión interna y debe eliminarse antes de publicar.
 
 ## Integración saliente
 
-Esta guía cubre únicamente la Visibilidad de la marca de entrada, que añade datos sobre el tráfico de bots y agentes automatizados a un grupo de informes de Analytics. En la documentación de integración publicada también se describe una dirección de salida en la que los datos de rendimiento de Analytics se ponen a disposición de la Visibilidad de la marca dentro del producto de Visibilidad de la marca. Esa dirección está fuera del ámbito de esta guía. Consulte el [documento de Visibilidad de la marca](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/adobe-analytics-integration) para obtener más información sobre la integración saliente.
+Esta guía cubre únicamente la Visibilidad de la marca de entrada, que añade datos sobre el tráfico de bots y agentes automatizados a un grupo de informes de Analytics. En la documentación de integración publicada también se describe una dirección de salida en la que los datos de rendimiento de Analytics se ponen a disposición de la Visibilidad de la marca dentro del producto de Visibilidad de la marca. Esa dirección está fuera del ámbito de esta guía. Consulte la [documentación de Visibilidad de la marca](https://experienceleague.adobe.com/es/docs/brand-visibility/using/resources/adobe-analytics-integration) para obtener más información sobre la integración saliente.
