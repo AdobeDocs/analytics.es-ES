@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 95%
@@ -39,7 +39,7 @@ Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
 
 * Implementación de trabajo que envía datos a los servidores de recopilación de datos de Adobe. Consulte [Validación y publicación de una implementación](/help/implement/launch/validate-publish-prod.md) en la guía de implementación.
 * Su cuenta es un administrador de productos de Analytics o pertenece a un perfil de producto con acceso a fuentes de datos.
-* Un contenedor configurado en Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.
+* Un bloque configurado en Amazon S3, Google Cloud Platform, Azure RBAC o Azure SAS.
 * (Heredado: solo es necesario para tipos de destino FTP y SFTP heredados) Tenga a mano un sitio FTP y credenciales (credenciales de FTP proporcionadas por su organización).
 
 ## Pasos siguientes
@@ -49,7 +49,7 @@ Los siguientes recursos le ayudan a comprender el flujo de trabajo básico de la
 * [Prácticas recomendadas para fuentes de datos](/help/export/analytics-data-feed/data-feeds-best-practices.md): prácticas recomendadas para crear y administrar fuentes de datos.
 * [Crear una fuente de datos](create-feed.md): Detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
 * [Administrar fuentes de datos](df-manage-feeds.md): Más información sobre cómo navegar por la interfaz de la fuente de datos
-* [Contenido de la fuente de datos](c-df-contents/datafeeds-contents.md): Comprender los elementos incluidos en un archivo <!-- Is this still the output users can download from the destination? I aske Jun. --> comprimido
+* [Contenido de la fuente de datos](c-df-contents/datafeeds-contents.md): Comprender los elementos incluidos en un archivo <!-- Is this still the output users can download from the destination? I asked Jun. --> comprimido
 * [Definiciones de columnas de datos](c-df-contents/datafeeds-reference.md): una lista completa de todas las columnas disponibles.
 
 >[!BEGINSHADEBOX]
@@ -62,6 +62,6 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navegar por
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Buscar su ID de fuente de datos](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]

@@ -18,13 +18,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 86%
-
+source-wordcount: '216'
+ht-degree: 82%
 ---
-
 # Paletas de colores de visualización {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -48,7 +46,7 @@ Puede cambiar la paleta de colores de visualización que se utiliza en Workspace
 Recuerde:
 
 * Hay cinco paletas de colores predefinidas para elegir. La paleta predeterminada y la segunda que aparece listada se han optimizado para lograr un mejor contraste y son más accesibles para los daltónicos.
-* Las otras paletas se han optimizado para lograr la armonía de colores.
+* Las otras paletas se han optimizado para lograr la armonía de color.
 
 ## Para cambiar la paleta de color:
 
@@ -85,7 +83,7 @@ Keep in mind:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/328103?captions=spa&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Using a custom color palette](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

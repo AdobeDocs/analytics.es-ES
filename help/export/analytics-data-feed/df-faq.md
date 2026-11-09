@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1507'
 ht-degree: 72%
 ---
 # Preguntas frecuentes sobre las fuentes de datos
@@ -121,13 +121,13 @@ Cuando haya comprobado/corregido el problema de entrega, ejecute de nuevo el tra
 
 **BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros contenedores.
 
-El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un contenedor, a continuación crea un usuario que tiene permiso para crear objetos en ese contenedor y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc). Funciona de un modo similar a la entrega por FTP.
+El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un bloque, a continuación crea un usuario que tiene permiso para crear objetos en ese bloque y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc). Funciona de un modo similar a la entrega por FTP.
 
-AWS también permite a los usuarios crear objetos en un contenedor que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros contenedores. Si el usuario A crea un contenedor llamado “contenedorA”, puede crear una política que permita explícitamente que el usuario B cree objetos en el contenedorA, aunque el contenedor no pertenezca al usuario. Esta directiva puede ser beneficiosa porque no es necesario que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de contenedor que diga “permitir al usuario B crear objetos en el contenedorA”.
+AWS también permite a los usuarios crear objetos en un bloque que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros bloques. Si el usuario A crea un bloque llamado “bloqueA”, puede crear una política que permita explícitamente que el usuario B cree objetos en el bloqueA, aunque el bloque no pertenezca al usuario. Esta directiva puede ser beneficiosa porque no es necesario que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bloque que diga “permitir al usuario B crear objetos en el bloqueA”.
 
-Sin embargo, los objetos no heredan permisos del contenedor principal. Por tanto, si el usuario B carga un objeto al bloque del usuario A, el usuario B todavía “posee” ese objeto y, por defecto, no se han concedido permisos al usuario A sobre ese objeto, aunque el usuario A posea el contenedor. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del contenedor (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el objeto sea “propiedad” del usuario B.
+Sin embargo, los objetos no heredan permisos del bloque principal. Por tanto, si el usuario B carga un objeto al bloque del usuario A, el usuario B todavía “posee” ese objeto y, por defecto, no se han concedido permisos al usuario A sobre ese objeto, aunque el usuario A posea el contenedor. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para conceder este permiso, el usuario B debe cargar el objeto con un BucketOwnerFullControl ACL, que especifica que el propietario del contenedor (usuario A) tiene permisos totales para el objeto (leer, escribir, eliminar, etc.), aunque el objeto sea “propiedad” del usuario B.
 
 >[!NOTE]
 >
->Adobe Analytics no determina si el contenedor tiene una política que requiera dar al propietario del contenedor total control de nuevos objetos, o incluso si el propietario del contenedor está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, Analytics agrega automáticamente el propietario del contenedor a la ACL de `BucketOwnerFullControl` con cada carga de fuente.
+>Adobe Analytics no determina si el bloque tiene una política que requiera dar al propietario del bloque total control de nuevos objetos, o incluso si el propietario del bloque está en una cuenta diferente a la del usuario que escribe los datos. En su lugar, Analytics agrega automáticamente el propietario del bloque a la ACL de `BucketOwnerFullControl` con cada carga de fuente.
 

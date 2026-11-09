@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # Consideraciones sobre el grupo de informes globales
 
@@ -66,7 +66,7 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 * **No se necesita más de un grupo de informes:** todos los datos se pueden recopilar en un solo grupo de informes, por lo que es menos probable que un programador envíe datos por error al grupo de informes equivocado.
 * **No es necesario realizar resúmenes:** los resúmenes son una característica bastante antigua que agrega datos de grupos de informes individuales diariamente. Los resúmenes no anulan la duplicación de datos de visitas o visitantes, lo que puede provocar un aumento de las cifras. Consulte [Resúmenes](../../admin/tools/manage-rs/rollup-report-suite.md) en la guía del usuario de administración para obtener más información.
 * **Ahorre tiempo:** los proyectos, las clasificaciones, los segmentos y las métricas calculadas de Workspace están vinculados al mismo grupo de informes globales. Los administradores invierten menos tiempo en administrar estos componentes y la gobernanza de datos.
-* **Atribución más precisa entre marcas:** si una visita comienza en un sitio y luego hace clic en otro antes de activar un evento de éxito, la atribución se recopila con precisión. Por ejemplo: un visitante hace clic en un vínculo de búsqueda pagada y accede al sitio A. Luego hace clic en un vínculo al sitio B, para después realizar una compra. Un grupo de informes globales atribuye correctamente la compra a la búsqueda pagada.
+* **Atribución más precisa entre marcas:** si una visita comienza en un sitio y luego hace clic en otro antes de activar un evento de éxito, la atribución se recopila con precisión. Por ejemplo, un visitante hace clic en un vínculo de búsqueda de pago y aterriza en el sitio A. Luego hacen clic en un vínculo al sitio B y luego realizan una compra. Un grupo de informes globales atribuye correctamente la compra a la búsqueda pagada.
 * **Implementación simplificada:** dado que todas las marcas y sitios envían datos al mismo grupo de informes, las implementaciones de cada sitio se alinean. Este control obligatorio garantiza que una dimensión o métrica específica se guarde en la misma eVar o en el mismo evento. Esta simplificación beneficia a administradores, probadores, propietarios de administración de etiquetas y analistas.
 
 >[!NOTE]

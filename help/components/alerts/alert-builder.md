@@ -33,13 +33,11 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1032
+source-wordcount: '1032'
 ht-degree: 91%
-
 ---
-
 # Creación de alertas {#create-alerts}
 
 <!-- markdownlint-disable MD034 -->
@@ -66,7 +64,7 @@ Para crear una alerta, haga lo siguiente:
    * Abra un proyecto en Analysis Workspace y seleccione **[!UICONTROL Componentes]** > **[!UICONTROL Crear alerta]**.
    * Abra un proyecto en Analysis Workspace y, a continuación, utilice el método abreviado siguiente: ***cmd + mayús + a*** (macOS) o ***ctrl + mayús + a*** (Windows).
    * Abra un proyecto en Analysis Workspace, seleccione uno o más elementos de línea en una tabla de forma libre, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. Esta acción rellena previamente de forma instantánea el [Generador de alertas](alert-builder.md) para crear una alerta con las métricas y los filtros correctos.
-   * Cree una alerta [&#x200B; desde el administrador de alertas](/help/components/alerts/alert-manager.md#create-alerts).
+   * Cree una alerta [ desde el administrador de alertas](/help/components/alerts/alert-manager.md#create-alerts).
 
    Aparece el generador de alertas. Esta interfaz es similar a la interfaz para generar segmentos o métricas calculadas en Analytics.
 

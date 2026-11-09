@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # Código de seguimiento
 
@@ -45,7 +45,7 @@ AppMeasurement recopila estos datos mediante la variable [`campaign`](/help/imp
 | Propiedad | Valor |
 | --- | --- |
 | **variable de AppMeasurement** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Campo Web SDK / XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Campo Web SDK / XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **Parámetro de consulta** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **etiqueta XML** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Límite de bytes** | 255 bytes |
@@ -88,7 +88,7 @@ Los canales de marketing tienen una caducidad de participación del visitante de
 3. Tres semanas después, regresan sin un código de seguimiento o canal de marketing, y luego se van de nuevo.
 4. Otras dos semanas después (cinco semanas después de su visita inicial), regresan sin un código de seguimiento o canal de marketing y luego realizan una compra.
 
-El usuario realizó una compra más allá de los 30 días, pero nunca estuvo inactivo durante más de 30 días. En este caso, vería los ingresos atribuidos al canal de marketing de códigos de seguimiento, pero no a la propia dimensión Código de seguimiento.
+El usuario realizó una compra más allá de los 30 días, pero nunca estuvo inactivo durante más de 30 días. En este caso, vería los ingresos atribuidos al canal de marketing de códigos de seguimiento, pero no a la propia dimensión de código de seguimiento.
 
 
 

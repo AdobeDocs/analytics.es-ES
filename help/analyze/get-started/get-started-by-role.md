@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # Introducción para personas usuarias y personal de administración, análisis y desarrollo
 
 Existen cuatro tipos de usuarios de Adobe Analytics en una organización típica:
@@ -141,7 +139,7 @@ Los roles de administrador de Analytics deberían realizar las siguientes tareas
 | Administrar componentes | Utilice el diccionario de datos y las áreas de administración de cada tipo de componente para definir qué componentes están disponibles en su implementación de Analytics, así como cuáles están aprobados para su organización.<p>Esta actividad debería ser constante para garantizar que los componentes se utilizan de forma eficaz en su organización. </p> | <ul><li>[Información general del diccionario de datos](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Administrador de métricas calculadas](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Administrar segmentos](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Crear intervalos de fechas personalizados](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Detección de anomalías | La Detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. | [Resumen de la Detección de anomalías](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Análisis de contribución | Análisis de contribución descubre patrones ocultos en sus datos para explicar las anomalías estadísticas e identificar correlaciones tras acciones de cliente inesperadas, valores que sobrepasan el límite y picos o caídas repentinos de métricas seleccionadas en segmentos de público convergentes. | [Resumen de los análisis de contribución](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Segmentación de Analytics | Le permite crear, gestionar, compartir y aplicar a sus informes poderosos segmentos centrados en la audiencia utilizando las funcionalidades de Analytics, Adobe CX Enterprise, Adobe Target y otros productos integrados de Adobe. | [Segmentación de Analytics](/help/components/segmentation/seg-home.md) |
+| Segmentación de Analytics | Le permite generar, administrar, compartir y aplicar a sus informes poderosos segmentos centrados en la audiencia utilizando funcionalidades de Analytics, Adobe CX Enterprise, Adobe Target y otros productos integrados de Adobe. | [Segmentación de Analytics](/help/components/segmentation/seg-home.md) |
 | Publicar audiencias en Audience Manager | Adobe Audience Manager es una potente plataforma de administración de datos que le ayuda a crear perfiles de audiencia únicos a partir de integraciones de datos de origen, secundarias o de socio, y de terceros. | [Resumen de Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Integraciones | Puede mostrar información de otras aplicaciones en Adobe Analytics. <p>A continuación se indican algunas integraciones comunes:</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/es/docs/media-analytics/using/media-overview">Servicios de medios de transmisión</a></li> | [Integración de Analytics](/help/integrate/home.md) |
 
@@ -156,7 +154,7 @@ Los roles de administrador de Analytics deberían estar al tanto de las siguient
 | Tarea | Uso previsto | Más información |
 |---------|----------|---------|
 | Administrador de actividades de creación de informes | El Administrador de actividades de creación de informes le permite ver la capacidad de creación de informes de cada grupo de informes de su organización. Proporciona una visibilidad detallada del consumo de creación de informes y le ayuda a diagnosticar y corregir fácilmente los problemas de capacidad durante las horas de mayor actividad de creación de informes. | [Administrador de actividades de creación de informes](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
-| Uso de llamadas al servidor | Una llamada al servidor, también conocida como “visita individual” o “solicitud de imagen”, es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. Dispone de un panel de control de uso de llamadas al servidor que realiza un seguimiento de los datos de consumo de llamadas al servidor y los compara con su límite contractual. Puede configurar alertas para evitar exceder el límite. | [Información general sobre Uso de llamadas al servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
+| Uso de llamadas al servidor | Una llamada al servidor, también conocida como “hit” o “solicitud de imagen”, es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. Dispone de un panel de control de uso de llamadas al servidor que realiza un seguimiento de los datos de consumo de llamadas al servidor y los compara con su límite contractual. Puede configurar alertas para evitar exceder el límite. | [Información general sobre Uso de llamadas al servidor](/help/admin/tools/server-call-usage/overage-overview.md) |
 | Archivos de registro | Los archivos de registro le permiten ver cuándo la gente inicia sesión, su uso, los accesos, los grupos de informes y los cambios de administración. | [Registros](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}

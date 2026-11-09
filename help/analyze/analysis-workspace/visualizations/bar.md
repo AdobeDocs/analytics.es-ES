@@ -24,18 +24,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 76%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # Barra (apilada)
 
 >[!BEGINSHADEBOX]
 
-_Este artículo documenta las visualizaciones de barras y barras apiladas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vea [barras y barras apiladas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bar) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**versión de Customer Journey Analytics** de este artículo._
+_Este artículo documenta las visualizaciones de barras y barras apiladas en_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vea [barras y barras apiladas](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/visualizations/bar) para la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**versión de Customer Journey Analytics** de este artículo._
 
 >[!ENDSHADEBOX]
 

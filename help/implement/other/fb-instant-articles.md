@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 94%
+ht-degree: 93%
 ---
 # Implementación con Artículos instantáneos de Facebook
 
@@ -48,7 +48,7 @@ El flujo de trabajo general para implementar Adobe Analytics es el siguiente:
 1. Cree una página `stats.html`. Codifique esta página para extraer parámetros de cadena de consulta de la dirección URL y asignar cada parámetro a una variable de Analytics
 1. Aloje la página `stats.html` en el servidor web
 1. Implemente Analytics en el artículo instantáneo de Facebook haciendo referencia al archivo `stats.html` en un iframe
-1. Incluya parámetros de cadena de consulta en el atributo iframe `src`
+1. Incluir parámetros de cadena de consulta en el atributo iframe `src`
 
 ### Paso 1: Crear una página `stats.html`
 
