@@ -71,7 +71,7 @@ Antes de crear una migración, asegúrese de lo siguiente:
 
 * Los [permisos](#permissions) que requiere el asistente de actualización.
 * Propiedad tags que utiliza la extensión Adobe Analytics.
-* Una biblioteca en esa propiedad que contiene la implementación que desea migrar. La biblioteca puede estar en cualquier estado, incluso publicado. Consulte [Bibliotecas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries) en la guía de usuario sobre etiquetas.
+* Una biblioteca en esa propiedad que contiene la implementación que desea migrar. La biblioteca puede estar en cualquier estado, incluso publicado. Consulte [Bibliotecas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/libraries) en la guía de usuario sobre etiquetas.
 
 ### Permisos {#permissions}
 
@@ -79,8 +79,8 @@ El asistente de actualización requiere el siguiente acceso. Póngase en contact
 
 | Tipo de acceso | Requerido |
 | --- | --- |
-| [Permisos de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Ver esquemas]</li><li>[!UICONTROL Administrar esquemas]</li><li>[!UICONTROL Ver conjuntos de datos de vistas]</li><li>[!UICONTROL Administrar conjuntos de datos]</li><li>[!UICONTROL Ver espacios de nombres de identidad]</li></ul> |
+| [Permisos de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Ver esquemas]</li><li>[!UICONTROL Administrar esquemas]</li><li>[!UICONTROL Ver conjuntos de datos de vistas]</li><li>[!UICONTROL Administrar conjuntos de datos]</li><li>[!UICONTROL Ver espacios de nombres de identidad]</li></ul> |
 | Acceso al producto | <ul><li>Recopilación de datos (etiquetas)</li><li>Adobe Analytics</li></ul> |
-| [Derechos de etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Administrar propiedades] |
+| [Derechos de etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Administrar propiedades] |
 
 Cuando esté listo, [cree una migración](manager.md#create).

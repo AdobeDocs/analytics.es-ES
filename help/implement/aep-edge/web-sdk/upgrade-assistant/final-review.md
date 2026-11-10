@@ -86,4 +86,4 @@ Una vez finalizada la migración, mueva la nueva biblioteca a través del flujo 
 1. Envíe la biblioteca para su aprobación y pruébela en su entorno de ensayo.
 1. Apruebe la biblioteca y publíquela en producción.
 
-Consulte [Flujo de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) en la guía de usuario sobre etiquetas.
+Consulte [Flujo de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en la guía de usuario sobre etiquetas.
