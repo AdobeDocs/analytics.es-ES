@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # Revisión final
@@ -86,4 +86,4 @@ Una vez finalizada la migración, mueva la nueva biblioteca a través del flujo 
 1. Envíe la biblioteca para su aprobación y pruébela en su entorno de ensayo.
 1. Apruebe la biblioteca y publíquela en producción.
 
-Consulte [Flujo de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow) en la guía de usuario sobre etiquetas.
+Consulte [Flujo de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en la guía de usuario sobre etiquetas.
