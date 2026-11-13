@@ -45,7 +45,7 @@ Una vez que la organización haya establecido e implementado una capa de datos e
 
 Los [elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es) son componentes de la Recopilación de datos de Adobe Experience Platform que se pueden usar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
 
-Los pasos siguientes utilizan la [extensión de capa de datos del cliente de Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que debe estar instalada en su propiedad de etiquetas.
+Los pasos siguientes utilizan la [extensión de capa de datos del cliente de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que debe estar instalada en su propiedad de etiquetas.
 
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
 1. Seleccione la propiedad de etiquetas que desee.
