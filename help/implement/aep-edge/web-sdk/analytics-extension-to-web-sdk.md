@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 6%
-
+source-wordcount: '1728'
+ht-degree: 7%
 ---
-
 # Migración de la extensión de etiquetas de Adobe Analytics a la extensión de etiquetas de Web SDK
 
 Esta ruta de implementación implica un enfoque de migración metódico para pasar de la extensión de etiquetas de Adobe Analytics a la extensión de etiquetas de Web SDK. Otras rutas de implementación se tratan en páginas independientes:
@@ -106,7 +104,7 @@ El elemento de datos del objeto de datos proporciona un marco de trabajo intuiti
 1. En la navegación izquierda de la interfaz de etiquetas, seleccione **[!UICONTROL Elementos de datos]**.
 1. Seleccionar **[!UICONTROL Agregar elemento de datos]**
 1. Asigne al elemento de datos la siguiente configuración:
-   * [!UICONTROL Nombre]: Cualquier cosa que desee, como &quot;Capa de datos&quot; u &quot;Objeto de datos&quot;
+   * [!UICONTROL Nombre]: Cualquier cosa que desee, como &quot;Objeto de datos&quot;
    * [!UICONTROL Extensión]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Tipo de elemento de datos]: [!UICONTROL Variable]
    * Las casillas de verificación pueden permanecer tal cual

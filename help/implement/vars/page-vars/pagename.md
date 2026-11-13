@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 86%
+source-wordcount: '281'
+ht-degree: 79%
 ---
 # pageName
 
@@ -75,8 +75,8 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md):
+Si usa la [capa de datos del cliente de Adobe](../../prepare/data-layer.md), lea el valor con `getState()`. Consulte [Leer la capa de datos con AppMeasurement](../../prepare/data-layer.md#appmeasurement) para saber cuándo llamarla.
 
 ```js
-s.pageName = digitalData.page.pageInfo.pageName;
+s.pageName = adobeDataLayer.getState("page.name");
 ```

@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 86%
+source-wordcount: '2656'
+ht-degree: 85%
 ---
 # Términos utilizados en Adobe Analytics
 
@@ -107,7 +107,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Servidor de recopilación de datos:** servidores que pertenecen a Adobe y que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **Conectores de datos:** Una solución de desarrollo retirada que permite a terceros automatizar la carga de datos en Adobe Analytics. Los clientes de estos terceros pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. Se reemplazó con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Fuente de datos:** exportación de datos sin procesar que enumera cada hit en una fila y muestra las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte [Fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la guía de usuario sobre exportación.
-* **Capa de datos:** Una [capa de datos](/help/implement/prepare/data-layer.md) es un marco de objetos JavaScript en su sitio que contiene los valores de variables utilizados en su implementación de Analytics. Permite un mayor control y un mantenimiento más sencillo al asignar valores a variables de Analytics.
+* **Capa de datos:** Una [capa de datos](/help/implement/prepare/data-layer.md) es una estructura de JavaScript en su sitio que expone los datos utilizados en su implementación de Analytics. Permite un mayor control y un mantenimiento más sencillo al asignar valores a variables de Analytics. Adobe recomienda la [capa de datos del cliente de Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview), que usa una matriz `adobeDataLayer` global.
 * **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/data-sources/overview.md) en la guía de usuario sobre importación.
 * **Data Warehouse:** característica de Adobe Analytics que permite solicitar informes de mayor tamaño. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario sobre exportación.
 * **Data Workbench:** Una herramienta de análisis [retirada](https://experienceleague.adobe.com/es/docs/discontinued/using/data-workbench) diseñada para recopilar, procesar, analizar y visualizar datos de interacciones de clientes en línea y sin conexión en varios canales.
