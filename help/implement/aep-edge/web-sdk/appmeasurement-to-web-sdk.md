@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # Migración de AppMeasurement a Web SDK
 
 Esta ruta de implementación implica un enfoque de migración metódico para pasar de una implementación de AppMeasurement a una implementación de biblioteca JavaScript de Web SDK. Otras rutas de implementación se tratan en páginas independientes:
@@ -105,7 +103,7 @@ Opcionalmente, puede establecer otras propiedades en el comando [`configure`](ht
 
 +++**4. Actualizar lógica de código para utilizar una carga útil JSON**
 
-Cambie la implementación de Analytics para que no dependa de `AppMeasurement.js` ni del objeto `s`. En su lugar, establezca variables en un objeto JavaScript con formato correcto, que se convierte en un objeto JSON cuando se envía a Adobe. Tener una [capa de datos](../../prepare/data-layer.md) en el sitio ayuda enormemente a la hora de establecer valores, ya que puede seguir haciendo referencia a esos mismos valores.
+Cambie la implementación de Analytics para que no dependa de `AppMeasurement.js` ni del objeto `s`. En su lugar, establezca variables en un objeto JavaScript con formato correcto, que se convierte en un objeto JSON cuando se envía a Adobe. Tener una [capa de datos](../../prepare/data-layer.md) en el sitio ayuda enormemente a la hora de establecer valores, ya que puede seguir haciendo referencia a esos mismos valores. Si su sitio usa la capa de datos del cliente de Adobe, vea [Enviar datos de capa de datos del cliente de Adobe con el SDK web](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) para obtener información sobre cómo leer valores de capa de datos cuando llame a `sendEvent`.
 
 Para enviar datos a Adobe Analytics, la carga útil de Web SDK debe utilizar `data.__adobe.analytics` con todas las variables de análisis establecidas dentro de este objeto. Las variables dentro de este objeto comparten nombres y formatos idénticos a los de sus equivalentes de variables de AppMeasurement. Por ejemplo, si establece la variable `products`, no la divida en objetos individuales como lo haría con XDM. En su lugar, inclúyala como una cadena exactamente como es si establece la variable `s.products`:
 

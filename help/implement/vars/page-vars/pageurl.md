@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 84%
+source-wordcount: '329'
+ht-degree: 77%
 ---
 # pageURL
 
@@ -80,8 +80,8 @@ Si desea utilizar la dirección URL de la página como dimensión en los informe
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md):
+Si usa la [capa de datos del cliente de Adobe](../../prepare/data-layer.md), lea el valor con `getState()`. Consulte [Leer la capa de datos con AppMeasurement](../../prepare/data-layer.md#appmeasurement) para saber cuándo llamarla.
 
 ```js
-s.pageURL = digitalData.page.pageInfo.destinationURL;
+s.pageURL = adobeDataLayer.getState("page.url");
 ```

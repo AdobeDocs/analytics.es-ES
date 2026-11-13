@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 85%
 ---
 # Información general sobre variables, funciones, métodos y complementos
 
@@ -58,8 +58,8 @@ Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuraci
 
 Las bibliotecas de AppMeasurement publicadas por Adobe Analytics siguen un orden específico al enviar datos a Adobe. Si ejecuta estas tareas de forma desordenada, los datos pueden estar incompletos.
 
-1. Si su sitio utiliza una capa de datos, asegúrese de que todas las variables aplicables se rellenen primero. Por ejemplo, usted rellena `adobeDataLayer.page.title` con el título de la página. Consulte las [Capas de datos](../prepare/data-layer.md) para obtener más información.
-2. Utilice la capa de datos para rellenar variables de Analytics. <br/>Si usa etiquetas en Adobe Experience Platform, esta tarea se realiza mediante el uso de elementos de datos intermedios. Los elementos de datos se rellenan con valores de la capa de datos. Por ejemplo, el elemento de datos `Page Title` obtiene el valor de la variable de capa de datos `adobeDataLayer.page.title`. <br/>A continuación, puede utilizar el elemento de datos para rellenar variables de Analytics. Por ejemplo `eVar4` obtiene el valor del elemento de datos `Page Title`. <br/>Consulte para obtener más información [Elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es), [Asignación de objetos de capa de datos a elementos de datos](../launch/layer-to-elements.md) y [Asignación de elementos de datos de etiqueta a variables de Analytics](../launch/elements-to-variable.md)
+1. Si su sitio utiliza una capa de datos, asegúrese de que todas las variables aplicables se rellenen primero. Por ejemplo, con la [capa de datos del cliente de Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview), el código del sitio inserta el nombre de página con `adobeDataLayer.push({ page: { name: "Home" } })`. Consulte las [Capas de datos](../prepare/data-layer.md) para obtener más información.
+2. Utilice la capa de datos para rellenar variables de Analytics. <br/>Si usa etiquetas en Adobe Experience Platform, esta tarea se realiza mediante el uso de elementos de datos intermedios. Los elementos de datos se rellenan con valores de la capa de datos. Por ejemplo, el elemento de datos `Page name` obtiene el valor en la ruta `page.name` de la capa de datos mediante el tipo de elemento de datos [Estado calculado de la capa de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state) de la extensión de capa de datos del cliente de Adobe. <br/>A continuación, puede utilizar el elemento de datos para rellenar variables de Analytics. Por ejemplo `eVar4` obtiene el valor del elemento de datos `Page name`. <br/>Consulte para obtener más información [Elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es), [Asignación de objetos de capa de datos a elementos de datos](../launch/layer-to-elements.md) y [Asignación de elementos de datos de etiqueta a variables de Analytics](../launch/elements-to-variable.md)
 3. Finalmente, llame a la función de seguimiento. La mayoría de las bibliotecas de AppMeasurement utilizan el método `t()`, aunque algunos SDK móviles utilizan `track()`. Cuando se llama a la función de seguimiento, todas las variables admitidas definidas en el objeto de Analytics se envían a Adobe en forma de solicitud de imagen.
 
 ## Caracteres no permitidos

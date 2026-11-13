@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # Asignación de objetos de capa de datos a elementos de datos
 
@@ -45,17 +45,25 @@ Una vez que la organización haya establecido e implementado una capa de datos e
 
 Los [elementos de datos](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=es) son componentes de la Recopilación de datos de Adobe Experience Platform que se pueden usar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
 
+Los pasos siguientes utilizan la [extensión de capa de datos del cliente de Adobe](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/client-data-layer/overview), que debe estar instalada en su propiedad de etiquetas.
+
 1. Inicie sesión en la [Recopilación de datos de Adobe Experience Platform](https://experience.adobe.com/data-collection) con sus credenciales de Adobe ID.
-1. Haga clic en la propiedad de etiquetas deseada.
-1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Agregar elemento de datos]**.
+1. Seleccione la propiedad de etiquetas que desee.
+1. Seleccione la ficha **[!UICONTROL Elementos de datos]** y, a continuación, seleccione **[!UICONTROL Agregar elemento de datos]**.
 
    ![crear elemento de datos](assets/createelement.png)
 
-1. Escriba un nombre para el elemento de datos. Puede ser una etiqueta simple que corresponde a una variable de JavaScript en la capa de datos que desee rastrear.
-1. En la lista desplegable **[!UICONTROL Extensión]**, seleccione **[!UICONTROL Principal]**.
-1. En la lista desplegable **[!UICONTROL Tipo de elemento de datos]**, seleccione **[!UICONTROL Variable de JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
-1. Introduzca la variable de JavaScript que desee, normalmente dentro de la capa de datos. Por ejemplo, si la capa de datos de su organización coincide estrechamente con la práctica recomendada de Adobe, podría ser un valor de `digitalData.page.pageInfo.pageName`. Puede utilizar la consola del explorador para validar la sintaxis y los valores de las variables de JavaScript.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Escriba un nombre para el elemento de datos, como `Page name`.
+1. En la lista desplegable **[!UICONTROL Extensión]**, seleccione **[!UICONTROL Capa de datos del cliente de Adobe]**.
+1. En la lista desplegable **[!UICONTROL Tipo de elemento de datos]**, seleccione **[!UICONTROL Estado calculado de la capa de datos]**.
+1. En **[!UICONTROL Valor devuelto]**, seleccione **[!UICONTROL Ruta específica]** y, a continuación, escriba la ruta al valor en la capa de datos, como `page.name`. Para validar una ruta de acceso, ejecute `adobeDataLayer.getState("page.name")` en la consola del explorador.
+1. Seleccione **[!UICONTROL Guardar]**.
+
+Utilice estos elementos de datos en reglas que incluyan los déclencheur de evento **[!UICONTROL inserción de capa de datos]** de la extensión, de modo que la capa de datos se haya cargado y contenga los datos de la inserción. Consulte [Tipos de elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+
+### Capas de datos basadas en objetos {#object-based}
+
+Si la capa de datos es un objeto JavaScript, como un objeto CEDDL `digitalData`, use el tipo de elemento de datos **[!UICONTROL Variable JavaScript]** de la extensión **[!UICONTROL Core]** en su lugar. Escriba la ruta al valor, como `digitalData.page.pageInfo.pageName`. Este tipo de elemento de datos no puede leer la capa de datos del cliente de Adobe, que almacena sus datos en un estado calculado en lugar de en las propiedades de objeto.
 
 ## Pasos siguientes
 
