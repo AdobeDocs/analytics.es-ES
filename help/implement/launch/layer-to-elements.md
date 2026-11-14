@@ -59,7 +59,7 @@ Los pasos siguientes utilizan la [extensión de capa de datos del cliente de Ado
 1. En **[!UICONTROL Valor devuelto]**, seleccione **[!UICONTROL Ruta específica]** y, a continuación, escriba la ruta al valor en la capa de datos, como `page.name`. Para validar una ruta de acceso, ejecute `adobeDataLayer.getState("page.name")` en la consola del explorador.
 1. Seleccione **[!UICONTROL Guardar]**.
 
-Utilice estos elementos de datos en reglas que incluyan los déclencheur de evento **[!UICONTROL inserción de capa de datos]** de la extensión, de modo que la capa de datos se haya cargado y contenga los datos de la inserción. Consulte [Tipos de elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+Utilice estos elementos de datos en reglas que incluyan los déclencheur de evento **[!UICONTROL inserción de capa de datos]** de la extensión, de modo que la capa de datos se haya cargado y contenga los datos de la inserción. Consulte [Tipos de elementos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
 
 ### Capas de datos basadas en objetos {#object-based}
 
