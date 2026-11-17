@@ -27,11 +27,9 @@ topic_v2:
     internal-label: Customer engagement
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '615'
 ht-degree: 100%
-
 ---
-
 # Tipo de métrica y atribución {#metric-type-attribution}
 
 Puede configurar el tipo de métrica y [modelo de atribución](#attribution-models) para una métrica en una definición de métrica calculada.
@@ -50,16 +48,16 @@ Puede configurar el tipo de métrica y [modelo de atribución](#attribution-mode
 
    * Especifique **[!UICONTROL Atribución]**.
 
-      1. Puede realizar lo siguiente:
+     1. Puede realizar lo siguiente:
 
-         * Deshabilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]** para usar el modelo de atribución de columna predeterminado, que es Último toque, con una ventana de retroactividad de 30 días.
-         * Habilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]**. En el cuadro de diálogo **[!UICONTROL Modelo de atribución de columna]**:
+        * Deshabilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]** para usar el modelo de atribución de columna predeterminado, que es Último toque, con una ventana de retroactividad de 30 días.
+        * Habilitar **[!UICONTROL Uso de modelos de atribución no predeterminados]**. En el cuadro de diálogo **[!UICONTROL Modelo de atribución de columna]**:
 
-            * Seleccione un **[!UICONTROL Modelo]** en los [modelos de atribución](#attribution-models).
-            * Seleccione un **[!UICONTROL contenedor]** de las opciones de [contenedor](#container).
-            * Seleccione una **[!UICONTROL ventana de retroactividad]** de las opciones de la [ventana de retroactividad](#lookback-window). Si selecciona **[!UICONTROL Tiempo personalizado]**, puede definir el período de tiempo en **[!UICONTROL Minuto(s)]** hasta **[!UICONTROL Trimestre(s)]**.
+          * Seleccione un **[!UICONTROL Modelo]** en los [modelos de atribución](#attribution-models).
+          * Seleccione un **[!UICONTROL contenedor]** de las opciones de [contenedor](#container).
+          * Seleccione una **[!UICONTROL ventana de retroactividad]** de las opciones de la [ventana de retroactividad](#lookback-window). Si selecciona **[!UICONTROL Tiempo personalizado]**, puede definir el período de tiempo en **[!UICONTROL Minuto(s)]** hasta **[!UICONTROL Trimestre(s)]**.
 
-      1. Seleccione **[!UICONTROL Aplicar]** para aplicar el modelo de atribución no predeterminado. Seleccione Cancelar para cancelar.
+     1. Seleccione **[!UICONTROL Aplicar]** para aplicar el modelo de atribución no predeterminado. Seleccione Cancelar para cancelar.
 
      Si ya ha definido un modelo de atribución no predeterminado, seleccione **[!UICONTROL Editar]** para modificar la selección.
 
