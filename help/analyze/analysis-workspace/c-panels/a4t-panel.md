@@ -49,7 +49,7 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_button"
->title="Analytics para Target"
+>title="Analytics for Target"
 >abstract="Analizar actividades y experiencias de Target en Analysis Workspace."
 
 <!-- markdownlint-enable MD034 -->
