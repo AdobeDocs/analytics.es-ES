@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -54,7 +54,7 @@ Puede agregar descripciones a los componentes de un grupo de informes.
 
 >[!BEGINSHADEBOX]
 
-Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} para ver un vídeo de demostración.
+Consulte ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Agregar descripciones de componentes](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} para ver un vídeo de demostración.
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,6 @@ Para obtener información general sobre el diccionario de datos, consulte [Infor
 >
 
 ## Generar descripciones automáticamente
-
-{{release-limited-testing-section}}
 
 En lugar de escribir cada descripción manualmente, Adobe Analytics puede utilizar IA generativa para escribir descripciones. Puede generar una descripción para un solo componente o generar descripciones para muchos componentes al mismo tiempo.
 
