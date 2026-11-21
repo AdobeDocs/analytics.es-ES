@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 29%
-
 ---
-
 # Tipo de seguimiento
 
 El tipo de seguimiento determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este tipo de seguimiento es un paso necesario para aumentar correctamente los datos de Adobe Analytics con los datos del motor de búsqueda.
@@ -42,7 +40,7 @@ El tipo de seguimiento determina cómo la implementación de Adobe Analytics rea
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -61,7 +59,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda con tipo **
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/es/docs/id-service/using/reference/csp).
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Código de seguimiento de campaña de Google Ads](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 Ejemplos de códigos de seguimiento en varios formatos de plantilla de seguimiento:
 
@@ -122,7 +120,7 @@ A continuación, se muestra la cadena que debe añadirse a la cuenta de Microsof
 
 >[!IMPORTANT]
 >
->El valor _`<Advertising Analytics ID>`_(en **negrita**&#x200B;abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
+>El valor _`<Advertising Analytics ID>`_(en **negrita**abajo) es genérico y **se debe sustituir por la cadena del identificador de la cuenta específica**. Puede obtener la cadena del ID de cuenta específica en la sección &quot;Seguimiento&quot; de la pantalla de la cuenta.
 
 **Cadena de seguimiento para campañas:**
 
